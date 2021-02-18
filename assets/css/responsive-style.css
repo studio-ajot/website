@@ -1,0 +1,110 @@
+
+.visible-xs{
+	display: none !important;
+}
+.hidden-xs{
+	display: block !important;
+}
+@media(max-width: 767px){
+	.visible-xs{
+		display: block !important;
+	}
+	.hidden-xs{
+		display: none !important;
+	}
+}
+@media(max-width: 1024px){
+	html,body{
+		font-size: 14px;
+	}
+}
+@media(max-width: 767px){
+	html,body{
+		font-size: 16px;
+	}
+	.info_box{
+	    height: calc(100vh - 4.25rem);
+	    overflow-x: auto
+	}
+	.info_box .bottom{
+	    position: relative;
+	    bottom: initial;
+	    left: initial;
+	}
+	.nav_section {
+		padding-bottom: 0;
+	}
+	.nav_section .logo{
+	    width: 100%;
+	    font-size: 2.5rem;
+	    display: inline-block;
+	    margin-bottom: 1rem;
+	}
+	.nav_section .flexer div{
+	    width: 100%;
+	}
+	.nav_section .info{
+	    width: 100%;
+	    display: inline-block;
+	    border-top: 0.15rem solid black;
+	    border-bottom: 0.15rem solid black;
+	    padding: .5rem 0;
+	    padding-top: .3rem;
+	}
+	.nav_section ul li{
+	    margin: 0 !important;
+	    width: 100%;
+	}
+	.nav_section ul li a{
+	    width: 100%;
+	    display: inline-block;
+	    border-bottom: 0.15rem solid black;
+	    padding: .5rem 0;
+	}
+	.slider_section.active {
+	    top: 4.25rem;
+	}
+	.info_box.active{
+	    top: 4.25rem;
+	}
+	.toggle_menu {
+        display: block;
+        animation: b 2s ease-in;
+        padding: 0;
+    }
+    .nav_section .flexer{
+    	display: none;
+    }
+    .nav_section .flexer.active{
+    	display: flex;
+    }
+    .slider_section .carousel-cell{
+	    width: 100%;
+	}
+	.slider_section .img_slider .web_img{
+	    display: none;
+	}
+	.slider_section .img_slider .mob_img{
+	    display: block;
+	}
+	.visible_mob{
+	    display: inline-block;
+	    width: auto !important;
+	    margin-right: .6rem;
+	}
+	.info_box .text-box{
+		padding-bottom:0;
+	}
+	.info_box .bottom{
+		padding-top: 3rem;
+	}
+	.nav_section .info .visible_mob {
+    display: inline-block;
+    width: auto !important;
+    margin-right: .6rem;
+    font-size: 1.75rem;
+    margin-right: .5rem;
+    margin-top: -0.2rem;
+    display: inline-block;
+}
+}
