@@ -119,8 +119,4 @@
     .nav_section ul li a img {
         top: 0.55rem;
     }
-
-    .mobile-detect .nav_section .flexer {
-        padding-right: 0;
-    }
 }

@@ -333,18 +333,6 @@ img {
     cursor: none;
 }
 
-.mobile-detect .slider_section .carousel-cell {
-    width: 100%;
-}
-
-.mobile-detect .slider_section .img_slider .web_img {
-    display: none;
-}
-
-.mobile-detect .slider_section .img_slider .mob_img {
-    display: block;
-}
-
 .flickity-prev-next-button.previous, .flickity-prev-next-button.next {
     display: inline-block;
     position: fixed;
@@ -433,14 +421,6 @@ html.active .cursor {
 
 .nav_section {
     cursor: default;
-}
-
-html .mobile-detect .cursor {
-    display: none;
-}
-
-.mobile-detect .flickity-prev-next-button {
-    display: none;
 }
 
 .visible_mob {
