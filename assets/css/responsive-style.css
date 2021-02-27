@@ -32,7 +32,7 @@
 
     .info_box {
         height: calc(100vh - 4.25rem);
-        overflow-x: auto
+        overflow-x: auto;
     }
 
     .info_box .bottom {
