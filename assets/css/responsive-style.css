@@ -1,0 +1,122 @@
+@media (max-width: 1024px) {
+    .mobile-detect .slider_section .carousel-cell {
+        border: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav_section .info {
+        padding-left: 0
+    }
+
+    .footer-text {
+        padding-right: calc(7.7% - 10px);
+    }
+
+    .visible-xs {
+        display: block !important;
+    }
+
+    .hidden-xs {
+        display: none !important;
+    }
+
+    .footer-text {
+        padding-right: 0;
+        justify-content: flex-start !important;
+    }
+
+    .info_box {
+        height: calc(100vh - 4.25rem);
+        overflow-x: auto
+    }
+
+    .info_box .bottom {
+        position: relative;
+        bottom: initial;
+        left: initial;
+    }
+
+    .nav_section {
+        padding-bottom: 0;
+    }
+
+    .nav_section .info {
+        width: 100%;
+        display: inline-block;
+        border-top: 0.15rem solid black;
+        border-bottom: 0.15rem solid black;
+        padding: .5rem 0;
+    }
+
+    .nav_section ul li {
+        margin: 0 !important;
+        width: 100%;
+    }
+
+    .nav_section ul li a {
+        width: 100%;
+        display: inline-block;
+        border-bottom: 0.15rem solid black;
+        padding: .5rem 0;
+    }
+
+    .slider_section.active {
+        top: 4.25rem;
+    }
+
+    .info_box.active {
+        top: 4.25rem;
+    }
+
+    .toggle_menu {
+        display: block;
+        animation: b 2s ease-in;
+        padding: 0;
+    }
+
+    .nav_section .flexer {
+        display: none;
+    }
+
+    .nav_section .flexer.active {
+        display: block;
+    }
+
+    .slider_section .carousel-cell {
+        width: 100%;
+    }
+
+    .slider_section .img_slider .web_img {
+        display: none;
+    }
+
+    .slider_section .img_slider .mob_img {
+        display: block;
+    }
+
+    .visible_mob {
+        display: inline-block;
+    }
+
+    .info_box .text-box {
+        padding-bottom: 0;
+    }
+
+    .info_box .bottom {
+        padding-top: 3rem;
+    }
+
+    .nav_section .info {
+        position: relative;
+        padding-left: 0;
+    }
+
+    .nav_section ul li a img {
+        top: 0.55rem;
+    }
+
+    .mobile-detect .nav_section .flexer {
+        padding-right: 0;
+    }
+}
