@@ -22,32 +22,9 @@
     }
 }
 
-@media (max-width: 1200px) {
-    .nav_section .logo {
-        font-size: 50px;
-    }
-
-    .nav_section ul li a,
-    .nav_section .info,
-    .info_box .bottom a,
-    .info_box .bottom span.location {
-        font-size: 20px;
-    }
-
-    .nav_section ul li a i, .info_box .bottom a i, .nav_section .info i {
-        font-size: 16px;
-        top: -1px;
-        position: relative;
-    }
-}
-
 @media (max-width: 1024px) {
-    html, body {
-        font-size: 14px;
-    }
-
     .mobile-detect .slider_section .carousel-cell {
-        border: 0
+        border: 0;
     }
 }
 
@@ -56,25 +33,8 @@
         padding-right: calc(7.7% - 10px);
     }
 
-    .nav_section .flexer {
-        padding-right: 15%;
-    }
-
-    .nav_section ul li a,
-    .nav_section .info,
-    .info_box .bottom a,
-    .info_box .bottom span.location {
-        font-size: 18px;
-    }
-
-    .nav_section ul li a i, .info_box .bottom a i, .nav_section .info i {
-        font-size: 14px;
-        top: -1px;
-        position: relative;
-    }
-
     .nav_section .logo {
-        font-size: 45px;
+        font-size: 43px;
     }
 }
 
@@ -82,15 +42,11 @@
     .footer-text {
         padding-right: calc(4.5% - 10px);
     }
-
-    .nav_section .flexer {
-        padding-right: 8%;
-    }
 }
 
 @media (max-width: 767px) {
     html, body {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .footer-text {

@@ -1,9 +1,15 @@
 body, html {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     font-family: 'JetBrains Mono', monospace;
     overflow: hidden;
+}
+
+.nav_section ul li a i, .info_box .bottom a i, .nav_section .info i {
+    font-size: 14px;
+    top: -1px;
+    position: relative;
 }
 
 ul, ol {
@@ -37,13 +43,12 @@ img {
     color: black;
     text-decoration: none;
     font-weight: 600;
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -.2rem;
+    font-size: 45px;
+    letter-spacing: -2px;
 }
 
 .nav_section .info {
-    font-size: 22px;
+    font-size: 18px;
     color: black;
     text-decoration: none;
     line-height: 1;
@@ -58,7 +63,7 @@ img {
     height: 100%;
     margin-top: .2rem;
     padding-left: 0;
-    padding-right: 38%;
+    /*padding-right: 38 %;*/
 }
 
 .nav_section ul li {
@@ -70,7 +75,7 @@ img {
 }
 
 .nav_section ul li a {
-    font-size: 22px;
+    font-size: 18px;
     color: black;
     text-decoration: none;
     line-height: 1;
@@ -175,7 +180,7 @@ img {
 
 .info_box p {
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.1;
 }
 
@@ -195,7 +200,7 @@ img {
 
 .info_box .bottom a {
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.1;
     text-decoration: none;
     width: 100%;
@@ -216,7 +221,7 @@ img {
 
 .info_box .bottom span.location {
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.1;
     text-decoration: none;
     width: 100%;
@@ -437,13 +442,6 @@ html .mobile-detect .cursor {
 .nav_section ul li a {
     position: relative;
     padding-left: 2px;
-}
-
-.nav_section ul li a i,
-.info_box .bottom a i {
-    font-size: 18px;
-    top: -2px;
-    position: relative;
 }
 
 .nav_section ul li a img {
