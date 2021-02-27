@@ -55,9 +55,6 @@ img {
 }
 
 .nav_section .flexer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     height: 100%;
     margin-top: .2rem;
     padding-left: 0;
