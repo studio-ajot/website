@@ -9,6 +9,10 @@
         padding-left: 0
     }
 
+    .nav_section .logo {
+        font-size: 32px;
+    }
+
     .footer-text {
         padding-right: calc(7.7% - 10px);
     }
