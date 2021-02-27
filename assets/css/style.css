@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
     font-size: 16px;
+    font-weight: 500;
     font-family: 'JetBrains Mono', monospace;
     overflow: hidden;
 }
@@ -35,15 +36,14 @@ img {
 .nav_section .logo {
     color: black;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 60px;
     line-height: 1;
     letter-spacing: -.2rem;
 }
 
 .nav_section .info {
-    font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     color: black;
     text-decoration: none;
     line-height: 1;
@@ -51,7 +51,7 @@ img {
 }
 
 .nav_section .info:hover, .nav_section .info:focus {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .nav_section .flexer {
@@ -70,8 +70,7 @@ img {
 }
 
 .nav_section ul li a {
-    font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     color: black;
     text-decoration: none;
     line-height: 1;
@@ -80,7 +79,7 @@ img {
 }
 
 .nav_section ul li a:hover, .nav_section ul li a:focus {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .nav_section ul li a span {
@@ -176,8 +175,7 @@ img {
 
 .info_box p {
     color: black;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 22px;
     line-height: 1.1;
 }
 
@@ -197,8 +195,7 @@ img {
 
 .info_box .bottom a {
     color: black;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 22px;
     line-height: 1.1;
     text-decoration: none;
     width: 100%;
@@ -206,7 +203,7 @@ img {
 }
 
 .info_box .bottom a:hover, .info_box .bottom a:focus {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .info_box .bottom a span {
@@ -219,8 +216,7 @@ img {
 
 .info_box .bottom span.location {
     color: black;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 22px;
     line-height: 1.1;
     text-decoration: none;
     width: 100%;
