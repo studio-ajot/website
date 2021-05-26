@@ -1,35 +1,35 @@
 .mobile-detect .slider_section .carousel-cell {
-  height: calc(100% - 4.1rem);
+    height: calc(100% - 4.1rem);
 }
 
 .mobile-detect .info_box {
-  /* height: calc(100% - 4.25rem); */
+    /* height: calc(100% - 4.25rem); */
 }
 
 .mobile-detect .slider_section .carousel-cell {
-  width: 100%;
+    width: 100%;
 }
 
 .mobile-detect .web_img {
-  display: none;
+    display: none;
 }
 
 .mobile-detect .mob_img {
-  display: block;
+    display: block;
 }
 
 .mobile-detect .slider_section .img_slider .web_img {
-  display: none;
+    display: none;
 }
 
 .mobile-detect .slider_section .img_slider .mob_img {
-  display: block;
+    display: block;
 }
 
 html .mobile-detect .cursor {
-  display: none;
+    display: none;
 }
 
 .mobile-detect .flickity-prev-next-button {
-  display: none;
+    display: none;
 }
