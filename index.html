@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/flickity.min.css">
@@ -16,29 +16,38 @@
     <meta name="description" content="Graphic Design Studio &middot; Johanna Klüsener + Anastasia Marx &middot; Hamburg + Berlin">
 </head>
 <body>
-<div class="nav_section">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-lg-4 p_relative">
-                <a href="index.html" class="logo slider_click">Studio Ajot</a>
-                <button type="button" name="menu" class="toggle_menu">
-                    <span class="icon"></span>
-                </button>
-            </div>
-            <div class="col-12 col-lg-8 p_relative">
-                <div class="flexer" id="getp">
-                    <a href="mailto:hello@studio-ajot.de" class="info"><i class="fas fa-arrow-right visible_mob"></i> hello@studio-ajot.de</a>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href="index.html" class="slider_click"><i class="fas fa-arrow-right"></i> Arbeiten</a></li>
-                        <li class="list-inline-item"><a href="ueber-uns.html" class="info_click2"><i class="fas fa-arrow-right"></i> Über uns</a></li>
-                        <li class="list-inline-item"><a href="impressum-datenschutz.html" class="info_click"><i class="fas fa-arrow-right"></i> Impressum / Datenschutz</a></li>
-                    </ul>
-                </div>
-            </div>
+  <!-- Navigation -->
+  <nav class="nav_section">
+    <div class="container-fluid g-0">
+      <div class="row g-0">
+        <div class="col-12 col-lg-4 p_relative d-flex align-items-center flex-shrink-0">
+          <a href="index.html" class="logo slider_click">Studio Ajot</a>
+          <button type="button" name="menu" class="toggle_menu">
+            <span class="icon"></span>
+          </button>
         </div>
+        <div class="col-12 col-lg-8 p_relativ text-end">
+          <div class="flexer" id="getp">
+            <span class="info"><i class="fas visible_mob"></i> Studio für
+              Grafikdesign
+            </span>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="index.html" class="slider_click"><i class="fas fa-arrow-right"></i><span>Arbeiten</span></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="ueber-uns.html" class="info_click2"><i class="fas fa-arrow-right"></i><span>Über uns</span></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="impressum-datenschutz.html" class="info_click"><i class="fas fa-arrow-right"></i><span>Impressum</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-<div class="slider_section active">
+  </nav>
+<div class="slider_section active main-content">
 	<div class="main-carousel" data-flickity='{ "wrapAround": true }'>
 	<div class="carousel-cell">
             <div class="img_slider">
