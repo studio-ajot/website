@@ -3,11 +3,19 @@
 }
 
 .mobile-detect .info_box {
-    height: calc(100% - 4.25rem);
+    /* height: calc(100% - 4.25rem); */
 }
 
 .mobile-detect .slider_section .carousel-cell {
     width: 100%;
+}
+
+.mobile-detect .web_img {
+    display: none;
+}
+
+.mobile-detect .mob_img {
+    display: block;
 }
 
 .mobile-detect .slider_section .img_slider .web_img {
@@ -24,10 +32,4 @@ html .mobile-detect .cursor {
 
 .mobile-detect .flickity-prev-next-button {
     display: none;
-}
-
-@media (max-width: 991px) {
-    .mobile-detect .nav_section .flexer {
-        padding-right: 0;
-    }
 }
