@@ -13,12 +13,12 @@ const getProjectInformation = (indexOfImage) => {
     case 2:
       return {
         accentColor: "#FD009C",
-        projectDescription: "Hallo! \nStudio Ajot \nPostkarten",
+        projectDescription: "Hallo! \nStudio Ajot \nPostkartengestaltung",
       };
     case 3:
       return {
         accentColor: "#CDCD00",
-        projectDescription: "Visitenkarten \nMarkenbecker \nNorthport",
+        projectDescription: "Northport \nMarkenbecker \nEntwicklung der Geschäftsausstattungn",
       };
     case 4:
       return {
@@ -28,47 +28,47 @@ const getProjectInformation = (indexOfImage) => {
     case 5:
       return {
         accentColor: "#CD0000",
-        projectDescription: "Lüneburg mit anderen Augen \nFotograf Pablo Martínez-Calleja \nFotografische Publikation",
+        projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 6:
       return {
         accentColor: "#CD0000",
-        projectDescription: "Lüneburg mit anderen Augen \nFotograf Pablo Martínez-Calleja \nFotografische Publikation",
+        projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 7:
       return {
         accentColor: "#ffc125",
-        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakat",
+        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgeslatung",
       };
     case 8:
       return {
         accentColor: "#ffc125",
-        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakat",
+        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
       };
     case 9:
       return {
         accentColor: "#F41649",
-        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
+        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung \nKalendergestaltung",
       };
     case 10:
       return {
         accentColor: "#F41649",
-        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nVorlagengestaltung",
+        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nGestaltung von Social Media Templates",
       };
     case 11:
       return {
         accentColor: "#3A5FCD",
-        projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
+        projectDescription: "DiCoT \nUniversität Hamburg \nLogoentwicklung",
       };
     case 12:
       return {
         accentColor: "#FFEFD5",
-        projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
+        projectDescription: "Parasite – Food Objects \nAnastasia Marx \nBuchgestaltung",
       };
     case 13:
       return {
         accentColor: "#FFEFD5",
-        projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
+        projectDescription: "Parasite – Food Objects \nAnastasia Marx \nBuchgestaltung",
       };
     case 14:
       return {
