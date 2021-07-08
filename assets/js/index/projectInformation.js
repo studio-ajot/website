@@ -38,7 +38,7 @@ const getProjectInformation = (indexOfImage) => {
     case 7:
       return {
         accentColor: "#ffc125",
-        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgeslatung \nKalendergestaltung",
+        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
       };
     case 8:
       return {
@@ -98,12 +98,12 @@ const getProjectInformation = (indexOfImage) => {
     case 19:
       return {
         accentColor: "#EEEE00",
-        projectDescription: "Lose & Preserve – Erinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
+        projectDescription: "Lose & Preserve – \nErinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
       };
     case 20:
       return {
         accentColor: "#EEEE00",
-        projectDescription: "Lose & Preserve – Erinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
+        projectDescription: "Lose & Preserve – \nErinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
       };
     case 21:
       return {
