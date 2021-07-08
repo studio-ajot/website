@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700;800;900&display=swap"
     rel="stylesheet">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -18,6 +18,11 @@
   <title>Studio Ajot</title>
   <meta name="description"
     content="Graphic Design Studio &middot; Johanna Klüsener + Anastasia Marx &middot; Hamburg + Berlin">
+    <style>
+      html.wf-loading * {
+        opacity: 0;
+      }
+    </style>
 </head>
 
 <body>
@@ -25,7 +30,7 @@
   <nav class="nav_section">
     <div class="container-fluid g-0">
       <div class="row g-0">
-        <div class="col-12 col-lg-4 p_relative d-flex align-items-center flex-shrink-0">
+        <div id="dark" class="col-lg-4 col-12 p_relative d-flex align-items-center flex-shrink-0">
           <a href="index.html" class="logo slider_click">Studio Ajot</a>
           <button type="button" name="menu" class="toggle_menu">
             <span class="icon"></span>
@@ -60,44 +65,26 @@
     <div class="main-carousel">
       <div class="carousel-cell">
         <div class="img_slider">
-          <img src="assets/images/web/project-1-asepsis-cover-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-1-asepsis-cover-mobile.jpg" alt="#" class="mob_img">
+          <img src="assets/images/web/project-1-asepsis-web.jpg" alt="#" class="web_img">
+          <img src="assets/images/mobile/project-1-asepsis-mobile.jpg" alt="#" class="mob_img">
         </div>
       </div>
       <div class="carousel-cell">
         <div class="img_slider">
-          <img src="assets/images/web/project-1-asepsis-uebersicht-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-1-asepsis-uebersicht-mobile.jpg" alt="#" class="mob_img">
+          <img src="assets/images/web/project-2-asepsis2-web.jpg" alt="#" class="web_img">
+          <img src="assets/images/mobile/project-2-asepsis2-mobile.jpg" alt="#" class="mob_img">
         </div>
       </div>
       <div class="carousel-cell">
         <div class="img_slider">
-          <img src="assets/images/web/project-2-Karte_Studio-Ajot-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-2-Karte_Studio-Ajot-mobile.jpg" alt="#" class="mob_img">
+          <img src="assets/images/web/project-3-Karte_Studio-Ajot-web.jpg" alt="#" class="web_img">
+          <img src="assets/images/mobile/project-3-Karte_Studio-Ajot-mobile.jpg" alt="#" class="mob_img">
         </div>
       </div>
       <div class="carousel-cell">
         <div class="img_slider">
-          <img src="assets/images/web/project-3-NP-Visitenkarten-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-3-NP-Visitenkarten-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <div class="img_slider">
-          <img src="assets/images/web/project-4-lmaa-cover-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-4-lmaa-cover-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <div class="img_slider">
-          <img src="assets/images/web/project-4-lmaa-innen-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-4-lmaa-innen-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <div class="img_slider">
-          <img src="assets/images/web/project-4-lmaa-aufgeschlagen-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-4-lmaa-aufgeschlagen-mobile.jpg" alt="#" class="mob_img">
+          <img src="assets/images/web/project-4-NP-Visitenkarten-web.jpg" alt="#" class="web_img">
+          <img src="assets/images/mobile/project-4-NP-Visitenkarten-mobile.jpg" alt="#" class="mob_img">
         </div>
       </div>
       <div class="carousel-cell">
@@ -108,92 +95,40 @@
       </div>
       <div class="carousel-cell">
         <div class="img_slider">
-          <img src="assets/images/web/project-5-Calendarium-luminis-detail-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-5-Calendarium-luminis-detail-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <div class="img_slider">
           <img src="assets/images/web/project-6-reset-web.jpg" alt="#" class="web_img">
           <img src="assets/images/mobile/project-6-reset-mobile.jpg" alt="#" class="mob_img">
         </div>
       </div>
       <div class="carousel-cell">
         <div class="img_slider">
-          <img src="assets/images/web/project-6-reset-template-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-6-reset-template-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>  
-      <div class="carousel-cell">
-        <div class="img_slider">
-          <img src="assets/images/web/project-7-DiCoT-poster-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-7-DiCoT-poster-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <div class="img_slider">
-          <img src="assets/images/web/project-8-parasite-cover-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-8-parasite-cover-mobile.jpg" alt="#" class="mob_img">
+          <video class="web_img" poster="assets/videos/web/poster/project-7-DiCoT.png" autoplay loop muted>
+            <source src="assets/videos/web/project-7-DiCoT.webm" type="video/webm">
+            <source src="assets/videos/web/project-7-DiCoT.mp4" type="video/mp4">
+          </video>
+          <video class="mob_img" poster="assets/videos/mobile/poster/project-7-DiCoT.png" autoplay loop muted>
+            <source src="assets/videos/mobile/project-7-DiCoT.webm" type="video/webm">
+            <source src="assets/videos/mobile/project-7-DiCoT.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
       <div class="carousel-cell">
         <div class="img_slider">
-          <img src="assets/images/web/project-8-parasite-innen-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-8-parasite-innen-mobile.jpg" alt="#" class="mob_img">
+          <video class="web_img mob_img" poster="assets/videos/web/poster/project-8-FBE.png" autoplay loop muted>
+            <source class="vid" src="assets/videos/web/project-8-FBE.webm" type="video/webm">
+            <source class="vid" src="assets/videos/web/project-8-FBE.mp4" type="video/mp4">
+          </video>
+          <video class="web_img mob_img" poster="assets/videos//mobile/poster/project-8-FBE.png" autoplay loop muted>
+            <source class="vid" src="assets/videos//mobile/project-8-FBE.webm" type="video/webm">
+            <source class="vid" src="assets/videos//mobile/project-8-FBE.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
-      <div class="carousel-cell">
-        <div class="img_slider">
-          <img src="assets/images/web/project-10-diversity-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-10-diversity-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <div class="img_slider">
-          <img src="assets/images/web/project-11-FBE-poster-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-11-FBE-poster-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <div class="img_slider">
-          <img src="assets/images/web/project-11-fbe-template-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-11-fbe-template-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <div class="img_slider">
-          <img src="assets/images/web/project-12-jecker-ultraviolett-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-12-jecker-ultraviolett-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <div class="img_slider">
-          <img src="assets/images/web/project-12-jecker-ultraviolett-plakat-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-12-jecker-ultraviolett-plakat-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>     
-      <div class="carousel-cell">
-        <div class="img_slider">
-          <img src="assets/images/web/project-13-lap-cover-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-13-lap-cover-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <div class="img_slider">
-          <img src="assets/images/web/project-13-lap-detail-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-13-lap-detail-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>   
-      <div class="carousel-cell">
-        <div class="img_slider">
-          <img src="assets/images/web/project-14-testbild-web.jpg" alt="#" class="web_img">
-          <img src="assets/images/mobile/project-14-testbild-mobile.jpg" alt="#" class="mob_img">
-        </div>
-      </div>       
     </div>
     <div class="cursor">
       <img src="assets/images/arrow_prev_w.png" alt="#">
     </div>
+  </div>
+  <div id="project-description" class="project-description">
   </div>
   <!-- Footer -->
   <footer class="fixed-bottom bottom">
@@ -213,107 +148,25 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/mainFunctions.js"></script>
+  <script src="assets/js/index/projectInformation.js"></script>
+  <script src="assets/js/index/index.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="assets/js/flickity.pkgd.min.js"></script>
   <script>
-    // TODO in the future: Reorganize code structure: seperate js from html code
-    const getAccentColor = (indexOfImage) => {
-      switch (indexOfImage) {
-        case 0:
-          return "#000080";
-        case 1:
-          return "#000080";
-        case 2:
-          return "#FD009C";
-        case 3:
-          return "#CDCD00";
-        case 4:
-          return "#CD0000";
-        case 5:
-          return "#CD0000";
-        case 6:
-          return "#CD0000";
-        case 7:
-          return "#ffc125";
-        case 8:
-          return "#ffc125";
-        case 9:
-          return "#F41649";
-        case 10:
-          return "#F41649";
-        case 11:
-          return "#3A5FCD";
-        case 12:
-          return "#FFEFD5";
-        case 13:
-          return "#FFEFD5";
-        case 14:
-          return "#006400";
-        case 15:
-          return "#FF0394";
-        case 16:
-          return "#FF4500";
-        case 17:
-          return "#7FFFD4";
-        case 18:
-          return "#7FFFD4";
-        case 19:
-          return "#EEEE00";
-        case 20:
-          return "#EEEE00";
-        case 21:
-          return "#AFEEEE";
-        case 22:
-          return "#F63B08";
-        case 23:
-          return "#00FF00";
-        default:
-          return "black";
-      }
-    };
-
-    // --- Responsible for appearance of the cursor --- //
-    const setColor = (indexOfImage) => {
-      const accentColor = getAccentColor(indexOfImage);
-
-      // bg
-      $('nav, footer, .flexer').css({ "background-color": "transparent" });
-      $('.toggle_menu .icon, .icon2, .icon3').css({ "background-color": accentColor });
-
-      // border
-      $('nav').css({ "border-bottom": `1px solid ${accentColor}`, "border-top": `0px` });
-      $('footer').css({ "border-top": `1px solid ${accentColor}`, "border-bottom": `0px` });
-      $('.flexer').css({ "border-bottom": `0px` })
-
-      // text
-      $('.logo, .info, a, footer').css({ "color": accentColor });
-      $('.nav_section *, footer *').css({ "text-decoration-color": accentColor });
-    };
-
-
-    const setColorInOpenMenu = (indexOfImage) => {
-      const accentColor = getAccentColor(indexOfImage);
-      $('.flexer.active > .info ').css({ "border-bottom": `3px solid ${accentColor}`, "border-top": `3px solid ${accentColor}` });
-      $('.nav_section ul li a ').css({ "border-bottom": `3px solid ${accentColor}` });
-      $('.toggle_menu .icon').css({ "background-color": 'transparent' });
-    }
-
+    setProjectDescription(0);
+    setColor(0);
+    handleCursor();
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
       $('body').addClass('mobile-detect');
     } else {
       $('body').removeClass('mobile-detect');
     }
 
-    $(window).on('resize', function () {
-      if ($('.toggle_menu').hasClass('open') || $('.nav_section .flexer').hasClass('active')) {
-        const indexOfImage = $('.main-carousel').flickity().data('flickity').selectedIndex;
-        $('.toggle_menu').removeClass('open');
-        $('.nav_section .flexer').removeClass('active');
-        $('.info ').css({ "border-bottom": `0`, "border-top": `0` });
-        $('.nav_section ul li a ').css({ "border-bottom": `0` });
-        $('.toggle_menu .icon').css({ "background-color": getAccentColor(indexOfImage) });
-      }
+    $(document).ready(function () {
+      setProjectDescription(0);
+      setColor(0);
+      handleCursor();
       if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         $('body').addClass('mobile-detect');
       } else {
@@ -321,42 +174,35 @@
       }
     });
 
-    $(document).ready(function () {
-      let x;
-      let y;
-      $(window).on('mousemove', function (event) {
-        x = event.clientX;
-        y = event.clientY;
-        $('.cursor, .cursor1').css('top', y - 30);
-        $('.cursor, .cursor1').css('left', x + 2);
-        if (x < ($(window).width() / 2)) {
-          $('.cursor img').attr('src', './assets/images/arrow_prev_w.png');
-        } else {
-          $('.cursor img').attr('src', './assets/images/arrow_next_w.png');
-        }
-      });
-      setColor(0);
-    });
-
-    
     // --- Change cursor appearance when hover on navigation/header --- //
-    // $('.slider_section').mouseover(function () {
-    //   $('.cursor img').css('display', 'block');
-    //   $('.nav_section, footer, nav').hover(function () {
-    //     $('.cursor img').css('display', 'none');
-    //   }, function () {
-    //     $('.cursor img').css('display', 'block');
-    //   });
-    // });
-
-    // $('body').mouseleave(function () {
-    //   $('.cursor img').css('display', 'none');
-    // });
-    
     $('.slider_section').hover(function () {
       $('.cursor img').css('display', 'block');
     }, function () {
-      $('.cursor img').css('display', 'none');
+      $('.cursor img, .cursor1').css('display', 'none');
+    });
+
+
+    // --- Open / close menu --- //
+    $('.toggle_menu').click(function () {
+      const indexOfImage = $('.main-carousel').flickity().data('flickity').selectedIndex;
+      toggleMenu();
+      if (menuIsOpen()) {
+        setColorInOpenMenu(indexOfImage);
+      } else {
+        setColorInClosedMenu(indexOfImage)
+      }
+    });
+
+    $('.nav_section ul li a').click(function () {
+      closeMenu();
+    });
+
+    $(window).on('resize', function () {
+      if (menuIsOpen()) {
+        closeMenu();
+        const indexOfImage = $('.main-carousel').flickity().data('flickity').selectedIndex;
+        setColorInClosedMenu(indexOfImage);
+      }
     });
 
     // --- Set flickity options --- //
@@ -364,42 +210,18 @@
       cellAlign: 'center',
       wrapAround: true,
       imagesLoaded: true,
-    });
-
-    // --- Open / close menu --- //
-    $('.toggle_menu').click(function () {
-      $('.toggle_menu').toggleClass('open');
-      $('.nav_section .flexer').toggleClass('active');
-      const indexOfImage = $('.main-carousel').flickity().data('flickity').selectedIndex;
-      if ($('.toggle_menu').hasClass('open') || $('.nav_section .flexer').hasClass('active')) {
-        setColorInOpenMenu(indexOfImage);
-      } else {
-        $('.info ').css({ "border-bottom": `0`, "border-top": `0` });
-        $('.nav_section ul li a ').css({ "border-bottom": `0` });
-        $('.toggle_menu .icon').css({ "background-color": getAccentColor(indexOfImage) });
-
-      }
-    });
-    $('.nav_section ul li a').click(function () {
-      $('.toggle_menu').removeClass('open');
-      $('.nav_section .flexer').removeClass('active');
-      if ($('.toggle_menu').hasClass('open') || $('.nav_section .flexer').hasClass('active')) {
-        $('.flexer > .info ').css({ "border-bottom": `3px solid black`, "border-top": `3px solid black` });
-      }
+      // load images in selected slide and next 2 slides and previous 2 slides
+      lazyLoad: 5
     });
 
     // --- Change color of nav and footer according to changing image in the background--- //
     $('.main-carousel').on('change.flickity', function (event, index) {
+      setProjectDescription(index);
       setColor(index);
-      if ($('.toggle_menu').hasClass('open') || $('.nav_section .flexer').hasClass('active')) {
+      if (menuIsOpen()) {
         setColorInOpenMenu(index);
       }
     });
-
-    $('.main-carousel').on('activate', function (event, index) {
-      setColor(index);
-    });
-
   </script>
 </body>
 
