@@ -55,7 +55,6 @@ function setColorInOpenMenu(indexOfImage) {
 // closed menu
 function setColorInClosedMenu(indexOfImage) {
   const accentColor = getProjectInformation(indexOfImage).accentColor;
-  console.log(accentColor);
   $(".info ").css({ "border-bottom": `0`, "border-top": `0` });
   $(".nav_section ul li a ").css({ "border-bottom": `0` });
   $(".toggle_menu .icon").css({
