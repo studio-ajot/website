@@ -93,6 +93,8 @@ img {
   left: 30px;
   white-space: pre-wrap;
   width: calc(100vw - 60px);
+  pointer-events: none;
+  touch-action: none;
 }
 
 /* ################################
