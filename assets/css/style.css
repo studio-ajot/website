@@ -92,6 +92,7 @@ img {
   bottom: 105px;
   left: 30px;
   white-space: pre-wrap;
+  width: calc(100vw - 60px);
 }
 
 /* ################################
