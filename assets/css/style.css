@@ -237,11 +237,7 @@ footer a span:focus {
   min-height: 100vh;
 }
 
-.slider_section .img_slider .mob_img {
-  display: none;
-}
-
-.slider_section .img_slider .web_img {
+.slider_content {
   display: block;
   min-width: 100vw;
   min-height: 100vh;
