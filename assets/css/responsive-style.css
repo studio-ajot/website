@@ -45,6 +45,27 @@
   }
 
   /* ##################################
+    #       mobile padding of         #
+    #       header, footer and        #
+    #       project description       #
+    #################################*/
+
+  .nav_section,
+  footer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .project-description {
+    left: 15px;
+  }
+
+  .nav_section .flexer.active {
+    margin-left: -15px;
+    padding: 0 15px;
+  }
+
+  /* ##################################
      #       nav-section (Header)     #
      ################################*/
 
@@ -105,7 +126,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 350px) {
   .nav_section .logo {
     font-weight: 600;
     font-size: 34px;
