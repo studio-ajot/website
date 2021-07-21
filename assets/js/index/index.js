@@ -34,7 +34,7 @@ function setColor(indexOfImage) {
   });
   $(".flexer").css({ "border-bottom": `0px` });
   // text
-  $(".logo, .info, a, footer, .project-description").css({
+  $(".logo, .info, a, footer *, .project-description, nav *").css({
     color: accentColor,
   });
   $(".nav_section *, footer *").css({ "text-decoration-color": accentColor });
