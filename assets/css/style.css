@@ -479,6 +479,7 @@ footer a span:focus {
   height: 4px;
   width: 100%;
   background-color: #000;
+  right: -20px;
 }
 
 .toggle_menu .icon2 {
