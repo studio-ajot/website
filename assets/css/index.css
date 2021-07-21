@@ -1,0 +1,38 @@
+nav,
+footer,
+.flexer {
+  background-color: transparent;
+}
+
+.toggle_menu .icon,
+.icon2,
+.icon3 {
+  background-color: #000080;
+}
+
+nav {
+  border-bottom: 1px solid #000080;
+  border-top: 1px solid transparent;
+}
+
+footer {
+  border-bottom: 1px solid #000080;
+  border-top: 0;
+}
+
+.flexer {
+  border-bottom: 0;
+}
+
+.logo,
+.info,
+a,
+footer,
+.project-description {
+  color: #000080;
+}
+
+.nav_section *,
+footer * {
+  color: #000080;
+}
