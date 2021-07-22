@@ -9,8 +9,8 @@
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="assets/css/flickity.min.css">
   <link rel="icon" href="./assets/images/favicon_studio-ajot.png" type="image/gif" sizes="16x16">
-  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
   <link rel="stylesheet" type="text/css" href="assets/css/responsive-style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/mobile-detect.css">
   <title>Studio Ajot</title>
@@ -25,15 +25,15 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="nav_section">
+  <nav class="nav_section" id="index-nav">
     <div class="container-fluid g-0">
       <div class="row g-0">
         <div id="dark" class="col-lg-4 col-12 p_relative d-flex align-items-center flex-shrink-0">
-          <a href="index.html" class="logo slider_click">Studio Ajot</a>
+          <a href="index.html" class="logo" id="slider_click">Studio Ajot</a>
           <button type="button" name="menu" class="toggle_menu">
-            <span class="icon"></span>
-            <span class="icon2"></span>
-            <span class="icon3"></span>
+            <span class="icon" id="icon"></span>
+            <span class="icon2" id="icon2"></span>
+            <span class="icon3" id='icon3'></span>
           </button>
         </div>
         <div class="col-12 col-lg-8 p_relativ text-end">
@@ -43,13 +43,13 @@
             </span>
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="index.html" class="slider_click"><i class="fas fa-arrow-right"></i><span>Arbeiten</span></a>
+                <a href="index.html" id="index-link"><i class="fas fa-arrow-right"></i><span>Arbeiten</span></a>
               </li>
               <li class="list-inline-item">
-                <a href="ueber-uns.html" class="info_click2"><i class="fas fa-arrow-right"></i><span>Über uns</span></a>
+                <a href="ueber-uns.html" id="index-link"><i class="fas fa-arrow-right"></i><span>Über uns</span></a>
               </li>
               <li class="list-inline-item">
-                <a href="impressum-datenschutz.html" class="info_click"><i
+                <a href="impressum-datenschutz.html" id="index-link"><i
                     class="fas fa-arrow-right"></i><span>Impressum</span></a>
               </li>
             </ul>
@@ -180,17 +180,17 @@
   </div>
   <div id="project-description" class="project-description">Asepsis<br />Christian An<br />Künstlerische Publikation</div>
   <!-- Footer -->
-  <footer class="fixed-bottom bottom">
+  <footer class="fixed-bottom bottom" id="index-footer">
     <div class="row g-0">
       <div class="col-6">
         Hamburg <br />
         Berlin
       </div>
       <div class="col-6 text-end p-0">
-        <a href="mailto:hello@studio-ajot.de" target="_blank"><i
+        <a href="mailto:hello@studio-ajot.de" target="_blank" id="index-link"><i
             class="fas fa-arrow-right text-decoration-none"></i><span>Mail</span></a><br>
-        <a href="https://www.instagram.com/studio.ajot" target="_blank"><i
-            class="fas fa-arrow-right text-decoration-none"></i><span>Instagram</span></a>
+        <a href="https://www.instagram.com/studio.ajot" target="_blank" id="index-link"><i
+            class=" fas fa-arrow-right text-decoration-none"></i><span>Instagram</span></a>
       </div>
     </div>
   </footer>
@@ -212,7 +212,7 @@
 
     $(document).ready(function () {
       // setProjectDescription(0);
-      setColor(0);
+      // setColor(0);
       handleCursor();
       if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         $('body').addClass('mobile-detect');
@@ -254,7 +254,6 @@
 
     // --- Set flickity options --- //
     $('.main-carousel').flickity({
-      cellAlign: 'center',
       wrapAround: true,
       imagesLoaded: true,
       lazyLoad: true,
