@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="assets/css/flickity.min.css">
   <link rel="icon" href="./assets/images/favicon_studio-ajot.png" type="image/gif" sizes="16x16">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
   <link rel="stylesheet" type="text/css" href="assets/css/responsive-style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/mobile-detect.css">
   <title>Studio Ajot</title>
@@ -24,15 +25,15 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="nav_section">
+  <nav class="nav_section" id="index-nav">
     <div class="container-fluid g-0">
       <div class="row g-0">
         <div id="dark" class="col-lg-4 col-12 p_relative d-flex align-items-center flex-shrink-0">
-          <a href="index.html" class="logo slider_click">Studio Ajot</a>
+          <a href="index.html" class="logo" id="slider_click">Studio Ajot</a>
           <button type="button" name="menu" class="toggle_menu">
-            <span class="icon"></span>
-            <span class="icon2"></span>
-            <span class="icon3"></span>
+            <span class="icon" id="icon"></span>
+            <span class="icon2" id="icon2"></span>
+            <span class="icon3" id='icon3'></span>
           </button>
         </div>
         <div class="col-12 col-lg-8 p_relativ text-end">
@@ -42,13 +43,13 @@
             </span>
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="index.html" class="slider_click"><i class="fas fa-arrow-right"></i><span>Arbeiten</span></a>
+                <a href="index.html" id="index-link"><i class="fas fa-arrow-right"></i><span>Arbeiten</span></a>
               </li>
               <li class="list-inline-item">
-                <a href="ueber-uns.html" class="info_click2"><i class="fas fa-arrow-right"></i><span>Über uns</span></a>
+                <a href="ueber-uns.html" id="index-link"><i class="fas fa-arrow-right"></i><span>Über uns</span></a>
               </li>
               <li class="list-inline-item">
-                <a href="impressum-datenschutz.html" class="info_click"><i
+                <a href="impressum-datenschutz.html" id="index-link"><i
                     class="fas fa-arrow-right"></i><span>Impressum</span></a>
               </li>
             </ul>
@@ -61,53 +62,39 @@
   <div class="slider_section active">
     <div class="main-carousel">
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-1-asepsis-cover-web.jpg 1030w, assets/images/mobile/project-1-asepsis-cover-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-1-asepsis-cover-web.jpg 1030w, assets/images/mobile/project-1-asepsis-cover-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-1-asepsis-uebersicht-web.jpg 1030w, assets/images/mobile/project-1-asepsis-uebersicht-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-1-asepsis-uebersicht-web.jpg 1030w, assets/images/mobile/project-1-asepsis-uebersicht-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-2-Karte_Studio-Ajot-web.jpg 1030w, assets/images/mobile/project-2-Karte_Studio-Ajot-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-2-Karte_Studio-Ajot-web.jpg 1030w, assets/images/mobile/project-2-Karte_Studio-Ajot-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-3-NP-Visitenkarten-web.jpg 1030w, assets/images/mobile/project-3-NP-Visitenkarten-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-3-NP-Visitenkarten-web.jpg 1030w, assets/images/mobile/project-3-NP-Visitenkarten-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-4-lmaa-cover-web.jpg 1030w, assets/images/mobile/project-4-lmaa-cover-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-4-lmaa-cover-web.jpg 1030w, assets/images/mobile/project-4-lmaa-cover-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-4-lmaa-innen-web.jpg 1030w, assets/images/mobile/project-4-lmaa-innen-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-4-lmaa-innen-web.jpg 1030w, assets/images/mobile/project-4-lmaa-innen-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-4-lmaa-aufgeschlagen-web.jpg 1030w, assets/images/mobile/project-4-lmaa-aufgeschlagen-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-4-lmaa-aufgeschlagen-web.jpg 1030w, assets/images/mobile/project-4-lmaa-aufgeschlagen-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
         <div class="img_slider">
@@ -117,102 +104,74 @@
         </div>
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-5-Calendarium-luminis-detail-web.jpg 1030w, assets/images/mobile/project-5-Calendarium-luminis-detail-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-5-Calendarium-luminis-detail-web.jpg 1030w, assets/images/mobile/project-5-Calendarium-luminis-detail-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-6-reset-web.jpg 1030w, assets/images/mobile/project-6-reset-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-6-reset-web.jpg 1030w, assets/images/mobile/project-6-reset-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-6-reset-template-web.jpg 1030w, assets/images/mobile/project-6-reset-template-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-6-reset-template-web.jpg 1030w, assets/images/mobile/project-6-reset-template-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-7-DiCoT-poster-web.jpg 1030w, assets/images/mobile/project-7-DiCoT-poster-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-7-DiCoT-poster-web.jpg 1030w, assets/images/mobile/project-7-DiCoT-poster-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-8-parasite-cover-web.jpg 1030w, assets/images/mobile/project-8-parasite-cover-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-8-parasite-cover-web.jpg 1030w, assets/images/mobile/project-8-parasite-cover-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-8-parasite-innen-web.jpg 1030w, assets/images/mobile/project-8-parasite-innen-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-8-parasite-innen-web.jpg 1030w, assets/images/mobile/project-8-parasite-innen-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-10-diversity-web.jpg 1030w, assets/images/mobile/project-10-diversity-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-10-diversity-web.jpg 1030w, assets/images/mobile/project-10-diversity-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-11-FBE-poster-web.jpg 1030w, assets/images/mobile/project-11-FBE-poster-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-11-FBE-poster-web.jpg 1030w, assets/images/mobile/project-11-FBE-poster-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-11-fbe-template-web.jpg 1030w, assets/images/mobile/project-11-fbe-template-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-11-fbe-template-web.jpg 1030w, assets/images/mobile/project-11-fbe-template-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-12-jecker-ultraviolett-web.jpg 1030w, assets/images/mobile/project-12-jecker-ultraviolett-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-12-jecker-ultraviolett-web.jpg 1030w, assets/images/mobile/project-12-jecker-ultraviolett-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-12-jecker-ultraviolett-plakat-web.jpg 1030w, assets/images/mobile/project-12-jecker-ultraviolett-plakat-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-12-jecker-ultraviolett-plakat-web.jpg 1030w, assets/images/mobile/project-12-jecker-ultraviolett-plakat-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-13-lap-cover-web.jpg 1030w, assets/images/mobile/project-13-lap-cover-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-13-lap-cover-web.jpg 1030w, assets/images/mobile/project-13-lap-cover-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-13-lap-detail-web.jpg 1030w, assets/images/mobile/project-13-lap-detail-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-13-lap-detail-web.jpg 1030w, assets/images/mobile/project-13-lap-detail-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
       <div class="carousel-cell">
-        <div class="img_slider">
-          <img
-            srcset="assets/images/web/project-14-testbild-web.jpg 1030w, assets/images/mobile/project-14-testbild-mobile.jpg 640w"
-            sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
-        </div>
+        <img
+          srcset="assets/images/web/project-14-testbild-web.jpg 1030w, assets/images/mobile/project-14-testbild-mobile.jpg 640w"
+          sizes="(min-width: 665px) 1030px, 320px" class="slider_content" />
       </div>
     </div>
     <div class="cursor">
@@ -221,17 +180,17 @@
   </div>
   <div id="project-description" class="project-description">Asepsis<br />Christian An<br />Künstlerische Publikation</div>
   <!-- Footer -->
-  <footer class="fixed-bottom bottom">
+  <footer class="fixed-bottom bottom" id="index-footer">
     <div class="row g-0">
       <div class="col-6">
         Hamburg <br />
         Berlin
       </div>
       <div class="col-6 text-end p-0">
-        <a href="mailto:hello@studio-ajot.de" target="_blank"><i
+        <a href="mailto:hello@studio-ajot.de" target="_blank" id="index-link"><i
             class="fas fa-arrow-right text-decoration-none"></i><span>Mail</span></a><br>
-        <a href="https://www.instagram.com/studio.ajot" target="_blank"><i
-            class="fas fa-arrow-right text-decoration-none"></i><span>Instagram</span></a>
+        <a href="https://www.instagram.com/studio.ajot" target="_blank" id="index-link"><i
+            class=" fas fa-arrow-right text-decoration-none"></i><span>Instagram</span></a>
       </div>
     </div>
   </footer>
@@ -253,7 +212,7 @@
 
     $(document).ready(function () {
       // setProjectDescription(0);
-      setColor(0);
+      // setColor(0);
       handleCursor();
       if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         $('body').addClass('mobile-detect');
@@ -295,7 +254,6 @@
 
     // --- Set flickity options --- //
     $('.main-carousel').flickity({
-      cellAlign: 'center',
       wrapAround: true,
       imagesLoaded: true,
       lazyLoad: true,

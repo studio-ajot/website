@@ -111,7 +111,6 @@ html {
 
 body {
   width: 100% !important;
-  min-width: 400px;
   line-height: 28px;
 }
 
@@ -330,11 +329,10 @@ footer a span:focus {
 }
 .slider_section .carousel-cell {
   min-height: 100vh;
-}
-
-.slider_section .img_slider {
-  display: block;
-  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slider_content {
@@ -481,6 +479,7 @@ footer a span:focus {
   height: 4px;
   width: 100%;
   background-color: #000;
+  right: -20px;
 }
 
 .toggle_menu .icon2 {
