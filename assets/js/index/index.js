@@ -37,7 +37,7 @@ function setColor(indexOfImage) {
   $(".logo, .info, a, footer *, .project-description, nav *").css({
     color: accentColor,
   });
-  $(".nav_section *, footer *").css({ "text-decoration-color": accentColor });
+  $("footer *, #index-link").css({ "text-decoration-color": accentColor });
 }
 // open menu
 function setColorInOpenMenu(indexOfImage) {

@@ -262,7 +262,6 @@ img {
 .nav_section ul li a span:hover,
 .nav_section ul li a span:focus {
   text-decoration: underline;
-  text-decoration: underline solid black 2px;
 }
 
 /* ################################
@@ -303,7 +302,6 @@ footer a:focus {
 footer a span:hover,
 footer a span:focus {
   text-decoration: underline;
-  text-decoration: underline solid black 2px;
 }
 
 /* ################################
@@ -314,13 +312,13 @@ footer a span:focus {
   position: fixed;
   bottom: 0;
   top: 100%;
-  width: 100%;
-  height: 100vh !important;
-  transition: all ease 0.4s;
+  width: 100vw;
+  height: 100vh;
+  /* transition: all ease 0.4s;
   -webkit-transition: all ease 0.4s;
   -moz-transition: all ease 0.4s;
   -ms-transition: all ease 0.4s;
-  -o-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s; */
 }
 
 .slider_section.active {
@@ -329,19 +327,16 @@ footer a span:focus {
 }
 .slider_section .carousel-cell {
   min-height: 100vh;
-  min-width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  min-width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .slider_content {
   display: block;
-  min-width: 100vw;
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  max-height: 100vh;
-  width: 100vw;
 }
 
 /* ################################
