@@ -328,14 +328,19 @@ footer a span:focus {
 .slider_section .carousel-cell {
   min-height: 100vh;
   min-width: 100%;
-  height: 100%;
+  height: 100vh;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slider_content {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  min-width: 100%;
   object-fit: cover;
 }
 
