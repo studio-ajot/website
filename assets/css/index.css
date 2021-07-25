@@ -4,10 +4,9 @@ footer,
   background-color: transparent;
 }
 
-nav *,
 footer *,
-.index-link {
-  text-decoration-color: #000080 !important
+#index-link {
+  text-decoration-color: #000080;
 }
 
 .toggle_menu #icon,

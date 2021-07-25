@@ -262,7 +262,6 @@ img {
 .nav_section ul li a span:hover,
 .nav_section ul li a span:focus {
   text-decoration: underline;
-  text-decoration: underline solid black 2px;
 }
 
 /* ################################
@@ -303,7 +302,6 @@ footer a:focus {
 footer a span:hover,
 footer a span:focus {
   text-decoration: underline;
-  text-decoration: underline solid black 2px;
 }
 
 /* ################################
