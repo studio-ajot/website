@@ -313,7 +313,9 @@ footer a span:focus {
   bottom: 0;
   top: 100%;
   width: 100vw;
+  min-width: 100vw;
   height: 100vh;
+  min-height: 100vh;
   /* transition: all ease 0.4s;
   -webkit-transition: all ease 0.4s;
   -moz-transition: all ease 0.4s;
@@ -327,20 +329,24 @@ footer a span:focus {
 }
 .slider_section .carousel-cell {
   min-height: 100vh;
-  min-width: 100%;
+  min-width: 100vw;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .slider_content {
-  display: block;
-  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
   height: 100vh;
   min-height: 100vh;
-  min-width: 100%;
+  min-width: 100vw;
   object-fit: cover;
 }
 
@@ -560,11 +566,6 @@ html.active .cursor {
   display: block;
 }
 
-.cursor__follower {
-  transition: transform 0.4s;
-  width: 6px;
-  height: 6px;
-}
 
 /* ################################
 #           scrollbar             #
