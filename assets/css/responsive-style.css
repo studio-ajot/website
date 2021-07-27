@@ -6,7 +6,7 @@
 
 @media (max-width: 991px) {
   .main-content {
-    padding-top: 80px;
+    padding-top: 90px;
   }
 
   .footer-text {
@@ -44,11 +44,7 @@
     display: block;
   }
 
-  .main-content {
-    padding-top: 90px;
-  }
   
-
   /* ##################################
     #        padding on mobile        #
     #################################*/
