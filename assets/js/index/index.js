@@ -8,9 +8,13 @@ function handleCursor() {
     $(".cursor, .cursor1").css("top", y - 30);
     $(".cursor, .cursor1").css("left", x + 2);
     if (x < $(window).width() / 2) {
-      $(".cursor img").attr("src", "./assets/images/arrow_prev_w.png");
+      if ($(".cursor img").attr("src") !== "./assets/images/arrow_prev_w.png") {
+        $(".cursor img").attr("src", "./assets/images/arrow_prev_w.png");
+      }
     } else {
-      $(".cursor img").attr("src", "./assets/images/arrow_next_w.png");
+      if ($(".cursor img").attr("src") !== "./assets/images/arrow_next_w.png") {
+        $(".cursor img").attr("src", "./assets/images/arrow_next_w.png");
+      }
     }
   });
 }
