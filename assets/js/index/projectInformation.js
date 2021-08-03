@@ -12,28 +12,28 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 2:
       return {
-        accentColor: "#000080",
-        projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
-      };
+        accentColor: "#7FFFD4",
+        projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nPlakatgestaltung",
+      };      
     case 3:
       return {
         accentColor: "#000080",
         projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
-      };      
+      };
     case 4:
+      return {
+        accentColor: "#000080",
+        projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
+      };      
+    case 5:
       return {
         accentColor: "#FD009C",
         projectDescription: "Hallo! \nStudio Ajot \nPostkartengestaltung",
       };
-    case 5:
+    case 6:
       return {
         accentColor: "#CDCD00",
         projectDescription: "Northport \nMarkenbecker \nEntwicklung der Geschäftsausstattung",
-      };
-    case 6:
-      return {
-        accentColor: "#CD0000",
-        projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 7:
       return {
@@ -47,8 +47,8 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 9:
       return {
-        accentColor: "#ffc125",
-        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
+        accentColor: "#CD0000",
+        projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 10:
       return {
@@ -57,23 +57,23 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 11:
       return {
-        accentColor: "#F41649",
-        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
+        accentColor: "#ffc125",
+        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
       };
     case 12:
       return {
         accentColor: "#F41649",
-        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nGestaltung von Social Media Templates",
+        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
       };
     case 13:
       return {
-        accentColor: "#3A5FCD",
-        projectDescription: "DiCoT \nUniversität Hamburg \nLogoentwicklung",
+        accentColor: "#F41649",
+        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nGestaltung von Social Media Templates",
       };
     case 14:
       return {
-        accentColor: "#FFEFD5",
-        projectDescription: "Parasite – Food Objects \nAnastasia Marx \nBuchgestaltung",
+        accentColor: "#3A5FCD",
+        projectDescription: "DiCoT \nUniversität Hamburg \nLogoentwicklung",
       };
     case 15:
       return {
@@ -82,23 +82,23 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 16:
       return {
-        accentColor: "#006400",
-        projectDescription: "Div*erse Typ_en \nPlakatgestaltung",
+        accentColor: "#FFEFD5",
+        projectDescription: "Parasite – Food Objects \nAnastasia Marx \nBuchgestaltung",
       };
     case 17:
       return {
-        accentColor: "#FF4500",
-        projectDescription: "Frauen*beratung Elmshorn \nEntwicklung einer Corporate Identity ",
+        accentColor: "#006400",
+        projectDescription: "Div*erse Typ_en \nPlakatgestaltung",
       };
     case 18:
       return {
         accentColor: "#FF4500",
-        projectDescription: "Frauen*beratung Elmshorn \nGestaltung von Social Media Templates",
+        projectDescription: "Frauen*beratung Elmshorn \nEntwicklung einer Corporate Identity ",
       };
     case 19:
       return {
-        accentColor: "#7FFFD4",
-        projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nPlakatgestaltung",
+        accentColor: "#FF4500",
+        projectDescription: "Frauen*beratung Elmshorn \nGestaltung von Social Media Templates",
       };
     case 20:
       return {
