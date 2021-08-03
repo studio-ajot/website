@@ -6,22 +6,22 @@ footer,
 
 footer *,
 #index-link {
-  text-decoration-color: #000080;
+  text-decoration-color: #76EEC6;
 }
 
 .toggle_menu #icon,
 #icon2,
 #icon3 {
-  background-color: #000080;
+  background-color: #76EEC6;
 }
 
 #index-nav {
-  border-bottom: 1px solid #000080;
+  border-bottom: 1px solid #76EEC6;
   border-top: 1px solid transparent;
 }
 
 #index-footer {
-  border-top: 1px solid #000080;
+  border-top: 1px solid #76EEC6;
   border-bottom: 0;
 }
 
@@ -35,5 +35,5 @@ footer *,
 #slider_click,
 footer,
 .project-description {
-  color: #000080;
+  color: #76EEC6;
 }
