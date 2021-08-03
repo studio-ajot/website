@@ -98,12 +98,12 @@ const getProjectInformation = (indexOfImage) => {
     case 19:
       return {
         accentColor: "#7FFFD4",
-        projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nBuchcovergestaltung",
+        projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nPlakatgestaltung",
       };
     case 20:
       return {
-        accentColor: "#7FFFD4",
-        projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nPlakatgestaltung",
+        accentColor: "#EEEE00",
+        projectDescription: "Lose & Preserve – \nErinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
       };
     case 21:
       return {
@@ -112,15 +112,10 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 22:
       return {
-        accentColor: "#EEEE00",
-        projectDescription: "Lose & Preserve – \nErinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
-      };
-    case 23:
-      return {
         accentColor: "#AFEEEE",
         projectDescription: "Testbild Zwei \nMascha Livanskaia \nKünstlerische Publikation",
       };
-    case 24:
+    case 23:
       return {
         accentColor: "#F63B08",
         projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
