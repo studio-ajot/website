@@ -3,17 +3,17 @@ const getProjectInformation = (indexOfImage) => {
     case 0:
       return {
         accentColor: "#02F4A9",
-        projectDescription: "Ultraviolett \nFlurin Jecker \nUmschlaggestaltung Haymon Verlag",
+        projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nUmschlaggestaltung",
       };
     case 1:
       return {
         accentColor: "#02F4A9",
-        projectDescription: "Ultraviolett \nFlurin Jecker \nUmschlaggestaltung Haymon Verlag",
+        projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nUmschlaggestaltung",,
       };
     case 2:
       return {
         accentColor: "#02F4A9",
-        projectDescription: "Ultraviolett \nFlurin Jecker \nUmschlaggestaltung Haymon Verlag",
+        projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nUmschlaggestaltung",
       };
     case 3:
       return {
