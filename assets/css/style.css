@@ -439,6 +439,7 @@ footer a span:focus {
 
 .info_box .text-box {
   padding: 30px;
+  word-wrap: break-word;
   /* position: relative; */
 }
 
