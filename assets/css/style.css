@@ -180,11 +180,11 @@ img {
 }
 
 .reference {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
-reference:hover (
-  font-weight: 700px;
+reference:hover {
+  font-weight: 700px; !important;
 }
 
 /* ################################
