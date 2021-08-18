@@ -12,6 +12,9 @@ H2 {
 .copy-1 {
   font-size: 22px !important;
   font-weight: 500 !important;
+  }
+.copy-1:hover {
+weight: 800
 }
 
 .copy-2 {
