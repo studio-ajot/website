@@ -10,9 +10,9 @@ H2 {
 }
 
 .copy-1 {
-  font-size: 22px !important;
+  font-size: 22px;
   font-weight: 500 !important;
-  }
+}
 
 .copy-2 {
   font-size: 22px;
@@ -28,3 +28,24 @@ H2 {
   color: black;
   text-decoration: underline;
 }
+
+/* #################################
+#         mobile text sizes        #
+#################################*/
+@media (max-width: 991px) {
+  H2 {
+    font-size: 18px;
+  }
+
+  .copy-1,
+  nav,
+  footer {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .nav_section .logo {
+    font-size: 38px;
+  }
+}
+

@@ -63,10 +63,6 @@
      #       nav-section (Header)     #
      ################################*/
 
-  .nav_section > * {
-    padding: 15px 0 !important;
-  }
-
   .nav_section .info {
     width: 100%;
     display: inline-block;
