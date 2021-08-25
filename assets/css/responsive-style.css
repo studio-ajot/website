@@ -20,7 +20,6 @@
   .toggle_menu {
     display: block;
     animation: b 2s ease-in;
-    padding: 0;
   }
 
   .visible_mob {
@@ -35,7 +34,6 @@
     display: block;
   }
 
-  
   /* ##################################
     #        padding on mobile        #
     #################################*/
@@ -51,12 +49,15 @@
   }
 
   .nav_section .flexer.active {
-    margin-left: -20px;
-    padding: 0 20px;
+    padding-bottom: 15px;
   }
 
   .info_box .text-box {
     padding: 20px 20px;
+  }
+  
+  .toggle_menu {
+    margin-right: 20px;
   }
 
   /* ##################################
