@@ -54,7 +54,7 @@ function setColorInOpenMenu(indexOfImage) {
     "border-bottom": `3px solid ${accentColor}`,
   });
   $(".toggle_menu .icon").css({ "background-color": "transparent" });
-  $("nav").css({ "background-color": "rgba(255, 255, 255, 0.7)" });
+  $("nav").css({ "background-color": "rgba(0, 0, 0, 0.6)" });
 }
 // closed menu
 function setColorInClosedMenu(indexOfImage) {
