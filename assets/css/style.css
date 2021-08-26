@@ -362,13 +362,18 @@ footer a span:focus {
   display: none;
 }
 
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor: none;
+}
+
 .flickity-enabled.is-draggable .flickity-viewport {
   height: 100vh !important;
+  cursor: none;
 }
 
 .flickity-prev-next-button.previous,
 .flickity-prev-next-button.next {
-  display: inline-block;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -379,7 +384,7 @@ footer a span:focus {
   border-radius: 0;
   background: none;
   mix-blend-mode: exclusion;
-  cursor: none;
+  cursor: none !important;
 }
 
 .flickity-prev-next-button.previous:after,
@@ -483,7 +488,6 @@ footer a span:focus {
   height: 4px;
   width: 100%;
   background-color: #000;
-
 }
 
 .toggle_menu .icon2 {

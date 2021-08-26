@@ -3,6 +3,6 @@ html .mobile-detect .cursor {
   visibility: hidden;
 }
 
-.mobile-detect .flickity-prev-next-button {
-  /* visibility: hidden; */
+.mobile-detect {
+  cursor: none !important;
 }
