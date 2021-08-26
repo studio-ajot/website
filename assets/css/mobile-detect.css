@@ -4,5 +4,5 @@ html .mobile-detect .cursor {
 }
 
 .mobile-detect .flickity-prev-next-button {
-  visibility: hidden;
+  /* visibility: hidden; */
 }
