@@ -299,6 +299,7 @@
           $("body").addClass("mobile-detect");
         } else {
           $("body").removeClass("mobile-detect");
+          $(".main-carousel").flickity("unbindDrag");
         }
       });
 
@@ -342,10 +343,21 @@
 
       // --- Set flickity options --- //
       $(".main-carousel").flickity({
+        draggable: true,
         wrapAround: true,
         imagesLoaded: true,
         lazyLoad: true,
         lazyLoad: 3,
+      });
+
+      $(".main-carousel").on("staticClick.flickity", function (event, index) {
+        x = event.clientX;
+        y = event.clientY;
+        if (x < $(window).width() / 2) {
+          $(".main-carousel").flickity("previous");
+        } else {
+          $(".main-carousel").flickity("next");
+        }
       });
 
       // --- Change color of nav and footer according to changing image in the background--- //
