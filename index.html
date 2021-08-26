@@ -254,7 +254,7 @@
         </div>
       </div>
       <div class="cursor">
-        <img src="assets/images/arrow_prev_w.png" alt="#" />
+        <img />
       </div>
     </div>
     <!-- Initial project description -->
@@ -346,7 +346,6 @@
         draggable: true,
         wrapAround: true,
         imagesLoaded: true,
-        lazyLoad: true,
         lazyLoad: 3,
       });
 
@@ -360,7 +359,7 @@
         }
       });
 
-      // --- Change color of nav and footer according to changing image in the background--- //
+      // --- Change color of nav and footer according to changing image in the background --- //
       $(".main-carousel").on("change.flickity", function (event, index) {
         setProjectDescription(index);
         setColor(index);
