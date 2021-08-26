@@ -1,281 +1,361 @@
 <!DOCTYPE html>
 <html lang="de" class="active">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"> -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/flickity.min.css" />
+    <link
+      rel="icon"
+      href="./assets/images/favicon_studio-ajot.png"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/responsive-style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/mobile-detect.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/text-styles.css" />
+    <title>Studio Ajot</title>
+    <meta
+      name="description"
+      content="Graphic Design Studio &middot; Johanna Klüsener + Anastasia Marx &middot; Hamburg + Berlin"
+    />
+    <style>
+      html.wf-loading * {
+        opacity: 0;
+      }
+    </style>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"> -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-  <link rel="stylesheet" href="assets/css/flickity.min.css">
-  <link rel="icon" href="./assets/images/favicon_studio-ajot.png" type="image/gif" sizes="16x16">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/responsive-style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/mobile-detect.css">
-  <title>Studio Ajot</title>
-  <meta name="description"
-    content="Graphic Design Studio &middot; Johanna Klüsener + Anastasia Marx &middot; Hamburg + Berlin">
-  <style>
-    html.wf-loading * {
-      opacity: 0;
-    }
-  </style>
-</head>
-
-<body>
-  <!-- Navigation -->
-  <nav class="nav_section" id="index-nav">
-    <div class="container-fluid g-0">
-      <div class="row g-0">
-        <div id="dark" class="col-lg-4 col-12 p_relative d-flex align-items-center flex-shrink-0">
-          <a href="index.html" class="logo" id="slider_click">Studio Ajot</a>
-          <button type="button" name="menu" class="toggle_menu">
-            <span class="icon" id="icon"></span>
-            <span class="icon2" id="icon2"></span>
-            <span class="icon3" id='icon3'></span>
-          </button>
-        </div>
-        <div class="col-12 col-lg-8 p_relativ text-end">
-          <div class="flexer" id="getp">
-            <span class="info"><i class="fas visible_mob"></i> Studio für
-              Grafikdesign
-            </span>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="index.html" id="index-link"><i class="fas fa-arrow-right"></i><span>Arbeiten</span></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="ueber-uns.html" id="index-link"><i class="fas fa-arrow-right"></i><span>Über uns</span></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="impressum-datenschutz.html" id="index-link"><i
-                    class="fas fa-arrow-right"></i><span>Impressum</span></a>
-              </li>
-            </ul>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav_section" id="index-nav">
+      <div class="container-fluid g-0">
+        <div class="row g-0">
+          <div
+            id="dark"
+            class="col-lg-4 col-12 p_relative d-flex align-items-center justify-content-between flex-shrink-0"
+          >
+            <a href="index.html" class="logo" id="slider_click">Studio Ajot</a>
+            <button type="button" name="menu" class="toggle_menu">
+              <span class="icon" id="icon"></span>
+              <span class="icon2" id="icon2"></span>
+              <span class="icon3" id="icon3"></span>
+            </button>
+          </div>
+          <div class="col-12 col-lg-8 p_relativ text-end">
+            <div class="flexer" id="getp">
+              <span class="info"
+                ><i class="fas visible_mob"></i> Studio für Grafikdesign
+              </span>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="index.html" id="index-link"
+                    ><i class="fas fa-arrow-right"></i><span>Arbeiten</span></a
+                  >
+                </li>
+                <li class="list-inline-item">
+                  <a href="ueber-uns.html" id="index-link"
+                    ><i class="fas fa-arrow-right"></i><span>Über uns</span></a
+                  >
+                </li>
+                <li class="list-inline-item">
+                  <a href="impressum-datenschutz.html" id="index-link"
+                    ><i class="fas fa-arrow-right"></i><span>Impressum</span></a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </nav>
-  <!-- Main section -->
-  <div class="slider_section active">
-    <div class="main-carousel">
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-15-ultraviolett-cover-web.jpg 1030w, assets/images/mobile/project-15-ultraviolett-cover-mobil.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-15-ultraviolett-innen-web.jpg 1030w, assets/images/mobile/project-15-ultraviolett-innen-mobil.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-12-jecker-ultraviolett-plakat-web.jpg 1030w, assets/images/mobile/project-12-jecker-ultraviolett-plakat-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>          
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-1-asepsis-cover-web.jpg 1030w, assets/images/mobile/project-1-asepsis-cover-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>  
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-1-asepsis-uebersicht-web.jpg 1030w, assets/images/mobile/project-1-asepsis-uebersicht-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-2-Karte_Studio-Ajot-web.jpg 1030w, assets/images/mobile/project-2-Karte_Studio-Ajot-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-3-NP-Visitenkarten-web.jpg 1030w, assets/images/mobile/project-3-NP-Visitenkarten-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-4-lmaa-cover-web.jpg 1030w, assets/images/mobile/project-4-lmaa-cover-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-4-lmaa-innen-web.jpg 1030w, assets/images/mobile/project-4-lmaa-innen-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-4-lmaa-aufgeschlagen-web.jpg 1030w, assets/images/mobile/project-4-lmaa-aufgeschlagen-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <div class="img_slider">
+    </nav>
+    <!-- Main section -->
+    <div class="slider_section active">
+      <div class="main-carousel">
+        <div class="carousel-cell">
           <img
-            data-flickity-lazyload-srcset="assets/images/web/project-5-Calendarium-luminis-web.jpg 1030w, assets/images/mobile/project-5-Calendarium-luminis-mobile.jpg 640w"
-            sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
+            data-flickity-lazyload-srcset="assets/images/web/project-15-ultraviolett-cover-web.jpg 1030w, assets/images/mobile/project-15-ultraviolett-cover-mobil.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-15-ultraviolett-innen-web.jpg 1030w, assets/images/mobile/project-15-ultraviolett-innen-mobil.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-12-jecker-ultraviolett-plakat-web.jpg 1030w, assets/images/mobile/project-12-jecker-ultraviolett-plakat-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-1-asepsis-cover-web.jpg 1030w, assets/images/mobile/project-1-asepsis-cover-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-1-asepsis-uebersicht-web.jpg 1030w, assets/images/mobile/project-1-asepsis-uebersicht-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-2-Karte_Studio-Ajot-web.jpg 1030w, assets/images/mobile/project-2-Karte_Studio-Ajot-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-3-NP-Visitenkarten-web.jpg 1030w, assets/images/mobile/project-3-NP-Visitenkarten-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-4-lmaa-cover-web.jpg 1030w, assets/images/mobile/project-4-lmaa-cover-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-4-lmaa-innen-web.jpg 1030w, assets/images/mobile/project-4-lmaa-innen-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-4-lmaa-aufgeschlagen-web.jpg 1030w, assets/images/mobile/project-4-lmaa-aufgeschlagen-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <div class="img_slider">
+            <img
+              data-flickity-lazyload-srcset="assets/images/web/project-5-Calendarium-luminis-web.jpg 1030w, assets/images/mobile/project-5-Calendarium-luminis-mobile.jpg 640w"
+              sizes="(min-width: 850px) 1030px, 320px"
+              class="slider_content"
+            />
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-5-Calendarium-luminis-detail-web.jpg 1030w, assets/images/mobile/project-5-Calendarium-luminis-detail-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-6-reset-web.jpg 1030w, assets/images/mobile/project-6-reset-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-6-reset-template-web.jpg 1030w, assets/images/mobile/project-6-reset-template-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-7-DiCoT-poster-web.jpg 1030w, assets/images/mobile/project-7-DiCoT-poster-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-8-parasite-cover-web.jpg 1030w, assets/images/mobile/project-8-parasite-cover-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-8-parasite-innen-web.jpg 1030w, assets/images/mobile/project-8-parasite-innen-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-10-diversity-web.jpg 1030w, assets/images/mobile/project-10-diversity-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-11-FBE-poster-web.jpg 1030w, assets/images/mobile/project-11-FBE-poster-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-11-fbe-template-web.jpg 1030w, assets/images/mobile/project-11-fbe-template-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-13-lap-cover-web.jpg 1030w, assets/images/mobile/project-13-lap-cover-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-13-lap-detail-web.jpg 1030w, assets/images/mobile/project-13-lap-detail-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
+        </div>
+        <div class="carousel-cell">
+          <img
+            data-flickity-lazyload-srcset="assets/images/web/project-14-testbild-web.jpg 1030w, assets/images/mobile/project-14-testbild-mobile.jpg 640w"
+            sizes="(min-width: 850px) 1030px, 320px"
+            class="slider_content"
+          />
         </div>
       </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-5-Calendarium-luminis-detail-web.jpg 1030w, assets/images/mobile/project-5-Calendarium-luminis-detail-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-6-reset-web.jpg 1030w, assets/images/mobile/project-6-reset-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-6-reset-template-web.jpg 1030w, assets/images/mobile/project-6-reset-template-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-7-DiCoT-poster-web.jpg 1030w, assets/images/mobile/project-7-DiCoT-poster-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-8-parasite-cover-web.jpg 1030w, assets/images/mobile/project-8-parasite-cover-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-8-parasite-innen-web.jpg 1030w, assets/images/mobile/project-8-parasite-innen-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-10-diversity-web.jpg 1030w, assets/images/mobile/project-10-diversity-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-11-FBE-poster-web.jpg 1030w, assets/images/mobile/project-11-FBE-poster-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-11-fbe-template-web.jpg 1030w, assets/images/mobile/project-11-fbe-template-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-13-lap-cover-web.jpg 1030w, assets/images/mobile/project-13-lap-cover-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-13-lap-detail-web.jpg 1030w, assets/images/mobile/project-13-lap-detail-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
-      </div>
-      <div class="carousel-cell">
-        <img
-          data-flickity-lazyload-srcset="assets/images/web/project-14-testbild-web.jpg 1030w, assets/images/mobile/project-14-testbild-mobile.jpg 640w"
-          sizes="(min-width: 850px) 1030px, 320px" class="slider_content" />
+      <div class="cursor">
+        <img src="assets/images/arrow_prev_w.png" alt="#" />
       </div>
     </div>
-    <div class="cursor">
-      <img src="assets/images/arrow_prev_w.png" alt="#">
-    </div>
-  </div>
-  <!-- Initial project description -->
-  <div id="project-description" class="project-description">Ultraviolett – Flurin Jecker<br />Haymon Verlag<br />Covergestaltung</div>
-  <!-- Footer -->
-  <footer class="fixed-bottom bottom" id="index-footer">
-    <div class="row g-0">
-      <div class="col-6">
-        Hamburg <br />
-        Berlin
+    <!-- Initial project description -->
+    <div id="project-description" class="project-description copy-1">Ultraviolett – Flurin Jecker<br />Haymon Verlag<br />Covergestaltung</div>
+    <!-- Footer -->
+    <footer class="fixed-bottom bottom" id="index-footer">
+      <div class="row g-0">
+        <div class="col-6">
+          Hamburg <br />
+          Berlin
+        </div>
+        <div class="col-6 text-end p-0">
+          <a href="mailto:hello@studio-ajot.de" target="_blank" id="index-link"
+            ><i class="fas fa-arrow-right text-decoration-none"></i
+            ><span>Mail</span></a
+          ><br />
+          <a
+            href="https://www.instagram.com/studio.ajot"
+            target="_blank"
+            id="index-link"
+            ><i class="fas fa-arrow-right text-decoration-none"></i
+            ><span>Instagram</span></a
+          >
+        </div>
       </div>
-      <div class="col-6 text-end p-0">
-        <a href="mailto:hello@studio-ajot.de" target="_blank" id="index-link"><i
-            class="fas fa-arrow-right text-decoration-none"></i><span>Mail</span></a><br>
-        <a href="https://www.instagram.com/studio.ajot" target="_blank" id="index-link"><i
-            class=" fas fa-arrow-right text-decoration-none"></i><span>Instagram</span></a>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
-  <script src="assets/js/mainFunctions.js"></script>
-  <script src="assets/js/index/projectInformation.js"></script>
-  <script src="assets/js/index/index.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-  <script src="assets/js/flickity.pkgd.min.js"></script>
-  <script>
-    // setColor(0);
-    // handleCursor();
-    // if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    //   $('body').addClass('mobile-detect');
-    // } else {
-    //   $('body').removeClass('mobile-detect');
-    // }
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="assets/js/mainFunctions.js"></script>
+    <script src="assets/js/index/projectInformation.js"></script>
+    <script src="assets/js/index/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="assets/js/flickity.pkgd.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        handleCursor();
+        if (
+          /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+            navigator.userAgent
+          )
+        ) {
+          $("body").addClass("mobile-detect");
+        } else {
+          $("body").removeClass("mobile-detect");
+        }
+      });
 
-    $(document).ready(function () {
-      // setProjectDescription(0);
-      // setColor(0);
-      handleCursor();
-      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        $('body').addClass('mobile-detect');
-      } else {
-        $('body').removeClass('mobile-detect');
-      }
-    });
+      // --- Change cursor appearance when hover on navigation/header --- //
+      $(".slider_section").hover(
+        function () {
+          $(".cursor img").css("display", "block");
+        },
+        function () {
+          $(".cursor img, .cursor1").css("display", "none");
+        }
+      );
+      $("nav").hover(function () {
+        $(".cursor img, .cursor1").css("display", "none");
+      });
 
-    // --- Change cursor appearance when hover on navigation/header --- //
-    $('.slider_section').hover(function () {
-      $('.cursor img').css('display', 'block');
-    }, function () {
-      $('.cursor img, .cursor1').css('display', 'none');
-    });
+      // --- Open / close menu --- //
+      $(".toggle_menu").click(function () {
+        const indexOfImage = $(".main-carousel").flickity().data("flickity")
+          .selectedIndex;
+        toggleMenu();
+        if (menuIsOpen()) {
+          setColorInOpenMenu(indexOfImage);
+        } else {
+          setColorInClosedMenu(indexOfImage);
+        }
+      });
 
-
-    // --- Open / close menu --- //
-    $('.toggle_menu').click(function () {
-      const indexOfImage = $('.main-carousel').flickity().data('flickity').selectedIndex;
-      toggleMenu();
-      if (menuIsOpen()) {
-        setColorInOpenMenu(indexOfImage);
-      } else {
-        setColorInClosedMenu(indexOfImage)
-      }
-    });
-
-    $('.nav_section ul li a').click(function () {
-      closeMenu();
-    });
-
-    $(window).on('resize', function () {
-      if (menuIsOpen()) {
+      $(".nav_section ul li a").click(function () {
         closeMenu();
-        const indexOfImage = $('.main-carousel').flickity().data('flickity').selectedIndex;
-        setColorInClosedMenu(indexOfImage);
-      }
-    });
+      });
 
-    // --- Set flickity options --- //
-    $('.main-carousel').flickity({
-      wrapAround: true,
-      imagesLoaded: true,
-      lazyLoad: true,
-      lazyLoad: 3,
-    });
+      $(window).on("resize", function () {
+        if (menuIsOpen()) {
+          closeMenu();
+          const indexOfImage = $(".main-carousel").flickity().data("flickity")
+            .selectedIndex;
+          setColorInClosedMenu(indexOfImage);
+        }
+      });
 
-    // --- Change color of nav and footer according to changing image in the background--- //
-    $('.main-carousel').on('change.flickity', function (event, index) {
-      setProjectDescription(index);
-      setColor(index);
-      if (menuIsOpen()) {
-        setColorInOpenMenu(index);
-      }
-    });
-  </script>
-</body>
+      // --- Set flickity options --- //
+      $(".main-carousel").flickity({
+        wrapAround: true,
+        imagesLoaded: true,
+        lazyLoad: true,
+        lazyLoad: 3,
+      });
 
+      // --- Change color of nav and footer according to changing image in the background--- //
+      $(".main-carousel").on("change.flickity", function (event, index) {
+        setProjectDescription(index);
+        setColor(index);
+        if (menuIsOpen()) {
+          setColorInOpenMenu(index);
+        }
+      });
+    </script>
+  </body>
 </html>

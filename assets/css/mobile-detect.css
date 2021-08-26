@@ -1,7 +1,8 @@
 html .mobile-detect .cursor {
   display: none;
+  visibility: hidden;
 }
 
 .mobile-detect .flickity-prev-next-button {
-  display: none;
+  visibility: hidden;
 }
