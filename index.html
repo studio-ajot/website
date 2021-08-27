@@ -354,8 +354,14 @@
         y = event.clientY;
         if (x < $(window).width() / 2) {
           $(".main-carousel").flickity("previous");
+          if ($("body").hasClass("mobile-detect")) {
+            $(".cursor").css("display", "none");
+          }
         } else {
           $(".main-carousel").flickity("next");
+          if ($("body").hasClass("mobile-detect")) {
+            $(".cursor").css("display", "none");
+          }
         }
       });
 
