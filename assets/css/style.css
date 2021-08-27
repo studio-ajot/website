@@ -565,7 +565,6 @@ html .cursor {
 html.active .cursor {
   display: block;
 }
-
 /* ################################
 #           scrollbar             #
 #################################*/
