@@ -337,7 +337,7 @@ footer a span:focus {
   justify-content: center;
 }
 
-.slider_content {
+.flickity_img, .flickity_vid {
   position: absolute;
   top: 0;
   bottom: 0;
