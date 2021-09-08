@@ -92,35 +92,45 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 18:
       return {
+        accentColor: "#3AE6D9",
+        projectDescription: "Frauen*beratung Elmshorn \nInfo-Broschüre",
+      };
+    case 19:
+      return {
+        accentColor: "#3AE6D9",
+        projectDescription: "Frauen*beratung Elmshorn \nInfo-Broschüre",
+      };
+    case 20:
+      return {
         accentColor: "#FF4500",
         projectDescription: "Frauen*beratung Elmshorn \nEntwicklung einer Corporate Identity ",
       };
-    case 19:
+    case 21:
       return {
         accentColor: "#FF4500",
         projectDescription: "Frauen*beratung Elmshorn \nGestaltung von Social Media Templates",
       };
-    case 20:
-      return {
-        accentColor: "#EEEE00",
-        projectDescription: "Lose & Preserve – \nErinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
-      };
-    case 21:
-      return {
-        accentColor: "#EEEE00",
-        projectDescription: "Lose & Preserve – \nErinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
-      };
     case 22:
+      return {
+        accentColor: "#EEEE00",
+        projectDescription: "Lose & Preserve – \nErinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
+      };
+    case 23:
+      return {
+        accentColor: "#EEEE00",
+        projectDescription: "Lose & Preserve – \nErinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
+      };
+    case 24:
       return {
         accentColor: "#AFEEEE",
         projectDescription: "Testbild Zwei \nMascha Livanskaia \nKünstlerische Publikation",
       };
-    case 23:
+    case 25:
       return {
         accentColor: "#F63B08",
         projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
       };   
-     case 25:
+     case 26:
       return {
         accentColor: "#00FF00",
         projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
