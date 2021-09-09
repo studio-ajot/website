@@ -109,6 +109,10 @@ html {
   font-display: swap;
 }
 
+#index_html {
+  overflow-x: hidden;
+}
+
 html {
   padding: env(safe-area-inset);
 }
