@@ -64,85 +64,85 @@
   <div class="slider_section active">
     <div class="main-carousel">
       <div class="carousel-cell">
-        <img id="project-15-ultraviolett-cover" class="flickity_img" />
+        <img id="project-15-ultraviolett-cover" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-15-ultraviolett-innen" class="flickity_img" />
+        <img id="project-15-ultraviolett-innen" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-12-jecker-ultraviolett-plakat" class="flickity_img" />
+        <img id="project-12-jecker-ultraviolett-plakat" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-1-asepsis-cover" class="flickity_img" />
+        <img id="project-1-asepsis-cover" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-1-asepsis-uebersicht" class="flickity_img" />
+        <img id="project-1-asepsis-uebersicht" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-2-Karte_Studio-Ajot" class="flickity_img" />
+        <img id="project-2-Karte_Studio-Ajot" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-3-NP-Visitenkarten" class="flickity_img" />
+        <img id="project-3-NP-Visitenkarten" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-4-lmaa-cover" class="flickity_img" />
+        <img id="project-4-lmaa-cover" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-4-lmaa-innen" class="flickity_img" />
+        <img id="project-4-lmaa-innen" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-4-lmaa-aufgeschlagen" class="flickity_img" />
+        <img id="project-4-lmaa-aufgeschlagen" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-5-Calendarium-luminis" class="flickity_img" />
+        <img id="project-5-Calendarium-luminis" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-5-Calendarium-luminis-detail" class="flickity_img" />
+        <img id="project-5-Calendarium-luminis-detail" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-6-reset" class="flickity_img" />
+        <img id="project-6-reset" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-6-reset-template" class="flickity_img" />
+        <img id="project-6-reset-template" class="flickity_img fullMobileHeight" />
       </div>
       <!-- <div class="carousel-cell">
-        <img id="project-7-DiCoT-poster" class="flickity_img" />
+        <img id="project-7-DiCoT-poster" class="flickity_img fullMobileHeight" />
       </div> -->
       <div class="carousel-cell">
-        <video autoplay loop muted playsinline id="dicot" class="flickity_vid"></video>
+        <video autoplay loop muted playsinline id="dicot" class="flickity_vid fullMobileHeight"></video>
       </div>
       <div class="carousel-cell">
-        <img id="project-8-parasite-cover" class="flickity_img" />
+        <img id="project-8-parasite-cover" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-8-parasite-innen" class="flickity_img" />
+        <img id="project-8-parasite-innen" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-10-diversity" class="flickity_img" />
+        <img id="project-10-diversity" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-11-fbe-flyer-1" class="flickity_img" />
+        <img id="project-11-fbe-flyer-1" class="flickity_img fullMobileHeight" />
       </div>
-       <div class="carousel-cell">
-        <img id="project-11-fbe-flyer-2" class="flickity_img" />
+      <div class="carousel-cell">
+        <img id="project-11-fbe-flyer-2" class="flickity_img fullMobileHeight" />
       </div>
       <!-- <div class="carousel-cell">
-        <img id="project-11-FBE-poster" class="flickity_img" />
+        <img id="project-11-FBE-poster" class="flickity_img fullMobileHeight" />
       </div> -->
       <div class="carousel-cell">
-        <video autoplay loop muted playsinline  id="fbe" class="flickity_vid"></video>
+        <video autoplay loop muted playsinline id="fbe" class="flickity_vid fullMobileHeight"></video>
       </div>
       <div class="carousel-cell">
-        <img id="project-11-fbe-template" class="flickity_img" />
+        <img id="project-11-fbe-template" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-13-lap-cover" class="flickity_img" />
+        <img id="project-13-lap-cover" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-13-lap-detail" class="flickity_img" />
+        <img id="project-13-lap-detail" class="flickity_img fullMobileHeight" />
       </div>
       <div class="carousel-cell">
-        <img id="project-14-testbild" class="flickity_img" />
+        <img id="project-14-testbild" class="flickity_img fullMobileHeight" />
       </div>
     </div>
     <div class="cursor">
@@ -215,6 +215,9 @@
           imagePrefix + imageName + mediaPostfix + ".jpg"
         );
       });
+
+      // --- Normalize vh unit--- //
+      document.documentElement.style.setProperty('--vh', `${window.innerHeight / 100}px`);
     });
 
     // --- Change cursor appearance when hover on navigation/header --- //
@@ -247,6 +250,7 @@
     });
 
     $(window).on("resize", function () {
+      document.documentElement.style.setProperty('--vh', `${window.innerHeight / 100}px`);
       if (menuIsOpen()) {
         closeMenu();
         const indexOfImage = $(".main-carousel").flickity().data("flickity")
