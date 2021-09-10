@@ -109,6 +109,10 @@ html {
   font-display: swap;
 }
 
+#index_html {
+  overflow-x: hidden;
+}
+
 html {
   padding: env(safe-area-inset);
 }
@@ -314,38 +318,23 @@ footer a span:focus {
   top: 100%;
   width: 100vw;
   min-width: 100vw;
-  height: 100vh;
-  min-height: 100vh;
-  /* transition: all ease 0.4s;
-  -webkit-transition: all ease 0.4s;
-  -moz-transition: all ease 0.4s;
-  -ms-transition: all ease 0.4s;
-  -o-transition: all ease 0.4s; */
 }
 
 .slider_section.active {
   top: 0;
   cursor: none;
 }
+
 .slider_section .carousel-cell {
-  min-height: 100vh;
-  min-width: 100vw;
-  height: 100vh;
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.flickity_img, .flickity_vid {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+.flickity_img,
+.flickity_vid {
   min-height: 100vh;
+  width: 100vw;
   min-width: 100vw;
   object-fit: cover;
 }
