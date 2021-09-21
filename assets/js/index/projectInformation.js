@@ -37,17 +37,17 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 7:
       return {
-        accentColor: "#CD0000",
+        accentColor: "#CEFFEE",
         projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 8:
       return {
-        accentColor: "#CD0000",
+        accentColor: "#CEFFEE",
         projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 9:
       return {
-        accentColor: "#CD0000",
+        accentColor: "#CEFFEE",
         projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 10:
