@@ -92,12 +92,12 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 18:
       return {
-        accentColor: "#0058FF",
+        accentColor: "##FF0000",
         projectDescription: "Frauen*beratung Elmshorn \nInfo-Broschüre",
       };
     case 19:
       return {
-        accentColor: "#0058FF",
+        accentColor: "##FF0000",
         projectDescription: "Frauen*beratung Elmshorn \nInfo-Broschüre",
       };
     case 20:
