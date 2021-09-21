@@ -87,7 +87,7 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 17:
       return {
-        accentColor: "#006400",
+        accentColor: "#95FD91",
         projectDescription: "Div*erse Typ_en \nPlakatgestaltung",
       };
     case 18:
