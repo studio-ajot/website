@@ -92,12 +92,12 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 18:
       return {
-        accentColor: "###FF0A0A",
+        accentColor: "#FF0000",
         projectDescription: "Frauen*beratung Elmshorn \nInfo-Broschüre",
       };
     case 19:
       return {
-        accentColor: "###FF0A0A",
+        accentColor: "#FF0000",
         projectDescription: "Frauen*beratung Elmshorn \nInfo-Broschüre",
       };
     case 20:
@@ -107,7 +107,7 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 21:
       return {
-        accentColor: "#FF4500",
+        accentColor: "#FF0000",
         projectDescription: "Frauen*beratung Elmshorn \nGestaltung von Social Media Templates",
       };
     case 22:
