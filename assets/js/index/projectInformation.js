@@ -17,12 +17,12 @@ const getProjectInformation = (indexOfImage) => {
       };      
     case 3:
       return {
-        accentColor: "#F41145",
+        accentColor: "#FFA700",
         projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
       };
     case 4:
       return {
-        accentColor: "#F41145",
+        accentColor: "#FFA700",
         projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
       };      
     case 5:
