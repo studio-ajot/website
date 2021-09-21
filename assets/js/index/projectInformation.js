@@ -102,7 +102,7 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 20:
       return {
-        accentColor: "#FF4500",
+        accentColor: "#FF0000",
         projectDescription: "Frauen*beratung Elmshorn \nEntwicklung einer Corporate Identity ",
       };
     case 21:
