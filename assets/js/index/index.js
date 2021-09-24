@@ -67,9 +67,21 @@ function setColorInClosedMenu(indexOfImage) {
   $("nav").css({ "background-color": "transparent" });
 }
 
-// --- Dynamically set project text --- //
+// --- Dynamically set project description text --- //
 function setProjectDescription(indexOfImage) {
-  $("#project-description").text(
+  $("#project-description-text").text(
     getProjectInformation(indexOfImage).projectDescription
+  );
+}
+
+// --- Dynamically set project index text --- //
+function setProjectIndex(indexOfImage, numberOfSlides) {
+  var leadingZero = "";
+  if (indexOfImage + 1 < 10) {
+    leadingZero = "0";
+  }
+  console.log(numberOfSlides);
+  $("#project-index").text(
+    leadingZero + (indexOfImage + 1) + "/" + numberOfSlides
   );
 }

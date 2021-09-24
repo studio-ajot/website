@@ -150,7 +150,9 @@
     </div>
   </div>
   <!-- Initial project description -->
-  <div id="project-description" class="project-description copy-1">Ultraviolett – Flurin Jecker<br />Haymon Verlag<br />Covergestaltung</div>
+  <div id="project-description" class="project-description copy-1"><span
+      id="project-index">01/25</span><br /><br /><span id="project-description-text">Ultraviolett – Flurin Jecker<br />Haymon Verlag<br />Covergestaltung</span>
+  </div>
   <!-- Footer -->
   <footer class="fixed-bottom bottom" id="index-footer">
     <div class="row g-0">
@@ -283,9 +285,12 @@
       }
     });
 
+    
     // --- Change color of nav and footer according to changing image in the background --- //
+    var numberOfProjects = $('.main-carousel').flickity().data('flickity').slides.length;
     $(".main-carousel").on("change.flickity", function (event, index) {
       setProjectDescription(index);
+      setProjectIndex(index, numberOfProjects);
       setColor(index);
       if (menuIsOpen()) {
         setColorInOpenMenu(index);
