@@ -129,17 +129,7 @@ const getProjectInformation = (indexOfImage) => {
       return {
         accentColor: "#AFEEEE",
         projectDescription: "Testbild Zwei \nMascha Livanskaia \nKünstlerische Publikation",
-      };
-    case 26:
-      return {
-        accentColor: "#F63B08",
-        projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
-      };   
-     case 27:
-      return {
-        accentColor: "#00FF00",
-        projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
-      };     
+      };    
     default:
       return {
         accentColor: "black",
