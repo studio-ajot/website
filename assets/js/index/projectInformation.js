@@ -55,12 +55,12 @@ const getProjectInformation = (indexOfImage) => {
         accentColor: "#CEFFEE",
         projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
-    case 12:
+    case 11:
       return {
         accentColor: "#ffc125",
         projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
       };
-    case 13:
+    case 12:
       return {
         accentColor: "#ffc125",
         projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
