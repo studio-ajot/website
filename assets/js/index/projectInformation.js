@@ -17,12 +17,12 @@ const getProjectInformation = (indexOfImage) => {
       };  
      case 3:
       return {
-        accentColor: "#7FFFD4",
+        accentColor: "#FF00A7",
         projectDescription: "MFA21.My Favourite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
       };   
     case 4:
       return {
-        accentColor: "#7FFFD4",
+        accentColor: "#FF00A7",
         projectDescription: "MFA21.My Favourite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
       };        
     case 5:
