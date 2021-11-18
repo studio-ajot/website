@@ -8,7 +8,7 @@ const getProjectInformation = (indexOfImage) => {
     case 1:
       return {
         accentColor: "#76EEC6",
-        projectDescription: "MFA21 – Flurin Jecker \nHaymon Verlag \nFlyergestaltung",
+        projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nCovergestaltung",
       };
     case 2:
       return {
@@ -18,12 +18,12 @@ const getProjectInformation = (indexOfImage) => {
      case 3:
       return {
         accentColor: "#7FFFD4",
-        projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nPlakatgestaltung",
+        projectDescription: "MFA21 \nMuthesius Kunsthochschule \nAusstellungsflyer",
       };   
     case 4:
       return {
         accentColor: "#7FFFD4",
-        projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nPlakatgestaltung",
+        projectDescription: "MFA21 \nMuthesius Kunsthochschule \nAusstellungsflyer",
       };        
     case 5:
       return {
