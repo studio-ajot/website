@@ -1,39 +1,43 @@
 nav,
 footer,
-.flexer {
+.menu_points {
   background-color: transparent;
 }
 
-footer *,
-#index-link {
+footer * {
   text-decoration-color: #76eec6;
 }
 
-.toggle_menu #icon,
+.burger_menu #icon,
 #icon2,
-#icon3 {
+#icon3,
+.accent_bg,
+.flickity-page-dots .dot {
   background-color: #76eec6;
 }
 
 #index-nav {
   border-bottom: 1px solid #76eec6;
-  border-top: 1px solid transparent;
+  border-top: 1px solid #76eec6;
 }
 
 #index-footer {
   border-top: 1px solid #76eec6;
+  border-bottom: 1px solid #76eec6;
+}
+
+.menu_points {
   border-bottom: 0;
 }
 
-.flexer {
-  border-bottom: 0;
-}
-
-nav *,
+nav,
 footer *,
-.info,
-#slider_click,
+#website_title,
 footer,
-.project-description {
+.accent_text {
   color: #76eec6;
+}
+
+.accent_border {
+  border-color: #76eec6;
 }
