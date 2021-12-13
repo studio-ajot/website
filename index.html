@@ -84,12 +84,12 @@
       <div class="carousel-cell">
         <img id="project-17-mfa-flyer" class="flickity_img fullMobileHeight" />
         <div class="project-description-wrapper"></div>
-      </div>     
+      </div>
       <div class="carousel-cell">
         <img id="project-17-mfa-poster" class="flickity_img fullMobileHeight" />
         <div class="project-description-wrapper"></div>
-      </div>        
-       <div class="carousel-cell">
+      </div>
+      <div class="carousel-cell">
         <img id="project-16-dayoff-logo" class="flickity_img fullMobileHeight" />
         <div class="project-description-wrapper"></div>
       </div>
@@ -363,16 +363,13 @@
           $(".cursor").css("display", "none");
         }
       }
-
-      giveSelectedDotRightBackground();
-
-
     });
 
     // --- Change color of nav and footer according to changing image in the background --- //
     var numberOfProjects = $('.main-carousel').flickity().data('flickity').slides.length;
     $(".main-carousel").on("change.flickity", function (event, index) {
       setColor(index);
+      giveSelectedDotRightBackground();
       if (menuIsOpen()) {
         setColorInOpenMenu(index);
       }
