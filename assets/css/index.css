@@ -12,6 +12,7 @@ footer * {
 #icon2,
 #icon3,
 .accent_bg,
+.project-description-button,
 .flickity-page-dots .dot {
   background-color: #76eec6;
 }
@@ -34,10 +35,18 @@ nav,
 footer *,
 #website_title,
 footer,
-.accent_text {
+.accent_text,
+.nav_menu_button:hover .index-link,
+.nav_menu_button:focus .index-link {
   color: #76eec6;
 }
 
 .accent_border {
   border-color: #76eec6;
+}
+
+.nav_menu_button:hover,
+.nav_menu_button:focus {
+  background-color: white;
+  border: 1px solid white;
 }

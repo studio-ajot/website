@@ -12,7 +12,7 @@ function setColorInOpenMenu(accentColor) {
     color: accentColor,
   });
 
-  $(".nav_section, footer").css({
+  $(".nav_section .nav_row, footer").css({
     "border-top": `1px solid white`,
     "border-bottom": `1px solid white`,
     color: `white`,
@@ -57,6 +57,11 @@ function setColorInClosedMenu(accentColor) {
     "border-bottom": `1px solid ${accentColor}`,
     color: accentColor,
   });
+
+  $(".nav_section .nav_row").css({
+    "border-bottom": `0px`,
+    "border-top": `0px`,
+  });
   $(".burger_menu .icon, .icon2, .icon3").css({
     "background-color": accentColor,
   });
@@ -64,14 +69,14 @@ function setColorInClosedMenu(accentColor) {
   $("#website_title, #subtitle, footer *").css({ color: accentColor });
 
   $(".nav_menu_button").mouseover(function () {
-    $(this).css("background-color", accentColor);
-    $(".index-link", this).css("color", "white");
-    $(this).css("border", "1px solid transparent");
+    $(this).css("background-color", "white");
+    $(".index-link", this).css("color", accentColor);
+    $(this).css("border", `1px solid ${accentColor}`);
   });
   $(".nav_menu_button").mouseout(function () {
     $(this).css("background-color", accentColor);
     $(".index-link", this).css("color", "white");
-    $(this).css("border", "1px solid transparent");
+    $(this).css("border", `1px solid white`);
   });
 
   $("main").css("visibility", "visible");

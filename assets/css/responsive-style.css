@@ -5,10 +5,10 @@
 }
 
 /* ################################
-#       1300px breakpoint         #
+#       1200px breakpoint         #
 #################################*/
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
   .burger_menu {
     display: block;
     z-index: 30;
@@ -100,6 +100,13 @@
     display: block;
   }
 
+  /* ################################
+#        project-description      #
+#################################*/
+  .project-description {
+    width: calc(100% - 40px);
+  }
+
   /* ##################################
     #        padding on mobile        #
     #################################*/
@@ -119,6 +126,11 @@
 
   .info_box .text-box {
     padding: 20px 20px;
+  }
+
+  .nav_section .menu_points.active {
+    padding: 15px 20px;
+    padding-top: 110px;
   }
 
   /* ################################

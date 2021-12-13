@@ -234,8 +234,8 @@ img {
 }
 
 .index-link {
-  text-decoration-color: white;
-  /* color: white; */
+  text-decoration: none;
+  color: white;
 }
 
 .nav_menu_button {
@@ -246,12 +246,18 @@ img {
   text-align: center;
   margin-left: 10px;
   border: 1px solid transparent;
+  color: white;
 }
 
 .nav_menu_button:hover,
 .nav_menu_button:focus {
-  text-decoration: underline;
-  text-decoration-color: white;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid black;
+}
+.nav_menu_button:hover .index-link,
+.nav_menu_button:focus .index-link {
+  color: black;
 }
 
 #subtitle {
@@ -267,6 +273,7 @@ img {
   align-items: center;
   justify-content: flex-end;
   margin-right: 20px;
+  text-decoration: none;
 }
 
 /* ################################
@@ -346,17 +353,23 @@ img {
 #################################*/
 .main-content {
   min-height: 100vh !important;
-  padding-top: 100px;
+  padding-top: 86px;
   padding-bottom: 87px;
 }
 
 /* ################################
 #        project-description      #
 #################################*/
-.project-description {
+/*mobile style in mobile-detect.css */
+
+.project-description-wrapper {
   position: absolute;
-  bottom: 105px;
+  bottom: 115px;
   left: 0;
+}
+
+.project-description {
+  margin-top: 10px;
   margin-left: 30px;
   margin-right: 30px;
   white-space: pre-wrap;
@@ -366,6 +379,9 @@ img {
   color: white;
   padding: 20px 30px;
   width: auto;
+}
+.project-description-button {
+  display: none;
 }
 
 /* ################################
@@ -605,20 +621,8 @@ footer a i {
 /* ################################
 #    flickity dots / progressbar  #
 #################################*/
+/* style in mobile-detect.css */
 
 .flickity-page-dots {
-  bottom: 80px;
-  z-index: 50;
-}
-/* dots are lines */
-.flickity-page-dots .dot {
-  height: 20px;
-  width: 20px;
-  margin: 0;
-  border-radius: 0;
-  background-color: white;
-}
-
-.flickity-page-dots .dot.is-selected {
-  border-radius: 100%;
+  display: none;
 }

@@ -6,3 +6,78 @@ html .mobile-detect .cursor {
 .mobile-detect {
   cursor: none !important;
 }
+
+.mobile-detect .project-description-button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  color: white;
+  width: 40px;
+  height: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mobile-detect .project-description {
+  width: calc(100vw - 40px);
+}
+
+.mobile-detect .project-description-wrapper {
+  display: none;
+  position: absolute;
+  left: 0;
+}
+
+.mobile-detect .project-description {
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.mobile-detect .project-description-wrapper.hide .project-description {
+  opacity: 0;
+}
+
+/* ################################
+#    flickity dots / progressbar  #
+#################################*/
+
+.mobile-detect .flickity-page-dots {
+  display: block;
+  bottom: 91px;
+  z-index: 10;
+  pointer-events: none;
+}
+/* dots are lines */
+.mobile-detect .flickity-page-dots .dot {
+  height: 8px;
+  width: 0px;
+  margin: 0;
+  border-radius: 0;
+  position: relative;
+}
+
+.mobile-detect .flickity-page-dots .dot.is-selected {
+  border-radius: 100%;
+}
+
+.mobile-detect .flickity-page-dots .dot.is-selected .selected-dot-background {
+  border-radius: 0;
+  opacity: 0.25;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mobile-detect .flickity-page-dots .dot:last-of-type,
+.mobile-detect .flickity-page-dots .dot:last-of-type .selected-dot-background {
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+.mobile-detect .flickity-page-dots .dot:first-of-type,
+.mobile-detect .flickity-page-dots .dot:first-of-type .selected-dot-background {
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
