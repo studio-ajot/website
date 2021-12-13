@@ -354,7 +354,7 @@ img {
 .main-content {
   min-height: 100vh !important;
   padding-top: 86px;
-  padding-bottom: 87px;
+  padding-bottom: 80px;
 }
 
 /* ################################
@@ -616,6 +616,10 @@ footer a i {
   font-size: 17px;
   margin-right: 15px;
   text-decoration: none !important;
+}
+
+.footer-link {
+  color: black;
 }
 
 /* ################################
