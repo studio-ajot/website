@@ -15,117 +15,132 @@ const getProjectInformation = (indexOfImage) => {
         accentColor: "#7FFFD4",
         projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nPlakatgestaltung",
       };  
-    case 3:
+     case 3:
+      return {
+        accentColor: "#FF00A7",
+        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
+      };   
+    case 4:
+      return {
+        accentColor: "#FF00A7",
+        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
+      };   
+    case 5:
+      return {
+        accentColor: "#FF00A7",
+        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nPostergestaltung",
+      };           
+    case 6:
       return {
         accentColor: "#F41649",
         projectDescription: "DayOff \nLogoentwicklung",
       };      
-    case 4:
+    case 7:
       return {
         accentColor: "#F41649",
         projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
       };
-    case 5:
+    case 8:
       return {
         accentColor: "#F41649",
         projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
       };      
-    case 6:
+    case 9:
       return {
         accentColor: "#FD009C",
         projectDescription: "Hallo! \nStudio Ajot \nPostkartengestaltung",
       };
-    case 7:
+    case 10:
       return {
         accentColor: "#CDCD00",
         projectDescription: "Northport \nMarkenbecker \nEntwicklung der Geschäftsausstattung",
       };
-    case 8:
-      return {
-        accentColor: "#CEFFEE",
-        projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
-      };
-    case 9:
-      return {
-        accentColor: "#CEFFEE",
-        projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
-      };
-    case 10:
-      return {
-        accentColor: "#CEFFEE",
-        projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
-      };
     case 11:
       return {
-        accentColor: "#ffc125",
-        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
+        accentColor: "#CEFFEE",
+        projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 12:
       return {
+        accentColor: "#CEFFEE",
+        projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
+      };
+    case 13:
+      return {
+        accentColor: "#CEFFEE",
+        projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
+      };
+    case 14:
+      return {
         accentColor: "#ffc125",
         projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
       };
-    case 13:
+    case 15:
+      return {
+        accentColor: "#ffc125",
+        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
+      };
+    case 16:
       return {
         accentColor: "#F41649",
         projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
       };
-    case 14:
+    case 17:
       return {
         accentColor: "#F41649",
         projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nGestaltung von Social Media Templates",
       };
-    case 15:
+    case 18:
       return {
         accentColor: "#3A5FCD",
         projectDescription: "DiCoT \nUniversität Hamburg \nLogoentwicklung",
       };
-    case 16:
+    case 19:
       return {
         accentColor: "#FFEFD5",
         projectDescription: "Parasite – Food Objects \nAnastasia Marx \nBuchgestaltung",
       };
-    case 17:
+    case 20:
       return {
         accentColor: "#FFEFD5",
         projectDescription: "Parasite – Food Objects \nAnastasia Marx \nBuchgestaltung",
       };
-    case 18:
+    case 21:
       return {
         accentColor: "#95FD91",
         projectDescription: "Div*erse Typ_en \nPlakatgestaltung",
       };
-    case 19:
+    case 22:
       return {
         accentColor: "#FF0000",
         projectDescription: "Frauen*beratung Elmshorn \nInfo-Broschüre",
       };
-    case 20:
+    case 23:
       return {
         accentColor: "#FF0000",
         projectDescription: "Frauen*beratung Elmshorn \nInfo-Broschüre",
       };
-    case 21:
+    case 24:
       return {
         accentColor: "#FF0000",
         projectDescription: "Frauen*beratung Elmshorn \nEntwicklung einer Corporate Identity ",
       };
-    case 22:
+    case 25:
       return {
         accentColor: "#FF0000",
         projectDescription: "Frauen*beratung Elmshorn \nGestaltung von Social Media Templates",
       };
-    case 23:
+    case 26:
       return {
         accentColor: "#EEEE00",
         projectDescription: "Lose & Preserve – \nErinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
       };
-    case 24:
+    case 27:
       return {
         accentColor: "#EEEE00",
         projectDescription: "Lose & Preserve – \nErinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
       };
-    case 25:
+    case 28:
       return {
         accentColor: "#AFEEEE",
         projectDescription: "Testbild Zwei \nMascha Livanskaia \nKünstlerische Publikation",
