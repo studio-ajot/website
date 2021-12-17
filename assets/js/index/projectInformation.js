@@ -57,7 +57,7 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 11:
       return {
-        accentColor: "#FFEFD5",
+        accentColor: "#A29582",
         projectDescription: "Hoppe Gebäudetechnik \nMarkenbecker \nLogogestaltung",
       };
     case 12:
