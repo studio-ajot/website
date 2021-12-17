@@ -57,6 +57,12 @@ function setColor(indexOfImage) {
   });
   // cursor
   $(".cursor").css({ fill: accentColor });
+
+  // --- Mobile page dots / progress bar: selected dot needs transparent background --- //
+  $(".selected-dot-background").remove();
+  var clone = $(".mobile-detect .flickity-page-dots .dot.is-selected").clone();
+  clone.addClass("selected-dot-background");
+  $(".mobile-detect .flickity-page-dots .dot.is-selected").append(clone);
 }
 // open menu
 function setColorInOpenMenu(indexOfImage) {
@@ -182,3 +188,4 @@ function giveSelectedDotRightBackground() {
   clone.addClass("selected-dot-background");
   $(".mobile-detect .flickity-page-dots .dot.is-selected").append(clone);
 }
+

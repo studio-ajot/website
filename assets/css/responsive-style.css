@@ -15,18 +15,16 @@
     animation: b 2s ease-in;
   }
 
-  .main-content {
-    min-height: 100vh !important;
-    padding-top: 80px;
-    padding-bottom: 87px;
-  }
-
   .nav_section {
     height: 80px;
   }
 
   .nav_section .menu_points {
     display: none;
+  }
+
+  .mobile-detect .project-description {
+    width: calc(100vw - 60px);
   }
 
   /* ################################
@@ -74,6 +72,10 @@
     width: 100%;
     text-decoration: none;
   }
+
+  .mobile-detect .flickity-page-dots .dot {
+    bottom: 143px;
+  }
 }
 
 /* ################################
@@ -100,16 +102,12 @@
     display: block;
   }
 
-  /* ################################
-#        project-description      #
-#################################*/
-  .project-description {
-    width: calc(100% - 40px);
+  /* #################################
+  #        padding on mobile        #
+  #################################*/
+  .mobile-detect .project-description {
+    width: calc(100vw - 40px);
   }
-
-  /* ##################################
-    #        padding on mobile        #
-    #################################*/
 
   .site-padding-x {
     padding-left: 20px;
@@ -131,6 +129,10 @@
   .nav_section .menu_points.active {
     padding: 15px 20px;
     padding-top: 110px;
+  }
+
+  .mobile-detect .flickity-page-dots .dot {
+    bottom: 113px;
   }
 
   /* ################################

@@ -65,22 +65,23 @@
         <div class="project-description-wrapper hide">
           <div class="project-description-button">+</div>
           <div class="project-description"><span id="project-description-count">01/29</span><br /><span
-              id="project-description-text">MFA21.My Favorite Acronym<br />Muthesius Kunsthochschule<br />Postergestaltung</span>
+              id="project-description-text">MFA21.My Favorite Acronym<br />Muthesius
+              Kunsthochschule<br />Postergestaltung</span>
           </div>
         </div>
       </div>
       <div class="carousel-cell">
         <img id="project-17-mfa-flyer-cover" class="flickity_img fullMobileHeight" />
         <div class="project-description-wrapper"></div>
-      </div>     
+      </div>
       <div class="carousel-cell">
         <img id="project-17-mfa-flyer" class="flickity_img fullMobileHeight" />
         <div class="project-description-wrapper"></div>
-      </div>        
-       <div class="carousel-cell">
+      </div>
+      <div class="carousel-cell">
         <img id="project-16-dayoff-logo" class="flickity_img fullMobileHeight" />
         <div class="project-description-wrapper"></div>
-      </div> 
+      </div>
       <div class="carousel-cell">
         <img id="project-15-ultraviolett-cover" class="flickity_img fullMobileHeight" />
         <div class="project-description-wrapper"></div>
@@ -96,7 +97,7 @@
       <div class="carousel-cell">
         <img id="project-3-ur-tuerschild" class="flickity_img fullMobileHeight" />
         <div class="project-description-wrapper"></div>
-      </div>      
+      </div>
       <div class="carousel-cell">
         <img id="project-1-asepsis-cover" class="flickity_img fullMobileHeight" />
         <div class="project-description-wrapper"></div>
@@ -112,7 +113,7 @@
       <div class="carousel-cell">
         <img id="project-14-hoppe-logo" class="flickity_img fullMobileHeight" />
         <div class="project-description-wrapper"></div>
-      </div>       
+      </div>
       <div class="carousel-cell">
         <img id="project-4-lmaa-cover" class="flickity_img fullMobileHeight" />
         <div class="project-description-wrapper"></div>
@@ -268,7 +269,12 @@
       });
       $(".project-description-wrapper").css("transition", "all 0.5s");
       // --- Initialize mobile progress bar / flickity page dots --- //
-      $(".flickity-page-dots .dot").css("width", `calc((100vw - 40px) / ${numberOfProjects}`);
+      if (window.matchMedia("(max-width: 1200px)").matches) {
+        $(".flickity-page-dots .dot").css("width", `calc((100vw - 60px) / ${numberOfProjects}`);
+      }
+      if (window.matchMedia("(max-width: 991px)").matches) {
+        $(".flickity-page-dots .dot").css("width", `calc((100vw - 40px) / ${numberOfProjects}`);
+      }
       giveSelectedDotRightBackground();
 
 
@@ -364,7 +370,6 @@
     var numberOfProjects = $('.main-carousel').flickity().data('flickity').slides.length;
     $(".main-carousel").on("change.flickity", function (event, index) {
       setColor(index);
-      giveSelectedDotRightBackground();
       if (menuIsOpen()) {
         setColorInOpenMenu(index);
       }
