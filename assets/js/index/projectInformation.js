@@ -1,64 +1,64 @@
 const getProjectInformation = (indexOfImage) => {
   switch (indexOfImage) {
-    case 0:
+     case 0:
       return {
-        accentColor: "#76EEC6",
-        projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nCovergestaltung",
-      };
+        accentColor: "#FF00A7",
+        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nPostergestaltung",
+      };   
     case 1:
       return {
+        accentColor: "#FF00A7",
+        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
+      };   
+    case 2:
+      return {
+        accentColor: "#FF00A7",
+        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
+      };  
+     case 3:
+      return {
+        accentColor: "#F41649",
+        projectDescription: "DayOff \nLogoentwicklung",
+      };            
+    case 4:
+      return {
         accentColor: "#76EEC6",
         projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nCovergestaltung",
       };
-    case 2:
+    case 5:
+      return {
+        accentColor: "#76EEC6",
+        projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nCovergestaltung",
+      };
+    case 6:
       return {
         accentColor: "#7FFFD4",
         projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nPlakatgestaltung",
       };  
-     case 3:
-      return {
-        accentColor: "#FF00A7",
-        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
-      };   
-    case 4:
-      return {
-        accentColor: "#FF00A7",
-        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
-      };   
-    case 5:
-      return {
-        accentColor: "#FF00A7",
-        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nPostergestaltung",
-      };           
-    case 6:
-      return {
-        accentColor: "#F41649",
-        projectDescription: "DayOff \nLogoentwicklung",
-      };      
     case 7:
       return {
-        accentColor: "#F41649",
-        projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
-      };
+        accentColor: "#CDCD00",
+        projectDescription: "Naturheilpraxis Ulrike Röske \nLogogestaltung",
+      };         
     case 8:
       return {
         accentColor: "#F41649",
         projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
-      };      
+      };
     case 9:
+      return {
+        accentColor: "#F41649",
+        projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
+      };      
+    case 10:
       return {
         accentColor: "#FD009C",
         projectDescription: "Hallo! \nStudio Ajot \nPostkartengestaltung",
       };
-    case 10:
-      return {
-        accentColor: "#CDCD00",
-        projectDescription: "Northport \nMarkenbecker \nEntwicklung der Geschäftsausstattung",
-      };
     case 11:
       return {
-        accentColor: "#CEFFEE",
-        projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
+        accentColor: "#FFEFD5",
+        projectDescription: "Hoppe Gebäudetechnik \nMarkenbecker \nLogogestaltung",
       };
     case 12:
       return {
@@ -72,8 +72,8 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 14:
       return {
-        accentColor: "#ffc125",
-        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
+        accentColor: "#CEFFEE",
+        projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 15:
       return {
@@ -82,29 +82,30 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 16:
       return {
-        accentColor: "#F41649",
-        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
+        accentColor: "#ffc125",
+        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
       };
     case 17:
       return {
         accentColor: "#F41649",
-        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nGestaltung von Social Media Templates",
+        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
       };
     case 18:
       return {
-        accentColor: "#3A5FCD",
-        projectDescription: "DiCoT \nUniversität Hamburg \nLogoentwicklung",
+        accentColor: "#F41649",
+        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nGestaltung von Social Media Templates",
       };
     case 19:
       return {
-        accentColor: "#FFEFD5",
-        projectDescription: "Parasite – Food Objects \nAnastasia Marx \nBuchgestaltung",
+        accentColor: "#3A5FCD",
+        projectDescription: "DiCoT \nUniversität Hamburg \nLogoentwicklung",
       };
     case 20:
       return {
         accentColor: "#FFEFD5",
         projectDescription: "Parasite – Food Objects \nAnastasia Marx \nBuchgestaltung",
       };
+
     case 21:
       return {
         accentColor: "#95FD91",
@@ -140,11 +141,6 @@ const getProjectInformation = (indexOfImage) => {
         accentColor: "#EEEE00",
         projectDescription: "Lose & Preserve – \nErinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
       };
-    case 28:
-      return {
-        accentColor: "#AFEEEE",
-        projectDescription: "Testbild Zwei \nMascha Livanskaia \nKünstlerische Publikation",
-      };    
     default:
       return {
         accentColor: "black",
