@@ -364,7 +364,6 @@
     var numberOfProjects = $('.main-carousel').flickity().data('flickity').slides.length;
     $(".main-carousel").on("change.flickity", function (event, index) {
       setColor(index);
-      giveSelectedDotRightBackground();
       if (menuIsOpen()) {
         setColorInOpenMenu(index);
       }

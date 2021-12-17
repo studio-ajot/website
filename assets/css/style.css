@@ -349,15 +349,6 @@ img {
 }
 
 /* ################################
-#          main_content           #
-#################################*/
-.main-content {
-  min-height: 100vh !important;
-  padding-top: 86px;
-  padding-bottom: 80px;
-}
-
-/* ################################
 #        project-description      #
 #################################*/
 /*mobile style in mobile-detect.css */
@@ -393,6 +384,7 @@ img {
   top: 100%;
   width: 100vw;
   min-width: 100vw;
+  height: calc(100vh);
 }
 
 .slider_section.active {
@@ -425,10 +417,6 @@ img {
 #################################*/
 .flickity-prev-next-button {
   display: none;
-}
-
-.flickity-page-dots {
-  /* display: none; */
 }
 
 .flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
@@ -503,11 +491,6 @@ img {
   padding: 30px;
   word-wrap: break-word;
   /* position: relative; */
-}
-
-/*--- footer ---*/
-.footer-wrapper {
-  position: relative;
 }
 
 .info_box .bottom {
@@ -616,7 +599,6 @@ footer a i {
 #    flickity dots / progressbar  #
 #################################*/
 /* style in mobile-detect.css */
-
 .flickity-page-dots {
   display: none;
 }

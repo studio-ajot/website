@@ -15,18 +15,16 @@
     animation: b 2s ease-in;
   }
 
-  .main-content {
-    min-height: 100vh !important;
-    padding-top: 80px;
-    padding-bottom: 87px;
-  }
-
   .nav_section {
     height: 80px;
   }
 
   .nav_section .menu_points {
     display: none;
+  }
+
+  .mobile-detect .project-description {
+    width: calc(100vw - 60px);
   }
 
   /* ################################
@@ -100,16 +98,12 @@
     display: block;
   }
 
-  /* ################################
-#        project-description      #
+/* #################################
+#        padding on mobile        #
 #################################*/
   .project-description {
     width: calc(100% - 40px);
   }
-
-  /* ##################################
-    #        padding on mobile        #
-    #################################*/
 
   .site-padding-x {
     padding-left: 20px;
