@@ -1,39 +1,56 @@
 nav,
 footer,
-.flexer {
+.menu_points {
   background-color: transparent;
 }
 
-footer *,
-#index-link {
-  text-decoration-color: #76eec6;
+footer * {
+  text-decoration-color: #FF00A7;
 }
 
-.toggle_menu #icon,
+.burger_menu #icon,
 #icon2,
-#icon3 {
-  background-color: #76eec6;
+#icon3,
+.accent_bg,
+.project-description-button,
+.flickity-page-dots .dot {
+  background-color: #FF00A7;
 }
 
 #index-nav {
-  border-bottom: 1px solid #76eec6;
-  border-top: 1px solid transparent;
+  border-bottom: 1px solid #FF00A7;
+  border-top: 1px solid #FF00A7;
 }
 
 #index-footer {
-  border-top: 1px solid #76eec6;
+  border-top: 1px solid #FF00A7;
+  border-bottom: 1px solid #FF00A7;
+}
+
+.menu_points {
   border-bottom: 0;
 }
 
-.flexer {
-  border-bottom: 0;
-}
-
-nav *,
+nav,
 footer *,
-.info,
-#slider_click,
+#website_title,
 footer,
-.project-description {
-  color: #76eec6;
+.accent_text,
+.nav_menu_button:hover .index-link,
+.nav_menu_button:focus .index-link {
+  color: #FF00A7;
+}
+
+.accent_border {
+  border-color: #FF00A7;
+}
+
+.nav_menu_button:hover,
+.nav_menu_button:focus {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.cursor {
+  fill: #FF00A7;
 }

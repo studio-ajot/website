@@ -30,41 +30,38 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="nav_section white">
-    <div class="container-fluid g-0">
-      <div class="row g-0">
-        <div class="col-12 col-lg-4 d-flex align-items-center justify-content-between flex-shrink-0">
-          <a href="index.html" class="logo slider_click">Studio Ajot</a>
-          <button type="button" name="menu" class="toggle_menu">
-            <span class="icon"></span>
-            <span class="icon2"></span>
-            <span class="icon3"></span>
-          </button>
-        </div>
-        <div class="col-12 col-lg-8 p_relativ text-end">
-          <div class="flexer" id="getp">
-            <span class="info"><i class="fas visible_mob"></i> Studio für
-              Grafikdesign
-            </span>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="index.html" class="slider_click"><i class="fas fa-arrow-right"></i><span>Arbeiten</span></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="ueber-uns.html" class="info_click2"><i class="fas fa-arrow-right"></i><span>Über uns</span></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="impressum-datenschutz.html" class="info_click"><i
-                    class="fas fa-arrow-right"></i><span>Impressum</span></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+  <nav class="nav_section white-bg" id="index-nav">
+    <div class="nav_row site-padding-x site-padding-y">
+      <a href="index.html" class="logo" id="website_title">Studio Ajot</a>
+      <!-- hamburger menu button -->
+      <button type="button" class="burger_menu">
+        <span class="icon" id="icon"></span>
+        <span class="icon2" id="icon2"></span>
+        <span class="icon3" id="icon3"></span>
+      </button>
+    </div>
+    <!-- menu points -->
+    <div class="menu_points">
+      <span id="subtitle" class="accent_border accent_text"> Typografie & Grafikdesign
+      </span>
+      <ul>
+        <li>
+          <a class="nav_menu_button black-bg" href="index.html"><span class="index-link">Arbeiten</span></a>
+        </li>
+        <li>
+          <a class="nav_menu_button black-bg" href="ueber-uns.html">
+            <span class="index-link">Über uns</span>
+          </a>
+        </li>
+        <li>
+          <a class="nav_menu_button black-bg " href="impressum-datenschutz.html"><span
+              class="index-link">Impressum</span></a>
+        </li>
+      </ul>
     </div>
   </nav>
   <!-- Main Content -->
-  <div class="d-flex flex-column flex-xl-row align-items-xl-stretch info_box main-content">
+  <main class="d-flex flex-column flex-xl-row align-items-xl-stretch info_box main-content">
     <div
       class="d-flex flex-column w-100 w-xl-50 align-items-stretch border-right-0 border-xl-right border-bottom border-xl-bottom-0">
       <!-- (0. Foto)  -->
@@ -102,19 +99,24 @@
       <div class="text-box">
         <H2>REFERENZEN (Auswahl)</H2>
         <p class="copy-1">
-          <a href="https://www.christian-an.eu/asepsis" class="black-links" target="_blank">Christian An (Künstler)</a><br />
-          <a href="https://altemu.de/calendarium-luminis/" class="black-links" target="_blank">Johann Sommer (Künstler)</a><br />
+          <a href="https://www.christian-an.eu/asepsis" class="black-links" target="_blank">Christian An
+            (Künstler)</a><br />
+          <a href="https://altemu.de/calendarium-luminis/" class="black-links" target="_blank">Johann Sommer
+            (Künstler)</a><br />
           Mascha Livanskaia (Künstlerin)<br />
-          <a href="https://asta.muthesius-kunsthochschule.de/2020/12/13/reset-lets-talk-about-diversity/" class="black-links" target="_blank">Muthesius 
+          <a href="https://asta.muthesius-kunsthochschule.de/2020/12/13/reset-lets-talk-about-diversity/"
+            class="black-links" target="_blank">Muthesius
             Kunsthochschule, Kiel</a><br />
-          <a href="https://frauenberatung-elmshorn.de/#/" class="black-links" target="_blank">Frauenberatung 
+          <a href="https://frauenberatung-elmshorn.de/#/" class="black-links" target="_blank">Frauenberatung
             Elmshorn</a><br />
           <a href="https://www.haymonverlag.at/produkt/8136/ultraviolett/" class="black-links" target="_blank">Haymon
             Verlag</a><br />
-          <a href="https://www.buchhandel.de/buch/Lueneburg-mit-anderen-Augen-Lueneburg-con-otros-ojos-9783000684814" class="black-links" target="_blank">Pablo 
+          <a href="https://www.buchhandel.de/buch/Lueneburg-mit-anderen-Augen-Lueneburg-con-otros-ojos-9783000684814"
+            class="black-links" target="_blank">Pablo
             Martínez-Calleja (Fotograf)</a><br />
           Studio Pandan <br />
-          <a href="https://www.ew.uni-hamburg.de/internationales/projekte/dicot.html" class="black-links" target="_blank">Universität
+          <a href="https://www.ew.uni-hamburg.de/internationales/projekte/dicot.html" class="black-links"
+            target="_blank">Universität
             Hamburg</a><br />
           Myrna Stuckert Coaching and Consulting <br />
           Markenbecker <br />
@@ -180,64 +182,62 @@
           </div>
         </div>
       </div>
-    </div>
-    <!-- Footer -->
-    <footer class="fixed-bottom bottom white">
-      <div class="row g-0">
-        <div class="col-6">
-          Hamburg <br />
-          Berlin
-        </div>
-        <div class="col-6 text-end p-0">
-          <a href="mailto:hello@studio-ajot.de" target="_blank"><i
-              class="fas fa-arrow-right text-decoration-none"></i><span>Mail</span></a>
-          <a href="https://www.instagram.com/studio.ajot" target="_blank"><br /><i
-              class="fas fa-arrow-right text-decoration-none"></i><span>Instagram</span></a>
-        </div>
+  </main>
+  <!-- Footer -->
+  <footer class="fixed-bottom site-padding-x site-padding-y bottom white">
+    <div class="row g-0">
+      <div class="col-3">
+        Hamburg <br />
+        Berlin
       </div>
-    </footer>
+      <div class="col-9 text-end">
+        <a href="mailto:hello@studio-ajot.de" target="_blank" class="footer footer-link"><span>hello@studio-ajot.de</span></a>
+        <a href="https://www.instagram.com/studio.ajot" target="_blank"><br /><i
+            class="fas fa-arrow-right text-decoration-none"></i><span>Instagram</span></a>
+      </div>
+    </div>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script>
-      if (
-        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-          navigator.userAgent
-        )
-      ) {
-        $("body").addClass("mobile-detect");
-      } else {
-        $("body").removeClass("mobile-detect");
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="assets/js/mainFunctions.js"></script>
+  <script src="assets/js/setColorInMobileMenu.js"></script>
+
+  <script>
+    if (
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      )
+    ) {
+      $("body").addClass("mobile-detect");
+    } else {
+      $("body").removeClass("mobile-detect");
+    }
+    $(window).on("resize", function () {
+      if (menuIsOpen()) {
+        closeMenu();
+        setColorInClosedMenu("black");
       }
-      $(window).on("resize", function () {
-        if ($('.toggle_menu').hasClass('open') || $('.nav_section .flexer').hasClass('active')) {
-          $('.toggle_menu').removeClass('open');
-          $('.nav_section .flexer').removeClass('active');
-        }
-        if (
-          /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-            navigator.userAgent
-          )
-        ) {
-          $("body").addClass("mobile-detect");
-        } else {
-          $("body").removeClass("mobile-detect");
-        }
-      });
+    });
 
-      $(".toggle_menu").click(function () {
-        $(".toggle_menu").toggleClass("open");
-        $(".nav_section .flexer").toggleClass("active");
-      });
+    $(".burger_menu").click(function () {
+      toggleMenu();
+      if (menuIsOpen()) {
+        setColorInOpenMenu("black");
+      } else {
+        setColorInClosedMenu("black");
+      }
+    });
 
-      $(".nav_section ul li a").click(function () {
-        if ($('.toggle_menu').hasClass('open') || $('.nav_section .flexer').hasClass('active')) {
-          $(".toggle_menu").removeClass("open");
-          $(".nav_section .flexer").removeClass("active");
-        }
-      });
-    </script>
+    $(".nav_section ul li a").click(function () {
+      if ($('.burger_menu').hasClass('open') || $('.nav_section .menu_points').hasClass('active')) {
+        $(".burger_menu").removeClass("open");
+        $(".nav_section .menu_points").removeClass("active");
+      }
+    });
+
+  </script>
 </body>
 
 </html>

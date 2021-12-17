@@ -4,22 +4,88 @@
   }
 }
 
-@media (max-width: 991px) {
-  .main-content {
-    padding-top: 90px;
+/* ################################
+#       1200px breakpoint         #
+#################################*/
+
+@media (max-width: 1200px) {
+  .burger_menu {
+    display: block;
+    z-index: 30;
+    animation: b 2s ease-in;
   }
 
+  .main-content {
+    min-height: 100vh !important;
+    padding-top: 80px;
+    padding-bottom: 87px;
+  }
+
+  .nav_section {
+    height: 80px;
+  }
+
+  .nav_section .menu_points {
+    display: none;
+  }
+
+  /* ################################
+  #        open mobile menu         #
+  #################################*/
+
+  .nav_section .open_menu_background {
+    display: flex;
+  }
+
+  .nav_section .menu_points.active ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav_section .menu_points.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 15px 25px;
+    padding-top: 110px;
+  }
+
+  .nav_section .menu_points.active #subtitle {
+    margin-bottom: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav_section .menu_points.active a {
+    margin-bottom: 10px;
+    margin-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-decoration: none;
+  }
+}
+
+/* ################################
+#       991px breakpoint         #
+#################################*/
+@media (max-width: 991px) {
   .visible-xs {
     display: block !important;
   }
 
   .hidden-xs {
     display: none !important;
-  }
-
-  .toggle_menu {
-    display: block;
-    animation: b 2s ease-in;
   }
 
   .visible_mob {
@@ -34,88 +100,42 @@
     display: block;
   }
 
+  /* ################################
+#        project-description      #
+#################################*/
+  .project-description {
+    width: calc(100% - 40px);
+  }
+
   /* ##################################
     #        padding on mobile        #
     #################################*/
 
-  .nav_section,
-  footer {
+  .site-padding-x {
     padding-left: 20px;
     padding-right: 20px;
   }
 
   .project-description {
-    left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     bottom: 95px;
-  }
-
-  .nav_section .flexer.active {
-    padding-bottom: 15px;
   }
 
   .info_box .text-box {
     padding: 20px 20px;
   }
-  
-  .toggle_menu {
-    margin-right: 20px;
-  }
 
-  /* ##################################
-     #       nav-section (Header)     #
-     ################################*/
-
-  .nav_section .info {
-    width: 100%;
-    display: inline-block;
-    border-top: 0.15rem solid black;
-    border-bottom: 0.15rem solid black;
-    padding: 0.5rem 0;
-    position: relative;
-    padding-left: 0;
-  }
-
-  .nav_section ul li {
-    margin: 0 !important;
-    width: 100%;
-  }
-
-  .nav_section ul li a {
-    width: 100%;
-    display: inline-block;
-    border-bottom: 0.15rem solid black;
-    padding: 0.5rem 0;
-  }
-
-  .nav_section ul li a img {
-    top: 0.55rem;
-  }
-
-  /* menu */
-  .nav_section .flexer {
-    display: none;
+  .nav_section .menu_points.active {
+    padding: 15px 20px;
+    padding-top: 110px;
   }
 
   /* ################################
      #             slider           #
      ###############################*/
-  /* .slider_section .img_slider {
-    display: block;
-    min-height: 100vh;
-  }
-
-  .slider_section .img_slider .web_img {
-    display: none;
-  }
-
-  .slider_section .img_slider .mob_img {
-    display: block;
-    min-width: 100vw;
-    min-height: 100vh;
-    object-fit: cover;
-    max-height: 100vh;
-    width: 100vw;
-  } */
 }
 
 @media (max-width: 350px) {
