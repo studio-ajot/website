@@ -5,7 +5,7 @@ footer,
 }
 
 footer * {
-  text-decoration-color: #76eec6;
+  text-decoration-color: #FF00A7;
 }
 
 .burger_menu #icon,
@@ -14,17 +14,17 @@ footer * {
 .accent_bg,
 .project-description-button,
 .flickity-page-dots .dot {
-  background-color: #76eec6;
+  background-color: #FF00A7;
 }
 
 #index-nav {
-  border-bottom: 1px solid #76eec6;
-  border-top: 1px solid #76eec6;
+  border-bottom: 1px solid #FF00A7;
+  border-top: 1px solid #FF00A7;
 }
 
 #index-footer {
-  border-top: 1px solid #76eec6;
-  border-bottom: 1px solid #76eec6;
+  border-top: 1px solid #FF00A7;
+  border-bottom: 1px solid #FF00A7;
 }
 
 .menu_points {
@@ -38,11 +38,11 @@ footer,
 .accent_text,
 .nav_menu_button:hover .index-link,
 .nav_menu_button:focus .index-link {
-  color: #76eec6;
+  color: #FF00A7;
 }
 
 .accent_border {
-  border-color: #76eec6;
+  border-color: #FF00A7;
 }
 
 .nav_menu_button:hover,
@@ -52,5 +52,5 @@ footer,
 }
 
 .cursor {
-  fill: #76eec6;
+  fill: #FF00A7;
 }
