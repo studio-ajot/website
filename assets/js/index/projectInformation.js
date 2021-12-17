@@ -2,22 +2,22 @@ const getProjectInformation = (indexOfImage) => {
   switch (indexOfImage) {
      case 0:
       return {
-        accentColor: "#FF00A7",
+        accentColor: "#EB67B3",
         projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nPostergestaltung",
       };   
     case 1:
       return {
-        accentColor: "#FF00A7",
+        accentColor: "#EB67B3",
         projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
       };   
     case 2:
       return {
-        accentColor: "#FF00A7",
+        accentColor: "#EB67B3",
         projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
       };  
      case 3:
       return {
-        accentColor: "#F41649",
+        accentColor: "#D9C843",
         projectDescription: "DayOff \nLogoentwicklung",
       };            
     case 4:
@@ -32,22 +32,22 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 6:
       return {
-        accentColor: "#7FFFD4",
+        accentColor: "#19C1A0",
         projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nPlakatgestaltung",
       };  
     case 7:
       return {
-        accentColor: "#CDCD00",
+        accentColor: "#0C6E5B",
         projectDescription: "Naturheilpraxis Ulrike Röske \nLogogestaltung",
       };         
     case 8:
       return {
-        accentColor: "#F41649",
+        accentColor: "#1F1FD3",
         projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
       };
     case 9:
       return {
-        accentColor: "#F41649",
+        accentColor: "#1F1FD3",
         projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
       };      
     case 10:
@@ -57,42 +57,42 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 11:
       return {
-        accentColor: "#FFEFD5",
+        accentColor: "#A29582",
         projectDescription: "Hoppe Gebäudetechnik \nMarkenbecker \nLogogestaltung",
       };
     case 12:
       return {
-        accentColor: "#CEFFEE",
+        accentColor: "#E30000",
         projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 13:
       return {
-        accentColor: "#CEFFEE",
+        accentColor: "#E30000",
         projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 14:
       return {
-        accentColor: "#CEFFEE",
+        accentColor: "#E30000",
         projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 15:
       return {
-        accentColor: "#ffc125",
+        accentColor: "#C3C3C3",
         projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
       };
     case 16:
       return {
-        accentColor: "#ffc125",
+        accentColor: "#C3C3C3",
         projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
       };
     case 17:
       return {
-        accentColor: "#F41649",
+        accentColor: "#19C1A0",
         projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
       };
     case 18:
       return {
-        accentColor: "#F41649",
+        accentColor: "#19C1A0",
         projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nGestaltung von Social Media Templates",
       };
     case 19:
@@ -102,33 +102,33 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 20:
       return {
-        accentColor: "#FFEFD5",
+        accentColor: "#CE8A76",
         projectDescription: "Parasite – Food Objects \nAnastasia Marx \nBuchgestaltung",
       };
 
     case 21:
       return {
-        accentColor: "#95FD91",
+        accentColor: "#000000",
         projectDescription: "Div*erse Typ_en \nPlakatgestaltung",
       };
     case 22:
       return {
-        accentColor: "#FF0000",
+        accentColor: "#0C6E5B",
         projectDescription: "Frauen*beratung Elmshorn \nInfo-Broschüre",
       };
     case 23:
       return {
-        accentColor: "#FF0000",
+        accentColor: "#0C6E5B",
         projectDescription: "Frauen*beratung Elmshorn \nInfo-Broschüre",
       };
     case 24:
       return {
-        accentColor: "#FF0000",
+        accentColor: "#0C6E5B",
         projectDescription: "Frauen*beratung Elmshorn \nEntwicklung einer Corporate Identity ",
       };
     case 25:
       return {
-        accentColor: "#FF0000",
+        accentColor: "#0C6E5B",
         projectDescription: "Frauen*beratung Elmshorn \nGestaltung von Social Media Templates",
       };
     case 26:
