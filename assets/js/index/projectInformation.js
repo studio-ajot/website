@@ -32,7 +32,7 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 6:
       return {
-        accentColor: "#7FFFD4",
+        accentColor: "#19C1A0",
         projectDescription: "Ultraviolett – Flurin Jecker \nHaymon Verlag \nPlakatgestaltung",
       };  
     case 7:
@@ -87,12 +87,12 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 17:
       return {
-        accentColor: "#F41649",
+        accentColor: "#19C1A0",
         projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
       };
     case 18:
       return {
-        accentColor: "#F41649",
+        accentColor: "#19C1A0",
         projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nGestaltung von Social Media Templates",
       };
     case 19:
