@@ -37,7 +37,7 @@ const getProjectInformation = (indexOfImage) => {
       };  
     case 7:
       return {
-        accentColor: "#CDCD00",
+        accentColor: "#0C6E5B",
         projectDescription: "Naturheilpraxis Ulrike Röske \nLogogestaltung",
       };         
     case 8:
@@ -113,22 +113,22 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 22:
       return {
-        accentColor: "#FF0000",
+        accentColor: "#0C6E5B",
         projectDescription: "Frauen*beratung Elmshorn \nInfo-Broschüre",
       };
     case 23:
       return {
-        accentColor: "#FF0000",
+        accentColor: "#0C6E5B",
         projectDescription: "Frauen*beratung Elmshorn \nInfo-Broschüre",
       };
     case 24:
       return {
-        accentColor: "#FF0000",
+        accentColor: "#0C6E5B",
         projectDescription: "Frauen*beratung Elmshorn \nEntwicklung einer Corporate Identity ",
       };
     case 25:
       return {
-        accentColor: "#FF0000",
+        accentColor: "#0C6E5B",
         projectDescription: "Frauen*beratung Elmshorn \nGestaltung von Social Media Templates",
       };
     case 26:
