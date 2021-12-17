@@ -2,22 +2,22 @@ const getProjectInformation = (indexOfImage) => {
   switch (indexOfImage) {
      case 0:
       return {
-        accentColor: "#FF00A7",
+        accentColor: "#EB67B3",
         projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nPostergestaltung",
       };   
     case 1:
       return {
-        accentColor: "#FF00A7",
+        accentColor: "#EB67B3",
         projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
       };   
     case 2:
       return {
-        accentColor: "#FF00A7",
+        accentColor: "#EB67B3",
         projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
       };  
      case 3:
       return {
-        accentColor: "#F41649",
+        accentColor: "#D9C843",
         projectDescription: "DayOff \nLogoentwicklung",
       };            
     case 4:
@@ -62,17 +62,17 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 12:
       return {
-        accentColor: "#CEFFEE",
+        accentColor: "#E30000",
         projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 13:
       return {
-        accentColor: "#CEFFEE",
+        accentColor: "#E30000",
         projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 14:
       return {
-        accentColor: "#CEFFEE",
+        accentColor: "#E30000",
         projectDescription: "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
       };
     case 15:
