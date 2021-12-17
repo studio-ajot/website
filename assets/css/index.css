@@ -50,3 +50,7 @@ footer,
   background-color: white;
   border: 1px solid white;
 }
+
+.cursor {
+  fill: #76eec6;
+}

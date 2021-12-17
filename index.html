@@ -183,7 +183,6 @@
       </div>
     </div>
     <div class="cursor">
-      <img />
     </div>
   </main>
   <!-- Footer -->
@@ -282,18 +281,18 @@
     });
 
     // --- Change cursor appearance when hover on navigation/header --- //
-    $(".slider_section").mouseover(
+    $(".slider_section").mouseenter(
       function () {
-        $(".cursor img").css("display", "block");
+        $(".cursor").css("display", "block");
       })
-    $(".slider_section").mouseout(
+    $(".slider_section").mouseleave(
       function () {
-        $(".cursor img, .cursor1").css("display", "none");
+        $(".cursor").css("display", "none");
       }
     );
 
     $("nav").mouseover(function () {
-      $(".cursor img, .cursor1").css("display", "none");
+      $(".cursor").css("display", "none");
     });
 
     // --- Open / close menu --- //

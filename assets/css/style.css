@@ -528,33 +528,23 @@ img {
 .cursor {
   left: 0;
   top: 0;
-  background-color: #000;
   position: absolute;
-  mix-blend-mode: exclusion;
-  width: 1px;
-  height: 1px;
-}
-
-.cursor1 {
-  position: absolute;
-}
-
-.cursor img {
-  max-width: initial;
+  height: 4rem;
   width: 4rem;
-  height: auto;
+  pointer-events: none;
+}
+
+.cursor svg {
+  pointer-events: none;
+  position: absolute;
+  left: -2rem;
+  top: -2rem;
+  width: 100%;
+  height: 100%;
 }
 
 html.active {
   cursor: none;
-}
-
-html .cursor {
-  display: none;
-}
-
-html.active .cursor {
-  display: block;
 }
 /* ################################
 #           scrollbar             #

@@ -5,15 +5,19 @@ function handleCursor() {
   $(window).on("mousemove", function (event) {
     x = event.clientX;
     y = event.clientY;
-    $(".cursor, .cursor1").css("top", y - 30);
-    $(".cursor, .cursor1").css("left", x + 2);
+    $(".cursor").css("top", y);
+    $(".cursor").css("left", x);
     if (x < $(window).width() / 2) {
-      if ($(".cursor img").attr("src") !== "./assets/images/arrow_prev_w.png") {
-        $(".cursor img").attr("src", "./assets/images/arrow_prev_w.png");
+      if ($("svg").attr("id") !== "prev_arrow") {
+        $(".cursor").html(
+          '<svg id="prev_arrow" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><style></style></defs><path class="cls-1"  d="M95.88,55.52H21.59c.35.44.7.86,1.05,1.25l1.19,1.38L48.27,89H34.34L4,50.27,34.47,11.49h13.8L23.3,42.9c-.35.44-.66.81-.92,1.12s-.53.64-.79,1H95.88Z"/></svg>'
+        );
       }
     } else {
-      if ($(".cursor img").attr("src") !== "./assets/images/arrow_next_w.png") {
-        $(".cursor img").attr("src", "./assets/images/arrow_next_w.png");
+      if ($("svg").attr("id") !== "next_arrow") {
+        $(".cursor").html(
+          '<svg id="next_arrow" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><style>.cls-2{font-size:164.64px;font-family:IBMPlexMono-Light, IBM Plex Mono;font-weight:300;}</style></defs><path class="cls-1" d="M4,45H78.26c-.35-.44-.7-.86-1.05-1.25L76,42.38,51.58,11.49H65.51L95.88,50.27,65.38,89H51.58l25-31.41c.34-.44.65-.81.91-1.12s.53-.64.79-1H4Z"/></svg>'
+        );
       }
     }
   });
@@ -51,6 +55,8 @@ function setColor(indexOfImage) {
     $(".index-link", this).css("color", "white");
     $(this).css("border", `1px solid ${accentColor}`);
   });
+  // cursor
+  $(".cursor").css({ fill: accentColor });
 }
 // open menu
 function setColorInOpenMenu(indexOfImage) {
