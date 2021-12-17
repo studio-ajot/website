@@ -21,7 +21,6 @@ html .mobile-detect .cursor {
 }
 
 .mobile-detect .project-description {
-  width: calc(100vw - 40px);
   opacity: 1;
   transition: all 0.5s;
 }
@@ -42,14 +41,11 @@ html .mobile-detect .cursor {
 
 .mobile-detect .flickity-page-dots {
   display: block;
-  /* bottom: 91px;
-  position: absolute; */
   z-index: 10;
   pointer-events: none;
 }
 /* dots are lines */
 .mobile-detect .flickity-page-dots .dot {
-  bottom: 113px;
   position: absolute;
   height: 8px;
   width: 0px;
@@ -59,7 +55,7 @@ html .mobile-detect .cursor {
 }
 
 .mobile-detect .flickity-page-dots .dot.is-selected {
-  border-radius: 20px;
+  border-radius: 50%;
 }
 
 .mobile-detect .flickity-page-dots .dot.is-selected .selected-dot-background {
@@ -72,12 +68,12 @@ html .mobile-detect .cursor {
 
 .mobile-detect .flickity-page-dots .dot:last-of-type,
 .mobile-detect .flickity-page-dots .dot:last-of-type .selected-dot-background {
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 
 .mobile-detect .flickity-page-dots .dot:first-of-type,
 .mobile-detect .flickity-page-dots .dot:first-of-type .selected-dot-background {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
 }

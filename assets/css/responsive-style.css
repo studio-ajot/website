@@ -72,6 +72,10 @@
     width: 100%;
     text-decoration: none;
   }
+
+  .mobile-detect .flickity-page-dots .dot {
+    bottom: 143px;
+  }
 }
 
 /* ################################
@@ -98,11 +102,11 @@
     display: block;
   }
 
-/* #################################
-#        padding on mobile        #
-#################################*/
-  .project-description {
-    width: calc(100% - 40px);
+  /* #################################
+  #        padding on mobile        #
+  #################################*/
+  .mobile-detect .project-description {
+    width: calc(100vw - 40px);
   }
 
   .site-padding-x {
@@ -125,6 +129,10 @@
   .nav_section .menu_points.active {
     padding: 15px 20px;
     padding-top: 110px;
+  }
+
+  .mobile-detect .flickity-page-dots .dot {
+    bottom: 113px;
   }
 
   /* ################################
