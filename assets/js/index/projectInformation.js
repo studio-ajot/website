@@ -77,12 +77,12 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 15:
       return {
-        accentColor: "#ffc125",
+        accentColor: "#C3C3C3",
         projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
       };
     case 16:
       return {
-        accentColor: "#ffc125",
+        accentColor: "#C3C3C3",
         projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
       };
     case 17:
@@ -102,13 +102,13 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 20:
       return {
-        accentColor: "#FFEFD5",
+        accentColor: "#CE8A76",
         projectDescription: "Parasite – Food Objects \nAnastasia Marx \nBuchgestaltung",
       };
 
     case 21:
       return {
-        accentColor: "#95FD91",
+        accentColor: "#000000",
         projectDescription: "Div*erse Typ_en \nPlakatgestaltung",
       };
     case 22:
