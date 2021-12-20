@@ -371,12 +371,12 @@
     // --- Change color of nav and footer according to changing image in the background --- //
     var numberOfProjects = $('.main-carousel').flickity().data('flickity').slides.length;
     $(".main-carousel").on("change.flickity", function (event, index) {
+      setProgressBarHightlight(index);
       setColor(index);
       if (menuIsOpen()) {
         setColorInOpenMenu(index);
       }
       setColorInClosedMenu(index);
-      setProgressBarHightlight(index);
     });
   </script>
 </body>
