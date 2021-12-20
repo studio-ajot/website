@@ -28,7 +28,9 @@ function setColor(indexOfImage) {
   const accentColor = getProjectInformation(indexOfImage).accentColor;
   // bg
   $("nav, footer, .menu_points").css({ "background-color": "transparent" });
-  $(".burger_menu .icon, .icon2, .icon3, .accent_bg, .dot").css({
+  $(
+    ".burger_menu .icon, .icon2, .icon3, .accent_bg, #progress-bar-bg, #progress-bar-highlight"
+  ).css({
     "background-color": accentColor,
   });
   // border
@@ -57,12 +59,6 @@ function setColor(indexOfImage) {
   });
   // cursor
   $(".cursor").css({ fill: accentColor });
-
-  // --- Mobile page dots / progress bar: selected dot needs transparent background --- //
-  $(".selected-dot-background").remove();
-  var clone = $(".mobile-detect .flickity-page-dots .dot.is-selected").clone();
-  clone.addClass("selected-dot-background");
-  $(".mobile-detect .flickity-page-dots .dot.is-selected").append(clone);
 }
 // open menu
 function setColorInOpenMenu(indexOfImage) {
@@ -181,11 +177,10 @@ function showProjectDescription() {
   $(".project-description-wrapper").css("bottom", "115px");
 }
 
-// --- Mobile page dots / progress bar: selected dot needs transparent background --- //
-function giveSelectedDotRightBackground() {
-  $(".selected-dot-background").remove();
-  var clone = $(".mobile-detect .flickity-page-dots .dot.is-selected").clone();
-  clone.addClass("selected-dot-background");
-  $(".mobile-detect .flickity-page-dots .dot.is-selected").append(clone);
+// --- Mobile progress bar: --- //
+function setProgressBarHightlight(index) {
+  var width = $("#progress-bar-highlight").css("width").replaceAll("px", "");
+  var left = width * index;
+  console.log(`${width}`);
+  $("#progress-bar-highlight").css("left", `${left}px`);
 }
-

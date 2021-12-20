@@ -39,41 +39,23 @@ html .mobile-detect .cursor {
 #    flickity dots / progressbar  #
 #################################*/
 
-.mobile-detect .flickity-page-dots {
-  display: block;
-  z-index: 10;
+.mobile-detect #progress-bar {
   pointer-events: none;
-}
-/* dots are lines */
-.mobile-detect .flickity-page-dots .dot {
-  position: absolute;
   height: 8px;
-  width: 0px;
-  margin: 0;
-  border-radius: 0;
-  position: relative;
-}
-
-.mobile-detect .flickity-page-dots .dot.is-selected {
-  border-radius: 50%;
-}
-
-.mobile-detect .flickity-page-dots .dot.is-selected .selected-dot-background {
-  border-radius: 0;
-  opacity: 0.25;
   position: absolute;
-  top: 0;
-  left: 0;
 }
 
-.mobile-detect .flickity-page-dots .dot:last-of-type,
-.mobile-detect .flickity-page-dots .dot:last-of-type .selected-dot-background {
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
+.mobile-detect #progress-bar-bg {
+  height: 8px;
+  position: absolute;
+  border-radius: 30px;
+  opacity: 0.25;
 }
 
-.mobile-detect .flickity-page-dots .dot:first-of-type,
-.mobile-detect .flickity-page-dots .dot:first-of-type .selected-dot-background {
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
+.mobile-detect #progress-bar-highlight {
+  height: 8px;
+  position: absolute;
+  border-radius: 30px;
+  opacity: 1;
+  transition: left 0.1s;
 }

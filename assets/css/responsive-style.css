@@ -73,8 +73,14 @@
     text-decoration: none;
   }
 
-  .mobile-detect .flickity-page-dots .dot {
-    bottom: 143px;
+  .mobile-detect #progress-bar-bg {
+    width: calc(100vw - 60px);
+  }
+
+  .mobile-detect #progress-bar {
+    width: calc(100vw - 60px);
+    left: 30px;
+    bottom: 95px;
   }
 }
 
@@ -131,8 +137,14 @@
     padding-top: 110px;
   }
 
-  .mobile-detect .flickity-page-dots .dot {
-    bottom: 113px;
+  .mobile-detect #progress-bar {
+    width: calc(100vw - 40px);
+    left: 20px;
+    bottom: 91px;
+  }
+
+  .mobile-detect #progress-bar-bg {
+    width: calc(100vw - 40px);
   }
 
   /* ################################
