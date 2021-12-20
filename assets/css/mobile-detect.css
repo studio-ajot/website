@@ -42,7 +42,7 @@ html .mobile-detect .cursor {
 .mobile-detect #progress-bar {
   pointer-events: none;
   height: 8px;
-  position: absolute;
+  position: fixed;
   z-index: 10;
 }
 

@@ -80,7 +80,7 @@
   .mobile-detect #progress-bar {
     width: calc(100vw - 60px);
     left: 30px;
-    bottom: 179px;
+    bottom: 95px;
   }
 }
 
@@ -140,7 +140,7 @@
   .mobile-detect #progress-bar {
     width: calc(100vw - 40px);
     left: 20px;
-    bottom: 175px;
+    bottom: 91px;
   }
 
   .mobile-detect #progress-bar-bg {
