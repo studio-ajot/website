@@ -349,6 +349,16 @@ img {
 }
 
 /* ################################
+#          main_content           #
+#################################*/
+.main-content {
+  min-height: 100vh !important;
+  padding-top: 86px;
+  padding-bottom: 80px;
+}
+
+
+/* ################################
 #        project-description      #
 #################################*/
 /*mobile style in mobile-detect.css */
