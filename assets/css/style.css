@@ -349,6 +349,15 @@ img {
 }
 
 /* ################################
+#          main_content           #
+#################################*/
+.main-content {
+  min-height: 100vh !important;
+  padding-top: 86px;
+  padding-bottom: 80px;
+}
+
+/* ################################
 #        project-description      #
 #################################*/
 /*mobile style in mobile-detect.css */
@@ -494,12 +503,10 @@ img {
 }
 
 .info_box .bottom {
-  /* position: fixed; */
   bottom: 0;
   right: 0;
   width: 100%;
   margin: 0;
-  /* padding: 25px 30px; */
   background-color: white !important;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -602,3 +609,4 @@ footer a i {
 .flickity-page-dots {
   display: none;
 }
+

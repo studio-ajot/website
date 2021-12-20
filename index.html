@@ -181,6 +181,10 @@
     </div>
     <div class="cursor">
     </div>
+    <div id="progress-bar">
+      <div id="progress-bar-bg"></div>
+      <div id="progress-bar-highlight"></div>
+    </div>
   </main>
   <!-- Footer -->
   <footer class="fixed-bottom bottom site-padding-x site-padding-y" id="index-footer">
@@ -270,13 +274,11 @@
       $(".project-description-wrapper").css("transition", "all 0.5s");
       // --- Initialize mobile progress bar / flickity page dots --- //
       if (window.matchMedia("(max-width: 1200px)").matches) {
-        $(".flickity-page-dots .dot").css("width", `calc((100vw - 60px) / ${numberOfProjects}`);
+        $("#progress-bar-highlight").css("width", `calc(((100vw - 60px) / ${numberOfProjects})`);
       }
       if (window.matchMedia("(max-width: 991px)").matches) {
-        $(".flickity-page-dots .dot").css("width", `calc((100vw - 40px) / ${numberOfProjects}`);
+        $("#progress-bar-highlight").css("width", `calc(((100vw - 40px) / ${numberOfProjects})`);
       }
-      giveSelectedDotRightBackground();
-
 
       // --- Normalize vh unit--- //
       document.documentElement.style.setProperty('--vh', `${window.innerHeight / 100}px`);
@@ -333,7 +335,7 @@
       wrapAround: true,
       imagesLoaded: true,
       lazyLoad: 3,
-      pageDots: true
+      pageDots: false
     });
 
     // --- Handle click/swipe on flickity --- //
@@ -374,6 +376,7 @@
         setColorInOpenMenu(index);
       }
       setColorInClosedMenu(index);
+      setProgressBarHightlight(index);
     });
   </script>
 </body>

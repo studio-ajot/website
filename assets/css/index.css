@@ -13,7 +13,8 @@ footer * {
 #icon3,
 .accent_bg,
 .project-description-button,
-.flickity-page-dots .dot {
+#progress-bar-bg,
+#progress-bar-highlight {
   background-color: #EB67B3;
 }
 
