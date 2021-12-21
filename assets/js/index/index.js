@@ -166,7 +166,7 @@ function hideProjectDescription(projectDescriptionHeights) {
   if ($(".project-description-wrapper").hasClass("hide")) {
     $(".project-description-button").html("+");
     $(".project-description-wrapper").each(function (index) {
-      $(this).css("bottom", `-${projectDescriptionHeights[index] - 60}px`);
+      $(this).css("bottom", `-${projectDescriptionHeights[index] - 56}px`);
     });
   }
 }
@@ -174,7 +174,7 @@ function hideProjectDescription(projectDescriptionHeights) {
 // --- Mobile: Show project description --- //
 function showProjectDescription() {
   $(".project-description-button").html("-");
-  $(".project-description-wrapper").css("bottom", "115px");
+  $(".project-description-wrapper").css("bottom", "108px");
 }
 
 // --- Mobile progress bar: --- //
