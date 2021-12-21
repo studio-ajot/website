@@ -181,6 +181,5 @@ function showProjectDescription() {
 function setProgressBarHightlight(index) {
   var width = $("#progress-bar-highlight").css("width").replaceAll("px", "");
   var left = width * index;
-  console.log(`${width}`);
   $("#progress-bar-highlight").css("left", `${left}px`);
 }
