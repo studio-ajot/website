@@ -409,14 +409,9 @@ img {
 
 .flickity_img,
 .flickity_vid {
-  min-height: 100vh;
-  height: 100vh;
   width: 100vw;
   min-width: 100vw;
   object-fit: cover;
-}
-
-.fullMobileHeight {
   height: calc(var(--vh, 1vh) * 100);
   min-height: calc(var(--vh, 1vh) * 100);
 }
