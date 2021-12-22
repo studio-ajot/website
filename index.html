@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"> -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -268,7 +267,7 @@
           $(this).addClass("hide");
           var height = $(".project-description", this).height();
           projectDescriptionHeights[index] = height;
-          $(this).css("bottom", `-${projectDescriptionHeights[index] - 60}px`);
+          $(this).css("bottom", `-${projectDescriptionHeights[index] - 50}px`);
         }
       });
       $(".project-description-wrapper").css("transition", "all 0.5s");
