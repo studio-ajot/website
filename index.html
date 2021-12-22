@@ -231,6 +231,9 @@
         $(".main-carousel").flickity("unbindDrag");
       }
 
+      // --- Normalize vh unit--- //
+      document.documentElement.style.setProperty('--vh', `${window.innerHeight / 100}px`);
+
       // --- Initialize videos --- //
       $(".flickity_vid").each(function () {
         var videoName = $(this).attr("id");
@@ -267,9 +270,10 @@
           $(this).addClass("hide");
           var height = $(".project-description", this).height();
           projectDescriptionHeights[index] = height;
-          $(this).css("bottom", `-${projectDescriptionHeights[index] - 50}px`);
+          $(this).css("bottom", `-${height - 50}px`);
         }
       });
+      hideProjectDescription(projectDescriptionHeights);
       $(".project-description-wrapper").css("transition", "all 0.5s");
       // --- Initialize mobile progress bar / flickity page dots --- //
       if (window.matchMedia("(max-width: 1200px)").matches) {
@@ -278,9 +282,6 @@
       if (window.matchMedia("(max-width: 991px)").matches) {
         $("#progress-bar-highlight").css("width", `calc(((100vw - 40px) / ${numberOfProjects})`);
       }
-
-      // --- Normalize vh unit--- //
-      document.documentElement.style.setProperty('--vh', `${window.innerHeight / 100}px`);
     });
 
     // --- Change cursor appearance when hover on navigation/header --- //
