@@ -63,9 +63,10 @@
         <img id="project-17-mfa-poster" class="flickity_img" />
         <div class="project-description-wrapper hide">
           <div class="project-description-button">+</div>
-          <div class="project-description"><span id="project-description-count">01/29</span><br /><span
-              id="project-description-text">MFA21.My Favorite Acronym<br />Muthesius
-              Kunsthochschule<br />Postergestaltung</span>
+          <div class="project-description">
+            <span id="project-description-count"></span>
+            <br />
+            <span id="project-description-text"></span>
           </div>
         </div>
       </div>
@@ -255,7 +256,9 @@
           imagePrefix + imageName + mediaPostfix + ".jpg"
         );
       });
+    });
 
+    $(window).on('load', function () {
       // --- Initialize project description --- //
       var numberOfProjects = $('.main-carousel').flickity().data('flickity').slides.length;
       $(".project-description-wrapper").css("display", `block`);
