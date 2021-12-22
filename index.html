@@ -256,7 +256,9 @@
           imagePrefix + imageName + mediaPostfix + ".jpg"
         );
       });
+    });
 
+    $(window).on('load', function () {
       // --- Initialize project description --- //
       var numberOfProjects = $('.main-carousel').flickity().data('flickity').slides.length;
       $(".project-description-wrapper").css("display", `block`);
