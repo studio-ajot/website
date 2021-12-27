@@ -259,6 +259,9 @@
 
       // --- Initialize project description --- //
       var numberOfProjects = $('.main-carousel').flickity().data('flickity').slides.length;
+      if ($("body").hasClass("mobile-detect")) {
+        $(".project-description-wrapper").css("opacity", `0`);
+      }
       $(".project-description-wrapper").css("display", `block`);
       $(".project-description-wrapper").each(function (index) {
         $(this).html("<div class='project-description-button accent-bg'>+</div><div class='project-description copy-1'><span id='project-description-count'></span><br /><span id='project-description-text'></span></div>");
@@ -266,7 +269,19 @@
         $(".project-description-button", this).css("background-color", getProjectInformation(index).accentColor);
         $("#project-description-count", this).text(setProjectDescriptionCount(index, numberOfProjects));
         $("#project-description-text", this).text(setProjectDescriptionText(index));
-        // --- Initialize mobile project description --- //
+      });
+      // --- Initialize mobile progress bar / flickity page dots --- //
+      if (window.matchMedia("(max-width: 1200px)").matches) {
+        $("#progress-bar-highlight").css("width", `calc(((100vw - 60px) / ${numberOfProjects})`);
+      }
+      if (window.matchMedia("(max-width: 991px)").matches) {
+        $("#progress-bar-highlight").css("width", `calc(((100vw - 40px) / ${numberOfProjects})`);
+      }
+    });
+
+    // --- Initialize mobile project description --- //
+    $(window).on('load', function () {
+      $(".project-description-wrapper").each(function (index) {
         if ($("body").hasClass("mobile-detect")) {
           $(this).addClass("hide");
           var height = $(".project-description", this).height();
@@ -275,14 +290,10 @@
         }
       });
       hideProjectDescription(projectDescriptionHeights);
-      $(".project-description-wrapper").css("transition", "all 0.5s");
-      // --- Initialize mobile progress bar / flickity page dots --- //
-      if (window.matchMedia("(max-width: 1200px)").matches) {
-        $("#progress-bar-highlight").css("width", `calc(((100vw - 60px) / ${numberOfProjects})`);
+      if ($("body").hasClass("mobile-detect")) {
+        $(".project-description-wrapper").css("opacity", `1`);
       }
-      if (window.matchMedia("(max-width: 991px)").matches) {
-        $("#progress-bar-highlight").css("width", `calc(((100vw - 40px) / ${numberOfProjects})`);
-      }
+      $(".project-description-wrapper").css("transition", "bottom 0.5s");
     });
 
     // --- Change cursor appearance when hover on navigation/header --- //
