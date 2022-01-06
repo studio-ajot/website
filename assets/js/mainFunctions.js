@@ -1,18 +1,18 @@
 function menuIsOpen() {
   return (
-    $(".toggle_menu").hasClass("open") ||
-    $(".nav_section .flexer").hasClass("active")
+    $(".burger_menu").hasClass("open") ||
+    $(".nav_section .menu_points").hasClass("active")
   );
 }
 
 function toggleMenu() {
-  $(".toggle_menu").toggleClass("open");
-  $(".nav_section .flexer").toggleClass("active");
+  $(".burger_menu").toggleClass("open");
+  $(".nav_section .menu_points").toggleClass("active");
 }
 
 function closeMenu() {
-  $(".toggle_menu").removeClass("open");
-  $(".nav_section .flexer").removeClass("active");
+  $(".burger_menu").removeClass("open");
+  $(".nav_section .menu_points").removeClass("active");
 }
 
 function detectMobile() {

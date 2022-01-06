@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"> -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -28,140 +27,176 @@
 <body>
   <!-- Navigation -->
   <nav class="nav_section" id="index-nav">
-    <div class="container-fluid g-0">
-      <div class="row g-0">
-        <div id="dark"
-          class="col-lg-4 col-12 p_relative d-flex align-items-center justify-content-between flex-shrink-0">
-          <a href="index.html" class="logo" id="slider_click">Studio Ajot</a>
-          <button type="button" name="menu" class="toggle_menu">
-            <span class="icon" id="icon"></span>
-            <span class="icon2" id="icon2"></span>
-            <span class="icon3" id="icon3"></span>
-          </button>
-        </div>
-        <div class="col-12 col-lg-8 p_relativ text-end">
-          <div class="flexer" id="getp">
-            <span class="info"><i class="fas visible_mob"></i> Studio für Grafikdesign
-            </span>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="index.html" id="index-link"><i class="fas fa-arrow-right"></i><span>Arbeiten</span></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="ueber-uns.html" id="index-link"><i class="fas fa-arrow-right"></i><span>Über uns</span></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="impressum-datenschutz.html" id="index-link"><i
-                    class="fas fa-arrow-right"></i><span>Impressum</span></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <div class="nav_row site-padding-x site-padding-y">
+      <a href="index.html" class="logo" id="website_title">Studio Ajot</a>
+      <!-- hamburger menu button -->
+      <button type="button" class="burger_menu">
+        <span class="icon" id="icon"></span>
+        <span class="icon2" id="icon2"></span>
+        <span class="icon3" id="icon3"></span>
+      </button>
+    </div>
+    <!-- menu points -->
+    <div class="menu_points">
+      <span id="subtitle"> Typografie & Grafikdesign
+      </span>
+      <ul>
+        <li>
+          <a class="nav_menu_button accent_bg" href="index.html"><span class="index-link white-text">Arbeiten</span></a>
+        </li>
+        <li>
+          <a class="nav_menu_button accent_bg" href="ueber-uns.html">
+            <span class="index-link white-text">Über uns</span>
+          </a>
+        </li>
+        <li>
+          <a class="nav_menu_button accent_bg" href="impressum-datenschutz.html"><span
+              class="index-link white-text">Impressum</span></a>
+        </li>
+      </ul>
     </div>
   </nav>
   <!-- Main section -->
-  <div class="slider_section active">
+  <main class="slider_section active">
     <div class="main-carousel">
       <div class="carousel-cell">
+        <img id="project-17-mfa-poster" class="flickity_img" />
+        <div class="project-description-wrapper hide">
+          <div class="project-description-button">+</div>
+          <div class="project-description">
+            <span id="project-description-count"></span>
+            <br />
+            <span id="project-description-text"></span>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <img id="project-17-mfa-flyer-cover" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
+      </div>
+      <div class="carousel-cell">
+        <img id="project-17-mfa-flyer" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
+      </div>
+      <div class="carousel-cell">
+        <img id="project-16-dayoff-logo" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
+      </div>
+      <div class="carousel-cell">
         <img id="project-15-ultraviolett-cover" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-15-ultraviolett-innen" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-12-jecker-ultraviolett-plakat" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
+      </div>
+      <div class="carousel-cell">
+        <img id="project-3-ur-tuerschild" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-1-asepsis-cover" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-1-asepsis-uebersicht" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-2-Karte_Studio-Ajot" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
-        <img id="project-3-NP-Visitenkarten" class="flickity_img" />
+        <img id="project-14-hoppe-logo" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-4-lmaa-cover" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-4-lmaa-innen" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-4-lmaa-aufgeschlagen" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-5-Calendarium-luminis" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-5-Calendarium-luminis-detail" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-6-reset" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-6-reset-template" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
-      <!-- <div class="carousel-cell">
-        <img id="project-7-DiCoT-poster" class="flickity_img" />
-      </div> -->
       <div class="carousel-cell">
         <video autoplay loop muted playsinline id="dicot" class="flickity_vid"></video>
-      </div>
-      <div class="carousel-cell">
-        <img id="project-8-parasite-cover" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-8-parasite-innen" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-10-diversity" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-11-fbe-flyer-1" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
-       <div class="carousel-cell">
-        <img id="project-11-fbe-flyer-2" class="flickity_img" />
-      </div>
-      <!-- <div class="carousel-cell">
-        <img id="project-11-FBE-poster" class="flickity_img" />
-      </div> -->
       <div class="carousel-cell">
-        <video autoplay loop muted playsinline  id="fbe" class="flickity_vid"></video>
+        <img id="project-11-fbe-flyer-2" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
+      </div>
+      <div class="carousel-cell">
+        <video autoplay loop muted playsinline id="fbe" class="flickity_vid"></video>
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-11-fbe-template" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-13-lap-cover" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
       <div class="carousel-cell">
         <img id="project-13-lap-detail" class="flickity_img" />
-      </div>
-      <div class="carousel-cell">
-        <img id="project-14-testbild" class="flickity_img" />
+        <div class="project-description-wrapper"></div>
       </div>
     </div>
     <div class="cursor">
-      <img />
     </div>
-  </div>
-  <!-- Initial project description -->
-  <div id="project-description" class="project-description copy-1">Ultraviolett – Flurin Jecker<br />Haymon Verlag<br />Covergestaltung</div>
+    <div id="progress-bar">
+      <div id="progress-bar-bg"></div>
+      <div id="progress-bar-highlight"></div>
+    </div>
+  </main>
   <!-- Footer -->
-  <footer class="fixed-bottom bottom" id="index-footer">
+  <footer class="fixed-bottom bottom site-padding-x site-padding-y" id="index-footer">
     <div class="row g-0">
-      <div class="col-6">
+      <div class="col-3">
         Hamburg <br />
         Berlin
       </div>
-      <div class="col-6 text-end p-0">
-        <a href="mailto:hello@studio-ajot.de" target="_blank" id="index-link"><i
-            class="fas fa-arrow-right text-decoration-none"></i><span>Mail</span></a><br />
-        <a href="https://www.instagram.com/studio.ajot" target="_blank" id="index-link"><i
+      <div class="col-9 text-end">
+        <a href="mailto:hello@studio-ajot.de" target="_blank"
+          class="index-link"><span>hello@studio-ajot.de</span></a><br />
+        <a href="https://www.instagram.com/studio.ajot" target="_blank" class="index-link"><i
             class="fas fa-arrow-right text-decoration-none"></i><span>Instagram</span></a>
       </div>
     </div>
@@ -174,7 +209,10 @@
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="assets/js/flickity.pkgd.min.js"></script>
   <script>
+    var projectDescriptionHeights = []
+
     $(document).ready(function () {
+
       handleCursor();
       var videoPrefix = "assets/videos/web/";
       let imagePrefix = "assets/images/web/";
@@ -193,6 +231,9 @@
         $("body").removeClass("mobile-detect");
         $(".main-carousel").flickity("unbindDrag");
       }
+
+      // --- Normalize vh unit--- //
+      document.documentElement.style.setProperty('--vh', `${window.innerHeight / 100}px`);
 
       // --- Initialize videos --- //
       $(".flickity_vid").each(function () {
@@ -215,28 +256,72 @@
           imagePrefix + imageName + mediaPostfix + ".jpg"
         );
       });
+
+      // --- Initialize project description --- //
+      var numberOfProjects = $('.main-carousel').flickity().data('flickity').slides.length;
+      if ($("body").hasClass("mobile-detect")) {
+        $(".project-description-wrapper").css("opacity", `0`);
+      }
+      $(".project-description-wrapper").css("display", `block`);
+      $(".project-description-wrapper").each(function (index) {
+        $(this).html("<div class='project-description-button accent-bg'>+</div><div class='project-description copy-1'><span id='project-description-count'></span><br /><span id='project-description-text'></span></div>");
+        $(".project-description", this).css("background-color", getProjectInformation(index).accentColor);
+        $(".project-description-button", this).css("background-color", getProjectInformation(index).accentColor);
+        $("#project-description-count", this).text(setProjectDescriptionCount(index, numberOfProjects));
+        $("#project-description-text", this).text(setProjectDescriptionText(index));
+      });
+      // --- Initialize mobile progress bar / flickity page dots --- //
+      if (window.matchMedia("(max-width: 1200px)").matches) {
+        $("#progress-bar-highlight").css("width", `calc(((100vw - 60px) / ${numberOfProjects})`);
+      }
+      if (window.matchMedia("(max-width: 991px)").matches) {
+        $("#progress-bar-highlight").css("width", `calc(((100vw - 40px) / ${numberOfProjects})`);
+      }
+    });
+
+    // --- Initialize mobile project description --- //
+    $(window).on('load', function () {
+      $(".project-description-wrapper").each(function (index) {
+        if ($("body").hasClass("mobile-detect")) {
+          $(this).addClass("hide");
+          var height = $(".project-description", this).height();
+          projectDescriptionHeights[index] = height;
+          $(this).css("bottom", `-${height - 50}px`);
+        }
+      });
+      hideProjectDescription(projectDescriptionHeights);
+      if ($("body").hasClass("mobile-detect")) {
+        $(".project-description-wrapper").css("opacity", `1`);
+      }
+      $(".project-description-wrapper").css("transition", "bottom 0.5s");
     });
 
     // --- Change cursor appearance when hover on navigation/header --- //
-    $(".slider_section").hover(
+    $(".slider_section").mouseenter(
       function () {
-        $(".cursor img").css("display", "block");
-      },
+        $(".cursor").css("display", "block");
+      })
+    $(".slider_section").mouseleave(
       function () {
-        $(".cursor img, .cursor1").css("display", "none");
+        $(".cursor").css("display", "none");
       }
     );
-    $("nav").hover(function () {
-      $(".cursor img, .cursor1").css("display", "none");
+
+    $("nav").mouseover(function () {
+      $(".cursor").css("display", "none");
     });
 
     // --- Open / close menu --- //
-    $(".toggle_menu").click(function () {
+    $(".burger_menu").click(function () {
       const indexOfImage = $(".main-carousel").flickity().data("flickity")
         .selectedIndex;
       toggleMenu();
       if (menuIsOpen()) {
         setColorInOpenMenu(indexOfImage);
+        $(".menu_points.active").click(function () {
+          closeMenu();
+          setColorInClosedMenu(indexOfImage);
+        });
       } else {
         setColorInClosedMenu(indexOfImage);
       }
@@ -247,6 +332,7 @@
     });
 
     $(window).on("resize", function () {
+      document.documentElement.style.setProperty('--vh', `${window.innerHeight / 100}px`);
       if (menuIsOpen()) {
         closeMenu();
         const indexOfImage = $(".main-carousel").flickity().data("flickity")
@@ -261,9 +347,24 @@
       wrapAround: true,
       imagesLoaded: true,
       lazyLoad: 3,
+      pageDots: false
     });
 
-    $(".main-carousel").on("staticClick.flickity", function (event, index) {
+    // --- Handle click/swipe on flickity --- //
+    $(".main-carousel").on("staticClick.flickity", function (event, pointer, cellElement, cellIndex) {
+
+      // Mobile: Show/hide project description
+      if (($(event.target).hasClass('project-description-wrapper') || $(event.target).hasClass('project-description-button')) && $("body").hasClass("mobile-detect")) {
+        $(".project-description-wrapper").toggleClass("hide")
+        if ($(".project-description-wrapper").hasClass("hide")) {
+          hideProjectDescription(projectDescriptionHeights);
+        } else {
+          showProjectDescription();
+        }
+        return
+      }
+
+      // Go to next/prev slide
       x = event.clientX;
       y = event.clientY;
       if (x < $(window).width() / 2) {
@@ -280,12 +381,14 @@
     });
 
     // --- Change color of nav and footer according to changing image in the background --- //
+    var numberOfProjects = $('.main-carousel').flickity().data('flickity').slides.length;
     $(".main-carousel").on("change.flickity", function (event, index) {
-      setProjectDescription(index);
+      setProgressBarHightlight(index);
       setColor(index);
       if (menuIsOpen()) {
         setColorInOpenMenu(index);
       }
+      setColorInClosedMenu(index);
     });
   </script>
 </body>

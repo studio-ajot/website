@@ -1,39 +1,57 @@
 nav,
 footer,
-.flexer {
+.menu_points {
   background-color: transparent;
 }
 
-footer *,
-#index-link {
-  text-decoration-color: #76eec6;
+footer * {
+  text-decoration-color: #EB67B3;
 }
 
-.toggle_menu #icon,
+.burger_menu #icon,
 #icon2,
-#icon3 {
-  background-color: #76eec6;
+#icon3,
+.accent_bg,
+.project-description-button,
+#progress-bar-bg,
+#progress-bar-highlight {
+  background-color: #EB67B3;
 }
 
 #index-nav {
-  border-bottom: 1px solid #76eec6;
-  border-top: 1px solid transparent;
+  border-bottom: 1px solid #EB67B3;
+  border-top: 1px solid #EB67B3;
 }
 
 #index-footer {
-  border-top: 1px solid #76eec6;
+  border-top: 1px solid #EB67B3;
+  border-bottom: 1px solid #EB67B3;
+}
+
+.menu_points {
   border-bottom: 0;
 }
 
-.flexer {
-  border-bottom: 0;
-}
-
-nav *,
+nav,
 footer *,
-.info,
-#slider_click,
+#website_title,
 footer,
-.project-description {
-  color: #76eec6;
+.accent_text,
+.nav_menu_button:hover .index-link,
+.nav_menu_button:focus .index-link {
+  color: #EB67B3;
+}
+
+.accent_border {
+  border-color: #EB67B3;
+}
+
+.nav_menu_button:hover,
+.nav_menu_button:focus {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.cursor {
+  fill: #EB67B3;
 }

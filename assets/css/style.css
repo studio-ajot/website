@@ -99,69 +99,55 @@
       format("svg"); /* Legacy iOS */
 }
 
+/* ################################
+#              general            #
+#################################*/
 body,
 html {
   margin: 0;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   font-family: "JetBrains Mono", monospace;
   overflow-y: auto;
   font-display: swap;
-  min-height: -webkit-fill-available;
-  height: -webkit-fill-available;
 }
-
 #index_html {
   overflow-x: hidden;
 }
-
 html {
   padding: env(safe-area-inset);
 }
-
 body {
   width: 100% !important;
-  line-height: 28px;
+  line-height: normal;
 }
-
 .visible-xs {
   display: none !important;
 }
-
 .visible_mob {
   display: none;
 }
-
 .hidden-xs {
   display: block !important;
 }
-
 ul,
 ol {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 input:focus,
 button:focus,
 textarea:focus {
   outline: none;
 }
-
 a:hover,
 a:focus {
   text-decoration: none;
 }
-
 img {
   max-width: 100%;
 }
-
-.p_relative {
-  position: relative;
-}
-
 .border-right {
   border-right: 1px solid black;
 }
@@ -174,56 +160,59 @@ img {
 .border-bottom {
   border-bottom: 1px solid black !important;
 }
-.border-bottom-1 {
-  border-bottom: 1px solid black !important;
-}
 .mob_img {
   display: none;
 }
 
-.padding-small {
-  padding: 15px 30px;
+.white-bg {
+  background-color: white;
 }
 
-/* ################################
-#          main_content           #
-#################################*/
-.main-content {
-  min-height: 100vh !important;
-  padding-top: 88.5px;
-  padding-bottom: 87px;
+.black-bg {
+  background-color: black;
 }
 
-/* ################################
-#        project-description      #
-#################################*/
-.project-description {
-  position: fixed;
-  bottom: 105px;
-  left: 30px;
-  white-space: pre-wrap;
-  width: calc(100vw - 60px);
-  pointer-events: none;
-  touch-action: none;
+.site-padding-x {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.site-padding-y {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* ################################
 #            navigation           #
 #################################*/
+#website_title {
+  z-index: 30;
+}
+
 .nav_section {
   position: fixed;
   display: flex;
   top: 0;
   width: 100%;
-  padding: 15px 30px;
-  z-index: 999999;
+  z-index: 10;
   cursor: default;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
 }
 
 .nav_section.white {
   background-color: white;
+}
+
+.nav_section .nav_row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
 }
 
 .nav_section .logo {
@@ -235,91 +224,176 @@ img {
   white-space: nowrap !important;
 }
 
-.nav_section .flexer {
-  width: 100%;
-  height: 100%;
-  padding-left: 0;
-  /* background-color: white; */
-}
-
-.nav_section .flexer.active {
-  display: block;
-  margin-top: 15px;
-  height: 100%;
-}
-
-.nav_section ul li {
-  margin-right: 1.5rem !important;
-}
-
-.nav_section ul li:last-child {
-  margin-right: 0 !important;
+.nav_section ul {
+  display: flex;
 }
 
 .nav_section ul li a {
-  color: black;
   text-decoration: none;
+  color: black;
+}
+
+.index-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav_menu_button {
+  display: block;
+  width: 160px;
+  padding: 12px 0;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 10px;
+  border: 1px solid transparent;
+  color: white;
+}
+
+.nav_menu_button:hover,
+.nav_menu_button:focus {
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid black;
+}
+.nav_menu_button:hover .index-link,
+.nav_menu_button:focus .index-link {
+  color: black;
+}
+
+#subtitle {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 12px 20px;
+  white-space: nowrap;
+}
+
+.menu_points {
+  background-color: transparent;
   display: flex;
   align-items: center;
-  justify-items: flex-end;
-  white-space: nowrap;
-}
-
-.nav_section ul li a span:hover,
-.nav_section ul li a span:focus {
-  text-decoration: underline;
+  justify-content: flex-end;
+  margin-right: 20px;
+  text-decoration: none;
 }
 
 /* ################################
-#        fontawesome icons        #
+#           burger_menu           #
 #################################*/
 
-.nav_section ul li a i,
-footer a i,
-.nav_section .info i {
-  font-size: 17px;
-  margin-right: 15px;
-  text-decoration: none !important;
+.burger_menu {
+  display: none;
+  position: relative;
+  background: transparent;
+  outline: 0;
+  border: 0;
+  padding: 0;
+  width: 40px;
+  height: 30px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
 }
 
-/* ################################
-#              footer            #
-#################################*/
-footer {
-  padding: 15px 30px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  white-space: nowrap;
-  z-index: 999999;
-  cursor: default;
+.burger_menu .icon,
+.burger_menu .icon2 {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: #000;
+  left: 0;
 }
 
-footer.white {
+.burger_menu .icon2 {
+  top: 5px;
+}
+
+.burger_menu .icon3 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #000;
+  top: 25px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+/*--- burger_menu.open ---*/
+.burger_menu.open {
+  background-color: #f1f1f1;
+}
+
+.burger_menu.open .icon {
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+  background: transparent;
+}
+
+.burger_menu.open .icon2 {
+  transition-duration: 0.1s;
+  transform-origin: right top;
+  transform: rotate(-45deg);
+  right: -18px;
+  top: 0px;
   background-color: white;
 }
 
-footer a,
-footer a:hover,
-footer a:focus {
-  text-decoration: none;
-  color: black;
+.burger_menu.open .icon3 {
+  transition-duration: 0.1s;
+  transform-origin: right bottom;
+  transform: translateY(4.5px) rotate(45deg);
+  right: -18px;
+  top: 22px;
+  background-color: white;
 }
 
-footer a span:hover,
-footer a span:focus {
-  text-decoration: underline;
+/* ################################
+#          main_content           #
+#################################*/
+.main-content {
+  min-height: 100vh !important;
+  padding-top: 86px;
+  padding-bottom: 80px;
+}
+
+/* ################################
+#        project-description      #
+#################################*/
+/*mobile style in mobile-detect.css */
+
+.project-description-wrapper {
+  position: absolute;
+  bottom: 108px;
+  left: 0;
+}
+
+.project-description {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  white-space: pre-wrap;
+  pointer-events: none;
+  touch-action: none;
+  border-radius: 25px;
+  color: white;
+  padding: 20px 30px;
+  width: auto;
+}
+.project-description-button {
+  display: none;
 }
 
 /* ################################
 #              slider              # 
 #################################*/
-
 .slider_section {
   position: fixed;
   bottom: 0;
   top: 100%;
   width: 100vw;
   min-width: 100vw;
+  height: calc(100vh);
 }
 
 .slider_section.active {
@@ -335,22 +409,17 @@ footer a span:focus {
 
 .flickity_img,
 .flickity_vid {
-  min-height: 100vh;
-  height: 100vh;
   width: 100vw;
   min-width: 100vw;
   object-fit: cover;
+  height: calc(var(--vh, 1vh) * 100);
+  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 /* ################################
 #            .flickity            #
 #################################*/
-
 .flickity-prev-next-button {
-  display: none;
-}
-
-.flickity-page-dots {
   display: none;
 }
 
@@ -414,12 +483,6 @@ footer a span:focus {
 
 .info_box {
   background-color: white;
-  /* overflow: auto !important; */
-  /* transition: all ease 0.4s;
-  -webkit-transition: all ease 0.4s;
-  -moz-transition: all ease 0.4s;
-  -ms-transition: all ease 0.4s;
-  -o-transition: all ease 0.4s; */
 }
 
 .info_box p {
@@ -428,139 +491,49 @@ footer a span:focus {
 }
 
 /*--- text box ---*/
-
 .info_box .text-box {
   padding: 30px;
   word-wrap: break-word;
   /* position: relative; */
 }
 
-/*--- footer ---*/
-
-.footer-wrapper {
-  position: relative;
-}
-
 .info_box .bottom {
-  /* position: fixed; */
   bottom: 0;
   right: 0;
   width: 100%;
   margin: 0;
-  /* padding: 25px 30px; */
   background-color: white !important;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 
 /* ################################
-#           toggle_menu           #
-#################################*/
-
-.toggle_menu {
-  display: none;
-  position: relative;
-  background: transparent;
-  outline: 0;
-  border: 0;
-  padding: 0;
-  z-index: 999;
-  width: 40px;
-  height: 30px;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
-}
-
-.toggle_menu .icon,
-.toggle_menu .icon2 {
-  z-index: 999;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
-  position: absolute;
-  height: 4px;
-  width: 100%;
-  background-color: #000;
-}
-
-.toggle_menu .icon2 {
-  top: 5px;
-}
-
-.toggle_menu .icon3 {
-  z-index: 999;
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  background-color: #000;
-  top: 25px;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
-}
-
-/*--- toggle_menu.open ---*/
-.toggle_menu.open .icon {
-  transition-duration: 0.1s;
-  transition-timing-function: ease-out;
-  background: transparent;
-}
-
-.toggle_menu.open .icon2 {
-  transition-duration: 0.1s;
-  transform-origin: right top;
-  transform: rotate(-45deg);
-  right: -18px;
-  top: 0px;
-}
-
-.toggle_menu.open .icon3 {
-  transition-duration: 0.1s;
-  transform-origin: right bottom;
-  transform: translateY(4.5px) rotate(45deg);
-  right: -18px;
-  top: 22px;
-}
-
-/* ################################
 #              cursor             #
 #################################*/
-
 .cursor {
   left: 0;
   top: 0;
-  background-color: #000;
   position: absolute;
-  z-index: 99999;
-  mix-blend-mode: exclusion;
-  width: 1px;
-  height: 1px;
-}
-
-.cursor1 {
-  position: absolute;
-  z-index: 9999;
-}
-
-.cursor img {
-  max-width: initial;
+  height: 4rem;
   width: 4rem;
-  height: auto;
+  pointer-events: none;
+}
+
+.cursor svg {
+  pointer-events: none;
+  position: absolute;
+  left: -2rem;
+  top: -2rem;
+  width: 100%;
+  height: 100%;
 }
 
 html.active {
   cursor: none;
 }
-
-html .cursor {
-  display: none;
-}
-
-html.active .cursor {
-  display: block;
-}
 /* ################################
 #           scrollbar             #
 #################################*/
-
 /* ::-webkit-scrollbar {
   width: 10px;
 } */
@@ -586,3 +559,49 @@ html.active .cursor {
 ::-webkit-scrollbar-track-piece {
   background: transparent;
 }
+
+/* ################################
+#              footer            #
+#################################*/
+footer {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  white-space: nowrap;
+  z-index: 30;
+  cursor: default;
+}
+
+footer.white {
+  background-color: white;
+}
+
+footer a,
+footer a:hover,
+footer a:focus {
+  text-decoration: none;
+  color: black;
+}
+
+footer a span:hover,
+footer a span:focus {
+  text-decoration: underline;
+}
+
+footer a i {
+  font-size: 17px;
+  margin-right: 15px;
+  text-decoration: none !important;
+}
+
+.footer-link {
+  color: black;
+}
+
+/* ################################
+#    flickity dots / progressbar  #
+#################################*/
+/* style in mobile-detect.css */
+.flickity-page-dots {
+  display: none;
+}
+
