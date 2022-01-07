@@ -167,7 +167,7 @@ function hideProjectDescription(projectDescriptionHeights) {
   if ($(".project-description-wrapper").hasClass("hide")) {
     $(".project-description-button").html("+");
     $(".project-description-wrapper").each(function (index) {
-      $(this).css("bottom", `-${projectDescriptionHeights[index] - 50}px`);
+      $(this).css("bottom", `-${projectDescriptionHeights[index] - 55}px`);
     });
   }
 }
