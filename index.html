@@ -290,14 +290,12 @@
           $(this).addClass("hide");
           var height = $(".project-description", this).height();
           projectDescriptionHeights[index] = height;
-          $(this).css("bottom", `-${height - 50}px`);
+          $(this).css("bottom", `-${height - 55}px`);
         }
       });
       hideProjectDescription(projectDescriptionHeights);
-      if ($("body").hasClass("mobile-detect")) {
-        $(".project-description-wrapper").css("opacity", `1`);
-      }
-      $(".project-description-wrapper").css("transition", "bottom 0.5s");
+      $(".project-description-wrapper").css("opacity", `1`);
+      $(".project-description-wrapper").css("transition", "all 0.5s");
     });
 
     // --- Change cursor appearance when hover on navigation/header --- //
