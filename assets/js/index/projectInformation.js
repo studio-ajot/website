@@ -22,7 +22,7 @@ const getProjectInformation = (indexOfImage) => {
       };            
     case 4:
       return {
-        accentColor: "#AB2071",
+        accentColor: "#D3298C",
         projectDescription: "X-mas \nStudio Ajot \nPostkartengestaltung",
       };
     case 5:
