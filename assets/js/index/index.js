@@ -60,7 +60,8 @@ function setColor(indexOfImage) {
   // cursor
   $(".cursor").css({ fill: accentColor });
 }
-// open menu
+
+// Set color in open menu
 function setColorInOpenMenu(indexOfImage) {
   if (window.matchMedia("(max-width: 1200px)").matches) {
     const accentColor = getProjectInformation(indexOfImage).accentColor;
@@ -102,7 +103,7 @@ function setColorInOpenMenu(indexOfImage) {
     });
   }
 }
-// closed menu
+// Set color in closed menu
 function setColorInClosedMenu(indexOfImage) {
   const accentColor = getProjectInformation(indexOfImage).accentColor;
 
@@ -152,7 +153,7 @@ function setProjectDescriptionText(indexOfImage) {
   return getProjectInformation(indexOfImage).projectDescription;
 }
 
-// --- Dynamically set project index text --- //
+// --- Dynamically set project index count --- //
 function setProjectDescriptionCount(indexOfImage, numberOfSlides) {
   var leadingZero = "";
   if (indexOfImage + 1 < 10) {
@@ -166,7 +167,7 @@ function hideProjectDescription(projectDescriptionHeights) {
   if ($(".project-description-wrapper").hasClass("hide")) {
     $(".project-description-button").html("+");
     $(".project-description-wrapper").each(function (index) {
-      $(this).css("bottom", `-${projectDescriptionHeights[index] - 56}px`);
+      $(this).css("bottom", `-${projectDescriptionHeights[index] - 50}px`);
     });
   }
 }
@@ -177,7 +178,7 @@ function showProjectDescription() {
   $(".project-description-wrapper").css("bottom", "108px");
 }
 
-// --- Mobile progress bar: --- //
+// --- Mobile progress bar: Set marker / highlight --- //
 function setProgressBarHightlight(index) {
   var width = $("#progress-bar-highlight").css("width").replaceAll("px", "");
   var left = width * index;
