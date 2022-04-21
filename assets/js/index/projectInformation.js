@@ -87,50 +87,55 @@ const getProjectInformation = (indexOfImage) => {
       };
     case 17:
       return {
-        accentColor: "#C3C3C3",
-        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
-      };
+        accentColor: "#E30000",
+        projectDescription: "Studio Ajot \nVisitenkarten",
+      };      
     case 18:
       return {
-        accentColor: "#19C1A0",
-        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
+        accentColor: "#C3C3C3",
+        projectDescription: "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
       };
     case 19:
       return {
         accentColor: "#19C1A0",
-        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nGestaltung von Social Media Templates",
+        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
       };
     case 20:
+      return {
+        accentColor: "#19C1A0",
+        projectDescription: "RESET \nVortragsreihe Muthesius Kunsthochschule \nGestaltung von Social Media Templates",
+      };
+    case 21:
       return {
         accentColor: "#3A5FCD",
         projectDescription: "DiCoT \nUniversität Hamburg \nLogoentwicklung",
       };
-    case 21:
+    case 22:
       return {
         accentColor: "#000000",
         projectDescription: "Div*erse Typ_en \nPlakatgestaltung",
       };
-    case 22:
+    case 23:
       return {
         accentColor: "#0C6E5B",
         projectDescription: "Frauen*beratung Elmshorn \nProgrammheft 2022",
       };
-    case 23:
+    case 24:
       return {
         accentColor: "#0C6E5B",
         projectDescription: "Frauen*beratung Elmshorn \nInfo-Broschüre",
       };
-    case 24:
+    case 25:
       return {
         accentColor: "#0C6E5B",
         projectDescription: "Frauen*beratung Elmshorn \nEntwicklung einer Corporate Identity ",
       };
-    case 25:
+    case 26:
       return {
         accentColor: "#0C6E5B",
         projectDescription: "Frauen*beratung Elmshorn \nGestaltung von Social Media Templates",
       };
-    case 26:
+    case 27:
       return {
         accentColor: "#EEEE00",
         projectDescription: "Lose & Preserve – \nErinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
