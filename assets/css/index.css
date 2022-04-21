@@ -5,7 +5,7 @@ footer,
 }
 
 footer * {
-  text-decoration-color: #EB67B3;
+  text-decoration-color: #000000;
 }
 
 .burger_menu #icon,
@@ -15,17 +15,17 @@ footer * {
 .project-description-button,
 #progress-bar-bg,
 #progress-bar-highlight {
-  background-color: #EB67B3;
+  background-color: #000000;
 }
 
 #index-nav {
-  border-bottom: 1px solid #EB67B3;
-  border-top: 1px solid #EB67B3;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
 }
 
 #index-footer {
-  border-top: 1px solid #EB67B3;
-  border-bottom: 1px solid #EB67B3;
+  border-top: 1px solid #0000003;
+  border-bottom: 1px solid #000000;
 }
 
 .menu_points {
@@ -39,11 +39,11 @@ footer,
 .accent_text,
 .nav_menu_button:hover .index-link,
 .nav_menu_button:focus .index-link {
-  color: #EB67B3;
+  color: #000000;
 }
 
 .accent_border {
-  border-color: #EB67B3;
+  border-color: #000000;
 }
 
 .nav_menu_button:hover,
@@ -53,5 +53,5 @@ footer,
 }
 
 .cursor {
-  fill: #EB67B3;
+  fill: #000000;
 }
