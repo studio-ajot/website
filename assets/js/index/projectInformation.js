@@ -1,45 +1,45 @@
 const getProjectInformation = (indexOfImage) => {
   switch (indexOfImage) {
-     case 0:
+    case 0:
       return {
-        accentColor: "#EB67B3",
-        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nPostergestaltung",
-      };   
+        accentColor: "#000000",
+        projectDescription: "getNextIT \nLogogestaltung",
+      };       
     case 1:
       return {
         accentColor: "#EB67B3",
-        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
+        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nPostergestaltung",
       };   
     case 2:
       return {
         accentColor: "#EB67B3",
         projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
-      };  
+      };   
     case 3:
+      return {
+        accentColor: "#EB67B3",
+        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungsflyer",
+      };  
+    case 4:
       return {
         accentColor: "#EB67B3",
         projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungskatalog",
       };   
-     case 4:
+     case 5:
       return {
         accentColor: "#EB67B3",
         projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungskatalog",
       };      
-     case 5:
+     case 6:
       return {
         accentColor: "#D9C843",
         projectDescription: "DayOff \nLogoentwicklung",
       };            
-    case 6:
+    case 7:
       return {
         accentColor: "#D3298C",
         projectDescription: "X-mas \nStudio Ajot \nPostkartengestaltung",
-      };
-    case 7:
-      return {
-        accentColor: "#000000",
-        projectDescription: "getNextIT \nLogogestaltung",
-      };      
+      };    
     case 8:
       return {
         accentColor: "#76EEC6",
