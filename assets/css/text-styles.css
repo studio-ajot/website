@@ -27,7 +27,7 @@ H2 {
 .black-links:hover {
   color: #C600FD;
   font-weight: 900;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .white-text {
