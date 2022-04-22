@@ -584,7 +584,8 @@ footer a:focus {
 
 footer a span:hover,
 footer a span:focus {
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: 900;
 }
 
 footer a i {
