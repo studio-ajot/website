@@ -3,8 +3,13 @@ const getProjectInformation = (indexOfImage) => {
     case 0:
       return {
         accentColor: "#000000",
-        projectDescription: "getNextIT \nLogogestaltung",
-      };       
+        projectDescription: "getNextIT \nBranding \nVisitenkarten",
+      };  
+    case 1:
+      return {
+        accentColor: "#000000",
+        projectDescription: "getNextIT \nBranding \nLogogestaltung",
+      };         
     case 1:
       return {
         accentColor: "#EB67B3",
@@ -33,7 +38,7 @@ const getProjectInformation = (indexOfImage) => {
      case 6:
       return {
         accentColor: "#D9C843",
-        projectDescription: "DayOff \nLogoentwicklung",
+        projectDescription: "DayOff \nBranding \nLogoentwicklung",
       };            
     case 7:
       return {
@@ -53,7 +58,7 @@ const getProjectInformation = (indexOfImage) => {
     case 10:
       return {
         accentColor: "#0C6E5B",
-        projectDescription: "Naturheilpraxis Ulrike Röske \nLogogestaltung",
+        projectDescription: "Naturheilpraxis Ulrike Röske \nBranding \nLogogestaltung",
       };         
     case 11:
       return {
