@@ -3,22 +3,22 @@ const getProjectInformation = (indexOfImage) => {
     case 0:
       return {
         accentColor: "#000000",
-        projectDescription: "epda boost book \nEditorial \nBuchgestaltung",
+        projectDescription: "getNextIT \nBranding \nLogogestaltung",
       };  
     case 1:
       return {
         accentColor: "#000000",
-        projectDescription: "epda boost book \nEditorial \nBuchgestaltung",
+        projectDescription: "getNextIT \nBranding \nLogogestaltung",
       };    
     case 2:
       return {
-        accentColor: "#EB67B3",
-        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nPostergestaltung",
+        accentColor: "#FFEB00",
+        projectDescription: "epda boost book \nEditorial \nBuchgestaltung",
       };   
     case 3:
       return {
-        accentColor: "#EB67B3",
-        projectDescription: "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nPostergestaltung",
+        accentColor: "#FFEB00",
+        projectDescription: "epda boost book \nEditorial \nBuchgestaltung",
       };         
     case 4:
       return {
