@@ -3,12 +3,12 @@ const getProjectInformation = (indexOfImage) => {
     case 0:
       return {
         accentColor: "#000000",
-        projectDescription: "getNextIT \nBranding \nVisitenkarten",
+        projectDescription: "epda boost book \nEditorial \nBuchgestaltung",
       };  
     case 1:
       return {
         accentColor: "#000000",
-        projectDescription: "getNextIT \nBranding \nLogogestaltung",
+        projectDescription: "epda boost book \nEditorial \nBuchgestaltung",
       };    
     case 2:
       return {
