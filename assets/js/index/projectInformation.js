@@ -12,12 +12,12 @@ const getProjectInformation = (indexOfImage) => {
       };    
     case 2:
       return {
-        accentColor: "#7E0083",
+        accentColor: "#9A01A0",
         projectDescription: "epda boost book \nEditorial \nBuchgestaltung",
       };   
     case 3:
       return {
-        accentColor: "#7E0083",
+        accentColor: "#9A01A0",
         projectDescription: "epda boost book \nEditorial \nBuchgestaltung",
       };         
     case 4:
