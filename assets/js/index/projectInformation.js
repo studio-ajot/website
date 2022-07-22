@@ -22,7 +22,7 @@ const getProjectInformation = (indexOfImage) => {
       };   
     case 4:
       return {
-        accentColor: "#00ffcc",
+        accentColor: "#00FFCC",
         projectDescription: "OpenFBA \nBranding \nLogogestaltung",
       };           
     case 5:
