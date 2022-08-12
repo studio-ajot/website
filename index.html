@@ -134,16 +134,6 @@
                   : ""
               }/>
                 <div class="project-description-wrapper">
-                  <div class="project-description-button accent-bg" style="background-color:${
-                    project.accentColor
-                  };">+</div>
-                  <div class='project-description copy-1'>
-                    <span id='project-description-count'>${index + 1}</span>
-                    <br />
-                    <span id='project-description-text'>${
-                      project.projectDescription
-                    }</span>
-                  </div>
                 </div>
               </div>
             `)
@@ -153,20 +143,13 @@
               "append",
               $(` 
               <div class="carousel-cell">
-                <video autoplay loop muted playsinline id=${
-                  project.id
-                } class="flickity_vid">
-                <source src="${
-                  videoPrefix + project.id + mediaPostfix
-                }.webm" type="video/webm" /> <source src="${
-                videoPrefix + project.id + mediaPostfix
-              }.mp4" type="video/mp4" poster=${
-                videoPrefix + "poster/" + project.id + mediaPostfix + ".jpg"
-              }/>
+                <video autoplay loop muted playsinline id=${project.id} class="flickity_vid">
+                  <source src="${videoPrefix + project.id + mediaPostfix}.webm" type="video/webm" /> 
+                  <source src="${videoPrefix + project.id + mediaPostfix}.mp4" type="video/mp4" 
+                  poster=${videoPrefix + "poster/" + project.id + mediaPostfix + ".jpg"}/>
                 </video>
                 <div class="project-description-wrapper"></div>
               </div>
-          
               `)
             );
           }
@@ -192,11 +175,19 @@
           .slides.length;
         if ($("body").hasClass("mobile-detect")) {
           $(".project-description-wrapper").css("opacity", `0`);
+          $(".project-description-wrapper").addClass("hide");
         }
         $(".project-description-wrapper").css("display", `block`);
         $(".project-description-wrapper").each(function (index) {
           $(this).html(
-            "<div class='project-description-button accent-bg'>+</div><div class='project-description copy-1'><span id='project-description-count'></span><br /><span id='project-description-text'></span></div>"
+            `<div class='project-description-button accent-bg'>
+              +
+            </div>
+            <div class='project-description copy-1'>
+              <span id='project-description-count'></span>
+              <br />
+              <span id='project-description-text'></span>
+            </div>`
           );
           $(".project-description", this).css(
             "background-color",
