@@ -216,7 +216,9 @@
     <script>
       $(document).ready(function () {
         const projectName = window.location.pathname
+          .replace(/.*studio-ajot.de\//, "")
           .replace(/.*studio-ajot\//, "")
+          .replace("/", "")
           .replace(".html", "");
 
         // get project information
