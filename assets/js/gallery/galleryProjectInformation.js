@@ -79,7 +79,7 @@ const galleryProjectInformation = [
       "Ultraviolett – Flurin Jecker \nHaymon Verlag \nCovergestaltung",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
-    mediaTypes: ["img", "img", "img", "img"],
+    mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
       "Ultraviolett \n \nAuftraggeberIn: Haymon Verlag, 2021 \nUmschlaggestaltung \n \n„Es gibt einen Punkt, an dem Hirngespinste zu Geisterbeschwörungen werden. Und es gibt einen Punkt, an dem sich Panik in Musik verwandelt. Durch eine bestimmte Feinsinnigkeit lassen sich diese beiden Punkte überlagern. Dort beginnt es zu glühen, dort gibt es Sonnenuntergänge, Abschiede und Euphorie. Von diesem Glühen erzählt Flurin Jecker.“ ¹  in Ultraviolett. Für die Umschlaggestaltung des Romans wurden wir vom Haymon Verlag beauftragt. \n¹ Zitat: Joshua Groß",
   },
