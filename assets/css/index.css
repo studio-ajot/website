@@ -1,3 +1,7 @@
+:root {
+  --accent-color-first-project: #1F1FD3;
+}
+
 nav,
 footer,
 .menu_points {
@@ -5,7 +9,7 @@ footer,
 }
 
 footer * {
-  text-decoration-color: #000000;
+  text-decoration-color: var(--accent-color-first-project);
 }
 
 .burger_menu #icon,
@@ -15,17 +19,17 @@ footer * {
 .project-description-button,
 #progress-bar-bg,
 #progress-bar-highlight {
-  background-color: #000000;
+  background-color: var(--accent-color-first-project);
 }
 
 #index-nav {
-  border-bottom: 1px solid #000000;
-  border-top: 1px solid #000000;
+  border-bottom: 1px solid var(--accent-color-first-project);
+  border-top: 1px solid var(--accent-color-first-project);
 }
 
 #index-footer {
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
+  border-top: 1px solid var(--accent-color-first-project);
+  border-bottom: 1px solid var(--accent-color-first-project);
 }
 
 .menu_points {
@@ -39,11 +43,11 @@ footer,
 .accent_text,
 .nav_menu_button:hover .index-link,
 .nav_menu_button:focus .index-link {
-  color: #000000;
+  color: var(--accent-color-first-project);
 }
 
 .accent_border {
-  border-color: #000000;
+  border-color: var(--accent-color-first-project);
 }
 
 .nav_menu_button:hover,
@@ -53,5 +57,5 @@ footer,
 }
 
 .cursor {
-  fill: #000000;
+  fill: var(--accent-color-first-project);
 }
