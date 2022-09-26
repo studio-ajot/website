@@ -69,13 +69,18 @@
   <!-- Footer -->
   <footer class="fixed-bottom bottom site-padding-x site-padding-y" id="index-footer">
     <div class="row g-0">
-      <div class="col-3">
-        Hamburg <br />
-        Berlin
-      </div>
+        <div class="col-3">
+          Hamburg & Berlin<br />
+          <a href="impressum-datenschutz.html"><span>Impressum</span></a>
+        </div>
       <div class="col-9 text-end">
-        <a href="mailto:hello@studio-ajot.de" target="_blank"
-          class="index-link"><span>hello@studio-ajot.de</span></a><br />
+        <a
+        href="mailto:hello@studio-ajot.de"
+        target="_blank"
+        class="footer footer-link"
+        ><i class="fas fa-arrow-right text-decoration-none"></i
+        ><span>Mail</span></a
+      ><br />
         <a href="https://www.instagram.com/studio.ajot" target="_blank" class="index-link"><i
             class="fas fa-arrow-right text-decoration-none"></i><span>Instagram</span></a>
       </div>
@@ -83,10 +88,10 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
-  <script src="assets/js/mainFunctions.js"></script>
-  <script src="assets/js/index/projectInformation.js"></script>
-  <script src="assets/js/index/index.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="assets/js/mainFunctions.js"></script>
+  <script src="assets/js/index/sliderProjectInformation.js"></script>
+  <script src="assets/js/index/index.js"></script>
   <script src="assets/js/flickity.pkgd.min.js"></script>
   <script type="">
       var projectDescriptionHeights = [];
@@ -99,8 +104,8 @@
       $(document).ready(function () {
 
         handleCursor();
-        let videoPrefix = "assets/videos/web/";
-        let imagePrefix = "assets/images/web/";
+        let videoPrefix = "assets/slider/web/";
+        let imagePrefix = "assets/slider/web/";
         let mediaPostfix = "-web";
         // --- Mobile detection --- //
         if (
@@ -109,8 +114,8 @@
           )
         ) {
           $("body").addClass("mobile-detect");
-          videoPrefix = "assets/videos/mobile/";
-          imagePrefix = "assets/images/mobile/";
+          videoPrefix = "assets/slider/mobile/";
+          imagePrefix = "assets/slider/mobile/";
           mediaPostfix = "-mobile";
         } else {
           $("body").removeClass("mobile-detect");
@@ -210,6 +215,17 @@
             `calc(((100vw - 40px) / ${numberOfProjects})`
           );
         }
+        $(".project-description-wrapper").each(function (index) {
+          if ($("body").hasClass("mobile-detect")) {
+            $(this).addClass("hide");
+            var height = $(".project-description", this).height();
+            projectDescriptionHeights[index] = height;
+            $(this).css("bottom", `-${height - 55}px`);
+          }
+        });
+        hideProjectDescription(projectDescriptionHeights);
+        $(".project-description-wrapper").css("opacity", `1`);
+        $(".project-description-wrapper").css("transition", "all 0.5s");
       });
 
       // --- Initialize mobile project description --- //

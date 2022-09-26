@@ -102,6 +102,10 @@
 /* ################################
 #              general            #
 #################################*/
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
 body,
 html {
   margin: 0;
@@ -535,30 +539,26 @@ html.active {
 #           scrollbar             #
 #################################*/
 /* ::-webkit-scrollbar {
-  width: 10px;
-} */
-
-/* Track */
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  width: 0;
 }
 
-/* Handle */
+body::-webkit-scrollbar-track {
+  background: transparent;
+  opacity: 0;
+}
 
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background: #888;
 }
 
-/* Handle on hover */
-
-::-webkit-scrollbar-thumb:hover {
+body::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
 
-::-webkit-scrollbar-track-piece {
+body::-webkit-scrollbar-track-piece {
   background: transparent;
-}
+  opacity: 0;
+} */
 
 /* ################################
 #              footer            #
@@ -606,3 +606,294 @@ footer a i {
   display: none;
 }
 
+/* ################################
+#            gallery              #
+#################################*/
+
+.gallery-main {
+  min-width: 800px;
+  overflow-x: auto;
+}
+/* filter bar */
+
+.filter-bar-container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px;
+  width: 100vw;
+  background-color: white;
+  z-index: 5;
+}
+
+.filter-bar {
+  overflow-x: auto;
+  display: flex;
+}
+
+.filter-bar > .filter-bar__filter-element,
+.filter-bar > .filter-bar__filter-element--selected {
+  margin-right: 50px !important;
+  cursor: pointer;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.filter-bar > .filter-bar__filter-element:hover {
+  color: #cf0de8;
+  font-weight: 900;
+}
+
+.filter-bar > *:last-child {
+  margin-right: 50px !important;
+}
+
+.filter-bar__filter-element--selected {
+  color: #cf0de8;
+}
+
+/* gallery-container */
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 66.5px 25px 20px 25px;
+}
+
+.gallery-container > .gallery-container__element {
+  width: calc(100% / 3 - 10px);
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  height: calc(100vw / 2.57);
+}
+
+/* .gallery-container > .gallery-container__element:nth-child(3n){
+  margin-right: 0;
+} */
+
+.gallery-container__element img,
+.gallery-container__element video {
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  object-fit: cover;
+  height: 100%;
+  opacity: 100%;
+}
+
+.gallery-container__element:hover img {
+  transform: scale(1.1);
+}
+
+/* gallery layout */
+.gallery-container > .gallery-container__element:nth-child(9n + 1),
+.gallery-container > .gallery-container__element:nth-child(9n + 3) {
+  height: calc(100vw / 2.5);
+  margin-top: 0;
+}
+.gallery-container > .gallery-container__element:nth-child(9n + 2),
+.gallery-container > .gallery-container__element:nth-child(9n + 5) {
+  height: calc(100vw / 2.5);
+  margin-top: calc(100vw / -8.8);
+}
+.gallery-container > .gallery-container__element:nth-child(9n + 4),
+.gallery-container > .gallery-container__element:nth-child(9n + 6),
+.gallery-container > .gallery-container__element:nth-child(9n + 8) {
+  height: calc(100vw / 4.5);
+  margin-top: 0;
+}
+.gallery-container > .gallery-container__element:nth-child(9n + 7),
+.gallery-container > .gallery-container__element:nth-child(9n) {
+  height: calc(100vw / 2.5);
+  margin-top: calc(100vw / -15.8);
+}
+
+.gallery-container > .gallery-container__element:nth-child(2) {
+  height: calc(100vw / 3.5);
+  margin-top: 0;
+}
+/* gallery-overlay */
+.gallery-container__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0%;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none !important;
+}
+
+.gallery-container__overlay:hover {
+  opacity: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ################################
+#      project subpages (web)     #
+#################################*/
+
+.subpage-main-container-for-web {
+  min-height: calc(100vh - 150px);
+  display: none;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.subpage-main-container-for-web__subpage-image-container {
+  float: left;
+  width: 65%;
+  padding: 30px 20px 50px 20px;
+  height: calc(100vh - 150px);
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.subpage-main-container-for-web__text-container {
+  float: left;
+  width: 35%;
+  padding: 30px 20px 50px 20px;
+  height: calc(100vh - 150px);
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.subpage-main-container-for-web__text-container__nav--arrow-img {
+  width: 30px;
+  height: 50px;
+  flex-grow: 0;
+}
+
+.arrow-left {
+  margin-right: 10px;
+}
+
+.arrow-right {
+  margin-left: 10px;
+}
+
+.subpage-main-container-for-web__text-container__nav__link,
+.subpage-main-container-for-web__text-container__nav__link:hover {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+/* ################################
+#    project subpages (mobile)    #
+#################################*/
+.subpage-main-container-for-mobile {
+  display: none;
+  width: 100%;
+  padding: 30px;
+}
+
+.expand-button {
+  background-color: white;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subpage-main-container-for-mobile > *:nth-child(2),
+.subpage-main-container-for-mobile > *:nth-child(4) {
+  margin-top: 20px;
+}
+
+.subpage-main-container-for-mobile__text-box {
+  justify-content: space-between;
+  padding: 30px;
+  color: white;
+  border-radius: 30px;
+  align-items: center;
+  color: white;
+  border-radius: 30px;
+  overflow-y: auto;
+  margin-top: 3px;
+  text-align: center;
+  transition: all 1s ease-in-out;
+  max-height: 300px;
+  min-height: 200px;
+  height: auto;
+  overflow: hidden;
+}
+
+.subpage-main-container-for-mobile__text-box.is-expanded {
+  transition: all 1s ease-in-out;
+  max-height: 1800px;
+  min-height: 300px;
+  height: auto;
+  text-align: left;
+  overflow: hidden;
+}
+
+.subpage-main-container-for-mobile__text-box__text {
+  white-space: pre-wrap;
+}
+
+.expand-button {
+  margin-top: 20px;
+  color: black;
+}
+/* ################################
+#     project subpages (both)     #
+#################################*/
+
+.subpage-main-container-for-web__text-container__nav,
+.subpage-main-container-for-mobile__nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.subpage-main-container-for-web__subpage-image-container__img,
+.subpage-main-container-for-web__subpage-image-container__vid,
+.subpage-main-container-for-mobile__img,
+.subpage-main-container-for-mobile__vid {
+  width: 100%;
+}
+
+.subpage-main-container-for-web__subpage-image-container__img:not(:last-child),
+.subpage-main-container-for-mobile__img:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.subpage-main-container-for-web__subpage-image-container__vid:not(:last-child),
+.subpage-main-container-for-mobile__vid:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.subpage-main-container-for-web__text-container__text-box {
+  justify-content: space-between;
+  padding: 30px;
+  color: white;
+  border-radius: 30px;
+  align-items: center;
+  color: white;
+  border-radius: 30px;
+  margin-top: 20px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+.subpage-main-container-for-web__text-container__text-box {
+  margin-bottom: 20px;
+}

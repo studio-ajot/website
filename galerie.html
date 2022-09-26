@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="de" class="active">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/flickity.min.css" />
+    <link
+      rel="icon"
+      href="./assets/images/favicon_studio-ajot.png"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/responsive-style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/mobile-detect.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/text-styles.css" />
+    <title>Studio Ajot - Über uns</title>
+    <meta
+      name="description"
+      content="Graphic Design Studio &middot; Johanna Klüsener + Anastasia Marx &middot; Hamburg + Berlin"
+    />
+    <style>
+      html.active {
+        cursor: auto;
+      }
+
+      html.wf-loading * {
+        opacity: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="nav_section white-bg" id="index-nav">
+      <div class="nav_row site-padding-x site-padding-y">
+        <a href="index.html" class="logo" id="website_title">Studio Ajot</a>
+        <!-- hamburger menu button -->
+        <button type="button" class="burger_menu">
+          <span class="icon" id="icon"></span>
+          <span class="icon2" id="icon2"></span>
+          <span class="icon3" id="icon3"></span>
+        </button>
+      </div>
+      <!-- menu points -->
+      <div class="menu_points">
+        <span id="subtitle" class="accent_border accent_text">
+          Branding & Editorial
+        </span>
+        <ul>
+          <li>
+            <a class="nav_menu_button black-bg" href="index.html"
+              ><span class="index-link">Arbeiten</span></a
+            >
+          </li>
+          <li>
+            <a class="nav_menu_button black-bg" href="ueber-uns.html">
+              <span class="index-link">Über uns</span>
+            </a>
+          </li>
+          <li>
+            <a class="nav_menu_button black-bg" href="kompetenzen.html"
+              ><span class="index-link">Kompetenzen</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main Content -->
+    <main class="main-content gallery-main">
+      <div class="filter-bar-container">
+        <ul class="filter-bar">
+          <li
+            class="filter-bar__filter-element filter-bar__filter-element--selected"
+            data-filter="none"
+          >
+            Alle
+          </li>
+        </ul>
+      </div>
+      <div class="gallery-container grid"></div>
+    </main>
+    <!-- Footer -->
+    <footer class="fixed-bottom site-padding-x site-padding-y bottom white">
+      <div class="row g-0">
+        <div class="col-3">
+          Hamburg & Berlin<br />
+          <a href="impressum-datenschutz.html"><span>Impressum</span></a>
+        </div>
+        <div class="col-9 text-end">
+          <a
+            href="mailto:hello@studio-ajot.de"
+            target="_blank"
+            class="footer footer-link"
+            ><i class="fas fa-arrow-right text-decoration-none"></i
+            ><span>Mail</span></a
+          >
+          <a href="https://www.instagram.com/studio.ajot" target="_blank"
+            ><br /><i class="fas fa-arrow-right text-decoration-none"></i
+            ><span>Instagram</span></a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/mainFunctions.js"></script>
+    <script src="assets/js//gallery/gallery.js"></script>
+    <script src="assets/js/setColorInMobileMenu.js"></script>
+    <script src="assets/js/gallery/galleryProjectInformation.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        if (
+          /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+            navigator.userAgent
+          )
+        ) {
+          $("body").addClass("mobile-detect");
+          $(".gallery-main").css({
+            "min-width": "0",
+            "overflow-x": "hidden",
+          });
+        } else {
+          $("body").removeClass("mobile-detect");
+        }
+
+        // --- Initialize isotope grid --- //
+        $(".grid").isotope({
+          // options
+          itemSelector: ".grid-item",
+          layoutMode: "fitRows",
+          percentPosition: true,
+          masonry: {
+            columnWidth: ".grid-sizer",
+            gutter: ".gutter-sizer",
+            horizontalOrder: true,
+          },
+        });
+
+        // --- Fill filter bar dynamically --- //
+        const allCategories = Array.from([
+          ...new Set(
+            galleryProjectInformation
+              .map((item) =>
+                item.categories.map((category) => category.toUpperCase())
+              )
+              .reduce((acc, val) => acc.concat(val), [])
+          ),
+        ]).sort();
+        allCategories.forEach((categoryForFilter) => {
+          $(".filter-bar").append(
+            `<li class="filter-bar__filter-element" data-filter="${categoryForFilter.replace(
+              /[\W_]+/g,
+              ""
+            )}">${categoryForFilter}</li>`
+          );
+        });
+
+        // --- Resize and reposition items when gallery is filtered --- //
+        $(".filter-bar__filter-element").on("click", function () {
+          const filter = $(this).data("filter");
+          console.log(filter);
+          $(".grid").isotope({
+            filter: filter === "none" ? "*" : "." + filter,
+          });
+
+          $(".filter-bar__filter-element").removeClass(
+            "filter-bar__filter-element--selected"
+          );
+
+          $(this).addClass("filter-bar__filter-element--selected");
+
+          resizeGalleryItems();
+        });
+
+        // --- Fill gallery dynamically --- //
+        galleryProjectInformation.forEach((project, index) => {
+          const videoPrefix = `assets/gallery/mobile/${project.id}/`;
+          const imagePrefix = `assets/gallery/mobile/${project.id}/`;
+          const mediaPostfix = "-mobile";
+
+          if (project.mediaTypes[0] === "img") {
+            var $content = $(`
+                  <a href="${
+                    project.id
+                  }.html" class="gallery-container__element grid-item is-filtered ${project.categories
+              .map((category) => category.toUpperCase().replace(/[\W_]+/g, ""))
+              .join(" ")}">
+                    <img src=${imagePrefix + project.id + "-1.jpg"} />
+                    <div class="gallery-container__overlay" style="background-color: ${
+                      project.accentColor
+                    }">
+                      ${project.projectDescription}
+                    </div>
+                  </a>
+                  `);
+            $(".grid").append($content).isotope("appended", $content);
+          } else if (project.mediaTypes[0] === "vid") {
+            var $content = $(`
+                  <a href="${
+                    project.id
+                  }.html" class="gallery-container__element grid-item is-filtered ${project.categories
+              .map((category) => category.toUpperCase().replace(/[\W_]+/g, ""))
+              .join(" ")}">
+                    <video autoplay loop muted playsinline id=${project.id}>
+                      <source src="${
+                        videoPrefix + project.id
+                      }-1.webm" type="video/webm" />
+                      <source src="${
+                        videoPrefix + project.id
+                      }-1.mp4" type="video/mp4"
+                      poster=${
+                        videoPrefix +
+                        "poster/" +
+                        project.id +
+                        mediaPostfix +
+                        ".jpg"
+                      }/>
+                    </video>
+                    <div class="gallery-container__overlay" style="background-color: ${
+                      project.accentColor
+                    }">
+                      ${project.projectDescription}
+                    </div>
+                  </a>
+                  `);
+            $(".grid").append($content).isotope("appended", $content);
+          }
+        });
+
+        // mobile: show gallery item preview before hyperlink is activated on click
+        // if ($("body").hasClass("mobile-detect")) {
+        //   $(".gallery-container__element").on("click", function () {
+        //     if ($(this).hasClass("is-selected")) {
+        //       return true;
+        //     }
+        //     $(".gallery-container__element").removeClass("is-selected");
+        //     $(this).addClass("is-selected");
+        //     return false;
+        //   });
+        // }
+
+        // layout Isotope after each image loads
+        $(".grid")
+          .imagesLoaded()
+          .progress(function () {
+            $(".grid").isotope("layout");
+          });
+      });
+
+      $(window).on("resize", function () {
+        if (menuIsOpen()) {
+          closeMenu();
+          setColorInClosedMenu("black");
+        }
+        resizeGalleryItems();
+      });
+
+      $(".burger_menu").click(function () {
+        toggleMenu();
+        if (menuIsOpen()) {
+          setColorInOpenMenu("black");
+        } else {
+          setColorInClosedMenu("black");
+        }
+      });
+
+      $(".nav_section ul li a").click(function () {
+        if (
+          $(".burger_menu").hasClass("open") ||
+          $(".nav_section .menu_points").hasClass("active")
+        ) {
+          $(".burger_menu").removeClass("open");
+          $(".nav_section .menu_points").removeClass("active");
+        }
+      });
+    </script>
+  </body>
+</html>

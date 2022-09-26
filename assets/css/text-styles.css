@@ -19,6 +19,17 @@ H2 {
   font-weight: 700;
 }
 
+.white-links {
+  color: white;
+  text-decoration: none;
+}
+
+.white-links:hover {
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+}
+
 .black-links {
   color: black;
   text-decoration: none;

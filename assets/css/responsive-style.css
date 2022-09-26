@@ -27,6 +27,7 @@
     width: calc(100vw - 60px);
   }
 
+  .gallery-container > .gallery-container__element:nth-child(12n + 5),
   /* ################################
   #        open mobile menu         #
   #################################*/
