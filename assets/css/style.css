@@ -253,6 +253,10 @@ img {
   color: white;
 }
 
+.nav_menu_button--big {
+  width: 285px;
+}
+
 .nav_menu_button:hover,
 .nav_menu_button:focus {
   text-decoration: none;
@@ -718,6 +722,11 @@ footer a i {
   margin-top: 0;
 }
 /* gallery-overlay */
+/* hide on mobile */
+.mobile-detect .gallery-container__overlay {
+  display: none;
+}
+
 .gallery-container__overlay {
   position: absolute;
   top: 0;
@@ -794,7 +803,11 @@ footer a i {
 .subpage-main-container-for-mobile {
   display: none;
   width: 100%;
-  padding: 30px;
+  padding: 20px;
+}
+
+.subpage-main-container-for-mobile__nav {
+  padding: 5px 10px !important;
 }
 
 .expand-button {
@@ -804,7 +817,7 @@ footer a i {
   height: 40px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
