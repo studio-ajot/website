@@ -17,7 +17,7 @@ const galleryProjectInformation = [
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img"],
     longTextDescription:
-      "Asepsis \n \nAuftraggeberIn: Christian An, 2019 \nKünstlerpublikation \n30 signierte Exemplare  \n \nAuf 19 Seiten inszenierten wir Zeichnungen des Künstlers Christian An und gestalteten das Künstlerbuch Asepsis. An zeigt von Reinlichkeit besessene Akteure – Gurus mit riesigen Zahnbürsten. Gelb-blaue Müllmänner, Verbotsschilder und Absperrbänder verweisen in ihrer signalhaften Farbigkeit auf Europol, die europäische Polizei. Was auf den ersten Blick noch humorvoll erscheint, beschäftigt sich kritisch damit, was – von Hierarchiehörigkeit bis hin zu Stigmatisierung – mit einer Gesellschaft geschehen kann, wenn sich Hygiene zur Ideologie und Keimfreiheit zum Heilsversprechen wandelt.",
+      "Asepsis \n \nAuftraggeberIn: Christian An, 2019 \nKünstlerpublikation \n30o signierte Exemplare  \n \nAuf 19 Seiten inszenierten wir Zeichnungen des Künstlers Christian An und gestalteten das Künstlerbuch Asepsis. An zeigt von Reinlichkeit besessene Akteure – Gurus mit riesigen Zahnbürsten. Gelb-blaue Müllmänner, Verbotsschilder und Absperrbänder verweisen in ihrer signalhaften Farbigkeit auf Europol, die europäische Polizei. Was auf den ersten Blick noch humorvoll erscheint, beschäftigt sich kritisch damit, was – von Hierarchiehörigkeit bis hin zu Stigmatisierung – mit einer Gesellschaft geschehen kann, wenn sich Hygiene zur Ideologie und Keimfreiheit zum Heilsversprechen wandelt.",
   },
   {
     id: "project-2-calendarium-luminis",
@@ -44,7 +44,7 @@ const galleryProjectInformation = [
   {
     id: "project-4-fbe",
     accentColor: "#0C6E5B",
-    projectDescription: "Frauen*beratung Elmshorn \nXXXX",
+    projectDescription: "Frauen*beratung Elmshorn \nVisuelle Identität",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
     mediaTypes: ["img", "img", "vid", "img", "img", "img"],
@@ -87,7 +87,7 @@ const galleryProjectInformation = [
     id: "project-8-mfa",
     accentColor: "#EB67B3",
     projectDescription:
-      "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nXXX",
+      "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nVisuelle Identität \nAusstellungsdesign",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
