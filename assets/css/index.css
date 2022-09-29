@@ -52,8 +52,8 @@ footer,
 
 .nav_menu_button:hover,
 .nav_menu_button:focus {
-  background-color: white;
-  border: 1px solid white;
+  background-color: transparent;
+  border: 1px solid var(--accent-color-first-project);
 }
 
 .cursor {

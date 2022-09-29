@@ -47,16 +47,19 @@ function setColor(indexOfImage) {
     color: accentColor,
   });
   $("footer *").css({ "text-decoration-color": accentColor });
+
+  // when updating, this needs to be copied after line 141
   $(".nav_menu_button").mouseover(function () {
-    $(this).css("background-color", "white");
+    $(this).css("background-color", "transparent");
     $(".index-link", this).css("color", accentColor);
-    $(this).css("border", `1px solid white`);
+    $(this).css("border", `1px solid ${accentColor}`);
   });
   $(".nav_menu_button").mouseout(function () {
     $(this).css("background-color", accentColor);
     $(".index-link", this).css("color", "white");
     $(this).css("border", `1px solid ${accentColor}`);
   });
+  
   // cursor
   $(".cursor").css({ fill: accentColor });
 }
@@ -137,9 +140,9 @@ function setColorInClosedMenu(indexOfImage) {
   $("#website_title, #subtitle, footer *").css({ color: accentColor });
 
   $(".nav_menu_button").mouseover(function () {
-    $(this).css("background-color", "white");
+    $(this).css("background-color", "transparent");
     $(".index-link", this).css("color", accentColor);
-    $(this).css("border", `1px solid white`);
+    $(this).css("border", `1px solid ${accentColor}`);
   });
   $(".nav_menu_button").mouseout(function () {
     $(this).css("background-color", accentColor);
