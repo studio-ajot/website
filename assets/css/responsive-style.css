@@ -29,10 +29,10 @@
 
   /* gallery layout */
   .gallery-container > .gallery-container__element {
-    width: calc(100% / 2 - 7.5px);
-    margin-right: 3.75px;
-    margin-left: 3.75px;
-    margin-bottom: 7.5px;
+    width: calc(100% / 2 - 5px);
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    margin-bottom: 5px;
   }
 
   .gallery-container > .gallery-container__element:nth-child(12n + 2),
@@ -74,12 +74,26 @@
 
   .main-content {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom:79px;
   }
 
   .gallery-container {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  /* subpages */
+
+  .subpage-main-container-for-web {
+    min-height: calc(100vh - 160px);
+  }
+  
+  .subpage-main-container-for-web__subpage-image-container {
+    height: calc(100vh - 160px);
+  }
+  
+  .subpage-main-container-for-web__text-container {
+    height: calc(100vh - 160px);
   }
 
   /* ################################
@@ -122,8 +136,7 @@
   .nav_section .menu_points.active a {
     margin-bottom: 10px;
     margin-left: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 15px 0;
     width: 100%;
     text-decoration: none;
   }

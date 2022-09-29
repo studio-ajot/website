@@ -361,8 +361,8 @@ img {
 #################################*/
 .main-content {
   min-height: 100vh !important;
-  padding-top: 86px;
-  padding-bottom: 80px;
+  padding-top: 89.5px;
+  padding-bottom: 84px;
 }
 
 /* ################################
@@ -728,6 +728,8 @@ footer a i {
 }
 
 .gallery-container__overlay {
+  white-space: pre-wrap;
+
   position: absolute;
   top: 0;
   left: 0;
@@ -750,7 +752,7 @@ footer a i {
 #################################*/
 
 .subpage-main-container-for-web {
-  min-height: calc(100vh - 150px);
+  min-height: calc(100vh - 175px);
   display: none;
   align-items: stretch;
   overflow: hidden;
@@ -759,8 +761,8 @@ footer a i {
 .subpage-main-container-for-web__subpage-image-container {
   float: left;
   width: 65%;
-  padding: 30px 20px 50px 20px;
-  height: calc(100vh - 150px);
+  padding: 15px;
+  height: calc(100vh - 175px);
   box-sizing: border-box;
   overflow-y: auto;
 }
@@ -768,8 +770,8 @@ footer a i {
 .subpage-main-container-for-web__text-container {
   float: left;
   width: 35%;
-  padding: 30px 20px 50px 20px;
-  height: calc(100vh - 150px);
+  padding: 15px;
+  height: calc(100vh - 175px);
   box-sizing: border-box;
   overflow-y: auto;
 }
@@ -794,7 +796,6 @@ footer a i {
   color: white;
   display: flex;
   align-items: center;
-  padding: 10px;
 }
 
 /* ################################
@@ -803,11 +804,11 @@ footer a i {
 .subpage-main-container-for-mobile {
   display: none;
   width: 100%;
-  padding: 20px;
+  padding: 15px 10px;
 }
 
 .subpage-main-container-for-mobile__nav {
-  padding: 5px 10px !important;
+  padding: 15px 20px !important;
 }
 
 .expand-button {
@@ -821,29 +822,29 @@ footer a i {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
 }
 
 .subpage-main-container-for-mobile > *:nth-child(2),
 .subpage-main-container-for-mobile > *:nth-child(4) {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .subpage-main-container-for-mobile__text-box {
   justify-content: space-between;
-  padding: 30px;
+  padding: 20px;
   color: white;
-  border-radius: 30px;
   align-items: center;
-  color: white;
-  border-radius: 30px;
+  border-radius: 20px;
   overflow-y: auto;
-  margin-top: 3px;
+  margin-top: 0;
   text-align: center;
   transition: all 1s ease-in-out;
   max-height: 300px;
-  min-height: 200px;
+  min-height: 130px;
   height: auto;
   overflow: hidden;
+  font-size: 18px;
 }
 
 .subpage-main-container-for-mobile__text-box.is-expanded {
@@ -855,14 +856,14 @@ footer a i {
   overflow: hidden;
 }
 
+.subpage-main-container-for-mobile__vid:not(:last-child) {
+  margin-bottom: 3px;
+}
+
 .subpage-main-container-for-mobile__text-box__text {
   white-space: pre-wrap;
 }
 
-.expand-button {
-  margin-top: 20px;
-  color: black;
-}
 /* ################################
 #     project subpages (both)     #
 #################################*/
@@ -871,9 +872,9 @@ footer a i {
 .subpage-main-container-for-mobile__nav {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 13px 24px;
   color: white;
-  border-radius: 30px;
+  border-radius: 20px;
   align-items: center;
 }
 
@@ -886,27 +887,20 @@ footer a i {
 
 .subpage-main-container-for-web__subpage-image-container__img:not(:last-child),
 .subpage-main-container-for-mobile__img:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.subpage-main-container-for-web__subpage-image-container__vid:not(:last-child),
-.subpage-main-container-for-mobile__vid:not(:last-child) {
-  margin-bottom: 15px;
+.subpage-main-container-for-web__subpage-image-container__vid:not(:last-child) {
+  margin-bottom: 5px;
 }
 
 .subpage-main-container-for-web__text-container__text-box {
   justify-content: space-between;
   padding: 30px;
   color: white;
-  border-radius: 30px;
+  border-radius: 20px;
   align-items: center;
-  color: white;
-  border-radius: 30px;
-  margin-top: 20px;
+  margin: 10px 0;
   overflow-y: auto;
   white-space: pre-wrap;
-}
-
-.subpage-main-container-for-web__text-container__text-box {
-  margin-bottom: 20px;
 }
