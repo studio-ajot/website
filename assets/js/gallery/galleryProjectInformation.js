@@ -20,16 +20,15 @@ const galleryProjectInformation = [
       "Asepsis \n \nAuftraggeberIn: Christian An, 2019 \nKünstlerpublikation \n300 signierte Exemplare  \n \nAuf 19 Seiten inszenierten wir Zeichnungen des Künstlers Christian An und gestalteten das Künstlerbuch Asepsis. An zeigt von Reinlichkeit besessene Akteure – Gurus mit riesigen Zahnbürsten. Gelb-blaue Müllmänner, Verbotsschilder und Absperrbänder verweisen in ihrer signalhaften Farbigkeit auf Europol, die europäische Polizei. Was auf den ersten Blick noch humorvoll erscheint, beschäftigt sich kritisch damit, was – von Hierarchiehörigkeit bis hin zu Stigmatisierung – mit einer Gesellschaft geschehen kann, wenn sich Hygiene zur Ideologie und Keimfreiheit zum Heilsversprechen wandelt.",
   },
   {
-    id: "project-2-calendarium-luminis",
-    accentColor: "#C3C3C3",
-    projectDescription:
-      "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
+    id: "project-9-gNIT",
+    accentColor: "#000000",
+    projectDescription: "getNextIT \nBranding \nVisitenkarte",
     type: "img",
-    categories: ["Branding", "Buchgestaltung & Editorial Design"],
+    categories: ["Branding"],
     mediaTypes: ["img", "img"],
     longTextDescription:
-      "Calendarium Luminis \n \nAuftraggeberIn: Johann Sommer, 2019 \nPlakatgestaltung, Kalendergestaltung  \n300 signierte Exemplare \neinseitiger Sonderfarbendruck in Silber auf schwarzem und dunkelblauen Karton.  \n \nFür den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen.",
-  },
+      "getNextIT  \n \nAuftraggeberIn: Sabine Wojcieszak, 2021 \nVisuelle Identität mit Guideline & Visitenkarten \n \nDurch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir die neue Corporate Identity. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='white-links' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>.",
+  },  
   {
     id: "project-8-mfa",
     accentColor: "#EB67B3",
@@ -95,14 +94,15 @@ const galleryProjectInformation = [
       "Ultraviolett \n \nAuftraggeberIn: Haymon Verlag, 2021 \nUmschlaggestaltung \n \n„Es gibt einen Punkt, an dem Hirngespinste zu Geisterbeschwörungen werden. Und es gibt einen Punkt, an dem sich Panik in Musik verwandelt. Durch eine bestimmte Feinsinnigkeit lassen sich diese beiden Punkte überlagern. Dort beginnt es zu glühen, dort gibt es Sonnenuntergänge, Abschiede und Euphorie. Von diesem Glühen erzählt Flurin Jecker.“ ¹  in Ultraviolett. Für die Umschlaggestaltung des Romans wurden wir vom Haymon Verlag beauftragt. \n¹ Zitat: Joshua Groß",
   },
   {
-    id: "project-9-gNIT",
-    accentColor: "#000000",
-    projectDescription: "getNextIT \nBranding \nVisitenkarte",
+    id: "project-2-calendarium-luminis",
+    accentColor: "#C3C3C3",
+    projectDescription:
+      "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
     type: "img",
-    categories: ["Branding"],
+    categories: ["Branding", "Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img"],
     longTextDescription:
-      "getNextIT  \n \nAuftraggeberIn: Sabine Wojcieszak, 2021 \nVisuelle Identität mit Guideline & Visitenkarten \n \nDurch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir die neue Corporate Identity. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='white-links' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>.",
+      "Calendarium Luminis \n \nAuftraggeberIn: Johann Sommer, 2019 \nPlakatgestaltung, Kalendergestaltung  \n300 signierte Exemplare \neinseitiger Sonderfarbendruck in Silber auf schwarzem und dunkelblauen Karton.  \n \nFür den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen.",
   },
   {
     id: "project-10-epda",
