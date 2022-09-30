@@ -1,15 +1,14 @@
 const galleryProjectInformation = [
   {
-    id: "project-3-reset",
-    accentColor: "#19C1A0",
-    projectDescription:
-      "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
+    id: "project-9-gNIT",
+    accentColor: "#000000",
+    projectDescription: "getNextIT \nBranding \nVisitenkarte",
     type: "img",
-    categories: ["Branding", "Buchgestaltung & Editorial Design"],
+    categories: ["Branding"],
     mediaTypes: ["img", "img"],
     longTextDescription:
-      "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
-  }, 
+      "getNextIT  \n \nAuftraggeberIn: Sabine Wojcieszak, 2021 \nVisuelle Identität mit Guideline & Visitenkarten \n \nDurch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir die neue Corporate Identity. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='white-links' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>.",
+  },  
   {
     id: "project-1-asepsis",
     accentColor: "#1F1FD3",
@@ -21,15 +20,16 @@ const galleryProjectInformation = [
       "Asepsis \n \nAuftraggeberIn: Christian An, 2019 \nKünstlerpublikation \n300 signierte Exemplare  \n \nAuf 19 Seiten inszenierten wir Zeichnungen des Künstlers Christian An und gestalteten das Künstlerbuch Asepsis. An zeigt von Reinlichkeit besessene Akteure – Gurus mit riesigen Zahnbürsten. Gelb-blaue Müllmänner, Verbotsschilder und Absperrbänder verweisen in ihrer signalhaften Farbigkeit auf Europol, die europäische Polizei. Was auf den ersten Blick noch humorvoll erscheint, beschäftigt sich kritisch damit, was – von Hierarchiehörigkeit bis hin zu Stigmatisierung – mit einer Gesellschaft geschehen kann, wenn sich Hygiene zur Ideologie und Keimfreiheit zum Heilsversprechen wandelt.",
   },
   {
-    id: "project-9-gNIT",
-    accentColor: "#000000",
-    projectDescription: "getNextIT \nBranding \nVisitenkarte",
+    id: "project-3-reset",
+    accentColor: "#19C1A0",
+    projectDescription:
+      "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
     type: "img",
-    categories: ["Branding"],
+    categories: ["Branding", "Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img"],
     longTextDescription:
-      "getNextIT  \n \nAuftraggeberIn: Sabine Wojcieszak, 2021 \nVisuelle Identität mit Guideline & Visitenkarten \n \nDurch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir die neue Corporate Identity. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='white-links' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>.",
-  },  
+      "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
+  },   
   {
     id: "project-8-mfa",
     accentColor: "#EB67B3",
