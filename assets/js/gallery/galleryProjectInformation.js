@@ -1,14 +1,15 @@
 const galleryProjectInformation = [
   {
-    id: "project-0-logo",
-    accentColor: "#00FFCC",
-    projectDescription: "OpenFBA \nBranding \nLogogestaltung",
-    type: "vid",
-    categories: ["Branding"],
-    mediaTypes: ["vid", "img", "img"],
+    id: "project-3-reset",
+    accentColor: "#19C1A0",
+    projectDescription:
+      "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
+    type: "img",
+    categories: ["Branding", "Buchgestaltung & Editorial Design"],
+    mediaTypes: ["img", "img"],
     longTextDescription:
-      "Logogestaltung \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \nLogogestaltung für unterschiedliche Unternehmen und AuftraggeberInnen.",
-  },
+      "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
+  }, 
   {
     id: "project-1-asepsis",
     accentColor: "#1F1FD3",
@@ -62,16 +63,15 @@ const galleryProjectInformation = [
       "Lüneburg mit anderen Augen \n \nAuftraggeberIn: Pablo Martínez-Calleja, 2021 \nMit Fotografien von Pablo Martínez-Calleja \nBuchgestaltung \n \nWie ein Jäger des Augenblicks streift der in Lüneburg lebende Fotograf Pablo Martínez-Calleja mit seiner Kamera umher und nähert sich der Realität der StadtbewohnerInnen in Zeiten der Pandemie. Er fängt Situationen mit einem sensiblen Blick und ironischem Augenzwinkern ein. Jedes Foto lässt die Betrachtenden die Präsenz des Autors spüren, die wir auch innerhalb der Buchgestaltung in den Fokus setzten. Wir bewegen uns mit den Augen und der Perspektive des Fotografen innerhalb des Buches durch die Stadt.",
   },
   {
-    id: "project-3-reset",
-    accentColor: "#19C1A0",
-    projectDescription:
-      "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
-    type: "img",
-    categories: ["Branding", "Buchgestaltung & Editorial Design"],
-    mediaTypes: ["img", "img"],
+    id: "project-0-logo",
+    accentColor: "#00FFCC",
+    projectDescription: "OpenFBA \nBranding \nLogogestaltung",
+    type: "vid",
+    categories: ["Branding"],
+    mediaTypes: ["vid", "img", "img"],
     longTextDescription:
-      "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
-  }, 
+      "Logogestaltung \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \nLogogestaltung für unterschiedliche Unternehmen und AuftraggeberInnen.",
+  },  
   {
     id: "project-6-dayoff",
     accentColor: "#D9C843",
