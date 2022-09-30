@@ -73,17 +73,6 @@ const galleryProjectInformation = [
       "DayOff \n \nAuftraggeberIn: Lino Jenner, Co-Founder & CTO, DayOff & Corin Freyer, Co-Founder & CEO, DayOff \nVisuelle Identität, App-Gestaltung  \n \nDie digitale Anwendung „DayOff“ unterstützt Unternehmen und MitarbeiterInnen seit 2020 dabei, sich durch täglich wechselnde, individuelle Aufgaben in überfachlichen Kompetenzen spielerisch weiterzuentwickeln. Teams werden gestärkt und das Lernen nachhaltig verbessert. Wir begleiten DayOff von Beginn an in visuellen Umsetzungen und entwickelten die Corporate Identity.",
   },
   {
-    id: "project-7-ultraviolett",
-    accentColor: "#76EEC6",
-    projectDescription:
-      "Ultraviolett – Flurin Jecker \nHaymon Verlag \nCovergestaltung",
-    type: "img",
-    categories: ["Buchgestaltung & Editorial Design"],
-    mediaTypes: ["img", "img", "img", "img", "img"],
-    longTextDescription:
-      "Ultraviolett \n \nAuftraggeberIn: Haymon Verlag, 2021 \nUmschlaggestaltung \n \n„Es gibt einen Punkt, an dem Hirngespinste zu Geisterbeschwörungen werden. Und es gibt einen Punkt, an dem sich Panik in Musik verwandelt. Durch eine bestimmte Feinsinnigkeit lassen sich diese beiden Punkte überlagern. Dort beginnt es zu glühen, dort gibt es Sonnenuntergänge, Abschiede und Euphorie. Von diesem Glühen erzählt Flurin Jecker.“ ¹  in Ultraviolett. Für die Umschlaggestaltung des Romans wurden wir vom Haymon Verlag beauftragt. \n¹ Zitat: Joshua Groß",
-  },
-  {
     id: "project-8-mfa",
     accentColor: "#EB67B3",
     projectDescription:
@@ -93,6 +82,17 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "MFA - My Favorite Acronym \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2021 \nVisuelle Identität mit Plakat, Flyer, Katalog, Webdesign  \nKonzept: Lena Reisner \nProgrammierung: Björn Schmidt \n \nFür die Ausstellung „Master of Fine Arts“ der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann.",
+  },  
+  {
+    id: "project-7-ultraviolett",
+    accentColor: "#76EEC6",
+    projectDescription:
+      "Ultraviolett – Flurin Jecker \nHaymon Verlag \nCovergestaltung",
+    type: "img",
+    categories: ["Buchgestaltung & Editorial Design"],
+    mediaTypes: ["img", "img", "img", "img", "img"],
+    longTextDescription:
+      "Ultraviolett \n \nAuftraggeberIn: Haymon Verlag, 2021 \nUmschlaggestaltung \n \n„Es gibt einen Punkt, an dem Hirngespinste zu Geisterbeschwörungen werden. Und es gibt einen Punkt, an dem sich Panik in Musik verwandelt. Durch eine bestimmte Feinsinnigkeit lassen sich diese beiden Punkte überlagern. Dort beginnt es zu glühen, dort gibt es Sonnenuntergänge, Abschiede und Euphorie. Von diesem Glühen erzählt Flurin Jecker.“ ¹  in Ultraviolett. Für die Umschlaggestaltung des Romans wurden wir vom Haymon Verlag beauftragt. \n¹ Zitat: Joshua Groß",
   },
   {
     id: "project-9-gNIT",
