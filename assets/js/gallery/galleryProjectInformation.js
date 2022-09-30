@@ -31,16 +31,16 @@ const galleryProjectInformation = [
       "Calendarium Luminis \n \nAuftraggeberIn: Johann Sommer, 2019 \nPlakatgestaltung, Kalendergestaltung  \n300 signierte Exemplare \neinseitiger Sonderfarbendruck in Silber auf schwarzem und dunkelblauen Karton.  \n \nFür den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen.",
   },
   {
-    id: "project-3-reset",
-    accentColor: "#19C1A0",
+    id: "project-8-mfa",
+    accentColor: "#EB67B3",
     projectDescription:
-      "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
+      "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nVisuelle Identität \nAusstellungsdesign",
     type: "img",
-    categories: ["Branding", "Buchgestaltung & Editorial Design"],
-    mediaTypes: ["img", "img"],
+    categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
-  },
+      "MFA - My Favorite Acronym \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2021 \nVisuelle Identität mit Plakat, Flyer, Katalog, Webdesign  \nKonzept: Lena Reisner \nProgrammierung: Björn Schmidt \n \nFür die Ausstellung „Master of Fine Arts“ der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann.",
+  }, 
   {
     id: "project-4-fbe",
     accentColor: "#0C6E5B",
@@ -73,15 +73,15 @@ const galleryProjectInformation = [
       "DayOff \n \nAuftraggeberIn: Lino Jenner, Co-Founder & CTO, DayOff & Corin Freyer, Co-Founder & CEO, DayOff \nVisuelle Identität, App-Gestaltung  \n \nDie digitale Anwendung „DayOff“ unterstützt Unternehmen und MitarbeiterInnen seit 2020 dabei, sich durch täglich wechselnde, individuelle Aufgaben in überfachlichen Kompetenzen spielerisch weiterzuentwickeln. Teams werden gestärkt und das Lernen nachhaltig verbessert. Wir begleiten DayOff von Beginn an in visuellen Umsetzungen und entwickelten die Corporate Identity.",
   },
   {
-    id: "project-8-mfa",
-    accentColor: "#EB67B3",
+    id: "project-3-reset",
+    accentColor: "#19C1A0",
     projectDescription:
-      "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nVisuelle Identität \nAusstellungsdesign",
+      "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
     type: "img",
-    categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
+    categories: ["Branding", "Buchgestaltung & Editorial Design"],
+    mediaTypes: ["img", "img"],
     longTextDescription:
-      "MFA - My Favorite Acronym \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2021 \nVisuelle Identität mit Plakat, Flyer, Katalog, Webdesign  \nKonzept: Lena Reisner \nProgrammierung: Björn Schmidt \n \nFür die Ausstellung „Master of Fine Arts“ der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann.",
+      "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
   },  
   {
     id: "project-7-ultraviolett",
