@@ -64,7 +64,9 @@
         </span> -->
         <ul>
           <li>
-            <a class="nav_menu_button nav_menu_button--big black-bg" href="index.html"
+            <a
+              class="nav_menu_button nav_menu_button--big black-bg"
+              href="index.html"
               ><span class="index-link">Branding & Editorial</span></a
             >
           </li>
@@ -143,6 +145,12 @@
           $(".gallery-main").css({
             "min-width": "0",
             "overflow-x": "hidden",
+          });
+          $(".filter-bar-container").css({
+            display: "none",
+          });
+          $(".gallery-container").css({
+            "margin": "15px 10px 10px 10px",
           });
         } else {
           $("body").removeClass("mobile-detect");

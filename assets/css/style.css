@@ -818,11 +818,10 @@ footer a i {
   height: 40px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5px;
+  margin-top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
 }
 
 .subpage-main-container-for-mobile > *:nth-child(2),
@@ -863,7 +862,6 @@ footer a i {
 .subpage-main-container-for-mobile__text-box__text {
   white-space: pre-wrap;
 }
-
 /* ################################
 #     project subpages (both)     #
 #################################*/
