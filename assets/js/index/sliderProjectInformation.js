@@ -6,6 +6,20 @@ const projectInformation = [
     type: "img",
   },  
   {
+    id: "project-8-mfa-1",
+    accentColor: "#EB67B3",
+    projectDescription:
+      "MFA21 – My Favorite Acronym \nMuthesius Kunsthochschule \nPostergestaltung",
+    type: "img",
+  },
+  {
+    id: "project-8-mfa-3",
+    accentColor: "#EB67B3",
+    projectDescription:
+      "MFA21 – My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungskatalog",
+    type: "img",
+  },  
+  {
     id: "project-1-asepsis-2",
     accentColor: "#1F1FD3",
     projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
@@ -51,19 +65,11 @@ const projectInformation = [
     type: "img",
   },
   {
-    id: "project-8-mfa-1",
-    accentColor: "#EB67B3",
-    projectDescription:
-      "MFA21 – My Favorite Acronym \nMuthesius Kunsthochschule \nPostergestaltung",
+    id: "project-18-x-mas",
+    accentColor: "#D3298C",
+    projectDescription: "X-mas \nStudio Ajot \nPostkartengestaltung",
     type: "img",
-  },
-  {
-    id: "project-8-mfa-3",
-    accentColor: "#EB67B3",
-    projectDescription:
-      "MFA21 – My Favorite Acronym \nMuthesius Kunsthochschule \nAusstellungskatalog",
-    type: "img",
-  },
+  },  
   {
     id: "project-9-gNIT-1",
     accentColor: "#000000",
@@ -87,12 +93,6 @@ const projectInformation = [
     accentColor: "#EEEE00",
     projectDescription:
       "Lose & Preserve – \nErinnerungen an Verlorenes \nJohanna Klüsener \nBuchgestaltung",
-    type: "img",
-  },
-  {
-    id: "project-18-x-mas",
-    accentColor: "#D3298C",
-    projectDescription: "X-mas \nStudio Ajot \nPostkartengestaltung",
     type: "img",
   },
   {
