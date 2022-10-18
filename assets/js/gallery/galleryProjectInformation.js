@@ -114,4 +114,24 @@ const galleryProjectInformation = [
     longTextDescription:
       "The Design Agency Boost Book \n \nAuftraggeberIn: European Brand & Packaging Design Association, 2022 \nBuchgestaltung  \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
   },
+  {
+    id: "project-11-ersti",
+    accentColor: "#3C53C7",
+    projectDescription: "Gut zu wissen \nMuthesius Kunsthochschule \nEditorial Design",
+    type: "img",
+    categories: ["Buchgestaltung & Editorial Design"],
+    mediaTypes: ["img"],
+    longTextDescription:
+      "Gut zu wissen – Alles für den Studienbeginn \nAuftraggeberIn: Muthesius Kunsthochschule, 2022 \nEditorial Design  \nInteraktives PDF \nDas erste Semester ist für viel Studierende eine besondere und aufregende Zeit. Es gibt viele Fragen und eine Menge zu bedenken. Für einen möglichst entspannten und stressfreien Einstieg ins Studium wurde dieser Leitfaden erstellt, für dessen Gestaltung wir beauftragt wurden. Er soll einen Überblick über relevante Informationen zum Studienbeginn geben und dabei helfen, die wichtigsten Fragen zu beantworten.",
+  },  
+  {
+    id: "project-12-cb",
+    accentColor: "FA0338",
+    projectDescription: "Ceramica Borealis 07 – Disegno Ornamento \nKerstin Abraham \nKünstlerinnen-Publikation",
+    type: "img",
+    categories: ["Buchgestaltung & Editorial Design"],
+    mediaTypes: ["img"],
+    longTextDescription:
+      "Ceramica Borealis 07 – Disegno Ornamento \nAuftraggeberIn: Kerstin Abraham, 2022 \nKünstlerinnen-Publikation \nInteraktives PDF \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe “Disegno Ornamento”, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.",
+  },    
 ];
