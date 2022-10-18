@@ -126,7 +126,7 @@ const galleryProjectInformation = [
   },  
   {
     id: "project-12-cb",
-    accentColor: "FA0338",
+    accentColor: "#FA0338",
     projectDescription: "Ceramica Borealis 07 – Disegno Ornamento \nKerstin Abraham \nKünstlerinnen-Publikation",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
