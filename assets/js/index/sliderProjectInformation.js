@@ -1,5 +1,11 @@
 const projectInformation = [
   {
+    id: "project-21-epda-1",
+    accentColor: "#FF6343",
+    projectDescription: "The design agency boost book \nepda \nBuchgestaltung",
+    type: "img",
+  },  
+  {
     id: "project-1-asepsis-2",
     accentColor: "#1F1FD3",
     projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
