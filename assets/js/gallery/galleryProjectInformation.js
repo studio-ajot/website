@@ -116,7 +116,7 @@ const galleryProjectInformation = [
   },  
   {
     id: "project-11-ersti",
-    accentColor: "00CFDD",
+    accentColor: "#00CFDD",
     projectDescription: "Gut zu wissen \nMuthesius Kunsthochschule \nEditorial Design",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
