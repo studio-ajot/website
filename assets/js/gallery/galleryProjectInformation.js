@@ -26,7 +26,7 @@ const galleryProjectInformation = [
       "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design"],
-    mediaTypes: ["img", "img"],
+    mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
       "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
   },   
@@ -132,6 +132,6 @@ const galleryProjectInformation = [
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img"],
     longTextDescription:
-      "Ceramica Borealis 07 – Disegno Ornamento \n  \nAuftraggeberIn: Kerstin Abraham, 2022 \nKünstlerinnen-Publikation \nInteraktives PDF \n  \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe “Disegno Ornamento”, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.",
+      "Ceramica Borealis 07 – Disegno Ornamento \n  \nAuftraggeberIn: Kerstin Abraham, 2022 \nKünstlerinnen-Publikation \n  \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe “Disegno Ornamento”, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.",
   },    
 ];
