@@ -11,7 +11,7 @@ const galleryProjectInformation = [
   },
   {
     id: "project-12-cb",
-    accentColor: "#454342,
+    accentColor: "#454342",
     projectDescription: "Ceramica Borealis 07 – Disegno Ornamento \nKerstin Abraham \nKünstlerinnen-Publikation",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
@@ -120,7 +120,7 @@ const galleryProjectInformation = [
     projectDescription: "Gut zu wissen \nMuthesius Kunsthochschule \nEditorial Design",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
-    mediaTypes: ["img"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "Gut zu wissen – Alles für den Studienbeginn \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2022 \nEditorial Design  \nInteraktives PDF \n \nDas erste Semester ist für viel Studierende eine besondere und aufregende Zeit. Es gibt viele Fragen und eine Menge zu bedenken. Für einen möglichst entspannten und stressfreien Einstieg ins Studium wurde dieser Leitfaden erstellt, für dessen Gestaltung wir beauftragt wurden. Er soll einen Überblick über relevante Informationen zum Studienbeginn geben und dabei helfen, die wichtigsten Fragen zu beantworten.",
   },  
