@@ -100,7 +100,7 @@ const galleryProjectInformation = [
       "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design"],
-    mediaTypes: ["img", "img"],
+    mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
       "Calendarium Luminis \n \nAuftraggeberIn: Johann Sommer, 2019 \nPlakatgestaltung, Kalendergestaltung  \n300 signierte Exemplare \neinseitiger Sonderfarbendruck in Silber auf schwarzem und dunkelblauen Karton.  \n \nFür den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen.",
   },
