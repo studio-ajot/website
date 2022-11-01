@@ -11,7 +11,7 @@ const galleryProjectInformation = [
   },
   {
     id: "project-12-cb",
-    accentColor: "#FA0338",
+    accentColor: "#403734",
     projectDescription: "Ceramica Borealis 07 – Disegno Ornamento \nKerstin Abraham \nKünstlerinnen-Publikation",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
@@ -95,7 +95,7 @@ const galleryProjectInformation = [
   },
   {
     id: "project-2-calendarium-luminis",
-    accentColor: "#C3C3C3",
+    accentColor: "#717171",
     projectDescription:
       "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
     type: "img",
