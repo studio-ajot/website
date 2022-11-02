@@ -60,3 +60,18 @@ html .mobile-detect .cursor {
   opacity: 1;
   transition: left 0.1s;
 }
+
+/* ################################
+#             gallery             #
+#################################*/
+
+.mobile-detect .gallery-container {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.mobile-detect .gallery-container__overlay {
+  display: none;
+}
