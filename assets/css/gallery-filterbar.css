@@ -1,0 +1,10 @@
+/* Den Wert hinter max-width: ändern  */
+@media (max-width: 812px) {
+  .filter-bar-container {
+    display: none;
+  }
+
+  .gallery-container {
+    margin-top: 15px;
+  }
+}
