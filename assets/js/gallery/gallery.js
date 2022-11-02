@@ -1,6 +1,6 @@
 // Functiong for repositioning and resizing galerry items
 const resizeGalleryItems = () => {
-  if ($(window).width() > 1200) {
+  if ($(window).width() > 991) {
     $(".grid")
       .isotope("getFilteredItemElements")
       .forEach((galleryElement, index) => {
