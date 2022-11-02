@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/responsive-style.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/mobile-detect.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/text-styles.css" />
-  <title>Studio Ajot - Über uns</title>
+  <title>Studio Ajot - Kompetenzen</title>
   <meta name="description"
     content="Graphic Design Studio &middot; Johanna Klüsener + Anastasia Marx &middot; Hamburg + Berlin" />
   <style>
@@ -159,7 +159,7 @@
         <a
         href="mailto:hello@studio-ajot.de"
         target="_blank"
-        class="footer footer-link"
+        class="footer-link"
         ><i class="fas fa-arrow-right text-decoration-none"></i
         ><span>Mail</span></a
       >
@@ -202,6 +202,8 @@
     });
 
     $(".nav_section ul li a").click(function () {
+      setColorInOpenMenu("black");
+      setColorInClosedMenu("black");
       if ($('.burger_menu').hasClass('open') || $('.nav_section .menu_points').hasClass('active')) {
         $(".burger_menu").removeClass("open");
         $(".nav_section .menu_points").removeClass("active");

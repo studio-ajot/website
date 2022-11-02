@@ -29,7 +29,7 @@
       href="assets/css/mobile-detect.css"
     />
     <link rel="stylesheet" type="text/css" href="assets/css/text-styles.css" />
-    <title>Studio Ajot - Über uns</title>
+    <title>Studio Ajot - Galerie</title>
     <meta
       name="description"
       content="Graphic Design Studio &middot; Johanna Klüsener + Anastasia Marx &middot; Hamburg + Berlin"
@@ -48,7 +48,7 @@
   <body>
     <!-- Navigation -->
     <nav class="nav_section white-bg" id="index-nav">
-      <div class="nav_row site-padding-x site-padding-y">
+      <div class="nav_row">
         <a href="index.html" class="logo" id="website_title">Studio Ajot</a>
         <!-- hamburger menu button -->
         <button type="button" class="burger_menu">
@@ -149,9 +149,6 @@
           $(".filter-bar-container").css({
             display: "none",
           });
-          $(".gallery-container").css({
-            "margin": "15px 10px 10px 10px",
-          });
         } else {
           $("body").removeClass("mobile-detect");
         }
@@ -201,8 +198,6 @@
           );
 
           $(this).addClass("filter-bar__filter-element--selected");
-
-          resizeGalleryItems();
         });
 
         // --- Fill gallery dynamically --- //
@@ -256,18 +251,6 @@
           }
         });
 
-        // mobile: show gallery item preview before hyperlink is activated on click
-        // if ($("body").hasClass("mobile-detect")) {
-        //   $(".gallery-container__element").on("click", function () {
-        //     if ($(this).hasClass("is-selected")) {
-        //       return true;
-        //     }
-        //     $(".gallery-container__element").removeClass("is-selected");
-        //     $(this).addClass("is-selected");
-        //     return false;
-        //   });
-        // }
-
         // layout Isotope after each image loads
         $(".grid")
           .imagesLoaded()
@@ -281,7 +264,6 @@
           closeMenu();
           setColorInClosedMenu("black");
         }
-        resizeGalleryItems();
       });
 
       $(".burger_menu").click(function () {
@@ -294,6 +276,8 @@
       });
 
       $(".nav_section ul li a").click(function () {
+        setColorInOpenMenu("black");
+        setColorInClosedMenu("black");
         if (
           $(".burger_menu").hasClass("open") ||
           $(".nav_section .menu_points").hasClass("active")

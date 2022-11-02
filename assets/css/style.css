@@ -114,6 +114,7 @@ html {
   font-family: "JetBrains Mono", monospace;
   overflow-y: auto;
   font-display: swap;
+  /* width: calc(100vw - var(--scrollbar-width)); */
 }
 #index_html {
   overflow-x: hidden;
@@ -176,12 +177,10 @@ img {
   background-color: black;
 }
 
-.site-padding-x {
+footer,
+.nav_row {
   padding-left: 30px;
   padding-right: 30px;
-}
-
-.site-padding-y {
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -204,19 +203,22 @@ img {
   border-top: 1px solid black;
   justify-content: space-between;
   align-items: center;
-  height: 90px;
+  height: 80px;
 }
 
 .nav_section.white {
   background-color: white;
 }
 
-.nav_section .nav_row {
+.nav_row {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 10;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 100%;
 }
 
 .nav_section .logo {
@@ -280,8 +282,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-right: 20px;
   text-decoration: none;
+  padding-right: 30px;
 }
 
 /* ################################
@@ -361,8 +363,8 @@ img {
 #################################*/
 .main-content {
   min-height: 100vh !important;
-  padding-top: 89.5px;
-  padding-bottom: 84px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 /* ################################
@@ -573,6 +575,7 @@ footer {
   white-space: nowrap;
   z-index: 30;
   cursor: default;
+  height: 80px;
 }
 
 footer.white {
@@ -615,7 +618,6 @@ footer a i {
 #################################*/
 
 .gallery-main {
-  min-width: 800px;
   overflow-x: auto;
 }
 /* filter bar */
@@ -624,7 +626,7 @@ footer a i {
   position: fixed;
   display: flex;
   justify-content: center;
-  padding: 20px 30px;
+  padding: 15px 30px;
   width: 100vw;
   background-color: white;
   z-index: 5;
@@ -660,7 +662,7 @@ footer a i {
 .gallery-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 66.5px 25px 20px 25px;
+  margin: 56.5px 10px 5px 10px;
 }
 
 .gallery-container > .gallery-container__element {
@@ -672,12 +674,8 @@ footer a i {
   position: relative;
   overflow: hidden;
   object-fit: cover;
-  height: calc(100vw / 2.57);
+  aspect-ratio: 1 / 1;
 }
-
-/* .gallery-container > .gallery-container__element:nth-child(3n){
-  margin-right: 0;
-} */
 
 .gallery-container__element img,
 .gallery-container__element video {
@@ -690,46 +688,44 @@ footer a i {
   opacity: 100%;
 }
 
+.gallery-container > .gallery-container__element:nth-child(3n + 3) {
+  margin-right: 0;
+}
+
 .gallery-container__element:hover img {
   transform: scale(1.1);
 }
 
 /* gallery layout */
-.gallery-container > .gallery-container__element:nth-child(9n + 1),
+/* .gallery-container > .gallery-container__element:nth-child(9n + 1),
 .gallery-container > .gallery-container__element:nth-child(9n + 3) {
-  height: calc(100vw / 2.5);
+  height: calc(100vw / 3);
   margin-top: 0;
 }
 .gallery-container > .gallery-container__element:nth-child(9n + 2),
 .gallery-container > .gallery-container__element:nth-child(9n + 5) {
-  height: calc(100vw / 2.5);
-  margin-top: calc(100vw / -8.8);
+  height: calc(100vw / 3);
+  margin-top: calc(100vw / -21);
 }
 .gallery-container > .gallery-container__element:nth-child(9n + 4),
 .gallery-container > .gallery-container__element:nth-child(9n + 6),
 .gallery-container > .gallery-container__element:nth-child(9n + 8) {
-  height: calc(100vw / 4.5);
+  height: calc(100vw / 4);
   margin-top: 0;
 }
 .gallery-container > .gallery-container__element:nth-child(9n + 7),
 .gallery-container > .gallery-container__element:nth-child(9n) {
-  height: calc(100vw / 2.5);
-  margin-top: calc(100vw / -15.8);
+  height: calc(100vw / 3);
+  margin-top: calc(100vw / -29);
 }
 
 .gallery-container > .gallery-container__element:nth-child(2) {
   height: calc(100vw / 3.5);
   margin-top: 0;
-}
-/* gallery-overlay */
-/* hide on mobile */
-.mobile-detect .gallery-container__overlay {
-  display: none;
-}
+} */
 
 .gallery-container__overlay {
   white-space: pre-wrap;
-
   position: absolute;
   top: 0;
   left: 0;
@@ -752,7 +748,7 @@ footer a i {
 #################################*/
 
 .subpage-main-container-for-web {
-  min-height: calc(100vh - 175px);
+  min-height: calc(100vh - 160px);
   display: none;
   align-items: stretch;
   overflow: hidden;
@@ -762,7 +758,7 @@ footer a i {
   float: left;
   width: 65%;
   padding: 15px;
-  height: calc(100vh - 175px);
+  height: calc(100vh - 160px);
   box-sizing: border-box;
   overflow-y: auto;
 }
@@ -771,9 +767,10 @@ footer a i {
   float: left;
   width: 35%;
   padding: 15px;
-  height: calc(100vh - 175px);
+  height: calc(100vh - 160px);
   box-sizing: border-box;
   overflow-y: auto;
+  min-width: 350px;
 }
 
 .subpage-main-container-for-web__text-container__nav--arrow-img {
@@ -804,7 +801,7 @@ footer a i {
 .subpage-main-container-for-mobile {
   display: none;
   width: 100%;
-  padding: 15px 10px;
+  padding: 10px;
 }
 
 .subpage-main-container-for-mobile__nav {

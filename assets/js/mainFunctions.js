@@ -26,3 +26,4 @@ function detectMobile() {
     $("body").removeClass("mobile-detect");
   }
 }
+
