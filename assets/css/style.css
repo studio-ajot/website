@@ -862,6 +862,9 @@ footer a i {
 /* ################################
 #     project subpages (both)     #
 #################################*/
+.project-subpage-main{
+  overflow-y: hidden;
+}
 
 .subpage-main-container-for-web__text-container__nav,
 .subpage-main-container-for-mobile__nav {

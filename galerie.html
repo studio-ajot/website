@@ -188,7 +188,6 @@
         // --- Resize and reposition items when gallery is filtered --- //
         $(".filter-bar__filter-element").on("click", function () {
           const filter = $(this).data("filter");
-          console.log(filter);
           $(".grid").isotope({
             filter: filter === "none" ? "*" : "." + filter,
           });
@@ -198,6 +197,7 @@
           );
 
           $(this).addClass("filter-bar__filter-element--selected");
+          resizeGalleryItems();
         });
 
         // --- Fill gallery dynamically --- //
@@ -264,6 +264,7 @@
           closeMenu();
           setColorInClosedMenu("black");
         }
+        resizeGalleryItems();
       });
 
       $(".burger_menu").click(function () {
