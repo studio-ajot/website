@@ -370,24 +370,26 @@
 </div>
 <!-- Footer -->
 <footer class="fixed-bottom site-padding-x site-padding-y bottom white">
-    <div class="row g-0">
-        <div class="col-3">
-            Hamburg <br />
-            Berlin
-        </div>
-        <div class="col-9 text-end">
-          <a
-          href="mailto:hello@studio-ajot.de"
-          target="_blank"
-          class="footer footer-link"
-          ><i class="fas fa-arrow-right text-decoration-none"></i
-          ><span>Mail</span></a
-        >
-            <a href="https://www.instagram.com/studio.ajot" target="_blank"><br /><i
-                    class="fas fa-arrow-right text-decoration-none"></i><span>Instagram</span></a>
-        </div>
-    </div>
-</footer>
+     <div class="row g-0">
+       <div class="col-3">
+         Hamburg & Berlin<br />
+         <a href="impressum-datenschutz.html"><span>Impressum</span></a>
+       </div>
+       <div class="col-9 text-end">
+         <a
+           href="mailto:hello@studio-ajot.de"
+           target="_blank"
+           class="footer-link"
+           ><i class="fas fa-arrow-right text-decoration-none"></i
+           ><span>Mail</span></a
+         >
+         <a href="https://www.instagram.com/studio.ajot" target="_blank"
+           ><br /><i class="fas fa-arrow-right text-decoration-none"></i
+           ><span>Instagram</span></a
+         >
+       </div>
+     </div>
+   </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -422,6 +424,8 @@
   });
 
   $(".nav_section ul li a").click(function () {
+     setColorInOpenMenu("black");
+     setColorInClosedMenu("black");
     if ($('.burger_menu').hasClass('open') || $('.nav_section .menu_points').hasClass('active')) {
       $(".burger_menu").removeClass("open");
       $(".nav_section .menu_points").removeClass("active");

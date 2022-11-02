@@ -31,7 +31,7 @@
 <body>
   <!-- Navigation -->
   <nav class="nav_section white-bg" id="index-nav">
-    <div class="nav_row site-padding-x site-padding-y">
+    <div class="nav_row">
       <a href="index.html" class="logo" id="website_title">Studio Ajot</a>
       <!-- hamburger menu button -->
       <button type="button" class="burger_menu">
@@ -216,7 +216,7 @@
       
       <!-- Impressum und Datenschutz -->
         <div class="d-flex flex-column align-items-stretch flex-grow-0">
-          <div class="text-box w-100 w-xl-50 border-xl-bottom">
+          <div class="text-box w-100 w-xl-50">
         <p class="copy-1">
           <a href="impressum-datenschutz.html" class="black-links" 
             target="_blank">Impressum und Datenschutz</a><br />
@@ -235,7 +235,7 @@
         <a
         href="mailto:hello@studio-ajot.de"
         target="_blank"
-        class="footer footer-link"
+        class="footer-link"
         ><i class="fas fa-arrow-right text-decoration-none"></i
         ><span>Mail</span></a
       >
@@ -278,6 +278,8 @@
     });
 
     $(".nav_section ul li a").click(function () {
+      setColorInOpenMenu("black");
+      setColorInClosedMenu("black");
       if ($('.burger_menu').hasClass('open') || $('.nav_section .menu_points').hasClass('active')) {
         $(".burger_menu").removeClass("open");
         $(".nav_section .menu_points").removeClass("active");
