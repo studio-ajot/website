@@ -26,7 +26,7 @@ const galleryProjectInformation = [
       "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design"],
-    mediaTypes: ["img", "img", "img", "img"],
+    mediaTypes: ["img", "img", "img", "vid", "img"],
     longTextDescription:
       "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
   },   
