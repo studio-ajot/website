@@ -19,7 +19,7 @@ const projectInformation = [
     type: "img",
   }, 
   {
-    id: "project-14-openfba",
+    id: "project-13-openfba",
     accentColor: "#2E3DFE",
     projectDescription: "OpenFBA \nBranding \nLogoentwicklung",
     type: "vid",
