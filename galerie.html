@@ -141,6 +141,9 @@
 
     <script>
       $(document).ready(function () {
+        let videoPrefix;
+        let imagePrefix;
+        let mediaPostfix;
         if (
           /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
             navigator.userAgent
@@ -154,8 +157,14 @@
           $(".filter-bar-container").css({
             display: "none",
           });
+          videoPrefix = `assets/gallery/mobile/`;
+          imagePrefix = `assets/gallery/mobile/`;
+          mediaPostfix = "-mobile";
         } else {
           $("body").removeClass("mobile-detect");
+          videoPrefix = `assets/gallery/web/`;
+          imagePrefix = `assets/gallery/web/`;
+          mediaPostfix = "-web";
         }
 
         // --- Initialize isotope grid --- //
@@ -207,10 +216,6 @@
 
         // --- Fill gallery dynamically --- //
         galleryProjectInformation.forEach((project, index) => {
-          const videoPrefix = `assets/gallery/mobile/${project.id}/`;
-          const imagePrefix = `assets/gallery/mobile/${project.id}/`;
-          const mediaPostfix = "-mobile";
-
           if (project.mediaTypes[0] === "img") {
             var $content = $(`
                   <a href="${
@@ -218,7 +223,9 @@
                   }.html" class="gallery-container__element grid-item is-filtered ${project.categories
               .map((category) => category.toUpperCase().replace(/[\W_]+/g, ""))
               .join(" ")}">
-                    <img src=${imagePrefix + project.id + "-1.jpg"} />
+                    <img src=${
+                      imagePrefix + `${project.id}/` + project.id + "-1.jpg"
+                    } />
                     <div class="gallery-container__overlay" style="background-color: ${
                       project.accentColor
                     }">${project.projectDescription}</div>
@@ -234,13 +241,14 @@
               .join(" ")}">
                     <video autoplay loop muted playsinline id=${project.id}>
                       <source src="${
-                        videoPrefix + project.id
+                        videoPrefix + `${project.id}/` + project.id
                       }-1.webm" type="video/webm" />
                       <source src="${
-                        videoPrefix + project.id
+                        videoPrefix + `${project.id}/` + project.id
                       }-1.mp4" type="video/mp4"
                       poster=${
                         videoPrefix +
+                        `${project.id}/` +
                         "poster/" +
                         project.id +
                         mediaPostfix +
