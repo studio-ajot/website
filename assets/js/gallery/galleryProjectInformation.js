@@ -142,6 +142,6 @@ const galleryProjectInformation = [
     categories: ["Infografik", "Illustration"],
     mediaTypes: ["img", "img"],
     longTextDescription:
-      "AuftraggeberIn: VGL Verlagsgesellschaft mbH \nInfografik \nIllustration \n \nvergleich.org wertet monatlich Sachverhalte unterschiedlicher Kategorien und Themen aus, die in einer einfach zu erfassenden Grafik dargestellt werden. Für die Umsetzung der Informationsgrafiken und Illustrationen wurden wir beauftragt.
+      "AuftraggeberIn: VGL Verlagsgesellschaft mbH \nInfografik \nIllustration \n \nvergleich.org wertet monatlich Sachverhalte unterschiedlicher Kategorien und Themen aus, die in einer einfach zu erfassenden Grafik dargestellt werden. Für die Umsetzung der Informationsgrafiken und Illustrationen wurden wir beauftragt.",
   },
 ];
