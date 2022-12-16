@@ -143,4 +143,5 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img"],
     longTextDescription:
       "AuftraggeberIn: VGL Verlagsgesellschaft mbH \nInfografik \n \n 
+  },
 ];
