@@ -99,7 +99,7 @@ const galleryProjectInformation = [
     projectDescription:
       "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
     type: "img",
-    categories: ["Branding", "Buchgestaltung & Editorial Design"],
+    categories: ["Branding", "Buchgestaltung & Editorial Design, Infografik"],
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
       "Calendarium Luminis \n \nAuftraggeberIn: Johann Sommer, 2019 \nPlakatgestaltung, Kalendergestaltung  \n300 signierte Exemplare \neinseitiger Sonderfarbendruck in Silber auf schwarzem und dunkelblauen Karton.  \n \nFür den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen.",
@@ -134,4 +134,13 @@ const galleryProjectInformation = [
     longTextDescription:
       "Asepsis \n \nAuftraggeberIn: Christian An, 2019 \nKünstlerpublikation \n300 signierte Exemplare  \n \nAuf 19 Seiten inszenierten wir Zeichnungen des Künstlers Christian An und gestalteten das Künstlerbuch Asepsis. An zeigt von Reinlichkeit besessene Akteure – Gurus mit riesigen Zahnbürsten. Gelb-blaue Müllmänner, Verbotsschilder und Absperrbänder verweisen in ihrer signalhaften Farbigkeit auf Europol, die europäische Polizei. Was auf den ersten Blick noch humorvoll erscheint, beschäftigt sich kritisch damit, was – von Hierarchiehörigkeit bis hin zu Stigmatisierung – mit einer Gesellschaft geschehen kann, wenn sich Hygiene zur Ideologie und Keimfreiheit zum Heilsversprechen wandelt.",
   }, 
+    {
+    id: "project-13-vgl",
+    accentColor: "#1F1FD3",
+    projectDescription: "VGL Verlagsgesellschaft mbH \nInfografik",
+    type: "img",
+    categories: ["Infografik"],
+    mediaTypes: ["img", "img"],
+    longTextDescription:
+      "AuftraggeberIn: VGL Verlagsgesellschaft mbH \nInfografik \n \n 
 ];
