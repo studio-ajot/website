@@ -99,7 +99,7 @@ const galleryProjectInformation = [
     projectDescription:
       "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
     type: "img",
-    categories: ["Branding", "Buchgestaltung & Editorial Design, Infografik"],
+    categories: ["Branding", "Buchgestaltung & Editorial Design", "Infografik"],
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
       "Calendarium Luminis \n \nAuftraggeberIn: Johann Sommer, 2019 \nPlakatgestaltung, Kalendergestaltung  \n300 signierte Exemplare \neinseitiger Sonderfarbendruck in Silber auf schwarzem und dunkelblauen Karton.  \n \nFür den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen.",
@@ -136,11 +136,12 @@ const galleryProjectInformation = [
   }, 
     {
     id: "project-13-vgl",
-    accentColor: "#1F1FD3",
-    projectDescription: "VGL Verlagsgesellschaft mbH \nInfografik",
+    accentColor: "#0298D5",
+    projectDescription: "VGL Verlagsgesellschaft mbH \nInfografik \nIllustration",
     type: "img",
-    categories: ["Infografik"],
+    categories: ["Infografik", "Illustration"],
     mediaTypes: ["img", "img"],
     longTextDescription:
-      "AuftraggeberIn: VGL Verlagsgesellschaft mbH \nInfografik \n \n 
+      "AuftraggeberIn: VGL Verlagsgesellschaft mbH \nInfografik \nIllustration \n \nvergleich.org wertet monatlich Sachverhalte unterschiedlicher Kategorien und Themen aus, die in einer einfach zu erfassenden Grafik dargestellt werden. Für die Umsetzung der Informationsgrafiken und Illustrationen wurden wir beauftragt.",
+  },
 ];
