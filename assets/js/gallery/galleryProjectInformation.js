@@ -106,7 +106,7 @@ const galleryProjectInformation = [
   },
     {
     id: "project-9-gNIT",
-    accentColor: "#000000",
+    accentColor: "#FA50000",
     projectDescription: "getNextIT \nBranding \nVisitenkarte \nKleidung",
     type: "img",
     categories: ["Branding"],
