@@ -29,7 +29,18 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img", "img", "vid", "img"],
     longTextDescription:
       "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
-  },   
+  },  
+  {
+    id: "project-14-wobe",
+    accentColor: "#1419C0",
+    projectDescription:
+      "wobe-systems \nBranding \nSchriftgestaltung ",
+    type: "img",
+    categories: ["Branding", "Schriftgestaltung"],
+    mediaTypes: ["img", "vid" ,"img", "img"],
+    longTextDescription:
+      "wobe-systems  \n \n Branding, Logoentwicklung, Schriftgestaltung \n Für das Branding des kieler Softwareunternehmens wobe systems wurden wir beauftragt. ",
+  },     
   {
     id: "project-8-mfa",
     accentColor: "#EB67B3",
