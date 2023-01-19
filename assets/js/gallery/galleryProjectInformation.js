@@ -39,7 +39,7 @@ const galleryProjectInformation = [
     categories: ["Branding", "Schriftgestaltung"],
     mediaTypes: ["img", "vid", "img", "img", "vid"],
     longTextDescription:
-      "wobe-systems  \n \nBranding, Logoentwicklung, Schriftgestaltung \n \nFür das Branding des kieler Softwareunternehmens wobe systems wurden wir beauftragt. ",
+      "wobe-systems  \n \nBranding, Logoentwicklung, Schriftgestaltung \n \nFür das Branding des Kieler Softwareunternehmens wobe systems wurden wir beauftragt. ",
   },     
   {
     id: "project-8-mfa",
