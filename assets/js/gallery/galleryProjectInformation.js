@@ -37,7 +37,7 @@ const galleryProjectInformation = [
       "wobe-systems \nBranding \nSchriftgestaltung ",
     type: "img",
     categories: ["Branding", "Schriftgestaltung"],
-    mediaTypes: ["img", "vid", "img", "img", "img", "img", "img", "vid"],
+    mediaTypes: ["img", "vid", "img", "img", "img", "img", "vid"],
     longTextDescription:
       "wobe-systems  \n \nBranding, Logoentwicklung, Schriftgestaltung \n \nFür das Branding des Kieler Softwareunternehmens wobe-systems wurden wir beauftragt. ",
   },     
