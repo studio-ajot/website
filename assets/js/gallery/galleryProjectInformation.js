@@ -75,10 +75,10 @@ const galleryProjectInformation = [
   {
     id: "project-0-logo",
     accentColor: "#00FFCC",
-    projectDescription: "OpenFBA \nBranding \nLogogestaltung",
+    projectDescription: "\nBranding \nLogogestaltung",
     type: "vid",
     categories: ["Branding"],
-    mediaTypes: ["vid", "img", "img"],
+    mediaTypes: ["vid", "vid", "img", "img"],
     longTextDescription:
       "Logogestaltung \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \nLogogestaltung für unterschiedliche Unternehmen und AuftraggeberInnen.",
   },  
