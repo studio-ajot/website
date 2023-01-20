@@ -68,7 +68,7 @@ const galleryProjectInformation = [
     projectDescription: "Logos \nBranding \nLogogestaltung",
     type: "vid",
     categories: ["Branding"],
-    mediaTypes: ["vid", "img", "vid", "img", "img"],
+    mediaTypes: ["vid", "img", "img", "img", "vid"],
     longTextDescription:
       "Logogestaltung \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \nLogogestaltung für unterschiedliche Unternehmen und AuftraggeberInnen.",
   },  
