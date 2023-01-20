@@ -62,25 +62,13 @@ const galleryProjectInformation = [
     longTextDescription:
       "Frauen*beratung Elmshorn \n \nAuftraggeberIn: Frauen*beratung Elmshorn, 2021 - heute \nIdentität mit Logo, Template, Flyer, Jahresbericht \n \nDie Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. \n2020 entwickelten wir die neue visuelle Identität und gestalten seidem fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen.",
   },
-  <!--
-  {
-    id: "project-6-dayoff",
-    accentColor: "#D9C843",
-    projectDescription: "DayOff \nBranding \nLogoentwicklung",
-    type: "img",
-    categories: ["Branding"],
-    mediaTypes: ["img"],
-    longTextDescription:
-      "DayOff \n \nAuftraggeberIn: Lino Jenner, Co-Founder & CTO, DayOff & Corin Freyer, Co-Founder & CEO, DayOff \nVisuelle Identität, App-Gestaltung  \n \nDie digitale Anwendung „DayOff“ unterstützt Unternehmen und MitarbeiterInnen seit 2020 dabei, sich durch täglich wechselnde, individuelle Aufgaben in überfachlichen Kompetenzen spielerisch weiterzuentwickeln. Teams werden gestärkt und das Lernen nachhaltig verbessert. Wir begleiten DayOff von Beginn an in visuellen Umsetzungen und entwickelten die Corporate Identity.",
-  },  
-  -->
   {
     id: "project-0-logo",
     accentColor: "#00FFCC",
     projectDescription: "Logos \nBranding \nLogogestaltung",
     type: "vid",
     categories: ["Branding"],
-    mediaTypes: ["vid", "vid", "img", "img" , "img", "img"],
+    mediaTypes: ["vid", "img", "vid", "img", "img" , "img", "img"],
     longTextDescription:
       "Logogestaltung \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \nLogogestaltung für unterschiedliche Unternehmen und AuftraggeberInnen.",
   },  
