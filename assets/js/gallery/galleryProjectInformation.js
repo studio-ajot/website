@@ -63,16 +63,6 @@ const galleryProjectInformation = [
       "Frauen*beratung Elmshorn \n \nAuftraggeberIn: Frauen*beratung Elmshorn, 2021 - heute \nIdentität mit Logo, Template, Flyer, Jahresbericht \n \nDie Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. \n2020 entwickelten wir die neue visuelle Identität und gestalten seidem fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen.",
   },
   {
-    id: "project-0-logo",
-    accentColor: "#00FFCC",
-    projectDescription: "Logos \nBranding \nLogogestaltung",
-    type: "vid",
-    categories: ["Branding"],
-    mediaTypes: ["vid", "img", "img", "img", "vid"],
-    longTextDescription:
-      "Logogestaltung \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \nLogogestaltung für unterschiedliche Unternehmen und AuftraggeberInnen.",
-  },  
-  {
     id: "project-5-lmaa",
     accentColor: "#E30000",
     projectDescription:
@@ -82,6 +72,16 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "Lüneburg mit anderen Augen \n \nAuftraggeberIn: Pablo Martínez-Calleja, 2021 \nMit Fotografien von Pablo Martínez-Calleja \nBuchgestaltung \n \nWie ein Jäger des Augenblicks streift der in Lüneburg lebende Fotograf Pablo Martínez-Calleja mit seiner Kamera umher und nähert sich der Realität der StadtbewohnerInnen in Zeiten der Pandemie. Er fängt Situationen mit einem sensiblen Blick und ironischem Augenzwinkern ein. Jedes Foto lässt die Betrachtenden die Präsenz des Autors spüren, die wir auch innerhalb der Buchgestaltung in den Fokus setzten. Wir bewegen uns mit den Augen und der Perspektive des Fotografen innerhalb des Buches durch die Stadt.",
+  },    
+  {
+    id: "project-0-logo",
+    accentColor: "#00FFCC",
+    projectDescription: "Logos \nBranding \nLogogestaltung",
+    type: "vid",
+    categories: ["Branding"],
+    mediaTypes: ["vid", "img", "img", "img", "img", "vid"],
+    longTextDescription:
+      "Logogestaltung \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \nLogogestaltung für unterschiedliche Unternehmen und AuftraggeberInnen.",
   },  
   {
     id: "project-7-ultraviolett",
