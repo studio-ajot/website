@@ -58,7 +58,7 @@ const galleryProjectInformation = [
     projectDescription: "Frauen*beratung Elmshorn \nVisuelle Identität",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
-    mediaTypes: ["img", "img", "vid", "img", "img", "img"],
+    mediaTypes: ["img", "img", "vid", "img", "img", "img", "img", "img"],
     longTextDescription:
       "Frauen*beratung Elmshorn \n \nAuftraggeberIn: Frauen*beratung Elmshorn, 2021 - heute \nIdentität mit Logo, Template, Flyer, Jahresbericht \n \nDie Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. \n2020 entwickelten wir die neue visuelle Identität und gestalten seidem fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen.",
   },
