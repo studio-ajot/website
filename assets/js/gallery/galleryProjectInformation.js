@@ -145,4 +145,14 @@ const galleryProjectInformation = [
     longTextDescription:
       "AuftraggeberIn: VGL Verlagsgesellschaft mbH \nInfografik \nIllustration \n \nvergleich.org wertet monatlich Sachverhalte unterschiedlicher Kategorien und Themen aus, die in einer einfach zu erfassenden Grafik dargestellt werden. Für die Umsetzung der Informationsgrafiken und Illustrationen wurden wir beauftragt.",
   },
+    { 
+    id: "project-6-dayoff",
+    accentColor: "#D9C843",
+    projectDescription: "DayOff \nBranding \nLogoentwicklung",
+    type: "img",
+    categories: ["Branding"],
+    mediaTypes: ["img"],
+    longTextDescription:
+    "DayOff \n \nAuftraggeberIn: Lino Jenner, Co-Founder & CTO, DayOff & Corin Freyer, Co-Founder & CEO, DayOff \nVisuelle Identität, App-Gestaltung  \n \nDie digitale Anwendung „DayOff“ unterstützt Unternehmen und MitarbeiterInnen seit 2020 dabei, sich durch täglich wechselnde, individuelle Aufgaben in überfachlichen Kompetenzen spielerisch weiterzuentwickeln. Teams werden gestärkt und das Lernen nachhaltig verbessert. Wir begleiten DayOff von Beginn an in visuellen Umsetzungen und entwickelten die Corporate Identity.",
+  },  
 ];
