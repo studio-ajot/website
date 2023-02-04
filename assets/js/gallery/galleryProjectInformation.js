@@ -54,7 +54,7 @@ const galleryProjectInformation = [
   }, 
   {
     id: "project-4-fbe",
-    accentColor: "#0C6E5B",
+    accentColor: "#12847E",
     projectDescription: "Frauen*beratung Elmshorn \nVisuelle Identität",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
