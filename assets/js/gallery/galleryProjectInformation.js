@@ -111,7 +111,7 @@ const galleryProjectInformation = [
     projectDescription: "getNextIT \nBranding \nVisitenkarte \nKleidung",
     type: "img",
     categories: ["Branding"],
-    mediaTypes: ["img", "img", "vid", "img", "img", "img", "img", "img"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "getNextIT  \n \nAuftraggeberIn: Sabine Wojcieszak, 2021 \nVisuelle Identität mit Guideline & Visitenkarten \n \nDurch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir die neue Corporate Identity. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='white-links' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>.",
   },  
