@@ -147,7 +147,7 @@ const galleryProjectInformation = [
   },
     { 
     id: "project-6-dayoff",
-    accentColor: "#D9C843",
+    accentColor: "##64C2CE",
     projectDescription: "DayOff \nBranding \nLogoentwicklung",
     type: "img",
     categories: ["Branding"],
