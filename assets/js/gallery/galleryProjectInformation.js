@@ -26,7 +26,7 @@ const galleryProjectInformation = [
       "Konsultation Nationalpark Ostsee \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein \nVisuelle Identität",
     type: "vid",
     categories: ["Branding",],
-    mediaTypes: ["vid", "img", "img", "img"],
+    mediaTypes: ["vid", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "Konsultation Nationalpark Ostsee \n \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein, 2023 \nVisuelle Identität \n \n",
   },    
