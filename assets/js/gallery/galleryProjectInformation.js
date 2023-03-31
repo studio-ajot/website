@@ -2,21 +2,17 @@ const galleryProjectInformation = [
   {
     id: "project-10-epda",
     accentColor: "#FF8E02",
-    projectDescription: "> The Design Agency Boost Book \n> epda \n> Buchgestaltung",
+    projectDescription: "The Design Agency Boost Book \n\n  epda \n\n  Buchgestaltung",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "The Design Agency Boost Book \n \nAuftraggeberIn: European Brand & Packaging Design Association, 2022 \nBuchgestaltung  \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
-  },
-
-          
-
-        
+  },     
   {
     id: "project-12-cb",
     accentColor: "#454342",
-    projectDescription: "Ceramica Borealis 07 – Disegno Ornamento \nKerstin Abraham \nKünstlerinnen-Publikation",
+    projectDescription: "Ceramica Borealis 07 – Disegno Ornamento \n \nKerstin Abraham \n \nKünstlerinnen-Publikation",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -27,7 +23,7 @@ const galleryProjectInformation = [
     id: "project-15-kno",
     accentColor: "#032F64",
     projectDescription:
-      "> Konsultation Nationalpark Ostsee \n> Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein \n> Visuelle Identität",
+      "> Konsultation Nationalpark Ostsee \n \n> Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein \n \n> Visuelle Identität",
     type: "vid",
     categories: ["Branding",],
     mediaTypes: ["vid", "img", "img", "img", "vid","img", "img", "img"],
