@@ -35,9 +35,9 @@ const galleryProjectInformation = [
     accentColor: "#1419C0",
     projectDescription:
       "VISUELLE MARKENIDENTITÄT  \nLogoentwicklung, Geschäftsausstattung, Schriftgestaltung, Werbemittel \n\nwobe-systems GmbH",
-    type: "img",
+    type: "vid",
     categories: ["Branding", "Schriftgestaltung"],
-    mediaTypes: ["img", "vid", "img", "img", "img", "img", "img", "img"],
+    mediaTypes: ["vid", "vid", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "wobe-systems  \n \nBranding, Logoentwicklung, Schriftgestaltung \n \nFür das Branding des Kieler Softwareunternehmens wobe-systems wurden wir beauftragt. ",
   }, 
