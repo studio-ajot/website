@@ -149,7 +149,7 @@ const galleryProjectInformation = [
     {
     id: "project-13-vgl",
     accentColor: "#0298D5",
-    projectDescription: "VGL Verlagsgesellschaft mbH \n \nInfografik \n \nIllustration",
+    projectDescription: "Infografik \nIllustration \n\nVGL Verlagsgesellschaft mbH",
     type: "img",
     categories: ["Infografik", "Illustration"],
     mediaTypes: ["img", "img"],
