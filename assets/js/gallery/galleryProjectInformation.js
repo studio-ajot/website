@@ -87,7 +87,7 @@ const galleryProjectInformation = [
   {
     id: "project-0-logo",
     accentColor: "#00FFCC",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \n\nBranding \nLogogestaltung \nAuswahl",
+    projectDescription: "VISUELLE MARKENIDENTITÄT \nBranding \nLogogestaltung \n\nAuswahl",
     type: "vid",
     categories: ["Branding"],
     mediaTypes: ["vid", "img", "img", "img", "img", "vid"],
