@@ -34,7 +34,7 @@ const galleryProjectInformation = [
     id: "project-3-reset",
     accentColor: "#19C1A0",
     projectDescription:
-      "VISUELLE MARKENIDENTITÄT  \nPlakatgestaltungn \n\nReset – Let’s talk about diversity, \nVortragsreihe der Muthesius Kunsthochschule, Kiel",
+      "VISUELLE IDENTITÄT  \nPlakatgestaltungn \n\nReset – Let’s talk about diversity, \nVortragsreihe der Muthesius Kunsthochschule, Kiel",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "vid", "img"],
