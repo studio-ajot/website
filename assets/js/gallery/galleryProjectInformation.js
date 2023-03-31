@@ -23,7 +23,7 @@ const galleryProjectInformation = [
     id: "project-15-kno",
     accentColor: "#032F64",
     projectDescription:
-      "Visuelle Markendentität \nLogoentwicklung, Bildsprache, Farbwelt \nKonsultation Nationalpark Ostsee \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
+      "Visuelle Markendentität \nLogoentwicklung, Bildsprache, Farbwelt \n\nKonsultation Nationalpark Ostsee \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
     type: "vid",
     categories: ["Branding",],
     mediaTypes: ["vid", "img", "img", "img", "vid","img", "img", "img"],
