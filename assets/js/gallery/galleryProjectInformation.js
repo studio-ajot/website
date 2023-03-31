@@ -2,7 +2,7 @@ const galleryProjectInformation = [
   {
     id: "project-10-epda",
     accentColor: "#FF8E02",
-    projectDescription: "• Design Agency Boost Book \n\n• epda \n\n• Buchgestaltung",
+    projectDescription: "Design Agency Boost Book \n\nepda \n\nBuchgestaltung",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -23,7 +23,7 @@ const galleryProjectInformation = [
     id: "project-15-kno",
     accentColor: "#032F64",
     projectDescription:
-      "> Konsultation Nationalpark Ostsee \n \n> Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein \n \n> Visuelle Identität",
+      "> Konsultation Nationalpark Ostsee \n \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein \n \nVisuelle Identität",
     type: "vid",
     categories: ["Branding",],
     mediaTypes: ["vid", "img", "img", "img", "vid","img", "img", "img"],
@@ -34,7 +34,7 @@ const galleryProjectInformation = [
     id: "project-3-reset",
     accentColor: "#19C1A0",
     projectDescription:
-      "RESET \nVortragsreihe Muthesius Kunsthochschule \nPlakatgestaltung",
+      "RESET \n \nVortragsreihe der Muthesius Kunsthochschule, Kiel \n \nVisuelle Identität  \n \nPlakatgestaltung",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "vid", "img"],
@@ -45,7 +45,7 @@ const galleryProjectInformation = [
     id: "project-14-wobe",
     accentColor: "#1419C0",
     projectDescription:
-      "wobe-systems \nBranding \nSchriftgestaltung ",
+      "wobe-systems \n \nVisuelle Identität \n \nSchriftgestaltung ",
     type: "img",
     categories: ["Branding", "Schriftgestaltung"],
     mediaTypes: ["img", "vid", "img", "img", "img", "img", "img", "img"],
@@ -56,7 +56,7 @@ const galleryProjectInformation = [
     id: "project-8-mfa",
     accentColor: "#EB67B3",
     projectDescription:
-      "MFA21.My Favorite Acronym \nMuthesius Kunsthochschule \nVisuelle Identität \nAusstellungsdesign",
+      "MFA21.My Favorite Acronym \n \nMuthesius Kunsthochschule \nVisuelle Identität \nAusstellungsdesign",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
     mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -66,7 +66,7 @@ const galleryProjectInformation = [
   {
     id: "project-4-fbe",
     accentColor: "#12847E",
-    projectDescription: "Frauen*beratung Elmshorn \nVisuelle Identität",
+    projectDescription: "Frauen*beratung Elmshorn \n \nVisuelle Identität",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
@@ -77,7 +77,7 @@ const galleryProjectInformation = [
     id: "project-5-lmaa",
     accentColor: "#E30000",
     projectDescription:
-      "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
+      "Lüneburg mit anderen Augen \n \nPablo Martínez-Calleja \n \nFotografische Publikation",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -87,7 +87,7 @@ const galleryProjectInformation = [
   {
     id: "project-0-logo",
     accentColor: "#00FFCC",
-    projectDescription: "Logos \nBranding \nLogogestaltung",
+    projectDescription: "Logos \n \nBranding \n \nLogogestaltung \n \nVisuelle Identität",
     type: "vid",
     categories: ["Branding"],
     mediaTypes: ["vid", "img", "img", "img", "img", "vid"],
@@ -98,7 +98,7 @@ const galleryProjectInformation = [
     id: "project-7-ultraviolett",
     accentColor: "#76EEC6",
     projectDescription:
-      "Ultraviolett – Flurin Jecker \nHaymon Verlag \nCovergestaltung",
+      "Ultraviolett – Flurin Jecker \n \nHaymon Verlag \n \nCovergestaltung",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img"],
@@ -109,7 +109,7 @@ const galleryProjectInformation = [
     id: "project-2-calendarium-luminis",
     accentColor: "#717171",
     projectDescription:
-      "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
+      "Calendarium Luminis \n \nJohann Sommer \n \nPlakatgestaltung \n \nKalendergestaltung",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Infografik"],
     mediaTypes: ["img", "img", "img", "img", "img"],
@@ -119,7 +119,7 @@ const galleryProjectInformation = [
     {
     id: "project-9-gNIT",
     accentColor: "#095A5A",
-    projectDescription: "getNextIT \nBranding \nVisitenkarte \nKleidung",
+    projectDescription: "getNextIT \n \nVisuelle Identität \n \nGeschäftsausstattung",
     type: "img",
     categories: ["Branding"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -129,7 +129,7 @@ const galleryProjectInformation = [
   {
     id: "project-11-ersti",
     accentColor: "#00CFDD",
-    projectDescription: "Gut zu wissen \nMuthesius Kunsthochschule \nEditorial Design",
+    projectDescription: "Gut zu wissen \n \nMuthesius Kunsthochschule, Kiel \nEditorial Design / Buchgestaltung",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img"],
@@ -139,7 +139,7 @@ const galleryProjectInformation = [
     {
     id: "project-1-asepsis",
     accentColor: "#1F1FD3",
-    projectDescription: "Asepsis \nChristian An \nKünstlerische Publikation",
+    projectDescription: "Asepsis \n \nChristian An \n \nKünstlerische Publikation / Buchgestaltung",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img"],
@@ -149,7 +149,7 @@ const galleryProjectInformation = [
     {
     id: "project-13-vgl",
     accentColor: "#0298D5",
-    projectDescription: "VGL Verlagsgesellschaft mbH \nInfografik \nIllustration",
+    projectDescription: "VGL Verlagsgesellschaft mbH \n \nInfografik \n \nIllustration",
     type: "img",
     categories: ["Infografik", "Illustration"],
     mediaTypes: ["img", "img"],
@@ -159,7 +159,7 @@ const galleryProjectInformation = [
     { 
     id: "project-6-dayoff",
     accentColor: "#64C2CE",
-    projectDescription: "DayOff \nBranding \nLogoentwicklung",
+    projectDescription: "DayOff \n \nVisuelle Identität",
     type: "img",
     categories: ["Branding"],
     mediaTypes: ["img", "img", "img", "img", "img"],
