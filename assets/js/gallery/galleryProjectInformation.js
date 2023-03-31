@@ -27,7 +27,7 @@ const galleryProjectInformation = [
     id: "project-15-kno",
     accentColor: "#032F64",
     projectDescription:
-      "Konsultation Nationalpark Ostsee \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein \nVisuelle Identität",
+      "> Konsultation Nationalpark Ostsee \n> Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein \n> Visuelle Identität",
     type: "vid",
     categories: ["Branding",],
     mediaTypes: ["vid", "img", "img", "img", "vid","img", "img", "img"],
