@@ -12,7 +12,7 @@ const galleryProjectInformation = [
   {
     id: "project-12-cb",
     accentColor: "#454342",
-    projectDescription: "BUCHGESTALTUNG \n Künstlerinnen-Publikation \n \nCeramica Borealis 07 – Disegno Ornamento, \nKerstin Abraham",
+    projectDescription: "BUCHGESTALTUNG \nKünstlerinnen-Publikation \n \nCeramica Borealis 07 – Disegno Ornamento, \nKerstin Abraham",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -77,7 +77,7 @@ const galleryProjectInformation = [
     id: "project-5-lmaa",
     accentColor: "#E30000",
     projectDescription:
-      "BUCHGESTALTUNG \nFotografische Publikation \n\nLüneburg mit anderen Augen \nPablo Martínez-Calleja",
+      "BUCHGESTALTUNG \nFotografische Publikation \n\nLüneburg mit anderen Augen, \nPablo Martínez-Calleja",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -87,7 +87,7 @@ const galleryProjectInformation = [
   {
     id: "project-0-logo",
     accentColor: "#00FFCC",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nBranding \nLogogestaltung nAuswahl",
+    projectDescription: "VISUELLE MARKENIDENTITÄT \n\nBranding \nLogogestaltung \nAuswahl",
     type: "vid",
     categories: ["Branding"],
     mediaTypes: ["vid", "img", "img", "img", "img", "vid"],
@@ -109,7 +109,7 @@ const galleryProjectInformation = [
     id: "project-2-calendarium-luminis",
     accentColor: "#717171",
     projectDescription:
-      "PLAKATGESTALTUNG \nKalendergestaltung \nCalendarium Luminis, \nJohann Sommer",
+      "PLAKATGESTALTUNG \nKalendergestaltung \n\nCalendarium Luminis, \nJohann Sommer",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Infografik"],
     mediaTypes: ["img", "img", "img", "img", "img"],
@@ -159,7 +159,7 @@ const galleryProjectInformation = [
     { 
     id: "project-6-dayoff",
     accentColor: "#64C2CE",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwichlung, Schrift- und Farbwelt \nDayOff GmbH",
+    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwichlung, Schrift- und Farbwelt \n\nDayOff GmbH",
     type: "img",
     categories: ["Branding"],
     mediaTypes: ["img", "img", "img", "img", "img"],
