@@ -2,7 +2,7 @@ const galleryProjectInformation = [
   {
     id: "project-10-epda",
     accentColor: "#FF8E02",
-    projectDescription: "Buchgestaltung \n\nDesign Agency Boost Book \n\nepda",
+    projectDescription: "Buchgestaltung \n\nDesign Agency Boost Book \n epda",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -12,7 +12,7 @@ const galleryProjectInformation = [
   {
     id: "project-12-cb",
     accentColor: "#454342",
-    projectDescription: "Buchgestaltung \n \nCeramica Borealis 07 – Disegno Ornamento \nKünstlerinnen-Publikation \n \nKerstin Abraham",
+    projectDescription: "Buchgestaltung, Künstlerinnen-Publikation \n \nCeramica Borealis 07 – Disegno Ornamento \n Kerstin Abraham",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -23,7 +23,7 @@ const galleryProjectInformation = [
     id: "project-15-kno",
     accentColor: "#032F64",
     projectDescription:
-      "Visuelle Markendentität \n \nKonsultation Nationalpark Ostsee \n \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein \n \nLogoentwicklung, Bildsprache, Farbwelt",
+      "Visuelle Markendentität \nLogoentwicklung, Bildsprache, Farbwelt \nKonsultation Nationalpark Ostsee \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
     type: "vid",
     categories: ["Branding",],
     mediaTypes: ["vid", "img", "img", "img", "vid","img", "img", "img"],
@@ -34,7 +34,7 @@ const galleryProjectInformation = [
     id: "project-3-reset",
     accentColor: "#19C1A0",
     projectDescription:
-      "RESET \n \nVortragsreihe der Muthesius Kunsthochschule, Kiel \n \nVisuelle Identität  \n \nPlakatgestaltung",
+      "Visuelle Identität \nPlakatgestaltungn \n\nRESET \nVortragsreihe der Muthesius Kunsthochschule, Kiel",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "vid", "img"],
@@ -45,7 +45,7 @@ const galleryProjectInformation = [
     id: "project-14-wobe",
     accentColor: "#1419C0",
     projectDescription:
-      "Visuelle Markenidentität \n\nwobe-systems GmbH  \n\n Logoentwicklung, Geschäftsausstattung, Schriftgestaltung, Werbemittel",
+      "Visuelle Markenidentität \n Logoentwicklung, Geschäftsausstattung, Schriftgestaltung, Werbemittel \n\nwobe-systems GmbH",
     type: "img",
     categories: ["Branding", "Schriftgestaltung"],
     mediaTypes: ["img", "vid", "img", "img", "img", "img", "img", "img"],
@@ -56,7 +56,7 @@ const galleryProjectInformation = [
     id: "project-8-mfa",
     accentColor: "#EB67B3",
     projectDescription:
-      "Ausstellungsdesign \n\n MFA21.My Favorite Acronym \n \nMuthesius Kunsthochschule, Kiel \n\nVisuelle Identität, Plakatgestaltung, Webdesign",
+      "Ausstellungsdesign \nVisuelle Identität, Plakatgestaltung, Webdesign \n\n MFA21.My Favorite Acronym \nMuthesius Kunsthochschule, Kiel",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
     mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -66,7 +66,7 @@ const galleryProjectInformation = [
   {
     id: "project-4-fbe",
     accentColor: "#12847E",
-    projectDescription: "Visuelle Markenidentität \n\nFrauen*beratung Elmshorn \n \nLogoentwicklung, Geschäftsausstattung,",
+    projectDescription: "Visuelle Markenidentität \nLogoentwicklung, Geschäftsausstattung \n\nFrauen*beratung Elmshorn",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
@@ -77,7 +77,7 @@ const galleryProjectInformation = [
     id: "project-5-lmaa",
     accentColor: "#E30000",
     projectDescription:
-      "Buchgestaltung \n\nLüneburg mit anderen Augen \n \nPablo Martínez-Calleja \n \nFotografische Publikation",
+      "Buchgestaltung \nFotografische Publikation \n\nLüneburg mit anderen Augen \nPablo Martínez-Calleja",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -87,7 +87,7 @@ const galleryProjectInformation = [
   {
     id: "project-0-logo",
     accentColor: "#00FFCC",
-    projectDescription: "Visuelle Markenidentität \n \nBranding \n \nLogogestaltung",
+    projectDescription: "Visuelle Markenidentität \nBranding \nLogogestaltung",
     type: "vid",
     categories: ["Branding"],
     mediaTypes: ["vid", "img", "img", "img", "img", "vid"],
@@ -98,7 +98,7 @@ const galleryProjectInformation = [
     id: "project-7-ultraviolett",
     accentColor: "#76EEC6",
     projectDescription:
-      "Buchgestaltung \n\nUltraviolett – Flurin Jecker \n \nHaymon Verlag \n \nCovergestaltung",
+      "Buchgestaltung \nCovergestaltung \n\nUltraviolett – Flurin Jecker \nHaymon Verlag",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img"],
@@ -109,7 +109,7 @@ const galleryProjectInformation = [
     id: "project-2-calendarium-luminis",
     accentColor: "#717171",
     projectDescription:
-      "Calendarium Luminis \n \nJohann Sommer \n \nPlakatgestaltung \n \nKalendergestaltung",
+      "Plakatgestaltung \nKalendergestaltung \nCalendarium Luminis \n \nJohann Sommer",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Infografik"],
     mediaTypes: ["img", "img", "img", "img", "img"],
@@ -119,7 +119,7 @@ const galleryProjectInformation = [
     {
     id: "project-9-gNIT",
     accentColor: "#095A5A",
-    projectDescription: "Visuelle Markenidentität \n\ngetNextIT  \n\nLogoentwicklung, Geschäftsausstattung",
+    projectDescription: "Visuelle Markenidentität \nLogoentwicklung, Geschäftsausstattung \n\ngetNextIT",
     type: "img",
     categories: ["Branding"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -129,7 +129,7 @@ const galleryProjectInformation = [
   {
     id: "project-11-ersti",
     accentColor: "#00CFDD",
-    projectDescription: "Buchgestaltung \n\nGut zu wissen \n \nMuthesius Kunsthochschule, Kiel \n\nEditorial Design",
+    projectDescription: "Buchgestaltung \nEditorial Design \n\nGut zu wissen – Alles für den Studienbeginn \nMuthesius Kunsthochschule, Kiel",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img"],
@@ -139,7 +139,7 @@ const galleryProjectInformation = [
     {
     id: "project-1-asepsis",
     accentColor: "#1F1FD3",
-    projectDescription: "Buchgestaltung \n\nAsepsis \n \nChristian An \n \nKünstlerische Publikation",
+    projectDescription: "Buchgestaltung \nKünstlerische Publikation \n\nAsepsis \nChristian An",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img"],
@@ -159,7 +159,7 @@ const galleryProjectInformation = [
     { 
     id: "project-6-dayoff",
     accentColor: "#64C2CE",
-    projectDescription: "Visuelle Markenidentität \n\n DayOff GmbH\n \nLogoentwichlung, Schrift- und Farbwelt",
+    projectDescription: "Visuelle Markenidentität \nLogoentwichlung, Schrift- und Farbwelt \nDayOff GmbH",
     type: "img",
     categories: ["Branding"],
     mediaTypes: ["img", "img", "img", "img", "img"],
