@@ -2,7 +2,7 @@ const galleryProjectInformation = [
   {
     id: "project-10-epda",
     accentColor: "#FF8E02",
-    projectDescription: "Buchgestaltung \n\nDesign Agency Boost Book \n epda",
+    projectDescription: "Buchgestaltung \n\nDesign Agency Boost Book \nEuropean Brand and Packaging Design Association",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -12,7 +12,7 @@ const galleryProjectInformation = [
   {
     id: "project-12-cb",
     accentColor: "#454342",
-    projectDescription: "Buchgestaltung, Künstlerinnen-Publikation \n \nCeramica Borealis 07 – Disegno Ornamento \n Kerstin Abraham",
+    projectDescription: "Buchgestaltung, Künstlerinnen-Publikation \n \nCeramica Borealis 07 – Disegno Ornamento \nKerstin Abraham",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -45,7 +45,7 @@ const galleryProjectInformation = [
     id: "project-14-wobe",
     accentColor: "#1419C0",
     projectDescription:
-      "Visuelle Markenidentität \n Logoentwicklung, Geschäftsausstattung, Schriftgestaltung, Werbemittel \n\nwobe-systems GmbH",
+      "Visuelle Markenidentität \nLogoentwicklung, Geschäftsausstattung, Schriftgestaltung, Werbemittel \n\nwobe-systems GmbH",
     type: "img",
     categories: ["Branding", "Schriftgestaltung"],
     mediaTypes: ["img", "vid", "img", "img", "img", "img", "img", "img"],
@@ -98,7 +98,7 @@ const galleryProjectInformation = [
     id: "project-7-ultraviolett",
     accentColor: "#76EEC6",
     projectDescription:
-      "Buchgestaltung \nCovergestaltung \n\nUltraviolett – Flurin Jecker \nHaymon Verlag",
+      "Buchgestaltung \nCovergestaltung \n\nUltraviolett von Flurin Jecker \nHaymon Verlag",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img"],
