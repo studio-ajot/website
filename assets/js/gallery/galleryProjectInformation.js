@@ -10,16 +10,6 @@ const galleryProjectInformation = [
       "The Design Agency Boost Book \n \nAuftraggeberIn: European Brand & Packaging Design Association, 2022 \nBuchgestaltung  \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
   },     
   {
-    id: "project-12-cb",
-    accentColor: "#454342",
-    projectDescription: "BUCHGESTALTUNG \nKünstlerinnen-Publikation \n \nCeramica Borealis 07 – Disegno Ornamento, \nKerstin Abraham",
-    type: "img",
-    categories: ["Buchgestaltung & Editorial Design"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
-    longTextDescription:
-      "Ceramica Borealis 07 – Disegno Ornamento \n  \nAuftraggeberIn: Kerstin Abraham, 2022 \nKünstlerinnen-Publikation \n  \n»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke",
-  },   
-  {
     id: "project-15-kno",
     accentColor: "#032F64",
     projectDescription:
@@ -29,17 +19,16 @@ const galleryProjectInformation = [
     mediaTypes: ["vid", "img", "img", "img", "vid","img", "img", "img"],
     longTextDescription:
       "Konsultation Nationalpark Ostsee \n \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein, 2023 \nVisuelle Identität \n \n",
-  },    
+  },      
   {
-    id: "project-3-reset",
-    accentColor: "#19C1A0",
-    projectDescription:
-      "VISUELLE IDENTITÄT  \nPlakatgestaltungn \n\nReset – Let’s talk about diversity, \nVortragsreihe der Muthesius Kunsthochschule, Kiel",
+    id: "project-12-cb",
+    accentColor: "#454342",
+    projectDescription: "BUCHGESTALTUNG \nKünstlerinnen-Publikation \n \nCeramica Borealis 07 – Disegno Ornamento, \nKerstin Abraham",
     type: "img",
-    categories: ["Branding", "Buchgestaltung & Editorial Design"],
-    mediaTypes: ["img", "img", "img", "vid", "img"],
+    categories: ["Buchgestaltung & Editorial Design"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
+      "Ceramica Borealis 07 – Disegno Ornamento \n  \nAuftraggeberIn: Kerstin Abraham, 2022 \nKünstlerinnen-Publikation \n  \n»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke",
   },  
   {
     id: "project-14-wobe",
@@ -51,7 +40,17 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "vid", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "wobe-systems  \n \nBranding, Logoentwicklung, Schriftgestaltung \n \nFür das Branding des Kieler Softwareunternehmens wobe-systems wurden wir beauftragt. ",
-  },     
+  }, 
+  {
+    id: "project-4-fbe",
+    accentColor: "#12847E",
+    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nFrauen*beratung Elmshorn",
+    type: "img",
+    categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
+    longTextDescription:
+      "Frauen*beratung Elmshorn \n \nAuftraggeberIn: Frauen*beratung Elmshorn, 2021 - heute \nIdentität mit Logo, Template, Flyer, Jahresbericht \n \nDie Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. \n2020 entwickelten wir die neue visuelle Identität und gestalten seidem fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen.",
+  },       
   {
     id: "project-8-mfa",
     accentColor: "#EB67B3",
@@ -64,15 +63,16 @@ const galleryProjectInformation = [
       "MFA - My Favorite Acronym \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2021 \nVisuelle Identität mit Plakat, Flyer, Katalog, Webdesign  \nKonzept: Lena Reisner \nProgrammierung: Björn Schmidt \n \nFür die Ausstellung »Master of Fine Arts« der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann.",
   }, 
   {
-    id: "project-4-fbe",
-    accentColor: "#12847E",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nFrauen*beratung Elmshorn",
+    id: "project-3-reset",
+    accentColor: "#19C1A0",
+    projectDescription:
+      "VISUELLE IDENTITÄT  \nPlakatgestaltungn \n\nReset – Let’s talk about diversity, \nVortragsreihe der Muthesius Kunsthochschule, Kiel",
     type: "img",
-    categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
+    categories: ["Branding", "Buchgestaltung & Editorial Design"],
+    mediaTypes: ["img", "img", "img", "vid", "img"],
     longTextDescription:
-      "Frauen*beratung Elmshorn \n \nAuftraggeberIn: Frauen*beratung Elmshorn, 2021 - heute \nIdentität mit Logo, Template, Flyer, Jahresbericht \n \nDie Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. \n2020 entwickelten wir die neue visuelle Identität und gestalten seidem fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen.",
-  },
+      "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
+  }, 
   {
     id: "project-5-lmaa",
     accentColor: "#E30000",
