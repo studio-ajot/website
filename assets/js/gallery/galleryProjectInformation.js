@@ -2,7 +2,7 @@ const galleryProjectInformation = [
   {
     id: "project-10-epda",
     accentColor: "#FF8E02",
-    projectDescription: "The Design Agency Boost Book ><br /><i class="fas fa-arrow-right text-decoration-none"></i \nepda \nBuchgestaltung",
+    projectDescription: "The Design Agency Boost Book \nepda \nBuchgestaltung",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
