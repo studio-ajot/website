@@ -12,7 +12,7 @@ const galleryProjectInformation = [
   {
     id: "project-16-sun",
     accentColor: "#254425",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nsundance farmers inc.",
+    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nSundance Farmers Inc.",
     type: "img",
     categories: ["Branding"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
