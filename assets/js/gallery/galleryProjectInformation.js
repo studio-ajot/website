@@ -156,15 +156,16 @@ const galleryProjectInformation = [
     longTextDescription:
       "Asepsis \n \nAuftraggeberIn: Christian An, 2019 \nKünstlerpublikation \n300 signierte Exemplare  \n \nAuf 19 Seiten inszenierten wir Zeichnungen des Künstlers Christian An und gestalteten das Künstlerbuch Asepsis. An zeigt von Reinlichkeit besessene Akteure – Gurus mit riesigen Zahnbürsten. Gelb-blaue Müllmänner, Verbotsschilder und Absperrbänder verweisen in ihrer signalhaften Farbigkeit auf Europol, die europäische Polizei. Was auf den ersten Blick noch humorvoll erscheint, beschäftigt sich kritisch damit, was – von Hierarchiehörigkeit bis hin zu Stigmatisierung – mit einer Gesellschaft geschehen kann, wenn sich Hygiene zur Ideologie und Keimfreiheit zum Heilsversprechen wandelt.",
   }, 
-    {
-    id: "project-13-vgl",
+  
+      {
+    id: "project-17-xmas22 ",
     accentColor: "#0298D5",
-    projectDescription: "INFOGRAFIK \nIllustration \n\nVGL Verlagsgesellschaft mbH",
+    projectDescription: "Postkarte \nSchriftgestaltung \n\n",
     type: "img",
-    categories: ["Infografik", "Illustration"],
-    mediaTypes: ["img", "img"],
+    categories: [""],
+    mediaTypes: ["img",],
     longTextDescription:
-      "AuftraggeberIn: VGL Verlagsgesellschaft mbH \nInfografik \nIllustration \n \nvergleich.org wertet monatlich Sachverhalte unterschiedlicher Kategorien und Themen aus, die in einer einfach zu erfassenden Grafik dargestellt werden. Für die Umsetzung der Informationsgrafiken und Illustrationen wurden wir beauftragt.",
+      "",
   },
     { 
     id: "project-6-dayoff",
