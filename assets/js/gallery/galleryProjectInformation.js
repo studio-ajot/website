@@ -17,7 +17,7 @@ const galleryProjectInformation = [
     categories: ["Branding"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "sundance farmers inc  \n\nBranding, Logoentwicklung, 2023 \n \n",
+      "Sundance Farmers Inc.  \n\nBranding, Logoentwicklung, 2023 \n \nBei Sundance Farmers Inc. stehen die nachhaltige und ökologische Landwirtschaft sowie der faire Umgang mit Landwirten im Vordergrund. Für das Unternehmen entwickelten wir ein ganzheitliches Erscheinungsbild, das nicht nur einen Bezug zu den örtlichen Tätigkeitsgebieten des Unternehmens, sondern auch zur Nachhaltigkeit, dem Erhalt des Planeten als Unternehmensaufgabe, herstellt.",
   },    
   {
     id: "project-12-cb",
