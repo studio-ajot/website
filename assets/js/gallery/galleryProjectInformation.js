@@ -8,18 +8,17 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "The Design Agency Boost Book \n \nAuftraggeberIn: European Brand & Packaging Design Association, 2022 \nBuchgestaltung  \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
-  },     
+  },       
   {
-    id: "project-15-kno",
-    accentColor: "#032F64",
-    projectDescription:
-      "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Bildsprache, Farbwelt \n\nKonsultation Nationalpark Ostsee, \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
-    type: "vid",
-    categories: ["Branding",],
-    mediaTypes: ["vid", "img", "img", "img", "vid","img", "img", "img"],
+    id: "project-16-sun",
+    accentColor: "#254425",
+    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nsundance farmers inc.",
+    type: "img",
+    categories: ["Branding"],
+    mediaTypes: ["img", "img", "img", "img", "img", "vid"],
     longTextDescription:
-      "Konsultation Nationalpark Ostsee \n \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein, 2023 \nVisuelle Identität \n \n",
-  },      
+      "sundance farmers inc  \n\nBranding, Logoentwicklung, 2023 \n \n",
+  },    
   {
     id: "project-12-cb",
     accentColor: "#454342",
@@ -85,15 +84,16 @@ const galleryProjectInformation = [
       "Lüneburg mit anderen Augen \n \nAuftraggeberIn: Pablo Martínez-Calleja, 2021 \nMit Fotografien von Pablo Martínez-Calleja \nBuchgestaltung \n \nWie ein Jäger des Augenblicks streift der in Lüneburg lebende Fotograf Pablo Martínez-Calleja mit seiner Kamera umher und nähert sich der Realität der StadtbewohnerInnen in Zeiten der Pandemie. Er fängt Situationen mit einem sensiblen Blick und ironischem Augenzwinkern ein. Jedes Foto lässt die Betrachtenden die Präsenz des Autors spüren, die wir auch innerhalb der Buchgestaltung in den Fokus setzten. Wir bewegen uns mit den Augen und der Perspektive des Fotografen innerhalb des Buches durch die Stadt.",
   },    
   {
-    id: "project-0-logo",
-    accentColor: "#00FFCC",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nBranding \nLogogestaltung \n\nAuswahl",
+    id: "project-15-kno",
+    accentColor: "#032F64",
+    projectDescription:
+      "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Bildsprache, Farbwelt \n\nKonsultation Nationalpark Ostsee, \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
     type: "vid",
-    categories: ["Branding"],
-    mediaTypes: ["vid", "img", "img", "img", "img", "vid"],
+    categories: ["Branding",],
+    mediaTypes: ["vid", "img", "img", "img", "vid","img", "img", "img"],
     longTextDescription:
-      "Logogestaltung \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \nLogogestaltung für unterschiedliche Unternehmen und AuftraggeberInnen.",
-  },  
+      "Konsultation Nationalpark Ostsee \n \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein, 2023 \nVisuelle Identität \n \n",
+  },      
   {
     id: "project-7-ultraviolett",
     accentColor: "#76EEC6",
@@ -125,7 +125,17 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
       "Calendarium Luminis \n \nAuftraggeberIn: Johann Sommer, 2019 \nPlakatgestaltung, Kalendergestaltung  \n300 signierte Exemplare \neinseitiger Sonderfarbendruck in Silber auf schwarzem und dunkelblauen Karton.  \n \nFür den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen.",
-  }, 
+  },    
+  {
+    id: "project-0-logo",
+    accentColor: "#00FFCC",
+    projectDescription: "VISUELLE MARKENIDENTITÄT \nBranding \nLogogestaltung \n\nAuswahl",
+    type: "vid",
+    categories: ["Branding"],
+    mediaTypes: ["vid", "img", "img", "img", "img", "vid"],
+    longTextDescription:
+      "Logogestaltung \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \nLogogestaltung für unterschiedliche Unternehmen und AuftraggeberInnen.",
+  },  
   {
     id: "project-11-ersti",
     accentColor: "#00CFDD",
