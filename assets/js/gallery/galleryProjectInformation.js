@@ -15,7 +15,7 @@ const galleryProjectInformation = [
     projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nsundance farmers inc.",
     type: "img",
     categories: ["Branding"],
-    mediaTypes: ["img", "img", "img", "img", "img", "vid"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "sundance farmers inc  \n\nBranding, Logoentwicklung, 2023 \n \n",
   },    
