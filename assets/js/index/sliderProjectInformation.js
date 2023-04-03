@@ -89,7 +89,7 @@ const projectInformation = [
   },
   {
     id: "project-2-calender",
-    accentColor: "",
+    accentColor: "#13D513",
     projectDescription:
       "",
     type: "img",
