@@ -159,7 +159,7 @@ const galleryProjectInformation = [
   
       {
     id: "project-17-xmas22 ",
-    accentColor: "#0298D5",
+    accentColor: "#A20E6D",
     projectDescription: "Postkarte \nSchriftgestaltung \n\n",
     type: "img",
     categories: [""],
