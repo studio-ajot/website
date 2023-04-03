@@ -89,9 +89,9 @@ const projectInformation = [
   },
   {
     id: "project-2-calender",
-    accentColor: "#717171",
+    accentColor: "",
     projectDescription:
-      "Calendarium Luminis \nJohann Sommer \nPlakatgestaltung \nKalendergestaltung",
+      "",
     type: "img",
   },
   {
