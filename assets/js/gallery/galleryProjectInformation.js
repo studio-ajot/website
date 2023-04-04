@@ -160,7 +160,7 @@ const galleryProjectInformation = [
     {
     id: "project-17-xmas22",
     accentColor: "#A20E6D",
-    projectDescription: "Postkarte \nSchriftgestaltung \n\n",
+    projectDescription: "POSTKARTE \nNeujahrsgrüße, Schriftgestaltung \n\n",
     type: "vid",
     categories: [""],
     mediaTypes: ["vid", "img"],
