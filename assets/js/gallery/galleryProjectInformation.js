@@ -93,7 +93,18 @@ const galleryProjectInformation = [
     mediaTypes: ["vid", "img", "img", "img", "vid","img", "img", "img"],
     longTextDescription:
       "Konsultation Nationalpark Ostsee \n \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein, 2023 \nVisuelle Identität \n \nDie Ostsee ist Heimat, Arbeitsplatz und Erholungsgebiet. Ein wertvoller Lebensraum, dessen Schutz sich die Landesregierung Schleswig-Holstein zur Aufgabe gemacht hat. Basierend auf bestehenden Schutzgebieten sollen die Machbarkeiten und Möglichkeiten eines Ausbaus mit allen Interessengruppen diskutiert werden. Diesen wichtigen Prozess unterstützen wir mit der Erstellung der grafischen Identität.",
-  },      
+  },    
+    {
+    id: "project-17-xmas22",
+    accentColor: "#A20E6D",
+    projectDescription: "POSTKARTE \nNeujahrsgrüße, Schriftgestaltung \n\n",
+    type: "vid",
+    categories: [""],
+    mediaTypes: ["vid", "img"],
+    longTextDescription:
+      "inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious",
+  },  
+  
   {
     id: "project-7-ultraviolett",
     accentColor: "#76EEC6",
@@ -157,16 +168,7 @@ const galleryProjectInformation = [
       "Asepsis \n \nAuftraggeberIn: Christian An, 2019 \nKünstlerpublikation \n300 signierte Exemplare  \n \nAuf 19 Seiten inszenierten wir Zeichnungen des Künstlers Christian An und gestalteten das Künstlerbuch Asepsis. An zeigt von Reinlichkeit besessene Akteure – Gurus mit riesigen Zahnbürsten. Gelb-blaue Müllmänner, Verbotsschilder und Absperrbänder verweisen in ihrer signalhaften Farbigkeit auf Europol, die europäische Polizei. Was auf den ersten Blick noch humorvoll erscheint, beschäftigt sich kritisch damit, was – von Hierarchiehörigkeit bis hin zu Stigmatisierung – mit einer Gesellschaft geschehen kann, wenn sich Hygiene zur Ideologie und Keimfreiheit zum Heilsversprechen wandelt.",
   }, 
   
-    {
-    id: "project-17-xmas22",
-    accentColor: "#A20E6D",
-    projectDescription: "POSTKARTE \nNeujahrsgrüße, Schriftgestaltung \n\n",
-    type: "vid",
-    categories: [""],
-    mediaTypes: ["vid", "img"],
-    longTextDescription:
-      "inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious",
-  },
+
     { 
     id: "project-6-dayoff",
     accentColor: "#64C2CE",
