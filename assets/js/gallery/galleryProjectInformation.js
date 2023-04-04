@@ -167,8 +167,6 @@ const galleryProjectInformation = [
     longTextDescription:
       "Asepsis \n \nAuftraggeberIn: Christian An, 2019 \nKünstlerpublikation \n300 signierte Exemplare  \n \nAuf 19 Seiten inszenierten wir Zeichnungen des Künstlers Christian An und gestalteten das Künstlerbuch Asepsis. An zeigt von Reinlichkeit besessene Akteure – Gurus mit riesigen Zahnbürsten. Gelb-blaue Müllmänner, Verbotsschilder und Absperrbänder verweisen in ihrer signalhaften Farbigkeit auf Europol, die europäische Polizei. Was auf den ersten Blick noch humorvoll erscheint, beschäftigt sich kritisch damit, was – von Hierarchiehörigkeit bis hin zu Stigmatisierung – mit einer Gesellschaft geschehen kann, wenn sich Hygiene zur Ideologie und Keimfreiheit zum Heilsversprechen wandelt.",
   }, 
-  
-
     { 
     id: "project-6-dayoff",
     accentColor: "#64C2CE",
@@ -178,5 +176,16 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
     "DayOff \n \nAuftraggeberIn: Lino Jenner, Co-Founder & CTO, DayOff & Corin Freyer, Co-Founder & CEO, DayOff \nVisuelle Identität, App-Gestaltung  \n \nDie digitale Anwendung „DayOff“ unterstützt Unternehmen und MitarbeiterInnen seit 2020 dabei, sich durch täglich wechselnde, individuelle Aufgaben in überfachlichen Kompetenzen spielerisch weiterzuentwickeln. Teams werden gestärkt und das Lernen nachhaltig verbessert. Wir begleiten DayOff von Beginn an in visuellen Umsetzungen und entwickelten die Corporate Identity.",
-  },  
+  }, 
+  {
+    id: "project-13-vgl",
+    accentColor: "#254425",
+    projectDescription: "INFOGRAFIK \nIllustration \n\nvergleich.org",
+    type: "img",
+    categories: ["Infografik", "Illustration"],
+    mediaTypes: ["img", "img"],
+    longTextDescription:
+      "vergleich.org  \n\nInfografik, Illustration, 2022 \n \n",
+  },    
+  
 ];
