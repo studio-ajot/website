@@ -165,7 +165,7 @@ const galleryProjectInformation = [
     categories: [""],
     mediaTypes: ["vid", "img"],
     longTextDescription:
-      "",
+      "inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious",
   },
     { 
     id: "project-6-dayoff",
