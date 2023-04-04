@@ -163,7 +163,7 @@ const galleryProjectInformation = [
     projectDescription: "Postkarte \nSchriftgestaltung \n\n",
     type: "img",
     categories: [""],
-    mediaTypes: ["img",],
+    mediaTypes: ["img", "img"],
     longTextDescription:
       "",
   },
