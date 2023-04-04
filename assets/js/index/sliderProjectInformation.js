@@ -2,7 +2,7 @@ const projectInformation = [
   {
     id: "project-17-ajot",
     accentColor: "#4A2BFB",
-    projectDescription: "",
+    projectDescription: "Studio Ajot \nBranding & Editorial",
     type: "vid",
   },   
   {
@@ -44,18 +44,6 @@ const projectInformation = [
     type: "img",
   },
   {
-    id: "project-10-gNIT",
-    accentColor: "#000000",
-    projectDescription: "getNextIT \nBranding \nVisitenkarten",
-    type: "img",
-  },  
-  {
-    id: "project-9-x-mas",
-    accentColor: "#D3298C",
-    projectDescription: "X-mas \nStudio Ajot \nPostkartengestaltung",
-    type: "img",
-  },      
-  {
     id: "project-8-ultraviolett",
     accentColor: "#76EEC6",
     projectDescription:
@@ -86,20 +74,6 @@ const projectInformation = [
     projectDescription: "Div*erse Typ_en \nPlakatgestaltung",
     type: "img",
   },    
-  {
-    id: "project-3-lmaa",
-    accentColor: "#E30000",
-    projectDescription:
-      "Lüneburg mit anderen Augen \nPablo Martínez-Calleja \nFotografische Publikation",
-    type: "img",
-  },
-  {
-    id: "project-2-calender",
-    accentColor: "#13D513",
-    projectDescription:
-      "",
-    type: "img",
-  },
   {
     id: "project-1-lap",
     accentColor: "#EEEE00",
