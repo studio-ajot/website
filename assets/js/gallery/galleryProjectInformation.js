@@ -95,7 +95,7 @@ const galleryProjectInformation = [
   },    
   {
     id: "project-18-xmas23",
-    accentColor: "#A20E6D",
+    accentColor: "#FC3642",
     projectDescription: "POSTKARTE \nseason's greetings \n\n",
     type: "vid",
     categories: [""],
