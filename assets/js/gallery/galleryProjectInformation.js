@@ -137,10 +137,10 @@ const galleryProjectInformation = [
   },
   {
     id: "project-19-textsatz",
-    accentColor: "#00FFCC",
+    accentColor: "#0738A5",
     projectDescription: "BUCHGESTALTUNG \nTextsatz \n\nAuswahl",
     type: "img",
-    categories: ["Branding"],
+    categories: ["Buchgestaltung"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
       "Buchsatz \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \n",
