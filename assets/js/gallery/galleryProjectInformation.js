@@ -136,16 +136,6 @@ const galleryProjectInformation = [
       "Lüneburg mit anderen Augen \n \nAuftraggeberIn: Pablo Martínez-Calleja, 2021 \nMit Fotografien von Pablo Martínez-Calleja \nBuchgestaltung \n \nWie ein Jäger des Augenblicks streift der in Lüneburg lebende Fotograf Pablo Martínez-Calleja mit seiner Kamera umher und nähert sich der Realität der StadtbewohnerInnen in Zeiten der Pandemie. Er fängt Situationen mit einem sensiblen Blick und ironischem Augenzwinkern ein. Jedes Foto lässt die Betrachtenden die Präsenz des Autors spüren, die wir auch innerhalb der Buchgestaltung in den Fokus setzten. Wir bewegen uns mit den Augen und der Perspektive des Fotografen innerhalb des Buches durch die Stadt.",
   },
   {
-    id: "project-19-textsatz",
-    accentColor: "#0738A5",
-    projectDescription: "BUCHGESTALTUNG \nTextsatz \n\nAuswahl",
-    type: "img",
-    categories: ["Buchgestaltung"],
-    mediaTypes: ["img", "img", "img", "img"],
-    longTextDescription:
-      "Buchsatz \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \n",
-  },        
-  {
     id: "project-2-calendarium-luminis",
     accentColor: "#717171",
     projectDescription:
@@ -155,7 +145,17 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
       "Calendarium Luminis \n \nAuftraggeberIn: Johann Sommer, 2019 \nPlakatgestaltung, Kalendergestaltung  \n300 signierte Exemplare \neinseitiger Sonderfarbendruck in Silber auf schwarzem und dunkelblauen Karton.  \n \nFür den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen.",
-  }, 
+  },   
+  {
+    id: "project-19-textsatz",
+    accentColor: "#0738A5",
+    projectDescription: "BUCHGESTALTUNG \nTextsatz \n\nAuswahl",
+    type: "img",
+    categories: ["Buchgestaltung"],
+    mediaTypes: ["img", "img", "img", "img"],
+    longTextDescription:
+      "Buchsatz \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \n",
+  },        
   {
     id: "project-0-logo",
     accentColor: "#00FFCC",
