@@ -99,7 +99,7 @@ const galleryProjectInformation = [
     projectDescription: "POSTKARTE \nseason's greetings \n\n",
     type: "vid",
     categories: [""],
-    mediaTypes: ["vid"],
+    mediaTypes: ["vid", "img"],
     longTextDescription:
       "season's greetings",
   },    
