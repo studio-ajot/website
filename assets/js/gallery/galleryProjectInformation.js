@@ -8,16 +8,16 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "The Design Agency Boost Book \n \nAuftraggeberIn: European Brand & Packaging Design Association, 2022 \nBuchgestaltung  \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
-  },       
+  },
   {
-    id: "project-16-sun",
-    accentColor: "#254425",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nSundance Farmers Inc.",
-    type: "img",
-    categories: ["Branding"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
+    id: "project-17-xmas22",
+    accentColor: "#A20E6D",
+    projectDescription: "POSTKARTE \nNeujahrsgrüße, Schriftgestaltung \n\n",
+    type: "vid",
+    categories: [""],
+    mediaTypes: ["vid", "img"],
     longTextDescription:
-      "Sundance Farmers Inc.  \n\nBranding, Logoentwicklung, 2023 \n \nBei Sundance Farmers Inc. stehen die nachhaltige und ökologische Landwirtschaft sowie der faire Umgang mit Landwirten im Vordergrund. Für das Unternehmen entwickelten wir ein ganzheitliches Erscheinungsbild, das nicht nur einen Bezug zu den örtlichen Tätigkeitsgebieten des Unternehmens, sondern auch zur Nachhaltigkeit, dem Erhalt des Planeten als Unternehmensaufgabe, herstellt.",
+      "inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious",
   },    
   {
     id: "project-12-cb",
@@ -41,14 +41,14 @@ const galleryProjectInformation = [
       "wobe-systems GmbH \n \nBranding, Logoentwicklung, Schriftgestaltung \n \nSeit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog beider beinhaltet.",
   }, 
   {
-    id: "project-4-fbe",
-    accentColor: "#12847E",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nFrauen*beratung Elmshorn",
+    id: "project-16-sun",
+    accentColor: "#254425",
+    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nSundance Farmers Inc.",
     type: "img",
-    categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
+    categories: ["Branding"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "Frauen*beratung Elmshorn \n \nAuftraggeberIn: Frauen*beratung Elmshorn, 2021 - heute \nIdentität mit Logo, Template, Flyer, Jahresbericht \n \nDie Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. \n2020 entwickelten wir die neue visuelle Identität und gestalten seidem fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen.",
+      "Sundance Farmers Inc.  \n\nBranding, Logoentwicklung, 2023 \n \nBei Sundance Farmers Inc. stehen die nachhaltige und ökologische Landwirtschaft sowie der faire Umgang mit Landwirten im Vordergrund. Für das Unternehmen entwickelten wir ein ganzheitliches Erscheinungsbild, das nicht nur einen Bezug zu den örtlichen Tätigkeitsgebieten des Unternehmens, sondern auch zur Nachhaltigkeit, dem Erhalt des Planeten als Unternehmensaufgabe, herstellt.",
   },       
   {
     id: "project-8-mfa",
@@ -71,18 +71,17 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img", "img", "vid", "img"],
     longTextDescription:
       "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
-  }, 
+  },
   {
-    id: "project-5-lmaa",
-    accentColor: "#E30000",
-    projectDescription:
-      "BUCHGESTALTUNG \nFotografische Publikation \n\nLüneburg mit anderen Augen, \nPablo Martínez-Calleja",
+    id: "project-4-fbe",
+    accentColor: "#12847E",
+    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nFrauen*beratung Elmshorn",
     type: "img",
-    categories: ["Buchgestaltung & Editorial Design"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
+    categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
     longTextDescription:
-      "Lüneburg mit anderen Augen \n \nAuftraggeberIn: Pablo Martínez-Calleja, 2021 \nMit Fotografien von Pablo Martínez-Calleja \nBuchgestaltung \n \nWie ein Jäger des Augenblicks streift der in Lüneburg lebende Fotograf Pablo Martínez-Calleja mit seiner Kamera umher und nähert sich der Realität der StadtbewohnerInnen in Zeiten der Pandemie. Er fängt Situationen mit einem sensiblen Blick und ironischem Augenzwinkern ein. Jedes Foto lässt die Betrachtenden die Präsenz des Autors spüren, die wir auch innerhalb der Buchgestaltung in den Fokus setzten. Wir bewegen uns mit den Augen und der Perspektive des Fotografen innerhalb des Buches durch die Stadt.",
-  },    
+      "Frauen*beratung Elmshorn \n \nAuftraggeberIn: Frauen*beratung Elmshorn, 2021 - heute \nIdentität mit Logo, Template, Flyer, Jahresbericht \n \nDie Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. \n2020 entwickelten wir die neue visuelle Identität und gestalten seidem fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen.",
+  },      
   {
     id: "project-15-kno",
     accentColor: "#032F64",
@@ -94,17 +93,16 @@ const galleryProjectInformation = [
     longTextDescription:
       "Konsultation Nationalpark Ostsee \n \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein, 2023 \nVisuelle Identität \n \nDie Ostsee ist Heimat, Arbeitsplatz und Erholungsgebiet. Ein wertvoller Lebensraum, dessen Schutz sich die Landesregierung Schleswig-Holstein zur Aufgabe gemacht hat. Basierend auf bestehenden Schutzgebieten sollen die Machbarkeiten und Möglichkeiten eines Ausbaus mit allen Interessengruppen diskutiert werden. Diesen wichtigen Prozess unterstützen wir mit der Erstellung der grafischen Identität.",
   },    
-    {
-    id: "project-17-xmas22",
+  {
+    id: "project-18-xmas23",
     accentColor: "#A20E6D",
-    projectDescription: "POSTKARTE \nNeujahrsgrüße, Schriftgestaltung \n\n",
+    projectDescription: "POSTKARTE \nseason's greetings \n\n",
     type: "vid",
     categories: [""],
-    mediaTypes: ["vid", "img"],
+    mediaTypes: ["vid"],
     longTextDescription:
-      "inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious",
-  },  
-  
+      "season's greetings",
+  },    
   {
     id: "project-7-ultraviolett",
     accentColor: "#76EEC6",
@@ -125,7 +123,19 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "getNextIT  \n \nAuftraggeberIn: Sabine Wojcieszak, 2021 \nVisuelle Identität mit Guideline & Visitenkarten \n \nDurch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir die neue Corporate Identity. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='white-links' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>.",
-  },   
+  }, 
+  
+  {
+    id: "project-5-lmaa",
+    accentColor: "#E30000",
+    projectDescription:
+      "BUCHGESTALTUNG \nFotografische Publikation \n\nLüneburg mit anderen Augen, \nPablo Martínez-Calleja",
+    type: "img",
+    categories: ["Buchgestaltung & Editorial Design"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
+    longTextDescription:
+      "Lüneburg mit anderen Augen \n \nAuftraggeberIn: Pablo Martínez-Calleja, 2021 \nMit Fotografien von Pablo Martínez-Calleja \nBuchgestaltung \n \nWie ein Jäger des Augenblicks streift der in Lüneburg lebende Fotograf Pablo Martínez-Calleja mit seiner Kamera umher und nähert sich der Realität der StadtbewohnerInnen in Zeiten der Pandemie. Er fängt Situationen mit einem sensiblen Blick und ironischem Augenzwinkern ein. Jedes Foto lässt die Betrachtenden die Präsenz des Autors spüren, die wir auch innerhalb der Buchgestaltung in den Fokus setzten. Wir bewegen uns mit den Augen und der Perspektive des Fotografen innerhalb des Buches durch die Stadt.",
+  },      
   {
     id: "project-2-calendarium-luminis",
     accentColor: "#717171",
