@@ -151,7 +151,7 @@ const galleryProjectInformation = [
     accentColor: "#0738A5",
     projectDescription: "BUCHGESTALTUNG \nTextsatz \n\nAuswahl",
     type: "img",
-    categories: ["Buchgestaltung"],
+    categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
       "Buchsatz \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \n",
