@@ -204,7 +204,7 @@ const galleryProjectInformation = [
     categories: ["Infografik", "Illustration"],
     mediaTypes: ["img", "img"],
     longTextDescription:
-      "Infografiken \n\nAuftraggeberIn: vergleich.org  \n\nInfografik, Illustration, 2022 \n \n Für eine schnelle und einfache Repräsentation von Zusammenhängen und Informationen eignen sich illustrative Infografiken besonders gut. Wir wurden beauftragt, einige aktuelle Themen begleitende Infografiken zu gestalten und illustrieren.",
+      "Infografiken \n\nAuftraggeberIn: vergleich.org  \n\nInfografik, Illustration, 2022 \n \nFür eine schnelle und einfache Repräsentation von Zusammenhängen und Informationen eignen sich illustrative Infografiken besonders gut. Wir wurden beauftragt, einige aktuelle Themen begleitende Infografiken zu gestalten und illustrieren.",
   },    
   
 ];
