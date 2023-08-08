@@ -2,7 +2,7 @@ const galleryProjectInformation = [
   {
     id: "project-10-epda",
     accentColor: "#FF8E02",
-    projectDescription: "BUCHGESTALTUNG \n Jubiläums-Buch \n \nDesign Agency Boost Book, \nEuropean Brand and Packaging Design Association",
+    projectDescription: "BUCHGESTALTUNG \nJubiläums-Buch \n \nDesign Agency Boost Book, \nEuropean Brand and Packaging Design Association",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
