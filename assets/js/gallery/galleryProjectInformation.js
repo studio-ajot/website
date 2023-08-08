@@ -194,7 +194,7 @@ const galleryProjectInformation = [
     categories: ["Branding"],
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
-    "DayOff \n \nAuftraggeberIn: Lino Jenner, Co-Founder & CTO, DayOff & Corin Freyer, Co-Founder & CEO, DayOff \nVisuelle Identität, App-Gestaltung  \n \nDie digitale Anwendung „DayOff“ unterstützt Unternehmen und MitarbeiterInnen seit 2020 dabei, sich durch täglich wechselnde, individuelle Aufgaben in überfachlichen Kompetenzen spielerisch weiterzuentwickeln. Teams werden gestärkt und das Lernen nachhaltig verbessert. Wir begleiten DayOff von Beginn an in visuellen Umsetzungen und entwickelten die Corporate Identity.",
+    "DayOff \n \nAuftraggeberIn: DayOff \nVisuelle Identität, App-Gestaltung  \n \nDie digitale Anwendung „DayOff“ unterstützt Unternehmen und MitarbeiterInnen seit 2020 dabei, sich durch täglich wechselnde, individuelle Aufgaben in überfachlichen Kompetenzen spielerisch weiterzuentwickeln. Teams werden gestärkt und das Lernen nachhaltig verbessert. Wir begleiten DayOff von Beginn an in visuellen Umsetzungen und entwickelten die Corporate Identity.",
   }, 
   {
     id: "project-13-vgl",
