@@ -17,7 +17,7 @@ const galleryProjectInformation = [
     categories: [""],
     mediaTypes: ["vid", "img"],
     longTextDescription:
-      "inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious",
+      "Ein Neujahrsgruß für 2022: be inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious",
   },    
   {
     id: "project-12-cb",
