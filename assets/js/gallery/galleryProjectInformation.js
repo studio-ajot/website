@@ -54,7 +54,7 @@ const galleryProjectInformation = [
     id: "project-8-mfa",
     accentColor: "#EB67B3",
     projectDescription:
-      "AUSSTELLUNGSDESIGN \nVisuelle Identität, Plakatgestaltung, Webdesign \n\nMFA21.My Favorite Acronym, \nMuthesius Kunsthochschule, Kiel",
+      "AUSSTELLUNGSDESIGN \nVisuelle Identität, Plakatgestaltung, Webdesign \n\nMFA21 – My Favorite Acronym, \nMuthesius Kunsthochschule, Kiel",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
     mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
