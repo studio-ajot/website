@@ -96,12 +96,12 @@ const galleryProjectInformation = [
   {
     id: "project-18-xmas23",
     accentColor: "#FC3642",
-    projectDescription: "POSTKARTE \nEine festliche Karte mit season's greetings für 2023 \n\n",
+    projectDescription: "POSTKARTE \n\nseason's greetings",
     type: "vid",
     categories: [""],
     mediaTypes: ["vid", "img"],
     longTextDescription:
-      "season's greetings",
+      "Eine festliche Karte mit season's greetings für 2023",
   },    
   {
     id: "project-7-ultraviolett",
