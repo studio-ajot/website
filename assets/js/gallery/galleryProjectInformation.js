@@ -30,6 +30,16 @@ const galleryProjectInformation = [
       "Jazzica \n \nAuftraggeberIn: Jazzica, 2023 \nBranding, Logoentwicklung, Schriftgestaltung, Plakat, Flyer, Kleidung  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
   },  
   {
+    id: "project-16-sun",
+    accentColor: "#254425",
+    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nSundance Farmers Inc.",
+    type: "img",
+    categories: ["Branding"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
+    longTextDescription:
+      "Sundance Farmers Inc.  \n\nBranding, Logoentwicklung, 2023 \n \nBei Sundance Farmers Inc. stehen die nachhaltige und ökologische Landwirtschaft sowie der faire Umgang mit Landwirten im Vordergrund. Für das Unternehmen entwickelten wir ein ganzheitliches Erscheinungsbild, das nicht nur einen Bezug zu den örtlichen Tätigkeitsgebieten des Unternehmens, sondern auch zur Nachhaltigkeit, dem Erhalt des Planeten als Unternehmensaufgabe, herstellt.",
+  },   
+  {
     id: "project-17-xmas22",
     accentColor: "#A20E6D",
     projectDescription: "POSTKARTE \nNeujahrsgrüße, Schriftgestaltung \n\n",
@@ -60,16 +70,7 @@ const galleryProjectInformation = [
     longTextDescription:
       "wobe-systems GmbH \n \nAuftraggeberIn: Maik Wojcieszak, 2022 \nBranding, Logoentwicklung, Schriftgestaltung \n \nSeit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog zwischen Mensch und Maschine beinhaltet.",
   }, 
-  {
-    id: "project-16-sun",
-    accentColor: "#254425",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nSundance Farmers Inc.",
-    type: "img",
-    categories: ["Branding"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
-    longTextDescription:
-      "Sundance Farmers Inc.  \n\nBranding, Logoentwicklung, 2023 \n \nBei Sundance Farmers Inc. stehen die nachhaltige und ökologische Landwirtschaft sowie der faire Umgang mit Landwirten im Vordergrund. Für das Unternehmen entwickelten wir ein ganzheitliches Erscheinungsbild, das nicht nur einen Bezug zu den örtlichen Tätigkeitsgebieten des Unternehmens, sondern auch zur Nachhaltigkeit, dem Erhalt des Planeten als Unternehmensaufgabe, herstellt.",
-  },       
+      
   {
     id: "project-8-mfa",
     accentColor: "#EB67B3",
