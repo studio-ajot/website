@@ -21,7 +21,7 @@ const galleryProjectInformation = [
   },
   {
     id: "project-20-jazzica",
-    accentColor: "#710C76",
+    accentColor: "#430244",
     projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Schriftgestaltung, Werbemittel \n \nJazzica, \nKieler Pop- und Jazzchor",
     type: "img",
     categories: ["Branding", "Schriftgestaltung"],
