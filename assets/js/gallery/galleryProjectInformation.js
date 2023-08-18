@@ -1,8 +1,18 @@
 const galleryProjectInformation = [
   {
+    id: "project-21-alumni-mu",
+    accentColor: "#FF8E02",
+    projectDescription: "POSTKARTE \nNewsletterkarten \n \nAlumni-Netzwerk- und Newsletter-Karte, \nMuthesius Kunsthochschule",
+    type: "img",
+    categories: ["Editorial Design"],
+    mediaTypes: ["img", "img", "img", "img"],
+    longTextDescription:
+      "Alumni-Netzwerk- und Newsletter-Karte \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2023 \nPostkartengestaltung  \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
+  },
+  {
     id: "project-10-epda",
     accentColor: "#FF8E02",
-    projectDescription: "BUCHGESTALTUNG \n\nDesign Agency Boost Book, \nEuropean Brand and Packaging Design Association",
+    projectDescription: "BUCHGESTALTUNG \nJubiläums-Buch \n \nDesign Agency Boost Book, \nEuropean Brand and Packaging Design Association",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -17,7 +27,7 @@ const galleryProjectInformation = [
     categories: [""],
     mediaTypes: ["vid", "img"],
     longTextDescription:
-      "inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious",
+      "Ein Neujahrsgruß für 2022: be inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious",
   },    
   {
     id: "project-12-cb",
@@ -38,7 +48,7 @@ const galleryProjectInformation = [
     categories: ["Branding", "Schriftgestaltung"],
     mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "wobe-systems GmbH \n \nBranding, Logoentwicklung, Schriftgestaltung \n \nSeit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog beider beinhaltet.",
+      "wobe-systems GmbH \n \nAuftraggeberIn: Maik Wojcieszak, 2022 \nBranding, Logoentwicklung, Schriftgestaltung \n \nSeit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog zwischen Mensch und Maschine beinhaltet.",
   }, 
   {
     id: "project-16-sun",
@@ -54,7 +64,7 @@ const galleryProjectInformation = [
     id: "project-8-mfa",
     accentColor: "#EB67B3",
     projectDescription:
-      "AUSSTELLUNGSDESIGN \nVisuelle Identität, Plakatgestaltung, Webdesign \n\nMFA21.My Favorite Acronym, \nMuthesius Kunsthochschule, Kiel",
+      "AUSSTELLUNGSDESIGN \nVisuelle Identität, Plakatgestaltung, Webdesign \n\nMFA21 – My Favorite Acronym, \nMuthesius Kunsthochschule, Kiel",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
     mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -91,17 +101,17 @@ const galleryProjectInformation = [
     categories: ["Branding",],
     mediaTypes: ["vid", "img", "img", "img", "vid","img", "img", "img"],
     longTextDescription:
-      "Konsultation Nationalpark Ostsee \n \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein, 2023 \nVisuelle Identität \n \nDie Ostsee ist Heimat, Arbeitsplatz und Erholungsgebiet. Ein wertvoller Lebensraum, dessen Schutz sich die Landesregierung Schleswig-Holstein zur Aufgabe gemacht hat. Basierend auf bestehenden Schutzgebieten sollen die Machbarkeiten und Möglichkeiten eines Ausbaus mit allen Interessengruppen diskutiert werden. Diesen wichtigen Prozess unterstützen wir mit der Erstellung der grafischen Identität.",
+      "Konsultation Nationalpark Ostsee \n \nAuftraggeberIn: Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein, 2023 \nVisuelle Identität \n \nDie Ostsee ist Heimat, Arbeitsplatz und Erholungsgebiet. Ein wertvoller Lebensraum, dessen Schutz sich die Landesregierung Schleswig-Holstein zur Aufgabe gemacht hat. Basierend auf bestehenden Schutzgebieten sollen die Machbarkeiten und Möglichkeiten eines Ausbaus mit allen Interessengruppen diskutiert werden. Diesen wichtigen Prozess unterstützen wir mit der Erstellung der grafischen Identität.",
   },    
   {
     id: "project-18-xmas23",
     accentColor: "#FC3642",
-    projectDescription: "POSTKARTE \nseason's greetings \n\n",
+    projectDescription: "POSTKARTE \n\nseason's greetings",
     type: "vid",
     categories: [""],
     mediaTypes: ["vid", "img"],
     longTextDescription:
-      "season's greetings",
+      "Eine festliche Karte mit season's greetings für 2023",
   },    
   {
     id: "project-7-ultraviolett",
@@ -174,7 +184,7 @@ const galleryProjectInformation = [
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "Gut zu wissen – Alles für den Studienbeginn \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2022 \nEditorial Design  \nInteraktives PDF \n \nDas erste Semester ist für viele Studierende eine besondere und aufregende Zeit. Es gibt viele Fragen und eine Menge zu bedenken. Für einen möglichst entspannten und stressfreien Einstieg ins Studium wurde dieser Leitfaden erstellt, für dessen Gestaltung wir beauftragt wurden. Er soll einen Überblick über relevante Informationen zum Studienbeginn geben und dabei helfen, die wichtigsten Fragen zu beantworten.",
+      "Gut zu wissen – Alles für den Studienbeginn \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2023 \nEditorial Design  \nInteraktives PDF \n \nDas erste Semester ist für viele Studierende eine besondere und aufregende Zeit. Es gibt viele Fragen und eine Menge zu bedenken. Für einen möglichst entspannten und stressfreien Einstieg ins Studium wurde dieser Leitfaden erstellt, für dessen Gestaltung wir beauftragt wurden. Er soll einen Überblick über relevante Informationen zum Studienbeginn geben und dabei helfen, die wichtigsten Fragen zu beantworten.",
   },  
     {
     id: "project-1-asepsis",
@@ -194,7 +204,7 @@ const galleryProjectInformation = [
     categories: ["Branding"],
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
-    "DayOff \n \nAuftraggeberIn: Lino Jenner, Co-Founder & CTO, DayOff & Corin Freyer, Co-Founder & CEO, DayOff \nVisuelle Identität, App-Gestaltung  \n \nDie digitale Anwendung „DayOff“ unterstützt Unternehmen und MitarbeiterInnen seit 2020 dabei, sich durch täglich wechselnde, individuelle Aufgaben in überfachlichen Kompetenzen spielerisch weiterzuentwickeln. Teams werden gestärkt und das Lernen nachhaltig verbessert. Wir begleiten DayOff von Beginn an in visuellen Umsetzungen und entwickelten die Corporate Identity.",
+    "DayOff \n \nAuftraggeberIn: DayOff \nVisuelle Identität, App-Gestaltung  \n \nDie digitale Anwendung „DayOff“ unterstützt Unternehmen und MitarbeiterInnen seit 2020 dabei, sich durch täglich wechselnde, individuelle Aufgaben in überfachlichen Kompetenzen spielerisch weiterzuentwickeln. Teams werden gestärkt und das Lernen nachhaltig verbessert. Wir begleiten DayOff von Beginn an in visuellen Umsetzungen und entwickelten die Corporate Identity.",
   }, 
   {
     id: "project-13-vgl",
@@ -204,7 +214,7 @@ const galleryProjectInformation = [
     categories: ["Infografik", "Illustration"],
     mediaTypes: ["img", "img"],
     longTextDescription:
-      "vergleich.org  \n\nInfografik, Illustration, 2022 \n \n",
+      "Infografiken \n\nAuftraggeberIn: vergleich.org  \n\nInfografik, Illustration, 2022 \n \nFür eine schnelle und einfache Repräsentation von Zusammenhängen und Informationen eignen sich illustrative Infografiken besonders gut. Wir wurden beauftragt, einige aktuelle Themen begleitende Infografiken zu gestalten und illustrieren.",
   },    
   
 ];
