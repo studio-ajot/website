@@ -1,7 +1,7 @@
 const galleryProjectInformation = [
   {
     id: "project-21-alumni-mu",
-    accentColor: "#6E2F96",
+    accentColor: "#36006A",
     projectDescription: "POSTKARTE \nNewsletterkarten \n \nAlumni-Netzwerk- und Newsletter-Karte, \nMuthesius Kunsthochschule",
     type: "img",
     categories: ["Editorial Design"],
