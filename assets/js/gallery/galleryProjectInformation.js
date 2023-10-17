@@ -94,6 +94,16 @@ const galleryProjectInformation = [
       "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
   },
   {
+    id: "project-22-tim-masterkonzert",
+    accentColor: "#12847E",
+    projectDescription: "VISUELLE IDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nTim Nicklaus – Small Things",
+    type: "img",
+    categories: ["Branding", "Plakatgestaltung"],
+    mediaTypes: ["img"],
+    longTextDescription:
+      "Small Things \n \nAuftraggeberIn: Tim Nicklaus, 2023 \nIdentität mit Logo, Visitenkarte, Poster \n \nTim Nicklaus ist ein freiberuflicher Schlagzeuger aus Hannover. Für sein Abschlusskonzert wurden wir mit der Plakatgestaltung beauftragt. Zusätzlich entwarfen wir seine Geschäftsausstattung in Form von Visitenkarten",
+  },    
+  {
     id: "project-4-fbe",
     accentColor: "#12847E",
     projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nFrauen*beratung Elmshorn",
