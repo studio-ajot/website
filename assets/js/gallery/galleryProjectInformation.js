@@ -99,7 +99,7 @@ const galleryProjectInformation = [
     projectDescription: "VISUELLE IDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nTim Nicklaus – Small Things",
     type: "img",
     categories: ["Branding", "Plakatgestaltung"],
-    mediaTypes: ["img", "img"],
+    mediaTypes: ["img"],
     longTextDescription:
       "Small Things \n \nAuftraggeberIn: Tim Nicklaus, 2023 \nIdentität mit Logo, Visitenkarte, Poster \n \nTim Nicklaus ist ein freiberuflicher Schlagzeuger aus Hannover. Für sein Abschlusskonzert wurden wir mit der Plakatgestaltung beauftragt. Zusätzlich entwarfen wir seine Geschäftsausstattung in Form von Visitenkarten",
   },    
