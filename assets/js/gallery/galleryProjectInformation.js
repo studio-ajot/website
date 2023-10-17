@@ -95,7 +95,7 @@ const galleryProjectInformation = [
   },
   {
     id: "project-22-tim-masterkonzert",
-    accentColor: "#1C60B3",
+    accentColor: "#F5B23F",
     projectDescription: "VISUELLE IDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nTim Nicklaus – Small Things",
     type: "img",
     categories: ["Branding", "Plakatgestaltung"],
