@@ -1,5 +1,45 @@
 const galleryProjectInformation = [
   {
+    id: "project-24-wolf-biermann",
+    accentColor: "#36006A",
+    projectDescription: "POSTKARTE \nNewsletterkarten \n \nAlumni-Netzwerk- und Newsletter-Karte, \nMuthesius Kunsthochschule",
+    type: "img",
+    categories: ["Editorial Design"],
+    mediaTypes: ["img", "img", "img", "img"],
+    longTextDescription:
+      "Alumni-Netzwerk- & Newsletter-Karte \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2023 \nPostkartengestaltung  \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
+  },
+  {
+    id: "project-25-wolf-biermann-more",
+    accentColor: "#36006A",
+    projectDescription: "POSTKARTE \nNewsletterkarten \n \nAlumni-Netzwerk- und Newsletter-Karte, \nMuthesius Kunsthochschule",
+    type: "img",
+    categories: ["Editorial Design"],
+    mediaTypes: ["img", "img", "img", "img"],
+    longTextDescription:
+      "Alumni-Netzwerk- & Newsletter-Karte \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2023 \nPostkartengestaltung  \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
+  },
+  {
+    id: "project-26-apfel",
+    accentColor: "#36006A",
+    projectDescription: "POSTKARTE \nNewsletterkarten \n \nAlumni-Netzwerk- und Newsletter-Karte, \nMuthesius Kunsthochschule",
+    type: "img",
+    categories: ["Editorial Design"],
+    mediaTypes: ["img", "img", "img", "img"],
+    longTextDescription:
+      "Alumni-Netzwerk- & Newsletter-Karte \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2023 \nPostkartengestaltung  \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
+  },
+  {
+    id: "project-23-sail-away",
+    accentColor: "#36006A",
+    projectDescription: "POSTKARTE \nNewsletterkarten \n \nAlumni-Netzwerk- und Newsletter-Karte, \nMuthesius Kunsthochschule",
+    type: "img",
+    categories: ["Editorial Design"],
+    mediaTypes: ["img", "img", "img", "img"],
+    longTextDescription:
+      "Alumni-Netzwerk- & Newsletter-Karte \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2023 \nPostkartengestaltung  \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
+  },  
+  {
     id: "project-21-alumni-mu",
     accentColor: "#36006A",
     projectDescription: "POSTKARTE \nNewsletterkarten \n \nAlumni-Netzwerk- und Newsletter-Karte, \nMuthesius Kunsthochschule",
