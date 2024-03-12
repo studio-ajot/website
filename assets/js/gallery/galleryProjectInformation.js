@@ -1,7 +1,7 @@
 const galleryProjectInformation = [
   {
     id: "project-24-wolf-biermann",
-    accentColor: "#36006A",
+    accentColor: "#443091",
     projectDescription: "Wolf Biermann \nVisuelle Identität \n \nLogo-Entwicklung, Animation, Social Media, Werbemittel \nClouds Hill",
     type: "img",
     categories: ["Branding"],
