@@ -2,12 +2,14 @@ const galleryProjectInformation = [
   {
     id: "project-24-wolf-biermann",
     accentColor: "#36006A",
-    projectDescription: "POSTKARTE \nNewsletterkarten \n \nAlumni-Netzwerk- und Newsletter-Karte, \nMuthesius Kunsthochschule",
+    projectDescription: "Wolf Biermann \nVisuelle Identität \n \nLogo-Entwicklung, Animation, Social Media, Werbemittel \nClouds Hill",
     type: "img",
     categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
-      "Alumni-Netzwerk- & Newsletter-Karte \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2023 \nPostkartengestaltung  \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
+      "Alumni-Netzwerk- & Newsletter-Karte \n \nAuftraggeberIn: Clouds Hill, 2023-heute \nVisuelle Identität  \n \nWolf Biermann ist ein Künstler, der sich hat nie unterkriegen lassen und bis heute nicht müde wird, sich politisch zu engagieren. Der deutsche Lyriker und Liedermacher ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. 
+
+Wir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt. Der charakteristische Bart und die Frisur schaffen als Kern-Visual im Logo klare Wiedererkennung. Variable Schritbreiten und der Einsatz von klaren, kontrastierenden Farben unterstützen visuell Biermanns Werk und Stil.,
   },
   {
     id: "project-25-wolf-biermann-more",
