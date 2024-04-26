@@ -50,6 +50,17 @@ const galleryProjectInformation = [
       "Jazzica \n \nAuftraggeberIn: Jazzica, 2023 \nBranding, Logoentwicklung, Schriftgestaltung, Plakat, Flyer, Kleidung  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
   },  
   {
+    id: "project-28-gesellschaftsrelevanz",
+    accentColor: "#3C55C6",
+    projectDescription: "ZBW – Leibniz-Informationszentrum Wirtschaft \nWebdesign \nIllustration",
+    type: "img",
+    categories: ["Webdesign"],
+    mediaTypes: ["img", "vid","img", "img"],
+    longTextDescription:
+      "Gesellschaftsrelevanz \n \nZBW – Leibniz-Informationszentrum Wirtschaft \nWebdesign",
+  }, 
+  
+  {
     id: "project-16-sun",
     accentColor: "#254425",
     projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nSundance Farmers Inc.",
