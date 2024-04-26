@@ -20,16 +20,6 @@ const galleryProjectInformation = [
       "Alumni-Netzwerk- & Newsletter-Karte \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2023 \nPostkartengestaltung  \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
   },
   {
-    id: "project-10-epda",
-    accentColor: "#FF8E02",
-    projectDescription: "BUCHGESTALTUNG \nJubiläums-Buch \n \nDesign Agency Boost Book, \nEuropean Brand and Packaging Design Association",
-    type: "img",
-    categories: ["Buchgestaltung & Editorial Design"],
-    mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
-    longTextDescription:
-      "The Design Agency Boost Book \n \nAuftraggeberIn: European Brand & Packaging Design Association, 2022 \nBuchgestaltung  \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
-  },
-  {
     id: "project-25-wolf-biermann-more",
     accentColor: "#443091",
     projectDescription: "Wolf Biermann \nVisuelle Identität \n \nLogo-Entwicklung, Animation, Social Media, Werbemittel \nClouds Hill",
@@ -38,6 +28,16 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img","vid"],
     longTextDescription:
       "Wolf Biermann: Visuelle Identität \n \nAuftraggeberIn: Clouds Hill, 2023-heute \nVisuelle Identität  \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+  }, 
+  {
+    id: "project-10-epda",
+    accentColor: "#FF8E02",
+    projectDescription: "BUCHGESTALTUNG \nJubiläums-Buch \n \nDesign Agency Boost Book, \nEuropean Brand and Packaging Design Association",
+    type: "img",
+    categories: ["Buchgestaltung & Editorial Design"],
+    mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
+    longTextDescription:
+      "The Design Agency Boost Book \n \nAuftraggeberIn: European Brand & Packaging Design Association, 2022 \nBuchgestaltung  \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
   },  
   {
     id: "project-20-jazzica",
