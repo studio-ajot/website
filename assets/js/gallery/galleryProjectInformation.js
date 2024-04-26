@@ -47,7 +47,7 @@ const galleryProjectInformation = [
     categories: ["Branding", "Schriftgestaltung"],
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
-      "Jazzica \n \nAuftraggeberIn: Jazzica, 2023 \nBranding, Logoentwicklung, Schriftgestaltung, Plakat, Flyer, Kleidung  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
+      "Jazzica \n \nAuftraggeber:in: Jazzica, 2023 \nBranding, Logoentwicklung, Schriftgestaltung, Plakat, Flyer, Kleidung  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
   },  
   {
     id: "project-28-gesellschaftsrelevanz",
@@ -57,7 +57,7 @@ const galleryProjectInformation = [
     categories: ["Webdesign"],
     mediaTypes: ["img", "vid","img", "img"],
     longTextDescription:
-      "Gesellschaftsrelevanz \n \nZBW – Leibniz-Informationszentrum Wirtschaft \nWebdesign",
+      "Gesellschaftsrelevanz \n \nAuftraggeber:in: ZBW – Leibniz-Informationszentrum Wirtschaft, 2024 \nWebdesign, Illustration \n\nDas Leibnitz-Informationszentrum Wirtschaft ist die weltweit größte Spezialbibliothek für wirtschaftswissenschaftliche Literatur. Die ZBW möchte mit ihrer neuen Scrollytelling-Website ihr Engagement für Open Science und den freien, fairen Zugang zu Forschungsergebnissen aufzeigen. Die individuell angefertigten Illustrationen im Collagen-Stil leiten beim Scroll-Vorgang jeweils neue Inhaltssegmente ein. Die Website beleuchtet so die aktuellen Herausforderungen auf dem wissenschaftlichen Publikationsmarkt und erläutert anschließend die Bemühungen der ZBW auf verschiedenen Ebenen, die Welt der Wissenschaft offener, gerechter und unabhängiger zu gestalten. So sollen die komplexen Sachverhalte aus der Welt der wissenschaftlichen Bibliotheken informativ und leicht zugänglich kommuniziert werden.",
   }, 
   
   {
