@@ -25,7 +25,7 @@ const galleryProjectInformation = [
     projectDescription: "Wolf Biermann \nVisuelle Identität \n \nLogo-Entwicklung, Animation, Social Media, Werbemittel \nClouds Hill",
     type: "vid",
     categories: ["Branding"],
-    mediaTypes: ["vid", "img","img", "img", "img","vid"],
+    mediaTypes: ["vid", "img","img", "img", "img","vid", "img"],
     longTextDescription:
       "Wolf Biermann: Visuelle Identität \n \nAuftraggeberIn: Clouds Hill, 2023-heute \nVisuelle Identität  \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   }, 
@@ -45,7 +45,7 @@ const galleryProjectInformation = [
     projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Schriftgestaltung, Werbemittel \n \nJazzica, \nKieler Pop- und Jazzchor",
     type: "img",
     categories: ["Branding", "Schriftgestaltung"],
-    mediaTypes: ["img", "img", "img", "img", "img"],
+    mediaTypes: ["img", "vid", "img", "img", "img", "img"],
     longTextDescription:
       "Jazzica \n \nAuftraggeber:in: Jazzica, 2023 \nBranding, Logoentwicklung, Schriftgestaltung, Plakat, Flyer, Kleidung  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
   },  
