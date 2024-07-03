@@ -45,7 +45,7 @@ const galleryProjectInformation = [
     projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Schriftgestaltung, Werbemittel \n \nJazzica, \nKieler Pop- und Jazzchor",
     type: "img",
     categories: ["Branding", "Schriftgestaltung"],
-    mediaTypes: ["img", "img", "img", "img", "img"],
+    mediaTypes: ["img", "vid", "img", "img", "img", "img"],
     longTextDescription:
       "Jazzica \n \nAuftraggeber:in: Jazzica, 2023 \nBranding, Logoentwicklung, Schriftgestaltung, Plakat, Flyer, Kleidung  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
   },  
