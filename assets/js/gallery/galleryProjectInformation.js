@@ -1,7 +1,7 @@
 const galleryProjectInformation = [
   {
     id: "project-27-chart-light",
-    accentColor: "#443091",
+    accentColor: "#FF8E02",
     projectDescription: "Chart Light \nEditorial Design, Art Direction \n \nBuchgestaltung \nClouds Hill",
     type: "img",
     categories: ["Editorial Design"],
@@ -42,7 +42,7 @@ gibt. Es entstand ein Layout, das charaktergebend und gleichzeitig flexibel ist 
   }, 
   {
     id: "project-10-epda",
-    accentColor: "#FF8E02",
+    accentColor: "#A022C3",
     projectDescription: "BUCHGESTALTUNG \nJubiläums-Buch \n \nDesign Agency Boost Book, \nEuropean Brand and Packaging Design Association",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
