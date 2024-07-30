@@ -2,7 +2,7 @@ const galleryProjectInformation = [
   {
     id: "project-27-chart-light",
     accentColor: "#D9BEE1",
-    projectDescription: "Chart Light – Notes to consider \nEditorial Design, Art Direction \n \nBuchgestaltung \nClouds Hill",
+    projectDescription: "EDITORIAL DESIGN \n ART DIRECTION \n Chart Light – Notes to consider \n \nBuchgestaltung \nClouds Hill",
     type: "img",
     categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img"],
@@ -12,7 +12,7 @@ const galleryProjectInformation = [
   {
     id: "project-24-wolf-biermann",
     accentColor: "#443091",
-    projectDescription: "Wolf Biermann \nVisuelle Identität \n \nLogo-Entwicklung, Animation, Social Media, Werbemittel \nClouds Hill",
+    projectDescription: "VISUELLE IDENTITÄT \n WOLF BIERMANN \n \nLogo-Entwicklung, Animation, Social Media, Werbemittel \nClouds Hill",
     type: "img",
     categories: ["Branding"],
     mediaTypes: ["img", "vid", "img", "img", "img", "img"],
@@ -32,7 +32,7 @@ const galleryProjectInformation = [
   {
     id: "project-25-wolf-biermann-more",
     accentColor: "#443091",
-    projectDescription: "Wolf Biermann \nVisuelle Identität \n \nLogo-Entwicklung, Animation, Social Media, Werbemittel \nClouds Hill",
+    projectDescription: "VISUELLE IDENTITÄT \n WOLF BIERMANN \n \nLogo-Entwicklung, Animation, Social Media, Werbemittel \nClouds Hill",
     type: "vid",
     categories: ["Branding"],
     mediaTypes: ["vid", "img","img", "img", "img","vid", "img"],
@@ -62,7 +62,7 @@ const galleryProjectInformation = [
   {
     id: "project-28-gesellschaftsrelevanz",
     accentColor: "#3C55C6",
-    projectDescription: "ZBW – Leibniz-Informationszentrum Wirtschaft \nWebdesign \nIllustration",
+    projectDescription: "WEBAUFTRITT \n Webdesign \n\n Illustration ZBW – Leibniz-Informationszentrum Wirtschaft ",
     type: "img",
     categories: ["Webdesign"],
     mediaTypes: ["img", "vid","img", "img"],
@@ -72,7 +72,7 @@ const galleryProjectInformation = [
   {
     id: "project-26-apfel",
     accentColor: "#254425",
-    projectDescription: "AUSSTELLUNG \nPostkarte, Informationstext \n\nAntje Majewski.",
+    projectDescription: "AUSSTELLUNG \nPostkarte, Informationstext \n\nAntje Majewski",
     type: "img",
     categories: ["Ausstellungsdesign"],
     mediaTypes: ["img", "img", "img", "img"],
