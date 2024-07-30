@@ -1,7 +1,7 @@
 const galleryProjectInformation = [
   {
     id: "project-27-chart-light",
-    accentColor: "#E5C9E5",
+    accentColor: "#D9BEE1",
     projectDescription: "Chart Light – Notes to consider \nEditorial Design, Art Direction \n \nBuchgestaltung \nClouds Hill",
     type: "img",
     categories: ["Editorial Design"],
