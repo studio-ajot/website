@@ -1,7 +1,7 @@
 const galleryProjectInformation = [
   {
     id: "project-27-chart-light",
-    accentColor: "#FD8001",
+    accentColor: "#E5C9E5",
     projectDescription: "Chart Light \nEditorial Design, Art Direction \n \nBuchgestaltung \nClouds Hill",
     type: "img",
     categories: ["Editorial Design"],
@@ -68,17 +68,16 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "vid","img", "img"],
     longTextDescription:
       "Gesellschaftsrelevanz \n \nAuftraggeber:in: ZBW – Leibniz-Informationszentrum Wirtschaft, 2024 \nScrollytelling, Illustration \n\nDas Leibnitz-Informationszentrum Wirtschaft ist die weltweit größte Spezialbibliothek für wirtschaftswissenschaftliche Literatur. Die ZBW möchte mit ihrer neuen Scrollytelling-Website ihr Engagement für Open Science und den freien, fairen Zugang zu Forschungsergebnissen aufzeigen. Die individuell angefertigten Illustrationen im Collagen-Stil leiten beim Scroll-Vorgang jeweils neue Inhaltssegmente ein. Die Website beleuchtet so die aktuellen Herausforderungen auf dem wissenschaftlichen Publikationsmarkt und erläutert anschließend die Bemühungen der ZBW auf verschiedenen Ebenen, die Welt der Wissenschaft offener, gerechter und unabhängiger zu gestalten. So sollen die komplexen Sachverhalte aus der Welt der wissenschaftlichen Bibliotheken informativ und leicht zugänglich kommuniziert werden.",
-  }, 
-  
+  },   
   {
-    id: "project-16-sun",
+    id: "project-26-apfel",
     accentColor: "#254425",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nSundance Farmers Inc.",
+    projectDescription: "AUSSTELLUNG \nPostkarte, Informationstext \n\nAntje Majewski.",
     type: "img",
-    categories: ["Branding"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
+    categories: ["Ausstellungsdesign"],
+    mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
-      "Sundance Farmers Inc.  \n\nBranding, Logoentwicklung, 2023 \n \nBei Sundance Farmers Inc. stehen die nachhaltige und ökologische Landwirtschaft sowie der faire Umgang mit Landwirten im Vordergrund. Für das Unternehmen entwickelten wir ein ganzheitliches Erscheinungsbild, das nicht nur einen Bezug zu den örtlichen Tätigkeitsgebieten des Unternehmens, sondern auch zur Nachhaltigkeit, dem Erhalt des Planeten als Unternehmensaufgabe, herstellt.",
+      "Antje Majewski & Paweł Freisler – Apple. An Introduction",
   },   
   {
     id: "project-17-xmas22",
@@ -110,8 +109,7 @@ const galleryProjectInformation = [
     mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "wobe-systems GmbH \n \nAuftraggeberIn: Maik Wojcieszak, 2022 \nBranding, Logoentwicklung, Schriftgestaltung \n \nSeit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog zwischen Mensch und Maschine beinhaltet.",
-  }, 
-      
+  },    
   {
     id: "project-8-mfa",
     accentColor: "#EB67B3",
@@ -134,6 +132,16 @@ const galleryProjectInformation = [
     longTextDescription:
       "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
   },
+  {
+    id: "project-16-sun",
+    accentColor: "#254425",
+    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nSundance Farmers Inc.",
+    type: "img",
+    categories: ["Branding"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
+    longTextDescription:
+      "Sundance Farmers Inc.  \n\nBranding, Logoentwicklung, 2023 \n \nBei Sundance Farmers Inc. stehen die nachhaltige und ökologische Landwirtschaft sowie der faire Umgang mit Landwirten im Vordergrund. Für das Unternehmen entwickelten wir ein ganzheitliches Erscheinungsbild, das nicht nur einen Bezug zu den örtlichen Tätigkeitsgebieten des Unternehmens, sondern auch zur Nachhaltigkeit, dem Erhalt des Planeten als Unternehmensaufgabe, herstellt.",
+  },  
   {
     id: "project-22-tim-masterkonzert",
     accentColor: "#F5B23F",
