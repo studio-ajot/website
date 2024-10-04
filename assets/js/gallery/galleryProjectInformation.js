@@ -2,7 +2,7 @@ const galleryProjectInformation = [
   {
     id: "project-27-chart-light",
     accentColor: "#D9BEE1",
-    projectDescription: "Editorial Design & Art Direction für Clouds Hill \n \n Chart Nr. 4 "Light" – Notes to consider",
+    projectDescription: "Editorial Design & Art Direction für Clouds Hill \n \n Chart Nr. 4 Light – Notes to consider",
     type: "img",
     categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img"],
@@ -77,7 +77,7 @@ const galleryProjectInformation = [
     categories: ["Ausstellungsdesign"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
-      "Ausstellungs- & Postkartendesign für Antje Majewski: Antje Majewski & Paweł Freisler – Apple. An Introduction \nPostkartengetaltung und Design einer Textwand"
+      "Ausstellungs- & Postkartendesign für Antje Majewski: Antje Majewski & Paweł Freisler – Apple. An Introduction \nPostkartengetaltung und Design einer Textwand",
   },   
   {
     id: "project-17-xmas22",
