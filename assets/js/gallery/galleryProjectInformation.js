@@ -7,7 +7,7 @@ const galleryProjectInformation = [
     categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
-      "Chart Light \n \nAuftraggeberIn: Clouds Hill, 2023 \nEditorial Design, Art Direction \n \nOptisch bewegt sich CHART zwischen den Medien Buch und Magazin, inhaltlich widmet es sich dem Musikjournalismus und erzählt einfühlsame Portraits über Menschen im kulturellen Umfeld. Für die vierte Ausgabe »Light« entwickelten wir ein neues Gestaltungssystem, das den unterschiedlichen Charakteren und Geschichten einen individuellen Raum gibt. Es entstand ein Layout, das charaktergebend und gleichzeitig flexibel ist und die Stimmung und Charakteristik der jeweiligen Texte im Layout und der Bildanordnung visuell wiedergibt. So übersetzen zum Beispiel flüchtige Handy-Aufnahmen, collagenartig angeordnet, den virtuellen Irrsinn und Überfluss auf Konzerten, der oft mehr im Vordergrund steht als die Künstler:innen selbst. Scheinbar willkürlich platzierte Polaroids erzählen von Charlottes Brandis Suche danach, was es bedeutet, vor 30 Jahren als Frau in einer Band gewesen zu sein. Das Gestaltungssystem soll auf weitere Ausgaben flexibel sowie thematisch und emotional anwendbar sein.",
+      "Editorial Design & Art Direction für Clouds Hill, 2023 \n \nOptisch bewegt sich CHART zwischen den Medien Buch und Magazin, inhaltlich widmet es sich dem Musikjournalismus und erzählt einfühlsame Portraits über Menschen im kulturellen Umfeld. Für die vierte Ausgabe »Light« entwickelten wir ein neues Gestaltungssystem, das den unterschiedlichen Charakteren und Geschichten einen individuellen Raum gibt. Es entstand ein Layout, das charaktergebend und gleichzeitig flexibel ist und die Stimmung und Charakteristik der jeweiligen Texte im Layout und der Bildanordnung visuell wiedergibt. So übersetzen zum Beispiel flüchtige Handy-Aufnahmen, collagenartig angeordnet, den virtuellen Irrsinn und Überfluss auf Konzerten, der oft mehr im Vordergrund steht als die Künstler:innen selbst. Scheinbar willkürlich platzierte Polaroids erzählen von Charlottes Brandis Suche danach, was es bedeutet, vor 30 Jahren als Frau in einer Band gewesen zu sein. Das Gestaltungssystem soll auf weitere Ausgaben flexibel sowie thematisch und emotional anwendbar sein.",
   },
   {
     id: "project-24-wolf-biermann",
@@ -17,7 +17,7 @@ const galleryProjectInformation = [
     categories: ["Branding"],
     mediaTypes: ["img", "vid", "img", "img", "img", "img"],
     longTextDescription:
-      "Wolf Biermann: Visuelle Identität \n \nAuftraggeberIn: Clouds Hill, 2023-heute \nVisuelle Identität  \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "Brand Design & Plattengestaltung für Wolf Biermann, 2023-heute \nVisuelle Identität  \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   },
   {
     id: "project-21-alumni-mu",
@@ -27,7 +27,7 @@ const galleryProjectInformation = [
     categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
-      "Alumni-Netzwerk- & Newsletter-Karte \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2023 \nPostkartengestaltung  \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
+      "Postkartengestaltung für die Muthesius Kunsthochschule 2023 \nPostkartengestaltung  \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
   },
   {
     id: "project-25-wolf-biermann-more",
@@ -37,7 +37,7 @@ const galleryProjectInformation = [
     categories: ["Branding"],
     mediaTypes: ["vid", "img","img", "img", "img","vid", "img"],
     longTextDescription:
-      "Wolf Biermann: Visuelle Identität \n \nAuftraggeberIn: Clouds Hill, 2023-heute \nVisuelle Identität  \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute \nVisuelle Identität  \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   }, 
   {
     id: "project-10-epda",
@@ -47,7 +47,7 @@ const galleryProjectInformation = [
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "The Design Agency Boost Book \n \nAuftraggeberIn: European Brand & Packaging Design Association, 2022 \nBuchgestaltung  \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
+      "Editorial Design & Art Direction für die European Brand & Packaging Design Association, 2022 \nBuchgestaltung  \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
   },  
   {
     id: "project-20-jazzica",
@@ -57,7 +57,7 @@ const galleryProjectInformation = [
     categories: ["Branding", "Schriftgestaltung"],
     mediaTypes: ["img", "vid", "img", "img", "img", "img"],
     longTextDescription:
-      "Jazzica \n \nAuftraggeber:in: Jazzica, 2023 \nBranding, Logoentwicklung, Schriftgestaltung, Plakat, Flyer, Kleidung  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
+      "Brand Design & Entwicklung von Print-Lösungen für Jazzica, 2023 \nBranding, Logoentwicklung, Schriftgestaltung, Plakat, Flyer, Kleidung  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
   },  
   {
     id: "project-28-gesellschaftsrelevanz",
@@ -67,7 +67,7 @@ const galleryProjectInformation = [
     categories: ["Webdesign"],
     mediaTypes: ["img", "vid","img", "img"],
     longTextDescription:
-      "Gesellschaftsrelevanz \n \nAuftraggeber:in: ZBW – Leibniz-Informationszentrum Wirtschaft, 2024 \nScrollytelling, Illustration \n\nDas Leibnitz-Informationszentrum Wirtschaft ist die weltweit größte Spezialbibliothek für wirtschaftswissenschaftliche Literatur. Die ZBW möchte mit ihrer neuen Scrollytelling-Website ihr Engagement für Open Science und den freien, fairen Zugang zu Forschungsergebnissen aufzeigen. Die individuell angefertigten Illustrationen im Collagen-Stil leiten beim Scroll-Vorgang jeweils neue Inhaltssegmente ein. Die Website beleuchtet so die aktuellen Herausforderungen auf dem wissenschaftlichen Publikationsmarkt und erläutert anschließend die Bemühungen der ZBW auf verschiedenen Ebenen, die Welt der Wissenschaft offener, gerechter und unabhängiger zu gestalten. So sollen die komplexen Sachverhalte aus der Welt der wissenschaftlichen Bibliotheken informativ und leicht zugänglich kommuniziert werden.",
+      "Webdesign & Illustrationsgrafiken für das ZBW – Leibniz-Informationszentrum Wirtschaft, 2024 \nScrollytelling, Illustration \n\nDas Leibnitz-Informationszentrum Wirtschaft ist die weltweit größte Spezialbibliothek für wirtschaftswissenschaftliche Literatur. Die ZBW möchte mit ihrer neuen Scrollytelling-Website ihr Engagement für Open Science und den freien, fairen Zugang zu Forschungsergebnissen aufzeigen. Die individuell angefertigten Illustrationen im Collagen-Stil leiten beim Scroll-Vorgang jeweils neue Inhaltssegmente ein. Die Website beleuchtet so die aktuellen Herausforderungen auf dem wissenschaftlichen Publikationsmarkt und erläutert anschließend die Bemühungen der ZBW auf verschiedenen Ebenen, die Welt der Wissenschaft offener, gerechter und unabhängiger zu gestalten. So sollen die komplexen Sachverhalte aus der Welt der wissenschaftlichen Bibliotheken informativ und leicht zugänglich kommuniziert werden.",
   },   
   {
     id: "project-26-apfel",
@@ -77,7 +77,7 @@ const galleryProjectInformation = [
     categories: ["Ausstellungsdesign"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
-      "Antje Majewski & Paweł Freisler – Apple. An Introduction",
+      "Ausstellungs- & Postkartendesign für Antje Majewski: Antje Majewski & Paweł Freisler – Apple. An Introduction",
   },   
   {
     id: "project-17-xmas22",
@@ -87,7 +87,7 @@ const galleryProjectInformation = [
     categories: [""],
     mediaTypes: ["vid", "img"],
     longTextDescription:
-      "Ein Neujahrsgruß für 2022: be inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious",
+      "Editorial Design: Postkarten. Ein Neujahrsgruß für 2022: be inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious",
   },    
   {
     id: "project-12-cb",
