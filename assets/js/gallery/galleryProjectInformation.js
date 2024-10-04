@@ -2,87 +2,87 @@ const galleryProjectInformation = [
   {
     id: "project-27-chart-light",
     accentColor: "#D9BEE1",
-    projectDescription: "EDITORIAL DESIGN \n ART DIRECTION \n Chart Light – Notes to consider \n \nBuchgestaltung \nClouds Hill",
+    projectDescription: "Editorial Design & Art Direction für Clouds Hill \n \n Chart Nr. 4 "Light" – Notes to consider",
     type: "img",
     categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
-      "Editorial Design & Art Direction für Clouds Hill, 2023 \n \nOptisch bewegt sich CHART zwischen den Medien Buch und Magazin, inhaltlich widmet es sich dem Musikjournalismus und erzählt einfühlsame Portraits über Menschen im kulturellen Umfeld. Für die vierte Ausgabe »Light« entwickelten wir ein neues Gestaltungssystem, das den unterschiedlichen Charakteren und Geschichten einen individuellen Raum gibt. Es entstand ein Layout, das charaktergebend und gleichzeitig flexibel ist und die Stimmung und Charakteristik der jeweiligen Texte im Layout und der Bildanordnung visuell wiedergibt. So übersetzen zum Beispiel flüchtige Handy-Aufnahmen, collagenartig angeordnet, den virtuellen Irrsinn und Überfluss auf Konzerten, der oft mehr im Vordergrund steht als die Künstler:innen selbst. Scheinbar willkürlich platzierte Polaroids erzählen von Charlottes Brandis Suche danach, was es bedeutet, vor 30 Jahren als Frau in einer Band gewesen zu sein. Das Gestaltungssystem soll auf weitere Ausgaben flexibel sowie thematisch und emotional anwendbar sein.",
+      "Editorial Design & Art Direction für Clouds Hill, 2023 \nBuchgestaltung, Layout & Art Direction \n \nOptisch bewegt sich CHART zwischen den Medien Buch und Magazin, inhaltlich widmet es sich dem Musikjournalismus und erzählt einfühlsame Portraits über Menschen im kulturellen Umfeld. Für die vierte Ausgabe »Light« entwickelten wir ein neues Gestaltungssystem, das den unterschiedlichen Charakteren und Geschichten einen individuellen Raum gibt. Es entstand ein Layout, das charaktergebend und gleichzeitig flexibel ist und die Stimmung und Charakteristik der jeweiligen Texte im Layout und der Bildanordnung visuell wiedergibt. So übersetzen zum Beispiel flüchtige Handy-Aufnahmen, collagenartig angeordnet, den virtuellen Irrsinn und Überfluss auf Konzerten, der oft mehr im Vordergrund steht als die Künstler:innen selbst. Scheinbar willkürlich platzierte Polaroids erzählen von Charlottes Brandis Suche danach, was es bedeutet, vor 30 Jahren als Frau in einer Band gewesen zu sein. Das Gestaltungssystem soll auf weitere Ausgaben flexibel sowie thematisch und emotional anwendbar sein.",
   },
   {
     id: "project-24-wolf-biermann",
     accentColor: "#443091",
-    projectDescription: "VISUELLE IDENTITÄT \n WOLF BIERMANN \n \nLogo-Entwicklung, Animation, Social Media, Werbemittel \nClouds Hill",
+    projectDescription: "Brand Design & Plattengestaltung für Wolf Biermann",
     type: "img",
     categories: ["Branding"],
     mediaTypes: ["img", "vid", "img", "img", "img", "img"],
     longTextDescription:
-      "Brand Design & Plattengestaltung für Wolf Biermann, 2023-heute \nVisuelle Identität  \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "Brand Design & Plattengestaltung für Wolf Biermann, 2023-heute \nLogo-Entwicklung, Animation, Social Media, Werbemittel \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   },
   {
     id: "project-21-alumni-mu",
     accentColor: "#36006A",
-    projectDescription: "POSTKARTE \nNewsletterkarten \n \nAlumni-Netzwerk- und Newsletter-Karte, \nMuthesius Kunsthochschule",
+    projectDescription: "Postkartengestaltung für die Muthesius Kunsthochschule",
     type: "img",
     categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
-      "Postkartengestaltung für die Muthesius Kunsthochschule 2023 \nPostkartengestaltung  \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
+      "Postkartengestaltung für die Muthesius Kunsthochschule, 2023 \n \n Alumni-Netzwerk- und Newsletter-Karte  \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
   },
   {
     id: "project-25-wolf-biermann-more",
     accentColor: "#443091",
-    projectDescription: "VISUELLE IDENTITÄT \n WOLF BIERMANN \n \nLogo-Entwicklung, Animation, Social Media, Werbemittel \nClouds Hill",
+    projectDescription: "Animation & Social Media Kampagnen für Wolf Biermann mit Clouds Hill",
     type: "vid",
     categories: ["Branding"],
     mediaTypes: ["vid", "img","img", "img", "img","vid", "img"],
     longTextDescription:
-      "Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute \nVisuelle Identität  \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute \nLogo-Entwicklung, Animation, Social Media, Werbemittel  \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   }, 
   {
     id: "project-10-epda",
     accentColor: "#A022C3",
-    projectDescription: "BUCHGESTALTUNG \nJubiläums-Buch \n \nDesign Agency Boost Book, \nEuropean Brand and Packaging Design Association",
+    projectDescription: "Editorial Design & Art Direction für die European Brand & Packaging Design Association",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "Editorial Design & Art Direction für die European Brand & Packaging Design Association, 2022 \nBuchgestaltung  \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
+      "Editorial Design & Art Direction für die European Brand & Packaging Design Association, 2022 \nBuchgestaltung, Layout & Art Direction  \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
   },  
   {
     id: "project-20-jazzica",
     accentColor: "#430244",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Schriftgestaltung, Werbemittel \n \nJazzica, \nKieler Pop- und Jazzchor",
+    projectDescription: "Brand Design & Entwicklung von Print-Lösungen für Jazzica",
     type: "img",
     categories: ["Branding", "Schriftgestaltung"],
     mediaTypes: ["img", "vid", "img", "img", "img", "img"],
     longTextDescription:
-      "Brand Design & Entwicklung von Print-Lösungen für Jazzica, 2023 \nBranding, Logoentwicklung, Schriftgestaltung, Plakat, Flyer, Kleidung  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
+      "Brand Design & Entwicklung von Print-Lösungen für den Kieler A-Capella-Chor Jazzica, 2023 \nBranding, Logoentwicklung, Schriftgestaltung, Plakat, Flyer, Kleidung  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
   },  
   {
     id: "project-28-gesellschaftsrelevanz",
     accentColor: "#3C55C6",
-    projectDescription: "WEBAUFTRITT \n Webdesign \n\n Illustration ZBW – Leibniz-Informationszentrum Wirtschaft ",
+    projectDescription: "Webdesign & Illustrationsgrafiken für das ZBW – Leibniz-Informationszentrum Wirtschaft",
     type: "img",
     categories: ["Webdesign"],
     mediaTypes: ["img", "vid","img", "img"],
     longTextDescription:
-      "Webdesign & Illustrationsgrafiken für das ZBW – Leibniz-Informationszentrum Wirtschaft, 2024 \nScrollytelling, Illustration \n\nDas Leibnitz-Informationszentrum Wirtschaft ist die weltweit größte Spezialbibliothek für wirtschaftswissenschaftliche Literatur. Die ZBW möchte mit ihrer neuen Scrollytelling-Website ihr Engagement für Open Science und den freien, fairen Zugang zu Forschungsergebnissen aufzeigen. Die individuell angefertigten Illustrationen im Collagen-Stil leiten beim Scroll-Vorgang jeweils neue Inhaltssegmente ein. Die Website beleuchtet so die aktuellen Herausforderungen auf dem wissenschaftlichen Publikationsmarkt und erläutert anschließend die Bemühungen der ZBW auf verschiedenen Ebenen, die Welt der Wissenschaft offener, gerechter und unabhängiger zu gestalten. So sollen die komplexen Sachverhalte aus der Welt der wissenschaftlichen Bibliotheken informativ und leicht zugänglich kommuniziert werden.",
+      "Webdesign & Illustrationsgrafiken für das ZBW – Leibniz-Informationszentrum Wirtschaft, 2024 \nScrollytelling, Illustration, Webdesign \n\nDas Leibnitz-Informationszentrum Wirtschaft ist die weltweit größte Spezialbibliothek für wirtschaftswissenschaftliche Literatur. Die ZBW möchte mit ihrer neuen Scrollytelling-Website ihr Engagement für Open Science und den freien, fairen Zugang zu Forschungsergebnissen aufzeigen. Die individuell angefertigten Illustrationen im Collagen-Stil leiten beim Scroll-Vorgang jeweils neue Inhaltssegmente ein. Die Website beleuchtet so die aktuellen Herausforderungen auf dem wissenschaftlichen Publikationsmarkt und erläutert anschließend die Bemühungen der ZBW auf verschiedenen Ebenen, die Welt der Wissenschaft offener, gerechter und unabhängiger zu gestalten. So sollen die komplexen Sachverhalte aus der Welt der wissenschaftlichen Bibliotheken informativ und leicht zugänglich kommuniziert werden.",
   },   
   {
     id: "project-26-apfel",
     accentColor: "#254425",
-    projectDescription: "AUSSTELLUNG \nPostkarte, Informationstext \n\nAntje Majewski",
+    projectDescription: "Ausstellungs- & Postkartendesign für Antje Majewski",
     type: "img",
     categories: ["Ausstellungsdesign"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
-      "Ausstellungs- & Postkartendesign für Antje Majewski: Antje Majewski & Paweł Freisler – Apple. An Introduction",
+      "Ausstellungs- & Postkartendesign für Antje Majewski: Antje Majewski & Paweł Freisler – Apple. An Introduction \nPostkartengetaltung und Design einer Textwand"
   },   
   {
     id: "project-17-xmas22",
     accentColor: "#A20E6D",
-    projectDescription: "POSTKARTE \nNeujahrsgrüße, Schriftgestaltung \n\n",
+    projectDescription: "Editorial Design: Postkarten",
     type: "vid",
     categories: [""],
     mediaTypes: ["vid", "img"],
@@ -92,128 +92,128 @@ const galleryProjectInformation = [
   {
     id: "project-12-cb",
     accentColor: "#454342",
-    projectDescription: "BUCHGESTALTUNG \nKünstlerinnen-Publikation \n \nCeramica Borealis 07 – Disegno Ornamento, \nKerstin Abraham",
+    projectDescription: "Editorial Design & Art Direction für Kerstin Abraham und die Sparkassenstiftung Schleswig-Holstein",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "Ceramica Borealis 07 – Disegno Ornamento \n  \nAuftraggeberIn: Kerstin Abraham, 2022 \nKünstlerinnen-Publikation \n  \n»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke",
+      "Editorial Design & Art Direction für Kerstin Abraham und die Sparkassenstiftung Schleswig-Holstein, 2022 \nCeramica Borealis 07 – Disegno Ornamento \n \n»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke",
   },  
   {
     id: "project-14-wobe",
     accentColor: "#1419C0",
     projectDescription:
-      "VISUELLE MARKENIDENTITÄT  \nLogoentwicklung, Geschäftsausstattung, Schriftgestaltung, Werbemittel \n\nwobe-systems GmbH",
+      "Brand Design, Social Media Assets und Print Lösungen für wobe-systems",
     type: "vid",
     categories: ["Branding", "Schriftgestaltung"],
     mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "wobe-systems GmbH \n \nAuftraggeberIn: Maik Wojcieszak, 2022 \nBranding, Logoentwicklung, Schriftgestaltung \n \nSeit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog zwischen Mensch und Maschine beinhaltet.",
+      "Brand Design, Social Media Assets und Print Lösungen für wobe-systems, 2022 \nBranding, Logoentwicklung, Schriftgestaltung \n \nSeit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog zwischen Mensch und Maschine beinhaltet.",
   },    
   {
     id: "project-8-mfa",
     accentColor: "#EB67B3",
     projectDescription:
-      "AUSSTELLUNGSDESIGN \nVisuelle Identität, Plakatgestaltung, Webdesign \n\nMFA21 – My Favorite Acronym, \nMuthesius Kunsthochschule, Kiel",
+      "Editorial Design & Katalog-Gestaltung für die MFA der Muthesius Kunsthochschule Kiel",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
     mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "MFA - My Favorite Acronym \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2021 \nVisuelle Identität mit Plakat, Flyer, Katalog, Webdesign  \nKonzept: Lena Reisner \nProgrammierung: Björn Schmidt \n \nFür die Ausstellung »Master of Fine Arts« der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann.",
+      "Editorial Design & Katalog-Gestaltung für die MFA Ausstellung der Muthesius Kunsthochschule Kiel: MFA - My Favorite Acronym, 2021 \n \nVisuelle Identität mit Plakat, Flyer, Katalog, Webdesign  \nKonzept: Lena Reisner \nProgrammierung: Björn Schmidt \n \nFür die Ausstellung »Master of Fine Arts« der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann.",
   }, 
   {
     id: "project-3-reset",
     accentColor: "#19C1A0",
     projectDescription:
-      "VISUELLE IDENTITÄT  \nPlakatgestaltungn \n\nReset – Let’s talk about diversity, \nVortragsreihe der Muthesius Kunsthochschule, Kiel",
+      "Plakatgestaltung für die Vortragsreihe RESET der Muthesius Kunsthochschule Kiel",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "vid", "img"],
     longTextDescription:
-      "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
+      "Plakatgestaltung für die Vortragsreihe RESET der Muthesius Kunsthochschule Kiel. RESET – let’s talk about diversity, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
   },
   {
     id: "project-16-sun",
     accentColor: "#254425",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nSundance Farmers Inc.",
+    projectDescription: "Entwicklung des Markenauftritts für Sundance Farmers Inc.",
     type: "img",
     categories: ["Branding"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "Sundance Farmers Inc.  \n\nBranding, Logoentwicklung, 2023 \n \nBei Sundance Farmers Inc. stehen die nachhaltige und ökologische Landwirtschaft sowie der faire Umgang mit Landwirten im Vordergrund. Für das Unternehmen entwickelten wir ein ganzheitliches Erscheinungsbild, das nicht nur einen Bezug zu den örtlichen Tätigkeitsgebieten des Unternehmens, sondern auch zur Nachhaltigkeit, dem Erhalt des Planeten als Unternehmensaufgabe, herstellt.",
+      "Entwicklung des Markenauftritts für Sundance Farmers Inc., 2023  \nLogoentwicklung, Geschäftsausstattung \n \nBei Sundance Farmers Inc. stehen die nachhaltige und ökologische Landwirtschaft sowie der faire Umgang mit Landwirten im Vordergrund. Für das Unternehmen entwickelten wir ein ganzheitliches Erscheinungsbild, das nicht nur einen Bezug zu den örtlichen Tätigkeitsgebieten des Unternehmens, sondern auch zur Nachhaltigkeit, dem Erhalt des Planeten als Unternehmensaufgabe, herstellt.",
   },  
   {
     id: "project-22-tim-masterkonzert",
     accentColor: "#F5B23F",
-    projectDescription: "VISUELLE IDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nTim Nicklaus – Small Things",
+    projectDescription: "Plakatgestaltung und Geschäftsausstattung für Tim Nicklaus",
     type: "img",
     categories: ["Branding", "Plakatgestaltung"],
     mediaTypes: ["img"],
     longTextDescription:
-      "Small Things \n \nAuftraggeberIn: Tim Nicklaus, 2023 \nIdentität mit Logo, Visitenkarte, Poster \n \nTim Nicklaus ist ein freiberuflicher Schlagzeuger aus Hannover. Für sein Abschlusskonzert wurden wir mit der Plakatgestaltung beauftragt. Zusätzlich entwarfen wir seine Geschäftsausstattung in Form von Visitenkarten",
+      "Plakatgestaltung und Geschäftsausstattung für Tim Nicklaus, 2023 \nIdentität mit Logo, Visitenkarte, Poster \n \nTim Nicklaus ist ein freiberuflicher Schlagzeuger aus Hannover. Für sein Abschlusskonzert wurden wir mit der Plakatgestaltung beauftragt. Zusätzlich entwarfen wir seine Geschäftsausstattung in Form von Visitenkarten",
   },    
   {
     id: "project-4-fbe",
     accentColor: "#12847E",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nFrauen*beratung Elmshorn",
+    projectDescription: "Markenauftritt und Print-Lösungen für die Frauen*beratung Elmshorn",
     type: "img",
     categories: ["Branding", "Buchgestaltung & Editorial Design", "Digital"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
     longTextDescription:
-      "Frauen*beratung Elmshorn \n \nAuftraggeberIn: Frauen*beratung Elmshorn, 2021 - heute \nIdentität mit Logo, Template, Flyer, Jahresbericht \n \nDie Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. \n2020 entwickelten wir die neue visuelle Identität und gestalten seidem fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen.",
+      "Markenauftritt und Print-Lösungen für die Frauenberatung Elmshorn, 2021 - heute \nLogodesign, Social-Media-Templates, Flyer & Jahresbericht \n \nDie Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. \n2020 entwickelten wir die neue visuelle Identität und gestalten seidem fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen.",
   },      
   {
     id: "project-15-kno",
     accentColor: "#032F64",
     projectDescription:
-      "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Bildsprache, Farbwelt \n\nKonsultation Nationalpark Ostsee, \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
+      "Entwicklung einer visuellen Identität für den Konsultationsprozess Nationalpark Ostsee",
     type: "vid",
     categories: ["Branding",],
     mediaTypes: ["vid", "img", "img", "img", "vid","img", "img", "img"],
     longTextDescription:
-      "Konsultation Nationalpark Ostsee \n \nAuftraggeberIn: Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein, 2023 \nVisuelle Identität \n \nDie Ostsee ist Heimat, Arbeitsplatz und Erholungsgebiet. Ein wertvoller Lebensraum, dessen Schutz sich die Landesregierung Schleswig-Holstein zur Aufgabe gemacht hat. Basierend auf bestehenden Schutzgebieten sollen die Machbarkeiten und Möglichkeiten eines Ausbaus mit allen Interessengruppen diskutiert werden. Diesen wichtigen Prozess unterstützen wir mit der Erstellung der grafischen Identität.",
+      "Entwicklung einer visuellen Identität für den Konsultationsprozess Nationalpark Ostsee und das Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein, 2023 \nLogodesign & Markenauftritt \n \nDie Ostsee ist Heimat, Arbeitsplatz und Erholungsgebiet. Ein wertvoller Lebensraum, dessen Schutz sich die Landesregierung Schleswig-Holstein zur Aufgabe gemacht hat. Basierend auf bestehenden Schutzgebieten sollen die Machbarkeiten und Möglichkeiten eines Ausbaus mit allen Interessengruppen diskutiert werden. Diesen wichtigen Prozess unterstützen wir mit der Erstellung der grafischen Identität.",
   },    
   {
     id: "project-18-xmas23",
     accentColor: "#FC3642",
-    projectDescription: "POSTKARTE \n\nseason's greetings",
+    projectDescription: "Editorial Design: Postkarten",
     type: "vid",
     categories: [""],
     mediaTypes: ["vid", "img"],
     longTextDescription:
-      "Eine festliche Karte mit season's greetings für 2023",
+      "Editorial Design: Postkarten \n\nEine festliche Karte mit season's greetings für 2023",
   },    
   {
     id: "project-7-ultraviolett",
     accentColor: "#76EEC6",
     projectDescription:
-      "BUCHGESTALTUNG \nCovergestaltung \n\nUltraviolett von Flurin Jecker \nHaymon Verlag",
+      "Coverdesign für Flurin Jecker: "Ultraviolett", Haymon Verlag",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
-      "Ultraviolett \n \nAuftraggeberIn: Haymon Verlag, 2021 \nUmschlaggestaltung \n \n»Es gibt einen Punkt, an dem Hirngespinste zu Geisterbeschwörungen werden. Und es gibt einen Punkt, an dem sich Panik in Musik verwandelt. Durch eine bestimmte Feinsinnigkeit lassen sich diese beiden Punkte überlagern. Dort beginnt es zu glühen, dort gibt es Sonnenuntergänge, Abschiede und Euphorie. Von diesem Glühen erzählt Flurin Jecker.« ¹  in Ultraviolett. Für die Umschlaggestaltung des Romans wurden wir vom Haymon Verlag beauftragt. \n¹ Zitat: Joshua Groß", 
+      "Coverdesign für Flurin Jecker: "Ultraviolett" im Haymon Verlag, 2021 \nUmschlaggestaltung \n \n»Es gibt einen Punkt, an dem Hirngespinste zu Geisterbeschwörungen werden. Und es gibt einen Punkt, an dem sich Panik in Musik verwandelt. Durch eine bestimmte Feinsinnigkeit lassen sich diese beiden Punkte überlagern. Dort beginnt es zu glühen, dort gibt es Sonnenuntergänge, Abschiede und Euphorie. Von diesem Glühen erzählt Flurin Jecker.« ¹  in Ultraviolett. Für die Umschlaggestaltung des Romans wurden wir vom Haymon Verlag beauftragt. \n¹ Zitat: Joshua Groß", 
   },
     {
     id: "project-9-gNIT",
     accentColor: "#095A5A",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\ngetNextIT",
+    projectDescription: "Markenauftritt und Print-Lösungen für getNextIT",
     type: "img",
     categories: ["Branding"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "getNextIT  \n \nAuftraggeberIn: Sabine Wojcieszak, 2021 \nVisuelle Identität mit Guideline & Visitenkarten \n \nDurch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir die neue Corporate Identity. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='white-links' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>.",
+      "Markenauftritt und Print-Lösungen für getNext, 2021 \nVisuelle Identität mit Guideline & Visitenkarten \n \nDurch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir die neue Corporate Identity. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='white-links' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>.",
   },  
   {
     id: "project-5-lmaa",
     accentColor: "#E30000",
     projectDescription:
-      "BUCHGESTALTUNG \nFotografische Publikation \n\nLüneburg mit anderen Augen, \nPablo Martínez-Calleja",
+      "Buchgestaltung & Art Direction für Pablo Martínez-Calleja",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "Lüneburg mit anderen Augen \n \nAuftraggeberIn: Pablo Martínez-Calleja, 2021 \nMit Fotografien von Pablo Martínez-Calleja \nBuchgestaltung \n \nWie ein Jäger des Augenblicks streift der in Lüneburg lebende Fotograf Pablo Martínez-Calleja mit seiner Kamera umher und nähert sich der Realität der StadtbewohnerInnen in Zeiten der Pandemie. Er fängt Situationen mit einem sensiblen Blick und ironischem Augenzwinkern ein. Jedes Foto lässt die Betrachtenden die Präsenz des Autors spüren, die wir auch innerhalb der Buchgestaltung in den Fokus setzten. Wir bewegen uns mit den Augen und der Perspektive des Fotografen innerhalb des Buches durch die Stadt.",
+      "Buchgestaltung & Art Direction für Pablo Martínez-Calleja: "Lüneburg mit anderen Augen" \nLayout & Art Direction \n \nWie ein Jäger des Augenblicks streift der in Lüneburg lebende Fotograf Pablo Martínez-Calleja mit seiner Kamera umher und nähert sich der Realität der StadtbewohnerInnen in Zeiten der Pandemie. Er fängt Situationen mit einem sensiblen Blick und ironischem Augenzwinkern ein. Jedes Foto lässt die Betrachtenden die Präsenz des Autors spüren, die wir auch innerhalb der Buchgestaltung in den Fokus setzten. Wir bewegen uns mit den Augen und der Perspektive des Fotografen innerhalb des Buches durch die Stadt.",
   },
   {
     id: "project-2-calendarium-luminis",
