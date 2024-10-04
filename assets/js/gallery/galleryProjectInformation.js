@@ -140,7 +140,7 @@ const galleryProjectInformation = [
     categories: ["Branding"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "Entwicklung des Markenauftritts für Sundance Farmers Inc., 2023  \nLogoentwicklung, Geschäftsausstattung \n \nBei Sundance Farmers Inc. stehen die nachhaltige und ökologische Landwirtschaft sowie der faire Umgang mit Landwirten im Vordergrund. Für das Unternehmen entwickelten wir ein ganzheitliches Erscheinungsbild, das nicht nur einen Bezug zu den örtlichen Tätigkeitsgebieten des Unternehmens, sondern auch zur Nachhaltigkeit, dem Erhalt des Planeten als Unternehmensaufgabe, herstellt.",
+      "Entwicklung des Markenauftritts für Sundance Farmers Inc., 2023 \nLogoentwicklung, Geschäftsausstattung \n \nBei Sundance Farmers Inc. stehen die nachhaltige und ökologische Landwirtschaft sowie der faire Umgang mit Landwirten im Vordergrund. Für das Unternehmen entwickelten wir ein ganzheitliches Erscheinungsbild, das nicht nur einen Bezug zu den örtlichen Tätigkeitsgebieten des Unternehmens, sondern auch zur Nachhaltigkeit, dem Erhalt des Planeten als Unternehmensaufgabe, herstellt.",
   },  
   {
     id: "project-22-tim-masterkonzert",
@@ -187,7 +187,7 @@ const galleryProjectInformation = [
     id: "project-7-ultraviolett",
     accentColor: "#76EEC6",
     projectDescription:
-      "Coverdesign für Flurin Jecker: "Ultraviolett", Haymon Verlag",
+      "Coverdesign für Flurin Jecker: "Ultraviolett",
     type: "img",
     categories: ["Buchgestaltung & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img"],
