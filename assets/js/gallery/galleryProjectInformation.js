@@ -78,7 +78,17 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
       "Antje Majewski & Paweł Freisler – Apple. An Introduction",
-  },   
+  }, 
+  {
+    id: "project-29-b310",
+    accentColor: "#A20E6D",
+    projectDescription: "CORPORATE DESIGN \nWebseite\n\n",
+    type: "vid",
+    categories: ["Corporate Design, Webdesign"],
+    mediaTypes: ["vid", "img"],
+    longTextDescription:
+      "",
+  },    
   {
     id: "project-17-xmas22",
     accentColor: "#A20E6D",
