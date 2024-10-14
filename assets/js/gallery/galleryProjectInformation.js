@@ -83,9 +83,9 @@ const galleryProjectInformation = [
     id: "project-29-b310",
     accentColor: "#A20E6D",
     projectDescription: "CORPORATE DESIGN \nWebseite\n\n",
-    type: "vid",
+    type: "img",
     categories: ["Corporate Design, Webdesign"],
-    mediaTypes: ["vid", "img"],
+    mediaTypes: ["img", "vid"],
     longTextDescription:
       "",
   },    
