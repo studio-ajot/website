@@ -62,7 +62,7 @@ const galleryProjectInformation = [
   {
     id: "project-28-gesellschaftsrelevanz",
     accentColor: "#3C55C6",
-    projectDescription: "WEBAUFTRITT \n Webdesign \n\n Illustration ZBW – Leibniz-Informationszentrum Wirtschaft ",
+    projectDescription: "WEBAUFTRITT \nWebdesign \n\nIllustration ZBW – Leibniz-Informationszentrum Wirtschaft ",
     type: "img",
     categories: ["Webdesign"],
     mediaTypes: ["img", "vid","img", "img"],
