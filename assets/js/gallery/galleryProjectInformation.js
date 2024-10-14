@@ -81,7 +81,7 @@ const galleryProjectInformation = [
   }, 
   {
     id: "project-29-b310",
-    accentColor: "#A20E6D",
+    accentColor: "#02204A",
     projectDescription: "CORPORATE DESIGN \nWebseite\n\n",
     type: "img",
     categories: ["Corporate Design, Webdesign"],
