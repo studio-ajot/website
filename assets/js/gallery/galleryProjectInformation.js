@@ -77,7 +77,7 @@ const galleryProjectInformation = [
     categories: ["Ausstellungsdesign"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
-      "Antje Majewski & Paweł Freisler – Apple. An Introduction",
+      "Antje Majewski & Paweł Freisler – Apple. An Introduction \n \nAuftraggeber:in: Antje Majewski, 2023  \n \nPostkarten, Wandtext",
   }, 
   {
     id: "project-29-b310",
@@ -87,7 +87,7 @@ const galleryProjectInformation = [
     categories: ["Corporate Design, Webdesign"],
     mediaTypes: ["img", "vid"],
     longTextDescription:
-      "Erstellung einer Corporate Identity.",
+      "B310 digital  \n \nAuftraggeber:in: B310 digital, 2024  \n \nCorporate Identity, Webseite  \n \nErstellung einer Corporate Identity.",
   },    
   {
     id: "project-17-xmas22",
