@@ -87,7 +87,7 @@ const galleryProjectInformation = [
     categories: ["Corporate Design, Webdesign"],
     mediaTypes: ["img", "vid"],
     longTextDescription:
-      "",
+      "Erstellung einer Corporate Identity.",
   },    
   {
     id: "project-17-xmas22",
