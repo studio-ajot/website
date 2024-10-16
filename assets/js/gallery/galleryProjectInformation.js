@@ -2,42 +2,42 @@ const galleryProjectInformation = [
   {
     id: "project-27-chart-light",
     accentColor: "#D9BEE1",
-    projectDescription: "EDITORIAL DESIGN \nART DIRECTION \n Chart Light – Notes to consider \n \nBuchgestaltung \nClouds Hill",
+    projectDescription: "Editorial Design & Art Direction für Clouds Hill",
     type: "img",
     categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
-      "Chart Light \n \nAuftraggeberIn: Clouds Hill, 2023 \nEditorial Design, Art Direction \n \nOptisch bewegt sich CHART zwischen den Medien Buch und Magazin, inhaltlich widmet es sich dem Musikjournalismus und erzählt einfühlsame Portraits über Menschen im kulturellen Umfeld. Für die vierte Ausgabe »Light« entwickelten wir ein neues Gestaltungssystem, das den unterschiedlichen Charakteren und Geschichten einen individuellen Raum gibt. Es entstand ein Layout, das charaktergebend und gleichzeitig flexibel ist und die Stimmung und Charakteristik der jeweiligen Texte im Layout und der Bildanordnung visuell wiedergibt. So übersetzen zum Beispiel flüchtige Handy-Aufnahmen, collagenartig angeordnet, den virtuellen Irrsinn und Überfluss auf Konzerten, der oft mehr im Vordergrund steht als die Künstler:innen selbst. Scheinbar willkürlich platzierte Polaroids erzählen von Charlottes Brandis Suche danach, was es bedeutet, vor 30 Jahren als Frau in einer Band gewesen zu sein. Das Gestaltungssystem soll auf weitere Ausgaben flexibel sowie thematisch und emotional anwendbar sein.",
+      "Editorial Design & Art Direction für Clouds Hill, CHART Magazin, Ausgabe 04: Light, 2023 \n \nOptisch bewegt sich CHART zwischen den Medien Buch und Magazin, inhaltlich widmet es sich dem Musikjournalismus und erzählt einfühlsame Portraits über Menschen im kulturellen Umfeld. Für die vierte Ausgabe »Light« entwickelten wir ein neues Gestaltungssystem, das den unterschiedlichen Charakteren und Geschichten einen individuellen Raum gibt. Es entstand ein Layout, das charaktergebend und gleichzeitig flexibel ist und die Stimmung und Charakteristik der jeweiligen Texte im Layout und der Bildanordnung visuell wiedergibt. So übersetzen zum Beispiel flüchtige Handy-Aufnahmen, collagenartig angeordnet, den virtuellen Irrsinn und Überfluss auf Konzerten, der oft mehr im Vordergrund steht als die Künstler:innen selbst. Scheinbar willkürlich platzierte Polaroids erzählen von Charlottes Brandis Suche danach, was es bedeutet, vor 30 Jahren als Frau in einer Band gewesen zu sein. Das Gestaltungssystem soll auf weitere Ausgaben flexibel sowie thematisch und emotional anwendbar sein.",
   },
   {
     id: "project-24-wolf-biermann",
     accentColor: "#443091",
-    projectDescription: "VISUELLE IDENTITÄT \nWOLF BIERMANN \n \nLogo-Entwicklung, Animation, Social Media, Werbemittel \nClouds Hill",
+    projectDescription: "Brand Design & Plattengestaltung für Wolf Biermann",
     type: "img",
     categories: ["Branding"],
     mediaTypes: ["img", "vid", "img", "img", "img", "img"],
     longTextDescription:
-      "Wolf Biermann: Visuelle Identität \n \nAuftraggeberIn: Clouds Hill, 2023-heute \nVisuelle Identität  \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "Brand Design & Plattengestaltung für Wolf Biermann \nAuftraggeberIn: Clouds Hill, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   },
   {
     id: "project-21-alumni-mu",
     accentColor: "#36006A",
-    projectDescription: "POSTKARTE \nNewsletterkarten \n \nAlumni-Netzwerk- und Newsletter-Karte, \nMuthesius Kunsthochschule",
+    projectDescription: "Editorial Design & Postkartengestaltung für die Muthesius Kunsthochschule",
     type: "img",
     categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
-      "Alumni-Netzwerk- & Newsletter-Karte \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2023 \nPostkartengestaltung  \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
+      "Alumni-Netzwerk- & Newsletter-Karte \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2023 \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
   },
   {
     id: "project-25-wolf-biermann-more",
     accentColor: "#443091",
-    projectDescription: "VISUELLE IDENTITÄT \nWOLF BIERMANN \n \nLogo-Entwicklung, Animation, Social Media, Werbemittel \nClouds Hill",
+    projectDescription: "Animation & Social Media Kampagnen für Wolf Biermann",
     type: "vid",
     categories: ["Branding"],
     mediaTypes: ["vid", "img","img", "img", "img","vid", "img"],
     longTextDescription:
-      "Wolf Biermann: Visuelle Identität \n \nAuftraggeberIn: Clouds Hill, 2023-heute \nVisuelle Identität  \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "Animation & Social Media Kampagnen für Wolf Biermann \nAuftraggeberIn: Clouds Hill, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   }, 
   {
     id: "project-10-epda",
