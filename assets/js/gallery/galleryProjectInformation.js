@@ -44,7 +44,7 @@ const galleryProjectInformation = [
     accentColor: "#A022C3",
     projectDescription: "BUCHGESTALTUNG \nJubiläums-Buch \n \nDesign Agency Boost Book, \nEuropean Brand and Packaging Design Association",
     type: "img",
-    categories: ["Buchgestaltung", "Editorial Design"],
+    categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "The Design Agency Boost Book \n \nAuftraggeberIn: European Brand & Packaging Design Association, 2022 \nBuchgestaltung  \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
@@ -104,7 +104,7 @@ const galleryProjectInformation = [
     accentColor: "#454342",
     projectDescription: "BUCHGESTALTUNG \nKünstlerinnen-Publikation \n \nCeramica Borealis 07 – Disegno Ornamento, \nKerstin Abraham",
     type: "img",
-    categories: ["Buchgestaltung", "Editorial Design"],
+    categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "Ceramica Borealis 07 – Disegno Ornamento \n  \nAuftraggeberIn: Kerstin Abraham, 2022 \nKünstlerinnen-Publikation \n  \n»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke",
@@ -126,7 +126,7 @@ const galleryProjectInformation = [
     projectDescription:
       "AUSSTELLUNGSDESIGN \nVisuelle Identität, Plakatgestaltung, Webdesign \n\nMFA21 – My Favorite Acronym, \nMuthesius Kunsthochschule, Kiel",
     type: "img",
-    categories: ["Branding", "Buchgestaltung", "Editorial Design", "Webdesign", "Plakatgestaltung"],
+    categories: ["Branding", "Editorial Design", "Webdesign", "Plakatgestaltung"],
     mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "MFA - My Favorite Acronym \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2021 \nVisuelle Identität mit Plakat, Flyer, Katalog, Webdesign  \nKonzept: Lena Reisner \nProgrammierung: Björn Schmidt \n \nFür die Ausstellung »Master of Fine Arts« der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann.",
@@ -199,7 +199,7 @@ const galleryProjectInformation = [
     projectDescription:
       "BUCHGESTALTUNG \nCovergestaltung \n\nUltraviolett von Flurin Jecker \nHaymon Verlag",
     type: "img",
-    categories: ["Buchgestaltung", "Editorial Design"],
+    categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
       "Ultraviolett \n \nAuftraggeberIn: Haymon Verlag, 2021 \nUmschlaggestaltung \n \n»Es gibt einen Punkt, an dem Hirngespinste zu Geisterbeschwörungen werden. Und es gibt einen Punkt, an dem sich Panik in Musik verwandelt. Durch eine bestimmte Feinsinnigkeit lassen sich diese beiden Punkte überlagern. Dort beginnt es zu glühen, dort gibt es Sonnenuntergänge, Abschiede und Euphorie. Von diesem Glühen erzählt Flurin Jecker.« ¹  in Ultraviolett. Für die Umschlaggestaltung des Romans wurden wir vom Haymon Verlag beauftragt. \n¹ Zitat: Joshua Groß", 
@@ -220,7 +220,7 @@ const galleryProjectInformation = [
     projectDescription:
       "BUCHGESTALTUNG \nFotografische Publikation \n\nLüneburg mit anderen Augen, \nPablo Martínez-Calleja",
     type: "img",
-    categories: ["Buchgestaltung", "Editorial Design"],
+    categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "Lüneburg mit anderen Augen \n \nAuftraggeberIn: Pablo Martínez-Calleja, 2021 \nMit Fotografien von Pablo Martínez-Calleja \nBuchgestaltung \n \nWie ein Jäger des Augenblicks streift der in Lüneburg lebende Fotograf Pablo Martínez-Calleja mit seiner Kamera umher und nähert sich der Realität der StadtbewohnerInnen in Zeiten der Pandemie. Er fängt Situationen mit einem sensiblen Blick und ironischem Augenzwinkern ein. Jedes Foto lässt die Betrachtenden die Präsenz des Autors spüren, die wir auch innerhalb der Buchgestaltung in den Fokus setzten. Wir bewegen uns mit den Augen und der Perspektive des Fotografen innerhalb des Buches durch die Stadt.",
@@ -241,7 +241,7 @@ const galleryProjectInformation = [
     accentColor: "#0738A5",
     projectDescription: "BUCHGESTALTUNG \nTextsatz \n\nAuswahl",
     type: "img",
-    categories: ["Buchgestaltung", "Editorial Design"],
+    categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
       "Buchsatz \n \nAuftraggeberIn: unterschiedliche AuftraggeberInnen \nJahre: 2020 bis heute \n \n",
@@ -261,7 +261,7 @@ const galleryProjectInformation = [
     accentColor: "#00CFDD",
     projectDescription: "BUCHGESTALTUNG \nEditorial Design \n\nGut zu wissen – Alles für den Studienbeginn, \nMuthesius Kunsthochschule, Kiel",
     type: "img",
-    categories: ["Buchgestaltung", "Editorial Design"],
+    categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "Gut zu wissen – Alles für den Studienbeginn \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2023 \nEditorial Design  \nInteraktives PDF \n \nDas erste Semester ist für viele Studierende eine besondere und aufregende Zeit. Es gibt viele Fragen und eine Menge zu bedenken. Für einen möglichst entspannten und stressfreien Einstieg ins Studium wurde dieser Leitfaden erstellt, für dessen Gestaltung wir beauftragt wurden. Er soll einen Überblick über relevante Informationen zum Studienbeginn geben und dabei helfen, die wichtigsten Fragen zu beantworten.",
@@ -271,7 +271,7 @@ const galleryProjectInformation = [
     accentColor: "#1F1FD3",
     projectDescription: "BUCHGESTALTUNG \nKünstlerische Publikation \n\nAsepsis, \nChristian An",
     type: "img",
-    categories: ["Buchgestaltung", "Editorial Design"],
+    categories: ["Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "Asepsis \n \nAuftraggeberIn: Christian An, 2019 \nKünstlerpublikation \n300 signierte Exemplare  \n \nAuf 19 Seiten inszenierten wir Zeichnungen des Künstlers Christian An und gestalteten das Künstlerbuch Asepsis. An zeigt von Reinlichkeit besessene Akteure – Gurus mit riesigen Zahnbürsten. Gelb-blaue Müllmänner, Verbotsschilder und Absperrbänder verweisen in ihrer signalhaften Farbigkeit auf Europol, die europäische Polizei. Was auf den ersten Blick noch humorvoll erscheint, beschäftigt sich kritisch damit, was – von Hierarchiehörigkeit bis hin zu Stigmatisierung – mit einer Gesellschaft geschehen kann, wenn sich Hygiene zur Ideologie und Keimfreiheit zum Heilsversprechen wandelt.",
