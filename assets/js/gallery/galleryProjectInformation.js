@@ -34,7 +34,7 @@ const galleryProjectInformation = [
     accentColor: "#443091",
     projectDescription: "Animation & Social Media Kampagnen für Wolf Biermann",
     type: "vid",
-    categories: ["Corporate Design", "Plakatgestaltung"],
+    categories: ["Corporate Design", "Plakatgestaltung", "Animation"],
     mediaTypes: ["vid", "img","img", "img", "img","vid", "img"],
     longTextDescription:
       "Animation & Social Media Kampagnen für Wolf Biermann \nAuftraggeberIn: Clouds Hill, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
@@ -167,7 +167,7 @@ const galleryProjectInformation = [
     accentColor: "#12847E",
     projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nFrauen*beratung Elmshorn",
     type: "img",
-    categories: ["Corporate Design", "Buch- & Editorial Design", "Digital"],
+    categories: ["Corporate Design", "Buch- & Editorial Design", "Digital Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
     longTextDescription:
       "Frauen*beratung Elmshorn \n \nAuftraggeberIn: Frauen*beratung Elmshorn, 2021 - heute \nIdentität mit Logo, Template, Flyer, Jahresbericht \n \nDie Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. \n2020 entwickelten wir die neue visuelle Identität und gestalten seidem fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen.",
@@ -209,7 +209,7 @@ const galleryProjectInformation = [
     accentColor: "#095A5A",
     projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\ngetNextIT",
     type: "img",
-    categories: ["Corporate Design", "Digital"],
+    categories: ["Corporate Design", "Digital Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "getNextIT  \n \nAuftraggeberIn: Sabine Wojcieszak, 2021 \nVisuelle Identität mit Guideline & Visitenkarten \n \nDurch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir die neue Corporate Identity. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='white-links' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>.",
