@@ -34,7 +34,7 @@ const galleryProjectInformation = [
     accentColor: "#443091",
     projectDescription: "Animation & Social Media Kampagnen für Wolf Biermann",
     type: "vid",
-    categories: ["Branding"],
+    categories: ["Branding", "Plakatgestaltung"],
     mediaTypes: ["vid", "img","img", "img", "img","vid", "img"],
     longTextDescription:
       "Animation & Social Media Kampagnen für Wolf Biermann \nAuftraggeberIn: Clouds Hill, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
@@ -54,7 +54,7 @@ const galleryProjectInformation = [
     accentColor: "#430244",
     projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Schriftgestaltung, Werbemittel \n \nJazzica, \nKieler Pop- und Jazzchor",
     type: "img",
-    categories: ["Branding", "Schriftgestaltung"],
+    categories: ["Branding", "Schriftgestaltung", "Plakatgestaltung"],
     mediaTypes: ["img", "vid", "img", "img", "img", "vid", "img"],
     longTextDescription:
       "Jazzica \n \nAuftraggeber:in: Jazzica, 2023 \nBranding, Logoentwicklung, Schriftgestaltung, Plakat, Flyer, Kleidung  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
@@ -126,7 +126,7 @@ const galleryProjectInformation = [
     projectDescription:
       "AUSSTELLUNGSDESIGN \nVisuelle Identität, Plakatgestaltung, Webdesign \n\nMFA21 – My Favorite Acronym, \nMuthesius Kunsthochschule, Kiel",
     type: "img",
-    categories: ["Branding", "Buchgestaltung", "Editorial Design", "Digital"],
+    categories: ["Branding", "Buchgestaltung", "Editorial Design", "Webdesign", "Plakatgestaltung"],
     mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "MFA - My Favorite Acronym \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2021 \nVisuelle Identität mit Plakat, Flyer, Katalog, Webdesign  \nKonzept: Lena Reisner \nProgrammierung: Björn Schmidt \n \nFür die Ausstellung »Master of Fine Arts« der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann.",
@@ -137,7 +137,7 @@ const galleryProjectInformation = [
     projectDescription:
       "VISUELLE IDENTITÄT  \nPlakatgestaltungn \n\nReset – Let’s talk about diversity, \nVortragsreihe der Muthesius Kunsthochschule, Kiel",
     type: "img",
-    categories: ["Branding", "Buchgestaltung", "Editorial Design"],
+    categories: ["Branding", "Plakatgestaltung", "Editorial Design"],
     mediaTypes: ["img", "img", "img", "vid", "img"],
     longTextDescription:
       "RESET – let’s talk about diversity  \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2020 \nPlakatreihe, Social Media Vorlagen  \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
@@ -167,7 +167,7 @@ const galleryProjectInformation = [
     accentColor: "#12847E",
     projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\nFrauen*beratung Elmshorn",
     type: "img",
-    categories: ["Branding", "Buchgestaltung", "Editorial Design", "Digital"],
+    categories: ["Branding", "Editorial Design", "Digital"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
     longTextDescription:
       "Frauen*beratung Elmshorn \n \nAuftraggeberIn: Frauen*beratung Elmshorn, 2021 - heute \nIdentität mit Logo, Template, Flyer, Jahresbericht \n \nDie Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. \n2020 entwickelten wir die neue visuelle Identität und gestalten seidem fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen.",
@@ -178,7 +178,7 @@ const galleryProjectInformation = [
     projectDescription:
       "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Bildsprache, Farbwelt \n\nKonsultation Nationalpark Ostsee, \nMinisterium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
     type: "vid",
-    categories: ["Branding",],
+    categories: ["Branding"],
     mediaTypes: ["vid", "img", "img", "img", "vid","img", "img", "img"],
     longTextDescription:
       "Konsultation Nationalpark Ostsee \n \nAuftraggeberIn: Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein, 2023 \nVisuelle Identität \n \nDie Ostsee ist Heimat, Arbeitsplatz und Erholungsgebiet. Ein wertvoller Lebensraum, dessen Schutz sich die Landesregierung Schleswig-Holstein zur Aufgabe gemacht hat. Basierend auf bestehenden Schutzgebieten sollen die Machbarkeiten und Möglichkeiten eines Ausbaus mit allen Interessengruppen diskutiert werden. Diesen wichtigen Prozess unterstützen wir mit der Erstellung der grafischen Identität.",
@@ -209,7 +209,7 @@ const galleryProjectInformation = [
     accentColor: "#095A5A",
     projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Geschäftsausstattung \n\ngetNextIT",
     type: "img",
-    categories: ["Branding"],
+    categories: ["Branding", "Digital"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "getNextIT  \n \nAuftraggeberIn: Sabine Wojcieszak, 2021 \nVisuelle Identität mit Guideline & Visitenkarten \n \nDurch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir die neue Corporate Identity. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='white-links' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>.",
@@ -231,7 +231,7 @@ const galleryProjectInformation = [
     projectDescription:
       "PLAKATGESTALTUNG \nKalendergestaltung \n\nCalendarium Luminis, \nJohann Sommer",
     type: "img",
-    categories: ["Branding", "Buchgestaltung", "Editorial Design", "Infografik"],
+    categories: ["Plakatgestaltung", "Infografik"],
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
       "Calendarium Luminis \n \nAuftraggeberIn: Johann Sommer, 2019 \nPlakatgestaltung, Kalendergestaltung  \n300 signierte Exemplare \neinseitiger Sonderfarbendruck in Silber auf schwarzem und dunkelblauen Karton.  \n \nFür den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen.",
