@@ -22,7 +22,7 @@ const galleryProjectInformation = [
   {
     id: "project-21-alumni-mu",
     accentColor: "#36006A",
-    projectDescription: "BUCH- & EDITORIAL DESIGN \n \n Postkartengestaltung für die Muthesius Kunsthochschule",
+    projectDescription: "BUCH- & EDITORIAL DESIGN \n \nPostkartengestaltung für die Muthesius Kunsthochschule",
     type: "img",
     categories: ["Buch- & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img"],
@@ -37,7 +37,7 @@ const galleryProjectInformation = [
     categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design"],
     mediaTypes: ["vid", "img","img", "img", "img","vid", "img"],
     longTextDescription:
-      "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN \n \n Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN \n \nAnimation & Social Media Kampagnen für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   }, 
   {
     id: "project-10-epda",
@@ -52,22 +52,22 @@ const galleryProjectInformation = [
   {
     id: "project-20-jazzica",
     accentColor: "#430244",
-    projectDescription: "VISUELLE MARKENIDENTITÄT \nLogoentwicklung, Schriftgestaltung, Werbemittel \n \nJazzica, \nKieler Pop- und Jazzchor",
+    projectDescription: "CORPORATE DESIGN, SCHRIFTGESTALTUNG, PLAKATGESTALTUNG, ANIMATION, WEBDESIGN \n \nAufbau einer Markenidentität & Entwicklung von Werbemaßnahmen für Jazzica",
     type: "img",
-    categories: ["Corporate Design", "Schriftgestaltung", "Plakatgestaltung"],
+    categories: ["Corporate Design", "Schriftgestaltung", "Plakatgestaltung", "Webdesign"],
     mediaTypes: ["img", "vid", "img", "img", "img", "vid", "img"],
     longTextDescription:
-      "Jazzica \n \nAuftraggeber:in: Jazzica, 2023 \nBranding, Logoentwicklung, Schriftgestaltung, Plakat, Flyer, Kleidung  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
+      "CORPORATE DESIGN, SCHRIFTGESTALTUNG, PLAKATGESTALTUNG, ANIMATION, WEBDESIGN \n \nAufbau einer Markenidentität & Entwicklung von Werbemaßnahmen für Jazzica  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
   },  
   {
     id: "project-28-gesellschaftsrelevanz",
     accentColor: "#3C55C6",
-    projectDescription: "WEBAUFTRITT \nWebdesign \n\nIllustration ZBW – Leibniz-Informationszentrum Wirtschaft ",
+    projectDescription: "WEBDESIGN, ILLUSTRATION \n \nWebdesign & Illustrationsgrafiken für das ZBW",
     type: "vid",
-    categories: ["Webdesign"],
+    categories: ["Webdesign", "Illustration"],
     mediaTypes: ["vid","vid", "vid"],
     longTextDescription:
-      "Gesellschaftsrelevanz \n \nAuftraggeber:in: ZBW – Leibniz-Informationszentrum Wirtschaft, 2024 \nScrollytelling, Illustration \n\nDas Leibnitz-Informationszentrum Wirtschaft ist die weltweit größte Spezialbibliothek für wirtschaftswissenschaftliche Literatur. Die ZBW möchte mit ihrer neuen Scrollytelling-Website ihr Engagement für Open Science und den freien, fairen Zugang zu Forschungsergebnissen aufzeigen. Die individuell angefertigten Illustrationen im Collagen-Stil leiten beim Scroll-Vorgang jeweils neue Inhaltssegmente ein. Die Website beleuchtet so die aktuellen Herausforderungen auf dem wissenschaftlichen Publikationsmarkt und erläutert anschließend die Bemühungen der ZBW auf verschiedenen Ebenen, die Welt der Wissenschaft offener, gerechter und unabhängiger zu gestalten. So sollen die komplexen Sachverhalte aus der Welt der wissenschaftlichen Bibliotheken informativ und leicht zugänglich kommuniziert werden.",
+      "WEBDESIGN, ILLUSTRATION \n \nWebdesign & Illustrationsgrafiken für das ZBW – Leibniz-Informationszentrum Wirtschaft, 2024 \n\nDas Leibnitz-Informationszentrum Wirtschaft ist die weltweit größte Spezialbibliothek für wirtschaftswissenschaftliche Literatur. Die ZBW möchte mit ihrer neuen Scrollytelling-Website ihr Engagement für Open Science und den freien, fairen Zugang zu Forschungsergebnissen aufzeigen. Die individuell angefertigten Illustrationen im Collagen-Stil leiten beim Scroll-Vorgang jeweils neue Inhaltssegmente ein. Die Website beleuchtet so die aktuellen Herausforderungen auf dem wissenschaftlichen Publikationsmarkt und erläutert anschließend die Bemühungen der ZBW auf verschiedenen Ebenen, die Welt der Wissenschaft offener, gerechter und unabhängiger zu gestalten. So sollen die komplexen Sachverhalte aus der Welt der wissenschaftlichen Bibliotheken informativ und leicht zugänglich kommuniziert werden.",
   },   
   {
     id: "project-26-apfel",
