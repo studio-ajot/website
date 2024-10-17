@@ -72,64 +72,64 @@ const galleryProjectInformation = [
   {
     id: "project-26-apfel",
     accentColor: "#254425",
-    projectDescription: "AUSSTELLUNG \nPostkarte, Informationstext \n\nAntje Majewski",
+    projectDescription: "AUSSTELLUNGSDESIGN, EDITORIAL DESIGN  \n \nAusstellungs- & Postkartendesign für Antje Majewski",
     type: "img",
-    categories: ["Ausstellungsdesign"],
+    categories: ["Ausstellungsdesign", "Buch- & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
-      "Antje Majewski & Paweł Freisler – Apple. An Introduction \n \nAuftraggeber:in: Antje Majewski, 2023  \n \nPostkarten, Wandtext",
+      "AUSSTELLUNGSDESIGN, EDITORIAL DESIGN  \n \nAusstellungs- & Postkartendesign für »Antje Majewski & Paweł Freisler – Apple. An Introduction« \n \nEine Ausstellung, die den Apfel als Kunstobjekt zeigt und als Fallstudie über eine bedrohte Artenvielfalt dient. Wir wurden damit beauftragt, die Postkarte sowie den Wandtext für die Ausstellung zu gestalten.",
   }, 
   {
     id: "project-29-b310",
     accentColor: "#02204A",
-    projectDescription: "CORPORATE DESIGN \nWebseite\n\n",
+    projectDescription: "CORPORATE DESIGN, WEBDESIGN  \n \nWebdesign für B310",
     type: "img",
     categories: ["Corporate Design", "Webdesign"],
     mediaTypes: ["img", "vid"],
     longTextDescription:
-      "B310 digital  \nAuftraggeber:in: B310 digital, 2024  \nCorporate Identity, Webseite  \n \nErstellung einer Corporate Identity.",
+      "CORPORATE DESIGN, WEBDESIGN  \n \nWebdesign für B310  \n \nFür die Open Source Agentur B310 entwickelten wir einen frischen, neuen Webauftritt in Form eines OnePagers, der auf dem bestehenden Corporate Design aufbauert und dieses erweitert.",
   },    
   {
     id: "project-17-xmas22",
     accentColor: "#A20E6D",
-    projectDescription: "POSTKARTE \nNeujahrsgrüße, Schriftgestaltung \n\n",
+    projectDescription: "BUCH- & EDITORIAL DESIGN \n \nPostkarten",
     type: "vid",
     categories: ["Buch- & Editorial Design"],
     mediaTypes: ["vid", "img"],
     longTextDescription:
-      "Ein Neujahrsgruß für 2022: be inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious",
+      "BUCH- & EDITORIAL DESIGN \n \nPostkarten \n \nEin Neujahrsgruß für 2022: be inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious.",
   },    
   {
     id: "project-12-cb",
     accentColor: "#454342",
-    projectDescription: "BUCHGESTALTUNG \nKünstlerinnen-Publikation \n \nCeramica Borealis 07 – Disegno Ornamento, \nKerstin Abraham",
+    projectDescription: "BUCH- & EDITORIAL DESIGN \n \nEditorial Design & Art Direction für Kerstin Abraham und die Sparkassenstiftung Schleswig-Holstein",
     type: "img",
     categories: ["Buch- & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "Ceramica Borealis 07 – Disegno Ornamento \n  \nAuftraggeberIn: Kerstin Abraham, 2022 \nKünstlerinnen-Publikation \n  \n»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke",
+      "BUCH- & EDITORIAL DESIGN \n \nEditorial Design & Art Direction für Kerstin Abraham und die Sparkassenstiftung Schleswig-Holstein \n \nCeramica Borealis 07 – Disegno Ornamento \n \n»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke",
   },  
   {
     id: "project-14-wobe",
     accentColor: "#1419C0",
     projectDescription:
-      "VISUELLE MARKENIDENTITÄT  \nLogoentwicklung, Geschäftsausstattung, Schriftgestaltung, Werbemittel \n\nwobe-systems GmbH",
+      "CORPORATE DESIGN, SCHRIFTGESTALTUNG  \n \nAufbau einer Markenidentität, Social Media Assets und Print Lösungen für wobe-systems",
     type: "vid",
     categories: ["Corporate Design", "Schriftgestaltung"],
     mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "wobe-systems GmbH \n \nAuftraggeberIn: Maik Wojcieszak, 2022 \nBranding, Logoentwicklung, Schriftgestaltung \n \nSeit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog zwischen Mensch und Maschine beinhaltet.",
+      "CORPORATE DESIGN, SCHRIFTGESTALTUNG  \n \nAufbau einer Markenidentität, Social Media Assets und Print Lösungen für wobe-systems \n \nSeit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog zwischen Mensch und Maschine beinhaltet.",
   },    
   {
     id: "project-8-mfa",
     accentColor: "#EB67B3",
     projectDescription:
-      "AUSSTELLUNGSDESIGN \nVisuelle Identität, Plakatgestaltung, Webdesign \n\nMFA21 – My Favorite Acronym, \nMuthesius Kunsthochschule, Kiel",
+      "CORPORATE DESIGN, BUCH- & EDITORIAL DESIGN, WEBDESIGN, PLAKATGESTALTUNG  \n \nAusstellungsgestaltung für eine Absolvent:innenausstellung der Muthesius Kunsthochschule",
     type: "img",
     categories: ["Corporate Design", "Buch- & Editorial Design", "Webdesign", "Plakatgestaltung"],
     mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "MFA - My Favorite Acronym \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2021 \nVisuelle Identität mit Plakat, Flyer, Katalog, Webdesign  \nKonzept: Lena Reisner \nProgrammierung: Björn Schmidt \n \nFür die Ausstellung »Master of Fine Arts« der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann.",
+      "CORPORATE DESIGN, BUCH- & EDITORIAL DESIGN, WEBDESIGN, PLAKATGESTALTUNG  \n \nAusstellungsgestaltung für eine Absolvent:innenausstellung der Muthesius Kunsthochschule  \n \nMFA - My Favorite Acronym \n \nKonzept: Lena Reisner \nProgrammierung: Björn Schmidt \n \nFür die Ausstellung »Master of Fine Arts« der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann.",
   }, 
   {
     id: "project-3-reset",
