@@ -113,12 +113,12 @@ const galleryProjectInformation = [
     id: "project-14-wobe",
     accentColor: "#1419C0",
     projectDescription:
-      "CORPORATE DESIGN, SCHRIFTGESTALTUNG  \n \nAufbau einer Markenidentität, Social Media Assets und Print Lösungen für wobe-systems",
+      "CORPORATE DESIGN, SCHRIFTGESTALTUNG  \n \nAufbau einer Markenidentität, Social Media Assets und Werbemaßnahmen für wobe-systems",
     type: "vid",
     categories: ["Corporate Design", "Schriftgestaltung"],
     mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "CORPORATE DESIGN, SCHRIFTGESTALTUNG  \n \nAufbau einer Markenidentität, Social Media Assets und Print Lösungen für wobe-systems \n \nSeit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog zwischen Mensch und Maschine beinhaltet.",
+      "CORPORATE DESIGN, SCHRIFTGESTALTUNG  \n \nAufbau einer Markenidentität, Social Media Assets und Werbemaßnahmen für wobe-systems \n \nSeit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog zwischen Mensch und Maschine beinhaltet.",
   },    
   {
     id: "project-8-mfa",
