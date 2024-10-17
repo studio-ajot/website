@@ -27,7 +27,7 @@ const galleryProjectInformation = [
     categories: ["Buch- & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
-      "BUCH- & EDITORIAL DESIGN \n \n Postkartengestaltung für die Muthesius Kunsthochschule \n Alumni-Netzwerk- & Newsletter-Karte, 2023 \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
+      "BUCH- & EDITORIAL DESIGN \n \nPostkartengestaltung für die Muthesius Kunsthochschule \n \nAlumni-Netzwerk- & Newsletter-Karte, 2023 \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
   },
   {
     id: "project-25-wolf-biermann-more",
