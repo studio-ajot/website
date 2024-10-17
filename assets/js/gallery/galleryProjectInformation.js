@@ -12,22 +12,22 @@ const galleryProjectInformation = [
   {
     id: "project-24-wolf-biermann",
     accentColor: "#443091",
-    projectDescription: "Brand Design & Plattengestaltung für Wolf Biermann",
+    projectDescription: "CORPORATE DESIGN  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann",
     type: "img",
     categories: ["Corporate Design"],
     mediaTypes: ["img", "vid", "img", "img", "img", "img"],
     longTextDescription:
-      "Brand Design & Plattengestaltung für Wolf Biermann \n \nAuftraggeberIn: Clouds Hill, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "CORPORATE DESIGN  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   },
   {
     id: "project-21-alumni-mu",
     accentColor: "#36006A",
-    projectDescription: "Editorial Design & Postkartengestaltung für die Muthesius Kunsthochschule",
+    projectDescription: "BUCH- & EDITORIAL DESIGN \n \n Postkartengestaltung für die Muthesius Kunsthochschule",
     type: "img",
     categories: ["Buch- & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
-      "Alumni-Netzwerk- & Newsletter-Karte \n \nAuftraggeberIn: Muthesius Kunsthochschule, 2023 \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
+      "BUCH- & EDITORIAL DESIGN \n \n Postkartengestaltung für die Muthesius Kunsthochschule \n Alumni-Netzwerk- & Newsletter-Karte, 2023 \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden.",
   },
   {
     id: "project-25-wolf-biermann-more",
