@@ -32,22 +32,22 @@ const galleryProjectInformation = [
   {
     id: "project-25-wolf-biermann-more",
     accentColor: "#443091",
-    projectDescription: "Animation & Social Media Kampagnen für Wolf Biermann",
+    projectDescription: "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION \n \nAnimation & Social Media Kampagnen für Wolf Biermann",
     type: "vid",
     categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design"],
     mediaTypes: ["vid", "img","img", "img", "img","vid", "img"],
     longTextDescription:
-      "Animation & Social Media Kampagnen für Wolf Biermann \nAuftraggeberIn: Clouds Hill, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN \n \n Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   }, 
   {
     id: "project-10-epda",
     accentColor: "#A022C3",
-    projectDescription: "BUCHGESTALTUNG \nJubiläums-Buch \n \nDesign Agency Boost Book, \nEuropean Brand and Packaging Design Association",
+    projectDescription: "BUCH- & EDITORIAL DESIGN \n \nEditorial Design & Art Direction für die European Brand and Packaging Design Association",
     type: "img",
     categories: ["Buch- & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "The Design Agency Boost Book \n \nAuftraggeberIn: European Brand & Packaging Design Association, 2022 \nBuchgestaltung  \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
+      "BUCH- & EDITORIAL DESIGN \n \nEditorial Design & Art Direction für die European Brand and Packaging Design Association, 2022 \n \nThe Design Agency Boost Book \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
   },  
   {
     id: "project-20-jazzica",
