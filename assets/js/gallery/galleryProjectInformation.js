@@ -54,7 +54,7 @@ const galleryProjectInformation = [
     accentColor: "#430244",
     projectDescription: "CORPORATE DESIGN, SCHRIFTGESTALTUNG, PLAKATGESTALTUNG, ANIMATION, WEBDESIGN \n \nAufbau einer Markenidentität & Entwicklung von Werbemaßnahmen für Jazzica",
     type: "img",
-    categories: ["Corporate Design", "Schriftgestaltung", "Plakatgestaltung", "Webdesign"],
+    categories: ["Corporate Design", "Schriftgestaltung", "Plakatgestaltung", "Webdesign", "Animation"],
     mediaTypes: ["img", "vid", "img", "img", "img", "vid", "img"],
     longTextDescription:
       "CORPORATE DESIGN, SCHRIFTGESTALTUNG, PLAKATGESTALTUNG, ANIMATION, WEBDESIGN \n \nAufbau einer Markenidentität & Entwicklung von Werbemaßnahmen für Jazzica  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
