@@ -112,8 +112,7 @@ const galleryProjectInformation = [
   {
     id: "project-14-wobe",
     accentColor: "#1419C0",
-    projectDescription:
-      "CORPORATE DESIGN, SCHRIFTGESTALTUNG, ANIMATION, DIGITAL DESIGN  \n \nAufbau einer Markenidentität, Social Media Assets und Werbemaßnahmen für wobe-systems",
+    projectDescription: "CORPORATE DESIGN, SCHRIFTGESTALTUNG, ANIMATION, DIGITAL DESIGN  \n \nAufbau einer Markenidentität, Social Media Assets und Werbemaßnahmen für wobe-systems",
     type: "vid",
     categories: ["Corporate Design", "Schriftgestaltung", "Animation", "Digital Design"],
     mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img"],
@@ -123,8 +122,7 @@ const galleryProjectInformation = [
   {
     id: "project-8-mfa",
     accentColor: "#EB67B3",
-    projectDescription:
-      "CORPORATE DESIGN, BUCH- & EDITORIAL DESIGN, WEBDESIGN, PLAKATGESTALTUNG  \n \nAusstellungsgestaltung für eine Absolvent:innenausstellung der Muthesius Kunsthochschule",
+    projectDescription: "CORPORATE DESIGN, BUCH- & EDITORIAL DESIGN, WEBDESIGN, PLAKATGESTALTUNG  \n \nAusstellungsgestaltung für eine Absolvent:innenausstellung der Muthesius Kunsthochschule",
     type: "img",
     categories: ["Corporate Design", "Buch- & Editorial Design", "Webdesign", "Plakatgestaltung"],
     mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -134,8 +132,7 @@ const galleryProjectInformation = [
   {
     id: "project-3-reset",
     accentColor: "#19C1A0",
-    projectDescription:
-      "CORPORATE DESIGN, BUCH- & EDITORIAL DESIGN, PLAKATGESTALTUNG  \n \nPlakatgestaltung für eine Vorlesungsreihe der Muthesius Kunsthochschule",
+    projectDescription: "CORPORATE DESIGN, BUCH- & EDITORIAL DESIGN, PLAKATGESTALTUNG  \n \nPlakatgestaltung für eine Vorlesungsreihe der Muthesius Kunsthochschule",
     type: "img",
     categories: ["Corporate Design", "Plakatgestaltung", "Buch- & Editorial Design"],
     mediaTypes: ["img", "img", "img", "vid", "img"],
@@ -175,8 +172,7 @@ const galleryProjectInformation = [
   {
     id: "project-15-kno",
     accentColor: "#032F64",
-    projectDescription:
-      CORPORATE DESIGN  \n \nEntwicklung einer Markenidentität für den Konsultationsprozess Nationalpark Ostsee",
+    projectDescription: "CORPORATE DESIGN  \n \nEntwicklung einer Markenidentität für den Konsultationsprozess Nationalpark Ostsee",
     type: "vid",
     categories: ["Corporate Design"],
     mediaTypes: ["vid", "img", "img", "img", "vid","img", "img", "img"],
@@ -196,8 +192,7 @@ const galleryProjectInformation = [
   {
     id: "project-7-ultraviolett",
     accentColor: "#76EEC6",
-    projectDescription:
-      "BUCH- & EDITORIAL DESIGN  \n \nCoverdesign für den Roman »Ultraviolett« von Flurin Jecker, erschienen im Haymon Verlag",
+    projectDescription: "BUCH- & EDITORIAL DESIGN  \n \nCoverdesign für den Roman »Ultraviolett« von Flurin Jecker, erschienen im Haymon Verlag",
     type: "img",
     categories: ["Buch- & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img"],
@@ -217,8 +212,7 @@ const galleryProjectInformation = [
   {
     id: "project-5-lmaa",
     accentColor: "#E30000",
-    projectDescription:
-      "BUCH- & EDITORIAL DESIGN  \n \nEditorial Design & Art Direction für Pablo Martínez-Calleja",
+    projectDescription: "BUCH- & EDITORIAL DESIGN  \n \nEditorial Design & Art Direction für Pablo Martínez-Calleja",
     type: "img",
     categories: ["Buch- & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
@@ -228,8 +222,7 @@ const galleryProjectInformation = [
   {
     id: "project-2-calendarium-luminis",
     accentColor: "#717171",
-    projectDescription:
-      "PLAKATGESTALTUNG, INFOGRAFIK  \n \nPlakatgestaltung für das Kalendarium Luminis",
+    projectDescription: "PLAKATGESTALTUNG, INFOGRAFIK  \n \nPlakatgestaltung für das Kalendarium Luminis",
     type: "img",
     categories: ["Plakatgestaltung", "Infografik"],
     mediaTypes: ["img", "img", "img", "img", "img"],
