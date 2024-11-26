@@ -92,7 +92,7 @@ const galleryProjectInformation = [
   {
     id: "project-23-sail-away",
     accentColor: "#02204A",
-    projectDescription: ""Buch- & Editorial Design"  \n \nWebdesign für B310",
+    projectDescription: "BUCH- & EDITORIAL DESIGN  \n \nWebdesign für B310",
     type: "img",
     categories: ["Buch- & Editorial Design"],
     mediaTypes: ["img"],
