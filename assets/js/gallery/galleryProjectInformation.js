@@ -7,7 +7,7 @@ const galleryProjectInformation = [
     categories: ["Buch- & Editorial Design"],
     mediaTypes: ["img"],
     longTextDescription:
-      "BUCH- & EDITORIAL DESIGN \n \nPlattengestaltung für Wolf Biermann \n \nLP Box Set: Wolf Biermann – Zeiten verbinden \n \nBox-Inhalt; .",
+      "BUCH- & EDITORIAL DESIGN \n \nPlattengestaltung für Wolf Biermann: Box-Set "Zeiten Verbinden" \n \nLP Box Set mit 5 Vinyl-LPs und Extras \n \n"Wolf Biermann, Zeuge und Protagonist einer turbulenten Zeit, hat sich stets lautstark zu Wort gemeldet, um seine Kritik an den herrschenden Zuständen zu äußern – und findet nun Unterstützung in einer jungen Generation, die künstlerisch durchaus geprägt ist vom Ton des 1936 in Hamburg geborenen Künstlers, der als junger Mann in die DDR übersiedelte, um später von ihr verstoßen zu werden: weil er sich auch dort nicht zensieren ließ!" – Clouds Hill, das Hamburger Indie-Label um Produzent und Autor Johann Scheerer.",
   },  
   {
     id: "project-27-chart-light",
