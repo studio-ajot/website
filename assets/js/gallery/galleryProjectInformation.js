@@ -92,9 +92,9 @@ const galleryProjectInformation = [
   {
     id: "project-23-sail-away",
     accentColor: "#443091",
-    projectDescription: "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION \n \nAnimation & Social Media Kampagnen für Wolf Biermann",
+    projectDescription: "BUCH- UND EDITORIAL DESIGN, ILLUSTRATION \n \nEditorial Design, Art Direction und Illustrationen für ein Reisetagebuch",
     type: "img",
-    categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design"],
+    categories: ["Illustration", "Buch- & Editorial Design"],
     mediaTypes: ["img"],
     longTextDescription:
       "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN \n \nAnimation & Social Media Kampagnen für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
