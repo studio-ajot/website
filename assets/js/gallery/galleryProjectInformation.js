@@ -20,16 +20,6 @@ const galleryProjectInformation = [
       "CORPORATE DESIGN  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   },
   {
-    id: "project-30-WB-box",
-    accentColor: "#D9BEE1",
-    projectDescription: "Wolf Biermann \n \nEditorial Design & Art Direction für Clouds Hill",
-    type: "img",
-    categories: ["Buch- & Editorial Design"],
-    mediaTypes: ["img"],
-    longTextDescription:
-      "BUCH- & EDITORIAL DESIGN \n \nEditorial Design & Art Direction für Clouds Hill, 2023 \n \nCHART Magazin, Ausgabe 04: Light \n \nOptisch bewegt sich CHART zwischen den Medien Buch und Magazin, inhaltlich widmet es sich dem Musikjournalismus und erzählt einfühlsame Portraits über Menschen im kulturellen Umfeld. Für die vierte Ausgabe »Light« entwickelten wir ein neues Gestaltungssystem, das den unterschiedlichen Charakteren und Geschichten einen individuellen Raum gibt. Es entstand ein Layout, das charaktergebend und gleichzeitig flexibel ist und die Stimmung und Charakteristik der jeweiligen Texte im Layout und der Bildanordnung visuell wiedergibt. So übersetzen zum Beispiel flüchtige Handy-Aufnahmen, collagenartig angeordnet, den virtuellen Irrsinn und Überfluss auf Konzerten, der oft mehr im Vordergrund steht als die Künstler:innen selbst. Scheinbar willkürlich platzierte Polaroids erzählen von Charlottes Brandis Suche danach, was es bedeutet, vor 30 Jahren als Frau in einer Band gewesen zu sein. Das Gestaltungssystem soll auf weitere Ausgaben flexibel sowie thematisch und emotional anwendbar sein.",
-  },
-  {
     id: "project-21-alumni-mu",
     accentColor: "#36006A",
     projectDescription: "BUCH- & EDITORIAL DESIGN \n \nPostkartengestaltung für die Muthesius Kunsthochschule",
@@ -89,16 +79,6 @@ const galleryProjectInformation = [
     longTextDescription:
       "AUSSTELLUNGSDESIGN, EDITORIAL DESIGN  \n \nAusstellungs- & Postkartendesign für »Antje Majewski & Paweł Freisler – Apple. An Introduction« \n \nEine Ausstellung, die den Apfel als Kunstobjekt zeigt und als Fallstudie über eine bedrohte Artenvielfalt dient. Wir wurden damit beauftragt, die Postkarte sowie den Wandtext für die Ausstellung zu gestalten.",
   }, 
-  {
-    id: "project-23-sail-away",
-    accentColor: "#02204A",
-    projectDescription: "Buchdesign  \n \nWebdesign für B310",
-    type: "img",
-    categories: ["Buch- & Editorial Design"],
-    mediaTypes: ["img"],
-    longTextDescription:
-      "CORPORATE DESIGN, WEBDESIGN  \n \nWebdesign für B310  \n \nFür die Open Source Agentur B310 entwickelten wir einen frischen, neuen Webauftritt in Form eines OnePagers, der auf dem bestehenden Corporate Design aufbauert und dieses erweitert.",
-  },
   {
     id: "project-25-wolf-biermann-more",
     accentColor: "#443091",
