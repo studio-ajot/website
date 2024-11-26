@@ -90,15 +90,25 @@ const galleryProjectInformation = [
       "AUSSTELLUNGSDESIGN, EDITORIAL DESIGN  \n \nAusstellungs- & Postkartendesign für »Antje Majewski & Paweł Freisler – Apple. An Introduction« \n \nEine Ausstellung, die den Apfel als Kunstobjekt zeigt und als Fallstudie über eine bedrohte Artenvielfalt dient. Wir wurden damit beauftragt, die Postkarte sowie den Wandtext für die Ausstellung zu gestalten.",
   }, 
   {
-    id: "project-29-b310",
+    id: "project-23-sail-away",
     accentColor: "#02204A",
-    projectDescription: "CORPORATE DESIGN, WEBDESIGN  \n \nWebdesign für B310",
+    projectDescription: ""Buch- & Editorial Design"  \n \nWebdesign für B310",
     type: "img",
-    categories: ["Corporate Design", "Webdesign"],
-    mediaTypes: ["img", "vid"],
+    categories: ["Buch- & Editorial Design"],
+    mediaTypes: ["img"],
     longTextDescription:
       "CORPORATE DESIGN, WEBDESIGN  \n \nWebdesign für B310  \n \nFür die Open Source Agentur B310 entwickelten wir einen frischen, neuen Webauftritt in Form eines OnePagers, der auf dem bestehenden Corporate Design aufbauert und dieses erweitert.",
-  },    
+  },
+  {
+    id: "project-25-wolf-biermann-more",
+    accentColor: "#443091",
+    projectDescription: "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION \n \nAnimation & Social Media Kampagnen für Wolf Biermann",
+    type: "vid",
+    categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design"],
+    mediaTypes: ["vid", "img","img", "img", "img","vid", "img"],
+    longTextDescription:
+      "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN \n \nAnimation & Social Media Kampagnen für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+  }, 
   {
     id: "project-17-xmas22",
     accentColor: "#A20E6D",
