@@ -4,15 +4,15 @@ const galleryProjectInformation = [
     accentColor: "#D9BEE1",
     projectDescription: "BUCH- & EDITORIAL DESIGN \n \nPlattengestaltung für Wolf Biermann",
     type: "img",
-    categories: ["Buch- & Editorial Design"],
+    categories: ["Buch- & Editorial Design", "Musik"],
     mediaTypes: ["img"],
     longTextDescription:
-      "BUCH- & EDITORIAL DESIGN \n \nPlattengestaltung für Wolf Biermann: Box-Set "Zeiten Verbinden" \n \nLP Box Set mit 5 Vinyl-LPs und Extras \n \n"Wolf Biermann, Zeuge und Protagonist einer turbulenten Zeit, hat sich stets lautstark zu Wort gemeldet, um seine Kritik an den herrschenden Zuständen zu äußern – und findet nun Unterstützung in einer jungen Generation, die künstlerisch durchaus geprägt ist vom Ton des 1936 in Hamburg geborenen Künstlers, der als junger Mann in die DDR übersiedelte, um später von ihr verstoßen zu werden: weil er sich auch dort nicht zensieren ließ!" – Clouds Hill, das Hamburger Indie-Label um Produzent und Autor Johann Scheerer.",
+      "BUCH- & EDITORIAL DESIGN, MUSIK \n \nPlattengestaltung für Wolf Biermann \n \nDas exklusive Box-Set "Zeiten verbinden" vereint Wolf Biermanns Klassiker & neue Interpretationen und beinhaltet 5 LPs, Art-Prints, Sticker & mehr. \n \nAuf dem Herzstück des Box-Sets, dem Album "Wolf Biermann RE:IMAGINED - Lieder für jetzt", haben sich 22 unterschiedliche Musiker:innen, darunter Alligatoah, OK KID, Betterov, Haiyti oder Torch an Neuinterpretationen von Wolf Biermanns Liedern gewagt. "Wolf Biermann, Zeuge und Protagonist einer turbulenten Zeit, hat sich stets lautstark zu Wort gemeldet, um seine Kritik an den herrschenden Zuständen zu äußern – und findet nun Unterstützung in einer jungen Generation, die künstlerisch durchaus geprägt ist vom Ton des 1936 in Hamburg geborenen Künstlers, der als junger Mann in die DDR übersiedelte, um später von ihr verstoßen zu werden: weil er sich auch dort nicht zensieren ließ!", so die Beschreibung von Clouds Hill, dem Hamburger Indie-Label um Produzent und Autor Johann Scheerer, das die Musik von Wolf Biermann wieder in den Fokus rücken und zugänglich machen will. \nDie beiden Vinyl-Alben "RE:IMAGINED" und "Ermutigung" führen den Kern des Corporate Designs, das wir für Wolf Biermann entwickelt haben, weiter. Dabei bilden typografische 3D-Visuals das zentrale Element.",
   },  
   {
     id: "project-27-chart-light",
     accentColor: "#D9BEE1",
-    projectDescription: "BUCH- & EDITORIAL DESIGN \n \nEditorial Design & Art Direction für Clouds Hill",
+    projectDescription: "BUCH- & EDITORIAL DESIGN, MUSIK \n \nEditorial Design & Art Direction für Clouds Hill",
     type: "img",
     categories: ["Buch- & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img"],
@@ -22,12 +22,12 @@ const galleryProjectInformation = [
   {
     id: "project-24-wolf-biermann",
     accentColor: "#443091",
-    projectDescription: "CORPORATE DESIGN  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann",
+    projectDescription: "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann",
     type: "img",
-    categories: ["Corporate Design"],
+    categories: ["Corporate Design", "Musik"],
     mediaTypes: ["img", "vid", "img", "img", "img", "img"],
     longTextDescription:
-      "CORPORATE DESIGN  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   },
   {
     id: "project-21-alumni-mu",
@@ -42,12 +42,12 @@ const galleryProjectInformation = [
   {
     id: "project-25-wolf-biermann-more",
     accentColor: "#443091",
-    projectDescription: "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION \n \nAnimation & Social Media Kampagnen für Wolf Biermann",
+    projectDescription: "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN, MUSIK \n \nAnimation & Social Media Kampagnen für Wolf Biermann",
     type: "vid",
-    categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design"],
+    categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik"],
     mediaTypes: ["vid", "img","img", "img", "img","vid", "img"],
     longTextDescription:
-      "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN \n \nAnimation & Social Media Kampagnen für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN, MUSIK \n \nAnimation & Social Media Kampagnen für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   }, 
   {
     id: "project-10-epda",
