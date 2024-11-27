@@ -95,7 +95,7 @@ const galleryProjectInformation = [
     projectDescription: "BUCH- UND EDITORIAL DESIGN, ILLUSTRATION \n \nEditorial Design, Art Direction und Illustrationen für ein Reisetagebuch",
     type: "img",
     categories: ["Illustration", "Buch- & Editorial Design"],
-    mediaTypes: ["img"],
+    mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
       "BUCH- UND EDITORIAL DESIGN, ILLUSTRATION \n \nEditorial Design, Art Direction und Illustrationen für ein Reisetagebuch",
   }, 
