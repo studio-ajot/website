@@ -115,7 +115,7 @@ const galleryProjectInformation = [
     projectDescription: "BUCH- & EDITORIAL DESIGN \n \nEditorial Design & Art Direction für Kerstin Abraham und die Sparkassenstiftung Schleswig-Holstein",
     type: "img",
     categories: ["Buch- & Editorial Design"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "BUCH- & EDITORIAL DESIGN \n \nEditorial Design & Art Direction für Kerstin Abraham und die Sparkassenstiftung Schleswig-Holstein \n \nCeramica Borealis 07 – Disegno Ornamento \n \n»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke",
   },  
