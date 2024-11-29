@@ -55,7 +55,7 @@ const galleryProjectInformation = [
     projectDescription: "BUCH- & EDITORIAL DESIGN \n \nEditorial Design & Art Direction für die European Brand and Packaging Design Association",
     type: "img",
     categories: ["Buch- & Editorial Design"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "vid", "img", "img"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "vid", "img", "img", "img"],
     longTextDescription:
       "BUCH- & EDITORIAL DESIGN \n \nEditorial Design & Art Direction für die European Brand and Packaging Design Association, 2022 \n \nThe Design Agency Boost Book \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
   },  
