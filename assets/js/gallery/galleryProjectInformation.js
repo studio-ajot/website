@@ -1,7 +1,7 @@
 const galleryProjectInformation = [
   {
     id: "project-30-WB-box",
-    accentColor: "#D9BEE1",
+    accentColor: "#FF5E00",
     projectDescription: "BUCH- & EDITORIAL DESIGN \n \nPlattengestaltung für Wolf Biermann",
     type: "vid",
     categories: ["Buch- & Editorial Design", "Musik"],
