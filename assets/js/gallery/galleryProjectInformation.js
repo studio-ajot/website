@@ -91,7 +91,7 @@ const galleryProjectInformation = [
   }, 
   {
     id: "project-23-sail-away",
-    accentColor: "#443091",
+    accentColor: "#05D9B8",
     projectDescription: "BUCH- UND EDITORIAL DESIGN, ILLUSTRATION \n \nEditorial Design, Art Direction und Illustrationen für ein Reisetagebuch",
     type: "img",
     categories: ["Illustration", "Buch- & Editorial Design"],
