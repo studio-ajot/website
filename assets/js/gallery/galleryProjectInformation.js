@@ -3,9 +3,9 @@ const galleryProjectInformation = [
     id: "project-30-WB-box",
     accentColor: "#D9BEE1",
     projectDescription: "BUCH- & EDITORIAL DESIGN \n \nPlattengestaltung für Wolf Biermann",
-    type: "img",
+    type: "vid",
     categories: ["Buch- & Editorial Design", "Musik"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
+    mediaTypes: ["vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "BUCH- & EDITORIAL DESIGN, MUSIK \n \nPlattengestaltung für Wolf Biermann \n \nDas exklusive Box-Set »Zeiten verbinden« vereint Wolf Biermanns Klassiker & neue Interpretationen und beinhaltet 5 LPs, Art-Prints, Sticker & mehr. \n \nAuf dem Herzstück des Box-Sets, dem Album »Wolf Biermann RE:IMAGINED - Lieder für jetzt«, haben sich 22 unterschiedliche Musiker:innen, darunter Alligatoah, OK KID, Betterov, Haiyti oder Torch an Neuinterpretationen von Wolf Biermanns Liedern gewagt. »Wolf Biermann, Zeuge und Protagonist einer turbulenten Zeit, hat sich stets lautstark zu Wort gemeldet, um seine Kritik an den herrschenden Zuständen zu äußern – und findet nun Unterstützung in einer jungen Generation, die künstlerisch durchaus geprägt ist vom Ton des 1936 in Hamburg geborenen Künstlers, der als junger Mann in die DDR übersiedelte, um später von ihr verstoßen zu werden: weil er sich auch dort nicht zensieren ließ!«, so die Beschreibung von Clouds Hill, dem Hamburger Indie-Label um Produzent und Autor Johann Scheerer, das die Musik von Wolf Biermann wieder in den Fokus rücken und zugänglich machen will. \nDie beiden Vinyl-Alben »RE:IMAGINED« und »Ermutigung« führen den Kern des Corporate Designs, das wir für Wolf Biermann entwickelt haben, weiter. Dabei bilden typografische 3D-Visuals das zentrale Element.",
   },  
