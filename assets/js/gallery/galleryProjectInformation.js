@@ -42,7 +42,7 @@ const galleryProjectInformation = [
   {
     id: "project-29-webdesign–b310",
     accentColor: "#001F4B",
-    projectDescription: "Webdesign \n \nB310",
+    projectDescription: "Webdesign \n \nB310 digital",
     type: "img",
     categories: ["Webdesign"],
     mediaTypes: ["img", "vid"],
