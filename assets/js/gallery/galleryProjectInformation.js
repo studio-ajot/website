@@ -1,5 +1,15 @@
 const galleryProjectInformation = [
   {
+    id: "project-31-branding-colibris",
+    accentColor: "#FF5E00",
+    projectDescription: "BRANDING \n \nCorporate Design für colibris",
+    type: "img",
+    categories: ["Branding", "Corpoarte Design"],
+    mediaTypes: ["img", "img", "img"],
+    longTextDescription:
+      "BRANDING \n \nCorporate Design für colibris \n \nBrillenlabel colibris aus Lübeck",
+  },    
+  {
     id: "project-30-WB-box",
     accentColor: "#FF5E00",
     projectDescription: "BUCH- & EDITORIAL DESIGN \n \nPlattengestaltung für Wolf Biermann",
