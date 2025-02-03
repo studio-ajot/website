@@ -5,7 +5,7 @@ const galleryProjectInformation = [
     projectDescription: "BRANDING \n \nCorporate Design für colibris",
     type: "img",
     categories: ["Branding", "Corporate Design"],
-    mediaTypes: ["img", "img", "img"],
+    mediaTypes: ["img", "vid", "img", "img"],
     longTextDescription:
       "BRANDING \n \nCorporate Design für colibris \n \nBrillenlabel colibris aus Lübeck",
   },    
