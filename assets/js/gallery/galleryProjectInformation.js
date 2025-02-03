@@ -3,7 +3,7 @@ const galleryProjectInformation = [
     id: "project-31-branding-colibris",
     accentColor: "#FF5E00",
     projectDescription: "BRANDING \n \nCorporate Design für colibris",
-    type: "imh+g",
+    type: "img",
     categories: ["Branding", "Corpoarte Design"],
     mediaTypes: ["img", "img", "img"],
     longTextDescription:
