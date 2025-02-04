@@ -35,7 +35,7 @@ const galleryProjectInformation = [
     projectDescription: "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann",
     type: "img",
     categories: ["Corporate Design", "Musik"],
-    mediaTypes: ["img", "img"],
+    mediaTypes: ["img", "img", "img", "img"],
     longTextDescription:
       "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   },
