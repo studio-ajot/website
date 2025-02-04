@@ -40,6 +40,16 @@ const galleryProjectInformation = [
       "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt. \nFotos von Wolf Biermann: Jonas Albrecht | www.jonas-albrecht.de | @zwischensequenzen",
   },
   {
+    id: "project-29-webdesign–b310",
+    accentColor: "#001F4B",
+    projectDescription: "CORPORATE DESIGN, WEBDESIGN  \n \nWebdesign für B310",
+    type: "img",
+    categories: ["Corporate Design", "Webdesign"],
+    mediaTypes: ["img", "vid"],
+    longTextDescription:
+      "CORPORATE DESIGN, WEBDESIGN  \n \nWebdesign für B310  \n \n Für die Open Source Agentur B310 entwickelten wir einen frischen, neuen Webauftritt in Form eines OnePagers, der auf dem bestehenden Corporate Design aufbauert und dieses erweitert.",
+  },  
+  {
     id: "project-21-alumni-mu",
     accentColor: "#36006A",
     projectDescription: "BUCH- & EDITORIAL DESIGN \n \nPostkartengestaltung für die Muthesius Kunsthochschule",
