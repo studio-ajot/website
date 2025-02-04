@@ -41,13 +41,13 @@ const galleryProjectInformation = [
   },
   {
     id: "project-29-webdesign–b310",
-    accentColor: "#001F4B",
+    accentColor: "#FF0055",
     projectDescription: "CORPORATE DESIGN, WEBDESIGN  \n \nWebdesign für B310",
     type: "img",
     categories: ["Corporate Design", "Webdesign"],
     mediaTypes: ["img", "vid"],
     longTextDescription:
-      "CORPORATE DESIGN, WEBDESIGN  \n \nWebdesign für B310  \n \n Für die Open Source Agentur B310 entwickelten wir einen frischen, neuen Webauftritt in Form eines OnePagers, der auf dem bestehenden Corporate Design aufbauert und dieses erweitert.",
+      "CORPORATE DESIGN, WEBDESIGN  \n \nWebdesign für B310  \n \nFür die Open Source Agentur B310 entwickelten wir einen frischen, neuen Webauftritt in Form eines OnePagers, der auf dem bestehenden Corporate Design aufbauert und dieses erweitert.",
   },  
   {
     id: "project-21-alumni-mu",
