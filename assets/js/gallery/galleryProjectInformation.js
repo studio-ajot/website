@@ -31,7 +31,7 @@ const galleryProjectInformation = [
   },
   {
     id: "project-32-konzertdesign-wolf-biermann",
-    accentColor: "#443091",
+    accentColor: "#FF0055",
     projectDescription: "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann",
     type: "img",
     categories: ["Corporate Design", "Musik"],
