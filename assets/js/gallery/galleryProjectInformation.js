@@ -37,7 +37,7 @@ const galleryProjectInformation = [
     categories: ["Corporate Design", "Musik"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt. \nFotos von Wolf Biermann: Jonas Albrecht | www.jonas-albrecht.de | @zwischensequenzen",
+      "CORPORATE DESIGN, MUSIK  \n \nBühnendesign, Bühnenanimation, Merchandise für das Konzert »Lieder für jetzt« für und mit Wolf Biermann, 2024 \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. Anlässlich des Konzerts »Lieder für Jetzt« im Thalia Theater zu seinem 88. Geburtstag betreuten wir die Kampagne und entwickelten das Bühnendesign. \nFotos von Wolf Biermann: Jonas Albrecht, www.jonas-albrecht.de, @zwischensequenzen",
   },
   {
     id: "project-29-b310",
