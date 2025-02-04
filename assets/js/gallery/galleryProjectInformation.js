@@ -32,7 +32,7 @@ const galleryProjectInformation = [
   {
     id: "project-32-konzertdesign-wolf-biermann",
     accentColor: "#FF0055",
-    projectDescription: "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann",
+    projectDescription: "CORPORATE DESIGN, MUSIK  \n \nBühnendesign, Bühnenanimation, Merchandise für das Konzert »Lieder für jetzt« für und mit Wolf Biermann",
     type: "img",
     categories: ["Corporate Design", "Musik"],
     mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
