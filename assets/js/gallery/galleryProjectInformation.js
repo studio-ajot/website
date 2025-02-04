@@ -41,7 +41,7 @@ const galleryProjectInformation = [
   },
   {
     id: "project-29-b310",
-    accentColor: "#FF0055",
+    accentColor: "#001F4B",
     projectDescription: "CORPORATE DESIGN, WEBDESIGN  \n \nWebdesign für B310 digital",
     type: "img",
     categories: ["Corporate Design", "Webdesign"],
