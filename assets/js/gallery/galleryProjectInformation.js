@@ -110,7 +110,7 @@ const galleryProjectInformation = [
       "AUSSTELLUNGSDESIGN, EDITORIAL DESIGN  \n \nAusstellungs- & Postkartendesign für »Antje Majewski & Paweł Freisler – Apple. An Introduction« \n \nEine Ausstellung, die den Apfel als Kunstobjekt zeigt und als Fallstudie über eine bedrohte Artenvielfalt dient. Wir wurden damit beauftragt, die Postkarte sowie den Wandtext für die Ausstellung zu gestalten.",
   }, 
   {
-    id: "project-23-sail-away",
+    id: "project-23-buchgestaltung-sail-away",
     accentColor: "#05D9B8",
     projectDescription: "BUCH- UND EDITORIAL DESIGN, ILLUSTRATION \n \nEditorial Design, Art Direction und Illustrationen für ein Reisetagebuch",
     type: "img",
