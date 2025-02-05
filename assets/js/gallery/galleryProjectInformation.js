@@ -35,7 +35,7 @@ const galleryProjectInformation = [
     projectDescription: "CORPORATE DESIGN, MUSIK  \n \nBühnendesign, Bühnenanimation, Merchandise für das Konzert »Lieder für jetzt« für und mit Wolf Biermann",
     type: "img",
     categories: ["Corporate Design", "Musik"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
     longTextDescription:
       "CORPORATE DESIGN, MUSIK  \n \nBühnendesign, Bühnenanimation, Merchandise für das Konzert »Lieder für jetzt« für und mit Wolf Biermann, 2024 \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. Anlässlich des Konzerts »Lieder für Jetzt« im Thalia Theater zu seinem 88. Geburtstag betreuten wir die Kampagne und entwickelten das Bühnendesign. \nFotos von Wolf Biermann: Jonas Albrecht, www.jonas-albrecht.de, @zwischensequenzen",
   },
