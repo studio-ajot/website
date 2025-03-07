@@ -1,0 +1,7 @@
+:root {
+    --color-pink: #FC99FC;   /* Pink */
+    --color-orange: #FF8955;  /* Orange */
+    --color-lavender: #DBC4FF; /* Lavendel */
+    --color-light-blue: #A8CAFF; /* Hellblau */
+    --transition: all 0.1s ease-in-out;
+}

@@ -1,0 +1,16 @@
+.viewport section {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    /*height: 100vh;*/
+}
+
+.scroll-with-snap a {
+    height: 40px;
+    width: 40px;
+}
+
+.scroll-with-snap a img {
+    height: 100%;
+    width: 100%;
+}

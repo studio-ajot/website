@@ -1,0 +1,33 @@
+footer {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    white-space: nowrap;
+    z-index: 30;
+    cursor: default;
+    height: 80px;
+    padding-left: 30px;
+}
+
+.footer-button {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    border-left: 1px solid black;
+    transition: var(--transition);
+    color: black;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer-button:hover {
+    color: white;
+}
+
+.icon-container img {
+    transition: var(--transition);
+}
+
+.footer-button:hover img {
+    filter: invert(1);
+}

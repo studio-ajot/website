@@ -1,0 +1,86 @@
+#website_title {
+    z-index: 30;
+}
+
+.nav_section {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 80px;
+    color: black;
+    cursor: default;
+    transition: background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
+    background-color: white;
+}
+
+.nav_section.bg-white {
+    background-color: white;
+}
+
+.nav_section.bg-transparent {
+    background-color: rgba(255, 255, 255, 0.6); /* Light transparency */
+    backdrop-filter: blur(20px); /* Adds the blur effect */
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.nav_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    height: 100%;
+}
+
+.nav_section .logo {
+    padding: 15px 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 45px;
+    letter-spacing: -2px;
+    white-space: nowrap !important;
+}
+
+/****** buttons ******/
+.menu_points {
+    display: flex;
+    align-items: center;
+}
+
+.menu_points ul {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_menu_button {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: black;
+    width: 225px;
+    transition: all 0.1s ease-in-out;
+}
+
+.nav_menu_button:hover,
+.nav_menu_button:focus {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.menu_points a {
+    text-decoration: none;
+}

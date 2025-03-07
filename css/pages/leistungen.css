@@ -1,0 +1,36 @@
+
+.leistungen-text {
+    overflow-x: hidden;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.slider_section {
+    position: relative;
+    max-height: 800px;
+    width: 100vw;
+    overflow: hidden;
+    object-fit: cover;
+    margin-left: -120px; /* Pulls the slider outward to compensate for padding */
+    margin-right: -120px;}
+
+.slider_section .carousel-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    overflow-x: hidden;
+    margin: 0 20px;
+}
+
+.flickity_img,
+.flickity_vid {
+    max-width: 50vw;
+    min-width: 50vw;
+    object-fit: cover;
+}

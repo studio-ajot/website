@@ -1,0 +1,46 @@
+:root {
+    --button-width: 250px;
+    --button-width-big: 300px;
+    --button-radius: 40px;
+    --button-padding: 10px 20px;
+}
+
+button.big {
+    width: var(--button-width-big);
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: var(--button-radius);
+    width: var(--button-width);
+    padding: var(--button-padding);
+    transition: var(--transition);
+    height: 50px;
+}
+
+
+/* Primary Button */
+.primary-button {
+    background-color: black;
+    color: white;
+}
+
+.primary-button:hover {
+    background-color: transparent;
+    color: black;
+}
+
+/* Secondary Button */
+.secondary-button {
+    background-color: transparent;
+    color: black;
+}
+
+.secondary-button:hover {
+    background-color: black;
+    color: white;
+}

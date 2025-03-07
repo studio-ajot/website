@@ -1,305 +1,172 @@
 <!DOCTYPE html>
-<html lang="de" class="active">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/flickity.min.css" />
-    <link
-      rel="icon"
-      href="./assets/images/favicon_studio-ajot.png"
-      type="image/gif"
-      sizes="16x16"
-    />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/css/responsive-style.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/css/mobile-detect.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/css/gallery-filterbar.css"
-    />
-    <link rel="stylesheet" type="text/css" href="assets/css/text-styles.css" />
-    <title>Studio für Grafikdesign in Berlin & Hamburg | Studio Ajot</title>
-    <meta
-      name="description"
-      content="Studio Ajot ist ein Grafikdesign-Studio in Berlin & Hamburg. Wir bieten kreative Lösungen für Unternehmen aus Kunst, Musik, Kultur und mehr."
-    />
-    <style>
-      html.active {
-        cursor: auto;
-      }
+<html lang="de" class="active" id="index_html">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="assets/icons/favicon_studio-ajot.png" type="image/gif"
+        sizes="16x16" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/pages/index.css" />
+  <link rel="stylesheet" type="text/css" href="css/components/slider/slider-for-index-page.css" />
+  <link rel="stylesheet" href="css/components/gallery.css" />
+  <title>Unser Portfolio | Grafikdesign, Digital & Print | Studio Ajot</title>
+  <meta name="description"
+        content="Erkunde unser Portfolio: Von Markenidentitäten, über Websites bis hin zu Büchern, Plattencovern & Postern. Kreative Grafikdesign-Lösungen für Ihr Projekt." />
+</head>
 
-      html.wf-loading * {
-        opacity: 0;
-      }
-    </style>
-  </head>
-
-  <body>
-    <!-- Navigation -->
-    <nav class="nav_section white-bg" id="index-nav">
-      <div class="nav_row">
-        <a href="index.html" class="logo" id="website_title">Studio Ajot</a>
-        <!-- hamburger menu button -->
-        <button type="button" class="burger_menu">
-          <span class="icon" id="icon"></span>
-          <span class="icon2" id="icon2"></span>
-          <span class="icon3" id="icon3"></span>
-        </button>
-      </div>
-      <!-- menu points -->
-      <div class="menu_points">
-        <!-- <span id="subtitle" class="accent_border accent_text">
-          Visuelle Kommunikation
-        </span> -->
-        <ul>
-          <li>
-            <a
-              class="nav_menu_button nav_menu_button--big black-bg"
-              href="index.html"
-              ><span class="index-link">Visuelle Kommunikation</span></a
-            >
-          </li>
-          <li>
-            <a class="nav_menu_button black-bg" href="galerie.html"
-              ><span class="index-link">Galerie</span></a
-            >
-          </li>
-          <li>
-            <a class="nav_menu_button black-bg" href="ueber-uns.html">
-              <span class="index-link">Über uns</span>
-            </a>
-          </li>
-          <li>
-            <a class="nav_menu_button black-bg" href="kompetenzen.html"
-              ><span class="index-link">Kompetenzen</span></a
-            >
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- Main Content -->
-    <main class="main-content gallery-main">
-      <div class="filter-bar-container">
-        <ul class="filter-bar">
-          <li
-            class="filter-bar__filter-element filter-bar__filter-element--selected"
-            data-filter="none"
-          >
-            Alle
-          </li>
-        </ul>
-      </div>
-      <div class="gallery-container grid"></div>
-    </main>
-    <!-- Footer -->
-    <footer class="fixed-bottom site-padding-x site-padding-y bottom white">
-      <div class="row g-0">
-        <div class="col-3">
-          Hamburg & Berlin<br />
-          <a href="impressum-datenschutz.html"><span>Impressum</span></a>
-        </div>
-        <div class="col-9 text-end">
-          <a
-            href="mailto:hello@studio-ajot.de"
-            target="_blank"
-            class="footer footer-link"
-            ><i class="fas fa-arrow-right text-decoration-none"></i
-            ><span>Mail</span></a
-          >
-          <a href="https://www.instagram.com/studio.ajot" target="_blank"
-            ><br /><i class="fas fa-arrow-right text-decoration-none"></i
-            ><span>Instagram</span></a
-          >
+<body>
+<!-- Navigation -->
+<nav class="nav_section" id="index-nav">
+  <div class="nav_row site-padding-x site-padding-y">
+    <a href="" class="logo" id="website_title"><img
+      src='assets/icons/ajot-logo.svg' alt='Studio Ajot'></img></a>
+    <!-- hamburger menu button -->
+    <button type="button" class="burger_menu">
+      <span class="icon" id="icon"></span> <span class="icon2" id="icon2"></span> <span
+      class="icon3" id="icon3"></span>
+    </button>
+  </div>
+  <!-- menu points -->
+  <div class="menu_points">
+    <!-- <span id="subtitle"> Visuelle Kommunikation </span> -->
+    <ul>
+      <li>
+        <a class="slider__nav_menu_button nav_menu_button accent_bg"
+           href="#projekte"> <span class="index-link">Projekte</span> </a>
+      </li>
+      <li>
+        <a class="slider__nav_menu_button nav_menu_button accent_bg" href="/leistungen.html">
+          <span
+            class="index-link">Leistungen</span></a>
+      </li>
+      <li>
+        <a class="slider__nav_menu_button nav_menu_button accent_bg" href="/ueber-uns.html"> <span
+          class="index-link">Über uns</span> </a>
+      </li>
+      <li>
+        <a class="slider__nav_menu_button nav_menu_button accent_bg" href="/kontakt.html"><span
+          class="index-link">Kontakt</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Main section -->
+<main class='d-flex flex-column align-items-stretch'>
+  <!--  Section: Slider -->
+    <section class='slider_section p-0'>
+      <div class='slider-arrow-right'></div>
+      <div class='slider-arrow-left'></div>
+      <div></div>
+      <div id='intro-text'>
+        <h1>Grafikdesign in <br /> Hamburg & Berlin</h1>
+        <div class='flex-row d-flex gap-3 mt-4'>
+          <button class='button primary-button'>Mehr erfahren</button>
+          <button class='button secondary-button'>Sag Hallo!</button>
         </div>
       </div>
-    </footer>
+      <div class="main-carousel">
+      </div>
+      <div id="progress-bar">
+        <div id="progress-bar-bg"></div>
+        <div id="progress-bar-highlight"></div>
+      </div>
+    </section>
+  <!-- Section: Introduction -->
+  <section class='bg-lavender section-padding'>
+    <div class='d-flex flex-row gap-5'>
+      <div class='d-flex flex-column w-75 gap-5'>
+        <h1>Büro für Grafikdesing <br />in Berlin und Hamburg</h1>
+        <p class='copy-1'>Studio Ajot ist ein Grafikdesign-Studio mit besonderem Fokus auf
+                          Typografie. Wir gestalten visuelle Identitäten und alle Arten von
+                          Druckerzeugnissen und arbeiten mit Kund:innen aus einem breiten Feld
+                          zwischen Wirtschaft, Entwicklung, Kunst, Musik und Kultur zusammen. Von
+                          Johanna Klüsener und Anastasia Marx in Kiel gegründet, ist das Studio
+                          heute in Hamburg und Berlin ansässig.</p>
+        <button class='button primary-button'>Über uns</button>
+      </div>
+      <div class='d-flex flex-column w-25 gap-5'>
+        <h1>Unsere<br />Schwerpunkte</h1>
+        <div class='d-flex flex-column gap-2'>
+          <button class='button primary-button big'>Corporate Design</button>
+          <button class='button primary-button big'>Buch- und Editorial Design</button>
+          <button class='button primary-button big'>Digital- und Webdesign</button>
+          <button class='button secondary-button big'>Alle Leistungen</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Gallery -->
+    <section  id="projekte" class='bg-black section-padding'>
+      <div class='d-flex flex-column gap-3'>
+        <h1 class='text-white'>Projekte</h1>
+        <div class="filter-bar-container">
+          <i class="fas fa-arrow-left arrow-left color-white"></i>
+          <ul class="filter-bar">
+            <li
+              class="button button-primary border border-white filter-bar__filter-element filter-bar__filter-element--selected"
+              data-filter="none"
+            >
+              Alle
+            </li>
+          </ul>
+          <i class="fas fa-arrow-right arrow-right color-white"></i>
+        </div>
+        <div class="gallery-container grid"></div>
+      </div>
+    </section>
+  </main>
+  <!-- Section: Contact -->
+  <section id="kontakt" class='bg-light-blue section-padding py-5'>
+    <div class='d-flex flex-row gap-5'>
+      <div class='d-flex flex-column w-75 gap-5'>
+        <h1>Kontakt zu uns</h1>
+        <p class='copy-1'>Kontaktier uns gerne, wenn du mit uns zusammenarbeiten möchtest oder
+                          Fragen zu unserer Arbeit hast. Wir freuen uns, von dir zu hören!</p>
+        <button class='button primary-button'>Nachricht abschicken</button>
+      </div>
+      <div class='d-flex flex-column w-25 gap-5'>
+        <h1>Berlin Office</h1>
+        <p class='copy-1'>Anastasia Marx <br /> Mail: <a href='mailto:anastasia@studio-ajot.de'>anastasia@studio-ajot.de</a><br />
+                          Telefon: <a href='tel:+49 155 664 689 14'>+49 155 664 689 14</a><br />
+          <br /> Kastanienallee 71<br /> 10435 Berlin
+        </p>
+        <h1>Hamburg Office</h1>
+        <p class='copy-1'>Johanna Klüsener<br /> Mail: <a href='mailto:johanna@studio-ajot.de'>johanna@studio-ajot.de</a><br />
+                          Telefon: <a href='tel:+49 170 121 16 02'>+49 170 121 16 02</a><br />
+          <br /> Mörkenstraße 8<br /> 22767 Hamburg
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bottom site-padding-x bg-light-blue" id="index-footer">
+    <div class="d-flex flex-row justify-content-between align-items-stretch h-100">
+      <div class='h-100 d-flex align-items-center'>
+        © Studio Ajot, <span id="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
+      </div>
+      <div class='d-flex flex-row'>
+        <a href="https://www.instagram.com/studio.ajot" target="_blank"
+           class="secondary-button footer-button"><img src="assets/icons/instagram.svg" alt='Instgram'> </a> <a
+        href="https://www.instagram.com/studio.ajot" target="_blank"
+        class="secondary-button footer-button"><img src="assets/icons/linkedin.svg" alt='LinkedIn'></a> <a
+        href="https://www.instagram.com/studio.ajot" target="_blank"
+        class="secondary-button footer-button">Datenschutz</a> <a
+        href="https://www.instagram.com/studio.ajot" target="_blank"
+        class="secondary-button footer-button">Impressum</a>
+      </div>
+    </div>
+  </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/mainFunctions.js"></script>
-    <script src="assets/js/gallery/gallery.js"></script>
-    <script src="assets/js/setColorInMobileMenu.js"></script>
-    <script src="assets/js/gallery/galleryProjectInformation.js"></script>
-    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="js/libraries/flickity.pkgd.min.js"></script>
+  <script src="js/libraries/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+  <script src="content-management/gallery-project-information.js"></script>
+  <script src="content-management/slider-project-information.js"></script>
+  <script src="js/main-functions.js"></script>
+  <script src="js/components/gallery/gallery.js"></script>
+  <script src="js/pages/index.js"></script>
+</body>
 
-    <script>
-      $(document).ready(function () {
-        let videoPrefix;
-        let imagePrefix;
-        let mediaPostfix;
-        if (
-          /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-            navigator.userAgent
-          )
-        ) {
-          $("body").addClass("mobile-detect");
-          $(".gallery-main").css({
-            "min-width": "0",
-            "overflow-x": "hidden",
-          });
-          $(".filter-bar-container").css({
-            display: "none",
-          });
-          videoPrefix = `assets/gallery/mobile/`;
-          imagePrefix = `assets/gallery/mobile/`;
-          mediaPostfix = "-mobile";
-        } else {
-          $("body").removeClass("mobile-detect");
-          videoPrefix = `assets/gallery/web/`;
-          imagePrefix = `assets/gallery/web/`;
-          mediaPostfix = "-web";
-        }
-
-        // --- Initialize isotope grid --- //
-        $(".grid").isotope({
-          // options
-          itemSelector: ".grid-item",
-          layoutMode: "fitRows",
-          percentPosition: true,
-          masonry: {
-            columnWidth: ".grid-sizer",
-            gutter: ".gutter-sizer",
-            horizontalOrder: true,
-          },
-        });
-
-        // --- Fill filter bar dynamically --- //
-        const allCategories = Array.from([
-          ...new Set(
-            galleryProjectInformation
-              .map((item) =>
-                item.categories.map((category) => category.toUpperCase())
-              )
-              .reduce((acc, val) => acc.concat(val), [])
-          ),
-        ]).sort();
-        allCategories.forEach((categoryForFilter) => {
-          $(".filter-bar").append(
-            `<li class="filter-bar__filter-element" data-filter="${categoryForFilter.replace(
-              /[\W_]+/g,
-              ""
-            )}">${categoryForFilter}</li>`
-          );
-        });
-
-        // --- Resize and reposition items when gallery is filtered --- //
-        $(".filter-bar__filter-element").on("click", function () {
-          const filter = $(this).data("filter");
-          $(".grid").isotope({
-            filter: filter === "none" ? "*" : "." + filter,
-          });
-
-          $(".filter-bar__filter-element").removeClass(
-            "filter-bar__filter-element--selected"
-          );
-
-          $(this).addClass("filter-bar__filter-element--selected");
-          resizeGalleryItems();
-        });
-
-        // --- Fill gallery dynamically --- //
-        galleryProjectInformation.forEach((project, index) => {
-          if (project.mediaTypes[0] === "img") {
-            var $content = $(`
-                  <a href="${
-                    project.id
-                  }.html" class="gallery-container__element grid-item is-filtered ${project.categories
-              .map((category) => category.toUpperCase().replace(/[\W_]+/g, ""))
-              .join(" ")}">
-                    <img src=${
-                      imagePrefix + `${project.id}/` + project.id + "-1.jpg"
-                    } />
-                    <div class="gallery-container__overlay" style="background-color: ${
-                      project.accentColor
-                    }">${project.projectDescription}</div>
-                  </a>
-                  `);
-            $(".grid").append($content).isotope("appended", $content);
-          } else if (project.mediaTypes[0] === "vid") {
-            var $content = $(`
-                  <a href="${
-                    project.id
-                  }.html" class="gallery-container__element grid-item is-filtered ${project.categories
-              .map((category) => category.toUpperCase().replace(/[\W_]+/g, ""))
-              .join(" ")}">
-                    <video autoplay loop muted playsinline id=${project.id}>
-                      <source src="${
-                        videoPrefix + `${project.id}/` + project.id
-                      }-1.webm" type="video/webm" />
-                      <source src="${
-                        videoPrefix + `${project.id}/` + project.id
-                      }-1.mp4" type="video/mp4"
-                      poster=${
-                        videoPrefix +
-                        `${project.id}/` +
-                        "poster/" +
-                        project.id +
-                        mediaPostfix +
-                        ".jpg"
-                      }/>
-                    </video>
-                    <div class="gallery-container__overlay" style="background-color: ${
-                      project.accentColor
-                    }">${project.projectDescription}</div>
-                  </a>
-                  `);
-            $(".grid").append($content).isotope("appended", $content);
-          }
-        });
-
-        // layout Isotope after each image loads
-        $(".grid")
-          .imagesLoaded()
-          .progress(function () {
-            $(".grid").isotope("layout");
-          });
-      });
-
-      $(window).on("resize", function () {
-        if (menuIsOpen()) {
-          closeMenu();
-          setColorInClosedMenu("black");
-        }
-        resizeGalleryItems();
-      });
-
-      $(".burger_menu").click(function () {
-        toggleMenu();
-        if (menuIsOpen()) {
-          setColorInOpenMenu("black");
-        } else {
-          setColorInClosedMenu("black");
-        }
-      });
-
-      $(".nav_section ul li a").click(function () {
-        setColorInOpenMenu("black");
-        setColorInClosedMenu("black");
-        if (
-          $(".burger_menu").hasClass("open") ||
-          $(".nav_section .menu_points").hasClass("active")
-        ) {
-          $(".burger_menu").removeClass("open");
-          $(".nav_section .menu_points").removeClass("active");
-        }
-      });
-    </script>
-  </body>
 </html>
