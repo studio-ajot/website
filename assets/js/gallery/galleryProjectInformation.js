@@ -61,7 +61,7 @@ const galleryProjectInformation = [
   },
   {
     id: "project-25-wolf-biermann-more",
-    accentColor: "#443091",
+    accentColor: "#E64114",
     projectDescription: "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN, MUSIK \n \nAnimation & Social Media Kampagnen für Wolf Biermann",
     type: "img",
     categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik"],
