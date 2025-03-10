@@ -80,6 +80,16 @@ const galleryProjectInformation = [
       "BUCH- & EDITORIAL DESIGN \n \nEditorial Design & Art Direction für die European Brand and Packaging Design Association, 2022 \n \nThe Design Agency Boost Book \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt.",
   },  
   {
+    id: "projekt-33-musikdesign-wolf-biermann-ermutigung",
+    accentColor: "#443091",
+    projectDescription: "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN, MUSIK \n \nAnimation & Social Media Kampagnen für Wolf Biermann",
+    type: "vid",
+    categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik"],
+    mediaTypes: [""vid","img", "img"],
+    longTextDescription:
+      "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN, MUSIK \n \nAnimation & Social Media Kampagnen für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+  },     
+  {
     id: "project-20-jazzica",
     accentColor: "#430244",
     projectDescription: "CORPORATE DESIGN, SCHRIFTGESTALTUNG, PLAKATGESTALTUNG, ANIMATION, WEBDESIGN \n \nAufbau einer Markenidentität & Entwicklung von Werbemaßnahmen für Jazzica",
@@ -89,16 +99,6 @@ const galleryProjectInformation = [
     longTextDescription:
       "CORPORATE DESIGN, SCHRIFTGESTALTUNG, PLAKATGESTALTUNG, ANIMATION, WEBDESIGN \n \nAufbau einer Markenidentität & Entwicklung von Werbemaßnahmen für Jazzica  \n \nDer Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft.",
   },  
-  {
-    id: "projekt-33-musikdesign-wolf-biermann-ermutigung",
-    accentColor: "#443091",
-    projectDescription: "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN, MUSIK \n \nAnimation & Social Media Kampagnen für Wolf Biermann",
-    type: "vid",
-    categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik"],
-    mediaTypes: [""vid","img", "img"],
-    longTextDescription:
-      "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN, MUSIK \n \nAnimation & Social Media Kampagnen für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
-  },   
  {
     id: "project-24-wolf-biermann",
     accentColor: "#443091",
