@@ -8,8 +8,8 @@ $(document).ready(function () {
         $(".filter-bar-container").hide();
     }
 
-    const videoPrefix = `/assets/media/gallery/${mediaPath}/`;
-    const imagePrefix = `/assets/media/gallery/${mediaPath}/`;
+    const videoPrefix = `./assets/media/gallery/${mediaPath}/`;
+    const imagePrefix = `./assets/media/gallery/${mediaPath}/`;
 
     $(".grid").isotope({
         itemSelector: ".grid-item",
