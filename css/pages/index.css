@@ -1,6 +1,11 @@
-#intro-text{
+#intro-text {
     position: absolute;
     bottom: 30px;
     left: 30px;
     z-index: 1;
+}
+
+#projekte {
+    height: auto;
+    transition: height 0.5s ease-in-out;
 }

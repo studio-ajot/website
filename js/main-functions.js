@@ -15,6 +15,11 @@ function closeMenu() {
     $(".nav_section .menu_points").removeClass("active");
 }
 
+// Close menu when a nav item is clicked
+// function closeMenuOnNavClick() {
+//     $(".burger_menu, .nav_section .menu_points").removeClass("open active");
+// }
+
 function detectMobile() {
     if (
         /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -28,7 +33,26 @@ function detectMobile() {
 }
 
 $(document).ready(function () {
+    $(".burger_menu").click(toggleMenu);
     $("#year").text('\u00A0' + new Date().getFullYear() + '\u00A0');
+    detectMobile()
+
+    // Handle navigation item click
+    // $(".nav_section ul li a").click(closeMenuOnNavClick);
+
+    let leaveTimeout;
+
+    $(".hover-target").mouseenter(
+        function () {
+            clearTimeout(leaveTimeout); // Falls Mouseleave aktiv war, abbrechen
+            $(".submenu").addClass("active");
+        }
+    );
+    $(".hover-target").mouseleave(function () {
+        leaveTimeout = setTimeout(() => {
+            $(".submenu").removeClass("active");
+        }, 100); // Verzögerung beim Schließen
+    });
 });
 
 
@@ -39,14 +63,3 @@ function setProgressBarHightlight(index) {
     var left = width * index;
     $("#progress-bar-highlight").css("left", `${left}px`);
 }
-
-window.addEventListener("scroll", function () {
-    const nav = document.querySelector(".nav_section");
-    if (window.scrollY === 0) {
-        nav.classList.add("bg-white");
-        nav.classList.remove("bg-transparent");
-    } else {
-        nav.classList.add("bg-transparent");
-        nav.classList.remove("bg-white");
-    }
-});

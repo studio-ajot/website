@@ -5,6 +5,10 @@
     --button-padding: 10px 20px;
 }
 
+a.button {
+    text-decoration: none !important;
+}
+
 button.big, a.big {
     width: var(--button-width-big);
 }
@@ -20,6 +24,7 @@ button.big, a.big {
     padding: var(--button-padding);
     transition: var(--transition);
     height: 50px;
+    cursor: pointer;
 }
 
 
@@ -30,8 +35,9 @@ button.big, a.big {
 }
 
 .primary-button:hover {
-    background-color: transparent;
+    background-color: white;
     color: black;
+    border-color: white;
 }
 
 /* Secondary Button */
@@ -41,6 +47,6 @@ button.big, a.big {
 }
 
 .secondary-button:hover {
-    background-color: black;
+    border-color: white;
     color: white;
 }

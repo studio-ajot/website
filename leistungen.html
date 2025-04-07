@@ -28,6 +28,9 @@
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/pages/leistungen.css" />
   <link rel="stylesheet" href="css/utilities/scroll-with-snap.css" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.min.css">
+
 </head>
 
 <body class=overflow-hidden>
@@ -42,23 +45,46 @@
       class="icon3" id="icon3"></span>
     </button>
   </div>
-  <!-- menu points -->
+  <!-- Main menu -->
   <div class="menu_points">
-    <!-- <span id="subtitle"> Visuelle Kommunikation </span> -->
     <ul>
+      <!-- Projekte -->
       <li>
         <a class="slider__nav_menu_button nav_menu_button accent_bg"
            href="./index.html#projekte"> <span class="index-link">Projekte</span> </a>
       </li>
-      <li>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./leistungen.html">
+      <!-- Leistungen -->
+      <li class='hover-target'>
+        <a class="slider__nav_menu_button nav_menu_button accent_bg"
+           href="./leistungen.html">
           <span
             class="index-link">Leistungen</span></a>
+        <!-- Sub menu -->
+        <ul class='submenu'>
+          <li>
+            <a href="#corporate-design"> <span class="button primary-button">Corporate Design</span>
+            </a>
+          </li>
+          <li>
+            <a href="#editorial-design"> <span
+              class="button primary-button">Buch- und Editorial Design </span> </a>
+          </li>
+          <li>
+            <a href="#web-design"> <span
+              class="button primary-button">Web und Digital Design</span> </a>
+          </li>
+          <li>
+            <a href="#experimental"> <span
+              class="button primary-button">Design</span> </a>
+          </li>
+        </ul>
       </li>
+      <!-- über uns -->
       <li>
         <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./ueber-uns.html"> <span
           class="index-link">Über uns</span> </a>
       </li>
+      <!-- Kontakt-->
       <li>
         <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./kontakt.html"><span
           class="index-link">Kontakt</span></a>
@@ -68,93 +94,97 @@
 </nav>
 
 <main>
-  <div class="viewport">
-    <section class="scroll-with-snap" id="projekt-1">
-      <video autoplay loop muted playsinline>
-        <source src="./assets/media/leistungen/leistungen-1-web.mp4" type="video/mp4">
-      </video>
-      <!--      <img src="/assets/media/leistungen/leistungen-1-web.jpg" alt="Projekt 1">-->
-      <div class='leistungen-text'>
-        <h1>Corporate Design</h1>
-        <h2>Mit unserem Ansatz machen wir das Gefühl hinter Ihrer Marke sichtbar – für ein
-            Erscheinungsbild, das begeistert.</h2>
-        <div class='flex-row d-flex gap-3 mt-4'>
-          <a href='./corporate-design.html' class='text-decoration-none'>
-            <button class='button primary-button'>Mehr erfahren</button>
-          </a></div>
-      </div>
-    </section>
-    <section class="scroll-with-snap" id="projekt-2">
-      <img src="./assets/media/leistungen/leistungen-2-web.jpg" alt="Projekt 2">
-      <div class='leistungen-text'>
-        <h1>Buch- und<br /> Editorial Design</h1>
-        <h2>Unsere Arbeit umfasst Projekte wie Romane, Kunstbücher, Jahresberichte und vieles mehr.
-            Gemeinsam kreieren wir Druckobjekte, die nicht nur praktisch, sondern auch emotional und
-            ästhetisch überzeugen.</h2>
-        <div class='flex-row d-flex gap-3 mt-4'>
-          <a href='./buch-design.html' class='text-decoration-none'>
-            <button class='button primary-button'>Mehr erfahren</button>
-          </a></div>
-      </div>
-    </section>
-    <section class="scroll-with-snap" id="projekt-3">
-      <video autoplay loop muted playsinline>
-        <source src="./assets/media/leistungen/leistungen-3-web.mp4" type="video/mp4">
-      </video>
-      <div class='leistungen-text'>
-        <h1>Web- und<br /> Digital Design</h1>
-        <h2>Unser Ziel: Interaktive Medien, die inspirieren und Nutzer:innen nachhaltig
-            begeistern.</h2>
-        <div class='flex-row d-flex gap-3 mt-4'>
-          <a href='./web-design.html' class='text-decoration-none'>
-            <button class='button primary-button'>Mehr erfahren</button>
-          </a>
-        </div>
-      </div>
-    </section>
-    <section class="scroll-with-snap" id="projekt-4">
-      <img src="./assets/media/leistungen/leistungen-4-web.jpg" alt="Projekt 4">
-      <div class='leistungen-text'>
-        <h1>Geht nicht,<br /> gibt’s nicht!</h1>
-        <h2>Neben den klassischen Produkten wie Geschäftsausstattungen, Werbeprodukten, Büchern
-            sowie digitalen Anwendungen gibt es gestalterische Aufgaben, die irgendwo dazwischen
-            liegen und die wir mit Begeisterung, Kreativität und Neugierde gemeinsam mit unseren
-            Kund:innen angehen.</h2>
-        <div class='flex-row d-flex gap-3 mt-4'>
-          <a href='./design.html' class='text-decoration-none'>
-            <button class='button primary-button'>Mehr erfahren</button>
-          </a></div>
-      </div>
-    </section>
+  <div class="scroll-indicator">
+    <a href="#corporate-design" class="dot active"></a> <a href="#editorial-design"
+                                                           class="dot"></a> <a
+    href="#web-design" class="dot"></a> <a href="#experimental" class="dot"></a>
   </div>
+  <section class="scroll-with-snap" data-section-name="corporate-design">
+    <video autoplay loop muted playsinline>
+      <source src="./assets/media/leistungen/leistungen-1-web.mp4" type="video/mp4">
+    </video>
+    <!--      <img src="/assets/media/leistungen/leistungen-1-web.jpg" alt="Projekt 1">-->
+    <div class='leistungen-text'>
+      <h1>Corporate Design</h1>
+      <h2>Mit unserem Ansatz machen wir das Gefühl hinter Ihrer Marke sichtbar – für ein
+          Erscheinungsbild, das begeistert.</h2>
+      <div class='flex-row d-flex gap-3 mt-4'>
+        <a href='leistungen/corporate-design.html' class='text-decoration-none'>
+          <button class='button primary-button'>Mehr erfahren</button>
+        </a></div>
+    </div>
+  </section>
+  <section class="scroll-with-snap" data-section-name="editorial-design">
+    <img src="./assets/media/leistungen/leistungen-2-web.jpg" alt="Projekt 2">
+    <div class='leistungen-text'>
+      <h1>Buch- und<br /> Editorial Design</h1>
+      <h2>Unsere Arbeit umfasst Projekte wie Romane, Kunstbücher, Jahresberichte und vieles mehr.
+          Gemeinsam kreieren wir Druckobjekte, die nicht nur praktisch, sondern auch emotional und
+          ästhetisch überzeugen.</h2>
+      <div class='flex-row d-flex gap-3 mt-4'>
+        <a href='leistungen/editorial-design.html' class='text-decoration-none'>
+          <button class='button primary-button'>Mehr erfahren</button>
+        </a></div>
+    </div>
+  </section>
+  <section class="scroll-with-snap" data-section-name="web-design">
+    <video autoplay loop muted playsinline>
+      <source src="./assets/media/leistungen/leistungen-3-web.mp4" type="video/mp4">
+    </video>
+    <div class='leistungen-text'>
+      <h1>Web- und<br /> Digital Design</h1>
+      <h2>Unser Ziel: Interaktive Medien, die inspirieren und Nutzer:innen nachhaltig
+          begeistern.</h2>
+      <div class='flex-row d-flex gap-3 mt-4'>
+        <a href='leistungen/web-design.html' class='text-decoration-none'>
+          <button class='button primary-button'>Mehr erfahren</button>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="scroll-with-snap" data-section-name="experimental">
+    <img src="./assets/media/leistungen/leistungen-4-web.jpg" alt="Projekt 4">
+    <div class='leistungen-text'>
+      <h1>Geht nicht,<br /> gibt’s nicht!</h1>
+      <h2>Neben den klassischen Produkten wie Geschäftsausstattungen, Werbeprodukten, Büchern sowie
+          digitalen Anwendungen gibt es gestalterische Aufgaben, die irgendwo dazwischen liegen und
+          die wir mit Begeisterung, Kreativität und Neugierde gemeinsam mit unseren Kund:innen
+          angehen.</h2>
+      <div class='flex-row d-flex gap-3 mt-4'>
+        <a href='leistungen/experimental.html' class='text-decoration-none'>
+          <button class='button primary-button'>Mehr erfahren</button>
+        </a></div>
+    </div>
+  </section>
 </main>
 
 <!-- Footer -->
-<footer class="bottom site-padding-x bg-lavender" id="index-footer">
+<footer class="bottom site-padding-x bg-lavender  footer" id="index-footer">
   <div class="d-flex flex-row justify-content-between align-items-stretch h-100">
     <div class='h-100 d-flex align-items-center'>
       © Studio Ajot, <span id="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
     </div>
     <div class='d-flex flex-row'>
       <a href="https://www.instagram.com/studio.ajot" target="_blank"
-         class="secondary-button footer-button"><img src="assets/icons/instagram.svg"
-                                                     alt='Instgram'> </a> <a
+         class="footer-button"><img src="assets/icons/instagram.svg"
+                                    alt='Instgram'> </a> <a
       href="https://www.instagram.com/studio.ajot" target="_blank"
-      class="secondary-button footer-button"><img src="assets/icons/linkedin.svg"
-                                                  alt='LinkedIn'></a> <a
-      href="/datenschutz.html"
-      class="secondary-button footer-button">Datenschutz</a> <a
-      href="/impressum.html"
-      class="secondary-button footer-button">Impressum</a>
+      class="footer-button"><img src="assets/icons/linkedin.svg"
+                                 alt='LinkedIn'></a> <a
+      href="./datenschutz.html" target="_blank"
+      class="footer-button">Datenschutz</a> <a
+      href="./impressum.html" target="_blank"
+      class="footer-button">Impressum</a>
     </div>
   </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
-<script src="js/libraries/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="assets/libraries/js/jquery-3.7.1.min.js"></script>
+<script src="assets/libraries/js/bootstrap.bundle.min.js"></script>
+<script src="assets/libraries/js/popper.js"></script>
+<script src="assets/libraries/js/jquery.scrollify.js"></script>
 <script src="js/main-functions.js"></script>
-<script src="js/utility/scroll-with-snap.js"></script>
+<script src="js/pages/leistungen.js"></script>
 </body>
 
 </html>

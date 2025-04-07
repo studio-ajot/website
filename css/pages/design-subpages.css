@@ -1,0 +1,84 @@
+/* ################################
+#              slider              #
+#################################*/
+.main-carousel {
+    /*height: 1050px;*/
+    cursor: url('../../assets/icons/cursor-for-carousel.svg') 16 16, auto !important;
+    width: 100vw;
+    overflow: hidden;
+    margin-left: -120px; /* Pulls the slider outward to compensate for padding */
+    margin-right: -120px;
+}
+
+/*.flickity-slider {*/
+/*    display: flex;*/
+/*    justify-items: center;*/
+/*    align-items: center;*/
+/*}*/
+
+.carousel-cell {
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    display: block;
+    vertical-align: center;
+    object-fit: cover;
+
+}
+
+.carousel-cell.is-selected {
+    opacity: 1;
+    /*z-index: 2;*/
+}
+.carousel-cell:not(.is-selected) {
+    opacity: 0.2;
+    /*height: 90%;*/
+}
+
+.flickity_img,
+.flickity_vid {
+    object-fit: cover;
+    /*width: 55%;*/
+    overflow-x: hidden;
+    /*margin: 100px;*/
+    /*height: 100%;*/
+
+}
+
+
+/* ################################
+#          prev/next button      #
+#################################*/
+.flickity-prev-next-button {
+    top: 50%;
+    width: 36px !important;
+    height: 65px !important;
+    border-radius: 25% !important;
+    background-color: var(--color-lavender) !important;
+    transition: all .2s ease-in-out;
+    opacity: 0.8;
+}
+
+.flickity-prev-next-button:hover {
+    transform: translateY(-50%) scale(1.4);
+    opacity: 1;
+}
+
+
+.flickity-prev-next-button.previous {
+    left: 40px;
+}
+
+.flickity-prev-next-button.next {
+    right: 40px;
+}
+
+/* ################################
+#    flickity dots / progressbar  #
+#################################*/
+/* style in mobile-detect.css */
+.flickity-page-dots {
+    display: none;
+}

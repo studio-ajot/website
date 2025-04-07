@@ -40,23 +40,46 @@
       class="icon3" id="icon3"></span>
     </button>
   </div>
-  <!-- menu points -->
+  <!-- Main menu -->
   <div class="menu_points">
-    <!-- <span id="subtitle"> Visuelle Kommunikation </span> -->
     <ul>
+      <!-- Projekte -->
       <li>
         <a class="slider__nav_menu_button nav_menu_button accent_bg"
            href="./index.html#projekte"> <span class="index-link">Projekte</span> </a>
       </li>
-      <li>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./leistungen.html">
+      <!-- Leistungen -->
+      <li class='hover-target'>
+        <a class="slider__nav_menu_button nav_menu_button accent_bg"
+           href="./leistungen.html">
           <span
             class="index-link">Leistungen</span></a>
+        <!-- Sub menu -->
+        <ul class='submenu'>
+          <li>
+            <a href="./leistungen.html#corporate-design"> <span class="button primary-button">Corporate Design</span>
+            </a>
+          </li>
+          <li>
+            <a href="./leistungen.html#editorial-design"> <span
+              class="button primary-button">Buch- und Editorial Design </span> </a>
+          </li>
+          <li>
+            <a href="./leistungen.html#web-design"> <span
+              class="button primary-button">Web und Digital Design</span> </a>
+          </li>
+          <li>
+            <a href="./leistungen.html#experimental"> <span
+              class="button primary-button">Design</span> </a>
+          </li>
+        </ul>
       </li>
+      <!-- über uns -->
       <li>
         <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./ueber-uns.html"> <span
           class="index-link">Über uns</span> </a>
       </li>
+      <!-- Kontakt-->
       <li>
         <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./kontakt.html"><span
           class="index-link">Kontakt</span></a>
@@ -117,21 +140,21 @@
     </div>
     <div class='d-flex flex-row'>
       <a href="https://www.instagram.com/studio.ajot" target="_blank"
-         class="secondary-button footer-button"><img src="assets/icons/instagram.svg"
-                                                     alt='Instgram'> </a> <a
+         class="footer-button"><img src="assets/icons/instagram.svg"
+                                    alt='Instgram'> </a> <a
       href="https://www.instagram.com/studio.ajot" target="_blank"
-      class="secondary-button footer-button"><img src="assets/icons/linkedin.svg"
-                                                  alt='LinkedIn'></a> <a
-      href="/datenschutz.html"
-      class="secondary-button footer-button">Datenschutz</a> <a
-      href="/impressum.html"
-      class="secondary-button footer-button">Impressum</a>
+      class="footer-button"><img src="assets/icons/linkedin.svg"
+                                 alt='LinkedIn'></a> <a
+      href="./datenschutz.html" target="_blank"
+      class="footer-button">Datenschutz</a> <a
+      href="./impressum.html" target="_blank"
+      class="footer-button">Impressum</a>
     </div>
   </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src="js/libraries/bootstrap.bundle.min.js"></script>
+<script src="assets/libraries/js/bootstrap.bundle.min.js"></script>
 <script src="js/main-functions.js"></script>
 
 </body>

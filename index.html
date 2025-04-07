@@ -8,8 +8,9 @@
   <link rel="stylesheet" type="text/css" href="css/main.css" />
   <link rel="stylesheet" type="text/css" href="css/pages/index.css" />
   <link rel="stylesheet" type="text/css" href="css/components/slider/slider-for-index-page.css" />
+  <link rel="stylesheet" type="text/css" href="assets/libraries/css/fontawesome.min.css" />
   <link rel="stylesheet" href="css/components/gallery.css" />
-  <title>Unser Portfolio | Grafikdesign, Digital & Print | Studio Ajot</title>
+  <title>Grafikdesign, Digital & Print | Studio Ajot</title>
   <meta name="description"
         content="Erkunde unser Portfolio: Von Markenidentitäten, über Websites bis hin zu Büchern, Plattencovern & Postern. Kreative Grafikdesign-Lösungen für Ihr Projekt." />
 </head>
@@ -26,23 +27,46 @@
       class="icon3" id="icon3"></span>
     </button>
   </div>
-  <!-- menu points -->
+  <!-- Main menu -->
   <div class="menu_points">
-    <!-- <span id="subtitle"> Visuelle Kommunikation </span> -->
     <ul>
+      <!-- Projekte -->
       <li>
         <a class="slider__nav_menu_button nav_menu_button accent_bg"
            href="./index.html#projekte"> <span class="index-link">Projekte</span> </a>
       </li>
-      <li>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./leistungen.html">
+      <!-- Leistungen -->
+      <li class='hover-target'>
+        <a class="slider__nav_menu_button nav_menu_button accent_bg"
+           href="./leistungen.html">
           <span
             class="index-link">Leistungen</span></a>
+        <!-- Sub menu -->
+        <ul class='submenu'>
+          <li>
+            <a href="./leistungen.html#corporate-design"> <span class="button primary-button">Corporate Design</span>
+            </a>
+          </li>
+          <li>
+            <a href="./leistungen.html#editorial-design"> <span
+              class="button primary-button">Buch- und Editorial Design </span> </a>
+          </li>
+          <li>
+            <a href="./leistungen.html#web-design"> <span
+              class="button primary-button">Web und Digital Design</span> </a>
+          </li>
+          <li>
+            <a href="./leistungen.html#experimental"> <span
+              class="button primary-button">Design</span> </a>
+          </li>
+        </ul>
       </li>
+      <!-- über uns -->
       <li>
         <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./ueber-uns.html"> <span
           class="index-link">Über uns</span> </a>
       </li>
+      <!-- Kontakt-->
       <li>
         <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./kontakt.html"><span
           class="index-link">Kontakt</span></a>
@@ -53,7 +77,7 @@
 <!-- Main section -->
 <main class='d-flex flex-column align-items-stretch'>
   <!--  Section: Slider -->
-  <section class='slider_section p-0'>
+  <section class='slider_section p-0 scroll-with-snap' data-section-name="start">
     <div class='slider-arrow-right'></div>
     <div class='slider-arrow-left'></div>
     <div></div>
@@ -72,7 +96,7 @@
     </div>
   </section>
   <!-- Section: Introduction -->
-  <section class='bg-lavender section-padding'>
+  <section class='bg-lavender section-padding scroll-with-snap' data-section-name="vorstellung">
     <div class='d-flex flex-row gap-5'>
       <div class='d-flex flex-column w-75 gap-5'>
         <h1>Büro für Grafikdesing <br />in Berlin und Hamburg</h1>
@@ -88,26 +112,29 @@
       <div class='d-flex flex-column w-25 gap-5'>
         <h1>Unsere<br />Schwerpunkte</h1>
         <div class='d-flex flex-column gap-2'>
-          <a class="button primary-button big text-decoration-none" href="./corporate-design.html"> <span
+          <a class="button primary-button big text-decoration-none"
+             href="leistungen/corporate-design.html"> <span
             class="index-link">Corporate Design</span> </a> <a
           class="button primary-button big text-decoration-none"
-          href="./buch-design.html"> <span
+          href="leistungen/editorial-design.html"> <span
           class="index-link">Buch- und Editorial Design</span> </a> <a
           class="button primary-button big text-decoration-none"
-          href="./web-design.html"> <span
+          href="leistungen/web-design.html"> <span
           class="index-link">Digital- und Webdesign</span> </a> <a
-          class="button primary-button big text-decoration-none" href="./design.html"> <span
+          class="button primary-button big text-decoration-none"
+          href="leistungen/experimental.html"> <span
           class="index-link">Alle Leistungen</span> </a>
         </div>
       </div>
     </div>
   </section>
   <!-- Section: Gallery -->
-  <section id="projekte" class='bg-black section-padding'>
+  <section id="projekte" class='bg-light-blue section-padding scroll-with-snap'
+           data-section-name="projekte">
     <div class='d-flex flex-column gap-3'>
-      <h1 class='text-white'>Projekte</h1>
+      <h1 class=''>Projekte</h1>
       <div class="filter-bar-container">
-        <i class="fas fa-arrow-left arrow-left color-white"></i>
+        <img src='assets/icons/arrows/arrow-left.svg' class='filter-bar-arrow-icons' alt=''></img>
         <ul class="filter-bar">
           <li
             class="button button-primary border border-white filter-bar__filter-element filter-bar__filter-element--selected"
@@ -116,22 +143,35 @@
             Alle
           </li>
         </ul>
-        <i class="fas fa-arrow-right arrow-right color-white"></i>
+        <img src='assets/icons/arrows/arrow-right.svg' class='filter-bar-arrow-icons' alt=''></img>
       </div>
       <div class="gallery-container grid"></div>
+      <div class='d-flex flex-row justify-content-center'>
+        <button id="toggle-gallery-items" class='primary-button button big'>
+          <span>Mehr anzeigen </span><img id="toggle-gallery-items-arrow"
+                                          src="assets/icons/arrows/arrow-down.svg" alt=''></img>
+        </button>
+      </div>
     </div>
   </section>
 </main>
 <!-- Section: Contact -->
-<section id="kontakt" class='bg-light-blue section-padding py-5'>
+<section id="kontakt" class='bg-orange section-padding py-5 scroll-with-snap'
+         data-section-name="kontakt">
   <div class='d-flex flex-row gap-5'>
     <div class='d-flex flex-column w-75 gap-5'>
       <h1>Kontakt zu uns</h1>
-      <p class='copy-1'>Kontaktier uns gerne, wenn du mit uns zusammenarbeiten möchtest oder Fragen
-                        zu unserer Arbeit hast. Wir freuen uns, von dir zu hören!</p>
+      <p class='copy-1'>Unser benutzerfreundliches Kontaktformular ist gerade in Arbeit – aber wir
+                        sind natürlich trotzdem für dich da!
+
+                        Wenn du mit uns zusammenarbeiten möchtest oder Fragen zu unserer Arbeit
+                        hast, freuen wir uns, von dir zu hören. Schreib uns gerne eine Nachricht
+                        über die angegebenen Kontaktdaten oder nutze einfach den Button unten. Wir
+                        sind gespannt auf dein Projekt und melden uns so schnell wie möglich bei
+                        dir!</p>
       <a class='button primary-button text-decoration-none'
-         href="mailto:hello@ajot.de?subject=Let's%20Collaborate!&body=Moin,%0Aich%20will%20mit%20euch%20zusammenarbeiten!">Nachricht
-                                                                                                                           abschicken</a>
+         href="mailto:hello@ajot.de?subject=Projektanfrage&body=Hallo%20liebes%20Ajot-Team,%0A">Nachricht
+                                                                                                abschicken</a>
     </div>
     <div class='d-flex flex-column w-25 gap-5'>
       <h1>Berlin Office</h1>
@@ -148,35 +188,36 @@
   </div>
 </section>
 <!-- Footer -->
-<footer class="bottom site-padding-x bg-light-blue" id="index-footer">
+<footer class="bottom site-padding-x bg-orange" id="index-footer">
   <div class="d-flex flex-row justify-content-between align-items-stretch h-100">
     <div class='h-100 d-flex align-items-center'>
       © Studio Ajot, <span id="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
     </div>
     <div class='d-flex flex-row'>
       <a href="https://www.instagram.com/studio.ajot" target="_blank"
-         class="secondary-button footer-button"><img src="assets/icons/instagram.svg"
-                                                     alt='Instgram'> </a> <a
+         class="footer-button"><img src="assets/icons/instagram.svg"
+                                    alt='Instgram'> </a> <a
       href="https://www.instagram.com/studio.ajot" target="_blank"
-      class="secondary-button footer-button"><img src="assets/icons/linkedin.svg"
-                                                  alt='LinkedIn'></a> <a
-      href="https://www.instagram.com/studio.ajot" target="_blank"
-      class="secondary-button footer-button">Datenschutz</a> <a
-      href="https://www.instagram.com/studio.ajot" target="_blank"
-      class="secondary-button footer-button">Impressum</a>
+      class="footer-button"><img src="assets/icons/linkedin.svg"
+                                 alt='LinkedIn'></a> <a
+      href="./datenschutz.html" target="_blank"
+      class="footer-button">Datenschutz</a> <a
+      href="./impressum.html" target="_blank"
+      class="footer-button">Impressum</a>
     </div>
   </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src="js/libraries/flickity.pkgd.min.js"></script>
-<script src="js/libraries/isotope.pkgd.min.js"></script>
+<script src="assets/libraries/js/jquery-3.7.1.min.js"></script>
+<script src="assets/libraries/js/jquery.scrollify.js"></script>
+<script src="assets/libraries/js/flickity.pkgd.min.js"></script>
+<script src="assets/libraries/js/isotope.pkgd.min.js"></script>
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 <script src="content-management/gallery-project-information.js"></script>
 <script src="content-management/slider-project-information.js"></script>
 <script src="js/main-functions.js"></script>
-<script src="js/components/gallery/gallery.js"></script>
+<script src="js/components/gallery.js"></script>
 <script src="js/pages/index.js"></script>
 </body>
 

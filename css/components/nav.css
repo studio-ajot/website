@@ -1,0 +1,182 @@
+/* Base style for the website title */
+#website_title {
+    z-index: 30;
+}
+
+/* ========================================================================
+   Navigation Section Styles
+   ======================================================================== */
+
+/* Main navigation section */
+.nav_section {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    color: black;
+    cursor: default;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    transition: all 0.3s ease-in-out;
+    /*background-color: rgba(100%, 100%, 100%, 0.1);*/
+}
+
+/* Navigation row container */
+.nav_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    z-index: 10;
+}
+
+/* Logo styling */
+.nav_section .logo {
+    padding: 15px 30px;
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    text-decoration: none;
+    white-space: nowrap !important;
+}
+
+/* ========================================================================
+   Menu Button Styles
+   ======================================================================== */
+
+/* Menu points container */
+.menu_points {
+    display: flex;
+    align-items: center;
+}
+
+/* Menu points list */
+.menu_points ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Individual menu button styles */
+.nav_menu_button {
+    height: 100%;
+    width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Menu button hover/focus state */
+.nav_menu_button:hover,
+.nav_menu_button:focus {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+/* Link styling within menu points */
+.menu_points a {
+    text-decoration: none;
+}
+
+/*!* ========================================================================*/
+/*   Inverted Mode Styles*/
+/*   ======================================================================== *!*/
+
+/*!* Inverted mode when in #projekte section *!*/
+/*.nav_section.invert {*/
+/*    color: white;*/
+/*    border-top: 1px solid white;*/
+/*    border-bottom: 1px solid white;*/
+/*    background-color: rgba(0, 0, 0, 0.2);*/
+/*}*/
+
+/*!* Logo filter in inverted mode *!*/
+/*.nav_section.invert .logo {*/
+/*    filter: invert(1);*/
+/*    transition: filter 1s ease-in-out;*/
+/*}*/
+
+/*!* Menu button styles in inverted mode *!*/
+/*.nav_section.invert .nav_menu_button {*/
+/*    border-left: 1px solid white;*/
+/*    border-right: 1px solid white;*/
+/*    color: white;*/
+/*}*/
+
+/*!* Menu button hover/focus state in inverted mode *!*/
+/*.nav_section.invert .nav_menu_button:hover,*/
+/*.nav_section.invert .nav_menu_button:focus {*/
+/*    color: black;*/
+/*    background-color: white;*/
+/*}*/
+
+/*.nav_section.invert .button {*/
+/*    border-color: white;*/
+/*    color: white;*/
+/*    background-color: black;*/
+/*}*/
+
+/*.nav_section.invert .button:hover,*/
+/*.nav_section.invert .button:focus {*/
+/*    color: black;*/
+/*    background-color: white;*/
+/*}*/
+
+/* ========================================================================
+   Submenu Styles
+   ======================================================================== */
+
+/* Submenu container */
+.submenu {
+    position: absolute;
+    top: 100%; /* Positioned directly below the main menu */
+    right: 0;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid black;
+    -webkit-backdrop-filter: blur(20px);
+    opacity: 0;
+    visibility: hidden;
+    gap: 10px;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+/* Submenu list items */
+.submenu li {
+    margin-top: 15px;
+    border: 0;
+}
+
+.submenu li a .button{
+    width: 300px;
+}
+
+.submenu li:last-child {
+    margin-right: 50px;
+}
+
+/* Submenu active state */
+.submenu.active {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}

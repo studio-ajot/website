@@ -3,10 +3,11 @@ $(document).ready(function () {
     initializeCarousel();
     setupMobileDetection();
     fillCarousel();
-    normalizeVhUnit();
+    // normalizeVhUnit();
     setupLazyLoading();
     setupProgressBar();
     setupEventListeners();
+    // setupScrollify();
 });
 
 function initializeCarousel() {
@@ -14,7 +15,7 @@ function initializeCarousel() {
         draggable: true,
         wrapAround: true,
         imagesLoaded: true,
-        lazyLoad: 5,
+        lazyLoad: 1,
         autoPlay: 4500,
     });
 }
@@ -39,16 +40,21 @@ function fillCarousel() {
         if (project.type === "img") {
             mediaElement = `
                 <div class="carousel-cell">
+                  <a href="./projekte/${project.id}.html">  
                     <img id="${project.id}" class="flickity_img" ${index === 0 ? "data-flickity-lazyload=" + mediaPrefix + project.id + mediaPostfix + ".jpg" : ""} />
+                  </a>
                 </div>`;
         } else if (project.type === "vid") {
             mediaElement = `
                 <div class="carousel-cell">
-                    <video autoplay loop muted playsinline id="${project.id}" class="flickity_vid">
-                        <source src="${mediaPrefix + project.id + mediaPostfix}.webm" type="video/webm" />
-                        <source src="${mediaPrefix + project.id + mediaPostfix}.mp4" type="video/mp4" 
-                        poster="${mediaPrefix}poster/${project.id + mediaPostfix}.jpg"/>
-                    </video>
+                    <a href="./projekte/${project.id}.html">
+                        <video autoplay loop muted playsinline id="${project.id}" class="flickity_vid">
+                            <source src="${mediaPrefix + project.id + mediaPostfix}.webm" type="video/webm" />
+                            <source src="${mediaPrefix + project.id + mediaPostfix}.mp4" type="video/mp4" 
+                            poster="${mediaPrefix}poster/${project.id + mediaPostfix}.jpg"/>
+                        </video>
+                    </a>
+
                 </div>`;
         }
 
@@ -56,9 +62,9 @@ function fillCarousel() {
     });
 }
 
-function normalizeVhUnit() {
-    document.documentElement.style.setProperty("--vh", `${window.innerHeight / 100}px`);
-}
+// function normalizeVhUnit() {
+//     document.documentElement.style.setProperty("--vh", `${window.innerHeight / 100}px`);
+// }
 
 function setupLazyLoading() {
     $(".flickity_img").each(function () {
@@ -78,7 +84,7 @@ function setupProgressBar() {
 function setupEventListeners() {
     $(".burger_menu").click(toggleMenu);
     $(".nav_section ul li a").click(closeMenu);
-    $(window).on("resize", normalizeVhUnit);
+    // $(window).on("resize", normalizeVhUnit);
     $(".main-carousel").on("staticClick.flickity", function (event) {
         if (event.clientX < $(window).width() / 2) {
             $(".main-carousel").flickity("previous");
@@ -87,6 +93,37 @@ function setupEventListeners() {
         }
         if ($("body").hasClass("mobile-detect")) {
             $(".cursor").hide();
+        }
+    });
+}
+
+function setupScrollify() {
+    $.scrollify({
+        section: ".scroll-with-snap",
+        sectionName: "section-name",
+        interstitialSection: "#index-footer, .footer, footer",
+        scrollSpeed: 50,
+        setHeights: false,
+        touchScroll: true,
+        before: function(index, sections) {
+            // Disable scroll events (e.g., mousewheel, touchmove) by adding non-passive listeners
+            $(document).on('wheel.disableScroll', { passive: false }, function(e) {
+                e.preventDefault();
+            });
+            $(document).on('touchmove.disableScroll', { passive: false }, function(e) {
+                e.preventDefault();
+            });
+        },
+        after: function (index, sections) {
+            var currentSection = sections[index].attr("data-section-name");
+
+            if (currentSection === "projekte" || currentSection === "kontakt") {
+                $(".nav_section").addClass("invert");
+            } else {
+                $(".nav_section").removeClass("invert");
+            }
+            $(document).off("wheel.disableScroll");
+            $(document).off("touchmove.disableScroll");
         }
     });
 }

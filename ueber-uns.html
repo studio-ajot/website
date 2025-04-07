@@ -43,23 +43,46 @@
       class="icon3" id="icon3"></span>
     </button>
   </div>
-  <!-- menu points -->
+  <!-- Main menu -->
   <div class="menu_points">
-    <!-- <span id="subtitle"> Visuelle Kommunikation </span> -->
     <ul>
+      <!-- Projekte -->
       <li>
         <a class="slider__nav_menu_button nav_menu_button accent_bg"
            href="./index.html#projekte"> <span class="index-link">Projekte</span> </a>
       </li>
-      <li>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./leistungen.html">
+      <!-- Leistungen -->
+      <li class='hover-target'>
+        <a class="slider__nav_menu_button nav_menu_button accent_bg"
+           href="./leistungen.html">
           <span
             class="index-link">Leistungen</span></a>
+        <!-- Sub menu -->
+        <ul class='submenu'>
+          <li>
+            <a href="./leistungen.html#corporate-design"> <span class="button primary-button">Corporate Design</span>
+            </a>
+          </li>
+          <li>
+            <a href="./leistungen.html#editorial-design"> <span
+              class="button primary-button">Buch- und Editorial Design </span> </a>
+          </li>
+          <li>
+            <a href="./leistungen.html#web-design"> <span
+              class="button primary-button">Web und Digital Design</span> </a>
+          </li>
+          <li>
+            <a href="./leistungen.html#experimental"> <span
+              class="button primary-button">Design</span> </a>
+          </li>
+        </ul>
       </li>
+      <!-- über uns -->
       <li>
         <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./ueber-uns.html"> <span
           class="index-link">Über uns</span> </a>
       </li>
+      <!-- Kontakt-->
       <li>
         <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./kontakt.html"><span
           class="index-link">Kontakt</span></a>
@@ -71,7 +94,7 @@
 <main>
   <div class="viewport">
     <!--  Wer? -->
-    <section class="section-padding bg-lavender scroll-with-snap" id="wer">
+    <section class="section-padding bg-lavender scroll-with-snap" data-section-name="wer">
       <div class='wide'>
         <h1>Wer?</h1>
         <p class='copy-1'>Studio Ajot ist ein Grafikdesign-Studio mit besonderem Schwerpunkt auf
@@ -81,10 +104,10 @@
                           Johanna Klüsener und Anastasia Marx in Kiel gegründet, ist das Studio
                           heute in Hamburg und Berlin ansässig.</p>
         <div class='flex-row d-flex gap-3 mt-4 align-items-center'>
-          <button class='button primary-button'>Mehr Standorte</button>
-          <a href="https://www.instagram.com/studio.ajot" target="_blank"
-             class=""><img src="assets/icons/instagram.svg"
-                           alt='Instgram'> </a> <a
+          <a class='button primary-button' href='#wo-und-wie'>Mehr Standorte</a> <a
+          href="https://www.instagram.com/studio.ajot" target="_blank"
+          class=""><img src="assets/icons/instagram.svg"
+                        alt='Instgram'> </a> <a
           href="https://www.instagram.com/studio.ajot" target="_blank"
           class=""><img src="assets/icons/linkedin.svg"
                         alt='LinkedIn'></a>
@@ -95,19 +118,21 @@
       </div>
     </section>
     <!--  Wo? & Wie? -->
-    <section class="section-padding scroll-with-snap bg-pink" id="wo-wie-2">
+    <section class="section-padding scroll-with-snap bg-pink" data-section-name="wo-und-wie"
+             id='wo-und-wie'>
       <div class='narrow'>
         <h1>Wo?</h1>
         <h2>Berlin Office</h2>
-        <p class='copy-1'>Anastasia Marx <br />Mail: anastasia@studio-ajot.de<br /> Telefon: +49 155
-                          664 689 14
+        <p class='copy-1'>Anastasia Marx <br /> Mail: <a href='mailto:anastasia@studio-ajot.de'>anastasia@studio-ajot.de</a><br />
+                          Telefon: <a href='tel:+49 155 664 689 14'>+49 155 664 689 14</a><br />
         </p>
         <p class='copy-1'>
-          Kastanienallee 71 10435 Berlin</p>
+          Kastanienallee 71 <br />10435 Berlin</p>
 
         <h2>Hamburg Office</h2>
-        <p class='copy-1'>Johanna Klüsener <br /> Mail: johanna@studio-ajot.de <br /> Telefon: +49
-                          170 121 16 02 <br />
+        <p class='copy-1'>Johanna Klüsener <br /> Mail: <a href='mailto:johanna@studio-ajot.de'>johanna@studio-ajot.de</a><br />
+                          Telefon: <a href='tel:+49 170 121 16 02'>+49 170 121 16 02</a><br />
+          <br />
         </p>
         <p class='copy-1'>
           Mörkenstraße 8 <br /> 22767 Hamburg</p>
@@ -132,12 +157,12 @@
                           vollkommen zufrieden sind, ist unser Prozess abgeschlossen. <br /><br />
                           Wir freuen uns darauf, dich und dein Projekt kennenzulernen!</p>
         <div class='flex-row d-flex gap-3 mt-4 align-items-center'>
-          <button class='button primary-button'>Unser Portfolio</button>
+          <a href="./index.html#projekte" class='button primary-button'>Unser Portfolio</a>
         </div>
       </div>
     </section>
     <!--  Was? -->
-    <section class="section-padding scroll-with-snap bg-orange" id="was">
+    <section class="section-padding scroll-with-snap bg-orange" data-section-name="was">
       <div class='wide'>
         <h1>Was?</h1>
         <p class='copy-1'>Animationen, Anzeigen, Art Direktion, Aufkleber, Banner, Beschilderung,
@@ -148,7 +173,7 @@
                           Textsatz, Schriftgestaltung, Social Media Templates, Strategieentwicklung,
                           Visitenkarte, Werbemaßnahmen, Workshops … you name it!</p>
         <div class='flex-row d-flex gap-3 mt-4 align-items-center'>
-          <button class='button primary-button'>Unsere Leistungen</button>
+          <a href="./leistungen.html"  class='button primary-button'>Unsere Leistungen</a>
         </div>
       </div>
       <div class='narrow'>
@@ -163,7 +188,7 @@
       </div>
     </section>
     <!--  Für wen? -->
-    <section class="section-padding scroll-with-snap bg-light-blue" id="who-for">
+    <section class="section-padding scroll-with-snap bg-light-blue" data-section-name="fuer-wen">
       <div class='wide'>
         <h1>Für wen?</h1>
         <p class='copy-1'>Unsere Kund:innen sind in den unterschiedlichsten Gebieten tätig. Ob
@@ -180,7 +205,7 @@
                           Association, wobe-systems, Ministerium für Energiewende, Klimaschutz,
                           Umwelt und Natur Schleswig-Holstein, Kerstin Abraham, Colibris Eyewear</p>
         <div class='flex-row d-flex gap-3 mt-4 align-items-center'>
-          <button class='button primary-button'>Jetzt anfragen</button>
+          <a href="./kontakt.html" class='button primary-button'>Jetzt anfragen</a>
         </div>
       </div>
 
@@ -195,24 +220,25 @@
       </div>
       <div class='d-flex flex-row'>
         <a href="https://www.instagram.com/studio.ajot" target="_blank"
-           class="secondary-button footer-button"><img src="assets/icons/instagram.svg"
-                                                       alt='Instgram'> </a> <a
+           class="footer-button"><img src="assets/icons/instagram.svg"
+                                      alt='Instgram'> </a> <a
         href="https://www.instagram.com/studio.ajot" target="_blank"
-        class="secondary-button footer-button"><img src="assets/icons/linkedin.svg"
-                                                    alt='LinkedIn'></a> <a
-        href="/datenschutz.html"
-        class="secondary-button footer-button">Datenschutz</a> <a
-        href="/impressum.html"
-        class="secondary-button footer-button">Impressum</a>
+        class="footer-button"><img src="assets/icons/linkedin.svg"
+                                   alt='LinkedIn'></a> <a
+        href="https://www.instagram.com/studio.ajot" target="_blank"
+        class="footer-button">Datenschutz</a> <a
+        href="https://www.instagram.com/studio.ajot" target="_blank"
+        class="footer-button">Impressum</a>
       </div>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
-  <script src="js/libraries/bootstrap.bundle.min.js"></script>
+  <script src="assets/libraries/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="assets/libraries/js/jquery.scrollify.js"></script>
   <script src="js/main-functions.js"></script>
-  <!--  <script src="js/utility/scroll-with-snap.js"></script>-->
+  <script src="js/pages/ueber-uns.js"></script>
 </body>
 
 </html>
