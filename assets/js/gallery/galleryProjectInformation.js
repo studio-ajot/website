@@ -115,7 +115,7 @@ const galleryProjectInformation = [
     projectDescription: "WEBDESIGN, ILLUSTRATION \n \nWebdesign & Illustrationsgrafiken für das ZBW",
     type: "vid",
     categories: ["Webdesign", "Illustration"],
-    mediaTypes: ["vid","vid", "vid"],
+    mediaTypes: ["vid","vid", "img", "img", "vid"],
     longTextDescription:
       "WEBDESIGN, ILLUSTRATION \n \nWebdesign & Illustrationsgrafiken für das ZBW – Leibniz-Informationszentrum Wirtschaft, 2024 \n\nDas Leibnitz-Informationszentrum Wirtschaft ist die weltweit größte Spezialbibliothek für wirtschaftswissenschaftliche Literatur. Die ZBW möchte mit ihrer neuen Scrollytelling-Website ihr Engagement für Open Science und den freien, fairen Zugang zu Forschungsergebnissen aufzeigen. Die individuell angefertigten Illustrationen im Collagen-Stil leiten beim Scroll-Vorgang jeweils neue Inhaltssegmente ein. Die Website beleuchtet so die aktuellen Herausforderungen auf dem wissenschaftlichen Publikationsmarkt und erläutert anschließend die Bemühungen der ZBW auf verschiedenen Ebenen, die Welt der Wissenschaft offener, gerechter und unabhängiger zu gestalten. So sollen die komplexen Sachverhalte aus der Welt der wissenschaftlichen Bibliotheken informativ und leicht zugänglich kommuniziert werden.",
   },   
