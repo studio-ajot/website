@@ -168,7 +168,17 @@ const galleryProjectInformation = [
     mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "CORPORATE DESIGN, SCHRIFTGESTALTUNG, ANIMATION, DIGITAL DESIGN  \n \nAufbau einer Markenidentität, Social Media Assets und Werbemaßnahmen für wobe-systems \n \nSeit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog zwischen Mensch und Maschine beinhaltet.",
-  },    
+  },   
+  {
+    id: "projekt-34-musikdesign-wolf-biermann-nachpressungen",
+    accentColor: "#1419C0",
+    projectDescription: "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann",
+    type: "img",
+    categories: ["Corporate Design", "Musik"],
+    mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img"],
+    longTextDescription:
+      "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+  },      
   {
     id: "project-8-mfa",
     accentColor: "#EB67B3",
