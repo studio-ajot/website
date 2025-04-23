@@ -25,7 +25,7 @@ const galleryProjectInformation = [
     projectDescription: "BUCH- & EDITORIAL DESIGN, MUSIK \n \nEditorial Design & Art Direction für Clouds Hill",
     type: "img",
     categories: ["Buch- & Editorial Design"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "img"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img"],
     longTextDescription:
       "BUCH- & EDITORIAL DESIGN \n \nEditorial Design & Art Direction für Clouds Hill, 2023 \n \nCHART Magazin, Ausgabe 04: Light \n \nOptisch bewegt sich CHART zwischen den Medien Buch und Magazin, inhaltlich widmet es sich dem Musikjournalismus und erzählt einfühlsame Portraits über Menschen im kulturellen Umfeld. Für die vierte Ausgabe »Light« entwickelten wir ein neues Gestaltungssystem, das den unterschiedlichen Charakteren und Geschichten einen individuellen Raum gibt. Es entstand ein Layout, das charaktergebend und gleichzeitig flexibel ist und die Stimmung und Charakteristik der jeweiligen Texte im Layout und der Bildanordnung visuell wiedergibt. So übersetzen zum Beispiel flüchtige Handy-Aufnahmen, collagenartig angeordnet, den virtuellen Irrsinn und Überfluss auf Konzerten, der oft mehr im Vordergrund steht als die Künstler:innen selbst. Scheinbar willkürlich platzierte Polaroids erzählen von Charlottes Brandis Suche danach, was es bedeutet, vor 30 Jahren als Frau in einer Band gewesen zu sein. Das Gestaltungssystem soll auf weitere Ausgaben flexibel sowie thematisch und emotional anwendbar sein.",
   },
