@@ -185,7 +185,7 @@ const galleryProjectInformation = [
     projectDescription: "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann",
     type: "img",
     categories: ["Corporate Design", "Musik"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img"],
+    mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
       "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
   },      
@@ -199,16 +199,6 @@ const galleryProjectInformation = [
     longTextDescription:
       "CORPORATE DESIGN, BUCH- & EDITORIAL DESIGN, WEBDESIGN, PLAKATGESTALTUNG  \n \nAusstellungsgestaltung für eine Absolvent:innenausstellung der Muthesius Kunsthochschule  \n \nMFA - My Favorite Acronym \n \nKonzept: Lena Reisner \nProgrammierung: Björn Schmidt \n \nFür die Ausstellung »Master of Fine Arts« der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann.",
   }, 
-  {
-    id: "project-3-reset",
-    accentColor: "#19C1A0",
-    projectDescription: "CORPORATE DESIGN, BUCH- & EDITORIAL DESIGN, PLAKATGESTALTUNG  \n \nPlakatgestaltung für eine Vorlesungsreihe der Muthesius Kunsthochschule",
-    type: "img",
-    categories: ["Corporate Design", "Plakatgestaltung", "Buch- & Editorial Design"],
-    mediaTypes: ["img", "img", "img", "vid", "img"],
-    longTextDescription:
-      "CORPORATE DESIGN, BUCH- & EDITORIAL DESIGN, PLAKATGESTALTUNG  \n \nPlakatgestaltung für eine Vorlesungsreihe der Muthesius Kunsthochschule   \n \nRESET – let’s talk about diversity \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
-  },
   {
     id: "project-16-sun",
     accentColor: "#254425",
@@ -328,6 +318,16 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img"],
     longTextDescription:
       "INFOGRAFIK, ILLUSTRATION  \n \nInfo-Grafiken und Illustrationen für vergleich.org \n \nFür eine schnelle und einfache Repräsentation von Zusammenhängen und Informationen eignen sich illustrative Infografiken besonders gut. Wir wurden beauftragt, einige aktuelle Themen begleitende Infografiken zu gestalten und illustrieren.",
-  },    
+  }, 
+  {
+    id: "project-3-reset",
+    accentColor: "#19C1A0",
+    projectDescription: "CORPORATE DESIGN, BUCH- & EDITORIAL DESIGN, PLAKATGESTALTUNG  \n \nPlakatgestaltung für eine Vorlesungsreihe der Muthesius Kunsthochschule",
+    type: "img",
+    categories: ["Corporate Design", "Plakatgestaltung", "Buch- & Editorial Design"],
+    mediaTypes: ["img", "img", "img", "vid", "img"],
+    longTextDescription:
+      "CORPORATE DESIGN, BUCH- & EDITORIAL DESIGN, PLAKATGESTALTUNG  \n \nPlakatgestaltung für eine Vorlesungsreihe der Muthesius Kunsthochschule   \n \nRESET – let’s talk about diversity \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
+  },  
   
 ];
