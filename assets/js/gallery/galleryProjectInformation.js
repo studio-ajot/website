@@ -240,16 +240,6 @@ const galleryProjectInformation = [
       "CORPORATE DESIGN  \n \nEntwicklung einer Markenidentität für den Konsultationsprozess Nationalpark Ostsee des Ministeriums für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein \n \nDie Ostsee ist Heimat, Arbeitsplatz und Erholungsgebiet. Ein wertvoller Lebensraum, dessen Schutz sich die Landesregierung Schleswig-Holstein zur Aufgabe gemacht hat. Basierend auf bestehenden Schutzgebieten sollen die Machbarkeiten und Möglichkeiten eines Ausbaus mit allen Interessengruppen diskutiert werden. Diesen wichtigen Prozess unterstützen wir mit der Erstellung der grafischen Identität.",
   },    
   {
-    id: "project-18-xmas23",
-    accentColor: "#FC3642",
-    projectDescription: "BUCH- & EDITORIAL DESIGN  \n \nPostkarten",
-    type: "vid",
-    categories: ["Buch- & Editorial Design"],
-    mediaTypes: ["vid", "img"],
-    longTextDescription:
-      "BUCH- & EDITORIAL DESIGN  \n \nPostkarten  \n \nEine festliche Karte mit season's greetings für 2023",
-  },    
-  {
     id: "project-7-ultraviolett",
     accentColor: "#76EEC6",
     projectDescription: "BUCH- & EDITORIAL DESIGN  \n \nCoverdesign für den Roman »Ultraviolett« von Flurin Jecker, erschienen im Haymon Verlag",
@@ -288,17 +278,7 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
       "PLAKATGESTALTUNG, INFOGRAFIK  \n \nPlakatgestaltung für das Kalendarium Luminis \n \nFür den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen.",
-  },   
-  {
-    id: "project-19-textsatz",
-    accentColor: "#0738A5",
-    projectDescription: "BUCH- & EDITORIAL DESIGN  \n \nTextsatz für unterschiedliche Auftraggeber:innen – eine Auswahl",
-    type: "img",
-    categories: ["Buch- & Editorial Design"],
-    mediaTypes: ["img", "img", "img", "img"],
-    longTextDescription:
-      "BUCH- & EDITORIAL DESIGN  \n \nTextsatz für unterschiedliche Auftraggeber:innen – eine Auswahl",
-  },        
+  },      
   {
     id: "project-0-logo",
     accentColor: "#00FFCC",
