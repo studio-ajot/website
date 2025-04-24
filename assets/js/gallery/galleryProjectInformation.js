@@ -271,11 +271,11 @@ const galleryProjectInformation = [
   },
   {
     id: "project-2-calendarium-luminis",
-    accentColor: "#717171",
+    accentColor: "#2e3063",
     projectDescription: "PLAKATGESTALTUNG, INFOGRAFIK  \n \nPlakatgestaltung für das Kalendarium Luminis",
     type: "img",
     categories: ["Plakatgestaltung", "Infografik"],
-    mediaTypes: ["img", "img", "img", "img", "img"],
+    mediaTypes: ["img", "img"],
     longTextDescription:
       "PLAKATGESTALTUNG, INFOGRAFIK  \n \nPlakatgestaltung für das Kalendarium Luminis \n \nFür den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen.",
   },      
