@@ -199,6 +199,16 @@ const galleryProjectInformation = [
     longTextDescription:
       "CORPORATE DESIGN, BUCH- & EDITORIAL DESIGN, PLAKATGESTALTUNG  \n \nPlakatgestaltung für eine Vorlesungsreihe der Muthesius Kunsthochschule   \n \nRESET – let’s talk about diversity \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen.",
   },
+    {
+    id: "project-2-calendarium-luminis",
+    accentColor: "#2e3063",
+    projectDescription: "PLAKATGESTALTUNG, INFOGRAFIK  \n \nPlakatgestaltung für das Kalendarium Luminis",
+    type: "img",
+    categories: ["Plakatgestaltung", "Infografik"],
+    mediaTypes: ["img", "img"],
+    longTextDescription:
+      "PLAKATGESTALTUNG, INFOGRAFIK  \n \nPlakatgestaltung für das Kalendarium Luminis \n \nFür den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen.",
+  },      
   {
     id: "project-16-sun",
     accentColor: "#254425",
@@ -270,16 +280,6 @@ const galleryProjectInformation = [
       "BUCH- & EDITORIAL DESIGN  \n \nEditorial Design & Art Direction für Pablo Martínez-Calleja \n \nLüneburg mit anderen Augen \n \nWie ein Jäger des Augenblicks streift der in Lüneburg lebende Fotograf Pablo Martínez-Calleja mit seiner Kamera umher und nähert sich der Realität der StadtbewohnerInnen in Zeiten der Pandemie. Er fängt Situationen mit einem sensiblen Blick und ironischem Augenzwinkern ein. Jedes Foto lässt die Betrachtenden die Präsenz des Autors spüren, die wir auch innerhalb der Buchgestaltung in den Fokus setzten. Wir bewegen uns mit den Augen und der Perspektive des Fotografen innerhalb des Buches durch die Stadt.",
   },
   {
-    id: "project-2-calendarium-luminis",
-    accentColor: "#2e3063",
-    projectDescription: "PLAKATGESTALTUNG, INFOGRAFIK  \n \nPlakatgestaltung für das Kalendarium Luminis",
-    type: "img",
-    categories: ["Plakatgestaltung", "Infografik"],
-    mediaTypes: ["img", "img"],
-    longTextDescription:
-      "PLAKATGESTALTUNG, INFOGRAFIK  \n \nPlakatgestaltung für das Kalendarium Luminis \n \nFür den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen.",
-  },      
-  {
     id: "project-0-logo",
     accentColor: "#00FFCC",
     projectDescription: "CORPORATE DESIGN  \n \nEntwicklung von Markenauftritten für unterschiedliche Auftraggeber:innen – eine Auswahl",
@@ -321,7 +321,7 @@ const galleryProjectInformation = [
   }, 
   {
     id: "project-13-vgl",
-    accentColor: "#254425",
+    accentColor: "#FF006C",
     projectDescription: "INFOGRAFIK, ILLUSTRATION  \n \nInfo-Grafiken und Illustrationen für vergleich.org",
     type: "img",
     categories: ["Infografik", "Illustration"],
