@@ -188,7 +188,17 @@ const galleryProjectInformation = [
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
       "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
-  },      
+  }, 
+  {
+    id: "project-11-ersti",
+    accentColor: "#00CFDD",
+    projectDescription: "BUCH- & EDITORIAL DESIGN  \n \nGestaltung des Erstsemester-Leitfadens der Muthesius Kunsthochschule",
+    type: "img",
+    categories: ["Buch- & Editorial Design"],
+    mediaTypes: ["img", "img", "img", "img", "img", "img"],
+    longTextDescription:
+      "BUCH- & EDITORIAL DESIGN  \n \nGestaltung des Erstsemester-Leitfadens der Muthesius Kunsthochschule \n \nDas erste Semester ist für viele Studierende eine besondere und aufregende Zeit. Es gibt viele Fragen und eine Menge zu bedenken. Für einen möglichst entspannten und stressfreien Einstieg ins Studium wurde dieser Leitfaden erstellt, für dessen Gestaltung wir beauftragt wurden. Er soll einen Überblick über relevante Informationen zum Studienbeginn geben und dabei helfen, die wichtigsten Fragen zu beantworten.",
+  },  
   {
     id: "project-8-mfa",
     accentColor: "#EB67B3",
@@ -279,16 +289,6 @@ const galleryProjectInformation = [
     longTextDescription:
       "CORPORATE DESIGN  \n \nEntwicklung von Markenauftritten für unterschiedliche Unternehmen und Auftraggeber:innen – eine Auswahl. Ob kleine Firma oder Großunternehmen – mit Kreativität und Feingefühl erarbeiten wir visuelle Konzepte und individuell zugeschnittene Lösungen und Werbemaßnahmen.",
   },    
-  {
-    id: "project-11-ersti",
-    accentColor: "#00CFDD",
-    projectDescription: "BUCH- & EDITORIAL DESIGN  \n \nGestaltung des Erstsemester-Leitfadens der Muthesius Kunsthochschule",
-    type: "img",
-    categories: ["Buch- & Editorial Design"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img"],
-    longTextDescription:
-      "BUCH- & EDITORIAL DESIGN  \n \nGestaltung des Erstsemester-Leitfadens der Muthesius Kunsthochschule \n \nDas erste Semester ist für viele Studierende eine besondere und aufregende Zeit. Es gibt viele Fragen und eine Menge zu bedenken. Für einen möglichst entspannten und stressfreien Einstieg ins Studium wurde dieser Leitfaden erstellt, für dessen Gestaltung wir beauftragt wurden. Er soll einen Überblick über relevante Informationen zum Studienbeginn geben und dabei helfen, die wichtigsten Fragen zu beantworten.",
-  },  
     {
     id: "project-1-asepsis",
     accentColor: "#1F1FD3",
