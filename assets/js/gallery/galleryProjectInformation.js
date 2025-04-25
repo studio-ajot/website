@@ -84,10 +84,10 @@ const galleryProjectInformation = [
     accentColor: "#5D1777",
     projectDescription: "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN, MUSIK \n \nAnimation & Social Media Kampagnen für Wolf Biermann",
     type: "vid",
-    categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik"],
+    categories: ["Corporate Design", "Animation", "Digital Design", "Musik"],
     mediaTypes: ["vid","img", "img", "img", "img", "img"],
     longTextDescription:
-      "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN, MUSIK \n \nAnimation & Social Media Kampagnen für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "CORPORATE DESIGN, DIGITAL DESIGN, MUSIK \n \nAnimation & Social Media Kampagnen für Wolf Biermann, 2023-heute \n \nFür die Veröffentlichung der LP »Ermutigung« haben wir ein visuelles Konzept entwickelt, das direkt an die berühmte Zeile »Du, lass dich nicht verhärten in dieser harten Zeit« anknüpft. Das Cover greift diese Aussage bildlich auf und übersetzt sie grafisch in eine 3D-Ballon-Optik – als Symbol für Bewegung, Widerstandskraft und poetische Aufladung inmitten harter Zeiten. \nDie visuelle Sprache spielt mit Materialität und Form, steht im Kontrast zur politischen Schwere des Liedes und betont gleichzeitig dessen zentrale Botschaft: weich bleiben, auch wenn es schwerfällt. Es findet Platz auf thematisch passendem Merch wie Stressbällen, Pop-Sockets und Kaugummis. \nDas Artwork wurde als Teil der exklusiven LP-Veröffentlichung im Box-Set »Wolf Biermann: Zeiten verbinden« gestaltet und ist ebenfalls in begleitenden digitalen Formaten für Social Media und Streaming-Plattformen zu hören.",
   },     
   {
     id: "project-20-jazzica",
