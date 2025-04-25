@@ -137,7 +137,7 @@ const galleryProjectInformation = [
     categories: ["Illustration", "Buch- & Editorial Design"],
     mediaTypes: ["img", "img", "img", "img", "img", "img"],
     longTextDescription:
-      "BUCH- UND EDITORIAL DESIGN, ILLUSTRATION \n \nEditorial Design, Art Direction und Illustrationen für ein Reisetagebuch",
+      "BUCH- UND EDITORIAL DESIGN, ILLUSTRATION \n \nEditorial Design, Art Direction und Illustrationen für ein Reisetagebuch \n \nFür das Reisetagebuch von Noëlle haben wir eine visuelle Sprache entwickelt, die Neugier, Fernweh und persönliche Begegnungen in den Mittelpunkt stellt. Über knapp vier Monate hinweg hielt sie ihre Erlebnisse in Wort und Bild fest – von entlegenen Naturwundern über bunte Unterwasserwelten bis hin zu pulsierenden Städten. Das Buch erzählt nicht nur von besonderen Orten, sondern auch von neuen Freundschaften und vom Mut, sich einen Lebenstraum zu erfüllen. \nStudio Ajot übernahm die komplette grafische Gestaltung – von Cover und Satz bis hin zu liebevollen Illustrationen, die die Erzählung begleiten und atmosphärisch erweitern. Das Design folgt der Idee eines persönlichen, modernen Logbuchs: offen, nahbar, detailverliebt.",
   }, 
     {
     id: "project-2-calendarium-luminis",
