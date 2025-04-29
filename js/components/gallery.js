@@ -57,7 +57,9 @@ $(document).ready(function () {
     // Handle filter button click
     function handleFilterClick() {
         const filter = $(this).data("filter");
-        $(".grid").isotope({filter: filter === "none" ? "*" : `.${filter}`});
+        const filterTerm = "." + filter.toUpperCase().replace(/\W+/g, "")
+        console.log(filterTerm)
+        $(".grid").isotope({filter: filter === "none" ? "*" : filterTerm});
         $(".filter-bar__filter-element").removeClass("filter-bar__filter-element--selected");
         $(this).addClass("filter-bar__filter-element--selected");
         resizeGalleryItems();
@@ -97,7 +99,7 @@ $(document).ready(function () {
             $(".grid .grid-item").each(function (index) {
                 $(this).toggleClass("gallery-item--hidden", index >= 6);
             });
-            $("#toggle-gallery-items").html('<span>Mehr anzeigen </span><img id="toggle-gallery-items-arrow" src="assets/icons/arrows/arrow-up.svg" alt="">');
+            $("#toggle-gallery-items").html('<span>Mehr anzeigen </span><img id="toggle-gallery-items-arrow" src="assets/icons/arrows/arrow-down.svg" alt="">');
         }
 
         $(".grid").isotope({filter: item => !$(item).hasClass("gallery-item--hidden")});

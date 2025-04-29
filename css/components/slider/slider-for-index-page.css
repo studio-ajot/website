@@ -3,12 +3,14 @@
 #################################*/
 .slider_section, .main-carousel {
     top: 100%;
-    /*max-width: 100vw;*/
-    /*min-width: 100vw;*/
     min-height: 100vh;
-    cursor: url('/assets/icons/cursor-for-carousel.svg') 16 16, auto !important;
     overflow-x: hidden;
 }
+
+.slider_section a {
+    cursor: url('../../../assets/icons/cursor-for-carousel.svg') 16 16, auto !important;
+}
+
 
 .slider_section.active {
     top: 0;

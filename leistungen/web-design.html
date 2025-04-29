@@ -26,8 +26,8 @@
   <!-- Stylesheets (CSS) -->
   <link rel="preload" href="../css/main.css" as="style" />
   <link rel="stylesheet" href="../css/main.css" />
-<!--  <link rel="stylesheet" href="css/pages/leistungen.css" />-->
-  <link rel="stylesheet" href="../css/pages/design-subpages.css" />
+  <!--  <link rel="stylesheet" href="css/pages/leistungen.css" />-->
+  <link rel="stylesheet" href="../css/pages/leistungen-subpages.css" />
 
 </head>
 
@@ -35,60 +35,62 @@
 <!-- Navigation -->
 <nav class="nav_section" id="index-nav">
   <div class="nav_row site-padding-x site-padding-y">
-    <a href="../index.html" class="logo" id="website_title"><img
-      src='../assets/icons/ajot-logo.svg' alt='Studio Ajot'></img></a>
+    <a href="./../index.html" class="logo" id="website_title"><img
+      src='./../assets/icons/ajot-logo.svg' alt='Studio Ajot'></img></a>
     <!-- hamburger menu button -->
     <button type="button" class="burger_menu">
       <span class="icon" id="icon"></span> <span class="icon2" id="icon2"></span> <span
       class="icon3" id="icon3"></span>
     </button>
-  </div>
-  <!-- Main menu -->
-  <div class="menu_points">
-    <ul>
-      <!-- Projekte -->
-      <li>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg"
-           href="../index.html#projekte"> <span class="index-link">Projekte</span> </a>
-      </li>
-      <!-- Leistungen -->
-      <li class='hover-target'>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg"
-           href="../leistungen.html">
+    <!-- Main menu -->
+    <div class="menu_points">
+      <ul>
+        <!-- Projekte -->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./../index.html#projekte"> <span class="index-link">Projekte</span> </a>
+        </li>
+        <!-- Leistungen -->
+        <li class='hover-target'>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./../leistungen.html">
           <span
             class="index-link">Leistungen</span></a>
-        <!-- Sub menu -->
-        <ul class='submenu'>
-          <li>
-            <a href="../leistungen.html#corporate-design"> <span class="button primary-button">Corporate Design</span>
-            </a>
-          </li>
-          <li>
-            <a href="../leistungen.html#editorial-design"> <span
-              class="button primary-button">Buch- und Editorial Design </span> </a>
-          </li>
-          <li>
-            <a href="../leistungen.html#web-design"> <span
-              class="button primary-button">Web und Digital Design</span> </a>
-          </li>
-          <li>
-            <a href="../leistungen.html#experimental"> <span
-              class="button primary-button">Design</span> </a>
-          </li>
-        </ul>
-      </li>
-      <!-- über uns -->
-      <li>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg" href="../ueber-uns.html"> <span
-          class="index-link">Über uns</span> </a>
-      </li>
-      <!-- Kontakt-->
-      <li>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg" href="../kontakt.html"><span
-          class="index-link">Kontakt</span></a>
-      </li>
-    </ul>
+        </li>
+        <!-- über uns -->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./../ueber-uns.html"> <span
+            class="index-link">Über uns</span> </a>
+        </li>
+        <!-- Kontakt-->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./../kontakt.html"><span
+            class="index-link">Kontakt</span></a>
+        </li>
+      </ul>
+    </div>
   </div>
+  <!-- Sub menu -->
+  <ul class='submenu hover-target'>
+    <li>
+      <a href="./../leistungen.html#corporate-design"> <span class="button primary-button">Corporate Design</span>
+      </a>
+    </li>
+    <li>
+      <a href="./../leistungen.html#editorial-design"> <span
+        class="button primary-button">Buch- und Editorial Design </span> </a>
+    </li>
+    <li>
+      <a href="./../leistungen.html#web-design"> <span
+        class="button primary-button">Web und Digital Design</span> </a>
+    </li>
+    <li>
+      <a href="./../leistungen.html#experimental"> <span
+        class="button primary-button">Design</span> </a>
+    </li>
+  </ul>
 </nav>
 
 <main>
@@ -108,8 +110,8 @@
     </div>
     <!--    slider-->
     <section class='d-flex justify-content-center m-5'>
-        <div class="main-carousel">
-        </div>
+      <div class="main-carousel">
+      </div>
     </section>
     <!--      <img class='w-60' src="/assets/media/leistungen/leistungen-2-web.jpg" alt="Projekt 2"></div>-->
     <div class='d-flex justify-content-between w-100'>
@@ -121,10 +123,33 @@
            verbinden Emotionen mit Funktionalität. <br /> <br /> Unser Ziel: Interaktive Medien, die
            inspirieren und Nutzer:innen nachhaltig begeistern.
         </p></div>
-      <div class='narrow d-flex flex-column gap-2'>
+      <div class='narrow d-flex flex-column gap-4'>
         <h1>Expertisen</h1>
-        <p>· Webdesign<br /> · Social Media: Konzeption und Templates<br /> · Animation<br />
-        </p>
+        <div class='d-flex flex-row gap-4'>
+          <img class='expertisen-icon'
+               src=../assets/icons/leistungen/web-design-expertise-1.svg
+               alt=''>
+          <div class='d-flex flex-column gap-2'>
+            <h2>Webdesign</h2> <span>Responsive Design, Navigations-
+struktur, Prototypen, CMS-Integration</span></div>
+        </div>
+        <div class='d-flex flex-row gap-4'>
+          <img class='expertisen-icon'
+               src=../assets/icons/leistungen/web-design-expertise-2.svg
+               alt=''>
+          <div class='d-flex flex-column gap-2'>
+            <h2>Grafik und Animation</h2> <span>Animationen, Interaktive Elemente</span>
+          </div>
+        </div>
+        <div class='d-flex flex-row gap-4'>
+          <img class='expertisen-icon'
+               src=../assets/icons/leistungen/web-design-expertise-3.svg
+               alt=''>
+          <div class='d-flex flex-column gap-2'>
+            <h2>Social Media Design</h2> <span>Templates, Banner, Posts/Vorlagen, Kampagnen</span>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -157,7 +182,7 @@
 <script src="../assets/libraries/js/bootstrap.bundle.min.js"></script>
 <script src="../assets/libraries/js/flickity.pkgd.min.js"></script>
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
-<script src="../content-management/slider-project-information.js"></script>
+<script src="../content-management/slider-index-page-project-information.js"></script>
 <script src='../content-management/gallery-project-information.js'></script>
 <script src="../js/main-functions.js"></script>
 <script src="../js/pages/design-subpages.js"></script>

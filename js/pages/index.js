@@ -31,23 +31,24 @@ function setupMobileDetection() {
 
 function fillCarousel() {
     const isMobile = $("body").hasClass("mobile-detect");
-    const mediaPrefix = isMobile ? "assets/slider/mobile/" : "assets/media/slider/web/";
-    const mediaPostfix = isMobile ? "-mobile" : "-web";
+    const mediaPrefix = isMobile ? "assets/slider/index/mobile/" : "assets/media/slider/index/web/";
+    const mediaPostfix = isMobile ? "" : "";
 
-    sliderProjectInformation.forEach((project, index) => {
+    sliderIndexPageProjectInformation.forEach((project, index) => {
         let mediaElement;
+        const projectName = project.id.split(/__\d*/)[0];
 
         if (project.type === "img") {
             mediaElement = `
                 <div class="carousel-cell">
-                  <a href="./projekte/${project.id}.html">  
+                  <a href="./projekte/${projectName}.html">  
                     <img id="${project.id}" class="flickity_img" ${index === 0 ? "data-flickity-lazyload=" + mediaPrefix + project.id + mediaPostfix + ".jpg" : ""} />
                   </a>
                 </div>`;
         } else if (project.type === "vid") {
             mediaElement = `
                 <div class="carousel-cell">
-                    <a href="./projekte/${project.id}.html">
+                    <a href="./projekte/${projectName}.html">
                         <video autoplay loop muted playsinline id="${project.id}" class="flickity_vid">
                             <source src="${mediaPrefix + project.id + mediaPostfix}.webm" type="video/webm" />
                             <source src="${mediaPrefix + project.id + mediaPostfix}.mp4" type="video/mp4" 
@@ -68,7 +69,7 @@ function fillCarousel() {
 
 function setupLazyLoading() {
     $(".flickity_img").each(function () {
-        $(this).attr("data-flickity-lazyload", `assets/media/slider/web/${$(this).attr("id")}-web.jpg`);
+        $(this).attr("data-flickity-lazyload", `assets/media/slider/index/web/${$(this).attr("id")}.jpg`);
     });
 }
 
@@ -105,12 +106,12 @@ function setupScrollify() {
         scrollSpeed: 50,
         setHeights: false,
         touchScroll: true,
-        before: function(index, sections) {
+        before: function (index, sections) {
             // Disable scroll events (e.g., mousewheel, touchmove) by adding non-passive listeners
-            $(document).on('wheel.disableScroll', { passive: false }, function(e) {
+            $(document).on('wheel.disableScroll', {passive: false}, function (e) {
                 e.preventDefault();
             });
-            $(document).on('touchmove.disableScroll', { passive: false }, function(e) {
+            $(document).on('touchmove.disableScroll', {passive: false}, function (e) {
                 e.preventDefault();
             });
         },

@@ -1,31 +1,40 @@
 const PATH_REGEX = /^.*\/studio-ajot\//;
 
 const designSubpageMetaData = {
-    'buch-und-editorial-design': {
+    'editorial-design': {
         accentColor: '#F2C94C',
-        categories: ['Buch- & Editorial Design'],
+        categories: 'Buch- & Editorial Design',
     },
     'corporate-design': {
         accentColor: '#F2C94C',
-        categories: ['Corporate Design'],
+        categories: 'Corporate Design',
     },
     'web-design': {
         accentColor: '#F2C94C',
-        categories: ['Web Design'],
+        categories: 'Webdesign',
     },
-    'design': {
+    'experimental': {
         accentColor: '#F2C94C',
-        categories: ['Design'],
+        categories: 'Design',
     }
 }
 
-
-const extractDesignSubpage = () => {
-    return window.location.pathname
+const getProjectCategoryForSubpage = () => {
+    const subPage = window.location.pathname
         .replace(PATH_REGEX, '')
         .replace('/', '')
-        .replace('.html', '');
+        .replace('.html', '')
+        .replace('leistungen', '');
+
+    return designSubpageMetaData[subPage] ? designSubpageMetaData[subPage].categories : '';
 };
+
+const getProjectForSubpage = () => {
+    const projectCategoryForSubpage = getProjectCategoryForSubpage();
+    const projectsOfSubpage = galleryProjectInformation.filter(project => {
+        return project.categories.includes(projectCategoryForSubpage)
+    });
+}
 
 $(document).ready(function () {
     // handleCursor();
@@ -66,13 +75,16 @@ function fillCarousel() {
     // const mediaPostfix = isMobile ? "-mobile" : "-web";
     const mediaPrefix = isMobile ? "../assets/media/projects/mobile/" : "../assets/media/projects/web/";
     const mediaPostfix = "-1";
-    const designSubpage = extractDesignSubpage();
-    galleryProjectInformation.forEach((project, index) => {
+    const projectCategoryForSubpage = getProjectCategoryForSubpage();
+    const projectsOfSubpage = galleryProjectInformation.filter(project => {
+        return project.categories.includes(projectCategoryForSubpage)
+    });
+    projectsOfSubpage.forEach((project, index) => {
         let mediaElement;
         let lazyLoadAttr = "";
 
         // Lade das erste, zweite und letzte Medium vor
-        if (index === 0 || index === 1 || index === galleryProjectInformation.length - 1) {
+        if (index === 0 || index === 1 || index === projectsOfSubpage.length - 1) {
             lazyLoadAttr = `data-flickity-lazyload="${mediaPrefix}/${project.id}/${project.id}${mediaPostfix}.jpg"`;
         }
 

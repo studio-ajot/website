@@ -102,3 +102,7 @@
 .min-page-height {
     min-height: calc(100vh - 80px);
 }
+
+.cursor-pointer {
+    cursor: pointer;
+}

@@ -13,7 +13,7 @@ footer {
     padding-right: 30px;
     height: 100%;
     border-left: 1px solid black;
-    transition: var(--transition);
+    transition: background-color 0.2s ease-in-out;
     color: black;
     display: flex;
     align-items: center;
@@ -30,4 +30,10 @@ footer {
 
 .footer-button:hover img {
     filter: invert(1);
+}
+
+footer a:hover {
+    background-color: black;
+    color: white !important;
+    text-decoration: none;
 }

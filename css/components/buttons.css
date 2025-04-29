@@ -5,15 +5,24 @@
     --button-padding: 10px 20px;
 }
 
+a {
+    cursor: pointer !important;
+}
+
 a.button {
     text-decoration: none !important;
+    cursor: pointer;
+    display: flex;
 }
 
 button.big, a.big {
     width: var(--button-width-big);
+    cursor: pointer;
+    text-decoration: none !important;
 }
 
 .button {
+    text-decoration: none !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,31 +31,48 @@ button.big, a.big {
     border-radius: var(--button-radius);
     width: var(--button-width);
     padding: var(--button-padding);
-    transition: var(--transition);
+    /*transition: var(--transition);*/
     height: 50px;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 
 /* Primary Button */
 .primary-button {
     background-color: black;
-    color: white;
+    color: white !important;
+    cursor: pointer !important;
 }
 
 .primary-button:hover {
     background-color: white;
-    color: black;
+    color: black !important;
     border-color: white;
 }
 
 /* Secondary Button */
 .secondary-button {
+    cursor: pointer !important;
     background-color: transparent;
-    color: black;
+    color: black !important;
 }
 
 .secondary-button:hover {
     border-color: white;
-    color: white;
+    color: white !important;
 }
+
+a button {
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+.icon-button {
+    transition: filter 0.3s ease;
+}
+
+.icon-button:hover {
+    filter: invert(1);
+}
+

@@ -51,7 +51,7 @@ $(document).ready(function () {
     $(".hover-target").mouseleave(function () {
         leaveTimeout = setTimeout(() => {
             $(".submenu").removeClass("active");
-        }, 100); // Verzögerung beim Schließen
+        }, 200); // Verzögerung beim Schließen
     });
 });
 

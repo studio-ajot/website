@@ -1,20 +1,27 @@
+.expertisen-icon {
+    width: 65px;
+    height: 65px;
+}
+
 /* ################################
 #              slider              #
 #################################*/
 .main-carousel {
-    /*height: 1050px;*/
-    cursor: url('../../assets/icons/cursor-for-carousel.svg') 16 16, auto !important;
+    height: 1000px;
+    /*cursor: url('../../assets/icons/cursor-for-carousel.svg') 16 16, auto !important;*/
     width: 100vw;
     overflow: hidden;
     margin-left: -120px; /* Pulls the slider outward to compensate for padding */
     margin-right: -120px;
 }
 
-/*.flickity-slider {*/
-/*    display: flex;*/
-/*    justify-items: center;*/
-/*    align-items: center;*/
-/*}*/
+.flickity-viewport {
+    /*display: flex;*/
+    /*justify-items: center;*/
+    /*align-items: center;*/
+    width: 100%;
+    height: 100% !important;
+}
 
 .carousel-cell {
     width: 60%;
@@ -40,10 +47,12 @@
 .flickity_img,
 .flickity_vid {
     object-fit: cover;
-    /*width: 55%;*/
+    width: 100%;
     overflow-x: hidden;
     /*margin: 100px;*/
     /*height: 100%;*/
+    cursor: url('../../assets/icons/cursor-for-carousel.svg') 16 16, auto !important;
+
 
 }
 

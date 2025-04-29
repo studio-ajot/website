@@ -27,7 +27,7 @@
   <link rel="preload" href="../css/main.css" as="style" />
   <link rel="stylesheet" href="../css/main.css" />
   <link rel="stylesheet" href="../css/pages/leistungen.css" />
-  <link rel="stylesheet" href="../css/pages/design-subpages.css" />
+  <link rel="stylesheet" href="../css/pages/leistungen-subpages.css" />
 
 </head>
 
@@ -35,60 +35,61 @@
 <!-- Navigation -->
 <nav class="nav_section" id="index-nav">
   <div class="nav_row site-padding-x site-padding-y">
-    <a href="../index.html" class="logo" id="website_title"><img
-      src='../assets/icons/ajot-logo.svg' alt='Studio Ajot'></img></a>
+    <a href="./../index.html" class="logo" id="website_title"><img
+      src='./../assets/icons/ajot-logo.svg' alt='Studio Ajot'></img></a>
     <!-- hamburger menu button -->
     <button type="button" class="burger_menu">
       <span class="icon" id="icon"></span> <span class="icon2" id="icon2"></span> <span
       class="icon3" id="icon3"></span>
     </button>
-  </div>
-  <!-- Main menu -->
-  <div class="menu_points">
-    <ul>
-      <!-- Projekte -->
-      <li>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg"
-           href="../index.html#projekte"> <span class="index-link">Projekte</span> </a>
-      </li>
-      <!-- Leistungen -->
-      <li class='hover-target'>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg"
-           href="../leistungen.html">
+    <!-- Main menu -->
+    <div class="menu_points">
+      <ul>
+        <!-- Projekte -->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./../index.html#projekte"> <span class="index-link">Projekte</span> </a>
+        </li>
+        <!-- Leistungen -->
+        <li class='hover-target'>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./../leistungen.html">
           <span
             class="index-link">Leistungen</span></a>
-        <!-- Sub menu -->
-        <ul class='submenu'>
-          <li>
-            <a href="../leistungen.html#corporate-design"> <span class="button primary-button">Corporate Design</span>
-            </a>
-          </li>
-          <li>
-            <a href="../leistungen.html#editorial-design"> <span
-              class="button primary-button">Buch- und Editorial Design </span> </a>
-          </li>
-          <li>
-            <a href="../leistungen.html#web-design"> <span
-              class="button primary-button">Web und Digital Design</span> </a>
-          </li>
-          <li>
-            <a href="../leistungen.html#experimental"> <span
-              class="button primary-button">Design</span> </a>
-          </li>
-        </ul>
-      </li>
-      <!-- über uns -->
-      <li>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg" href="../ueber-uns.html"> <span
-          class="index-link">Über uns</span> </a>
-      </li>
-      <!-- Kontakt-->
-      <li>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg" href="../kontakt.html"><span
-          class="index-link">Kontakt</span></a>
-      </li>
-    </ul>
+        </li>
+        <!-- über uns -->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./../ueber-uns.html"> <span
+            class="index-link">Über uns</span> </a>
+        </li>
+        <!-- Kontakt-->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./../kontakt.html"><span
+            class="index-link">Kontakt</span></a>
+        </li>
+      </ul>
+    </div>
   </div>
+  <!-- Sub menu -->
+  <ul class='submenu hover-target'>
+    <li>
+      <a href="./../leistungen.html#corporate-design"> <span class="button primary-button">Corporate Design</span>
+      </a>
+    </li>
+    <li>
+      <a href="./../leistungen.html#editorial-design"> <span
+        class="button primary-button">Buch- und Editorial Design </span> </a>
+    </li>
+    <li>
+      <a href="./../leistungen.html#web-design"> <span
+        class="button primary-button">Web und Digital Design</span> </a>
+    </li>
+    <li>
+      <a href="./../leistungen.html#experimental"> <span
+        class="button primary-button">Design</span> </a>
+    </li>
+  </ul>
 </nav>
 
 <main>
@@ -129,18 +130,45 @@
            Gemeinsam kreieren wir Druckobjekte, die nicht nur praktisch, sondern auch emotional und
            ästhetisch überzeugen.
         </p></div>
-      <div class='narrow d-flex flex-column gap-2'>
+      <div class='narrow d-flex flex-column gap-4'>
         <h1>Expertisen</h1>
-        <p>· Art Direktion<br /> · Buch- und Coverdesign<br /> · LP- und CD-Cover<br /> · Layout und
-           Satz<br /> · Produktionsüberwachung<br /> · Materialberatung<br /> · Magazine, Flyer,
-           Kataloge<br /> · Plakatgestaltung<br /> · Schriftgestaltung<br />
-        </p>
+        <div class='d-flex flex-row gap-4'>
+          <img class='expertisen-icon'
+               src=../assets/icons/leistungen/editorial-design-expertise-1.svg
+               alt=''>
+          <div class='d-flex flex-column gap-2'>
+            <h2>Konzept & Strategie</h2> <span>Zielgruppenanalyse, Inhaltsstruktur & Designziel</span></div>
+        </div>
+        <div class='d-flex flex-row gap-4'>
+          <img class='expertisen-icon'
+               src=../assets/icons/leistungen/editorial-design-expertise-2.svg
+               alt=''>
+          <div class='d-flex flex-column gap-2'>
+            <h2>Editorial Design</h2> <span>Buch- und Coverdesign, Layout, Typografie, Farbsystem, Art Direktion, Layout & Textsatz, Schriftgestaltung</span>
+          </div>
+        </div>
+        <div class='d-flex flex-row gap-4'>
+          <img class='expertisen-icon'
+               src=../assets/icons/leistungen/editorial-design-expertise-3.svg
+               alt=''>
+          <div class='d-flex flex-column gap-2'>
+            <h2>Anwendungsbeispiele</h2> <span>Bücher & Magazine, Plakate & Flyer, LP- und CD-Cover</span>
+          </div>
+        </div>
+        <div class='d-flex flex-row gap-4'>
+          <img class='expertisen-icon'
+               src=../assets/icons/leistungen/editorial-design-expertise-4.svg
+               alt=''>
+          <div class='d-flex flex-column gap-2'>
+            <h2>Produktion</h2> <span>Produktionsüberwachung, Materialberatung</span>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
 
 </main>
-
 <!-- Footer -->
 <footer class="bottom site-padding-x bg-lavender" id="index-footer">
   <div class="d-flex flex-row justify-content-between align-items-stretch h-100">
@@ -167,7 +195,7 @@
 <script src="../assets/libraries/js/bootstrap.bundle.min.js"></script>
 <script src="../assets/libraries/js/flickity.pkgd.min.js"></script>
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
-<script src="../content-management/slider-project-information.js"></script>
+<script src="../content-management/slider-index-page-project-information.js"></script>
 <script src='../content-management/gallery-project-information.js'></script>
 <script src="../js/main-functions.js"></script>
 <script src="../js/pages/design-subpages.js"></script>

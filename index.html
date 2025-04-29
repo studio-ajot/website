@@ -26,66 +26,73 @@
       <span class="icon" id="icon"></span> <span class="icon2" id="icon2"></span> <span
       class="icon3" id="icon3"></span>
     </button>
-  </div>
-  <!-- Main menu -->
-  <div class="menu_points">
-    <ul>
-      <!-- Projekte -->
-      <li>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg"
-           href="./index.html#projekte"> <span class="index-link">Projekte</span> </a>
-      </li>
-      <!-- Leistungen -->
-      <li class='hover-target'>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg"
-           href="./leistungen.html">
+    <!-- Main menu -->
+    <div class="menu_points">
+      <ul>
+        <!-- Projekte -->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./index.html#projekte"> <span class="index-link">Projekte</span> </a>
+        </li>
+        <!-- Leistungen -->
+        <li class='hover-target'>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./leistungen.html">
           <span
             class="index-link">Leistungen</span></a>
-        <!-- Sub menu -->
-        <ul class='submenu'>
-          <li>
-            <a href="./leistungen.html#corporate-design"> <span class="button primary-button">Corporate Design</span>
-            </a>
-          </li>
-          <li>
-            <a href="./leistungen.html#editorial-design"> <span
-              class="button primary-button">Buch- und Editorial Design </span> </a>
-          </li>
-          <li>
-            <a href="./leistungen.html#web-design"> <span
-              class="button primary-button">Web und Digital Design</span> </a>
-          </li>
-          <li>
-            <a href="./leistungen.html#experimental"> <span
-              class="button primary-button">Design</span> </a>
-          </li>
-        </ul>
-      </li>
-      <!-- über uns -->
-      <li>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./ueber-uns.html"> <span
-          class="index-link">Über uns</span> </a>
-      </li>
-      <!-- Kontakt-->
-      <li>
-        <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./kontakt.html"><span
-          class="index-link">Kontakt</span></a>
-      </li>
-    </ul>
+        </li>
+        <!-- über uns -->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./ueber-uns.html"> <span
+            class="index-link">Über uns</span> </a>
+        </li>
+        <!-- Kontakt-->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./kontakt.html"><span
+            class="index-link">Kontakt</span></a>
+        </li>
+      </ul>
+    </div>
   </div>
+  <!-- Sub menu -->
+  <ul class='submenu hover-target'>
+    <li>
+      <a href="./leistungen.html#corporate-design"> <span class="button primary-button">Corporate Design</span>
+      </a>
+    </li>
+    <li>
+      <a href="./leistungen.html#editorial-design"> <span
+        class="button primary-button">Buch- und Editorial Design </span> </a>
+    </li>
+    <li>
+      <a href="./leistungen.html#web-design"> <span
+        class="button primary-button">Web und Digital Design</span> </a>
+    </li>
+    <li>
+      <a href="./leistungen.html#experimental"> <span
+        class="button primary-button">Design</span> </a>
+    </li>
+  </ul>
 </nav>
 <!-- Main section -->
 <main class='d-flex flex-column align-items-stretch'>
   <!--  Section: Slider -->
-  <section class='slider_section p-0 scroll-with-snap' data-section-name="start">
+  <section class='slider_section p-0 scroll-with-snap' id="start">
     <div class='slider-arrow-right'></div>
     <div class='slider-arrow-left'></div>
     <div></div>
     <div id='intro-text'>
       <h1>Grafikdesign in <br /> Hamburg & Berlin</h1>
       <div class='flex-row d-flex gap-3 mt-4'>
-        <button class='button primary-button'>Mehr erfahren</button>
-        <button class='button secondary-button'>Sag Hallo!</button>
+<!--        <div class='cursor-pointer'>-->
+          <a class='button primary-button' href='#vorstellung'>
+            <button>Mehr erfahren</button>
+          </a>
+<!--      </div>-->
+
+        <button class='button secondary-button'><a href='#kontakt'>Sag Hallo! </a></button>
+
       </div>
     </div>
     <div class="main-carousel">
@@ -96,7 +103,7 @@
     </div>
   </section>
   <!-- Section: Introduction -->
-  <section class='bg-lavender section-padding scroll-with-snap' data-section-name="vorstellung">
+  <section class='bg-lavender section-padding scroll-with-snap' id="vorstellung">
     <div class='d-flex flex-row gap-5'>
       <div class='d-flex flex-column w-75 gap-5'>
         <h1>Büro für Grafikdesing <br />in Berlin und Hamburg</h1>
@@ -129,15 +136,15 @@
     </div>
   </section>
   <!-- Section: Gallery -->
-  <section id="projekte" class='bg-light-blue section-padding scroll-with-snap'
-           data-section-name="projekte">
+  <section class='bg-light-blue section-padding scroll-with-snap'
+           id="projekte">
     <div class='d-flex flex-column gap-3'>
       <h1 class=''>Projekte</h1>
       <div class="filter-bar-container">
         <img src='assets/icons/arrows/arrow-left.svg' class='filter-bar-arrow-icons' alt=''></img>
         <ul class="filter-bar">
           <li
-            class="button button-primary border border-white filter-bar__filter-element filter-bar__filter-element--selected"
+            class="button button-primary filter-bar__filter-element filter-bar__filter-element--selected"
             data-filter="none"
           >
             Alle
@@ -156,19 +163,18 @@
   </section>
 </main>
 <!-- Section: Contact -->
-<section id="kontakt" class='bg-orange section-padding py-5 scroll-with-snap'
-         data-section-name="kontakt">
+<section id="kontakt" class='bg-orange section-padding py-5 scroll-with-snap'>
   <div class='d-flex flex-row gap-5'>
     <div class='d-flex flex-column w-75 gap-5'>
       <h1>Kontakt zu uns</h1>
-      <p class='copy-1'>Unser benutzerfreundliches Kontaktformular ist gerade in Arbeit – aber wir
-                        sind natürlich trotzdem für dich da!
-
-                        Wenn du mit uns zusammenarbeiten möchtest oder Fragen zu unserer Arbeit
-                        hast, freuen wir uns, von dir zu hören. Schreib uns gerne eine Nachricht
-                        über die angegebenen Kontaktdaten oder nutze einfach den Button unten. Wir
-                        sind gespannt auf dein Projekt und melden uns so schnell wie möglich bei
-                        dir!</p>
+      <p class='copy-1' id='kontakt-textbox'>Unser benutzerfreundliches Kontaktformular ist gerade
+                                             in Arbeit – aber wir sind natürlich trotzdem für dich
+                                             da! <br /><br /> Wenn du mit uns zusammenarbeiten
+                                             möchtest oder Fragen zu unserer Arbeit hast, freuen wir
+                                             uns, von dir zu hören. Schreib uns gerne eine Nachricht
+                                             über die angegebenen Kontaktdaten oder nutze einfach
+                                             den Button unten. Wir sind gespannt auf dein Projekt
+                                             und melden uns so schnell wie möglich bei dir!</p>
       <a class='button primary-button text-decoration-none'
          href="mailto:hello@ajot.de?subject=Projektanfrage&body=Hallo%20liebes%20Ajot-Team,%0A">Nachricht
                                                                                                 abschicken</a>
@@ -215,7 +221,7 @@
 <script src="assets/libraries/js/isotope.pkgd.min.js"></script>
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 <script src="content-management/gallery-project-information.js"></script>
-<script src="content-management/slider-project-information.js"></script>
+<script src="content-management/slider-index-page-project-information.js"></script>
 <script src="js/main-functions.js"></script>
 <script src="js/components/gallery.js"></script>
 <script src="js/pages/index.js"></script>
