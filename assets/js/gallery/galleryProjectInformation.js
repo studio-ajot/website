@@ -84,10 +84,10 @@ const galleryProjectInformation = [
     accentColor: "#5D1777",
     projectDescription: "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN, MUSIK \n \nAnimation & Social Media Kampagnen für Wolf Biermann",
     type: "vid",
-    categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik"],
+    categories: ["Corporate Design", "Animation", "Digital Design", "Musik"],
     mediaTypes: ["vid","img", "img", "img", "img", "img"],
     longTextDescription:
-      "CORPORATE DESIGN, PLAKATGESTALTUNG, ANIMATION, DIGITAL DESIGN, MUSIK \n \nAnimation & Social Media Kampagnen für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "CORPORATE DESIGN, DIGITAL DESIGN, MUSIK \n \nAnimation & Social Media Kampagnen für Wolf Biermann, 2023-heute \n \nFür die Veröffentlichung der LP »Ermutigung« haben wir ein visuelles Konzept entwickelt, das direkt an die berühmte Zeile »Du, lass dich nicht verhärten in dieser harten Zeit« anknüpft. Das Cover greift diese Aussage bildlich auf und übersetzt sie grafisch in eine 3D-Ballon-Optik – als Symbol für Bewegung, Widerstandskraft und poetische Aufladung inmitten harter Zeiten. \nDie visuelle Sprache spielt mit Materialität und Form, steht im Kontrast zur politischen Schwere des Liedes und betont gleichzeitig dessen zentrale Botschaft: weich bleiben, auch wenn es schwerfällt. Es findet Platz auf thematisch passendem Merch wie Stressbällen, Pop-Sockets und Kaugummis. \nDas Artwork wurde als Teil der exklusiven LP-Veröffentlichung im Box-Set »Wolf Biermann: Zeiten verbinden« gestaltet und ist ebenfalls in begleitenden digitalen Formaten für Social Media und Streaming-Plattformen zu hören.",
   },     
   {
     id: "project-20-jazzica",
@@ -182,12 +182,12 @@ const galleryProjectInformation = [
   {
     id: "projekt-34-musikdesign-wolf-biermann-nachpressungen",
     accentColor: "#1419C0",
-    projectDescription: "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann",
+    projectDescription: "CORPORATE DESIGN, MUSIK  \n \nPlattengestaltung für Wolf Biermann",
     type: "img",
     categories: ["Corporate Design", "Musik"],
     mediaTypes: ["img", "img", "img", "img", "img"],
     longTextDescription:
-      "CORPORATE DESIGN, MUSIK  \n \nAufbau einer Markenidentität & Plattengestaltung für Wolf Biermann, 2023-heute \n \nDer deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt.",
+      "CORPORATE DESIGN, MUSIK  \n \nPlattengestaltung für Wolf Biermann \n \nFür die Neuauflage von Wolf Biermanns ersten beiden Alben haben wir das Artwork minimal modernisiert und grafisch an die Erscheinung des Box-Set angepasst. Ziel war es, die historische und künstlerische Bedeutung der Originalaufnahmen zu bewahren, sie aber visuell in die Gegenwart zu überführen. \n»Chausseestraße 131« entstand 1968 unter widrigsten Bedingungen – aufgenommen in Biermanns Wohnung, weil ihm alle Studios der DDR verweigert wurden. Die zufälligen Hintergrundgeräusche – Hunde, Kinder, Straßenbahnen – prägten den legendären »geilen Chausseestraßen-Sound«. Diese besondere Atmosphäre haben wir gestalterisch aufgegriffen und in eine zeitgemäße visuelle Sprache übersetzt. Auch »Warte nicht auf beßre Zeiten« (1973), Biermanns zweites Album, erhält durch die neue Gestaltung eine frische Bühne. In einer Zeit politischer Aufbruchsstimmung war dieses Werk ein Aufruf zum Widerstand und zum Bleiben. Die grafische Umsetzung spiegelt diesen Mut wider – als kraftvolles Echo in die Jetztzeit.  \nBeide Re-Issues sind Teil der Initiative, Biermanns Werk einer neuen Generation zugänglich zu machen – klanglich wie visuell.",
   }, 
   {
     id: "project-11-ersti",
