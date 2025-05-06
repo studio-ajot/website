@@ -243,12 +243,12 @@ const galleryProjectInformation = [
     id: "project-9-gNIT",
     accentColor: "#095A5A",
     projectDescription: "CORPORATE DESIGN, DIGITAL DESIGN  \n \nEntwicklung einer Markenidentität für getNextIT",
-    type: "img",
-    categories: ["Corporate Design", "Digital Design"],
-    mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img"],
-    longTextDescription:
-      "CORPORATE DESIGN, DIGITAL DESIGN  \n \nEntwicklung einer Markenidentität und Werbemaßnahmen für getNextIT \n \nDurch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir das neue Corporate Design. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='white-links' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>.",
-  },  
+      type: "img",
+      categories: ["Corporate Design", "Digital Design"],
+      mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img"],
+      longTextDescription:
+          "CORPORATE DESIGN, DIGITAL DESIGN  \n \nEntwicklung einer Markenidentität und Werbemaßnahmen für getNextIT \n \nDurch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir das neue Corporate Design. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>.",
+    },
   {
     id: "project-5-lmaa",
     accentColor: "#E30000",

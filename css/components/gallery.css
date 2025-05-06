@@ -36,27 +36,20 @@
     align-items: center;
 }
 
-.filter-bar > .filter-bar__filter-element {
+.filter-bar__filter-element {
     white-space: nowrap;
     color: white;
     background: black;
+    border: 0;
 }
 
-.filter-bar > .filter-bar__filter-element:hover, .filter-bar__filter-element--selected {
+.filter-bar > .filter-bar__filter-element:hover, .filter-bar > .filter-bar__filter-element--selected {
     color: black;
     background-color: white;
 }
 
-.filter-bar__filter-element--selected {
-    border: 0;
-}
-
-.filter-bar__filter-element--selected:hover {
-    border: 1px;
-}
-
 #toggle-gallery-items-arrow {
-    margin-left: 20px
+    margin-left: 15px;
 }
 
 #toggle-gallery-items img {

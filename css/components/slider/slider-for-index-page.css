@@ -43,10 +43,10 @@
 
 .flickity-prev-next-button {
     /*position: fixed;*/
-    top: 50%;
-    width: 36px !important;
-    height: 65px !important;
-    border-radius: 25% !important;
+    top: 50vh;
+    width: 45px !important;
+    height: 75px !important;
+    border-radius: 30px !important;
     background-color: var(--color-lavender) !important;
     transition: all .2s ease-in-out;
     opacity: 0.8;

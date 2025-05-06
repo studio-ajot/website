@@ -2,51 +2,47 @@ const PATH_REGEX = /^.*\/studio-ajot\//;
 
 const designSubpageMetaData = {
     'editorial-design': {
-        accentColor: '#F2C94C',
-        categories: 'Buch- & Editorial Design',
+        accentColor: '#DBC4FF',
+        categories: ['Buch- & Editorial Design'],
     },
     'corporate-design': {
-        accentColor: '#F2C94C',
-        categories: 'Corporate Design',
+        accentColor: '#FF8955',
+        categories: ['Corporate Design'],
     },
     'web-design': {
-        accentColor: '#F2C94C',
-        categories: 'Webdesign',
+        accentColor: '#FC99FC',
+        categories: ['Webdesign'],
     },
     'experimental': {
-        accentColor: '#F2C94C',
-        categories: 'Design',
+        accentColor: '#A8CAFF',
+        categories: ['Illustration', 'Infografik'],
     }
 }
 
-const getProjectCategoryForSubpage = () => {
-    const subPage = window.location.pathname
+const getSubpage = () => {
+    return window.location.pathname
         .replace(PATH_REGEX, '')
         .replace('/', '')
         .replace('.html', '')
         .replace('leistungen', '');
-
-    return designSubpageMetaData[subPage] ? designSubpageMetaData[subPage].categories : '';
-};
-
-const getProjectForSubpage = () => {
-    const projectCategoryForSubpage = getProjectCategoryForSubpage();
-    const projectsOfSubpage = galleryProjectInformation.filter(project => {
-        return project.categories.includes(projectCategoryForSubpage)
-    });
 }
 
-$(document).ready(function () {
-    // handleCursor();
+const getAccentColorForSubpage = () => {
+    const subPage = getSubpage();
+    return designSubpageMetaData[subPage] ? designSubpageMetaData[subPage].accentColor : '';
+}
 
+const getProjectCategoryForSubpage = () => {
+    const subPage = getSubpage();
+    return designSubpageMetaData[subPage] ? designSubpageMetaData[subPage].categories : [];
+};
+
+$(document).ready(function () {
     initializeCarousel();
     setupMobileDetection();
     fillCarousel();
-    normalizeVhUnit();
-    setupLazyLoading();
     setupProgressBar();
     setupEventListeners();
-
 });
 
 function initializeCarousel() {
@@ -54,9 +50,15 @@ function initializeCarousel() {
         draggable: true,
         wrapAround: true,
         imagesLoaded: true,
-        lazyLoad: 5,
-        // autoPlay: 4500,
-        // adaptiveHeight: true
+        autoPlay: 4500,
+        percentPosition: false,
+        setGallerySize: false
+    });
+
+    $(".flickity-prev-next-button").css("background-color", getAccentColorForSubpage());
+    imagesLoaded('.main-carousel', function () {
+        $(".main-carousel").flickity("reloadCells");
+        $(".main-carousel").flickity("resize");
     });
 }
 
@@ -71,105 +73,59 @@ function setupMobileDetection() {
 
 function fillCarousel() {
     const isMobile = $("body").hasClass("mobile-detect");
-    // const mediaPrefix = isMobile ? "assets/slider/mobile/" : "assets/media/slider/web/";
-    // const mediaPostfix = isMobile ? "-mobile" : "-web";
     const mediaPrefix = isMobile ? "../assets/media/projects/mobile/" : "../assets/media/projects/web/";
     const mediaPostfix = "-1";
-    const projectCategoryForSubpage = getProjectCategoryForSubpage();
+    const projectCategoriesForSubpage = getProjectCategoryForSubpage();
     const projectsOfSubpage = galleryProjectInformation.filter(project => {
-        return project.categories.includes(projectCategoryForSubpage)
+        return project.categories.some(cat => projectCategoriesForSubpage.includes(cat));
     });
-    projectsOfSubpage.forEach((project, index) => {
-        let mediaElement;
-        let lazyLoadAttr = "";
 
-        // Lade das erste, zweite und letzte Medium vor
-        if (index === 0 || index === 1 || index === projectsOfSubpage.length - 1) {
-            lazyLoadAttr = `data-flickity-lazyload="${mediaPrefix}/${project.id}/${project.id}${mediaPostfix}.jpg"`;
-        }
+    const mediaLoadPromises = [];
+
+    projectsOfSubpage.forEach((project) => {
+        let mediaElement;
+        const mediaPath = `${mediaPrefix}${project.id}/${project.id}${mediaPostfix}`;
 
         if (project.type === "img") {
-            mediaElement = `
+            mediaElement = $(`
                 <div class="carousel-cell">
                   <a href="../projekte/${project.id}.html">  
-                    <img id="${project.id}" class="flickity_img" ${lazyLoadAttr}  alt=""/>
+                    <img id="${project.id}" class="flickity_img" src="${mediaPath}.jpg" alt=""/>
                   </a>
-                </div>`;
+                </div>`);
+            const img = mediaElement.find("img")[0];
+            const imgPromise = new Promise((resolve) => {
+                if (img.complete) resolve();
+                else img.onload = resolve;
+            });
+            mediaLoadPromises.push(imgPromise);
+
         } else if (project.type === "vid") {
-            mediaElement = `
+            mediaElement = $(`
                 <div class="carousel-cell">
                   <a href="../projekte/${project.id}.html">  
                     <video autoplay loop muted playsinline id="${project.id}" class="flickity_vid">
-                         <source src="${mediaPrefix + project.id + '/' + project.id + mediaPostfix}.webm" type="video/webm" />
-                         <source src="${mediaPrefix + project.id + '/' + project.id + mediaPostfix}.mp4" type="video/mp4"
-                        poster="${mediaPrefix}poster/${project.id + mediaPostfix}.jpg"/>
+                         <source src="${mediaPath}.webm" type="video/webm" />
+                         <source src="${mediaPath}.mp4" type="video/mp4" />
                     </video>
                   </a>
-                </div>`;
+                </div>`);
+            const video = mediaElement.find("video")[0];
+            const videoPromise = new Promise((resolve) => {
+                video.onloadedmetadata = resolve;
+            });
+            mediaLoadPromises.push(videoPromise);
         }
 
-        $(".main-carousel").flickity("append", $(mediaElement));
+        $(".main-carousel").flickity("append", mediaElement);
     });
 
-    // const filteredProjects = galleryProjectInformation.filter(
-    //     (p) => {
-    //         // console.log(designSubpageMetaData[designSubpage].categories)
-    //         // console.log((p.categories).includes(designSubpageMetaData[designSubpage].categories[0]));
-    //         designSubpageMetaData[designSubpage].categories.some(cat => {
-    //             console.log(p.categories)
-    //             console.log(cat)
-    //             return p.categories.includes(cat)
-    //         })
-    //     }
-    // );
-    // console.log(filteredProjects)
-    //
-    // filteredProjects.forEach((project, index) => {
-    //     let mediaElement;
-    //     let lazyLoadAttr = "";
-    //
-    //
-    //     // Lade das erste, zweite und letzte Medium vor
-    //     if (index === 0 || index === 1 || index === filteredProjects.length - 1) {
-    //         lazyLoadAttr = `data-flickity-lazyload="${mediaPrefix}/${project.id}/${project.id}${mediaPostfix}.jpg"`;
-    //     }
-    //
-    //     if (project.mediaTypes[0] === "img") {
-    //         mediaElement = `
-    //             <div class="carousel-cell">
-    //                 <img id="${project.id}" class="flickity_img" ${lazyLoadAttr}  alt=""/>
-    //             </div>`;
-    //     } else if (project.mediaTypes[0] === "vid") {
-    //         mediaElement = `
-    //             <div class="carousel-cell">
-    //                 <video autoplay loop muted playsinline id="${project.id}" class="flickity_vid">
-    //                     <source src="${mediaPrefix + project.id + '/' + project.id + mediaPostfix}.webm" type="video/webm" />
-    //                     <source src="${mediaPrefix + project.id + '/' + project.id + mediaPostfix}.mp4" type="video/mp4"
-    //                     poster="${mediaPrefix}poster/${project.id + mediaPostfix}.jpg"/>
-    //                 </video>
-    //             </div>`;
-    //     }
-    //
-    //     $(".main-carousel").flickity("append", $(mediaElement));
-    // });
-
-
-}
-
-
-function normalizeVhUnit() {
-    // document.documentElement.style.setProperty("--vh", `${window.innerHeight / 100}px`);
-}
-
-function setupLazyLoading() {
-    // $(".flickity_img").each(function () {
-    //     $(this).attr("data-flickity-lazyload", `assets/media/slider/web/${$(this).attr("id")}-web.jpg`);
-    // });
-
-    $(".flickity_img").each(function () {
-        $(this).attr("data-flickity-lazyload", `../assets/media/projects/web/${$(this).attr("id")}/${$(this).attr("id")}-1.jpg`);
+    Promise.all(mediaLoadPromises).then(() => {
+        $(".main-carousel").flickity("reloadCells");
+        $(".main-carousel").flickity("resize");
     });
 }
+
 
 function setupProgressBar() {
     if (window.matchMedia("(max-width: 1200px)").matches) {
@@ -183,7 +139,7 @@ function setupProgressBar() {
 function setupEventListeners() {
     $(".burger_menu").click(toggleMenu);
     $(".nav_section ul li a").click(closeMenu);
-    $(window).on("resize", normalizeVhUnit);
+    // $(window).on("resize", normalizeVhUnit);
     $(".main-carousel").on("staticClick.flickity", function (event) {
         if ($("body").hasClass("mobile-detect")) {
             $(".cursor").hide();

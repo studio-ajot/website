@@ -1,7 +1,6 @@
 /* ################################
 #      project subpages (web)     #
 #################################*/
-
 .subpage-main-container-for-web {
     min-height: calc(100vh - 160px);
     display: none;
@@ -129,7 +128,11 @@
 #     project subpages (both)     #
 #################################*/
 .project-subpage-main {
-    overflow-y: hidden;
+    min-height: 100vh !important;
+    padding-top: 80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .subpage-main-container-for-web__text-container__project-title {
@@ -174,4 +177,9 @@
     margin: 10px 0;
     overflow-y: auto;
     white-space: pre-wrap;
+}
+
+main #index-footer {
+    background-color: transparent;
+    align-items: center;
 }
