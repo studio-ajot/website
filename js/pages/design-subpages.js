@@ -22,7 +22,7 @@ const designSubpageMetaData = {
 const getSubpage = () => {
     return window.location.pathname
         .replace(PATH_REGEX, '')
-        .replace('/', '')
+        .replaceAll('/', '')
         .replace('.html', '')
         .replace('leistungen', '');
 }
@@ -41,7 +41,7 @@ $(document).ready(function () {
     initializeCarousel();
     setupMobileDetection();
     fillCarousel();
-    setupProgressBar();
+    // setupProgressBar();
     setupEventListeners();
 });
 
