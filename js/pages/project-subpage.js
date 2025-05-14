@@ -61,6 +61,7 @@ const setupMobileView = (projectName) => {
 
     return {
         mediaPrefix: `assets/projects/mobile/${projectName}/`,
+        mediaSuffix: '-mobile',
         imgClass: 'subpage-main-container-for-mobile__img',
         vidClass: 'subpage-main-container-for-mobile__vid'
     };
@@ -72,19 +73,20 @@ const setupDesktopView = (projectName) => {  // Add projectName as parameter
     document.documentElement.style.overflowY = 'hidden';
 
     return {
-        mediaPrefix: `../assets/media/projects/web/${projectName}/`,
+        mediaPrefix: `../assets/media/projects/${projectName}/`,
+        mediaSuffix: '-web',
         imgClass: 'subpage-main-container-for-web__subpage-image-container__img',
         vidClass: 'subpage-main-container-for-web__subpage-image-container__vid'
     };
 };
 
 const createMediaElement = (mediaType, index, config, projectName) => {
-    const {mediaPrefix, imgClass, vidClass} = config;
+    const {mediaPrefix, mediaSuffix, imgClass, vidClass} = config;
 
     if (mediaType === 'img') {
         const img = document.createElement('img');
         img.className = imgClass;
-        img.src = `${mediaPrefix}${projectName}-${index + 1}.jpg`;
+        img.src = `${mediaPrefix}${index + 1}${mediaSuffix}.jpg`;
         return img;
     } else if (mediaType === 'vid') {
         const video = document.createElement('video');
@@ -96,13 +98,13 @@ const createMediaElement = (mediaType, index, config, projectName) => {
         video.id = projectName;
 
         const webmSource = document.createElement('source');
-        webmSource.src = `${mediaPrefix}${projectName}-${index + 1}.webm`;
+        webmSource.src = `${mediaPrefix}${index + 1}${mediaSuffix}.webm`;
         webmSource.type = 'video/webm';
 
         const mp4Source = document.createElement('source');
-        mp4Source.src = `${mediaPrefix}${projectName}-${index + 1}.mp4`;
+        mp4Source.src = `${mediaPrefix}${index + 1}${mediaSuffix}.mp4`;
         mp4Source.type = 'video/mp4';
-        mp4Source.poster = `${mediaPrefix}poster/${projectName}-${index + 1}.jpg`;
+        mp4Source.poster = `${mediaPrefix}${index + 1}${mediaSuffix}-poster.jpg`;
 
         video.appendChild(webmSource);
         video.appendChild(mp4Source);

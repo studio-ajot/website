@@ -12,19 +12,19 @@
 
 const sliderIndexPageProjectInformation = [
   {
-    id: "chart-light",
+    id: "art-direction-magazin-cloudshill",
     type: "img",
   },
   {
-    id: "jazzica",
+    id: "corporate-design-chor-jazzica",
     type: "img",
   },
   {
-    id: "wolf-biermann__1",
+    id: "lp-design-wolf-biermann-box",
     type: "img",
   },
   {
-    id: "wolf-biermann__2",
+    id: "lp-design-wolf-biermann-ermutigung",
     type: "img",
   },
 ];

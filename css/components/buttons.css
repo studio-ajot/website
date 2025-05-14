@@ -1,3 +1,4 @@
+
 :root {
     --button-width: 250px;
     --button-width-big: 300px;
@@ -37,6 +38,21 @@ button.big, a.big {
     transition: all 0.3s ease;
 }
 
+@media (max-width: 768px) {
+    .button, button.big, a.big {
+        width: 100%;
+        height: 45px;
+        max-width: calc(100vw - 80px);
+    }
+}
+
+@media (max-width: 576px) {
+    .button, button.big, a.big {
+        width: 100%;
+        max-width: calc(100vw - 60px);
+    }
+}
+
 
 /* Primary Button */
 .primary-button {
@@ -70,6 +86,11 @@ a button {
 
 .icon-button {
     transition: filter 0.3s ease;
+}
+
+.icon-button img {
+    height: 45px;
+    width: 45px;
 }
 
 .icon-button:hover {

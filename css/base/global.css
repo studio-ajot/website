@@ -77,3 +77,11 @@ a:hover, a:focus {
 a button {
     text-decoration: none !important;
 }
+
+
+@media (max-width: 576px) {
+    section {
+        padding: 15px 20px;
+    }
+
+}

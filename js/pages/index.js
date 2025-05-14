@@ -31,8 +31,8 @@ function setupMobileDetection() {
 
 function fillCarousel() {
     const isMobile = $("body").hasClass("mobile-detect");
-    const mediaPrefix = isMobile ? "assets/slider/index/mobile/" : "assets/media/slider/index/web/";
-    const mediaPostfix = isMobile ? "" : "";
+    const mediaPrefix = "./assets/media/index/";
+    const mediaPostfix = isMobile ? "-web" : "-web";
 
     sliderIndexPageProjectInformation.forEach((project, index) => {
         let mediaElement;
@@ -42,7 +42,7 @@ function fillCarousel() {
             mediaElement = `
                 <div class="carousel-cell">
                   <a href="./projekte/${projectName}.html">  
-                    <img id="${project.id}" class="flickity_img" ${index === 0 ? "data-flickity-lazyload=" + mediaPrefix + project.id + mediaPostfix + ".jpg" : ""} />
+                    <img id="index-slider-${index + 1}${mediaPostfix}" class="flickity_img" ${index === 0 ? "data-flickity-lazyload=" + `${index + 1}` + mediaPostfix + ".jpg" : ""}  alt=""/>
                   </a>
                 </div>`;
         } else if (project.type === "vid") {
@@ -69,17 +69,17 @@ function fillCarousel() {
 
 function setupLazyLoading() {
     $(".flickity_img").each(function () {
-        $(this).attr("data-flickity-lazyload", `assets/media/slider/index/web/${$(this).attr("id")}.jpg`);
+        $(this).attr("data-flickity-lazyload", `assets/media/index/${$(this).attr("id")}.jpg`);
     });
 }
 
 function setupProgressBar() {
-    if (window.matchMedia("(max-width: 1200px)").matches) {
-        $("#progress-bar-highlight").css("width", `calc(((100vw - 60px) / ${numberOfProjects})`);
-    }
-    if (window.matchMedia("(max-width: 991px)").matches) {
-        $("#progress-bar-highlight").css("width", `calc(((100vw - 40px) / ${numberOfProjects})`);
-    }
+    // if (window.matchMedia("(max-width: 1200px)").matches) {
+    //     $("#progress-bar-highlight").css("width", `calc(((100vw - 60px) / ${numberOfProjects})`);
+    // }
+    // if (window.matchMedia("(max-width: 991px)").matches) {
+    //     $("#progress-bar-highlight").css("width", `calc(((100vw - 40px) / ${numberOfProjects})`);
+    // }
 }
 
 function setupEventListeners() {

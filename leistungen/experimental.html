@@ -35,14 +35,16 @@
 <body>
 <!-- Navigation -->
 <nav class="nav_section" id="index-nav">
-  <div class="nav_row site-padding-x site-padding-y">
+  <div class="nav_row">
     <a href="./../index.html" class="logo" id="website_title"><img
       src='./../assets/icons/ajot-logo.svg' alt='Studio Ajot'></img></a>
     <!-- hamburger menu button -->
-    <button type="button" class="burger_menu">
-      <span class="icon" id="icon"></span> <span class="icon2" id="icon2"></span> <span
-      class="icon3" id="icon3"></span>
-    </button>
+    <div class="burger_menu_container">
+      <button type="button" class="burger_menu">
+        <span class="icon" id="icon"></span> <span class="icon2" id="icon2"></span> <span
+        class="icon3" id="icon3"></span>
+      </button>
+    </div>
     <!-- Main menu -->
     <div class="menu_points">
       <ul>
@@ -56,7 +58,8 @@
           <a class="slider__nav_menu_button nav_menu_button accent_bg"
              href="./../leistungen.html">
           <span
-            class="index-link">Leistungen</span></a>
+            class="index-link">Leistungen</span><img class='leistungen-arrow' alt=''
+                                                     src='./../assets/icons/arrows/arrow-down.svg' /></a>
         </li>
         <!-- über uns -->
         <li>
@@ -66,7 +69,8 @@
         </li>
         <!-- Kontakt-->
         <li>
-          <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./../kontakt.html"><span
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./../kontakt.html"><span
             class="index-link">Kontakt</span></a>
         </li>
       </ul>
@@ -75,59 +79,55 @@
   <!-- Sub menu -->
   <ul class='submenu hover-target'>
     <li>
-      <a href="./../leistungen.html#corporate-design"> <span class="button primary-button">Corporate Design</span>
-      </a>
+      <a href="./../leistungen/corporate-design.html">Corporate Design </a>
     </li>
     <li>
-      <a href="./../leistungen.html#editorial-design"> <span
-        class="button primary-button">Buch- und Editorial Design </span> </a>
+      <a href="./../leistungen/editorial-design.html"> <span>Buch- und Editorial Design</span> </a>
     </li>
     <li>
-      <a href="./../leistungen.html#web-design"> <span
-        class="button primary-button">Web und Digital Design</span> </a>
+      <a href="./../leistungen/web-design.html"> <span>Web und Digital Design</span> </a>
     </li>
     <li>
-      <a href="./../leistungen.html#experimental"> <span
-        class="button primary-button">Design</span> </a>
+      <a href="./../leistungen/experimental.html"> <span>Design</span> </a>
     </li>
   </ul>
 </nav>
 
-<main>
-  <div class="bg-light-blue section-padding pt-250px w-100 min-page-height">
-    <h1>Spezialprojekte & Sonderlösungen</h1>
-    <div class='d-flex mt-5 justify-content-between w-100'>
-      <div class='wide'><p>Neben den klassischen und eher bekannten Produkten wie
-                           Geschäftsausstattungen, Werbeprodukten, Büchern sowie digitalen
-                           Anwendungsbereichen gibt es gestalterische Aufgaben, die irgendwo
-                           dazwischen liegen und die wir mit Begeisterung, Kreativität und Neugierde
-                           gemeinsam mit unseren Kund:innen angehen. Solange es denkbar ist und
-                           visualisierbar scheint, scheuen wir keine Anstrengungen, die Vision
-                           gemeinsam weiterzuentwickeln und aufs Papier oder auf den Monitor zu
-                           bringen. Das Unbekannte inspiriert und motiviert uns, immer wieder neu
-                           unkonventionell zu denken und zu gestalten.
-      </p></div>
-      <div class='narrow d-flex flex-column gap-2'>
-        <a class='button primary-button' href='../kontakt.html'>Jetzt anfragen</a><a
-        class='button secondary-button' href='../leistungen.html'>Weitere Leistungen</a>
+<main class="bg-light-blue min-page-height section-padding">
+  <h1 class='pt-5'>Spezialprojekte & Sonderlösungen</h1>
+  <section class='row'>
+    <div class='col-lg-8 col-12 mb-4 mb-lg-0'><p>Neben den klassischen und eher bekannten Produkten
+                                                 wie Geschäftsausstattungen, Werbeprodukten, Büchern
+                                                 sowie digitalen Anwendungsbereichen gibt es
+                                                 gestalterische Aufgaben, die irgendwo dazwischen
+                                                 liegen und die wir mit Begeisterung, Kreativität
+                                                 und Neugierde gemeinsam mit unseren Kund:innen
+                                                 angehen. Solange es denkbar ist und visualisierbar
+                                                 scheint, scheuen wir keine Anstrengungen, die
+                                                 Vision gemeinsam weiterzuentwickeln und aufs Papier
+                                                 oder auf den Monitor zu bringen. Das Unbekannte
+                                                 inspiriert und motiviert uns, immer wieder neu
+                                                 unkonventionell zu denken und zu gestalten.
+    </p></div>
+    <div class='col-lg-4 col-12 d-flex flex-column gap-2'>
+      <a class='button primary-button big' href='../kontakt.html'>Jetzt anfragen</a><a
+      class='button secondary-button big' href='../leistungen.html'>Weitere Leistungen</a>
+    </div>
+  </section>
+  <!--    slider-->
+  <div class='d-flex justify-content-center m-5'>
+    <section class='slider_section p-0'>
+      <div class="main-carousel">
       </div>
-    </div>
-    <!--    slider-->
-    <div class='d-flex justify-content-center m-5'>
-      <section class='slider_section p-0'>
-        <div class="main-carousel">
-        </div>
-      </section>
-    </div>
-    <!--      <img class='w-60' src="/assets/media/leistungen/leistungen-2-web.jpg" alt="Projekt 2"></div>-->
-
+    </section>
+  </div>
 </main>
 
 <!-- Footer -->
 <footer class="bottom site-padding-x bg-light-blue" id="index-footer">
   <div class="d-flex flex-row justify-content-between align-items-stretch h-100">
     <div class='h-100 d-flex align-items-center'>
-      © Studio Ajot, <span id="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
+      © Studio Ajot, <span class="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
     </div>
     <div class='d-flex flex-row'>
       <a href="https://www.instagram.com/studio.ajot" target="_blank"
@@ -152,7 +152,7 @@
 <script src="../content-management/slider-index-page-project-information.js"></script>
 <script src='../content-management/gallery-project-information.js'></script>
 <script src="../js/main-functions.js"></script>
-<script src="../js/pages/design-subpages.js"></script>
+<script src="../js/pages/leistungen-subpages.js"></script>
 
 <!--  <script src="js/utility/scroll-with-snap.js"></script>-->
 </body>

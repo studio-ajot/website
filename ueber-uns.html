@@ -34,14 +34,16 @@
 <body>
 <!-- Navigation -->
 <nav class="nav_section" id="index-nav">
-  <div class="nav_row site-padding-x site-padding-y">
+  <div class="nav_row">
     <a href="./index.html" class="logo" id="website_title"><img
       src='./assets/icons/ajot-logo.svg' alt='Studio Ajot'></img></a>
     <!-- hamburger menu button -->
-    <button type="button" class="burger_menu">
-      <span class="icon" id="icon"></span> <span class="icon2" id="icon2"></span> <span
-      class="icon3" id="icon3"></span>
-    </button>
+    <div class="burger_menu_container">
+      <button type="button" class="burger_menu">
+        <span class="icon" id="icon"></span> <span class="icon2" id="icon2"></span> <span
+        class="icon3" id="icon3"></span>
+      </button>
+    </div>
     <!-- Main menu -->
     <div class="menu_points">
       <ul>
@@ -55,7 +57,8 @@
           <a class="slider__nav_menu_button nav_menu_button accent_bg"
              href="./leistungen.html">
           <span
-            class="index-link">Leistungen</span></a>
+            class="index-link">Leistungen</span><img class='leistungen-arrow' alt=''
+                                                     src='./assets/icons/arrows/arrow-down.svg' /></a>
         </li>
         <!-- über uns -->
         <li>
@@ -74,20 +77,16 @@
   <!-- Sub menu -->
   <ul class='submenu hover-target'>
     <li>
-      <a href="./leistungen.html#corporate-design"> <span class="button primary-button">Corporate Design</span>
-      </a>
+      <a href="./leistungen/corporate-design.html">Corporate Design </a>
     </li>
     <li>
-      <a href="./leistungen.html#editorial-design"> <span
-        class="button primary-button">Buch- und Editorial Design </span> </a>
+      <a href="./leistungen/editorial-design.html"> <span>Buch- und Editorial Design</span> </a>
     </li>
     <li>
-      <a href="./leistungen.html#web-design"> <span
-        class="button primary-button">Web und Digital Design</span> </a>
+      <a href="./leistungen/web-design.html"> <span>Web und Digital Design</span> </a>
     </li>
     <li>
-      <a href="./leistungen.html#experimental"> <span
-        class="button primary-button">Design</span> </a>
+      <a href="./leistungen/experimental.html"> <span>Design</span> </a>
     </li>
   </ul>
 </nav>
@@ -95,8 +94,8 @@
 <main>
   <div class="viewport">
     <!--  Wer? -->
-    <section class="section-padding bg-lavender scroll-with-snap" data-section-name="wer">
-      <div class='wide'>
+    <section class="section-padding bg-lavender scroll-with-snap row align-items-stretch" data-section-name="wer">
+      <div class='col-md-8 col-12 order-2 order-md-1'>
         <h1>Wer?</h1>
         <p class='copy-1'>Studio Ajot ist ein Grafikdesign-Studio mit besonderem Schwerpunkt auf
                           Typografie. Wir gestalten visuelle Identitäten und alle Arten von
@@ -108,20 +107,22 @@
           <a class='button primary-button' href='#wo-und-wie'>Standorte</a> <a
           href="https://www.instagram.com/studio.ajot" target="_blank"
           class="icon-button"><img src="assets/icons/instagram.svg"
-                        alt='Instgram'> </a> <a
+                                   alt='Instgram'> </a> <a
           href="https://www.linkedin.com/company/studio-ajot" target="_blank"
           class="icon-button "><img src="assets/icons/linkedin.svg"
-                        alt='LinkedIn'></a>
+                                    alt='LinkedIn'></a>
         </div>
       </div>
-      <div class='narrow'>
-        <img src="/assets/media/about/web/ueber-uns-portrait-web.jpg" alt="">
+      <div class='col-md-4 col-12 mb-4 mb-md-0 order-1 order-md-2'>
+        <div class='image-crop'>
+          <img src="./assets/media/ueber-uns/ueber-uns-portrait-mobile.jpg" alt="">
+        </div>
       </div>
     </section>
     <!--  Wo? & Wie? -->
-    <section class="section-padding scroll-with-snap bg-pink" data-section-name="wo-und-wie"
+    <section class="section-padding scroll-with-snap bg-pink row" data-section-name="wo-und-wie"
              id='wo-und-wie'>
-      <div class='narrow'>
+      <div class='col-md-4 col-12 mb-4 mb-md-0'>
         <h1>Wo?</h1>
         <h2>Berlin Office</h2>
         <p class='copy-1'>Anastasia Marx <br /> Mail: <a href='mailto:anastasia@studio-ajot.de'>anastasia@studio-ajot.de</a><br />
@@ -138,7 +139,7 @@
         <p class='copy-1'>
           Mörkenstraße 8 <br /> 22767 Hamburg</p>
       </div>
-      <div class='wide'>
+      <div class='col-md-8 col-12'>
         <h1>Wie?</h1>
         <p class='copy-1'>Unser Motto: Design mit kreativem Sinn und individueller Substanz. Wir
                           begleiten leidenschaftlich Projekte mit Fokus auf Nachhaltigkeit,
@@ -163,8 +164,8 @@
       </div>
     </section>
     <!--  Was? -->
-    <section class="section-padding scroll-with-snap bg-orange" data-section-name="was">
-      <div class='wide'>
+    <section class="section-padding scroll-with-snap bg-orange row" data-section-name="was">
+      <div class='col-md-6 col-xl-8 col-12 mb-4 mb-md-0'>
         <h1>Was?</h1>
         <p class='copy-1'>Animationen, Anzeigen, Art Direktion, Aufkleber, Banner, Beschilderung,
                           Briefpapier, Buchdesign, Coverdesign, Flyer, Illustrationen,
@@ -174,10 +175,10 @@
                           Textsatz, Schriftgestaltung, Social Media Templates, Strategieentwicklung,
                           Visitenkarte, Werbemaßnahmen, Workshops … you name it!</p>
         <div class='flex-row d-flex gap-3 mt-4 align-items-center'>
-          <a href="./leistungen.html"  class='button primary-button'>Unsere Leistungen</a>
+          <a href="./leistungen.html" class='button primary-button'>Unsere Leistungen</a>
         </div>
       </div>
-      <div class='narrow'>
+      <div class='col-md-6 col-xl-4 col-12'>
         <h1>Publikationen</h1>
         <p class='copy-1'>· 2023 PAGE online<br /> · 2023 Slanted – Posters can Help<br /> · 2021
                           Slanted Magazine #38<br /> · 2021 Einblick Ausblick: Jahreskatalog &
@@ -189,14 +190,14 @@
       </div>
     </section>
     <!--  Für wen? -->
-    <section class="section-padding scroll-with-snap bg-light-blue" data-section-name="fuer-wen">
-      <div class='wide'>
+    <section class="section-padding scroll-with-snap bg-light-blue row" data-section-name="fuer-wen">
+      <div class='col-md-8 col-12'>
         <h1>Für wen?</h1>
         <p class='copy-1'>Unsere Kund:innen sind in den unterschiedlichsten Gebieten tätig. Ob
                           Software-Developer:in, Musiker:in oder Brillenproduzent:in – wir
                           unterstützen gerne und mit Leidenschaft bei sämtlichen grafischen
                           Anforderungen.
-
+                          <br /><br />
                           Ausgewählte Kund:innen: Clouds Hill, Wolf Biermann, Lena Johanna Reisner
                           (Kuratorin), Egoli Tossell, Muthesius Kunsthochschule Kiel, Frauenberatung
                           Elmshorn, Haymon Verlag, Studio Pandan, Universität Hamburg, Myrna
@@ -217,7 +218,7 @@
   <footer class="bottom site-padding-x bg-lavender  footer" id="index-footer">
     <div class="d-flex flex-row justify-content-between align-items-stretch h-100">
       <div class='h-100 d-flex align-items-center'>
-        © Studio Ajot, <span id="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
+        © Studio Ajot, <span class="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
       </div>
       <div class='d-flex flex-row'>
         <a href="https://www.instagram.com/studio.ajot" target="_blank"
@@ -239,7 +240,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="assets/libraries/js/jquery.scrollify.js"></script>
   <script src="js/main-functions.js"></script>
-<!--  <script src="js/pages/ueber-uns.js"></script>-->
+  <!--  <script src="js/pages/ueber-uns.js"></script>-->
 </body>
 
 </html>

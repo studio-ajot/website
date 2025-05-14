@@ -23,6 +23,7 @@ h2 {
     line-height: 24px;
 }
 
+
 .white-links {
     color: white;
     text-decoration: none;
@@ -59,19 +60,25 @@ h2 {
 /* #################################
 #         mobile text sizes        #
 #################################*/
-@media (max-width: 991px) {
-    H2 {
-        font-size: 18px;
-    }
-
-    .copy-1,
-    nav,
-    footer {
-        font-size: 18px;
-        line-height: normal;
-    }
-
-    .nav_section .logo {
+@media (max-width: 768px) {
+    h1 {
         font-size: 38px;
+        line-height: 40px;
     }
+
+    h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .copy-1 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .copy-2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
 }

@@ -34,14 +34,16 @@
 <body>
 <!-- Navigation -->
 <nav class="nav_section" id="index-nav">
-  <div class="nav_row site-padding-x site-padding-y">
+  <div class="nav_row">
     <a href="./../index.html" class="logo" id="website_title"><img
       src='./../assets/icons/ajot-logo.svg' alt='Studio Ajot'></img></a>
     <!-- hamburger menu button -->
-    <button type="button" class="burger_menu">
-      <span class="icon" id="icon"></span> <span class="icon2" id="icon2"></span> <span
-      class="icon3" id="icon3"></span>
-    </button>
+    <div class="burger_menu_container">
+      <button type="button" class="burger_menu">
+        <span class="icon" id="icon"></span> <span class="icon2" id="icon2"></span> <span
+        class="icon3" id="icon3"></span>
+      </button>
+    </div>
     <!-- Main menu -->
     <div class="menu_points">
       <ul>
@@ -55,7 +57,8 @@
           <a class="slider__nav_menu_button nav_menu_button accent_bg"
              href="./../leistungen.html">
           <span
-            class="index-link">Leistungen</span></a>
+            class="index-link">Leistungen</span><img class='leistungen-arrow' alt=''
+                                                     src='./../assets/icons/arrows/arrow-down.svg' /></a>
         </li>
         <!-- über uns -->
         <li>
@@ -75,92 +78,86 @@
   <!-- Sub menu -->
   <ul class='submenu hover-target'>
     <li>
-      <a href="./../leistungen.html#corporate-design"> <span class="button primary-button">Corporate Design</span>
-      </a>
+      <a href="./../leistungen/corporate-design.html">Corporate Design </a>
     </li>
     <li>
-      <a href="./../leistungen.html#editorial-design"> <span
-        class="button primary-button">Buch- und Editorial Design </span> </a>
+      <a href="./../leistungen/editorial-design.html"> <span>Buch- und Editorial Design</span> </a>
     </li>
     <li>
-      <a href="./../leistungen.html#web-design"> <span
-        class="button primary-button">Web und Digital Design</span> </a>
+      <a href="./../leistungen/web-design.html"> <span>Web und Digital Design</span> </a>
     </li>
     <li>
-      <a href="./../leistungen.html#experimental"> <span
-        class="button primary-button">Design</span> </a>
+      <a href="./../leistungen/experimental.html"> <span>Design</span> </a>
     </li>
   </ul>
 </nav>
 
-<main>
-  <div class="bg-pink section-padding min-page-height pt-250px w-100">
-    <h1>Web- und Digital Design</h1>
-    <div class='d-flex mt-5 justify-content-between w-100'>
-      <div class='wide'><p>Die Faszination bewegter Elemente und die grenzenlosen Möglichkeiten des
-                           Digitalen prägen unsere Arbeit. Kein anderes Medium erlaubt es, mit so
-                           viel spielerischer Kreativität interaktive Lösungen zu gestalten und
-                           Emotionen im digitalen Raum zu erzeugen – seien es animierte Inhalte,
-                           Internetauftritt oder Social Media Kampagnen.
-      </p></div>
-      <div class='narrow d-flex flex-column gap-2'>
-        <a class='button primary-button' href='../kontakt.html'>Jetzt anfragen</a><a
-        class='button secondary-button' href='../leistungen.html'>Weitere Leistungen</a>
-      </div>
+<main class="bg-pink min-page-height section-padding">
+  <h1 class='pt-5'>Web- und Digital Design</h1>
+  <section class='row'>
+    <div class='col-lg-8 col-12 mb-4 mb-lg-0'><p>Die Faszination bewegter Elemente und die
+                                                 grenzenlosen Möglichkeiten des Digitalen prägen
+                                                 unsere Arbeit. Kein anderes Medium erlaubt es, mit
+                                                 so viel spielerischer Kreativität interaktive
+                                                 Lösungen zu gestalten und Emotionen im digitalen
+                                                 Raum zu erzeugen – seien es animierte Inhalte,
+                                                 Internetauftritt oder Social Media Kampagnen.
+    </p></div>
+    <div class='col-lg-4 col-12 d-flex flex-column gap-2'>
+      <a class='button primary-button big' href='../kontakt.html'>Jetzt anfragen</a><a
+      class='button secondary-button big' href='../leistungen.html'>Weitere Leistungen</a>
     </div>
-    <!--    slider-->
-    <section class='d-flex justify-content-center'>
-      <div class="main-carousel">
-      </div>
-    </section>
-    <!--      <img class='w-60' src="/assets/media/leistungen/leistungen-2-web.jpg" alt="Projekt 2"></div>-->
-    <div class='d-flex justify-content-between w-100'>
-      <div class='wide'><h1>Unser Ansatz</h1>
-        <p>Gemeinsam mit unseren Kund:innen entwickeln wir maßgeschneiderte digitale Konzepte, die
-           zur Interaktion einladen. Mit Liebe zum Detail, experimentellem Ansatz und grafischer
-           Präzision schaffen wir dynamische Designs, die Inhalte nicht nur vermitteln, sondern
-           erlebbar machen. Wir erzählen Geschichten, die auf Bildschirmen lebendig werden, und
-           verbinden Emotionen mit Funktionalität. <br /> <br /> Unser Ziel: Interaktive Medien, die
-           inspirieren und Nutzer:innen nachhaltig begeistern.
-        </p></div>
-      <div class='narrow d-flex flex-column gap-4'>
-        <h1>Expertisen</h1>
-        <div class='d-flex flex-row gap-4'>
-          <img class='expertisen-icon'
-               src=../assets/icons/leistungen/web-design-expertise-1.svg
-               alt=''>
-          <div class='d-flex flex-column gap-2'>
-            <h2>Webdesign</h2> <span>Responsive Design, Navigations-
+  </section>
+  <!-- Slider -->
+  <section class='d-flex justify-content-center'>
+    <div class="main-carousel">
+    </div>
+  </section>
+  <!-- Ansatz & Expertise -->
+  <div class='row'>
+    <div class='col-xl-8 col-lg-6 col-12 mb-4 mb-lg-0'><h1>Unser Ansatz</h1>
+      <p>Gemeinsam mit unseren Kund:innen entwickeln wir maßgeschneiderte digitale Konzepte, die zur
+         Interaktion einladen. Mit Liebe zum Detail, experimentellem Ansatz und grafischer Präzision
+         schaffen wir dynamische Designs, die Inhalte nicht nur vermitteln, sondern erlebbar machen.
+         Wir erzählen Geschichten, die auf Bildschirmen lebendig werden, und verbinden Emotionen mit
+         Funktionalität. <br /> <br /> Unser Ziel: Interaktive Medien, die inspirieren und
+         Nutzer:innen nachhaltig begeistern.
+      </p></div>
+    <div class='col-xl-4 col-lg-6 col-12 d-flex flex-column gap-4'>
+      <h1>Expertisen</h1>
+      <div class='d-flex flex-row gap-4'>
+        <img class='expertisen-icon'
+             src=../assets/icons/leistungen/web-design-expertise-1.svg
+             alt=''>
+        <div class='d-flex flex-column'>
+          <h2>Webdesign</h2> <span>Responsive Design, Navigations-
 struktur, Prototypen, CMS-Integration</span></div>
+      </div>
+      <div class='d-flex flex-row gap-4'>
+        <img class='expertisen-icon'
+             src=../assets/icons/leistungen/web-design-expertise-2.svg
+             alt=''>
+        <div class='d-flex flex-column'>
+          <h2>Grafik und Animation</h2> <span>Animationen, Interaktive Elemente</span>
         </div>
-        <div class='d-flex flex-row gap-4'>
-          <img class='expertisen-icon'
-               src=../assets/icons/leistungen/web-design-expertise-2.svg
-               alt=''>
-          <div class='d-flex flex-column gap-2'>
-            <h2>Grafik und Animation</h2> <span>Animationen, Interaktive Elemente</span>
-          </div>
+      </div>
+      <div class='d-flex flex-row gap-4'>
+        <img class='expertisen-icon'
+             src=../assets/icons/leistungen/web-design-expertise-3.svg
+             alt=''>
+        <div class='d-flex flex-column'>
+          <h2>Social Media Design</h2> <span>Templates, Banner, Posts/Vorlagen, Kampagnen</span>
         </div>
-        <div class='d-flex flex-row gap-4'>
-          <img class='expertisen-icon'
-               src=../assets/icons/leistungen/web-design-expertise-3.svg
-               alt=''>
-          <div class='d-flex flex-column gap-2'>
-            <h2>Social Media Design</h2> <span>Templates, Banner, Posts/Vorlagen, Kampagnen</span>
-          </div>
-        </div>
-
       </div>
     </div>
   </div>
-
 </main>
 
 <!-- Footer -->
 <footer class="bottom site-padding-x bg-pink" id="index-footer">
   <div class="d-flex flex-row justify-content-between align-items-stretch h-100">
     <div class='h-100 d-flex align-items-center'>
-      © Studio Ajot, <span id="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
+      © Studio Ajot, <span class="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
     </div>
     <div class='d-flex flex-row'>
       <a href="https://www.instagram.com/studio.ajot" target="_blank"
@@ -185,7 +182,7 @@ struktur, Prototypen, CMS-Integration</span></div>
 <script src="../content-management/slider-index-page-project-information.js"></script>
 <script src='../content-management/gallery-project-information.js'></script>
 <script src="../js/main-functions.js"></script>
-<script src="../js/pages/design-subpages.js"></script>
+<script src="../js/pages/leistungen-subpages.js"></script>
 
 
 <!--  <script src="js/utility/scroll-with-snap.js"></script>-->

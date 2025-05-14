@@ -36,14 +36,16 @@
 <body class=overflow-hidden>
 <!-- Navigation -->
 <nav class="nav_section" id="index-nav">
-  <div class="nav_row site-padding-x site-padding-y">
+  <div class="nav_row">
     <a href="./index.html" class="logo" id="website_title"><img
       src='./assets/icons/ajot-logo.svg' alt='Studio Ajot'></img></a>
     <!-- hamburger menu button -->
-    <button type="button" class="burger_menu">
-      <span class="icon" id="icon"></span> <span class="icon2" id="icon2"></span> <span
-      class="icon3" id="icon3"></span>
-    </button>
+    <div class="burger_menu_container">
+      <button type="button" class="burger_menu">
+        <span class="icon" id="icon"></span> <span class="icon2" id="icon2"></span> <span
+        class="icon3" id="icon3"></span>
+      </button>
+    </div>
     <!-- Main menu -->
     <div class="menu_points">
       <ul>
@@ -57,7 +59,8 @@
           <a class="slider__nav_menu_button nav_menu_button accent_bg"
              href="./leistungen.html">
           <span
-            class="index-link">Leistungen</span></a>
+            class="index-link">Leistungen</span><img class='leistungen-arrow' alt=''
+                                                     src='./assets/icons/arrows/arrow-down.svg' /></a>
         </li>
         <!-- über uns -->
         <li>
@@ -76,20 +79,16 @@
   <!-- Sub menu -->
   <ul class='submenu hover-target'>
     <li>
-      <a href="#corporate-design"> <span class="button primary-button">Corporate Design</span>
-      </a>
+      <a href="./leistungen/corporate-design.html">Corporate Design </a>
     </li>
     <li>
-      <a href="#editorial-design"> <span
-        class="button primary-button">Buch- und Editorial Design </span> </a>
+      <a href="./leistungen/editorial-design.html"> <span>Buch- und Editorial Design</span> </a>
     </li>
     <li>
-      <a href="#web-design"> <span
-        class="button primary-button">Web und Digital Design</span> </a>
+      <a href="./leistungen/web-design.html"> <span>Web und Digital Design</span> </a>
     </li>
     <li>
-      <a href="#experimental"> <span
-        class="button primary-button">Design</span> </a>
+      <a href="./leistungen/experimental.html"> <span>Design</span> </a>
     </li>
   </ul>
 </nav>
@@ -104,14 +103,14 @@
     <video autoplay loop muted playsinline>
       <source src="./assets/media/leistungen/leistungen-1-web.mp4" type="video/mp4">
     </video>
-    <!--      <img src="/assets/media/leistungen/leistungen-1-web.jpg" alt="Projekt 1">-->
     <div class='leistungen-text'>
       <h1>Corporate Design</h1>
       <h2>Mit unserem Ansatz machen wir das Gefühl hinter Ihrer Marke sichtbar – für ein
           Erscheinungsbild, das begeistert.</h2>
-      <div class='flex-row d-flex gap-3 mt-4'>
-        <a href='leistungen/corporate-design.html' class='text-decoration-none'>
-          <button class='button primary-button'>Mehr erfahren</button>
+      <div class='flex-row d-flex gap-3 mt-md-4 mt-2'>
+        <a href='leistungen/corporate-design.html'
+           class='button primary-button big text-decoration-none'>
+          <button>Mehr erfahren</button>
         </a></div>
     </div>
   </section>
@@ -122,9 +121,9 @@
       <h2>Unsere Arbeit umfasst Projekte wie Romane, Kunstbücher, Jahresberichte und vieles mehr.
           Gemeinsam kreieren wir Druckobjekte, die nicht nur praktisch, sondern auch emotional und
           ästhetisch überzeugen.</h2>
-      <div class='flex-row d-flex gap-3 mt-4'>
-        <a href='leistungen/editorial-design.html' class='text-decoration-none'>
-          <button class='button primary-button'>Mehr erfahren</button>
+      <div class='flex-row d-flex gap-3 mt-md-4 mt-2'>
+        <a href='leistungen/editorial-design.html' class='button primary-button big text-decoration-none'>
+          <button>Mehr erfahren</button>
         </a></div>
     </div>
   </section>
@@ -136,9 +135,9 @@
       <h1>Web- und<br /> Digital Design</h1>
       <h2>Unser Ziel: Interaktive Medien, die inspirieren und Nutzer:innen nachhaltig
           begeistern.</h2>
-      <div class='flex-row d-flex gap-3 mt-4'>
-        <a href='leistungen/web-design.html' class='text-decoration-none'>
-          <button class='button primary-button'>Mehr erfahren</button>
+      <div class='flex-row d-flex gap-3 mt-md-4 mt-2'>
+        <a href='leistungen/web-design.html' class='button primary-button big text-decoration-none'>
+          <button>Mehr erfahren</button>
         </a>
       </div>
     </div>
@@ -151,9 +150,9 @@
           digitalen Anwendungen gibt es gestalterische Aufgaben, die irgendwo dazwischen liegen und
           die wir mit Begeisterung, Kreativität und Neugierde gemeinsam mit unseren Kund:innen
           angehen.</h2>
-      <div class='flex-row d-flex gap-3 mt-4'>
-        <a href='leistungen/experimental.html' class='text-decoration-none'>
-          <button class='button primary-button'>Mehr erfahren</button>
+      <div class='flex-row d-flex gap-3 mt-md-4 mt-2'>
+        <a href='leistungen/experimental.html' class='button primary-button big text-decoration-none'>
+          <button>Mehr erfahren</button>
         </a></div>
     </div>
   </section>
@@ -163,7 +162,7 @@
 <footer class="bottom site-padding-x bg-lavender  footer" id="index-footer">
   <div class="d-flex flex-row justify-content-between align-items-stretch h-100">
     <div class='h-100 d-flex align-items-center'>
-      © Studio Ajot, <span id="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
+      © Studio Ajot, <span class="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
     </div>
     <div class='d-flex flex-row'>
       <a href="https://www.instagram.com/studio.ajot" target="_blank"

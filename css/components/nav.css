@@ -1,68 +1,52 @@
-/* Base style for the website title */
-#website_title {
-    z-index: 30;
-}
-
 /* ========================================================================
    Navigation Section Styles
    ======================================================================== */
-
-/* Main navigation section */
 .nav_section {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
-    height: 78px;
+    height: 80px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: stretch;
-    color: black;
     cursor: default;
-    /*backdrop-filter: blur(20px);*/
-    /*-webkit-backdrop-filter: blur(20px);*/
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
     transition: all 0.2s ease-in-out;
-    /*background-color: rgba(100%, 100%, 100%, 0.1);*/
 }
 
-/* Navigation row container */
 .nav_row {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height: 100%;
+    height: 80px;
 }
 
-/* Logo styling */
 .nav_section .logo {
-    padding: 10px 30px;
-    width: 350px;
+    width: 325px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
 }
+
 
 /* ========================================================================
    Menu Button Styles
    ======================================================================== */
-
-/* Menu points container */
 .menu_points {
     display: flex;
-    align-items: center;
+    align-items: stretch;
+    height: 78px;
 }
 
-/* Menu points list */
 .menu_points ul {
     display: flex;
-    margin: 0;
-    padding: 0;
     height: 100%;
-    /*align-items: stretch;*/
+    align-items: stretch;
 }
 
-/* Individual menu button styles */
 .nav_menu_button {
     height: 100%;
     width: 225px;
@@ -70,13 +54,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-left: 2px solid black;
     transition: all 0.2s ease-in-out;
 }
 
-/* Menu button hover/focus state */
 .nav_menu_button:hover,
 .nav_menu_button:focus {
     text-decoration: none;
@@ -84,7 +65,6 @@
     background-color: black;
 }
 
-/* Link styling within menu points */
 .menu_points a {
     text-decoration: none;
 }
@@ -92,59 +72,60 @@
 /* ========================================================================
    Submenu Styles
    ======================================================================== */
-
-/* Submenu container */
 .submenu {
     display: flex;
     justify-content: end;
     width: 100%;
+    height: 80px;
     border-bottom: 1px solid black;
-    opacity: 0;
+    opacity: 1%;
     visibility: hidden;
-    gap: 10px;
-    /*transition: all 0.4s ease-in-out;*/
+    transition: opacity 0.1s ease-in-out;
     align-items: center;
 }
 
-/* Submenu list items */
 .submenu li {
-    margin: 15px 0;
-    border: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.submenu li a .button {
-    width: 300px;
+.submenu li a {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
 }
 
 
-.submenu li a, .submenu li a:hover {
-    text-decoration: none;
+.submenu li:last-child a {
+    padding-right: 100px;
 }
 
-.submenu li:last-child {
-    margin-right: 50px;
-}
-
-/* Submenu active state */
 .submenu.active {
     opacity: 1;
     visibility: visible;
-
 }
 
 .submenu::before, .nav_section::before {
     content: '';
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 80px;
     backdrop-filter: blur(0);
     -webkit-backdrop-filter: blur(0);
     z-index: -1;
     transition: all 0.2s ease-in-out;
     opacity: 0;
     visibility: hidden;
+    padding: 0;
 }
 
+.submenu::before {
+    top: 80px;
+}
 
 .submenu.active::before, .nav_section::before {
     visibility: visible;
@@ -152,48 +133,3 @@
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 }
-
-
-/*!* ========================================================================*/
-/*   Inverted Mode Styles*/
-/*   ======================================================================== *!*/
-
-/*!* Inverted mode when in #projekte section *!*/
-/*.nav_section.invert {*/
-/*    color: white;*/
-/*    border-top: 1px solid white;*/
-/*    border-bottom: 1px solid white;*/
-/*    background-color: rgba(0, 0, 0, 0.2);*/
-/*}*/
-
-/*!* Logo filter in inverted mode *!*/
-/*.nav_section.invert .logo {*/
-/*    filter: invert(1);*/
-/*    transition: filter 1s ease-in-out;*/
-/*}*/
-
-/*!* Menu button styles in inverted mode *!*/
-/*.nav_section.invert .nav_menu_button {*/
-/*    border-left: 1px solid white;*/
-/*    border-right: 1px solid white;*/
-/*    color: white;*/
-/*}*/
-
-/*!* Menu button hover/focus state in inverted mode *!*/
-/*.nav_section.invert .nav_menu_button:hover,*/
-/*.nav_section.invert .nav_menu_button:focus {*/
-/*    color: black;*/
-/*    background-color: white;*/
-/*}*/
-
-/*.nav_section.invert .button {*/
-/*    border-color: white;*/
-/*    color: white;*/
-/*    background-color: black;*/
-/*}*/
-
-/*.nav_section.invert .button:hover,*/
-/*.nav_section.invert .button:focus {*/
-/*    color: black;*/
-/*    background-color: white;*/
-/*}*/

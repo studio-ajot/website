@@ -1,8 +1,8 @@
 $(document).ready(function () {
     const INITIAL_MEDIA_COUNT = 6;
     const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    const mediaPath = isMobile ? "mobile" : "web";
-    const mediaBasePath = `./assets/media/projects/${mediaPath}/`;
+    const suffix = isMobile ? "-mobile" : "-web";
+    const mediaBasePath = `./assets/media/projects/`;
 
     let allMediaVisible = false;
     let hasFilterTriggeredToggle = false;
@@ -96,7 +96,7 @@ $(document).ready(function () {
     }
 
     function createMediaElement(project) {
-        const path = `${mediaBasePath}${project.id}/${project.id}-1`;
+        const path = `${mediaBasePath}${project.id}/1${suffix}`;
         if (project.mediaTypes[0] === "img") {
             return `<img src="${path}.jpg" alt="${project.title}" />`;
         } else {

@@ -1,18 +1,18 @@
 function menuIsOpen() {
     return (
         $(".burger_menu").hasClass("open") ||
-        $(".nav_section .menu_points").hasClass("active")
+        $(".nav_section .menu_points, .nav_section").hasClass("active")
     );
 }
 
 function toggleMenu() {
     $(".burger_menu").toggleClass("open");
-    $(".nav_section .menu_points").toggleClass("active");
+    $(".nav_section .menu_points, .nav_section").toggleClass("active");
 }
 
 function closeMenu() {
     $(".burger_menu").removeClass("open");
-    $(".nav_section .menu_points").removeClass("active");
+    $(".nav_section .menu_points, .nav_section").removeClass("active");
 }
 
 // Close menu when a nav item is clicked
@@ -33,8 +33,8 @@ function detectMobile() {
 }
 
 $(document).ready(function () {
-    $(".burger_menu").click(toggleMenu);
-    $("#year").text('\u00A0' + new Date().getFullYear() + '\u00A0');
+    $(".burger_menu_container, .burger_menu, .burger_menu_container * , .burger_menu span, .icon, .icon2, .icon3").click(toggleMenu);
+    $(".year").text('\u00A0' + new Date().getFullYear() + '\u00A0');
     detectMobile()
 
     // Handle navigation item click
@@ -54,7 +54,6 @@ $(document).ready(function () {
         }, 200); // Verzögerung beim Schließen
     });
 });
-
 
 
 // --- Mobile progress bar: Set marker / highlight --- //

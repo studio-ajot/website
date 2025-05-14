@@ -4,6 +4,7 @@
 .slider_section, .main-carousel {
     top: 100%;
     min-height: 100vh;
+    max-height: 100vh;
     overflow-x: hidden;
 }
 
@@ -27,6 +28,7 @@
 .flickity_img,
 .flickity_vid {
     min-height: 100vh;
+    max-height: 100vh;
     max-width: 100vw;
     min-width: 100vw;
     object-fit: cover;
