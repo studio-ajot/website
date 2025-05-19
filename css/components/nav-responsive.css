@@ -1,6 +1,15 @@
 /* === Grundstruktur === */
 .burger_menu_container {
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.burger_menu_container:hover span {
+    filter: invert(1);
+}
+
+.burger_menu_container:hover {
+    background-color: black;
 }
 
 .burger_menu {
@@ -107,11 +116,9 @@
 .nav_section.active .submenu {
     display: none;
 }
-.nav_section.active .hover-target{
+
+.nav_section.active .hover-target {
     position: relative;
-}
-.leistungen-arrow {
-    display: none;
 }
 
 /* === Grundstruktur === */
@@ -195,6 +202,7 @@
     border: 0;
     width: 100%;
 }
+
 /* Aktivierter Zustand mit sichtbarem Overlay */
 .nav_section.active::before {
     position: fixed;
@@ -215,16 +223,30 @@
 .nav_section.active .submenu {
     display: none;
 }
-.nav_section.active .hover-target{
+
+.nav_section.active .hover-target {
     position: relative;
 }
+
 .leistungen-arrow {
     display: none;
 }
+
 .nav_section.active .leistungen-arrow {
     display: block;
     position: absolute;
     right: 40px;
+}
+
+.nav_section.active .hover-target:hover .leistungen-arrow {
     filter: invert(1) brightness(2);
 }
+
+.nav_section.active .leistungen-arrow {
+    display: block;
+    position: absolute;
+    right: 40px;
+}
+
+
 

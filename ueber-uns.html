@@ -53,12 +53,22 @@
              href="./index.html#projekte"> <span class="index-link">Projekte</span> </a>
         </li>
         <!-- Leistungen -->
-        <li class='hover-target'>
+        <li class='hover-target leistungen-button'>
           <a class="slider__nav_menu_button nav_menu_button accent_bg"
              href="./leistungen.html">
           <span
             class="index-link">Leistungen</span><img class='leistungen-arrow' alt=''
                                                      src='./assets/icons/arrows/arrow-down.svg' /></a>
+        </li>
+        <li class='burger_menu__submenu'>
+          <a class='submenu_button button secondary-button' href="./leistungen/corporate-design.html">Corporate
+                                                                                     Design </a>
+          <a class='submenu_button button secondary-button' href="./leistungen/editorial-design.html"> <span>Buch- und Editorial Design</span>
+          </a>
+          <a class='submenu_button button secondary-button' href="./leistungen/web-design.html"> <span>Web und Digital Design</span>
+          </a>
+          <a class='submenu_button button secondary-button' href="./leistungen/experimental.html">
+            <span>Design</span> </a>
         </li>
         <!-- über uns -->
         <li>
@@ -92,9 +102,10 @@
 </nav>
 
 <main>
-  <div class="viewport">
+  <div>
     <!--  Wer? -->
-    <section class="section-padding bg-lavender scroll-with-snap row align-items-stretch" data-section-name="wer">
+    <section class="section-padding bg-lavender scroll-with-snap row align-items-stretch"
+             data-section-name="wer">
       <div class='col-md-8 col-12 order-2 order-md-1'>
         <h1>Wer?</h1>
         <p class='copy-1'>Studio Ajot ist ein Grafikdesign-Studio mit besonderem Schwerpunkt auf
@@ -165,7 +176,7 @@
     </section>
     <!--  Was? -->
     <section class="section-padding scroll-with-snap bg-orange row" data-section-name="was">
-      <div class='col-md-6 col-xl-8 col-12 mb-4 mb-md-0'>
+      <div class='col-md-5 col-xl-8 col-12 mb-4 mb-md-0'>
         <h1>Was?</h1>
         <p class='copy-1'>Animationen, Anzeigen, Art Direktion, Aufkleber, Banner, Beschilderung,
                           Briefpapier, Buchdesign, Coverdesign, Flyer, Illustrationen,
@@ -178,7 +189,7 @@
           <a href="./leistungen.html" class='button primary-button'>Unsere Leistungen</a>
         </div>
       </div>
-      <div class='col-md-6 col-xl-4 col-12'>
+      <div class='col-md-7 col-xl-4 col-12'>
         <h1>Publikationen</h1>
         <p class='copy-1'>· 2023 PAGE online<br /> · 2023 Slanted – Posters can Help<br /> · 2021
                           Slanted Magazine #38<br /> · 2021 Einblick Ausblick: Jahreskatalog &
@@ -190,22 +201,22 @@
       </div>
     </section>
     <!--  Für wen? -->
-    <section class="section-padding scroll-with-snap bg-light-blue row" data-section-name="fuer-wen">
+    <section class="section-padding scroll-with-snap bg-light-blue row"
+             data-section-name="fuer-wen">
       <div class='col-md-8 col-12'>
         <h1>Für wen?</h1>
         <p class='copy-1'>Unsere Kund:innen sind in den unterschiedlichsten Gebieten tätig. Ob
                           Software-Developer:in, Musiker:in oder Brillenproduzent:in – wir
                           unterstützen gerne und mit Leidenschaft bei sämtlichen grafischen
-                          Anforderungen.
-                          <br /><br />
-                          Ausgewählte Kund:innen: Clouds Hill, Wolf Biermann, Lena Johanna Reisner
-                          (Kuratorin), Egoli Tossell, Muthesius Kunsthochschule Kiel, Frauenberatung
-                          Elmshorn, Haymon Verlag, Studio Pandan, Universität Hamburg, Myrna
-                          Stuckert Coaching and Consulting, markenbecker - Büro für Markenpflege,
-                          Bauer Media Group, Brandchance, DayOff, getNextIT, Technische Universität
-                          Hamburg, vergleich.org, epda: European Brand & Packaging Design
-                          Association, wobe-systems, Ministerium für Energiewende, Klimaschutz,
-                          Umwelt und Natur Schleswig-Holstein, Kerstin Abraham, Colibris Eyewear</p>
+                          Anforderungen. <br /><br /> Ausgewählte Kund:innen: Clouds Hill, Wolf
+                          Biermann, Lena Johanna Reisner (Kuratorin), Egoli Tossell, Muthesius
+                          Kunsthochschule Kiel, Frauenberatung Elmshorn, Haymon Verlag, Studio
+                          Pandan, Universität Hamburg, Myrna Stuckert Coaching and Consulting,
+                          markenbecker - Büro für Markenpflege, Bauer Media Group, Brandchance,
+                          DayOff, getNextIT, Technische Universität Hamburg, vergleich.org, epda:
+                          European Brand & Packaging Design Association, wobe-systems, Ministerium
+                          für Energiewende, Klimaschutz, Umwelt und Natur Schleswig-Holstein,
+                          Kerstin Abraham, Colibris Eyewear</p>
         <div class='flex-row d-flex gap-3 mt-4 align-items-center'>
           <a href="./kontakt.html" class='button primary-button'>Jetzt anfragen</a>
         </div>
@@ -215,22 +226,44 @@
   </div>
 
   <!-- Footer -->
-  <footer class="bottom site-padding-x bg-lavender  footer" id="index-footer">
-    <div class="d-flex flex-row justify-content-between align-items-stretch h-100">
-      <div class='h-100 d-flex align-items-center'>
+  <footer class="footer site-padding-x bg-lavender">
+    <!-- Desktop Layout -->
+    <div
+      class="footer-desktop d-none d-xl-flex flex-row justify-content-between align-items-stretch h-100">
+      <div class="h-100 d-flex align-items-center">
         © Studio Ajot, <span class="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
       </div>
-      <div class='d-flex flex-row'>
-        <a href="https://www.instagram.com/studio.ajot" target="_blank"
-           class="footer-button"><img src="assets/icons/instagram.svg"
-                                      alt='Instgram'> </a> <a
-        href="https://www.linkedin.com/company/studio-ajot" target="_blank"
-        class="footer-button"><img src="assets/icons/linkedin.svg"
-                                   alt='LinkedIn'></a> <a
-        href="./datenschutz.html" target="_blank"
-        class="footer-button">Datenschutz</a> <a
-        href="./impressum.html" target="_blank"
-        class="footer-button">Impressum</a>
+      <div class="d-flex flex-row">
+        <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button"> <img
+          src="assets/icons/instagram.svg" alt="Instagram"> </a> <a
+        href="https://www.linkedin.com/company/studio-ajot" target="_blank" class="footer-button">
+        <img src="assets/icons/linkedin.svg" alt="LinkedIn"> </a> <a href="./datenschutz.html"
+                                                                     target="_blank"
+                                                                     class="footer-button">Datenschutz</a>
+        <a href="./impressum.html" target="_blank" class="footer-button">Impressum</a>
+      </div>
+    </div>
+    <!-- Mobile Layout -->
+    <div class="footer-mobile d-flex flex-column d-xl-none gap-3">
+      <div class="d-flex justify-content-between align-items-start gap-5">
+        <div class="semibold">
+          <div class="pb-1 pb-md-0">© Studio Ajot, <span class="year"></span></div>
+          <span>
+          Büro für Grafikdesign
+          <br class="d-md-none" />in Berlin & Hamburg
+        </span>
+        </div>
+        <div class="d-flex flex-row gap-3 justify-content-end">
+          <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+            <img src="assets/icons/instagram.svg" alt="Instagram"> </a> <a
+          href="https://www.linkedin.com/company/studio-ajot" target="_blank" class="footer-button">
+          <img src="assets/icons/linkedin.svg" alt="LinkedIn"> </a>
+        </div>
+      </div>
+      <div class="d-flex gap-md-3 justify-content-md-start justify-content-between">
+        <a href="./datenschutz.html" target="_blank" class="footer-button">Datenschutz</a> <a
+        href="./impressum.html" target="_blank" class="footer-button">Impressum</a> <a
+        href="./kontakt.html" target="_blank" class="footer-button">Kontakt</a>
       </div>
     </div>
   </footer>
@@ -238,7 +271,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
   <script src="assets/libraries/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-  <script src="assets/libraries/js/jquery.scrollify.js"></script>
+  <!--  <script src="assets/libraries/js/jquery.scrollify.js"></script>-->
   <script src="js/main-functions.js"></script>
   <!--  <script src="js/pages/ueber-uns.js"></script>-->
 </body>

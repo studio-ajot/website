@@ -37,12 +37,22 @@
              href="./index.html#projekte"> <span class="index-link">Projekte</span> </a>
         </li>
         <!-- Leistungen -->
-        <li class='hover-target'>
+        <li class='hover-target leistungen-button'>
           <a class="slider__nav_menu_button nav_menu_button accent_bg"
              href="./leistungen.html">
           <span
             class="index-link">Leistungen</span><img class='leistungen-arrow' alt=''
                                                      src='./assets/icons/arrows/arrow-down.svg' /></a>
+        </li>
+        <li class='burger_menu__submenu'>
+          <a class='submenu_button button secondary-button' href="./leistungen/corporate-design.html">Corporate
+                                                                                                      Design </a>
+          <a class='submenu_button button secondary-button' href="./leistungen/editorial-design.html"> <span>Buch- und Editorial Design</span>
+          </a>
+          <a class='submenu_button button secondary-button' href="./leistungen/web-design.html"> <span>Web und Digital Design</span>
+          </a>
+          <a class='submenu_button button secondary-button' href="./leistungen/experimental.html">
+            <span>Design</span> </a>
         </li>
         <!-- über uns -->
         <li>
@@ -112,7 +122,7 @@
       </div>
       <div class='d-flex flex-column col-xl-5 col-12 gap-2 gap-xl-5'>
         <h1>Unsere <br />Schwerpunkte</h1>
-        <div class='d-flex flex-column gap-2'>
+        <div class='d-flex flex-wrap flex-xl-column gap-2'>
           <a class="button primary-button big text-decoration-none"
              href="leistungen/corporate-design.html"> <span
             class="index-link">Corporate Design</span> </a> <a
@@ -188,22 +198,46 @@
   </div>
 </section>
 <!-- Footer -->
-<footer class="bottom site-padding-x bg-orange" id="index-footer">
-  <div class="d-flex flex-row justify-content-between align-items-stretch h-100">
-    <div class='h-100 d-flex align-items-center'>
+<footer class="footer site-padding-x bg-orange">
+  <!-- Desktop Layout -->
+  <div class="footer-desktop d-none d-xl-flex flex-row justify-content-between align-items-stretch h-100">
+    <div class="h-100 d-flex align-items-center">
       © Studio Ajot, <span class="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
     </div>
-    <div class='d-flex flex-row'>
-      <a href="https://www.instagram.com/studio.ajot" target="_blank"
-         class="footer-button"><img src="assets/icons/instagram.svg"
-                                    alt='Instgram'> </a> <a
-      href="https://www.linkedin.com/company/studio-ajot" target="_blank"
-      class="footer-button"><img src="assets/icons/linkedin.svg"
-                                 alt='LinkedIn'></a> <a
-      href="./datenschutz.html" target="_blank"
-      class="footer-button">Datenschutz</a> <a
-      href="./impressum.html" target="_blank"
-      class="footer-button">Impressum</a>
+    <div class="d-flex flex-row">
+      <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+        <img src="assets/icons/instagram.svg" alt="Instagram">
+      </a>
+      <a href="https://www.linkedin.com/company/studio-ajot" target="_blank" class="footer-button">
+        <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+      </a>
+      <a href="./datenschutz.html" target="_blank" class="footer-button">Datenschutz</a>
+      <a href="./impressum.html" target="_blank" class="footer-button">Impressum</a>
+    </div>
+  </div>
+  <!-- Mobile Layout -->
+  <div class="footer-mobile d-flex flex-column d-xl-none gap-3">
+    <div class="d-flex justify-content-between align-items-start gap-5">
+      <div class="semibold">
+        <div class="pb-1 pb-md-0">© Studio Ajot, <span class="year"></span></div>
+        <span>
+          Büro für Grafikdesign
+          <br class="d-md-none" />in Berlin & Hamburg
+        </span>
+      </div>
+      <div class="d-flex flex-row gap-3 justify-content-end">
+        <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+          <img src="assets/icons/instagram.svg" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com/company/studio-ajot" target="_blank" class="footer-button">
+          <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+        </a>
+      </div>
+    </div>
+    <div class="d-flex gap-md-3 justify-content-md-start justify-content-between">
+      <a href="./datenschutz.html" target="_blank" class="footer-button">Datenschutz</a>
+      <a href="./impressum.html" target="_blank" class="footer-button">Impressum</a>
+      <a href="./kontakt.html" target="_blank" class="footer-button">Kontakt</a>
     </div>
   </div>
 </footer>

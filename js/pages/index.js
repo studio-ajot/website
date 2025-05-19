@@ -83,8 +83,8 @@ function setupProgressBar() {
 }
 
 function setupEventListeners() {
-    $(".burger_menu").click(toggleMenu);
-    $(".nav_section ul li a").click(closeMenu);
+    // $(".burger_menu").click(toggleMenu);
+    // $(".nav_section ul li a").click(closeMenu);
     // $(window).on("resize", normalizeVhUnit);
     $(".main-carousel").on("staticClick.flickity", function (event) {
         if (event.clientX < $(window).width() / 2) {

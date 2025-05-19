@@ -35,6 +35,7 @@ const extractProjectName = () => {
 };
 
 const getProjectInfo = (projectName) => {
+    console.log(galleryProjectInformation.find(project => project.id === projectName))
     return galleryProjectInformation.find(project => project.id === projectName);
 };
 
@@ -60,7 +61,7 @@ const setupMobileView = (projectName) => {
     domElements.mobileContainer.style.display = 'block';
 
     return {
-        mediaPrefix: `assets/projects/mobile/${projectName}/`,
+        mediaPrefix: `../assets/media/projects/${projectName}/`,
         mediaSuffix: '-mobile',
         imgClass: 'subpage-main-container-for-mobile__img',
         vidClass: 'subpage-main-container-for-mobile__vid'
@@ -142,10 +143,10 @@ const setupExpandButton = (project) => {
         domElements.mobileTextBox.classList.toggle('is-expanded');
 
         if (domElements.mobileTextBox.classList.contains('is-expanded')) {
-            domElements.mobileTextContent.innerHTML = project.longTextDescription;
+            domElements.mobileTextContent.innerHTML = project.description;
             domElements.expandButton.innerHTML = '-';
         } else {
-            domElements.mobileTextContent.innerHTML = project.projectDescription;
+            domElements.mobileTextContent.innerHTML = project.title;
             domElements.expandButton.innerHTML = '+';
         }
     });
@@ -212,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Setup text content
     if (isMobileView) {
-        domElements.mobileTextContent.innerHTML = project.projectDescription;
+        domElements.mobileTextContent.innerHTML = project.title;
     } else {
         // domElements.webTextContainer.innerHTML = project.longTextDescription;
         domElements.webProjectTitle.innerHTML = project.title;

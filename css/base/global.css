@@ -25,6 +25,7 @@ html, body, main {
 body {
     width: 100% !important;
     line-height: normal;
+    overflow-x: hidden;
 }
 
 /* Reset default list styles */
@@ -58,10 +59,7 @@ table {
     border-spacing: 0;
 }
 
-/* Section padding */
-section {
-    padding: 15px 30px;
-}
+
 
 /* Remove text decoration for links */
 a {
@@ -78,10 +76,19 @@ a button {
     text-decoration: none !important;
 }
 
+/* section */
+section {
+    padding: 50px 30px;
+}
 
-@media (max-width: 576px) {
+section:first-child {
+    padding: 130px 30px 50px 30px;
+}
+@media (max-width: 768px) {
     section {
-        padding: 15px 20px;
+        padding: 40px 20px;
     }
-
+    section:first-child {
+        padding: 100px 20px 40px 20px;
+    }
 }

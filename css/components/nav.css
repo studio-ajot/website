@@ -23,14 +23,13 @@
     height: 80px;
 }
 
-.nav_section .logo {
+.logo {
     width: 325px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
     padding-left: 30px;
 }
-
 
 /* ========================================================================
    Menu Button Styles
@@ -99,7 +98,6 @@
     padding: 0 40px;
 }
 
-
 .submenu li:last-child a {
     padding-right: 100px;
 }
@@ -132,4 +130,42 @@
     opacity: 1;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+}
+
+/* ========================================================================
+   Burger Menu -- Submenu
+   ======================================================================== */
+.leistungen-button {
+    z-index: 10;
+}
+
+.burger_menu__submenu {
+    z-index: 0;
+    transition: all 0.2s ease-in-out;
+    /*height: 0;*/
+    display: none;
+    opacity: 0;
+}
+
+.nav_section.active .burger_menu__submenu ul {
+    padding: 0;
+}
+
+.burger_menu__submenu.open {
+    visibility: visible;
+    opacity: 100%;
+    /*height: 255px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 4px;
+}
+
+.leistungen-arrow {
+    transition: transform 0.3s ease;
+    transform: rotate(360deg);
+}
+
+.leistungen-arrow.rotate {
+    transform: rotate(180deg);
 }

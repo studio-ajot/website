@@ -13,48 +13,63 @@ function toggleMenu() {
 function closeMenu() {
     $(".burger_menu").removeClass("open");
     $(".nav_section .menu_points, .nav_section").removeClass("active");
+    $(".burger_menu__submenu").removeClass("open");
+    $(".leistungen-arrow").removeClass("rotate");
 }
 
-// Close menu when a nav item is clicked
-// function closeMenuOnNavClick() {
-//     $(".burger_menu, .nav_section .menu_points").removeClass("open active");
+// function detectMobile() {
+//     if (
+//         /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+//             navigator.userAgent
+//         )
+//     ) {
+//         $("body").addClass("mobile-detect");
+//     } else {
+//         $("body").removeClass("mobile-detect");
+//     }
 // }
 
-function detectMobile() {
-    if (
-        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-            navigator.userAgent
-        )
-    ) {
-        $("body").addClass("mobile-detect");
-    } else {
-        $("body").removeClass("mobile-detect");
-    }
-}
-
 $(document).ready(function () {
-    $(".burger_menu_container, .burger_menu, .burger_menu_container * , .burger_menu span, .icon, .icon2, .icon3").click(toggleMenu);
+    $(".burger_menu_container").click(toggleMenu);
     $(".year").text('\u00A0' + new Date().getFullYear() + '\u00A0');
-    detectMobile()
-
-    // Handle navigation item click
-    // $(".nav_section ul li a").click(closeMenuOnNavClick);
+    // detectMobile()
 
     let leaveTimeout;
 
     $(".hover-target").mouseenter(
         function () {
-            clearTimeout(leaveTimeout); // Falls Mouseleave aktiv war, abbrechen
-            $(".submenu").addClass("active");
+            if (!$(".burger_menu").hasClass("open")) {
+                clearTimeout(leaveTimeout); // Falls Mouseleave aktiv war, abbrechen
+                $(".submenu").addClass("active");
+            }
         }
     );
     $(".hover-target").mouseleave(function () {
-        leaveTimeout = setTimeout(() => {
-            $(".submenu").removeClass("active");
-        }, 200); // Verzögerung beim Schließen
+        if (!$(".burger_menu").hasClass("open")) {
+            leaveTimeout = setTimeout(() => {
+                $(".submenu").removeClass("active");
+            }, 300); // Verzögerung beim Schließen
+        }
+    });
+
+    $(".leistungen-button").on("click", function (event) {
+        if ($(".burger_menu").hasClass("open")) {
+            event.preventDefault();      // Verhindert Navigation
+            event.stopPropagation();     // Verhindert Bubbling
+            $(".burger_menu__submenu").toggleClass("open");
+            $(".leistungen-arrow").toggleClass("rotate");
+        }
+    });
+
+    $(".slider__nav_menu_button").on("click", function (event) {
+        const $target = $(event.target);
+        const clickedLeistungenButton = $target.closest(".leistungen-button").length > 0;
+
+        if ($(".burger_menu").hasClass("open") && !clickedLeistungenButton) {
+            closeMenu();
+        }
     });
 });
-
 
 // --- Mobile progress bar: Set marker / highlight --- //
 function setProgressBarHightlight(index) {
