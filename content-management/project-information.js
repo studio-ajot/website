@@ -1,4 +1,4 @@
-const galleryProjectInformation = [
+const projectInformation = [
     {
         id: "corporate-design-colibris-eyewear",
         accentColor: "#9DB7FF",

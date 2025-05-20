@@ -203,7 +203,7 @@
           .replace(".html", "");
 
         // get project information
-        const projectOfSubpage = galleryProjectInformation.find(
+        const projectOfSubpage = projectInformation.find(
           (project) => project.id === projectName
         );
 
@@ -329,21 +329,21 @@
         });
 
         // set links for navigation
-        const indexOfSubpageProject = galleryProjectInformation.indexOf(
+        const indexOfSubpageProject = projectInformation.indexOf(
           projectOfSubpage
         );
         const nextProjectIndex =
-          indexOfSubpageProject === galleryProjectInformation.length - 1
+          indexOfSubpageProject === projectInformation.length - 1
             ? 0
             : indexOfSubpageProject + 1;
         const prevProjectIndex =
           indexOfSubpageProject === 0
-            ? galleryProjectInformation.length - 1
+            ? projectInformation.length - 1
             : indexOfSubpageProject - 1;
         const nextProjectLink =
-          galleryProjectInformation[nextProjectIndex].id + ".html";
+          projectInformation[nextProjectIndex].id + ".html";
         const prevProjectLink =
-          galleryProjectInformation[prevProjectIndex].id + ".html";
+          projectInformation[prevProjectIndex].id + ".html";
         $(".next-project-link").attr("href", nextProjectLink);
         $(".prev-project-link").attr("href", prevProjectLink);
       });

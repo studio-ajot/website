@@ -51,7 +51,7 @@ $(document).ready(function () {
     }
 
     function renderFilterBar() {
-        const categories = [...new Set(galleryProjectInformation.flatMap(p => p.categories))].sort();
+        const categories = [...new Set(projectInformation.flatMap(p => p.categories))].sort();
         categories.forEach(category => {
             const sanitized = sanitizeClass(category);
             $(".filter-bar").append(`
@@ -63,16 +63,16 @@ $(document).ready(function () {
     }
 
     function renderInitialGallery() {
-        for (let i = 0; i < Math.min(INITIAL_MEDIA_COUNT, galleryProjectInformation.length); i++) {
-            const project = galleryProjectInformation[i];
+        for (let i = 0; i < Math.min(INITIAL_MEDIA_COUNT, projectInformation.length); i++) {
+            const project = projectInformation[i];
             appendMediaElement(project);
         }
         applyIsotopeFilter();
     }
 
     function loadRemainingGallery() {
-        for (let i = INITIAL_MEDIA_COUNT; i < galleryProjectInformation.length; i++) {
-            const project = galleryProjectInformation[i];
+        for (let i = INITIAL_MEDIA_COUNT; i < projectInformation.length; i++) {
+            const project = projectInformation[i];
             appendMediaElement(project);
         }
         $(".grid").imagesLoaded().progress(() => $(".grid").isotope("layout"));
@@ -158,9 +158,9 @@ $(document).ready(function () {
 
     function adjustGalleryMargins() {
         const columns = $(window).width() > 991 ? 3 : 2;
-        $(".grid").isotope("getFilteredItemElements").forEach((el, i) => {
-            $(el).css("margin-right", ((i + 1) % columns === 0) ? "0" : `${5 / columns}px`);
-        });
+        // $(".grid").isotope("getFilteredItemElements").forEach((el, i) => {
+        //     $(el).css("margin-right", ((i + 1) % columns === 0) ? "0" : `${5 / columns}px`);
+        // });
         $(".grid").isotope("layout");
     }
 

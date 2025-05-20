@@ -76,7 +76,7 @@ function fillCarousel() {
     const mediaPrefix = "../assets/media/projects/";
     const mediaPostfix = "-1" + isMobile ? '-mobile' : '-web';
     const projectCategoriesForSubpage = getProjectCategoryForSubpage();
-    const projectsOfSubpage = galleryProjectInformation.filter(project => {
+    const projectsOfSubpage = projectInformation.filter(project => {
         return project.categories.some(cat => projectCategoriesForSubpage.includes(cat));
     });
 
@@ -137,8 +137,6 @@ function setupProgressBar() {
 }
 
 function setupEventListeners() {
-    $(".burger_menu").click(toggleMenu);
-    $(".nav_section ul li a").click(closeMenu);
     // $(window).on("resize", normalizeVhUnit);
     $(".main-carousel").on("staticClick.flickity", function (event) {
         if ($("body").hasClass("mobile-detect")) {

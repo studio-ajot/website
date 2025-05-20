@@ -16,8 +16,8 @@ const domElements = {
     webDescription: document.querySelector('.subpage-main-container-for-web__text-container__description'),
     webImageContainer: document.querySelector('.subpage-main-container-for-web__subpage-image-container'),
     expandButton: document.querySelector('.expand-button'),
-    nextProjectLink: document.querySelector('.next-project-link'),
-    prevProjectLink: document.querySelector('.prev-project-link'),
+    nextProjectLink: document.querySelectorAll('.next-project-link'),
+    prevProjectLink: document.querySelectorAll('.prev-project-link'),
     burgerMenu: document.querySelector('.burger_menu'),
     navSection: document.querySelector('.nav_section .menu_points'),
     navLinks: document.querySelectorAll('.nav_section ul li a')
@@ -35,43 +35,24 @@ const extractProjectName = () => {
 };
 
 const getProjectInfo = (projectName) => {
-    console.log(galleryProjectInformation.find(project => project.id === projectName))
-    return galleryProjectInformation.find(project => project.id === projectName);
+    return projectInformation.find(project => project.id === projectName);
 };
 
-// const toggleMenu = () => {
-//     domElements.burgerMenu.classList.toggle('open');
-//     domElements.navSection.classList.toggle('active');
+// const setupMobileView = (projectName) => {
+//     // domElements.body.classList.add('mobile-detect');
+//     // domElements.webContainer.style.display = 'none';
+//     // domElements.mobileContainer.style.display = 'block';
+//
+//     return {
+//         mediaPrefix: `../assets/media/projects/${projectName}/`,
+//         mediaSuffix: '-mobile',
+//         imgClass: 'subpage-main-container-for-mobile__img',
+//         vidClass: 'subpage-main-container-for-mobile__vid'
+//     };
 // };
-
-// const closeMenu = () => {
-//     domElements.burgerMenu.classList.remove('open');
-//     domElements.navSection.classList.remove('active');
-// };
-
-const setColorInMenu = (color, isOpen) => {
-    // Implementation depends on your specific color setting logic
-    // This is a placeholder for the actual implementation
-    console.log(`Setting menu color to ${color} in ${isOpen ? 'open' : 'closed'} state`);
-};
-
-const setupMobileView = (projectName) => {
-    domElements.body.classList.add('mobile-detect');
-    domElements.webContainer.style.display = 'none';
-    domElements.mobileContainer.style.display = 'block';
-
-    return {
-        mediaPrefix: `../assets/media/projects/${projectName}/`,
-        mediaSuffix: '-mobile',
-        imgClass: 'subpage-main-container-for-mobile__img',
-        vidClass: 'subpage-main-container-for-mobile__vid'
-    };
-};
 
 const setupDesktopView = (projectName) => {  // Add projectName as parameter
     domElements.body.classList.remove('mobile-detect');
-    domElements.webContainer.style.display = 'flex';
-    document.documentElement.style.overflowY = 'hidden';
 
     return {
         mediaPrefix: `../assets/media/projects/${projectName}/`,
@@ -115,78 +96,67 @@ const createMediaElement = (mediaType, index, config, projectName) => {
 };
 
 const insertMediaElement = (element, index, isMobile) => {
-    if (isMobile) {
-        const navElements = document.querySelectorAll('.subpage-main-container-for-mobile__nav');
-        if (index === 0) {
-            navElements[0].after(element);
-        } else {
-            navElements[navElements.length - 1].before(element);
-        }
-    } else {
+    // if (isMobile) {
+    //     const navElements = document.querySelectorAll('.subpage-main-container-for-mobile__nav');
+    //     if (index === 0) {
+    //         navElements[0].after(element);
+    //     } else {
+    //         navElements[navElements.length - 1].before(element);
+    //     }
+    // } else {
         domElements.webImageContainer.appendChild(element);
-    }
+    // }
 };
 
 const setupNavigationLinks = (project) => {
-    const currentIndex = galleryProjectInformation.indexOf(project);
-    const nextIndex = currentIndex === galleryProjectInformation.length - 1 ? 0 : currentIndex + 1;
-    const prevIndex = currentIndex === 0 ? galleryProjectInformation.length - 1 : currentIndex - 1;
+    const currentIndex = projectInformation.indexOf(project);
+    const nextIndex = currentIndex === projectInformation.length - 1 ? 0 : currentIndex + 1;
+    const prevIndex = currentIndex === 0 ? projectInformation.length - 1 : currentIndex - 1;
 
-    domElements.nextProjectLink.href = `${galleryProjectInformation[nextIndex].id}.html`;
-    domElements.prevProjectLink.href = `${galleryProjectInformation[prevIndex].id}.html`;
+
+    domElements.nextProjectLink.forEach(link => {
+        link.href = `${projectInformation[nextIndex].id}.html`;
+    });
+
+    domElements.prevProjectLink.forEach(link => {
+        link.href = `${projectInformation[prevIndex].id}.html`;
+    });
 };
 
 const setupExpandButton = (project) => {
-    domElements.expandButton.addEventListener('click', (e) => {
-        e.preventDefault();
-
-        domElements.mobileTextBox.classList.toggle('is-expanded');
-
-        if (domElements.mobileTextBox.classList.contains('is-expanded')) {
-            domElements.mobileTextContent.innerHTML = project.description;
-            domElements.expandButton.innerHTML = '-';
-        } else {
-            domElements.mobileTextContent.innerHTML = project.title;
-            domElements.expandButton.innerHTML = '+';
-        }
-    });
+    // domElements.expandButton.addEventListener('click', (e) => {
+    //     e.preventDefault();
+    //
+    //     domElements.mobileTextBox.classList.toggle('is-expanded');
+    //
+    //     if (domElements.mobileTextBox.classList.contains('is-expanded')) {
+    //         domElements.mobileTextContent.innerHTML = project.description;
+    //         domElements.expandButton.innerHTML = '-';
+    //     } else {
+    //         domElements.mobileTextContent.innerHTML = project.title;
+    //         domElements.expandButton.innerHTML = '+';
+    //     }
+    // });
 };
 
 const setAccentColor = (project) => {
     const elements = [
-        '.subpage-main-container-for-mobile__text-box',
-        '.subpage-main-container-for-mobile__nav',
+        // '.subpage-main-container-for-mobile__text-box',
+        // '.subpage-main-container-for-mobile__nav',
         '.project-subpage-main'
     ].join(',');
 
     document.querySelectorAll(elements).forEach(el => {
         el.style.backgroundColor = project.accentColor;
     });
-
-    domElements.expandButton.style.color = project.accentColor;
+    // domElements.expandButton.style.color = project.accentColor;
 };
 
 const setupEventListeners = () => {
     window.addEventListener('resize', () => {
         if (menuIsOpen()) {
             closeMenu();
-            setColorInMenu('black', false);
         }
-    });
-
-    domElements.burgerMenu.addEventListener('click', () => {
-        toggleMenu();
-        setColorInMenu('black', menuIsOpen());
-    });
-
-    domElements.navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            setColorInMenu('black', true);
-            setColorInMenu('black', false);
-            if (menuIsOpen()) {
-                closeMenu();
-            }
-        });
     });
 };
 
@@ -200,8 +170,9 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    const isMobileView = isMobile();
-    const mediaConfig = isMobileView ? setupMobileView(projectName) : setupDesktopView(projectName);
+    const isMobileView = false;
+    // const mediaConfig = isMobileView ? setupMobileView(projectName) : setupDesktopView(projectName);
+    const mediaConfig = setupDesktopView(projectName);
 
     // Setup media elements
     project.mediaTypes.forEach((mediaType, index) => {
@@ -226,6 +197,11 @@ document.addEventListener('DOMContentLoaded', () => {
     setupExpandButton(project);
     setAccentColor(project);
     setupNavigationLinks(project);
+
+    // toggles whether .subpage-main-container-for-web__text-container__description is shown or not
+    $('#toggle-project-description-text').on("click", function (event) {
+        $('.subpage-main-container-for-web__text-container__description').toggleClass('show')
+    });
 
     // Setup global event listeners
     setupEventListeners();
