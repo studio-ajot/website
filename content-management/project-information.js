@@ -22,7 +22,7 @@ const projectInformation = [
     {
         id: "art-direction-magazin-cloudshill",
         accentColor: "#DBC4FF",
-        title: "Editorial Design & Art Direction für Clouds Hill",
+        title: "Chart Magazin, Ausgabe 04: Light",
         type: "img",
         categories: ["Buch- & Editorial Design"],
         metaData: "Editorial Design & Art Direction für Clouds Hill, 2023",
