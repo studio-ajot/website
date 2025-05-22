@@ -4,7 +4,7 @@ const projectInformation = [
         accentColor: "#9DB7FF",
         title: "Great glasses for small faces",
         type: "img",
-        categories: ["Corporate Design"],
+        categories: ["CORPORATE DESIGN"],
         metaData: "Corporate Design für colibris",
         mediaTypes: ["img", "img", "vid", "img", "img", "vid", "img", "img", "img", "img"],
         description: "Zum 25-jährigen Jubiläum entwickelten wir für Colibris Eyewear ein modernes Corporate Design, das die Markenidentität neu definiert. Unter dem Leitgedanken »Great glasses for small faces« verbindet das visuelle Konzept nordisches Design mit einer zeitgemäßen Ästhetik. Ein maritimes Blau und warmer Sandton spiegeln die norddeutsche Landschaft wider, während das ikonische »C« und filigrane Wellenmuster die Herkunft und Präzision der Marke unterstreichen. Der überarbeitete Logo-Schriftzug kombiniert Eleganz mit Selbstbewusstsein und setzt die Spezialisierung auf Brillen für schmale Gesichter eindrucksvoll in Szene. \nMessefotos ©reizueberflutung.com"
@@ -27,7 +27,7 @@ const projectInformation = [
         categories: ["Buch- & Editorial Design"],
         metaData: "Editorial Design & Art Direction für Clouds Hill, 2023",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img"],
-        description: "CHART Magazin, Ausgabe 04: Light \n \nOptisch bewegt sich CHART zwischen den Medien Buch und Magazin, inhaltlich widmet es sich dem Musikjournalismus und erzählt einfühlsame Portraits über Menschen im kulturellen Umfeld. Für die vierte Ausgabe »Light« entwickelten wir ein neues Gestaltungssystem, das den unterschiedlichen Charakteren und Geschichten einen individuellen Raum gibt. Es entstand ein Layout, das charaktergebend und gleichzeitig flexibel ist und die Stimmung und Charakteristik der jeweiligen Texte im Layout und der Bildanordnung visuell wiedergibt. So übersetzen zum Beispiel flüchtige Handy-Aufnahmen, collagenartig angeordnet, den virtuellen Irrsinn und Überfluss auf Konzerten, der oft mehr im Vordergrund steht als die Künstler:innen selbst. Scheinbar willkürlich platzierte Polaroids erzählen von Charlottes Brandis Suche danach, was es bedeutet, vor 30 Jahren als Frau in einer Band gewesen zu sein. Das Gestaltungssystem soll auf weitere Ausgaben flexibel sowie thematisch und emotional anwendbar sein."
+        description: "Optisch bewegt sich CHART zwischen den Medien Buch und Magazin, inhaltlich widmet es sich dem Musikjournalismus und erzählt einfühlsame Portraits über Menschen im kulturellen Umfeld. Für die vierte Ausgabe »Light« entwickelten wir ein neues Gestaltungssystem, das den unterschiedlichen Charakteren und Geschichten einen individuellen Raum gibt. Es entstand ein Layout, das charaktergebend und gleichzeitig flexibel ist und die Stimmung und Charakteristik der jeweiligen Texte im Layout und der Bildanordnung visuell wiedergibt. So übersetzen zum Beispiel flüchtige Handy-Aufnahmen, collagenartig angeordnet, den virtuellen Irrsinn und Überfluss auf Konzerten, der oft mehr im Vordergrund steht als die Künstler:innen selbst. Scheinbar willkürlich platzierte Polaroids erzählen von Charlottes Brandis Suche danach, was es bedeutet, vor 30 Jahren als Frau in einer Band gewesen zu sein. Das Gestaltungssystem soll auf weitere Ausgaben flexibel sowie thematisch und emotional anwendbar sein."
     },
     {
         id: "plakat-konzert-merch-wolf-biermann",
