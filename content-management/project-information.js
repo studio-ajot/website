@@ -2,7 +2,7 @@ const projectInformation = [
     {
         id: "corporate-design-colibris-eyewear",
         accentColor: "#9DB7FF",
-        title: "Corporate Design für colibris eyewear",
+        title: "Great glasses for small faces",
         type: "img",
         categories: ["Corporate Design"],
         metaData: "Corporate Design für colibris",
@@ -12,7 +12,7 @@ const projectInformation = [
     {
         id: "lp-design-wolf-biermann-box",
         accentColor: "#FFC4F4",
-        title: "Plattengestaltung für Wolf Biermann",
+        title: "Wolf Biermann: Zeiten verbinden",
         type: "vid",
         categories: ["Buch- & Editorial Design", "Musik"],
         metaData: "Plattengestaltung für Wolf Biermann",
@@ -32,17 +32,17 @@ const projectInformation = [
     {
         id: "plakat-konzert-merch-wolf-biermann",
         accentColor: "#FFBA5D",
-        title: "Bühnendesign, Bühnenanimation, Merchandise für das Konzert »Lieder für jetzt« für und mit Wolf Biermann",
+        title: "»Lieder für jetzt«, ein Konzert für und mit Wolf Biermann",
         type: "img",
         categories: ["Corporate Design", "Musik"],
         metaData: "Bühnendesign, Bühnenanimation, Merchandise für das Konzert »Lieder für jetzt« für und mit Wolf Biermann, 2024",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
-        description: "Der deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. Anlässlich des Konzerts »Lieder für Jetzt« im Thalia Theater zu seinem 88. Geburtstag betreuten wir die Kampagne und entwickelten das Bühnendesign. \nFotos von Wolf Biermann: Jonas Albrecht, www.jonas-albrecht.de, @zwischensequenzen"
+        description: "Im Rahmen des Coveralbums »Wolf Biermann RE:IMAGINED – Lieder für jetzt!« fand am 13. November 2024 im Hamburger Thalia Theater ein besonderes Release-Konzert statt, bei dem sich eine neue Künstlergeneration dem Werk des Liedermachers annäherte. Studio Ajot entwickelte das visuelle Erscheinungsbild für diesen Abend – von der Plakatgestaltung über die Bühnengestaltung über Merch-Artikel wie Shirts und Stressbälle bis hin zur begleitenden Social-Media-Kampagne. \nZiel war es, die Vielstimmigkeit des Abends visuell greifbar zu machen und Biermanns künstlerisches Erbe in einen zeitgemäßen Kontext zu setzen. Die visuelle Gestaltung baut auf dem bestehenden Erscheinungsbild auf, das wir für Biermanns Gesamtauftritt gestaltet haben, und übersetzt dessen zentrale Elemente – Typografie, 3D-Visuals und Farbigkeit – in ein Bühnenbild, das sowohl laut als auch poetisch sein darf. \nKünstler:innen, die, neben Wolf Biermann, aufgetreten sind: Torch, Betterov, Haiyti, PeterLicht, Jan Plewka, Lina Maly, Mola, Bonaparte, Das Bierbeben, Van Holzen, Moritz Krämer, Charlotte Brandi & Albrecht Schrader, Katharina Franck & Paul Eisenach, Romano und das Jazz-Duo Ulrich Gumpert & Günter Baby Sommer. \nFotos von Wolf Biermann: Jonas Albrecht, www.jonas-albrecht.de, @zwischensequenzen"
     },
     {
         id: "webdesign-tech-b310",
         accentColor: "#8CF5CD",
-        title: "Webdesign für B310 digital",
+        title: "B310: Open Source Agency",
         type: "img",
         categories: ["Corporate Design", "Webdesign"],
         metaData: "Webdesign für B310 digital",
@@ -52,7 +52,7 @@ const projectInformation = [
     {
         id: "editorial-design-muthesius-kunsthochschule-postkarten",
         accentColor: "#FA6262",
-        title: "Postkartengestaltung für die Muthesius Kunsthochschule",
+        title: " Was passiert an der Muthesius Kunsthochschule?",
         type: "img",
         categories: ["Buch- & Editorial Design"],
         metaData: "Postkartengestaltung für die Muthesius Kunsthochschule",
@@ -62,26 +62,26 @@ const projectInformation = [
     {
         id: "lp-design-kampagne-wolf-biermann-reimagined",
         accentColor: "#FF7F3B",
-        title: "Animation & Social Media Kampagnen für Wolf Biermann",
+        title: "Wolf Biermann: RE:IMAGINED",
         type: "img",
         categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik"],
         metaData: "Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute",
         mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "vid", "img", "vid"],
-        description: "Der deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt."
+        description: "Für das 2024 erschienene Album »Wolf Biermann – RE:IMAGINED. Lieder für jetzt!« durften wir das gesamte visuelle Erscheinungsbild gestalten. Das Projekt vereint 22 Neuinterpretationen von Biermanns Liedern durch Künstler:innen wie Alligatoah, Haiyti, OK KID, Betterov oder Lina Maly – und schlägt damit eine künstlerische Brücke zwischen Vergangenheit und Gegenwart.  \nUnsere Gestaltung setzt diesen Brückenschlag visuell um: Im Zentrum stehen neben einer berühmten Biermann-Fotografie typografische 3D-Visuals, die wir über verschiedene Formate hinweg adaptiert haben – vom LP-Cover bis zum animierten Spotify-Canvas. Die klare, reduzierte Gestaltung der Plattencover trifft auf lebendige Typoanimationen für Social Media und digitale Plattformen. Ergänzt wurde das visuelle Konzept durch eine begleitende Plakatkampagne und Social Media Content für den offiziellen Album-Launch.  \nZiel war es, die künstlerische Haltung Biermanns – unbequem, poetisch, laut – gestalterisch weiterzudenken und gleichzeitig für eine junge Zielgruppe neu erlebbar zu machen."
     },
     {
         id: "buchgestaltung-nonprofit-epda",
         accentColor: "#D484E2",
-        title: "Editorial Design & Art Direction für die European Brand and Packaging Design Association",
+        title: "The Design Agency Boost Book",
         type: "img",
         categories: ["Buch- & Editorial Design"],
         metaData: "Editorial Design & Art Direction für die European Brand and Packaging Design Association, 2022",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "vid", "img", "img", "img"],
-        description: "The Design Agency Boost Book \n \nDie european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir „The Design Agency Boost Book“ - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt."
+        description: "Die european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir »The Design Agency Boost Book« - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt."
     },
     {
         id: "lp-design-wolf-biermann-ermutigung",
-        title: "Animation & Social Media Kampagnen für Wolf Biermann",
+        title: "Wolf Biermann: Ermutigung",
         metaData: "Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute",
         description: "Für die Veröffentlichung der LP »Ermutigung« haben wir ein visuelles Konzept entwickelt, das direkt an die berühmte Zeile »Du, lass dich nicht verhärten in dieser harten Zeit« anknüpft. Das Cover greift diese Aussage bildlich auf und übersetzt sie grafisch in eine 3D-Ballon-Optik – als Symbol für Bewegung, Widerstandskraft und poetische Aufladung inmitten harter Zeiten. \nDie visuelle Sprache spielt mit Materialität und Form, steht im Kontrast zur politischen Schwere des Liedes und betont gleichzeitig dessen zentrale Botschaft: weich bleiben, auch wenn es schwerfällt. Es findet Platz auf thematisch passendem Merch wie Stressbällen, Pop-Sockets und Kaugummis. \nDas Artwork wurde als Teil der exklusiven LP-Veröffentlichung im Box-Set »Wolf Biermann: Zeiten verbinden« gestaltet und ist ebenfalls in begleitenden digitalen Formaten für Social Media und Streaming-Plattformen zu hören.",
         categories: ["Corporate Design", "Animation", "Digital Design", "Musik"],
@@ -93,7 +93,7 @@ const projectInformation = [
     {
         id: "corporate-design-chor-jazzica",
         accentColor: "#7ECCE7",
-        title: "Aufbau einer Markenidentität & Entwicklung von Werbemaßnahmen für Jazzica",
+        title: "Jazzica – ein A-Capella Chor aus Kiel",
         type: "img",
         categories: ["Corporate Design", "Schriftgestaltung", "Plakatgestaltung", "Webdesign", "Animation"],
         metaData: "Aufbau einer Markenidentität & Entwicklung von Werbemaßnahmen für Jazzica",
