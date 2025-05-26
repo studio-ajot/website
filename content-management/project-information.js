@@ -103,27 +103,27 @@ const projectInformation = [
     {
         id: "lp-design-wolf-biermann-klaus-lenz",
         accentColor: "#FF4E4E",
-        title: "Aufbau einer Markenidentität & Plattengestaltung für Wolf Biermann",
+        title: "Wolf Biermann & Klaus Lenz",
         type: "img",
         categories: ["Corporate Design", "Musik"],
-        metaData: "Aufbau einer Markenidentität & Plattengestaltung für Wolf Biermann, 2023-heute",
+        metaData: "Plattengestaltung und Animationen für Wolf Biermann",
         mediaTypes: ["img", "vid", "img", "img", "img", "img"],
-        description: "Der deutsche Lyriker und Liedermacher Wolf Biermannn ist als politischer Rebell und scharfer Kritiker der DDR bekannt geworden. Bis heute hat er nicht an Aktualität verloren und soll sowohl bei langjährigen Biermann-Kenner:innen als auch bei einer neuen, jungen Zielgruppe sichtbar und zeitgemäß präsentiert werden. \nWir entwickelten ein neues, modernes System für sämtliche grafischen Assets, das Druckerzeugnisse wie Plattencover oder Flyer über Merch-Artikel wie Stifte oder Sticker bis hin zu Social-Media Templates und Spotify-Animationen abdeckt."
+        description: "Für die Veröffentlichung dieser historischen Tonbandaufnahmen von 1973 haben wir ein gestalterisches Konzept entwickelt, das die besondere Entstehungsgeschichte visuell aufgreift. Das Projekt erzählt nicht nur von musikalischer Raffinesse, sondern auch von kreativer Improvisation und mutiger Zusammenarbeit im Verborgenen – ein Spirit, den wir in die Gestaltung übersetzt haben. \nDie Inszenierung der Räume und Instrumente stand im Mittelpunkt unseres visuellen Konzepts: Wir haben den provisorischen Aufnahmeraum – von Wohnzimmer bis Badezimmer – grafisch zitiert und typografisch in Szene gesetzt. Illustrative Elemente und atmosphärische Details lassen das legendäre Berliner Wohnzimmer-Studio in Lichtenberg lebendig werden. So wird die Geschichte dieser heimlichen Session nicht nur hör-, sondern auch sichtbar. \nDas Design erschien als Plattencover und begleitende Visuals für die Pressearbeit, digitale Anwendungen und Social Media."
     },
     {
         id: "webdesign-illustration-zbw",
         accentColor: "#BA7BE2",
-        title: "Webdesign & Illustrationsgrafiken für das ZBW",
+        title: "ZBW: ein Zeugnis für Open Science",
         type: "vid",
         categories: ["Webdesign", "Illustration"],
-        metaData: "Webdesign & Illustrationsgrafiken für das ZBW – Leibniz-Informationszentrum Wirtschaft, 2024",
+        metaData: "Webdesign & Illustrationsgrafiken für das ZBW – Leibniz-Informationszentrum Wirtschaft",
         mediaTypes: ["vid", "vid", "img", "img", "vid"],
         description: "Das Leibnitz-Informationszentrum Wirtschaft ist die weltweit größte Spezialbibliothek für wirtschaftswissenschaftliche Literatur. Die ZBW möchte mit ihrer neuen Scrollytelling-Website ihr Engagement für Open Science und den freien, fairen Zugang zu Forschungsergebnissen aufzeigen. Die individuell angefertigten Illustrationen im Collagen-Stil leiten beim Scroll-Vorgang jeweils neue Inhaltssegmente ein. Die Website beleuchtet so die aktuellen Herausforderungen auf dem wissenschaftlichen Publikationsmarkt und erläutert anschließend die Bemühungen der ZBW auf verschiedenen Ebenen, die Welt der Wissenschaft offener, gerechter und unabhängiger zu gestalten. So sollen die komplexen Sachverhalte aus der Welt der wissenschaftlichen Bibliotheken informativ und leicht zugänglich kommuniziert werden."
     },
     {
         id: "ausstellungsdesign-editorial-design-antje-majewski",
         accentColor: "#AEEF87",
-        title: "Ausstellungs- & Postkartendesign für Antje Majewski",
+        title: "Antje Majewski: Apple. An Introduction",
         type: "img",
         categories: ["Ausstellungsdesign", "Buch- & Editorial Design"],
         metaData: "Ausstellungs- & Postkartendesign für »Antje Majewski & Paweł Freisler – Apple. An Introduction«",
@@ -133,56 +133,56 @@ const projectInformation = [
     {
         id: "buchgestaltung-illustration-reisetagebuch",
         accentColor: "#00D9B7",
-        title: "Editorial Design, Art Direction und Illustrationen für ein Reisetagebuch",
+        title: "Sail Away: ein Reisetagebuch",
         type: "img",
         categories: ["Illustration", "Buch- & Editorial Design"],
         metaData: "Editorial Design, Art Direction und Illustrationen für ein Reisetagebuch",
         mediaTypes: ["img", "img", "img", "img", "img", "img"],
-        description: "Editorial Design, Art Direction und Illustrationen für ein Reisetagebuch"
+        description: "Für das Reisetagebuch von Noëlle haben wir eine visuelle Sprache entwickelt, die Neugier, Fernweh und persönliche Begegnungen in den Mittelpunkt stellt. Über knapp vier Monate hinweg hielt sie ihre Erlebnisse in Wort und Bild fest – von entlegenen Naturwundern über bunte Unterwasserwelten bis hin zu pulsierenden Städten. Das Buch erzählt nicht nur von besonderen Orten, sondern auch von neuen Freundschaften und vom Mut, sich einen Lebenstraum zu erfüllen. \nStudio Ajot übernahm die komplette grafische Gestaltung – von Cover und Satz bis hin zu liebevollen Illustrationen, die die Erzählung begleiten und atmosphärisch erweitern. Das Design folgt der Idee eines persönlichen, modernen Logbuchs: offen, nahbar, detailverliebt."
     },
     {
         id: "plakatdesign-calendarium-luminis",
         accentColor: "#E967D1",
-        title: "Plakatgestaltung für das Kalendarium Luminis",
+        title: "Calendarium Luminis",
         type: "img",
         categories: ["Plakatgestaltung", "Infografik"],
-        metaData: "Plakatgestaltung für das Kalendarium Luminis",
+        metaData: "Gestaltung für einen astronomischen Kalender im Posterformat",
         mediaTypes: ["img", "img"],
         description: "Für den Kieler Künstler Johann Sommer gestalteten wir 2021 den Licht-Kalender im Posterformat. Der Calendarium Luminis zeigt die Monate und Wochentage, die Tierkreiszeichen des Mondes, Mondphasen, Stundenringe mit Sonnen- und Mondscheindauer, Tierkreiszeichen der Sonne und die Sonnenfeste. Zusätzlich lassen sich die Auf- und Untergangszeiten von Sonne und Mond für jeden Tag des Kalenderjahres 2021 für den Standort Kiel ablesen."
     },
     {
         id: "editorial-design-postkarten-xmas22",
         accentColor: "#F044B6",
-        title: "Postkarten",
+        title: "Happy 2022",
         type: "vid",
         categories: ["Buch- & Editorial Design"],
-        metaData: "Postkarten",
+        metaData: "Postkarten mit einer besonderen Veredelung",
         mediaTypes: ["vid", "img"],
         description: "Ein Neujahrsgruß für 2022: be inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious."
     },
     {
         id: "buchgestaltung-kunstkatalog-kerstin-abraham",
         accentColor: "#E64D4D",
-        title: "Editorial Design & Art Direction für Kerstin Abraham und die Sparkassenstiftung Schleswig-Holstein",
+        title: "Ceramica Borealis",
         type: "img",
         categories: ["Buch- & Editorial Design"],
         metaData: "Editorial Design & Art Direction für Kerstin Abraham und die Sparkassenstiftung Schleswig-Holstein",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
-        description: "Ceramica Borealis 07 – Disegno Ornamento \n \n»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke"
+        description: "»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke"
     },{
         id: "corporate-design-tech-wobesystems",
         accentColor: "#91B3FF",
-        title: "Aufbau einer Markenidentität, Social Media Assets und Werbemaßnahmen für wobe-systems",
+        title: "Branding für wobe-systems",
         type: "vid",
         categories: ["Corporate Design", "Schriftgestaltung", "Animation", "Digital Design"],
-        metaData: "Aufbau einer Markenidentität, Social Media Assets und Werbemaßnahmen für wobe-systems",
+        metaData: "Aufbau einer Markenidentität, Social Media Assets und Werbemaßnahmen",
         mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img"],
         description: "Seit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog zwischen Mensch und Maschine beinhaltet."
     },
     {
         id: "lp-design-wolf-biermann-nachpressungen",
-        title: "Plattengestaltung für Wolf Biermann",
-        metaData: "Plattengestaltung für Wolf Biermann",
+        title: "LP Design: Re-Issues für Wolf Biermann",
+        metaData: "Plattengestaltung",
         description: "Für die Neuauflage von Wolf Biermanns ersten beiden Alben haben wir das Artwork minimal modernisiert und grafisch an die Erscheinung des Box-Set angepasst. Ziel war es, die historische und künstlerische Bedeutung der Originalaufnahmen zu bewahren, sie aber visuell in die Gegenwart zu überführen. \n»Chausseestraße 131« entstand 1968 unter widrigsten Bedingungen – aufgenommen in Biermanns Wohnung, weil ihm alle Studios der DDR verweigert wurden. Die zufälligen Hintergrundgeräusche – Hunde, Kinder, Straßenbahnen – prägten den legendären »geilen Chausseestraßen-Sound«. Diese besondere Atmosphäre haben wir gestalterisch aufgegriffen und in eine zeitgemäße visuelle Sprache übersetzt. Auch »Warte nicht auf beßre Zeiten« (1973), Biermanns zweites Album, erhält durch die neue Gestaltung eine frische Bühne. In einer Zeit politischer Aufbruchsstimmung war dieses Werk ein Aufruf zum Widerstand und zum Bleiben. Die grafische Umsetzung spiegelt diesen Mut wider – als kraftvolles Echo in die Jetztzeit. \nBeide Re-Issues sind Teil der Initiative, Biermanns Werk einer neuen Generation zugänglich zu machen – klanglich wie visuell.",
         categories: ["Corporate Design", "Musik"],
         accentColor: "#FD4B74",
@@ -193,7 +193,7 @@ const projectInformation = [
     {
         id: "editorial-design-muthesius-kunsthochschule-leitfaden",
         accentColor: "#DBC4FF",
-        title: "Gestaltung des Erstsemester-Leitfadens der Muthesius Kunsthochschule",
+        title: "Gut zu wissen - alles für den Studienbeginn",
         type: "img",
         categories: ["Buch- & Editorial Design"],
         metaData: "Gestaltung des Erstsemester-Leitfadens der Muthesius Kunsthochschule",
@@ -203,7 +203,7 @@ const projectInformation = [
     {
         id: "ausstellungsdesign-kunstkatalog-webdesign-mfa",
         accentColor: "#FFB9D1",
-        title: "Ausstellungsgestaltung für eine Absolvent:innenausstellung der Muthesius Kunsthochschule",
+        title: "My Personal Acronym",
         type: "img",
         categories: ["Corporate Design", "Buch- & Editorial Design", "Webdesign", "Plakatgestaltung"],
         metaData: "Ausstellungsgestaltung für eine Absolvent:innenausstellung der Muthesius Kunsthochschule",
@@ -213,17 +213,17 @@ const projectInformation = [
     {
         id: "corporate-design-sundance-farmers",
         accentColor: "#FFE501",
-        title: "Entwicklung des Markenauftritts für Sundance Farmers",
+        title: "Branding für Sundance Farmers",
         type: "img",
         categories: ["Corporate Design"],
-        metaData: "Entwicklung des Markenauftritts für Sundance Farmers",
+        metaData: "Entwicklung des Markenauftritts",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
         description: "Bei Sundance Farmers Inc. stehen die nachhaltige und ökologische Landwirtschaft sowie der faire Umgang mit Landwirten im Vordergrund. Für das Unternehmen entwickelten wir ein ganzheitliches Erscheinungsbild, das nicht nur einen Bezug zu den örtlichen Tätigkeitsgebieten des Unternehmens, sondern auch zur Nachhaltigkeit, dem Erhalt des Planeten als Unternehmensaufgabe, herstellt."
     },
     {
         id: "plakatdesign-musik-tim-nicklaus",
         accentColor: "#84C2FF",
-        title: "Plakatgestaltung für den Musiker Tim Nicklaus",
+        title: "Small Things - ein Konzert",
         type: "img",
         categories: ["Corporate Design", "Plakatgestaltung"],
         metaData: "Plakatgestaltung für den Musiker Tim Nicklaus",
@@ -233,17 +233,17 @@ const projectInformation = [
     {
         id: "corporate-design-nonprofit-frauenberatung-elmshorn",
         accentColor: "#F6BF5C",
-        title: "Aufbau einer Markenidentät und Print-Lösungen für die Frauenberatung Elmshorn",
+        title: "Frauen*beratung Elmshorn",
         type: "img",
         categories: ["Corporate Design", "Buch- & Editorial Design", "Digital Design"],
-        metaData: "Die Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen.",
+        metaData: "Entwicklung eines Corporate Designs, Jahresberichts und Betreuung von sämtlichen Druckerzeugnissen.",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
-        description: "Wir entwickelten die neue visuelle Identität und gestalten fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen."
+        description: "Die Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. Wir entwickelten die neue visuelle Identität und gestalten fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen."
     },
     {
         id: "corporate-design-konsultation-nationalpark-ostsee",
         accentColor: "#64CCBC",
-        title: "Entwicklung einer Markenidentität für den Konsultationsprozess Nationalpark Ostsee",
+        title: "Konsultationsprozess Nationalpark Ostsee",
         type: "vid",
         categories: ["Corporate Design"],
         metaData: "Entwicklung einer Markenidentität für den Konsultationsprozess Nationalpark Ostsee des Ministeriums für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
@@ -253,7 +253,7 @@ const projectInformation = [
     {
         id: "buchgestaltung-covergestaltung-verlag-haymon",
         accentColor: "#47D0B5",
-        title: "Coverdesign für den Roman »Ultraviolett« von Flurin Jecker, erschienen im Haymon Verlag",
+        title: "Flurin Jecker: »Ultraviolett«",
         type: "img",
         categories: ["Buch- & Editorial Design"],
         metaData: "Coverdesign für den Roman »Ultraviolett« von Flurin Jecker, erschienen im Haymon Verlag",
@@ -263,17 +263,17 @@ const projectInformation = [
     {
         id: "corporate-design-tech-getnextit",
         accentColor: "#FF4E4E",
-        title: "Entwicklung einer Markenidentität für getNextIT",
+        title: "Branding für getNextIT",
         type: "img",
         categories: ["Corporate Design", "Digital Design"],
-        metaData: "Entwicklung einer Markenidentität und Werbemaßnahmen für getNextIT",
+        metaData: "Entwicklung einer Markenidentität und Werbemaßnahmen",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img"],
         description: "Durch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir das neue Corporate Design. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>."
     },
     {
         id: "buchgestaltung-art-direction-lmaa",
         accentColor: "#E3545A",
-        title: "Editorial Design & Art Direction für Pablo Martínez-Calleja",
+        title: "Lüneburg mit anderen Augen",
         type: "img",
         categories: ["Buch- & Editorial Design"],
         metaData: "Editorial Design & Art Direction für Pablo Martínez-Calleja",
@@ -283,7 +283,7 @@ const projectInformation = [
     {
         id: "logogestaltung-branding",
         accentColor: "#C8D0FC",
-        title: "Entwicklung von Markenauftritten für unterschiedliche Auftraggeber:innen – eine Auswahl",
+        title: "Branding Projekte",
         type: "vid",
         categories: ["Corporate Design"],
         metaData: "Entwicklung von Markenauftritten für unterschiedliche Unternehmen und Auftraggeber:innen – eine Auswahl.",
@@ -293,7 +293,7 @@ const projectInformation = [
     {
         id: "editorial-design-kunstkatalog-asepsis",
         accentColor: "#7695FF",
-        title: "Editorial Design & Art Direction für Christian An",
+        title: "Asepsis",
         type: "img",
         categories: ["Buch- & Editorial Design"],
         metaData: "Editorial Design & Art Direction für Christian An",
@@ -303,7 +303,7 @@ const projectInformation = [
     {
         id: "corporate-design-startup-dayoff",
         accentColor: "#FFE9A0",
-        title: "Entwicklung einer Markenidentität mit App-Gestaltung für DayOff",
+        title: "Branding für DayOff",
         type: "img",
         categories: ["Corporate Design"],
         metaData: "Entwicklung einer Markenidentität mit App-Gestaltung für DayOff",
@@ -313,7 +313,7 @@ const projectInformation = [
     {
         id: "infografik-illustration-vergleich-org",
         accentColor: "#C4FFFF",
-        title: "Info-Grafiken und Illustrationen für vergleich.org",
+        title: "Grafiken & Illustrationen",
         type: "img",
         categories: ["Infografik", "Illustration"],
         metaData: "Info-Grafiken und Illustrationen für vergleich.org",
@@ -323,7 +323,7 @@ const projectInformation = [
     {
         id: "plakatdesign-nonprofit-reset",
         accentColor: "#FF88B3",
-        title: "Plakatgestaltung für eine Vorlesungsreihe der Muthesius Kunsthochschule",
+        title: "RESET – let's talk about diversity!",
         type: "img",
         categories: ["Corporate Design", "Plakatgestaltung", "Buch- & Editorial Design"],
         metaData: "Plakatgestaltung für eine Vorlesungsreihe der Muthesius Kunsthochschule",
