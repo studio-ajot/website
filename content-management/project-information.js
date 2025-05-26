@@ -4,7 +4,7 @@ const projectInformation = [
         accentColor: "#9DB7FF",
         title: "Great glasses for small faces",
         type: "img",
-        categories: ["CORPORATE DESIGN"],
+        categories: ["Corporate Design"],
         metaData: "Corporate Design für colibris",
         mediaTypes: ["img", "img", "vid", "img", "img", "vid", "img", "img", "img", "img"],
         description: "Zum 25-jährigen Jubiläum entwickelten wir für Colibris Eyewear ein modernes Corporate Design, das die Markenidentität neu definiert. Unter dem Leitgedanken »Great glasses for small faces« verbindet das visuelle Konzept nordisches Design mit einer zeitgemäßen Ästhetik. Ein maritimes Blau und warmer Sandton spiegeln die norddeutsche Landschaft wider, während das ikonische »C« und filigrane Wellenmuster die Herkunft und Präzision der Marke unterstreichen. Der überarbeitete Logo-Schriftzug kombiniert Eleganz mit Selbstbewusstsein und setzt die Spezialisierung auf Brillen für schmale Gesichter eindrucksvoll in Szene. \nMessefotos ©reizueberflutung.com"
