@@ -1,64 +1,38 @@
 html .mobile-detect .cursor {
-  display: none;
-  visibility: hidden;
+    display: none;
+    visibility: hidden;
 }
 
 .mobile-detect {
-  cursor: none !important;
+    cursor: none !important;
 }
 
 .mobile-detect .project-description-button {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100%;
-  color: white;
-  width: 40px;
-  height: 40px;
-  margin-right: auto;
-  margin-left: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .mobile-detect .project-description {
-  opacity: 1;
-  transition: all 0.5s;
+    opacity: 1;
+    transition: all 0.5s;
 }
 
 .mobile-detect .project-description-wrapper {
-  display: none;
-  position: absolute;
-  left: 0;
+    display: none;
+    position: absolute;
+    left: 0;
 }
 
 .mobile-detect .project-description-wrapper.hide .project-description {
-  opacity: 0;
-}
-
-/* ################################
-#    flickity dots / progressbar  #
-#################################*/
-
-.mobile-detect #progress-bar {
-  pointer-events: none;
-  height: 8px;
-  position: fixed;
-  z-index: 10;
-}
-
-.mobile-detect #progress-bar-bg {
-  height: 8px;
-  position: absolute;
-  border-radius: 30px;
-  opacity: 0.25;
-}
-
-.mobile-detect #progress-bar-highlight {
-  height: 8px;
-  position: absolute;
-  border-radius: 30px;
-  opacity: 1;
-  transition: left 0.1s;
+    opacity: 0;
 }
 
 /* ################################
@@ -66,12 +40,12 @@ html .mobile-detect .cursor {
 #################################*/
 
 .mobile-detect .gallery-container {
-  margin-top: 10px;
-  margin-bottom: 5px;
-  margin-left: 7px;
-  margin-right: 7px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
 }
 
 .mobile-detect .gallery-container__overlay {
-  display: none;
+    display: none;
 }

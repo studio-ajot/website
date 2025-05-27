@@ -76,3 +76,13 @@
 .flickity-page-dots {
     display: none;
 }
+
+/* ################################
+#    progressbar for slider       #
+#################################*/
+
+@media (max-width: 576px) {
+    .flickity-button {
+        display: none;
+    }
+}

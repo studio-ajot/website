@@ -1,10 +1,17 @@
 $(document).ready(function () {
     initializeCarousel();
-    setupMobileDetection();
     fillCarousel();
     setupLazyLoading();
     setupProgressBar();
-    // setupEventListeners();
+
+    $(".main-carousel").on("change.flickity", function (event, index) {
+        setProgressBarHightlight(index);
+    });
+
+    $(window).on("resize", () => {
+        setupProgressBar();
+        setProgressBarHightlight();
+    });
 });
 
 function initializeCarousel() {
@@ -17,17 +24,8 @@ function initializeCarousel() {
     });
 }
 
-function setupMobileDetection() {
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    $("body").toggleClass("mobile-detect", isMobile);
-
-    if (!isMobile) {
-        $(".main-carousel").flickity("unbindDrag");
-    }
-}
-
 function fillCarousel() {
-    const isMobile = $("body").hasClass("mobile-detect");
+    const isMobile = false
     const mediaPrefix = "./assets/media/index/";
     const mediaPostfix = isMobile ? "-web" : "-web";
 
@@ -67,10 +65,22 @@ function setupLazyLoading() {
 }
 
 function setupProgressBar() {
-    // if (window.matchMedia("(max-width: 1200px)").matches) {
-    //     $("#progress-bar-highlight").css("width", `calc(((100vw - 60px) / ${numberOfProjects})`);
-    // }
-    // if (window.matchMedia("(max-width: 991px)").matches) {
-    //     $("#progress-bar-highlight").css("width", `calc(((100vw - 40px) / ${numberOfProjects})`);
-    // }
+    const numberOfProjects = sliderIndexPageProjectInformation.length;
+    if (window.matchMedia("(max-width: 1300px)").matches) {
+        $("#progress-bar-highlight").css("width", `calc(((100vw - 60px) / ${numberOfProjects})`);
+    }
+    if (window.matchMedia("(max-width: 991px)").matches) {
+        $("#progress-bar-highlight").css("width", `calc(((100vw - 40px) / ${numberOfProjects})`);
+    }
+}
+
+function setProgressBarHightlight() {
+    const flickityInstance = $(".main-carousel").data("flickity");
+    if (!flickityInstance) return;
+
+    const index = flickityInstance.selectedIndex;
+    const width = parseFloat($("#progress-bar-highlight").css("width")) || 0;
+    const left = width * index;
+
+    $("#progress-bar-highlight").css("left", `${left}px`);
 }

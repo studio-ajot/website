@@ -92,15 +92,7 @@
         text-decoration: none;
     }
 
-    .mobile-detect #progress-bar-bg {
-        width: calc(100vw - 60px);
-    }
 
-    .mobile-detect #progress-bar {
-        width: calc(100vw - 60px);
-        left: 30px;
-        bottom: 95px;
-    }
 }
 
 /* ################################
@@ -163,19 +155,7 @@
         padding-top: 95px;
     }
 
-    .mobile-detect #progress-bar {
-        width: calc(100vw - 40px);
-        left: 20px;
-        bottom: 91px;
-    }
 
-    .mobile-detect #progress-bar-bg {
-        width: calc(100vw - 40px);
-    }
-
-    /* ################################
-       #             slider           #
-       ###############################*/
 }
 
 /* #################################

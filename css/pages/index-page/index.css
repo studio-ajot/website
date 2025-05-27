@@ -1,0 +1,81 @@
+#intro-text {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    z-index: 1;
+}
+
+#projekte {
+    height: 80px;
+    background-color: var(--color-lavender);
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+#kontakt-textbox {
+    width: 600px;
+}
+
+@media (max-width: 576px) {
+    #intro-text {
+        bottom: 40px;
+        left: 20px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    #kontakt-textbox {
+        width: 100%;
+    }
+}
+
+/*main, footer {*/
+/*    scrollbar-gutter: stable;*/
+/*}*/
+
+/* ################################
+#    progressbar for slider       #
+#################################*/
+
+#progress-bar,
+#progress-bar-bg,
+#progress-bar-highlight {
+    height: 8px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+#progress-bar {
+    pointer-events: none;
+    z-index: 1;
+}
+
+#progress-bar-bg {
+    background-color: black;
+    opacity: 0.25;
+}
+
+#progress-bar-highlight {
+    background-color: black;
+    opacity: 1;
+    transition: left 0.1s;
+}
+
+@media (max-width: 576px) {
+    #progress-bar,
+    #progress-bar-bg {
+        width: calc(100% - 20px);
+    }
+
+    #progress-bar {
+        left: 20px;
+        top: 90px;
+    }
+
+    .slider-arrow-right, .slider-arrow-left {
+        display: none;
+    }
+}
+

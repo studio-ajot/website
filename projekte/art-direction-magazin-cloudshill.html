@@ -104,75 +104,48 @@
     </li>
   </ul>
 </nav>
+
 <!-- Main Content -->
 <main class="project-subpage-main">
-  <!-- web -->
-  <section class="subpage-main-container-for-web row gap-3 gap-md-0 h-100">
-    <!-- project media -->
-    <div
-      class="subpage-main-container-for-web__subpage-image-container d-flex col-xl-8 col-md-6 col-12 flex-column gap-3 order-1 order-md-0"></div>
-    <!-- text -->
-    <div
-      class="subpage-main-container-for-web__text-container d-flex col-md-6 col-12 flex-column col-xl-4 gap-3 pt-md-5 order-0 order-md-1">
-      <h1 class="subpage-main-container-for-web__text-container__project-title"></h1>
-      <div class="subpage-main-container-for-web__text-container__sub-title"></div>
-      <div class="bold-text subpage-main-container-for-web__text-container__meta-data"></div>
-      <div class="subpage-main-container-for-web__text-container__description"></div>
-      <!-- toggle project description text -->
-      <button id="toggle-project-description-text"
-              class='d-flex d-md-none primary-button button big d-flex gap-2'>
-        <span>Mehr anzeigen </span><img
-        src="../assets/icons/arrows/arrow-down.svg" alt=''></img>
+
+  <div class="subpage-main-container">
+    <!-- Projekt-Medien -->
+    <div class="subpage-main-container__media-container">
+      <!-- Medieninhalte (img/video) werden hier per JS eingefügt -->
+    </div>
+
+    <div class="subpage-main-container__media-container__first-media subpage-main-container__media-container__img show-until-md">
+    </div>
+
+    <!-- Textinhalt -->
+    <div class="subpage-main-container__text-container">
+      <h1 class="subpage-main-container__text-container__project-title"></h1>
+      <div class="subpage-main-container__text-container__sub-title"></div>
+      <div class="bold-text subpage-main-container__text-container__meta-data"></div>
+      <div class="subpage-main-container__text-container__description"></div>
+
+      <!-- Toggle Projekt Beschreibung (sichtbar nur auf Mobile) -->
+      <button class="toggle-project-description-text">
+        <span>Mehr anzeigen</span> <img src="../assets/icons/arrows/arrow-down.svg" alt="">
       </button>
-      <!-- project navigation -->
-      <div class="subpage-main-container-for-web__text-container__nav d-md-flex d-none">
-        <a
-          class="prev-project-link subpage-main-container-for-web__text-container__nav__link"
-          href=""> <img src='../assets/icons/arrows/arrow-left-white.svg' alt='previous project' />
-        </a> <a href=""
-                class="next-project-link subpage-main-container-for-web__text-container__nav__link">
-        <img src='../assets/icons/arrows/arrow-right-white.svg' alt='next project' /> </a>
+      <!-- Projekt Navigation -->
+      <div class="subpage-main-container__project_nav show-from-md">
+        <a class="prev-project-link subpage-main-container__project_nav__link" href=""> <img
+          src="../assets/icons/arrows/arrow-left-white.svg" alt="previous project" /> </a> <a
+        class="next-project-link subpage-main-container__project_nav__link" href=""> <img
+        src="../assets/icons/arrows/arrow-right-white.svg" alt="next project" /> </a>
       </div>
     </div>
-    <!-- mobile-->
-    <!--  <div class="subpage-main-container-for-mobile">-->
-    <!--    <div class="subpage-main-container-for-mobile__nav">-->
-    <!--      <a-->
-    <!--        class="prev-project-link subpage-main-container-for-web__text-container__nav__link"-->
-    <!--        href=""-->
-    <!--      > <i class="fas fa-arrow-left arrow-left"></i> <span>ZURÜCK</span> </a> <a-->
-    <!--      href=""-->
-    <!--      class="next-project-link subpage-main-container-for-web__text-container__nav__link"-->
-    <!--    > <span>VOR</span> <i class="fas fa-arrow-right arrow-right"></i> </a>-->
-    <!--    </div>-->
-    <!--    <div class="subpage-main-container-for-mobile__text-box">-->
-    <!--          <span-->
-    <!--            class="subpage-main-container-for-mobile__text-box__text"-->
-    <!--          ></span>-->
-    <!--      <div class="expand-button">+</div>-->
-    <!--    </div>-->
-    <!--    <div class="subpage-main-container-for-mobile__nav">-->
-    <!--      <a-->
-    <!--        class="prev-project-link subpage-main-container-for-web__text-container__nav__link"-->
-    <!--        href=""-->
-    <!--      > <i class="fas fa-arrow-left arrow-left"></i> <span>ZURÜCK</span> </a> <a-->
-    <!--      href=""-->
-    <!--      class="next-project-link subpage-main-container-for-web__text-container__nav__link"-->
-    <!--    > <span>VOR</span> <i class="fas fa-arrow-right arrow-right"></i> </a>-->
-    <!--    </div>-->
-    <!--  </div>-->
 
-    <!-- project navigation -->
-    <div class="subpage-main-container-for-web__text-container__nav d-flex d-md-none order-2">
-      <a
-        class="prev-project-link subpage-main-container-for-web__text-container__nav__link"
-        href=""> <img src='../assets/icons/arrows/arrow-left-white.svg' alt='previous project' />
-      </a> <a href=""
-              class="next-project-link subpage-main-container-for-web__text-container__nav__link">
-      <img src='../assets/icons/arrows/arrow-right-white.svg' alt='next project' /> </a>
+    <div class="subpage-main-container__project_nav show-until-md">
+      <a class="prev-project-link subpage-main-container__project_nav__link" href=""> <img
+        src="../assets/icons/arrows/arrow-left-white.svg" alt="previous project" /> </a> <a
+      class="next-project-link subpage-main-container__project_nav__link" href=""> <img
+      src="../assets/icons/arrows/arrow-right-white.svg" alt="next project" /> </a>
     </div>
-  </section>
-    <!-- Footer -->
+  </div>
+
+  <!-- Footer -->
   <footer class="" id="index-footer">
     <!-- Desktop Layout -->
     <div
@@ -187,7 +160,7 @@
         <img src="../assets/icons/linkedin.svg" alt="LinkedIn"> </a> <a href="../datenschutz.html"
                                                                         target="_blank"
                                                                         class="footer-button">Datenschutz</a>
-        <a href="../impressum.html" target="_blank" class="footer-button">Impressum</a>
+        <a href="../impressum.html" class="footer-button">Impressum</a>
       </div>
     </div>
     <!-- Mobile Layout -->
@@ -208,9 +181,9 @@
         </div>
       </div>
       <div class="d-flex gap-md-3 justify-content-md-start justify-content-between">
-        <a href="../datenschutz.html" target="_blank" class="footer-button">Datenschutz</a> <a
-        href="../impressum.html" target="_blank" class="footer-button">Impressum</a> <a
-        href="../kontakt.html" target="_blank" class="footer-button">Kontakt</a>
+        <a href="../datenschutz.html" class="footer-button">Datenschutz</a> <a
+        href="../impressum.html" class="footer-button">Impressum</a> <a
+        href="../kontakt.html" class="footer-button">Kontakt</a>
       </div>
     </div>
   </footer>

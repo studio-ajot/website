@@ -140,6 +140,32 @@
     object-position: center; /* Zentriert */
     display: block;
 }
- .semibold {
-     font-weight: 600;
- }
+
+.semibold {
+    font-weight: 600;
+}
+
+.show-until-md {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .show-until-md {
+        display: none !important;
+    }
+}
+
+.show-from-md {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .show-from-md {
+        display: flex !important;
+    }
+}
+
+
+.bold-text {
+    font-weight: bold;
+}
