@@ -21,15 +21,26 @@ function initializeCarousel() {
         imagesLoaded: true,
         lazyLoad: 1,
         autoPlay: 4500,
+        pauseAutoPlayOnHover: false,
+        on: {
+            ready: function () {
+                this.off('uiChange', this.stopPlayer);
+                this.off('pointerDown', this.stopPlayer);
+            },
+            change: function () {
+                this.stopPlayer();
+                this.playPlayer();
+            }
+        }
     });
 }
 
-function fillCarousel() {
-    const isMobile = false
-    const mediaPrefix = "./assets/media/index/";
-    const mediaPostfix = isMobile ? "-web" : "-web";
 
-    sliderIndexPageProjectInformation.forEach((project, index) => {
+function fillCarousel() {
+    const mediaPrefix = "./assets/media/index/index-slider-";
+    const mediaPostfix = isMobile() ? "-web" : "-mobile";
+
+    indexPageSlider.forEach((project, index) => {
         let mediaElement;
         const projectName = project.id.split(/__\d*/)[0];
 
@@ -37,7 +48,7 @@ function fillCarousel() {
             mediaElement = `
                 <div class="carousel-cell">
                   <a href="./projekte/${projectName}.html">  
-                    <img id="index-slider-${index + 1}${mediaPostfix}" class="flickity_img" ${index === 0 ? "data-flickity-lazyload=" + `${index + 1}` + mediaPostfix + ".jpg" : ""}  alt=""/>
+                    <img id="index-slider-${index + 1}${mediaPostfix}" class="flickity_img" src="${mediaPrefix + (index + 1) + mediaPostfix}.jpg"  alt=""/>
                   </a>
                 </div>`;
         } else if (project.type === "vid") {
@@ -45,8 +56,8 @@ function fillCarousel() {
                 <div class="carousel-cell">
                     <a href="./projekte/${projectName}.html">
                         <video autoplay loop muted playsinline id="${project.id}" class="flickity_vid">
-                            <source src="${mediaPrefix + project.id + mediaPostfix}.webm" type="video/webm" />
-                            <source src="${mediaPrefix + project.id + mediaPostfix}.mp4" type="video/mp4" 
+                            <source src="${mediaPrefix + (index + 1) + mediaPostfix}.webm" type="video/webm" />
+                            <source src="${mediaPrefix + (index + 1) + mediaPostfix}.mp4" type="video/mp4" 
                             poster="${mediaPrefix}poster/${project.id + mediaPostfix}.jpg"/>
                         </video>
                     </a>
@@ -65,7 +76,7 @@ function setupLazyLoading() {
 }
 
 function setupProgressBar() {
-    const numberOfProjects = sliderIndexPageProjectInformation.length;
+    const numberOfProjects = indexPageSlider.length;
     if (window.matchMedia("(max-width: 1300px)").matches) {
         $("#progress-bar-highlight").css("width", `calc(((100vw - 60px) / ${numberOfProjects})`);
     }

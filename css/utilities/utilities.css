@@ -84,7 +84,7 @@
 }
 
 .h-100vh {
-    height: 100vh;
+    height: 100dvh;
 }
 
 .pt-250px {
@@ -117,7 +117,7 @@
 }
 
 .min-page-height {
-    min-height: calc(100vh - 80px);
+    min-height: calc(100dvh - 80px);
 }
 
 .cursor-pointer {

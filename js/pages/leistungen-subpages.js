@@ -1,107 +1,76 @@
+// === Constants ===
 const PATH_REGEX = /^.*\/studio-ajot\//;
+const MEDIA_PREFIX = "../assets/media/projects/";
+const MOBILE_SUFFIX = "-mobile";
+const WEB_SUFFIX = "-web";
 
-const designSubpageMetaData = {
-    'editorial-design': {
-        accentColor: '#DBC4FF',
-        categories: ['Buch- & Editorial Design'],
-    },
-    'corporate-design': {
-        accentColor: '#FF8955',
-        categories: ['Corporate Design'],
-    },
-    'web-design': {
-        accentColor: '#FC99FC',
-        categories: ['Webdesign'],
-    },
-    'experimental': {
-        accentColor: '#A8CAFF',
-        categories: ['Illustration', 'Infografik'],
-    }
-}
-
-const getSubpage = () => {
-    return window.location.pathname
-        .replace(PATH_REGEX, '')
-        .replaceAll('/', '')
-        .replace('.html', '')
-        .replace('leistungen', '');
-}
-
-const getAccentColorForSubpage = () => {
-    const subPage = getSubpage();
-    return designSubpageMetaData[subPage] ? designSubpageMetaData[subPage].accentColor : '';
-}
-
-const getProjectCategoryForSubpage = () => {
-    const subPage = getSubpage();
-    return designSubpageMetaData[subPage] ? designSubpageMetaData[subPage].categories : [];
-};
-
+// === DOM Ready ===
 $(document).ready(function () {
     initializeCarousel();
-    setupMobileDetection();
     fillCarousel();
-    // setupProgressBar();
     setupEventListeners();
 });
 
+// === Initialization ===
 function initializeCarousel() {
     $(".main-carousel").flickity({
         draggable: true,
         wrapAround: true,
         imagesLoaded: true,
         autoPlay: 4500,
-        // percentPosition: false,
-        // setGallerySize: false
+        pauseAutoPlayOnHover: false,
+        on: {
+            ready: function () {
+                this.off('uiChange', this.stopPlayer);
+                this.off('pointerDown', this.stopPlayer);
+            },
+            change: function () {
+                this.stopPlayer();
+                this.playPlayer();
+            }
+        }
     });
 
-    $(".flickity-prev-next-button").css("background-color", 'rgba(0, 0, 0, 1)');
     imagesLoaded('.main-carousel', function () {
         $(".main-carousel").flickity("reloadCells");
         $(".main-carousel").flickity("resize");
     });
 }
 
-function setupMobileDetection() {
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    $("body").toggleClass("mobile-detect", isMobile);
-
-    if (!isMobile) {
-        $(".main-carousel").flickity("unbindDrag");
-    }
-}
-
 function fillCarousel() {
-    const isMobile = $("body").hasClass("mobile-detect");
-    const mediaPrefix = "../assets/media/projects/";
-    const mediaPostfix = "-1" + isMobile ? '-mobile' : '-web';
-    const projectCategoriesForSubpage = getProjectCategoryForSubpage();
-    const projectsOfSubpage = projectInformation.filter(project => {
-        return project.categories.some(cat => projectCategoriesForSubpage.includes(cat));
-    });
+    const mediaPostfix = isMobile() ? MOBILE_SUFFIX : WEB_SUFFIX;
+    const relevantCategories = getProjectCategoryForSubpage();
+    const relevantProjects = projectInformation.filter(project =>
+        project.categories.some(cat => relevantCategories.includes(cat))
+    );
 
     const mediaLoadPromises = [];
 
-    projectsOfSubpage.forEach((project, index) => {
-        let mediaElement;
-        const mediaPath = `${mediaPrefix}${project.id}/${1}${mediaPostfix}`;
+    relevantProjects.forEach(project => {
 
-        if (project.type === "img") {
-            mediaElement = $(`
+        const mediaIndexForGallery = (() => {
+            const match = differentPreviewForGallery[getSubpage()]?.find(entry => project.id in entry);
+            return match ? match[project.id] : 1;
+        })();
+
+        const projectType = project.mediaTypes[mediaIndexForGallery - 1];
+        const mediaPath = `${MEDIA_PREFIX}${project.id}/${mediaIndexForGallery}${mediaPostfix}`;
+
+        if (projectType === "img") {
+            $mediaElement = $(`
                 <div class="carousel-cell">
                   <a href="../projekte/${project.id}.html">  
                     <img id="${project.id}" class="flickity_img" src="${mediaPath}.jpg" alt=""/>
                   </a>
                 </div>`);
-            const img = mediaElement.find("img")[0];
-            const imgPromise = new Promise((resolve) => {
-                if (img.complete) resolve();
-                else img.onload = resolve;
-            });
-            mediaLoadPromises.push(imgPromise);
 
-        } else if (project.type === "vid") {
-            mediaElement = $(`
+            const img = $mediaElement.find("img")[0];
+            mediaLoadPromises.push(new Promise(resolve => {
+                img.complete ? resolve() : img.onload = resolve;
+            }));
+
+        } else if (projectType === "vid") {
+            $mediaElement = $(`
                 <div class="carousel-cell">
                   <a href="../projekte/${project.id}.html">  
                     <video autoplay loop muted playsinline id="${project.id}" class="flickity_vid">
@@ -110,14 +79,14 @@ function fillCarousel() {
                     </video>
                   </a>
                 </div>`);
-            const video = mediaElement.find("video")[0];
-            const videoPromise = new Promise((resolve) => {
+
+            const video = $mediaElement.find("video")[0];
+            mediaLoadPromises.push(new Promise(resolve => {
                 video.onloadedmetadata = resolve;
-            });
-            mediaLoadPromises.push(videoPromise);
+            }));
         }
 
-        $(".main-carousel").flickity("append", mediaElement);
+        $(".main-carousel").flickity("append", $mediaElement);
     });
 
     Promise.all(mediaLoadPromises).then(() => {
@@ -126,21 +95,42 @@ function fillCarousel() {
     });
 }
 
+function setupEventListeners() {
 
-function setupProgressBar() {
-    if (window.matchMedia("(max-width: 1200px)").matches) {
-        $("#progress-bar-highlight").css("width", `calc(((100vw - 60px) / ${numberOfProjects})`);
-    }
-    if (window.matchMedia("(max-width: 991px)").matches) {
-        $("#progress-bar-highlight").css("width", `calc(((100vw - 40px) / ${numberOfProjects})`);
+    $(".main-carousel").on('staticClick', function (event, pointer, cellElement, cellIndex) {
+        // dismiss if cell was not clicked
+        console.log(`Clicked on cell index: ${cellElement}`);
+        if (!cellElement) {
+            return;
+        }
+        // change cell background with .is-clicked
+        $(".main-carousel").find('.is-clicked').removeClass('is-clicked');
+        $(cellElement).addClass('is-clicked');
+    });
+
+
+    // Spezialverhalten für Mobilgeräte (optional)
+    if ($("body").hasClass("mobile-detect")) {
+        $carousel.on("staticClick.flickity", function () {
+            $(".cursor").hide();
+        });
     }
 }
 
-function setupEventListeners() {
-    // $(window).on("resize", normalizeVhUnit);
-    $(".main-carousel").on("staticClick.flickity", function (event) {
-        if ($("body").hasClass("mobile-detect")) {
-            $(".cursor").hide();
-        }
-    });
+// === Utility Functions ===
+function isMobile() {
+    return window.innerWidth < 768;
+}
+
+function getSubpage() {
+    return window.location.pathname
+        .replace(PATH_REGEX, '')
+        .replaceAll('/', '')
+        .replace('.html', '')
+        .replace('leistungen', '');
+}
+
+function getProjectCategoryForSubpage() {
+    const subPage = getSubpage();
+    return leistungenSubpageMetaData[subPage]?.categories || [];
 }

@@ -1,49 +1,56 @@
-// --- Utility Selectors --- //
-const $burgerMenu = $(".burger_menu");
-const $navSections = $(".nav_section .menu_points, .nav_section");
-const $submenu = $(".burger_menu__submenu");
-const $arrow = $(".leistungen-arrow");
+// === Constants === //
+const MOBILE_BREAKPOINT = 768;
 
-// --- Menu Logic --- //
+// === Utility Functions === //
+function isMobile() {
+    return window.innerWidth < MOBILE_BREAKPOINT;
+}
+
 function isMenuOpen() {
     return $burgerMenu.hasClass("open") || $navSections.hasClass("active");
 }
 
+// === Cached DOM Elements === //
+const $burgerMenu = $(".burger_menu");
+const $navSections = $(".nav_section .menu_points, .nav_section");
+const $submenuWrapper = $(".burger_menu__submenu");
+const $submenuInner = $(".burger_menu__submenu_inner");
+const $arrow = $(".leistungen-arrow");
+const $hoverTarget = $(".hover-target");
+const $submenuHover = $(".submenu");
+
+// === Menu Functions === //
 function toggleMenu() {
+    const menuIsOpening = !$burgerMenu.hasClass("open");
+
     $burgerMenu.toggleClass("open");
     $navSections.toggleClass("active");
+
+    $("*").toggleClass("no-scroll", menuIsOpening);
 }
 
 function closeMenu() {
     $burgerMenu.removeClass("open");
     $navSections.removeClass("active");
-    $submenu.removeClass("open");
+    $submenuWrapper.removeClass("open").css("height", "");
     $arrow.removeClass("rotate");
+    $("*").removeClass("no-scroll");
 }
 
-// --- Event Setup --- //
+// === Event Binding === //
 function setupEventListeners() {
     $(window).on("resize", () => {
         if (isMenuOpen()) closeMenu();
     });
+
+    $(".burger_menu_container").on("click", toggleMenu);
+    $(".menu_points ul:first-child").on("click", closeMenu);
+    $(".leistungen-button").on("click", handleLeistungenClick);
 }
 
-// --- DOM Ready --- //
-$(function () {
-    $(".burger_menu_container").on("click", toggleMenu);
-    $(".year").text(`\u00A0${new Date().getFullYear()}\u00A0`);
-
-    setupEventListeners();
-    setupHoverEvents();
-    setupLeistungenButton();
-    setupNavMenuClickClose();
-});
-
-// --- Hover Logic --- //
+// === Hover Logic === //
 function setupHoverEvents() {
     let leaveTimeout;
-    const $hoverTarget = $(".hover-target");
-    const $submenuHover = $(".submenu");
 
     $hoverTarget.on("mouseenter", () => {
         if (!$burgerMenu.hasClass("open")) {
@@ -61,33 +68,36 @@ function setupHoverEvents() {
     });
 }
 
-// --- Leistungen Button --- //
-function setupLeistungenButton() {
-    $(".leistungen-button").on("click", (event) => {
-        if ($burgerMenu.hasClass("open")) {
-            event.preventDefault();
-            event.stopPropagation();
-            $submenu.toggleClass("open");
-            $arrow.toggleClass("rotate");
-        }
-    });
+// === Leistungen Button Toggle === //
+function handleLeistungenClick(event) {
+    if (!$burgerMenu.hasClass("open")) return;
+
+    event.preventDefault();
+    event.stopPropagation();
+
+    const isOpen = $submenuWrapper.hasClass("open");
+    const targetHeight = $submenuInner.outerHeight();
+
+    if (isOpen) {
+        $submenuWrapper.css("height", targetHeight + "px");
+        requestAnimationFrame(() => {
+            $submenuWrapper.css("height", "0px");
+        });
+        $submenuWrapper.removeClass("open");
+    } else {
+        $submenuWrapper.addClass("open").css("height", "0px");
+        requestAnimationFrame(() => {
+            $submenuWrapper.css("height", targetHeight + "px");
+        });
+    }
+
+    $arrow.toggleClass("rotate");
 }
 
-// --- Slider Nav Button --- //
-function setupNavMenuClickClose() {
-    $(".slider__nav_menu_button").on("click", (event) => {
-        const $target = $(event.target);
-        const isLeistungenButton = $target.closest(".leistungen-button").length > 0;
+// === Init on DOM Ready === //
+$(function () {
+    $(".year").text(`\u00A0${new Date().getFullYear()}\u00A0`);
 
-        if ($burgerMenu.hasClass("open") && !isLeistungenButton) {
-            closeMenu();
-        }
-    });
-}
-
-// --- Mobile Progress Bar --- //
-function setProgressBarHightlight(index) {
-    const $highlight = $("#progress-bar-highlight");
-    const width = parseFloat($highlight.css("width")) || 0;
-    $highlight.css("left", `${width * index}px`);
-}
+    setupEventListeners();
+    setupHoverEvents();
+});

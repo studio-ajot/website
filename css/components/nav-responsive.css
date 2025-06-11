@@ -103,7 +103,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     opacity: 1; /* vorher war fälschlich opacity: 2 */
     background-color: rgba(0 0 0 / 0.1);
     pointer-events: auto;
@@ -209,7 +209,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     opacity: 1; /* vorher war fälschlich opacity: 2 */
     /*background-color: rgba(255 255 255 / 0.2);*/
     pointer-events: auto;

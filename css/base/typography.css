@@ -1,28 +1,21 @@
 h1 {
     font-size: 57px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 59px;
     color: black;
 }
 
 h2 {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 29px;
 }
 
-.copy-1 {
+html, body, main {
     font-size: 21px;
     font-weight: 500;
     line-height: 24px;
 }
-
-.copy-2 {
-    font-size: 21px;
-    font-weight: 700;
-    line-height: 24px;
-}
-
 
 .white-links {
     color: white;
@@ -55,8 +48,9 @@ h2 {
 }
 
 .bold-text {
-    font-weight: 700;
+    font-weight: 600;
 }
+
 /* #################################
 #         mobile text sizes        #
 #################################*/
@@ -64,21 +58,17 @@ h2 {
     h1 {
         font-size: 38px;
         line-height: 40px;
+        font-weight: 600;
     }
 
     h2 {
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 25px;
+        line-height: 28px;
+        font-weight: 600;
     }
 
-    .copy-1 {
+    html, body, main {
         font-size: 18px;
-        line-height: 22px;
+        line-height: 21px;
     }
-
-    .copy-2 {
-        font-size: 18px;
-        line-height: 22px;
-    }
-
 }

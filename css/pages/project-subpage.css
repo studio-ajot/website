@@ -1,15 +1,14 @@
 /* ========== Layout: Seitenstruktur ========== */
 .project-subpage-main {
-    min-height: 100vh !important;
+    min-height: 100dvh !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-top: 80px; /* Platz für Header */
     overflow: hidden;
-    scrollbar-gutter: stable;
 
     @media (min-width: 768px) {
-        height: 100vh !important;
+        height: 100dvh !important;
         scrollbar-gutter: unset;
     }
 }
@@ -59,7 +58,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.subpage-main-container__media-container .subpage-main-container__media-container__img:first-child {
+.subpage-main-container__media-container .subpage-main-container__media-container__child:first-child {
     @media (min-width: 768px) {
         display: block;
         width: 100%;
@@ -96,27 +95,24 @@
 
 /* ========== Typografie ========== */
 .subpage-main-container__text-container__project-title {
-    font-size: 2rem;
     font-weight: bold;
 }
 
 .subpage-main-container__text-container__sub-title,
 .subpage-main-container__text-container__meta-data,
 .subpage-main-container__text-container__description {
-    font-size: 1rem;
-    line-height: 1.5;
 }
 
 
 /* ========== Beschreibungstext (togglebar) ========== */
 @media (max-width: 768px) {
-    .subpage-main-container__text-container__description {
-        display: none;
-    }
+    /*.subpage-main-container__text-container__description {*/
+    /*    display: none;*/
+    /*}*/
 
-    .subpage-main-container__text-container__description.show {
-        display: block;
-    }
+    /*.subpage-main-container__text-container__description.show {*/
+    /*    display: block;*/
+    /*}*/
 }
 
 /* ========== Toggle-Button ========== */
@@ -126,7 +122,6 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.25rem;
-    font-size: 1rem;
     border: none;
     border-radius: 30px;
     background-color: black;
@@ -165,4 +160,20 @@ footer {
     min-height: 80px;
     flex-shrink: 0;
     z-index: 0;
+}
+
+.expandable-container {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+.toggle-project-description-text-arrow {
+    transition: transform 0.2s ease-in-out;
+    transition-delay: 0.5s;
+    transform: rotate(360deg);
+}
+
+.toggle-project-description-text-arrow.rotate {
+    transform: rotate(180deg);
 }

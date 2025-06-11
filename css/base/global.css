@@ -11,20 +11,12 @@
 html, body, main {
     margin: 0;
     padding: env(safe-area-inset);
-    font-size: 20px;
     font-weight: 500;
     font-family: "Mona Sans", sans-serif;
     color: black;
     overflow-y: auto;
     scroll-behavior: smooth;
-    width: 100vw;
-    overflow-x: hidden;
-}
-
-/* Ensure body takes full width */
-body {
-    width: 100% !important;
-    line-height: normal;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -32,7 +24,6 @@ body {
 ul, ol {
     list-style: none;
 }
-
 
 /* Reset form elements */
 input, button, select, textarea {
@@ -60,7 +51,6 @@ table {
 }
 
 
-
 /* Remove text decoration for links */
 a {
     text-decoration: none;
@@ -84,10 +74,12 @@ section {
 section:first-child {
     padding: 130px 30px 50px 30px;
 }
+
 @media (max-width: 768px) {
     section {
         padding: 40px 20px;
     }
+
     section:first-child {
         padding: 100px 20px 40px 20px;
     }

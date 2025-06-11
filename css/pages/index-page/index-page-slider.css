@@ -1,50 +1,58 @@
 /* ################################
 #              slider              #
 #################################*/
-.slider_section, .main-carousel {
-    top: 100%;
-    min-height: 100vh;
-    max-height: 100vh;
+
+html, body, main {
     overflow-x: hidden;
+}
+
+.main-carousel * {
+    margin: 0;
+    padding: 0
+}
+
+
+.main-carousel {
+    width: 100dvw;
+    height: 100%;
+    overflow: hidden;
 }
 
 .slider_section a {
     cursor: url('../../../assets/icons/cursor-for-carousel.svg') 16 16, auto !important;
 }
 
-
-.slider_section.active {
-    top: 0;
-}
-
 .slider_section .carousel-cell {
+    width: 100dvw;
+    height: 100%;
     display: flex;
+    justify-items: center;
     align-items: center;
-    justify-content: center;
-    max-width: 100vw;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .flickity_img,
 .flickity_vid {
-    min-height: 100vh;
-    max-height: 100vh;
-    max-width: 100vw;
-    min-width: 100vw;
+    overflow: hidden;
+    /*min-height: 100vh;*/
+    /*max-height: 100vh;*/
+    /*width: 100vw;*/
     object-fit: cover;
+    /*overflow-x: hidden;*/
+    height: 100dvh;
+    width: 100dvw;
 }
 
 /* ################################
 #            .flickity            #
 #################################*/
 .flickity-enabled.is-draggable .flickity-viewport {
-    height: 100vh !important;
-    width: 100vw !important;
+    height: 100dvh !important;
+    width: 100dvw !important;
 }
 
 
 .flickity-prev-next-button {
-    /*position: fixed;*/
     top: 50vh;
     width: 45px !important;
     height: 75px !important;

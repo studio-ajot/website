@@ -5,11 +5,16 @@
     z-index: 1;
 }
 
-#projekte {
+.index-anchor {
     height: 80px;
-    background-color: var(--color-lavender);
     position: absolute;
     bottom: 0;
+    z-index: -1;
+}
+
+.index-anchor-wrapper {
+    height: 0;
+    position: relative;
     z-index: -1;
 }
 
@@ -24,16 +29,11 @@
     }
 }
 
-
 @media (max-width: 992px) {
     #kontakt-textbox {
         width: 100%;
     }
 }
-
-/*main, footer {*/
-/*    scrollbar-gutter: stable;*/
-/*}*/
 
 /* ################################
 #    progressbar for slider       #
@@ -78,4 +78,3 @@
         display: none;
     }
 }
-

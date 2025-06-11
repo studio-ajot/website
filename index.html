@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/components/gallery.css" />
   <link rel="stylesheet" type="text/css" href="css/main.css" />
   <link rel="stylesheet" type="text/css" href="css/pages/index-page/index.css" />
-  <link rel="stylesheet" type="text/css" href="css/pages/index-page/slider-for-index-page.css" />
+  <link rel="stylesheet" type="text/css" href="css/pages/index-page/index-page-slider.css" />
   <link rel="stylesheet" type="text/css" href="assets/libraries/css/fontawesome.min.css" />
   <title>Grafikdesign, Digital & Print | Studio Ajot</title>
   <meta name="description"
@@ -19,13 +19,17 @@
 <!-- Navigation -->
 <nav class="nav_section" id="index-nav">
   <div class="nav_row">
-    <a href="./index.html" class="logo" id="website_title"><img
-      src='./assets/icons/ajot-logo.svg' alt='Studio Ajot'></img></a>
+    <a href="./index.html" class="logo" id="website_title">
+      <img
+        src='./assets/icons/ajot-logo.svg' alt='Studio Ajot'></img>
+    </a>
     <!-- hamburger menu button -->
     <div class="burger_menu_container">
       <button type="button" class="burger_menu">
-        <span class="icon" id="icon"></span> <span class="icon2" id="icon2"></span> <span
-        class="icon3" id="icon3"></span>
+        <span class="icon" id="icon"></span>
+        <span class="icon2" id="icon2"></span>
+        <span
+          class="icon3" id="icon3"></span>
       </button>
     </div>
     <!-- Main menu -->
@@ -34,52 +38,78 @@
         <!-- Projekte -->
         <li>
           <a class="slider__nav_menu_button nav_menu_button accent_bg"
-             href="./index.html#projekte"> <span class="index-link">Projekte</span> </a>
+             href="./index.html#projekte">
+            <span class="index-link">Projekte</span>
+          </a>
         </li>
         <!-- Leistungen -->
         <li class='hover-target leistungen-button'>
           <a class="slider__nav_menu_button nav_menu_button accent_bg"
              href="./leistungen.html">
           <span
-            class="index-link">Leistungen</span><img class='leistungen-arrow' alt=''
-                                                     src='./assets/icons/arrows/arrow-down.svg' /></a>
+            class="index-link">Leistungen</span>
+            <img class='leistungen-arrow' alt=''
+                 src='./assets/icons/arrows/arrow-down.svg' />
+          </a>
         </li>
+        <!-- mobile: Submenu -->
         <li class='burger_menu__submenu'>
-          <a class='submenu_button button secondary-button'
-             href="./leistungen/corporate-design.html">Corporate Design </a> <a
-          class='submenu_button button secondary-button' href="./leistungen/editorial-design.html">
-          <span>Buch- und Editorial Design</span> </a> <a
-          class='submenu_button button secondary-button' href="./leistungen/web-design.html"> <span>Web und Digital Design</span>
-        </a> <a class='submenu_button button secondary-button'
-                href="./leistungen/experimental.html"> <span>Design</span> </a>
+          <div class="burger_menu__submenu_inner">
+            <a class='submenu_button button secondary-button'
+               href="./leistungen.html">Übersicht
+            </a>
+            <a class='submenu_button button secondary-button'
+               href="./leistungen/corporate-design.html">Corporate Design
+            </a>
+            <a
+              class='submenu_button button secondary-button'
+              href="./leistungen/editorial-design.html"> Buch- und Editorial Design
+            </a>
+            <a
+              class='submenu_button button secondary-button'
+              href="./leistungen/web-design.html"> Web und Digital Design
+            </a>
+            <a
+              class='submenu_button button secondary-button'
+              href="./leistungen/experimental.html"> Weiteres
+            </a>
+          </div>
         </li>
         <!-- über uns -->
         <li>
           <a class="slider__nav_menu_button nav_menu_button accent_bg"
              href="./ueber-uns.html"> <span
-            class="index-link">Über uns</span> </a>
+            class="index-link">Über uns</span>
+          </a>
         </li>
         <!-- Kontakt-->
         <li>
           <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./kontakt.html"><span
-            class="index-link">Kontakt</span></a>
+            class="index-link">Kontakt</span>
+          </a>
         </li>
       </ul>
     </div>
   </div>
-  <!-- Sub menu -->
+  <!-- desktop: Sub menu -->
   <ul class='submenu hover-target'>
     <li>
-      <a href="./leistungen/corporate-design.html">Corporate Design </a>
+      <a href="./leistungen/corporate-design.html">Corporate Design</a>
     </li>
     <li>
-      <a href="./leistungen/editorial-design.html"> <span>Buch- und Editorial Design</span> </a>
+      <a href="./leistungen/editorial-design.html">
+        <span>Buch- und Editorial Design</span>
+      </a>
     </li>
     <li>
-      <a href="./leistungen/web-design.html"> <span>Web und Digital Design</span> </a>
+      <a href="./leistungen/web-design.html">
+        <span>Web und Digital Design</span>
+      </a>
     </li>
     <li>
-      <a href="./leistungen/experimental.html"> <span>Design</span> </a>
+      <a href="./leistungen/experimental.html">
+        <span>Weiteres</span>
+      </a>
     </li>
   </ul>
 </nav>
@@ -95,48 +125,73 @@
     <div id="progress-bar-highlight"></div>
   </div>
   <div id='intro-text' class='w-100'>
-    <h1>Grafikdesign in <br /> Hamburg & Berlin</h1>
+    <h1>Grafikdesign in
+      <br />
+        Hamburg & Berlin
+    </h1>
     <div class='flex-column d-flex gap-2 gap-md-3 mt-4 flex-md-row cursor-default'>
-      <a class='button primary-button' href='#vorstellung'> <span>Mehr erfahren</span> </a> <a
-      class='button secondary-button text-decoration-none cursor-default' href='#kontakt'> <span>Sag Hallo!</span>
-    </a>
+      <a class='button primary-button' href='#mehr-erfahren'>
+        <span>Mehr erfahren</span>
+      </a>
+      <a
+        class='button secondary-button text-decoration-none cursor-default' href='#kontakt'>
+        <span>Sag Hallo!</span>
+      </a>
     </div>
   </div>
   <!-- Section: Introduction -->
+  <div class='index-anchor-wrapper'>>
+    <div id="mehr-erfahren" class='index-anchor'></div>
+  </div>
   <section class='bg-lavender section-padding scroll-with-snap position-relative' id="vorstellung">
     <div class='row'>
-      <div class='d-flex flex-column col-xl-7 col-12 mb-4 mb-xl-0 gap-2 gap-xl-5'>
-        <h1>Büro für Grafikdesing <br />in Berlin und Hamburg</h1>
-        <p class='copy-1'>Studio Ajot ist ein Grafikdesign-Studio mit besonderem Fokus auf
-                          Typografie. Wir gestalten visuelle Identitäten und alle Arten von
-                          Druckerzeugnissen und arbeiten mit Kund:innen aus einem breiten Feld
-                          zwischen Wirtschaft, Entwicklung, Kunst, Musik und Kultur zusammen. Von
-                          Johanna Klüsener und Anastasia Marx in Kiel gegründet, ist das Studio
-                          heute in Hamburg und Berlin ansässig.</p>
+      <div class='d-flex flex-column col-xl-7 col-12 mb-4 mb-xl-0 gap-xl-5'>
+        <h1>Büro für Grafikdesing
+          <br />
+            in Berlin und Hamburg
+        </h1>
+        <p>Studio Ajot ist ein Grafikdesign-Studio mit besonderem Fokus auf Typografie. Wir
+           gestalten visuelle Identitäten und alle Arten von Druckerzeugnissen und arbeiten mit
+           Kund:innen aus einem breiten Feld zwischen Wirtschaft, Entwicklung, Kunst, Musik und
+           Kultur zusammen. Von Johanna Klüsener und Anastasia Marx in Kiel gegründet, ist das
+           Studio heute in Hamburg und Berlin ansässig.</p>
         <a class="button primary-button text-decoration-none" href="./ueber-uns.html"> <span
-          class="index-link">Über uns</span> </a>
+          class="index-link">Über uns</span>
+        </a>
       </div>
       <div class='d-flex flex-column col-xl-5 col-12 gap-2 gap-xl-5'>
-        <h1>Unsere <br />Schwerpunkte</h1>
+        <h1>Unsere
+          <br />
+            Schwerpunkte
+        </h1>
         <div class='d-flex flex-wrap flex-xl-column gap-2'>
           <a class="button primary-button big text-decoration-none"
              href="leistungen/corporate-design.html"> <span
-            class="index-link">Corporate Design</span> </a> <a
-          class="button primary-button big text-decoration-none"
-          href="leistungen/editorial-design.html"> <span
-          class="index-link">Buch- und Editorial Design</span> </a> <a
-          class="button primary-button big text-decoration-none"
-          href="leistungen/web-design.html"> <span
-          class="index-link">Digital- und Webdesign</span> </a> <a
-          class="button secondary-button big text-decoration-none"
-          href="leistungen/experimental.html"> <span
-          class="index-link">Alle Leistungen</span> </a>
+            class="index-link">Corporate Design</span>
+          </a>
+          <a
+            class="button primary-button big text-decoration-none"
+            href="leistungen/editorial-design.html"> <span
+            class="index-link">Buch- und Editorial Design</span>
+          </a>
+          <a
+            class="button primary-button big text-decoration-none"
+            href="leistungen/web-design.html"> <span
+            class="index-link">Digital- und Webdesign</span>
+          </a>
+          <a
+            class="button secondary-button big text-decoration-none"
+            href="leistungen/experimental.html"> <span
+            class="index-link">Alle Leistungen</span>
+          </a>
         </div>
       </div>
     </div>
-    <div id="projekte"></div>
   </section>
   <!-- Section: Gallery -->
+  <div class='index-anchor-wrapper'>>
+    <div id="projekte" class='index-anchor'></div>
+  </div>
   <section class='bg-light-blue section-padding scroll-with-snap'>
     <div class='d-flex flex-column gap-3'>
       <h1>Projekte</h1>
@@ -152,61 +207,94 @@
         </ul>
         <img src='assets/icons/arrows/arrow-right.svg' class='filter-bar-arrow-icons' alt=''></img>
       </div>
-      <div class="gallery-container grid"></div>
-      <div class='d-flex flex-row justify-content-center'>
-        <button id="toggle-gallery-items" class='primary-button button big'>
-          <span>Mehr anzeigen </span><img id="toggle-gallery-items-arrow"
-                                          src="assets/icons/arrows/arrow-down.svg" alt=''></img>
-        </button>
+      <div class="gallery-wrapper">
+        <div class="gallery-container grid"></div>
+      </div>
+      <button id="toggle-gallery-items" class='primary-button button big m-auto'>
+        <span>Mehr anzeigen </span>
+        <img id="toggle-gallery-items-arrow"
+             src="assets/icons/arrows/arrow-down.svg" alt=''></img>
+      </button>
+    </div>
+  </section>
+  <!-- Section: Contact -->
+  <div class='index-anchor-wrapper'>>
+    <div id="kontakt" class='index-anchor'></div>
+  </div>
+  <section class='bg-orange section-padding scroll-with-snap'>
+    <div class='row'>
+      <div class='d-flex flex-column col-xl-7 col-12 mb-4 mb-xl-0 gap-2'>
+        <h1 class='mb-4'>Kontakt zu uns</h1>
+        <p id='kontakt-textbox'>Unser benutzerfreundliches Kontaktformular ist gerade in Arbeit –
+                                aber wir sind natürlich trotzdem für dich da!
+          <br />
+          <br />
+                                Wenn du mit uns zusammenarbeiten möchtest oder Fragen zu unserer
+                                Arbeit hast, freuen wir uns, von dir zu hören. Schreib uns gerne
+                                eine Nachricht über die angegebenen Kontaktdaten oder nutze einfach
+                                den Button unten. Wir sind gespannt auf dein Projekt und melden uns
+                                so schnell wie möglich bei dir!
+        </p>
+        <a class='button primary-button big text-decoration-none'
+           href="mailto:hello@ajot.de?subject=Projektanfrage&body=Hallo%20liebes%20Ajot-Team,%0A">
+          Nachricht abschicken
+        </a>
+      </div>
+      <div class='d-flex flex-column col-xl-5 col-12 gap-2'>
+        <h1 class='mb-4'>Berlin Office</h1>
+        <p>Anastasia Marx
+          <br />
+           Mail:
+          <a href='mailto:anastasia@studio-ajot.de'>anastasia@studio-ajot.de</a>
+          <br />
+           Telefon:
+          <a href='tel:+49 155 664 689 14'>+49 155 664 689 14</a>
+          <br />
+          <br />
+           Kastanienallee 71
+          <br />
+           10435 Berlin
+        </p>
+        <h1 class='mb-4'>Hamburg Office</h1>
+        <p>Johanna Klüsener
+          <br />
+           Mail:
+          <a href='mailto:johanna@studio-ajot.de'>johanna@studio-ajot.de</a>
+          <br />
+           Telefon:
+          <a href='tel:+49 170 121 16 02'>+49 170 121 16 02</a>
+          <br />
+          <br />
+           Mörkenstraße 8
+          <br />
+           22767 Hamburg
+        </p>
       </div>
     </div>
   </section>
 </main>
-<!-- Section: Contact -->
-<section id="kontakt" class='bg-orange section-padding scroll-with-snap'>
-  <div class='row'>
-    <div class='d-flex flex-column col-xl-7 col-12 mb-4 mb-xl-0 gap-2 gap-xl-5'>
-      <h1>Kontakt zu uns</h1>
-      <p class='copy-1' id='kontakt-textbox'>Unser benutzerfreundliches Kontaktformular ist gerade
-                                             in Arbeit – aber wir sind natürlich trotzdem für dich
-                                             da! <br /><br /> Wenn du mit uns zusammenarbeiten
-                                             möchtest oder Fragen zu unserer Arbeit hast, freuen wir
-                                             uns, von dir zu hören. Schreib uns gerne eine Nachricht
-                                             über die angegebenen Kontaktdaten oder nutze einfach
-                                             den Button unten. Wir sind gespannt auf dein Projekt
-                                             und melden uns so schnell wie möglich bei dir!</p>
-      <a class='button primary-button text-decoration-none'
-         href="mailto:hello@ajot.de?subject=Projektanfrage&body=Hallo%20liebes%20Ajot-Team,%0A">Nachricht
-                                                                                                abschicken</a>
-    </div>
-    <div class='d-flex flex-column col-xl-5 col-12 gap-2 gap-xl-5'>
-      <h1>Berlin Office</h1>
-      <p class='copy-1'>Anastasia Marx <br /> Mail: <a href='mailto:anastasia@studio-ajot.de'>anastasia@studio-ajot.de</a><br />
-                        Telefon: <a href='tel:+49 155 664 689 14'>+49 155 664 689 14</a><br />
-        <br /> Kastanienallee 71<br /> 10435 Berlin
-      </p>
-      <h1>Hamburg Office</h1>
-      <p class='copy-1'>Johanna Klüsener<br /> Mail: <a href='mailto:johanna@studio-ajot.de'>johanna@studio-ajot.de</a><br />
-                        Telefon: <a href='tel:+49 170 121 16 02'>+49 170 121 16 02</a><br /> <br />
-                        Mörkenstraße 8<br /> 22767 Hamburg
-      </p>
-    </div>
-  </div>
-</section>
 <!-- Footer -->
 <footer class="footer site-padding-x bg-orange">
   <!-- Desktop Layout -->
   <div
     class="footer-desktop d-none d-xl-flex flex-row justify-content-between align-items-stretch h-100">
     <div class="h-100 d-flex align-items-center">
-      © Studio Ajot, <span class="year"></span> – Büro für Grafikdesign in Berlin & Hamburg
+      © Studio Ajot,
+      <span class="year"></span>
+      – Büro für Grafikdesign in Berlin & Hamburg
     </div>
     <div class="d-flex flex-row">
-      <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button"> <img
-        src="assets/icons/instagram.svg" alt="Instagram"> </a> <a
-      href="https://www.linkedin.com/company/studio-ajot" target="_blank" class="footer-button">
-      <img src="assets/icons/linkedin.svg" alt="LinkedIn"> </a> <a href="./datenschutz.html"
-                                                                   class="footer-button">Datenschutz</a>
+      <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+        <img
+          src="assets/icons/instagram.svg" alt="Instagram">
+      </a>
+      <a
+        href="https://www.linkedin.com/company/studio-ajot" target="_blank" class="footer-button">
+        <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+      </a>
+      <a href="./datenschutz.html"
+         class="footer-button">Datenschutz
+      </a>
       <a href="./impressum.html" class="footer-button">Impressum</a>
     </div>
   </div>
@@ -214,22 +302,30 @@
   <div class="footer-mobile d-flex flex-column d-xl-none gap-3">
     <div class="d-flex justify-content-between align-items-start gap-5">
       <div class="semibold">
-        <div class="pb-1 pb-md-0">© Studio Ajot, <span class="year"></span></div>
+        <div class="pb-1 pb-md-0">© Studio Ajot,
+          <span class="year"></span>
+        </div>
         <span>
           Büro für Grafikdesign
           <br class="d-md-none" />in Berlin & Hamburg
         </span>
       </div>
       <div class="d-flex flex-row gap-3 justify-content-end">
-        <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button"> <img
-          src="assets/icons/instagram.svg" alt="Instagram"> </a> <a
-        href="https://www.linkedin.com/company/studio-ajot" target="_blank" class="footer-button">
-        <img src="assets/icons/linkedin.svg" alt="LinkedIn"> </a>
+        <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+          <img
+            src="assets/icons/instagram.svg" alt="Instagram">
+        </a>
+        <a
+          href="https://www.linkedin.com/company/studio-ajot" target="_blank" class="footer-button">
+          <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+        </a>
       </div>
     </div>
     <div class="d-flex gap-md-3 justify-content-md-start justify-content-between">
-      <a href="./datenschutz.html" class="footer-button">Datenschutz</a> <a href="./impressum.html"
-                                                                            class="footer-button">Impressum</a>
+      <a href="./datenschutz.html" class="footer-button">Datenschutz</a>
+      <a href="./impressum.html"
+         class="footer-button">Impressum
+      </a>
       <a href="./kontakt.html" class="footer-button">Kontakt</a>
     </div>
   </div>
@@ -243,9 +339,9 @@
 <script src="assets/libraries/js/isotope.pkgd.min.js"></script>
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 <script src="content-management/project-information.js"></script>
-<script src="content-management/slider-index-page-project-information.js"></script>
+<script src="content-management/index-page-slider.js"></script>
 <script src="js/main-functions.js"></script>
-<script src="js/components/gallery.js"></script>
+<script src="js/pages/index-gallery.js"></script>
 <script src="js/pages/index.js"></script>
 </body>
 

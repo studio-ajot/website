@@ -7,12 +7,18 @@ const $dom = {
     subtitle: $('.subpage-main-container__text-container__sub-title'),
     meta: $('.subpage-main-container__text-container__meta-data'),
     description: $('.subpage-main-container__text-container__description'),
-    imageContainer: $('.subpage-main-container__media-container'),
+    mediaContainer: $('.subpage-main-container__media-container'),
     expandDescriptionBtn: $('.toggle-project-description-text'),
     nextLinks: $('.next-project-link'),
     prevLinks: $('.prev-project-link'),
     background: $('.project-subpage-main, footer'),
 };
+
+const $outer = $('.expandable-container');
+const $inner = $('.expandable-container-inner-container');
+
+let expanded = false;
+
 
 // --- Utility Functions ---
 function extractProjectIdFromPath() {
@@ -31,8 +37,7 @@ function getMediaConfig(projectId) {
     return {
         basePath: `../assets/media/projects/${projectId}/`,
         suffix: isDesktop ? '-web' : '-mobile',
-        imageClass: 'subpage-main-container__media-container__img',
-        videoClass: 'subpage-main-container__media-container__vid',
+        class: 'subpage-main-container__media-container__child',
     };
 }
 
@@ -41,14 +46,14 @@ function createMediaElement(type, index, config, projectId) {
 
     if (type === 'img') {
         return $('<img>', {
-            class: config.imageClass,
+            class: config.class,
             src: `${baseSrc}.jpg`
         });
     }
 
     if (type === 'vid') {
         const $video = $('<video>', {
-            class: config.videoClass,
+            class: config.class,
             autoplay: true,
             loop: true,
             muted: true,
@@ -70,17 +75,17 @@ function createMediaElement(type, index, config, projectId) {
 function insertMedia($mediaElement, isFirst = false) {
     if (!$mediaElement) return;
 
-    $dom.imageContainer.append($mediaElement.clone());
+    $dom.mediaContainer.append($mediaElement.clone());
 
     if (isFirst) {
-        $('.subpage-main-container__media-container__first-media').append($mediaElement);
+        $('.subpage-main-container__media-container__first-media').append($mediaElement.clone());
     }
 }
 
 function renderProjectMedia(project, projectId) {
     if (!project) return;
 
-    $dom.imageContainer.empty();
+    $dom.mediaContainer.empty();
     const config = getMediaConfig(projectId);
 
     project.mediaTypes.forEach((type, i) => {
@@ -89,12 +94,6 @@ function renderProjectMedia(project, projectId) {
     });
 }
 
-function setupResponsiveMedia(project, projectId) {
-    renderProjectMedia(project, projectId);
-
-    // Optional: aktivieren, wenn wirklich nötig
-    // $(window).on('resize', () => renderProjectMedia(project, projectId));
-}
 
 function setNavigationLinks(currentProject) {
     const index = projectInformation.indexOf(currentProject);
@@ -126,6 +125,7 @@ function handleToggleClick(event) {
     const $label = $button.find('span');
     const isCurrentlyVisible = $dom.description.hasClass('show');
 
+
     toggleDescriptionVisibility();
     updateToggleButtonUI($button, $label, isCurrentlyVisible);
 
@@ -135,11 +135,25 @@ function handleToggleClick(event) {
 }
 
 function toggleDescriptionVisibility() {
-    $dom.description.toggleClass('show');
+    const $outer = $('.expandable-container');
+    const $inner = $('.expandable-container-inner-container');
+
+    if (!expanded) {
+        // Expand: measure inner height and apply it
+        const targetHeight = $inner.outerHeight(true);
+        $outer.css('height', targetHeight);
+    } else {
+        // Collapse: set height to 0
+        $outer.css('height', 0);
+    }
+
+    expanded = !expanded;
 }
 
-function updateToggleButtonUI($button, $label, wasVisible) {
-    const newLabel = wasVisible ? 'Mehr anzeigen' : 'Weniger anzeigen';
+function updateToggleButtonUI($button, $label) {
+    $('toggle-project-description-text-arrow').toggleClass('rotate');
+
+    const newLabel = !expanded ? 'Mehr anzeigen' : 'Weniger anzeigen';
     $label.text(newLabel);
     $button.toggleClass('expanded');
 }
@@ -160,7 +174,7 @@ $(document).ready(() => {
         return;
     }
 
-    setupResponsiveMedia(project, projectId);
+    renderProjectMedia(project, projectId);
     populateProjectData(project);
     applyAccentColor(project.accentColor);
     setNavigationLinks(project);
