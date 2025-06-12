@@ -8,7 +8,6 @@ const WEB_SUFFIX = "-web";
 $(document).ready(function () {
     initializeCarousel();
     fillCarousel();
-    setupEventListeners();
 });
 
 // === Initialization ===
@@ -95,33 +94,8 @@ function fillCarousel() {
     });
 }
 
-function setupEventListeners() {
-
-    $(".main-carousel").on('staticClick', function (event, pointer, cellElement, cellIndex) {
-        // dismiss if cell was not clicked
-        console.log(`Clicked on cell index: ${cellElement}`);
-        if (!cellElement) {
-            return;
-        }
-        // change cell background with .is-clicked
-        $(".main-carousel").find('.is-clicked').removeClass('is-clicked');
-        $(cellElement).addClass('is-clicked');
-    });
-
-
-    // Spezialverhalten für Mobilgeräte (optional)
-    if ($("body").hasClass("mobile-detect")) {
-        $carousel.on("staticClick.flickity", function () {
-            $(".cursor").hide();
-        });
-    }
-}
 
 // === Utility Functions ===
-function isMobile() {
-    return window.innerWidth < 768;
-}
-
 function getSubpage() {
     return window.location.pathname
         .replace(PATH_REGEX, '')

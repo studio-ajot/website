@@ -34,6 +34,11 @@ $(document).ready(function () {
     //     }
     // });
 
-    $('#pagepiling').pagepiling();
+    $('#pagepiling').pagepiling({
+        menu: null,
+        anchors: ['section1', 'section2', 'section3'],
+        navigation: true,
+        loopBottom: true
+    });
 
 });

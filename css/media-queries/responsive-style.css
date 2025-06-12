@@ -14,13 +14,6 @@
         align-items: center;
     }
 
-    #website_title {
-        padding: 20px;
-    }
-
-    #website_title img {
-        width: 275px;
-    }
 
     .burger_menu {
         display: block;

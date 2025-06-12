@@ -170,7 +170,7 @@ $(document).ready(function () {
             <a href="./projekte/${project.id}.html" class="gallery-container__element grid-item is-filtered ${categoryClasses}">
                 ${mediaContent}
                 <div class="gallery-container__overlay" style="background-color: ${hexToRgba(project.accentColor, opacity)}">
-                    <h2>${project.categories.join(", ")}</h2>
+                    <h2>${project.categories.join(", ").toUpperCase()}</h2>
                     <br>
                     <span>${project.title}</span>
                 </div>

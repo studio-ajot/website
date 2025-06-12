@@ -37,7 +37,7 @@
     transition: all 0.3s ease-in-out;
 
     @media (min-width: 768px) {
-        padding: 20px;
+        padding: 30px;
         width: 50%;
         order: 0;
         overflow: auto;
@@ -45,7 +45,6 @@
     }
 
     @media (min-width: 1200px) {
-        padding: 30px;
         width: 66.6667%;
     }
 }
@@ -82,13 +81,12 @@
         margin: 0;
         width: 50%;
         order: 1;
-        padding: 20px;
+        padding: 30px;
         overflow: auto;
         height: 100%;
     }
 
     @media (min-width: 1200px) {
-        padding: 30px;
         width: 33.3333%;
     }
 }
@@ -101,18 +99,6 @@
 .subpage-main-container__text-container__sub-title,
 .subpage-main-container__text-container__meta-data,
 .subpage-main-container__text-container__description {
-}
-
-
-/* ========== Beschreibungstext (togglebar) ========== */
-@media (max-width: 768px) {
-    /*.subpage-main-container__text-container__description {*/
-    /*    display: none;*/
-    /*}*/
-
-    /*.subpage-main-container__text-container__description.show {*/
-    /*    display: block;*/
-    /*}*/
 }
 
 /* ========== Toggle-Button ========== */

@@ -1,26 +1,25 @@
-/* ========================================================================
-   Navigation Section Styles
-   ======================================================================== */
+/* ==========================================================================
+   NAVIGATION – GRUNDSTRUKTUR
+   ========================================================================== */
 .nav_section {
     position: fixed;
     top: 0;
-    width: 100vw;
-    z-index: 10;
+    width: 100%;
     height: 80px;
     display: flex;
     flex-direction: column;
-    cursor: default;
+    z-index: 10;
     transition: all 0.2s ease-in-out;
 }
 
 .nav_row {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
     width: 100%;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height: 80px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 #website_title {
@@ -31,9 +30,9 @@
     padding-left: 30px;
 }
 
-/* ========================================================================
-   Menu Button Styles
-   ======================================================================== */
+/* ==========================================================================
+   NAVIGATION – MENÜPUNKTE / BUTTONS
+   ========================================================================== */
 .menu_points {
     display: flex;
     align-items: stretch;
@@ -42,59 +41,65 @@
 
 .menu_points ul {
     display: flex;
-    height: 100%;
     align-items: stretch;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
+.menu_points a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Menü-Button (Desktop & Mobil) */
 .nav_menu_button {
-    height: 100%;
     width: 225px;
+    height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
     border-left: 2px solid black;
+    cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 
 .nav_menu_button:hover,
 .nav_menu_button:focus {
     text-decoration: none;
-    color: white;
     background-color: black;
+    color: white;
 }
 
-.menu_points a {
-    text-decoration: none;
-}
-
-/* ========================================================================
-   Submenu Styles
-   ======================================================================== */
+/* ==========================================================================
+   SUBMENU (HOVERBEREICH / DESKTOP)
+   ========================================================================== */
 .submenu {
     display: flex;
-    justify-content: end;
+    align-items: center;
+    justify-content: flex-end;
     width: 100%;
     height: 80px;
     border-bottom: 1px solid black;
     opacity: 1%;
     visibility: hidden;
     transition: opacity 0.1s ease-in-out;
-    align-items: center;
 }
 
 .submenu li {
     height: 80px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .submenu li a {
     display: flex;
-    height: 100%;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    height: 100%;
     padding: 0 40px;
 }
 
@@ -102,77 +107,51 @@
     padding-right: 100px;
 }
 
+/* ==========================================================================
+   SUBMENU – AKTIVER ZUSTAND
+   ========================================================================== */
 .submenu.active {
     opacity: 1;
     visibility: visible;
 }
 
-.submenu::before, .nav_section::before {
+/* ==========================================================================
+   NAV & SUBMENU – HINTERGRUND BLUR EFFEKT (VIA ::before)
+   ========================================================================== */
+.nav_section::before,
+.submenu::before {
     content: '';
     position: absolute;
     width: 100%;
     height: 80px;
-    backdrop-filter: blur(0);
-    -webkit-backdrop-filter: blur(0);
+    padding: 0;
     z-index: -1;
-    transition: all 0.2s ease-in-out;
     opacity: 0;
     visibility: hidden;
-    padding: 0;
+    backdrop-filter: blur(0);
+    -webkit-backdrop-filter: blur(0);
+    transition: all 0.2s ease-in-out;
 }
 
 .submenu::before {
     top: 80px;
 }
 
-.submenu.active::before, .nav_section::before {
-    visibility: visible;
+.nav_section::before,
+.submenu.active::before {
     opacity: 1;
+    visibility: visible;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 }
 
-/* ========================================================================
-   Burger Menu -- Submenu
-   ======================================================================== */
-.leistungen-button {
-    z-index: 10;
-}
-
-.burger_menu__submenu {
-    z-index: 0;
-    overflow: hidden;
-    transition: all 0.4s ease-in-out;
-    height: 0;
-    margin-top: -10px;
-}
-
-.nav_section.active .burger_menu__submenu ul {
-    padding: 0;
-}
-
-.burger_menu__submenu.open {
-    margin-top: 0;
-    height: auto; /* this will be handled by JS for animation */
-}
-
-.burger_menu__submenu_inner {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-.leistungen-arrow {
-    transition: transform 0.3s ease;
-    transform: rotate(360deg);
-}
-
-.leistungen-arrow.rotate {
-    transform: rotate(180deg);
-}
-
-@media (min-width: 1300px) {
-    .burger_menu__submenu {
-        display: none;
+@media (max-width: 768px) {
+    #website_title {
+        padding: 20px;
     }
+
+    #website_title img {
+        width: 230px;
+    }
+
 }

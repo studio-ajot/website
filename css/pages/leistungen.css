@@ -10,11 +10,12 @@
     /*overflow-x: hidden;*/
 }
 
-
-.scroll-with-snap:not(.footer) img,
-.scroll-with-snap:not(.footer) video {
-    width: 100%;
-    height: 100%;
+/*.scroll-with-snap:not(.footer) img,*/
+/*.scroll-with-snap:not(.footer) video {*/
+.section img,
+.section video {
+    width: 100dvw !important;
+    height: 100dvh !important;
     object-fit: cover;
     overflow: hidden;
 }
@@ -52,6 +53,21 @@
 .dot.active {
     background-color: black;
     transform: scale(1.3);
+}
+
+
+section {
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+body {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    margin: 0;
 }
 
 @media (max-width: 992px) {

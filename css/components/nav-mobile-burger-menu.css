@@ -1,0 +1,193 @@
+/* ==========================================================================
+   BURGER MENU – GRUNDSTRUKTUR
+   ========================================================================== */
+.burger_menu_container {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.burger_menu_container:hover {
+    background-color: black;
+}
+
+.burger_menu_container:hover span {
+    filter: invert(1);
+}
+
+.burger_menu {
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 30px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    z-index: 2;
+    color: inherit;
+    transition: all 0.3s ease-out;
+}
+
+/* ==========================================================================
+   BURGER MENU – ICONS (Basiszustand)
+   ========================================================================== */
+.burger_menu .icon,
+.burger_menu .icon2,
+.burger_menu .icon3 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    transition: all 0.3s ease-out;
+}
+
+.burger_menu .icon2 {
+    top: 5px;
+}
+
+.burger_menu .icon3 {
+    top: 25px;
+}
+
+/* ==========================================================================
+   BURGER MENU – OFFENER ZUSTAND
+   ========================================================================== */
+.burger_menu.open {
+    background: transparent;
+}
+
+.burger_menu.open .icon {
+    background: transparent;
+    transition-duration: 0.1s;
+}
+
+.burger_menu.open .icon2,
+.burger_menu.open .icon3 {
+    transition-duration: 0.1s;
+}
+
+.burger_menu.open .icon2 {
+    transform: translateX(-4px) translateY(-7px) rotate(-45deg);
+    transform-origin: right bottom;
+}
+
+.burger_menu.open .icon3 {
+    transform: translateX(-6px) translateY(2px) rotate(45deg);
+    transform-origin: right bottom;
+}
+
+/* ==========================================================================
+   BURGER MENU – SUBMENU (MOBIL)
+   ========================================================================== */
+.leistungen-button {
+    z-index: 10;
+}
+
+.burger_menu__submenu {
+    z-index: 0;
+    overflow: hidden;
+    height: 0;
+    margin-top: -10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.burger_menu__submenu_inner {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.burger_menu__submenu.open {
+    height: auto; /* gesteuert über JS */
+    margin-top: 0;
+}
+
+.nav_section.active .burger_menu__submenu ul {
+    padding: 0;
+}
+
+/* ==========================================================================
+   LEISTUNGEN-ARROW ICON
+   ========================================================================== */
+.leistungen-arrow {
+    display: none;
+    transition: transform 0.3s ease;
+    transform: rotate(360deg);
+}
+
+.leistungen-arrow.rotate {
+    transform: rotate(180deg);
+}
+
+.nav_section.active .leistungen-arrow {
+    display: block;
+    position: absolute;
+    right: 40px;
+}
+
+.nav_section.active .hover-target:hover .leistungen-arrow {
+    filter: invert(1) brightness(2);
+}
+
+/* ==========================================================================
+   NAV SECTION – OVERLAY / AKTIVER ZUSTAND (MOBIL)
+   ========================================================================== */
+.nav_section.active,
+.nav_section.active * {
+    z-index: 15;
+}
+
+.nav_section.active::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 10;
+    overflow: hidden;
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+    background-color: rgba(0 0 0 / 0.1);
+}
+
+.nav_section.active .menu_points ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 20px;
+    gap: 10px;
+}
+
+.nav_section.active .nav_menu_button {
+    width: 100%;
+    border: 0;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+.nav_section.active .nav_menu_button:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav_section.active .submenu {
+    display: none;
+}
+
+.nav_section.active .hover-target {
+    position: relative;
+}
+
+/* ==========================================================================
+   RESPONSIVE – SUBMENU NICHT ZEIGEN AUF DESKTOP
+   ========================================================================== */
+@media (min-width: 1300px) {
+    .burger_menu__submenu {
+        display: none;
+    }
+}
