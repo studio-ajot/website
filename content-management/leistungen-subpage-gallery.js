@@ -34,8 +34,11 @@ const differentPreviewForGallery = {
 			{'plakat-konzert-merch-wolf-biermann': 2},
         ],
 
-    'web-design': [
-    ],
+    'web-design': 
+		[
+			{'corporate-design-chor-jazzica': 6},
+			{'ausstellungsdesign-kunstkatalog-webdesign-mfa': 4},
+    	],
 
     'experimental': [
     ],
