@@ -40,6 +40,9 @@ const differentPreviewForGallery = {
 			{'ausstellungsdesign-kunstkatalog-webdesign-mfa': 4},
     	],
 
-    'experimental': [
-    ],
+    'experimental': 
+		[
+			{'buchgestaltung-illustration-reisetagebuch': 6},
+			{'webdesign-illustration-zbw': 4},
+    	],
 }
