@@ -38,6 +38,7 @@ const differentPreviewForGallery = {
 		[
 			{'corporate-design-chor-jazzica': 6},
 			{'ausstellungsdesign-kunstkatalog-webdesign-mfa': 4},
+			{'projekte/webdesign-tech-b310': 2},
     	],
 
     'experimental': 
