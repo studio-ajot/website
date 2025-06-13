@@ -22,12 +22,16 @@ const differentPreviewForGallery = {
     'editorial-design':
         [
             {'art-direction-magazin-cloudshill': 1},
-            {'corporate-design-chor-jazzica': 1},
+			{'ausstellungsdesign-editorial-design-antje-majewski': 2},
         ],
 
     'corporate-design':
         [
             {'corporate-design-chor-jazzica': 1},
+			{'lp-design-wolf-biermann-klaus-lenz': 2},
+			{'ausstellungsdesign-kunstkatalog-webdesign-mfa': 3},
+			{'plakatdesign-nonprofit-reset': 4},
+			{'plakat-konzert-merch-wolf-biermann': 2},
         ],
 
     'web-design': [
