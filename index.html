@@ -124,12 +124,12 @@
     <div id="progress-bar-bg"></div>
     <div id="progress-bar-highlight"></div>
   </div>
-  <div id='intro-text'>
+  <div id='index-page-intro-text'>
     <h1>Grafikdesign in
       <br />
         Hamburg & Berlin
     </h1>
-    <div class='flex-column d-flex gap-2 gap-md-3 mt-4 flex-md-row cursor-default'>
+    <div class='flex-column d-flex gap-12px gap-md-3 mt-3 mt-md-4 flex-md-row cursor-default'>
       <a class='button primary-button' href='#mehr-erfahren'>
         <span>Mehr erfahren</span>
       </a>
@@ -140,13 +140,13 @@
     </div>
   </div>
   <!-- Section: Introduction -->
-  <div class='index-anchor-wrapper'>>
-    <div id="mehr-erfahren" class='index-anchor'></div>
+  <div class='site-anchor-wrapper'>>
+    <div id="mehr-erfahren" class='site-anchor'></div>
   </div>
   <section class='bg-lavender section-padding scroll-with-snap position-relative' id="vorstellung">
     <div class='row'>
-      <div class='d-flex flex-column col-xl-7 col-12 mb-4 mb-xl-0 gap-xl-5'>
-        <h1>Büro für Grafikdesing
+      <div class='d-flex flex-column col-xl-6 col-12 mb-xl-4 mb-xl-0 gap-3 gap-xl-5'>
+        <h1>Büro für Grafikdesin
           <br />
             in Berlin und Hamburg
         </h1>
@@ -159,7 +159,11 @@
           class="index-link">Über uns</span>
         </a>
       </div>
-      <div class='d-flex flex-column col-xl-5 col-12 gap-2 gap-xl-5'>
+      <!-- 1-col white spacer, visible only on xl -->
+      <div class="d-none d-xl-block col-xl-1"></div>
+
+      <div
+        class='d-none d-xl-flex flex-column col-xl-5 col-12 gap-2 gap-xl-5'>
         <h1>Unsere
           <br />
             Schwerpunkte
@@ -188,17 +192,46 @@
       </div>
     </div>
   </section>
+
+  <section class='d-flex flex-column col-12 gap-3 bg-orange d-xl-none'>
+    <h1>Unsere
+      <br />
+        Schwerpunkte
+    </h1>
+    <div class='d-flex flex-wrap flex-xl-column gap-2'>
+      <a class="button primary-button big text-decoration-none"
+         href="leistungen/corporate-design.html"> <span
+        class="index-link">Corporate Design</span>
+      </a>
+      <a
+        class="button primary-button big text-decoration-none"
+        href="leistungen/editorial-design.html"> <span
+        class="index-link">Buch- und Editorial Design</span>
+      </a>
+      <a
+        class="button primary-button big text-decoration-none"
+        href="leistungen/web-design.html"> <span
+        class="index-link">Digital- und Webdesign</span>
+      </a>
+      <a
+        class="button secondary-button big text-decoration-none"
+        href="leistungen.html"> <span
+        class="index-link">Alle Leistungen</span>
+      </a>
+    </div>
+  </section>
   <!-- Section: Gallery -->
-  <div class='index-anchor-wrapper'>>
-    <div id="projekte" class='index-anchor'></div>
+  <div class='site-anchor-wrapper'>>
+    <div id="projekte" class='site-anchor'></div>
   </div>
   <section class='bg-light-blue section-padding scroll-with-snap'>
-    <div class='d-flex flex-column gap-3'>
+    <div class='d-flex flex-column gap-xl-3 gap-2'>
       <h1>Projekte</h1>
       <div class="filter-bar-container">
         <img src='assets/icons/arrows/arrow-left.svg' class='filter-bar-arrow-icons' alt=''></img>
         <ul class="filter-bar">
           <li
+            id='no-filter'
             class="button filter-bar__filter-element filter-bar__filter-element--selected"
             data-filter="none"
           >
@@ -218,13 +251,13 @@
     </div>
   </section>
   <!-- Section: Contact -->
-  <div class='index-anchor-wrapper'>>
-    <div id="kontakt" class='index-anchor'></div>
+  <div class='site-anchor-wrapper'>>
+    <div id="kontakt" class='site-anchor'></div>
   </div>
   <section class='bg-orange section-padding scroll-with-snap'>
     <div class='row'>
-      <div class='d-flex flex-column col-xl-7 col-12 mb-4 mb-xl-0 gap-2'>
-        <h1 class='mb-4'>Kontakt zu uns</h1>
+      <div class='d-flex flex-column col-xl-6 col-12 mb-4 mb-xl-0 gap-2  gap-xl-3'>
+        <h1>Kontakt zu uns</h1>
         <p id='kontakt-textbox'>Unser benutzerfreundliches Kontaktformular ist gerade in Arbeit –
                                 aber wir sind natürlich trotzdem für dich da!
           <br />
@@ -240,8 +273,12 @@
           Nachricht abschicken
         </a>
       </div>
-      <div class='d-flex flex-column col-xl-5 col-12 gap-2'>
-        <h1 class='mb-4'>Berlin Office</h1>
+
+      <!-- 1-col white spacer, visible only on xl -->
+      <div class="d-none d-xl-block col-xl-1"></div>
+
+      <div class='d-flex flex-column col-xl-5 col-12 gap-2 mt-2 mt-xl-0'>
+        <h1>Berlin Office</h1>
         <p>Anastasia Marx
           <br />
            Mail:
@@ -255,19 +292,19 @@
           <br />
            10435 Berlin
         </p>
-        <h1 class='mb-4'>Hamburg Office</h1>
-        <p>Johanna Klüsener
+        <h1>Hamburg Office</h1>
+        <p class='mb-0'>Johanna Klüsener
           <br />
-           Mail:
+                        Mail:
           <a href='mailto:johanna@studio-ajot.de'>johanna@studio-ajot.de</a>
           <br />
-           Telefon:
+                        Telefon:
           <a href='tel:+49 170 121 16 02'>+49 170 121 16 02</a>
           <br />
           <br />
-           Mörkenstraße 8
+                        Mörkenstraße 8
           <br />
-           22767 Hamburg
+                        22767 Hamburg
         </p>
       </div>
     </div>

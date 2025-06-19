@@ -6,14 +6,14 @@
     transition: all 0.3s ease-in-out;
 }
 
-.burger_menu_container:hover {
-    background-color: black;
+@media (hover: hover) and (pointer: fine) {
+    .burger_menu_container:hover {
+        background-color: black;
+    }
+    .burger_menu_container:hover span {
+        filter: invert(1);
+    }
 }
-
-.burger_menu_container:hover span {
-    filter: invert(1);
-}
-
 .burger_menu {
     display: none;
     position: relative;
@@ -126,10 +126,17 @@
     right: 40px;
 }
 
-.nav_section.active .hover-target:hover .leistungen-arrow {
-    filter: invert(1) brightness(2);
+@media (hover: hover) and (pointer: fine) {
+    .nav_section.active .hover-target:hover .leistungen-arrow {
+        filter: invert(1) brightness(2);
+    }
 }
 
+@media (hover: none) {
+    .nav_section.active .hover-target:active .leistungen-arrow {
+        filter: invert(1) brightness(2);
+    }
+}
 /* ==========================================================================
    NAV SECTION – OVERLAY / AKTIVER ZUSTAND (MOBIL)
    ========================================================================== */
@@ -170,9 +177,11 @@
     color: white;
 }
 
-.nav_section.active .nav_menu_button:hover {
-    background-color: white;
-    color: black;
+@media (hover: hover) and (pointer: fine) {
+    .nav_section.active .nav_menu_button:hover {
+        background-color: white;
+        color: black;
+    }
 }
 
 .nav_section.active .submenu {

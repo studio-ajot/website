@@ -81,26 +81,6 @@
 #       991px breakpoint         #
 #################################*/
 @media (max-width: 991px) {
-    .visible-xs {
-        display: block !important;
-    }
-
-    .hidden-xs {
-        display: none !important;
-    }
-
-    .visible_mob {
-        display: inline-block;
-    }
-
-    .web_img {
-        display: none;
-    }
-
-    .mob_img {
-        display: block;
-    }
-
 
 
     /* #################################
@@ -136,6 +116,5 @@
         padding: 15px 20px;
         padding-top: 95px;
     }
-
 
 }

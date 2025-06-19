@@ -1,79 +1,60 @@
 $(document).ready(function () {
-    // === Constants ===
-    const INITIAL_MEDIA_COUNT = 6;
-    const MEDIA_BASE_PATH = "./assets/media/projects/";
-    const SUFFIX = isMobile() ? "-mobile" : "-web";
+    // === Config ===
+    const CONFIG = {
+        INITIAL_COUNT: 6,
+        MEDIA_PATH: "./assets/media/projects/",
+        SUFFIX: isMobile() ? "-mobile" : "-web"
+    };
 
     // === State ===
-    let allMediaVisible = false;
-    let hasFilterTriggeredToggle = false;
+    const state = {
+        allLoaded: false,
+        filter: "none",
+        collapsed: true
+    };
 
     // === Init ===
     init();
 
     function init() {
-        initializeEventHandlers();
-        renderFilterBar();
-        updateFilterBarMaskSmooth();
-        initializeIsotope();
-        renderInitialGallery();
-        refreshIsotopeOnImagesLoad();
+        bindEvents();
+        buildFilterBar();
+        updateFilterGradient();
+        initIsotope();
+        loadInitialItems();
     }
 
-    // === Event Handlers ===
-    function initializeEventHandlers() {
-        $(window).on("resize", () => {
-            updateFilterBarMaskSmooth();
-            adjustGalleryMargins();
-        });
-
-        $(".filter-bar").on("click", ".filter-bar__filter-element", handleFilterSelection);
-        $("#toggle-gallery-items").on("click", toggleGalleryVisibility);
+    function bindEvents() {
+        $(window).on("resize", updateFilterGradient);
+        $(".filter-bar").on("click", ".filter-bar__filter-element", onFilterClick);
+        $("#toggle-gallery-items").on("click", onToggleClick);
 
         $(".filter-bar-arrow-icons[src*='arrow-left']").on("click", () => {
             scrollFilterBar(-350);
-            setTimeout(updateFilterBarMaskSmooth, 400);
+            setTimeout(updateFilterGradient, 400);
         });
 
         $(".filter-bar-arrow-icons[src*='arrow-right']").on("click", () => {
             scrollFilterBar(350);
-            setTimeout(updateFilterBarMaskSmooth, 400);
+            setTimeout(updateFilterGradient, 400);
         });
     }
 
     function scrollFilterBar(offset) {
         const el = document.querySelector('.filter-bar');
-        const startScrollLeft = el.scrollLeft;
-
-        // Trigger smooth scroll
-        el.scrollBy({ left: offset, behavior: 'smooth' });
-
-        // Polling setup
-        let lastScrollLeft = el.scrollLeft;
-        let attempts = 0;
-        const maxAttempts = 20; // ~20 x 50ms = 1s max
-
-        const checkIfScrollEnded = () => {
-            const currentScrollLeft = el.scrollLeft;
-
-            if (Math.abs(currentScrollLeft - lastScrollLeft) < 1) {
-                // Scroll has likely ended
-                updateFilterBarMaskSmooth();
-            } else if (attempts < maxAttempts) {
-                lastScrollLeft = currentScrollLeft;
-                attempts++;
-                setTimeout(checkIfScrollEnded, 50);
-            } else {
-                // Fallback in case scroll never stops exactly
-                updateFilterBarMaskSmooth();
+        el.scrollBy({left: offset, behavior: 'smooth'});
+        let last = el.scrollLeft, attempts = 0;
+        const poll = () => {
+            if (Math.abs(el.scrollLeft - last) < 1 || attempts++ >= 20) updateFilterGradient();
+            else {
+                last = el.scrollLeft;
+                setTimeout(poll, 50);
             }
         };
-
-        setTimeout(checkIfScrollEnded, 50);
+        setTimeout(poll, 50);
     }
 
-    // === Isotope ===
-    function initializeIsotope() {
+    function initIsotope() {
         $(".grid").isotope({
             itemSelector: ".grid-item",
             layoutMode: "fitRows",
@@ -84,186 +65,161 @@ $(document).ready(function () {
                 horizontalOrder: true
             }
         });
+        $("#no-filter").addClass("filter-bar__filter-element--selected");
     }
 
-    function refreshIsotopeOnImagesLoad() {
-        $(".grid").imagesLoaded().progress(() => {
-            $(".grid").isotope("layout");
-        });
-    }
-
-    // === Filter Bar ===
-    function renderFilterBar() {
-        const categories = [...new Set(projectInformation.flatMap(p => p.categories))].sort();
-        categories.forEach(category => {
-            const sanitized = sanitizeClass(category);
-            $(".filter-bar").append(`
-                <button class="button filter-bar__filter-element" data-filter="${sanitized}">
-                    ${category}
-                </button>
-            `);
-        });
-    }
-
-    function updateFilterBarMaskSmooth() {
+    function updateFilterGradient() {
         const el = document.querySelector('.filter-bar');
-        const scrollLeft = el.scrollLeft;
-        const scrollWidth = el.scrollWidth;
-        const clientWidth = el.clientWidth;
-
-        console.log(scrollLeft)
-
+        const {scrollLeft, scrollWidth, clientWidth} = el;
         const atStart = scrollLeft < 2;
         const atEnd = scrollLeft + clientWidth >= scrollWidth - 2;
 
         let gradient = 'none';
-
         if (scrollWidth > clientWidth) {
-            if (!atStart && !atEnd) {
+            if (!atStart && !atEnd)
                 gradient = 'linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)';
-            } else if (!atStart) {
+            else if (!atStart)
                 gradient = 'linear-gradient(to right, transparent 0%, black 10%, black 100%)';
-            } else if (!atEnd) {
+            else if (!atEnd)
                 gradient = 'linear-gradient(to right, black 0%, black 90%, transparent 100%)';
-            }
         }
 
-        el.style.webkitMaskImage = gradient;
-        el.style.maskImage = gradient;
+        el.style.webkitMaskImage = el.style.maskImage = gradient;
     }
 
-    // === Gallery Rendering ===
-    function renderInitialGallery() {
-        const count = Math.min(INITIAL_MEDIA_COUNT, projectInformation.length);
-        for (let i = 0; i < count; i++) {
-            appendMediaElement(projectInformation[i]);
+    function buildFilterBar() {
+        const categories = [...new Set(projectInformation.flatMap(p => p.categories))].sort();
+        for (const cat of categories) {
+            const className = sanitizeClass(cat);
+            $(".filter-bar").append(`
+                <button class="button filter-bar__filter-element" data-filter="${className}">
+                    ${cat}
+                </button>
+            `);
         }
-        applyIsotopeFilter();
     }
 
-    function loadRemainingGallery() {
-        for (let i = INITIAL_MEDIA_COUNT; i < projectInformation.length; i++) {
-            appendMediaElement(projectInformation[i]);
-        }
+    function loadInitialItems() {
+        const count = Math.min(CONFIG.INITIAL_COUNT, projectInformation.length);
+        for (let i = 0; i < count; i++) renderItem(projectInformation[i]);
 
-        $(".grid").imagesLoaded().progress(() => {
+        $(".grid").imagesLoaded().done(() => {
             $(".grid").isotope("layout");
         });
-
-        applyIsotopeFilter();
     }
 
-    function appendMediaElement(project) {
-        const categoryClasses = project.categories.map(sanitizeClass).join(" ");
-        const mediaContent = createMediaElement(project);
+    function loadAllItems() {
+        for (let i = CONFIG.INITIAL_COUNT; i < projectInformation.length; i++) renderItem(projectInformation[i]);
 
-        function hexToRgba(hex, alpha = 0.6) {
-            const r = parseInt(hex.slice(1, 3), 16);
-            const g = parseInt(hex.slice(3, 5), 16);
-            const b = parseInt(hex.slice(5, 7), 16);
-            return `rgba(${r}, ${g}, ${b}, ${alpha})`;
-        }
+        $(".grid").imagesLoaded().done(() => {
+            $(".grid").isotope("reloadItems").isotope("layout");
+        });
 
-        const opacity = 0.9
+        state.allLoaded = true;
+    }
 
-        const $element = $(`
-            <a href="./projekte/${project.id}.html" class="gallery-container__element grid-item is-filtered ${categoryClasses}">
-                ${mediaContent}
-                <div class="gallery-container__overlay" style="background-color: ${hexToRgba(project.accentColor, opacity)}">
-                    <h2>${project.categories.join(", ").toUpperCase()}</h2>
-                    <br>
+    function collapseGallery() {
+        $(".filter-bar__filter-element").removeClass("filter-bar__filter-element--selected");
+        $("#no-filter").addClass("filter-bar__filter-element--selected");
+
+        $(".grid").isotope({
+            filter: (_, idx) => idx < CONFIG.INITIAL_COUNT
+        });
+
+        state.filter = "none";
+        state.collapsed = true;
+        updateToggleButton();
+    }
+
+    function expandGallery() {
+        const selector = state.filter === "none" ? "*" : `.${state.filter.toUpperCase()}`;
+        $(".grid").isotope({ filter: selector });
+        state.collapsed = false;
+        updateToggleButton();
+    }
+
+    function updateToggleButton() {
+        const icon = state.collapsed ? "arrow-down" : "arrow-up";
+        const label = state.collapsed ? "Mehr anzeigen" : "Weniger anzeigen";
+        $("#toggle-gallery-items").html(`<span>${label} </span><img id="toggle-gallery-items-arrow" src="assets/icons/arrows/${icon}.svg" alt="">`);
+    }
+
+    function renderItem(project) {
+        const classes = project.categories.map(sanitizeClass).join(" ");
+        const media = createMedia(project);
+        const overlay = hexToRgba(project.accentColor, 0.9);
+        const $el = $(`
+            <a href="./projekte/${project.id}.html" class="gallery-container__element grid-item is-filtered ${classes}">
+                ${media}
+                <div class="gallery-container__overlay" style="background-color: ${overlay}">
+                    <h2>${project.categories.join(", ").toUpperCase()}</h2><br>
                     <span>${project.title}</span>
                 </div>
             </a>
         `);
-
-        $(".grid").append($element);
-        $(".grid").isotope("appended", $element);
+        $(".grid").append($el);
+        $(".grid").isotope("appended", $el);
     }
 
-    function createMediaElement(project) {
-        const path = `${MEDIA_BASE_PATH}${project.id}/1${SUFFIX}`;
-        if (project.mediaTypes[0] === "img") {
-            return `<img src="${path}.jpg" alt="${project.title}" />`;
-        }
-
-        return `
-            <video autoplay loop muted playsinline>
-                <source src="${path}.webm" type="video/webm" />
-                <source src="${path}.mp4" type="video/mp4" />
-            </video>
-        `;
+    function createMedia(project) {
+        const path = `${CONFIG.MEDIA_PATH}${project.id}/1${CONFIG.SUFFIX}`;
+        return project.mediaTypes[0] === "img"
+            ? `<img src="${path}.jpg" alt="${project.title}" />`
+            : `<video autoplay loop muted playsinline><source src="${path}.webm" type="video/webm" /><source src="${path}.mp4" type="video/mp4" /></video>`;
     }
 
-    // === Filter Interaction ===
-    function handleFilterSelection() {
-        if (!hasFilterTriggeredToggle) {
-            hasFilterTriggeredToggle = true;
-            toggleGalleryVisibility();
-        }
+    function hexToRgba(hex, alpha = 0.6) {
+        const [r, g, b] = [1, 3, 5].map(i => parseInt(hex.slice(i, i + 2), 16));
+        return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+    }
 
-        const filter = $(this).data("filter");
-        const filterClass = filter === "none" ? "*" : `.${filter.toUpperCase()}`;
+    function onFilterClick() {
+        const $btn = $(this);
+        const selected = $btn.data("filter");
+        const isAll = $btn.is("#no-filter");
 
-        $(".grid").isotope({filter: filterClass});
+        if (!state.allLoaded) loadAllItems();
+
+        state.collapsed = false;
+        $(".grid").isotope({ filter: "*" });
         $(".filter-bar__filter-element").removeClass("filter-bar__filter-element--selected");
-        $(this).addClass("filter-bar__filter-element--selected");
+        $btn.addClass("filter-bar__filter-element--selected");
+        state.filter = isAll ? "none" : selected;
 
-        adjustGalleryMargins();
+        expandGallery();
     }
 
-    // === Gallery Toggle ===
-    function toggleGalleryVisibility() {
-        const $wrapper = $(".gallery-wrapper");
-        const $grid = $(".gallery-container");
-        const previousHeight = $wrapper.height();
+    function onToggleClick() {
+        const $wrapper = $(".gallery-wrapper"), $grid = $(".gallery-container"), prevH = $wrapper.height();
+        if (!state.allLoaded) loadAllItems();
 
-        if (!allMediaVisible) {
-            loadRemainingGallery();
-            allMediaVisible = true;
-            $("#toggle-gallery-items").html('<span>Weniger anzeigen </span><img id="toggle-gallery-items-arrow" src="assets/icons/arrows/arrow-up.svg" alt="">');
+        if (state.filter === "none") {
+            state.collapsed ? expandGallery() : collapseGallery();
         } else {
-            $(".grid .grid-item").each(function (index) {
-                if (index >= INITIAL_MEDIA_COUNT) $(this).remove();
-            });
-
-            $(".grid").isotope("reloadItems").isotope();
-            allMediaVisible = false;
-
-            $("#toggle-gallery-items").html('<span>Mehr anzeigen </span><img id="toggle-gallery-items-arrow" src="assets/icons/arrows/arrow-down.svg" alt="">');
-
-            document.querySelector("#projekte")?.scrollIntoView({behavior: "smooth"});
+            $(".grid").isotope({ filter: "*" });
+            $(".filter-bar__filter-element").removeClass("filter-bar__filter-element--selected");
+            $("#no-filter").addClass("filter-bar__filter-element--selected");
+            state.filter = "none";
+            collapseGallery();
         }
 
-        animateGalleryHeightTransition($wrapper, $grid, previousHeight);
-        applyIsotopeFilter();
-    }
-
-    function animateGalleryHeightTransition($wrapper, $grid, previousHeight) {
-        requestAnimationFrame(() => {
-            const newHeight = $grid[0].scrollHeight;
-            $wrapper.css("height", previousHeight);
-            requestAnimationFrame(() => {
-                $wrapper.css("height", newHeight);
-            });
+        $(".grid").imagesLoaded().done(() => {
+            $(".grid").isotope("reloadItems").isotope("layout");
         });
 
-        setTimeout(() => {
-            $wrapper.css("height", "auto");
-        }, 400);
+        animateHeight($wrapper, $grid, prevH);
     }
 
-    // === Utility ===
-    function applyIsotopeFilter() {
-        $(".grid").isotope({filter: item => !$(item).hasClass("gallery-item--hidden")});
+    function animateHeight($wrap, $grid, from) {
+        requestAnimationFrame(() => {
+            const to = $grid[0].scrollHeight;
+            $wrap.css("height", from);
+            requestAnimationFrame(() => $wrap.css("height", to));
+        });
+        setTimeout(() => $wrap.css("height", "auto"), 400);
     }
 
-    function adjustGalleryMargins() {
-        const columns = $(window).width() > 991 ? 3 : 2;
-        $(".grid").isotope("layout");
-    }
-
-    function sanitizeClass(input) {
-        return input.toUpperCase().replace(/\W+/g, "");
+    function sanitizeClass(str) {
+        return str.toUpperCase().replace(/\W+/g, "");
     }
 });

@@ -133,15 +133,22 @@
   </ul>
 </nav>
 
-<main id='pagepiling'>
-<!--  <div class="scroll-indicator">-->
-<!--    <a href="#corporate-design" class="dot active"></a>-->
-<!--    <a href="#editorial-design"-->
-<!--       class="dot"></a>-->
-<!--    <a-->
-<!--      href="#web-design" class="dot"></a>-->
-<!--    <a href="#experimental" class="dot"></a>-->
-<!--  </div>-->
+
+<ul class='scroll-indicator' id='scroll-indicator'>
+  <li data-menuanchor="editorial-design" class="dot active">
+    <a href="#editorial-design"></a>
+  </li>
+  <li data-menuanchor="corporate-design" class="dot">
+    <a href="#corporate-design"></a>
+  </li>
+  <li data-menuanchor="web-design" class="dot">
+    <a href="#web-design"></a>
+  </li>
+  <li data-menuanchor="experimental" class="dot">
+    <a href="#experimental"></a>
+  </li>
+</ul>
+<div id='pagepiling'>
   <div class="section scroll-with-snap" data-section-name="corporate-design">
     <video autoplay loop muted playsinline>
       <source src="./assets/media/leistungen/leistungen-1-web.mp4" type="video/mp4">
@@ -149,7 +156,7 @@
     <div class='leistungen-text'>
       <h1>Corporate Design</h1>
       <p>Mit unserem Ansatz machen wir das Gefühl hinter Ihrer Marke sichtbar – für ein
-          Erscheinungsbild, das begeistert.</p>
+         Erscheinungsbild, das begeistert.</p>
       <div class='flex-row d-flex gap-3 mt-md-4 mt-2'>
         <a href='leistungen/corporate-design.html'
            class='button primary-button big text-decoration-none'>
@@ -166,8 +173,8 @@
           Editorial Design
       </h1>
       <p>Unsere Arbeit umfasst Projekte wie Romane, Kunstbücher, Jahresberichte und vieles mehr.
-          Gemeinsam kreieren wir Druckobjekte, die nicht nur praktisch, sondern auch emotional und
-          ästhetisch überzeugen.</p>
+         Gemeinsam kreieren wir Druckobjekte, die nicht nur praktisch, sondern auch emotional und
+         ästhetisch überzeugen.</p>
       <div class='flex-row d-flex gap-3 mt-md-4 mt-2'>
         <a href='leistungen/editorial-design.html'
            class='button primary-button big text-decoration-none'>
@@ -185,91 +192,94 @@
         <br />
           Digital Design
       </h1>
-      <p>Unser Ziel: Interaktive Medien, die inspirieren und Nutzer:innen nachhaltig
-          begeistern.</p>
+      <p>Unser Ziel: Interaktive Medien, die inspirieren und Nutzer:innen nachhaltig begeistern.</p>
       <div class='flex-row d-flex gap-3 mt-md-4 mt-2'>
-        <a href='leistungen/web-design.html' class='button primary-button big text-decoration-none'>
-          <button>Mehr erfahren</button>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="section scroll-with-snap" data-section-name="experimental">
-    <img src="./assets/media/leistungen/leistungen-4-web.jpg" alt="Projekt 4">
-    <div class='leistungen-text'>
-      <h1>Geht nicht,
-        <br />
-          gibt’s nicht!
-      </h1>
-      <p>Neben den klassischen Produkten wie Geschäftsausstattungen, Werbeprodukten, Büchern sowie
-          digitalen Anwendungen gibt es gestalterische Aufgaben, die irgendwo dazwischen liegen und
-          die wir mit Begeisterung, Kreativität und Neugierde gemeinsam mit unseren Kund:innen
-          angehen.</p>
-      <div class='flex-row d-flex gap-3 mt-md-4 mt-2'>
-        <a href='leistungen/experimental.html'
+        <a href='leistungen/web-design.html'
            class='button primary-button big text-decoration-none'>
           <button>Mehr erfahren</button>
         </a>
       </div>
     </div>
   </div>
-</main>
-
-<!-- Footer -->
-<footer class="footer site-padding-x bg-lavender">
-  <!-- Desktop Layout -->
-  <div
-    class="footer-desktop d-none d-xl-flex flex-row justify-content-between align-items-stretch h-100">
-    <div class="h-100 d-flex align-items-center">
-      © Studio Ajot,
-      <span class="year"></span>
-      – Büro für Grafikdesign in Berlin & Hamburg
-    </div>
-    <div class="d-flex flex-row">
-      <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
-        <img src="assets/icons/instagram.svg" alt="Instagram">
-      </a>
-      <a href="https://www.linkedin.com/company/studio-ajot" target="_blank" class="footer-button">
-        <img src="assets/icons/linkedin.svg" alt="LinkedIn">
-      </a>
-      <a href="./datenschutz.html" class="footer-button">Datenschutz</a>
-      <a href="./impressum.html" class="footer-button">Impressum</a>
-    </div>
-  </div>
-  <!-- Mobile Layout -->
-  <div class="footer-mobile d-flex flex-column d-xl-none gap-3">
-    <div class="d-flex justify-content-between align-items-start gap-5">
-      <div class="semibold">
-        <div class="pb-1 pb-md-0">© Studio Ajot,
-          <span class="year"></span>
+  <div class="section scroll-with-snap position-relative" data-section-name="experimental">
+    <img src="./assets/media/leistungen/leistungen-4-web.jpg" alt="Projekt 4">
+    <div class='last-section-wrapper'>
+      <div class='leistungen-text'>
+        <h1>Geht nicht,
+          <br />
+            gibt’s nicht!
+        </h1>
+        <p>Neben den klassischen Produkten wie Geschäftsausstattungen, Werbeprodukten, Büchern sowie
+           digitalen Anwendungen gibt es gestalterische Aufgaben, die irgendwo dazwischen liegen und
+           die wir mit Begeisterung, Kreativität und Neugierde gemeinsam mit unseren Kund:innen
+           angehen.</p>
+        <div class='flex-row d-flex gap-3 mt-md-4 mt-2'>
+          <a href='leistungen/experimental.html'
+             class='button primary-button big text-decoration-none'>
+            <button>Mehr erfahren</button>
+          </a>
         </div>
-        <span>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer site-padding-x bg-lavender">
+        <!-- Desktop Layout -->
+        <div
+          class="footer-desktop d-none d-xl-flex flex-row justify-content-between align-items-stretch h-100">
+          <div class="h-100 d-flex align-items-center">
+            © Studio Ajot,
+            <span class="year"></span>
+            – Büro für Grafikdesign in Berlin & Hamburg
+          </div>
+          <div class="d-flex flex-row">
+            <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+              <img src="assets/icons/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/company/studio-ajot" target="_blank"
+               class="footer-button">
+              <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="./datenschutz.html" class="footer-button">Datenschutz</a>
+            <a href="./impressum.html" class="footer-button">Impressum</a>
+          </div>
+        </div>
+        <!-- Mobile Layout -->
+        <div class="footer-mobile d-flex flex-column d-xl-none gap-3">
+          <div class="d-flex justify-content-between align-items-start gap-5">
+            <div class="semibold">
+              <div class="pb-1 pb-md-0">© Studio Ajot,
+                <span class="year"></span>
+              </div>
+              <span>
           Büro für Grafikdesign
           <br class="d-md-none" />in Berlin & Hamburg
         </span>
-      </div>
-      <div class="d-flex flex-row gap-3 justify-content-end">
-        <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
-          <img src="assets/icons/instagram.svg" alt="Instagram">
-        </a>
-        <a href="https://www.linkedin.com/company/studio-ajot" target="_blank"
-           class="footer-button">
-          <img src="assets/icons/linkedin.svg" alt="LinkedIn">
-        </a>
-      </div>
-    </div>
-    <div class="d-flex gap-md-3 justify-content-md-start justify-content-between">
-      <a href="./datenschutz.html" class="footer-button">Datenschutz</a>
-      <a href="./impressum.html" class="footer-button">Impressum</a>
-      <a href="./kontakt.html" class="footer-button">Kontakt</a>
+            </div>
+            <div class="d-flex flex-row gap-3 justify-content-end">
+              <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+                <img src="assets/icons/instagram.svg" alt="Instagram">
+              </a>
+              <a href="https://www.linkedin.com/company/studio-ajot" target="_blank"
+                 class="footer-button">
+                <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+              </a>
+            </div>
+          </div>
+          <div class="d-flex gap-md-3 justify-content-md-start justify-content-between">
+            <a href="./datenschutz.html" class="footer-button">Datenschutz</a>
+            <a href="./impressum.html" class="footer-button">Impressum</a>
+            <a href="./kontakt.html" class="footer-button">Kontakt</a>
+          </div>
+        </div>
+      </footer>
     </div>
   </div>
-</footer>
+</div>
+
 
 <script src="assets/libraries/js/jquery-3.7.1.min.js"></script>
 <script src="assets/libraries/js/bootstrap.bundle.min.js"></script>
 <script src="assets/libraries/js/popper.js"></script>
-<!--<script src="assets/libraries/js/jquery.scrollify.js"></script>-->
 <script src="assets/libraries/js/jquery.pagepiling.min.js"></script>
 <script src="js/main-functions.js"></script>
 <script src="js/pages/leistungen.js"></script>

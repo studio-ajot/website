@@ -1,18 +1,4 @@
-.scroll-with-snap {
-    width: 100vw;
-    height: 100dvh !important;
-    display: flex;
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    margin: 0;
-    padding: 0;
-    position: relative;
-    /*overflow-x: hidden;*/
-}
-
-/*.scroll-with-snap:not(.footer) img,*/
-/*.scroll-with-snap:not(.footer) video {*/
-.section img,
+.section img:not(.last-section-wrapper img),
 .section video {
     width: 100dvw !important;
     height: 100dvh !important;
@@ -31,18 +17,38 @@
     gap: 20px;
 }
 
+
+.last-section-wrapper .leistungen-text {
+    position: relative;
+}
+
+.last-section-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 .scroll-indicator {
     position: fixed;
-    top: 50%;
+    top: 50vh;
     right: 30px;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     gap: 15px;
-    z-index: 1000;
+    z-index: 100;
 }
 
+
+.scroll-indicator a {
+    display: flex;
+    width: 12px;
+    height: 12px;
+}
+
+
 .dot {
+    cursor: pointer;
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -50,30 +56,16 @@
     transition: background-color 0.3s, transform 0.3s;
 }
 
-.dot.active {
+.dot.active, .dot:hover {
     background-color: black;
     transform: scale(1.3);
-}
-
-
-section {
-    height: 100dvh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    scroll-snap-align: start;
-}
-
-body {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    margin: 0;
 }
 
 @media (max-width: 992px) {
     .scroll-indicator {
         display: none;
     }
+
     .leistungen-text {
         width: calc(100% - 60px);
         gap: 4px;

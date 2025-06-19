@@ -135,7 +135,7 @@
     <!--  Wer? -->
     <section class="section-padding bg-lavender scroll-with-snap row align-items-stretch"
              data-section-name="wer">
-      <div class='col-md-8 col-12 order-2 order-md-1'>
+      <div class='col-md-7 col-12 order-2 order-md-0'>
         <h1>Wer?</h1>
         <p>Studio Ajot ist ein Grafikdesign-Studio mit besonderem Schwerpunkt auf Typografie. Wir
            gestalten visuelle Identitäten und alle Arten von Druckerzeugnissen und arbeiten mit
@@ -158,16 +158,23 @@
           </a>
         </div>
       </div>
-      <div class='col-md-4 col-12 mb-4 mb-md-0 order-1 order-md-2'>
+
+      <!-- 1-col white spacer, visible only on xl -->
+      <div class="d-none d-md-block col-md-1"></div>
+
+      <div class='col-md-4 col-12 mb-4 mb-md-0 order-0 order-md-2'>
         <div class='image-crop'>
           <img src="./assets/media/ueber-uns/ueber-uns-portrait-mobile.jpg" alt="">
         </div>
       </div>
     </section>
     <!--  Wo? & Wie? -->
-    <section class="section-padding scroll-with-snap bg-pink row" data-section-name="wo-und-wie"
-             id='wo-und-wie'>
-      <div class='col-md-4 col-12 mb-4 mb-md-0'>
+    <div class='site-anchor-wrapper'>>
+      <div id='wo-und-wie' class='site-anchor'></div>
+    </div>
+    <section class="section-padding scroll-with-snap bg-pink row"
+             data-section-name="wo-und-wie" id='wo-und-wie-section'>
+      <div class='col-md-4 col-12 mb-xl-4 d-flex flex-column gap-md-3 gap-1 mb-md-0'>
         <h1>Wo?</h1>
         <h2>Berlin Office</h2>
         <p>Anastasia Marx
@@ -193,16 +200,18 @@
           <br />
            Telefon:
           <a href='tel:+49 170 121 16 02'>+49 170 121 16 02</a>
-          <br />
-          <br />
         </p>
-        <p>
+        <p class='mb-0'>
           Mörkenstraße 8
           <br />
           22767 Hamburg
         </p>
       </div>
-      <div class='col-md-8 col-12'>
+
+      <!-- 1-col white spacer, visible only on xl -->
+      <div class="d-none d-md-block col-md-1"></div>
+
+      <div class='d-none d-md-flex flex-column gap-3 col-md-7 col-12'>
         <h1>Wie?</h1>
         <p>Unser Motto: Design mit kreativem Sinn und individueller Substanz. Wir begleiten
            leidenschaftlich Projekte mit Fokus auf Nachhaltigkeit, Diversität und Gleichberechtigung
@@ -226,14 +235,54 @@
           <br />
            Wir freuen uns darauf, dich und dein Projekt kennenzulernen!
         </p>
-        <div class='flex-row d-flex gap-3 mt-4 align-items-center'>
-          <a href="./index.html#projekte" class='button primary-button'>Unser Portfolio</a>
-        </div>
+        <a href="./index.html#projekte" class='button primary-button'>Unser Portfolio</a>
       </div>
     </section>
-    <!--  Was? -->
+
+
+    <!--  mobile screen: Wie? -->
+    <section class='d-flex flex-column d-md-none gap-2 bg-pink'>
+      <h1>Wie?</h1>
+      <p>Unser Motto: Design mit kreativem Sinn und individueller Substanz. Wir begleiten
+         leidenschaftlich Projekte mit Fokus auf Nachhaltigkeit, Diversität und Gleichberechtigung –
+         von der ersten Gestaltungsidee über die Produktion bis zum fertigen Produkt. Unser Ziel ist
+         es, visuelle Konzepte zu schaffen, die Werte transportieren und langfristig wirken.
+        <br />
+        <br />
+         Mit typografischem Spiel und gestalterischem Feingefühl entwickeln wir maßgeschneiderte
+         Markenidentitäten für kleine und große Unternehmen sowie unterschiedliche Publikationen im
+         Print- und Digitalbereich. Unser Portfolio umfasst Corporate Designs, Art Direktion,
+         Buchgestaltung, Poster, Websites und vieles mehr. Wir erforschen die Verbindung vom Alten
+         mit dem Neuen, vom Offensichtlichen mit dem Verborgenen – für eine Gestaltung, die auf
+         verschiedenen Ebenen kommuniziert und Emotionen weckt.
+        <br />
+        <br />
+         Unser Ansatz: In enger Zusammenarbeit mit unseren Kund:innen entstehen durchdachte und
+         individuelle Lösungen, die konzeptionell stark, emotional ansprechend und visuell
+         einzigartig sind. Erst wenn beide Seiten vollkommen zufrieden sind, ist unser Prozess
+         abgeschlossen.
+        <br />
+        <br />
+         Wir freuen uns darauf, dich und dein Projekt kennenzulernen!
+      </p>
+      <a href="./index.html#projekte" class='button primary-button'>Unser Portfolio</a>
+    </section>
+
+    <!--  mobile screen: Was? -->
+    <section class='d-flex flex-column d-md-none gap-2 bg-light-blue'>
+      <h1>Was?</h1>
+      <p>Animationen, Anzeigen, Art Direktion, Aufkleber, Banner, Beschilderung, Briefpapier,
+         Buchdesign, Coverdesign, Flyer, Illustrationen, Internetseiten, Kataloge, Kleidung,
+         Kunstbücher, Layout, Logos, Schallplatten-Gestaltung, Magazine, Materialberatung, Merch,
+         Poster, Postkarten, Produktionsüberwachung, Rechnungsvorlagen, Roll-Ups, Romane, Textsatz,
+         Schriftgestaltung, Social Media Templates, Strategieentwicklung, Visitenkarte,
+         Werbemaßnahmen, Workshops … you name it!</p>
+      <a href="./leistungen.html" class='big button primary-button'>Unsere Leistungen</a>
+    </section>
+
+    <!--  Was? & Publikationen -->
     <section class="section-padding scroll-with-snap bg-orange row" data-section-name="was">
-      <div class='col-md-5 col-xl-8 col-12 mb-4 mb-md-0'>
+      <div class='d-none d-md-block col-md-5 col-xl-7 col-12 mb-4 mb-md-0'>
         <h1>Was?</h1>
         <p>Animationen, Anzeigen, Art Direktion, Aufkleber, Banner, Beschilderung, Briefpapier,
            Buchdesign, Coverdesign, Flyer, Illustrationen, Internetseiten, Kataloge, Kleidung,
@@ -241,11 +290,9 @@
            Poster, Postkarten, Produktionsüberwachung, Rechnungsvorlagen, Roll-Ups, Romane,
            Textsatz, Schriftgestaltung, Social Media Templates, Strategieentwicklung, Visitenkarte,
            Werbemaßnahmen, Workshops … you name it!</p>
-        <div class='flex-row d-flex gap-3 mt-4 align-items-center'>
-          <a href="./leistungen.html" class='button primary-button'>Unsere Leistungen</a>
-        </div>
+        <a href="./leistungen.html" class='button big primary-button'>Unsere Leistungen</a>
       </div>
-      <div class='col-md-7 col-xl-4 col-12'>
+      <div class='d-flex flex-column gap-2 col-md-7 col-xl-4 col-12'>
         <h1>Publikationen</h1>
         <p>· 2023 PAGE online
           <br />
@@ -272,9 +319,9 @@
     </section>
     <!--  Für wen? -->
     <section class="section-padding scroll-with-snap bg-light-blue row"
-             data-section-name="fuer-wen">
-      <div class='col-md-8 col-12'>
-        <h1>Für wen?</h1>
+             data-section-name="fuer-wen" id='fuer-wen-section'>
+      <div class='col-md-7 col-12 flex-column d-flex gap-2 '>
+        <h1>Für Wen?</h1>
         <p>Unsere Kund:innen sind in den unterschiedlichsten Gebieten tätig. Ob
            Software-Developer:in, Musiker:in oder Brillenproduzent:in – wir unterstützen gerne und
            mit Leidenschaft bei sämtlichen grafischen Anforderungen.
@@ -288,81 +335,78 @@
            wobe-systems, Ministerium für Energiewende, Klimaschutz, Umwelt und Natur
            Schleswig-Holstein, Kerstin Abraham, Colibris Eyewear
         </p>
-        <div class='flex-row d-flex gap-3 mt-4 align-items-center'>
-          <a href="./kontakt.html" class='button primary-button'>Jetzt anfragen</a>
-        </div>
+        <a href="./kontakt.html" class='button big primary-button'>Jetzt anfragen</a>
       </div>
-
     </section>
-  </div>
 
-  <!-- Footer -->
-  <footer class="footer site-padding-x bg-lavender">
-    <!-- Desktop Layout -->
-    <div
-      class="footer-desktop d-none d-xl-flex flex-row justify-content-between align-items-stretch h-100">
-      <div class="h-100 d-flex align-items-center">
-        © Studio Ajot,
-        <span class="year"></span>
-        – Büro für Grafikdesign in Berlin & Hamburg
-      </div>
-      <div class="d-flex flex-row">
-        <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
-          <img
-            src="assets/icons/instagram.svg" alt="Instagram">
-        </a>
-        <a
-          href="https://www.linkedin.com/company/studio-ajot" target="_blank" class="footer-button">
-          <img src="assets/icons/linkedin.svg" alt="LinkedIn">
-        </a>
-        <a href="./datenschutz.html"
-           target="_blank"
-           class="footer-button">Datenschutz
-        </a>
-        <a href="./impressum.html" class="footer-button">Impressum</a>
-      </div>
-    </div>
-    <!-- Mobile Layout -->
-    <div class="footer-mobile d-flex flex-column d-xl-none gap-3">
-      <div class="d-flex justify-content-between align-items-start gap-5">
-        <div class="semibold">
-          <div class="pb-1 pb-md-0">© Studio Ajot,
-            <span class="year"></span>
-          </div>
-          <span>
-          Büro für Grafikdesign
-          <br class="d-md-none" />in Berlin & Hamburg
-        </span>
+    <!-- Footer -->
+    <footer class="footer site-padding-x bg-light-blue">
+      <!-- Desktop Layout -->
+      <div
+        class="footer-desktop d-none d-xl-flex flex-row justify-content-between align-items-stretch h-100">
+        <div class="h-100 d-flex align-items-center">
+          © Studio Ajot,
+          <span class="year"></span>
+          – Büro für Grafikdesign in Berlin & Hamburg
         </div>
-        <div class="d-flex flex-row gap-3 justify-content-end">
+        <div class="d-flex flex-row">
           <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
-            <img src="assets/icons/instagram.svg" alt="Instagram">
+            <img
+              src="assets/icons/instagram.svg" alt="Instagram">
           </a>
           <a
             href="https://www.linkedin.com/company/studio-ajot" target="_blank"
             class="footer-button">
             <img src="assets/icons/linkedin.svg" alt="LinkedIn">
           </a>
+          <a href="./datenschutz.html"
+             target="_blank"
+             class="footer-button">Datenschutz
+          </a>
+          <a href="./impressum.html" class="footer-button">Impressum</a>
         </div>
       </div>
-      <div class="d-flex gap-md-3 justify-content-md-start justify-content-between">
-        <a href="./datenschutz.html" class="footer-button">Datenschutz</a>
-        <a
-          href="./impressum.html" class="footer-button">Impressum
-        </a>
-        <a
-          href="./kontakt.html" class="footer-button">Kontakt
-        </a>
+      <!-- Mobile Layout -->
+      <div class="footer-mobile d-flex flex-column d-xl-none gap-3">
+        <div class="d-flex justify-content-between align-items-start gap-5">
+          <div class="semibold">
+            <div class="pb-1 pb-md-0">© Studio Ajot,
+              <span class="year"></span>
+            </div>
+            <span>
+          Büro für Grafikdesign
+          <br class="d-md-none" />in Berlin & Hamburg
+        </span>
+          </div>
+          <div class="d-flex flex-row gap-3 justify-content-end">
+            <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+              <img src="assets/icons/instagram.svg" alt="Instagram">
+            </a>
+            <a
+              href="https://www.linkedin.com/company/studio-ajot" target="_blank"
+              class="footer-button">
+              <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+            </a>
+          </div>
+        </div>
+        <div class="d-flex gap-md-3 justify-content-md-start justify-content-between">
+          <a href="./datenschutz.html" class="footer-button">Datenschutz</a>
+          <a
+            href="./impressum.html" class="footer-button">Impressum
+          </a>
+          <a
+            href="./kontakt.html" class="footer-button">Kontakt
+          </a>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
-  <script src="assets/libraries/js/bootstrap.bundle.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-  <!--  <script src="assets/libraries/js/jquery.scrollify.js"></script>-->
-  <script src="js/main-functions.js"></script>
-  <!--  <script src="js/pages/ueber-uns.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="assets/libraries/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <!--  <script src="assets/libraries/js/jquery.scrollify.js"></script>-->
+    <script src="js/main-functions.js"></script>
+    <!--  <script src="js/pages/ueber-uns.js"></script>-->
 </body>
 
 </html>

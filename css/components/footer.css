@@ -19,8 +19,10 @@ footer {
     height: 30px;
 }
 
-.footer-button:hover img {
-    filter: invert(1);
+@media (hover: hover) and (pointer: fine) {
+    .footer-button:hover img {
+        filter: invert(1);
+    }
 }
 
 @media (min-width: 1200px) {

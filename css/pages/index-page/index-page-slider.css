@@ -47,11 +47,12 @@
     opacity: 0.8;
 }
 
-.flickity-prev-next-button:hover {
-    transform: translateY(-50%) scale(1.4);
-    opacity: 1;
+@media (hover: hover) and (pointer: fine) {
+    .flickity-prev-next-button:hover {
+        transform: translateY(-50%) scale(1.4);
+        opacity: 1;
+    }
 }
-
 
 .flickity-prev-next-button.previous {
     left: 40px;
