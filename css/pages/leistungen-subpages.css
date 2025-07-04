@@ -55,6 +55,16 @@
     width: auto;
 }
 
+.flickity_img,
+.flickity_vid {
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+.flickity_img.loaded,
+.flickity_vid.loaded {
+    opacity: 1;
+}
+
 .carousel-cell.is-selected .flickity_img, .carousel-cell.is-selected .flickity_vid {
     cursor: url('../../assets/icons/cursor-for-carousel.svg') 16 16, auto !important;
 }

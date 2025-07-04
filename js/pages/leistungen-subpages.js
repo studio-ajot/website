@@ -36,6 +36,7 @@ function initializeCarousel() {
     });
 }
 
+// === Fill carousel with matching media ===
 function fillCarousel() {
     const mediaPostfix = isMobile() ? MOBILE_SUFFIX : WEB_SUFFIX;
     const relevantCategories = getProjectCategoryForSubpage();
@@ -46,7 +47,6 @@ function fillCarousel() {
     const mediaLoadPromises = [];
 
     relevantProjects.forEach(project => {
-
         const mediaIndexForGallery = (() => {
             const match = differentPreviewForGallery[getSubpage()]?.find(entry => project.id in entry);
             return match ? match[project.id] : 1;
@@ -54,34 +54,58 @@ function fillCarousel() {
 
         const projectType = project.mediaTypes[mediaIndexForGallery - 1];
         const mediaPath = `${MEDIA_PREFIX}${project.id}/${mediaIndexForGallery}${mediaPostfix}`;
+        const projectUrl = `../projekte/${project.id}.html`;
+
+        let $mediaElement;
 
         if (projectType === "img") {
             $mediaElement = $(`
                 <div class="carousel-cell">
-                  <a href="../projekte/${project.id}.html">  
-                    <img id="${project.id}" class="flickity_img" src="${mediaPath}.jpg" alt=""/>
-                  </a>
-                </div>`);
+                    <a href="${projectUrl}">
+                        <img id="${project.id}" class="flickity_img" src="${mediaPath}.jpg" alt="" style="opacity: 0"/>
+                    </a>
+                </div>
+            `);
 
             const img = $mediaElement.find("img")[0];
             mediaLoadPromises.push(new Promise(resolve => {
-                img.complete ? resolve() : img.onload = resolve;
+                if (img.complete && img.naturalWidth > 0) {
+                    fadeInMedia(img);
+                    resolve();
+                } else {
+                    img.onload = () => {
+                        fadeInMedia(img);
+                        resolve();
+                    };
+                    img.onerror = () => {
+                        console.warn(`Bild konnte nicht geladen werden: ${img.src}`);
+                        resolve();
+                    };
+                }
             }));
-
         } else if (projectType === "vid") {
             $mediaElement = $(`
                 <div class="carousel-cell">
-                  <a href="../projekte/${project.id}.html">  
-                    <video autoplay loop muted playsinline id="${project.id}" class="flickity_vid">
-                         <source src="${mediaPath}.webm" type="video/webm" />
-                         <source src="${mediaPath}.mp4" type="video/mp4" />
-                    </video>
-                  </a>
-                </div>`);
+                    <a href="${projectUrl}">
+                        <video autoplay loop muted playsinline id="${project.id}" class="flickity_vid" style="opacity: 0">
+                            <source src="${mediaPath}.webm" type="video/webm" />
+                            <source src="${mediaPath}.mp4" type="video/mp4" />
+                        </video>
+                    </a>
+                </div>
+            `);
 
             const video = $mediaElement.find("video")[0];
             mediaLoadPromises.push(new Promise(resolve => {
-                video.onloadedmetadata = resolve;
+                const finish = () => {
+                    fadeInMedia(video);
+                    resolve();
+                };
+                video.onloadedmetadata = finish;
+                video.onerror = () => {
+                    console.warn(`Video konnte nicht geladen werden: ${mediaPath}`);
+                    finish();
+                };
             }));
         }
 
@@ -94,6 +118,13 @@ function fillCarousel() {
     });
 }
 
+// === Fade-in helper ===
+function fadeInMedia(el) {
+    el.style.transition = "opacity 0.8s ease-in";
+    requestAnimationFrame(() => {
+        el.style.opacity = "1";
+    });
+}
 
 // === Utility Functions ===
 function getSubpage() {
@@ -108,3 +139,4 @@ function getProjectCategoryForSubpage() {
     const subPage = getSubpage();
     return leistungenSubpageMetaData[subPage]?.categories || [];
 }
+
