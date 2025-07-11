@@ -67,7 +67,7 @@
             </a>
             <a
               class='submenu_button button secondary-button'
-              href="./leistungen/web-design.html"> Web und Digital Design
+              href="./leistungen/web-design.html"> Web- und Digital Design
             </a>
             <a
               class='submenu_button button secondary-button'
@@ -103,7 +103,7 @@
     </li>
     <li>
       <a href="./leistungen/web-design.html">
-        <span>Web und Digital Design</span>
+        <span>Web- und Digital Design</span>
       </a>
     </li>
     <li>
@@ -129,7 +129,8 @@
       <br />
         Hamburg & Berlin
     </h1>
-    <div class='flex-column d-flex gap-12px gap-md-3 mt-3 mt-md-4 flex-md-row cursor-default'>
+    <div class='flex-column d-flex gap-10px gap-md-3 flex-md-row cursor-default'
+         id='mehr-erfahren-link'>
       <a class='button primary-button' href='#mehr-erfahren'>
         <span>Mehr erfahren</span>
       </a>
@@ -145,7 +146,7 @@
   </div>
   <section class='bg-lavender section-padding scroll-with-snap position-relative' id="vorstellung">
     <div class='row'>
-      <div class='d-flex flex-column col-xl-6 col-12 mb-xl-4 mb-xl-0 gap-3 gap-xl-5'>
+      <div class='d-flex flex-column col-xl-6 col-12 mb-xl-4 mb-xl-0'>
         <h1>Büro für Grafikdesign
           <br />
             in Berlin und Hamburg
@@ -163,12 +164,12 @@
       <div class="d-none d-xl-block col-xl-1"></div>
 
       <div
-        class='d-none d-xl-flex flex-column col-xl-5 col-12 gap-2 gap-xl-5'>
+        class='d-none d-xl-flex flex-column col-xl-5 col-12'>
         <h1>Unsere
           <br />
             Schwerpunkte
         </h1>
-        <div class='d-flex flex-wrap flex-xl-column gap-2'>
+        <div class='d-flex flex-wrap flex-xl-column gap-10px'>
           <a class="button primary-button big text-decoration-none"
              href="leistungen/corporate-design.html"> <span
             class="index-link">Corporate Design</span>
@@ -193,7 +194,7 @@
     </div>
   </section>
 
-  <section class='d-flex flex-column col-12 gap-3 bg-orange d-xl-none'>
+  <section class='d-flex flex-column col-12 bg-orange d-xl-none'>
     <h1>Unsere
       <br />
         Schwerpunkte
@@ -225,7 +226,7 @@
     <div id="projekte" class='site-anchor'></div>
   </div>
   <section class='bg-light-blue section-padding scroll-with-snap'>
-    <div class='d-flex flex-column gap-xl-3 gap-2'>
+    <div class='d-flex flex-column'>
       <h1>Projekte</h1>
       <div class="filter-bar-container">
         <img src='assets/icons/arrows/arrow-left.svg' class='filter-bar-arrow-icons' alt=''></img>
@@ -243,7 +244,7 @@
       <div class="gallery-wrapper">
         <div class="gallery-container grid"></div>
       </div>
-      <button id="toggle-gallery-items" class='primary-button button big m-auto'>
+      <button id="toggle-gallery-items" class='primary-button button big'>
         <span>Mehr anzeigen </span>
         <img id="toggle-gallery-items-arrow"
              src="assets/icons/arrows/arrow-down.svg" alt=''></img>
@@ -256,7 +257,7 @@
   </div>
   <section class='bg-orange section-padding scroll-with-snap'>
     <div class='row'>
-      <div class='d-flex flex-column col-xl-6 col-12 mb-4 mb-xl-0 gap-2  gap-xl-3'>
+      <div class='d-flex flex-column col-xl-6 col-12 mb-3 mb-xl-0'>
         <h1>Kontakt zu uns</h1>
         <p id='kontakt-textbox'>Unser benutzerfreundliches Kontaktformular ist gerade in Arbeit –
                                 aber wir sind natürlich trotzdem für dich da!
@@ -270,42 +271,46 @@
         </p>
         <a class='button primary-button big text-decoration-none'
            href="mailto:hello@ajot.de?subject=Projektanfrage&body=Hallo%20liebes%20Ajot-Team,%0A">
-          Nachricht abschicken
+          Nachricht schicken
         </a>
       </div>
 
       <!-- 1-col white spacer, visible only on xl -->
       <div class="d-none d-xl-block col-xl-1"></div>
 
-      <div class='d-flex flex-column col-xl-5 col-12 gap-2 mt-2 mt-xl-0'>
-        <h1>Berlin Office</h1>
-        <p>Anastasia Marx
-          <br />
-           Mail:
-          <a href='mailto:anastasia@studio-ajot.de'>anastasia@studio-ajot.de</a>
-          <br />
-           Telefon:
-          <a href='tel:+49 155 664 689 14'>+49 155 664 689 14</a>
-          <br />
-          <br />
-           Kastanienallee 71
-          <br />
-           10435 Berlin
-        </p>
-        <h1>Hamburg Office</h1>
-        <p class='mb-0'>Johanna Klüsener
-          <br />
-                        Mail:
-          <a href='mailto:johanna@studio-ajot.de'>johanna@studio-ajot.de</a>
-          <br />
-                        Telefon:
-          <a href='tel:+49 170 121 16 02'>+49 170 121 16 02</a>
-          <br />
-          <br />
-                        Mörkenstraße 8
-          <br />
-                        22767 Hamburg
-        </p>
+      <div class='d-flex flex-column col-xl-5 col-12 mt-2 mt-xl-0'>
+        <div id='berlin-address-text-block'>
+          <h1>Berlin Office</h1>
+          <p class='mb-3 mb-md-0'>Anastasia Marx
+            <br />
+                                  Mail:
+            <a href='mailto:anastasia@studio-ajot.de'>anastasia@studio-ajot.de</a>
+            <br />
+                                  Telefon:
+            <a href='tel:+49 155 664 689 14'>+49 155 664 689 14</a>
+            <br />
+            <br />
+                                  Kastanienallee 71
+            <br />
+                                  10435 Berlin
+          </p>
+        </div>
+        <div>
+          <h1>Hamburg Office</h1>
+          <p class='mb-0'>Johanna Klüsener
+            <br />
+                          Mail:
+            <a href='mailto:johanna@studio-ajot.de'>johanna@studio-ajot.de</a>
+            <br />
+                          Telefon:
+            <a href='tel:+49 170 121 16 02'>+49 170 121 16 02</a>
+            <br />
+            <br />
+                          Mörkenstraße 8
+            <br />
+                          22767 Hamburg
+          </p>
+        </div>
       </div>
     </div>
   </section>

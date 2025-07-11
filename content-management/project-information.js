@@ -210,7 +210,7 @@ const projectInformation = [
     {
         id: "corporate-design-nonprofit-frauenberatung-elmshorn",
         accentColor: "#F6BF5C",
-        title: "Frauen*beratung Elmshorn",
+        title: "Frauen*\nberatung Elmshorn",
         categories: ["Corporate Design", "Buch- & Editorial Design", "Digital Design"],
         metaData: "Entwicklung eines Corporate Designs, Jahresberichts und Betreuung von sämtlichen Druckerzeugnissen.",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],

@@ -3,7 +3,7 @@
 #################################*/
 .main-carousel {
     width: 100dvw;
-    height: 100dvh;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -24,7 +24,7 @@
 .flickity_vid {
     overflow: hidden;
     object-fit: cover;
-    height: 100dvh;
+    height: 100vh;
     width: 100dvw;
 }
 
@@ -32,7 +32,7 @@
 #            .flickity            #
 #################################*/
 .flickity-enabled.is-draggable .flickity-viewport {
-    height: 100dvh !important;
+    height: 100vh !important;
     width: 100dvw !important;
 }
 

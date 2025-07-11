@@ -6,6 +6,10 @@
     z-index: 1;
 }
 
+#mehr-erfahren-link {
+    margin-top: 20px;
+}
+
 #kontakt-textbox {
     width: 600px;
 }
@@ -15,6 +19,10 @@
         bottom: 20px;
         left: 20px;
         width: calc(100% - 40px);
+    }
+
+    #mehr-erfahren-link {
+        margin-top: 16px;
     }
 }
 

@@ -48,7 +48,7 @@ $(document).ready(function () {
         for (const cat of categories) {
             const className = sanitizeClass(cat);
             $(".filter-bar").append(`
-                <button class="button filter-bar__filter-element" data-filter="${className}">
+                <button class="button big border-0 filter-bar__filter-element" data-filter="${className}">
                     ${cat}
                 </button>
             `);
@@ -111,7 +111,7 @@ $(document).ready(function () {
             <a href="./projekte/${project.id}.html" class="gallery-container__element grid-item ${classes}">
                 ${media}
                 <div class="gallery-container__overlay" style="background-color: ${overlay}">
-                    <h2>${project.categories.join(", ").toUpperCase()}</h2><br>
+                    <h2>${project.categories.join(", ").toUpperCase()}</h2>
                     <span>${project.title}</span>
                 </div>
             </a>

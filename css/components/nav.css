@@ -30,6 +30,10 @@
     padding-left: 30px;
 }
 
+#website_title img {
+    width: 100%
+}
+
 /* ==========================================================================
    NAVIGATION – MENÜPUNKTE / BUTTONS
    ========================================================================== */
@@ -147,11 +151,11 @@
 
 @media (max-width: 768px) {
     #website_title {
-        padding: 20px;
+        padding-left: 20px;
     }
 
-    #website_title img {
-        width: 230px;
+    #website_title {
+        width: 240px;
     }
 
 }

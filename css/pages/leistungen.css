@@ -14,7 +14,6 @@
     width: 550px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 
@@ -76,7 +75,8 @@
 @media (max-width: 576px) {
     .leistungen-text {
         width: calc(100% - 40px);
-        bottom: 40px;
+        bottom: 20px;
         left: 20px;
+        gap: 0px;
     }
 }

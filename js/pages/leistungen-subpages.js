@@ -10,7 +10,7 @@ $(document).ready(function () {
     fillCarousel();
 });
 
-// === Initialization ===
+// === Initialize Flickity ===
 function initializeCarousel() {
     $(".main-carousel").flickity({
         draggable: true,
@@ -36,10 +36,11 @@ function initializeCarousel() {
     });
 }
 
-// === Fill carousel with matching media ===
+// === Fill carousel with relevant media ===
 function fillCarousel() {
     const mediaPostfix = isMobile() ? MOBILE_SUFFIX : WEB_SUFFIX;
     const relevantCategories = getProjectCategoryForSubpage();
+
     const relevantProjects = projectInformation.filter(project =>
         project.categories.some(cat => relevantCategories.includes(cat))
     );
@@ -47,18 +48,18 @@ function fillCarousel() {
     const mediaLoadPromises = [];
 
     relevantProjects.forEach(project => {
-        const mediaIndexForGallery = (() => {
-            const match = differentPreviewForGallery[getSubpage()]?.find(entry => project.id in entry);
-            return match ? match[project.id] : 1;
+        const mediaIndex = (() => {
+            const override = differentPreviewForGallery[getSubpage()]?.find(entry => project.id in entry);
+            return override ? override[project.id] : 1;
         })();
 
-        const projectType = project.mediaTypes[mediaIndexForGallery - 1];
-        const mediaPath = `${MEDIA_PREFIX}${project.id}/${mediaIndexForGallery}${mediaPostfix}`;
+        const type = project.mediaTypes[mediaIndex - 1];
+        const mediaPath = `${MEDIA_PREFIX}${project.id}/${mediaIndex}${mediaPostfix}`;
         const projectUrl = `../projekte/${project.id}.html`;
 
         let $mediaElement;
 
-        if (projectType === "img") {
+        if (type === "img") {
             $mediaElement = $(`
                 <div class="carousel-cell">
                     <a href="${projectUrl}">
@@ -70,20 +71,16 @@ function fillCarousel() {
             const img = $mediaElement.find("img")[0];
             mediaLoadPromises.push(new Promise(resolve => {
                 if (img.complete && img.naturalWidth > 0) {
-                    fadeInMedia(img);
                     resolve();
                 } else {
-                    img.onload = () => {
-                        fadeInMedia(img);
-                        resolve();
-                    };
+                    img.onload = resolve;
                     img.onerror = () => {
                         console.warn(`Bild konnte nicht geladen werden: ${img.src}`);
                         resolve();
                     };
                 }
             }));
-        } else if (projectType === "vid") {
+        } else if (type === "vid") {
             $mediaElement = $(`
                 <div class="carousel-cell">
                     <a href="${projectUrl}">
@@ -97,14 +94,11 @@ function fillCarousel() {
 
             const video = $mediaElement.find("video")[0];
             mediaLoadPromises.push(new Promise(resolve => {
-                const finish = () => {
-                    fadeInMedia(video);
-                    resolve();
-                };
-                video.onloadedmetadata = finish;
+                const done = () => resolve();
+                video.onloadedmetadata = done;
                 video.onerror = () => {
                     console.warn(`Video konnte nicht geladen werden: ${mediaPath}`);
-                    finish();
+                    done();
                 };
             }));
         }
@@ -112,9 +106,16 @@ function fillCarousel() {
         $(".main-carousel").flickity("append", $mediaElement);
     });
 
+    // After all media loaded, reveal them after layout settles
     Promise.all(mediaLoadPromises).then(() => {
         $(".main-carousel").flickity("reloadCells");
         $(".main-carousel").flickity("resize");
+
+        setTimeout(() => {
+            $(".main-carousel img, .main-carousel video").each(function () {
+                fadeInMedia(this);
+            });
+        }, 100); // slight delay for layout to settle
     });
 }
 
@@ -126,7 +127,7 @@ function fadeInMedia(el) {
     });
 }
 
-// === Utility Functions ===
+// === Utility: current subpage from URL ===
 function getSubpage() {
     return window.location.pathname
         .replace(PATH_REGEX, '')
@@ -135,8 +136,9 @@ function getSubpage() {
         .replace('leistungen', '');
 }
 
+// === Utility: categories relevant to subpage ===
 function getProjectCategoryForSubpage() {
-    const subPage = getSubpage();
-    return leistungenSubpageMetaData[subPage]?.categories || [];
+    const sub = getSubpage();
+    return leistungenSubpageMetaData[sub]?.categories || [];
 }
-
+ 

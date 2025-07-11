@@ -95,3 +95,15 @@
 .gap-12px {
     gap: 12px;
 }
+
+.gap-10px {
+    gap: 10px;
+}
+
+#berlin-address-text-block {
+    margin-bottom: 50px;
+
+    @media (max-width: 768px) {
+        margin-bottom: 20px;
+    }
+}
