@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="de" class="active">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO & Social Media -->
+  <title>Unsere Kompetenzen: Logodesign, Editorial & mehr | Studio Ajot</title>
+  <meta name="description"
+        content="Wir entwickeln maßgeschneiderte Designlösungen für kleine & große Unternehmen und sind spezialisiert auf visuelle Identitäten, Print und Typografie." />
+  <meta name="author" content="Studio Ajot" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph für bessere Darstellung in Social Media -->
+  <!--  <meta property="og:title" content="Unsere Kompetenzen: Logodesign, Editorial & mehr | Studio Ajot" />-->
+  <!--  <meta property="og:description"-->
+  <!--        content="Wir entwickeln maßgeschneiderte Designlösungen für Unternehmen und sind spezialisiert auf visuelle Identitäten, Print und Typografie." />-->
+  <!--  <meta property="og:image" content="https://www.deinewebsite.de/assets/images/og-image.jpg" />-->
+  <!--  <meta property="og:url" content="https://www.deinewebsite.de/kompetenzen" />-->
+  <!--  <meta property="og:type" content="website" />-->
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/icons/favicon_studio-ajot.png" type="image/png" sizes="16x16" />
+
+  <!-- Stylesheets (CSS) -->
+  <link rel="preload" href="css/main.css" as="style" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+<!-- Navigation -->
+<nav class="nav_section" id="index-nav">
+  <div class="nav_row">
+    <a href="./index.html" class="logo" id="website_title">
+      <img
+        src='./assets/icons/ajot-logo.svg' alt='Studio Ajot'></img>
+    </a>
+    <!-- hamburger menu button -->
+    <div class="burger_menu_container">
+      <button type="button" class="burger_menu">
+        <span class="icon" id="icon"></span>
+        <span class="icon2" id="icon2"></span>
+        <span
+          class="icon3" id="icon3"></span>
+      </button>
+    </div>
+    <!-- Main menu -->
+    <div class="menu_points">
+      <ul>
+        <!-- Projekte -->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./index.html#projekte">
+            <span class="index-link">Projekte</span>
+          </a>
+        </li>
+        <!-- Leistungen -->
+        <li class='hover-target leistungen-button'>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./leistungen.html">
+          <span
+            class="index-link">Leistungen</span>
+            <img class='leistungen-arrow' alt=''
+                 src='./assets/icons/arrows/arrow-down.svg' />
+          </a>
+        </li>
+        <!-- mobile: Submenu -->
+        <li class='burger_menu__submenu'>
+          <div class="burger_menu__submenu_inner">
+            <a class='submenu_button button secondary-button'
+               href="./leistungen.html">Übersicht
+            </a>
+            <a class='submenu_button button secondary-button'
+               href="./leistungen/corporate-design.html">Corporate Design
+            </a>
+            <a
+              class='submenu_button button secondary-button'
+              href="./leistungen/editorial-design.html"> Buch- und Editorial Design
+            </a>
+            <a
+              class='submenu_button button secondary-button'
+              href="./leistungen/web-design.html"> Web- und Digital Design
+            </a>
+            <a
+              class='submenu_button button secondary-button'
+              href="./leistungen/experimental.html"> Weiteres
+            </a>
+          </div>
+        </li>
+        <!-- über uns -->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./ueber-uns.html"> <span
+            class="index-link">Über uns</span>
+          </a>
+        </li>
+        <!-- Kontakt-->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./kontakt.html"><span
+            class="index-link">Kontakt</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- desktop: Sub menu -->
+  <ul class='submenu hover-target'>
+    <li>
+      <a href="./leistungen/corporate-design.html">Corporate Design</a>
+    </li>
+    <li>
+      <a href="./leistungen/editorial-design.html">
+        <span>Buch- und Editorial Design</span>
+      </a>
+    </li>
+    <li>
+      <a href="./leistungen/web-design.html">
+        <span>Web- und Digital Design</span>
+      </a>
+    </li>
+    <li>
+      <a href="./leistungen/experimental.html">
+        <span>Weiteres</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+<main class='min-page-height bg-orange'>
+  <section class=''>
+    <div class='row'>
+      <div class='d-flex flex-column col-xl-7 col-12 mb-4 mb-xl-0 gap-2'>
+        <h1 class='mb-4'>Kontakt zu uns</h1>
+        <p id='kontakt-textbox'>Unser benutzerfreundliches Kontaktformular ist gerade in Arbeit –
+                                aber wir sind natürlich trotzdem für dich da!
+          <br />
+          <br />
+                                Wenn du mit uns zusammenarbeiten möchtest oder Fragen zu unserer
+                                Arbeit hast, freuen wir uns, von dir zu hören. Schreib uns gerne
+                                eine Nachricht über die angegebenen Kontaktdaten oder nutze einfach
+                                den Button unten. Wir sind gespannt auf dein Projekt und melden uns
+                                so schnell wie möglich bei dir!
+        </p>
+        <a class='button primary-button big text-decoration-none'
+           href="mailto:hello@ajot.de?subject=Projektanfrage&body=Hallo%20liebes%20Ajot-Team,%0A">
+          Nachricht schicken
+        </a>
+      </div>
+
+      <!-- 1-col white spacer, visible only on xl -->
+      <div class="d-none d-xl-block col-xl-1"></div>
+
+      <div class='d-flex flex-column col-xl-4 col-12 gap-2'>
+        <h1 class='mb-4'>Berlin Office</h1>
+        <p>Anastasia Marx
+          <br />
+           Mail:
+          <a href='mailto:anastasia@studio-ajot.de'>anastasia@studio-ajot.de</a>
+          <br />
+           Telefon:
+          <a href='tel:+49 155 664 689 14'>+49 155 664 689 14</a>
+          <br />
+          <br />
+           Kastanienallee 71
+          <br />
+           10435 Berlin
+        </p>
+        <h1 class='mb-4'>Hamburg Office</h1>
+        <p>Johanna Klüsener
+          <br />
+           Mail:
+          <a href='mailto:johanna@studio-ajot.de'>johanna@studio-ajot.de</a>
+          <br />
+           Telefon:
+          <a href='tel:+49 170 121 16 02'>+49 170 121 16 02</a>
+          <br />
+          <br />
+           Mörkenstraße 8
+          <br />
+           22767 Hamburg
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer site-padding-x bg-orange">
+  <!-- Desktop Layout -->
+  <div
+    class="footer-desktop d-none d-xl-flex flex-row justify-content-between align-items-stretch h-100">
+    <div class="h-100 d-flex align-items-center">
+      © Studio Ajot,
+      <span class="year"></span>
+      – Büro für Grafikdesign in Berlin & Hamburg
+    </div>
+    <div class="d-flex flex-row">
+      <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+        <img
+          src="assets/icons/instagram.svg" alt="Instagram">
+      </a>
+      <a
+        href="https://www.linkedin.com/company/studio-ajot" target="_blank" class="footer-button">
+        <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+      </a>
+      <a href="./datenschutz.html"
+         class="footer-button">Datenschutz
+      </a>
+      <a href="./impressum.html" class="footer-button">Impressum</a>
+    </div>
+  </div>
+  <!-- Mobile Layout -->
+  <div class="footer-mobile d-flex flex-column d-xl-none gap-3">
+    <div class="d-flex justify-content-between align-items-start gap-5">
+      <div class="semibold">
+        <div class="pb-1 pb-md-0">© Studio Ajot,
+          <span class="year"></span>
+        </div>
+        <span>
+          Büro für Grafikdesign
+          <br class="d-md-none" />in Berlin & Hamburg
+        </span>
+      </div>
+      <div class="d-flex flex-row gap-3 justify-content-end">
+        <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+          <img
+            src="assets/icons/instagram.svg" alt="Instagram">
+        </a>
+        <a
+          href="https://www.linkedin.com/company/studio-ajot" target="_blank" class="footer-button">
+          <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+        </a>
+      </div>
+    </div>
+    <div class="d-flex gap-md-3 justify-content-md-start justify-content-between">
+      <a href="./datenschutz.html" class="footer-button">Datenschutz</a>
+      <a href="./impressum.html"
+         class="footer-button">Impressum
+      </a>
+      <a href="./kontakt.html" class="footer-button">Kontakt</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="assets/libraries/js/bootstrap.bundle.min.js"></script>
+<script src="js/main-functions.js"></script>
+
+</body>
+
+</html>

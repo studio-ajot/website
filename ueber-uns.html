@@ -4,315 +4,408 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-  <link rel="stylesheet" href="assets/css/flickity.min.css" />
-  <link rel="icon" href="./assets/images/favicon_studio-ajot.png" type="image/gif" sizes="16x16" />
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/responsive-style.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/mobile-detect.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/text-styles.css" />
-  <title>Über uns | Die Grafikdesignerinnen hinter Studio Ajot</title>
+
+  <!-- SEO & Social Media -->
+  <title>Unsere Kompetenzen: Logodesign, Editorial & mehr | Studio Ajot</title>
   <meta name="description"
-    content="Studio Ajot, gegründet von Johanna Klüsener und Anastasia Marx, steht für individuelle Designlösungen. Erfahre mehr darüber, was uns antreibt." />
-  <style>
-    html.active {
-      cursor: auto;
-    }
+        content="Wir entwickeln maßgeschneiderte Designlösungen für kleine & große Unternehmen und sind spezialisiert auf visuelle Identitäten, Print und Typografie." />
+  <meta name="author" content="Studio Ajot" />
+  <meta name="robots" content="index, follow" />
 
-    html.wf-loading * {
+  <!-- Open Graph für bessere Darstellung in Social Media -->
+  <!--  <meta property="og:title" content="Unsere Kompetenzen: Logodesign, Editorial & mehr | Studio Ajot" />-->
+  <!--  <meta property="og:description"-->
+  <!--        content="Wir entwickeln maßgeschneiderte Designlösungen für Unternehmen und sind spezialisiert auf visuelle Identitäten, Print und Typografie." />-->
+  <!--  <meta property="og:image" content="https://www.deinewebsite.de/assets/images/og-image.jpg" />-->
+  <!--  <meta property="og:url" content="https://www.deinewebsite.de/kompetenzen" />-->
+  <!--  <meta property="og:type" content="website" />-->
 
-      opacity: 0;
-    }
-  </style>
+  <!-- Favicon -->
+  <link rel="icon" href="assets/icons/favicon_studio-ajot.png" type="image/png" sizes="16x16" />
+
+  <!-- Stylesheets (CSS) -->
+  <link rel="preload" href="css/main.css" as="style" />
+  <link rel="stylesheet" href="css/main.css" />
+  <!--  <link rel="stylesheet" href="css/utilities/scroll-with-snap.css" />-->
+  <link rel="stylesheet" href="css/pages/ueber-uns.css" />
+
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav class="nav_section white-bg" id="index-nav">
-    <div class="nav_row">
-      <a href="index.html" class="logo" id="website_title">Studio Ajot</a>
-      <!-- hamburger menu button -->
+<!-- Navigation -->
+<nav class="nav_section" id="index-nav">
+  <div class="nav_row">
+    <a href="./index.html" class="logo" id="website_title">
+      <img
+        src='./assets/icons/ajot-logo.svg' alt='Studio Ajot'></img>
+    </a>
+    <!-- hamburger menu button -->
+    <div class="burger_menu_container">
       <button type="button" class="burger_menu">
         <span class="icon" id="icon"></span>
         <span class="icon2" id="icon2"></span>
-        <span class="icon3" id="icon3"></span>
+        <span
+          class="icon3" id="icon3"></span>
       </button>
     </div>
-    <!-- menu points -->
+    <!-- Main menu -->
     <div class="menu_points">
-      <!-- <span id="subtitle" class="accent_border accent_text"> Visuelle Kommunikation
-      </span> -->
       <ul>
+        <!-- Projekte -->
         <li>
-          <a class="nav_menu_button black-bg nav_menu_button--big" href="index.html"><span class="index-link">Visuelle Kommunikation</span></a>
-        </li>
-        <li>
-          <a class="nav_menu_button black-bg" href="galerie.html"><span class="index-link">Galerie</span></a>
-        </li>
-        <li>
-          <a class="nav_menu_button black-bg" href="ueber-uns.html">
-            <span class="index-link">Über uns</span>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./index.html#projekte">
+            <span class="index-link">Projekte</span>
           </a>
         </li>
+        <!-- Leistungen -->
+        <li class='hover-target leistungen-button'>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./leistungen.html">
+          <span
+            class="index-link">Leistungen</span>
+            <img class='leistungen-arrow' alt=''
+                 src='./assets/icons/arrows/arrow-down.svg' />
+          </a>
+        </li>
+        <!-- mobile: Submenu -->
+        <li class='burger_menu__submenu'>
+          <div class="burger_menu__submenu_inner">
+            <a class='submenu_button button secondary-button'
+               href="./leistungen.html">Übersicht
+            </a>
+            <a class='submenu_button button secondary-button'
+               href="./leistungen/corporate-design.html">Corporate Design
+            </a>
+            <a
+              class='submenu_button button secondary-button'
+              href="./leistungen/editorial-design.html"> Buch- und Editorial Design
+            </a>
+            <a
+              class='submenu_button button secondary-button'
+              href="./leistungen/web-design.html"> Web- und Digital Design
+            </a>
+            <a
+              class='submenu_button button secondary-button'
+              href="./leistungen/experimental.html"> Weiteres
+            </a>
+          </div>
+        </li>
+        <!-- über uns -->
         <li>
-          <a class="nav_menu_button black-bg " href="kompetenzen.html"><span
-              class="index-link">Kompetenzen</span></a>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./ueber-uns.html"> <span
+            class="index-link">Über uns</span>
+          </a>
+        </li>
+        <!-- Kontakt-->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./kontakt.html"><span
+            class="index-link">Kontakt</span>
+          </a>
         </li>
       </ul>
     </div>
-  </nav>
-  <!-- Main Content -->
-  <main class="d-flex flex-column flex-xl-row align-items-xl-stretch info_box main-content">
-    <div
-      class="d-flex flex-column w-100 w-xl-50 align-items-stretch border-right-0 border-xl-right border-bottom border-xl-bottom-0">
-      <!-- (0. Foto)  -->
-      <div class="flex text-box order-0 d-block d-xl-none border-bottom border-xl-bottom-0 w-100">
-        <img src="assets/images/web/ueber-uns-portrait-web.jpg" alt="#" class="web_img w-100 mx-auto flex-xl-grow-1">
-        <img src="assets/images/mobile/ueber-uns-portrait-mobile.jpg" alt="#"
-          class="mob_img w-100 mx-auto flex-xl-grow-1">
-      </div>
-      <!-- 1. Vorstellung 1.2 -->
-      <div class="text-box border-bottom">
-        <H2>WER & WO</H2>
-        <p class="copy-1">
-        Studio Ajot ist ein Grafikdesign-Studio mit besonderem Schwerpunkt auf Typografie, das sich der Entwicklung prägnanter visueller Identitäten und hochwertiger Printprodukte widmet. Unsere Arbeit bewegt sich an der Schnittstelle von Konzept und Ästhetik – stets mit dem Anspruch, Gestaltung mit Substanz zu schaffen.
-<br />
-Gegründet wurde Studio Ajot von Johanna Klüsener und Anastasia Marx. Wir haben uns während des gemeinsamen Studiums in Kiel kennenlernt und haben schnell gemerkt, dass wir eine ähnliche gestalterische Sprache teilen. Seitdem haben wir unsere Expertise kontinuierlich ausgebaut und arbeiten heute mit einem breiten Spektrum an Kund:innen aus Wirtschaft, Entwicklung, Kunst, Musik und Kultur zusammen. Unser Studio ist mittlerweile in Hamburg und Berlin ansässig, von wo aus wir individuelle und durchdachte Designlösungen entwickeln – immer mit einem Blick für das Detail und einer tiefen Leidenschaft für typografische Gestaltung.
-        </p>
+  </div>
+  <!-- desktop: Sub menu -->
+  <ul class='submenu hover-target'>
+    <li>
+      <a href="./leistungen/corporate-design.html">Corporate Design</a>
+    </li>
+    <li>
+      <a href="./leistungen/editorial-design.html">
+        <span>Buch- und Editorial Design</span>
+      </a>
+    </li>
+    <li>
+      <a href="./leistungen/web-design.html">
+        <span>Web- und Digital Design</span>
+      </a>
+    </li>
+    <li>
+      <a href="./leistungen/experimental.html">
+        <span>Weiteres</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<main>
+  <div>
+    <!--  Wer? -->
+    <section class="section-padding bg-lavender scroll-with-snap row align-items-stretch"
+             data-section-name="wer">
+      <div class='col-md-7 col-12 order-2 order-md-0'>
+        <h1>Wer?</h1>
+        <p>Studio Ajot ist ein Grafikdesign-Studio mit besonderem Schwerpunkt auf Typografie. Wir
+           gestalten visuelle Identitäten und alle Arten von Druckerzeugnissen und arbeiten mit
+           Kund:innen aus einem breiten Feld zwischen Wirtschaft, Entwicklung, Kunst, Musik und
+           Kultur zusammen. Von Johanna Klüsener und Anastasia Marx in Kiel gegründet, ist das
+           Studio heute in Hamburg und Berlin ansässig.</p>
+        <div class='flex-row d-flex gap-3 align-items-center'>
+          <a class='button primary-button' href='#wo-und-wie'>Standorte</a>
+          <a
+            href="https://www.instagram.com/studio.ajot" target="_blank"
+            class="icon-button">
+            <img src="assets/icons/instagram.svg"
+                 alt='Instgram'>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/studio-ajot" target="_blank"
+            class="icon-button ">
+            <img src="assets/icons/linkedin.svg"
+                 alt='LinkedIn'>
+          </a>
+        </div>
       </div>
 
-      <!-- 1. Vorstellung 1.2 -->
-      <div class="text-box border-bottom">
-        <H2>WIE & WAS</H2>
-        <p class="copy-1">
-        Unser Motto: Design mit kreativem Sinn und individueller Substanz. Wir begleiten leidenschaftlich Projekte mit Fokus auf Nachhaltigkeit, Diversität und Gleichberechtigung – von der ersten Gestaltungsidee über die Produktion bis zum fertigen Produkt. Unser Ziel ist es, visuelle Konzepte zu schaffen, die Werte transportieren und langfristig wirken.
-<br />
-        Mit typografischem Spiel und gestalterischem Feingefühl entwickeln wir maßgeschneiderte Markenidentitäten für kleine und große Unternehmen sowie unterschiedliche Publikationen im Print- und Digitalbereich. Unser Portfolio umfasst Corporate Designs, Art Direktion, Buchgestaltung, Poster, Websites und vieles mehr. Wir erforschen die Verbindung vom Alten mit dem Neuen, vom Offensichtlichen mit dem Verborgenen – für eine Gestaltung, die auf verschiedenen Ebenen kommuniziert und Emotionen weckt.
-<br />
-        Unser Ansatz: In enger Zusammenarbeit mit unseren Kund:innen entstehen durchdachte und individuelle Lösungen, die konzeptionell stark, emotional ansprechend und visuell einzigartig sind. Erst wenn beide Seiten vollkommen zufrieden sind, ist unser Prozess abgeschlossen.
+      <!-- 1-col white spacer, visible only on xl -->
+      <div class="d-none d-md-block col-md-1"></div>
+
+      <div class='col-md-4 col-12 mb-3 mb-md-0 order-0 order-md-2'>
+        <div class='image-crop'>
+          <img src="./assets/media/ueber-uns/ueber-uns-portrait-mobile.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <!--  Wo? & Wie? -->
+    <div class='site-anchor-wrapper'>>
+      <div id='wo-und-wie' class='site-anchor'></div>
+    </div>
+    <section class="section-padding scroll-with-snap bg-pink row"
+             data-section-name="wo-und-wie" id='wo-und-wie-section'>
+      <div class='col-md-4 col-12 mb-xl-4 d-flex flex-column mb-md-0'>
+        <div id='berlin-address-text-block'>
+          <h1>Wo?</h1>
+          <h2>Berlin Office</h2>
+          <p>Anastasia Marx
+            <br />
+             Mail:
+            <a href='mailto:anastasia@studio-ajot.de'>anastasia@studio-ajot.de</a>
+            <br />
+             Telefon:
+            <a href='tel:+49 155 664 689 14'>+49 155 664 689 14</a>
+            <br />
+          </p>
+          <span>
+            Kastanienallee 71
+            <br />
+            10435 Berlin
+          </span>
+        </div>
+        <div>
+          <h2>Hamburg Office</h2>
+          <p>Johanna Klüsener
+            <br />
+             Mail:
+            <a href='mailto:johanna@studio-ajot.de'>johanna@studio-ajot.de</a>
+            <br />
+             Telefon:
+            <a href='tel:+49 170 121 16 02'>+49 170 121 16 02</a>
+          </p>
+          <p class='mb-0'>
+            Mörkenstraße 8
+            <br />
+            22767 Hamburg
+          </p>
+        </div>
+      </div>
+
+      <!-- 1-col white spacer, visible only on xl -->
+      <div class="d-none d-md-block col-md-1"></div>
+
+      <div class='d-none d-md-flex flex-column col-md-7 col-12'>
+        <h1>Wie?</h1>
+        <p>Unser Motto: Design mit kreativem Sinn und individueller Substanz. Wir begleiten
+           leidenschaftlich Projekte mit Fokus auf Nachhaltigkeit, Diversität und Gleichberechtigung
+           – von der ersten Gestaltungsidee über die Produktion bis zum fertigen Produkt. Unser Ziel
+           ist es, visuelle Konzepte zu schaffen, die Werte transportieren und langfristig wirken.
+          <br />
+          <br />
+           Mit typografischem Spiel und gestalterischem Feingefühl entwickeln wir maßgeschneiderte
+           Markenidentitäten für kleine und große Unternehmen sowie unterschiedliche Publikationen
+           im Print- und Digitalbereich. Unser Portfolio umfasst Corporate Designs, Art Direktion,
+           Buchgestaltung, Poster, Websites und vieles mehr. Wir erforschen die Verbindung vom Alten
+           mit dem Neuen, vom Offensichtlichen mit dem Verborgenen – für eine Gestaltung, die auf
+           verschiedenen Ebenen kommuniziert und Emotionen weckt.
+          <br />
+          <br />
+           Unser Ansatz: In enger Zusammenarbeit mit unseren Kund:innen entstehen durchdachte und
+           individuelle Lösungen, die konzeptionell stark, emotional ansprechend und visuell
+           einzigartig sind. Erst wenn beide Seiten vollkommen zufrieden sind, ist unser Prozess
+           abgeschlossen.
+          <br />
+          <br />
+           Wir freuen uns darauf, dich und dein Projekt kennenzulernen!
+        </p>
+        <a href="./index.html#projekte" class='button primary-button'>Unser Portfolio</a>
+      </div>
+    </section>
+
+
+    <!--  mobile screen: Wie? -->
+    <section class='d-flex flex-column d-md-none bg-pink'>
+      <h1>Wie?</h1>
+      <p>Unser Motto: Design mit kreativem Sinn und individueller Substanz. Wir begleiten
+         leidenschaftlich Projekte mit Fokus auf Nachhaltigkeit, Diversität und Gleichberechtigung –
+         von der ersten Gestaltungsidee über die Produktion bis zum fertigen Produkt. Unser Ziel ist
+         es, visuelle Konzepte zu schaffen, die Werte transportieren und langfristig wirken.
         <br />
-        Wir freuen uns darauf, dich und dein Projekt kennen zu lernen!
-        </p>
-      </div>      
-      
-      <!-- 2. Referenzen -->
-      <div class="text-box">
-        <H2>FÜR WEN (Auswahl)</H2>
-        <p class="copy-1">
-          Clouds Hill <br />
-          Wolf Biermann  <br />
-          <a href="http://lenareisner.com/" class="black-links" target="_blank">Lena Johanna Reisner
-            (Kuratorin)</a><br />          
-          <a href="https://www.christian-an.eu/asepsis" class="black-links" target="_blank">Christian An
-            (Künstler)</a><br />
-          Egoli Tossell  <br />
-          <a href="https://asta.muthesius-kunsthochschule.de/2020/12/13/reset-lets-talk-about-diversity/"
-            class="black-links" target="_blank">Muthesius
-            Kunsthochschule, Kiel</a><br />
-          <a href="https://frauenberatung-elmshorn.de/#/" class="black-links" target="_blank">Frauenberatung
-            Elmshorn</a><br />
-          <a href="https://www.haymonverlag.at/produkt/8136/ultraviolett/" class="black-links" target="_blank">Haymon
-            Verlag</a><br />
-          Studio Pandan <br />
-          <a href="https://www.ew.uni-hamburg.de/internationales/projekte/dicot.html" class="black-links"
-            target="_blank">Universität
-            Hamburg</a><br />
-          Myrna Stuckert Coaching and Consulting <br />
-          <a href="https://www.markenbecker.de/" class="black-links" 
-            target="_blank">markenbecker - Büro für Markenpflege</a><br />             
-          Introvision e.V. Hamburg <br />
-          Bauer Media Group <br />
-          Brandchance GmbH <br />
-          <a href="https://dayoff.de//" class="black-links" 
-            target="_blank">DayOff</a><br />          
-          <a href="https://www.getnext-it.com/" class="black-links" 
-            target="_blank">getNextIT</a><br />
-          Technische Universität Hamburg <br />
-          <a href="https://www.vergleich.org/fussball/" class="black-links" 
-            target="_blank">vergleich.org / VGL Verlagsgesellschaft mbH</a><br /> 
-          <a href="https://www.epda-design.com/" class="black-links" 
-            target="_blank">epda / European Brand & Packaging Design Association</a><br /> 
-          <a href="https://www.wobe-systems.com" class="black-links" 
-            target="_blank">wobe-systems GmbH</a><br /> 
-          <a href="https://www.schleswig-holstein.de/DE/landesregierung/themen/kueste-wasser-meer/konsultationsprozess-ostsee/konsultationsprozess-ostsee_node.html" class="black-links" 
-            target="_blank"> Ministerium für Energiewende, Klimaschutz, Umwelt und Natur; Schleswig-Holstein</a><br />   
-          <a href="https://kerstin-abraham.com" class="black-links" 
-            target="_blank">Kerstin Abraham</a><br />          
-        </p>
-      </div>   
-    </div>
+        <br />
+         Mit typografischem Spiel und gestalterischem Feingefühl entwickeln wir maßgeschneiderte
+         Markenidentitäten für kleine und große Unternehmen sowie unterschiedliche Publikationen im
+         Print- und Digitalbereich. Unser Portfolio umfasst Corporate Designs, Art Direktion,
+         Buchgestaltung, Poster, Websites und vieles mehr. Wir erforschen die Verbindung vom Alten
+         mit dem Neuen, vom Offensichtlichen mit dem Verborgenen – für eine Gestaltung, die auf
+         verschiedenen Ebenen kommuniziert und Emotionen weckt.
+        <br />
+        <br />
+         Unser Ansatz: In enger Zusammenarbeit mit unseren Kund:innen entstehen durchdachte und
+         individuelle Lösungen, die konzeptionell stark, emotional ansprechend und visuell
+         einzigartig sind. Erst wenn beide Seiten vollkommen zufrieden sind, ist unser Prozess
+         abgeschlossen.
+        <br />
+        <br />
+         Wir freuen uns darauf, dich und dein Projekt kennenzulernen!
+      </p>
+      <a href="./index.html#projekte" class='button primary-button'>Unser Portfolio</a>
+    </section>
 
-    <div class="d-xl-flex flex-xl-column w-100 w-xl-50 justify-content">
-      <!-- (3. Foto) -->
-      <div class="text-box order-0 d-xl-block d-none w-100">
-        <img src="assets/images/web/ueber-uns-portrait-web.jpg" alt="#" class="web_img w-100 flex-xl-grow-1">
-        <img src="assets/images/mobile/ueber-uns-portrait-mobile.jpg" alt="#" class="mob_img w-100 flex-xl-grow-1">
+    <!--  mobile screen: Was? -->
+    <section class='d-flex flex-column d-md-none bg-light-blue'>
+      <h1>Was?</h1>
+      <p>Animationen, Anzeigen, Art Direktion, Aufkleber, Banner, Beschilderung, Briefpapier,
+         Buchdesign, Coverdesign, Flyer, Illustrationen, Internetseiten, Kataloge, Kleidung,
+         Kunstbücher, Layout, Logos, Schallplatten-Gestaltung, Magazine, Materialberatung, Merch,
+         Poster, Postkarten, Produktionsüberwachung, Rechnungsvorlagen, Roll-Ups, Romane, Textsatz,
+         Schriftgestaltung, Social Media Templates, Strategieentwicklung, Visitenkarte,
+         Werbemaßnahmen, Workshops … you name it!</p>
+      <a href="./leistungen.html" class='big button primary-button'>Unsere Leistungen</a>
+    </section>
+
+    <!--  Was? & Publikationen -->
+    <section class="section-padding scroll-with-snap bg-orange row" data-section-name="was">
+      <div class='d-none d-md-block col-md-5 col-xl-7 col-12 mb-4 mb-md-0'>
+        <h1>Was?</h1>
+        <p>Animationen, Anzeigen, Art Direktion, Aufkleber, Banner, Beschilderung, Briefpapier,
+           Buchdesign, Coverdesign, Flyer, Illustrationen, Internetseiten, Kataloge, Kleidung,
+           Kunstbücher, Layout, Logos, Schallplatten-Gestaltung, Magazine, Materialberatung, Merch,
+           Poster, Postkarten, Produktionsüberwachung, Rechnungsvorlagen, Roll-Ups, Romane,
+           Textsatz, Schriftgestaltung, Social Media Templates, Strategieentwicklung, Visitenkarte,
+           Werbemaßnahmen, Workshops … you name it!</p>
+        <a href="./leistungen.html" class='button big primary-button'>Unsere Leistungen</a>
       </div>
-      
-      <!-- 4. Kontakt -->
-      <div class="copy-1  d-flex flex-column align-items-stretch  border-xl-top flex-grow-0">
-        <div class="text-box w-100 w-xl-50 border-bottom">
-          <H2>Berlin Office</H2>
-          Mail:
-           <a class="black-links text-nowrap" href="mailto:anastasia@studio-ajot.de"> anastasia@studio-ajot.de</a> <br />
-          Telefon: <a class="black-links text-nowrap" href="tel:+4915566468914">+49 155 664 689 14</a><br /><br />
-          Anastasia Marx<br />
-          Kastanienallee 71<br />
-          10435 Berlin
+      <div class='d-flex flex-column col-md-7 col-xl-4 col-12'>
+        <h1>Publikationen</h1>
+        <p style='margin-bottom: 0'>· 2023 PAGE online
+          <br />
+                                    · 2023 Slanted – Posters can Help
+          <br />
+                                    · 2021 Slanted Magazine #38
+          <br />
+                                    · 2021 Einblick Ausblick: Jahreskatalog & Ausstellung
+          <br />
+                                    · 2020 form 287
+          <br />
+                                    · 2020 PAGE, 07.20
+          <br />
+                                    · 2020 NDR Kultur – Radiobeitrag
+          <br />
+                                    · 2019 Miss Read Berlin
+          <br />
+                                    · 2019 Buchmesse Leipzig
+          <br />
+                                    · 2018 Art in Book Form, Sendpoints Publishing
+        </p>
+      </div>
+    </section>
+    <!--  Für wen? -->
+    <section class="section-padding scroll-with-snap bg-light-blue row"
+             data-section-name="fuer-wen" id='fuer-wen-section'>
+      <div class='col-md-7 col-12 flex-column d-flex'>
+        <h1>Für Wen?</h1>
+        <p>Unsere Kund:innen sind in den unterschiedlichsten Gebieten tätig. Ob
+           Software-Developer:in, Musiker:in oder Brillenproduzent:in – wir unterstützen gerne und
+           mit Leidenschaft bei sämtlichen grafischen Anforderungen.
+          <br />
+          <br />
+           Ausgewählte Kund:innen: Clouds Hill, Wolf Biermann, Lena Johanna Reisner (Kuratorin),
+           Egoli Tossell, Muthesius Kunsthochschule Kiel, Frauenberatung Elmshorn, Haymon Verlag,
+           Studio Pandan, Universität Hamburg, Myrna Stuckert Coaching and Consulting, markenbecker
+           - Büro für Markenpflege, Bauer Media Group, Brandchance, DayOff, getNextIT, Technische
+           Universität Hamburg, vergleich.org, epda: European Brand & Packaging Design Association,
+           wobe-systems, Ministerium für Energiewende, Klimaschutz, Umwelt und Natur
+           Schleswig-Holstein, Kerstin Abraham, Colibris Eyewear
+        </p>
+        <a href="./kontakt.html" class='button big primary-button'>Jetzt anfragen</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer site-padding-x bg-light-blue">
+      <!-- Desktop Layout -->
+      <div
+        class="footer-desktop d-none d-xl-flex flex-row justify-content-between align-items-stretch h-100">
+        <div class="h-100 d-flex align-items-center">
+          © Studio Ajot,
+          <span class="year"></span>
+          – Büro für Grafikdesign in Berlin & Hamburg
         </div>
-        <div class="text-box w-100 w-xl-50  border-bottom">
-          <H2>Hamburg Office</H2>
-          Mail:
-           <a class="black-links text-nowrap" href="mailto:johanna@studio-ajot.de"> johanna@studio-ajot.de</a> <br />
-          Telefon: <a class="black-links text-nowrap" href="tel:+491701211602">+49 170 121 16 02</a><br /><br />
-          Johanna Klüsener<br />
-          Mörkenstraße 8<br />
-          22767 Hamburg
+        <div class="d-flex flex-row">
+          <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+            <img
+              src="assets/icons/instagram.svg" alt="Instagram">
+          </a>
+          <a
+            href="https://www.linkedin.com/company/studio-ajot" target="_blank"
+            class="footer-button">
+            <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+          </a>
+          <a href="./datenschutz.html" class="footer-button">Datenschutz</a>
+          <a href="./impressum.html" class="footer-button">Impressum</a>
         </div>
-        
-        
-        
-        
-        
-          <!-- 4. Kontakt BackUp
-      <div class="copy-1  d-flex flex-column align-items-stretch  border-xl-top flex-grow-0">
-        <div class="text-box w-100 w-xl-50 border-bottom">
-          <H2>Berlin Office</H2>
-          Mail:
-          <a href="mailto:anastasia@studio-ajot.de">
-            anastasia<span class="text-nowrap">@studio-ajot.de</span></a><br />
-          Telefon: <a class="text-nowrap" href="tel:+4917661139893">+49 176 611 398 93</a>
-        </div>
-        <div class="text-box w-100 w-xl-50  border-bottom">
-          <H2>Hamburg Office</H2>
-          Mail:
-          <a href="mailto:johanna@studio-ajot.de"> johanna<span class="text-nowrap">@studio-ajot.de</span></a><br />
-          Telefon: <a class="text-nowrap" href="tel:+491701211602"> +49 170 121 16 02</a>
-        </div>-->
-       
-        <!-- 4. Veröffentlichungen -->
-        <div class="d-flex flex-column align-items-stretch flex-grow-0">
-          <div class="text-box w-100 w-xl-50 border-bottom border-xl-bottom-0">
-            <H2>VERÖFFENTLICHUNGEN/AUSSTELLUNGEN (Auswahl)</H2>
-            <p class="copy-1">
-              <a href="https://page-online.de/branche-karriere/epda-boost-book-fuer-brand-und-packaging/" class="black-links" target="_blank">2023 PAGE online</a><br />           
-              2023 Slanted – Posters can Help <br />
-              2021 Slanted Magazine #38 <br />
-              2021 Einblick Ausblick – Jahreskatalog, Ausstellung <br />
-              2020 form 287 <br />  
-              <a href="https://page-online.de/branche-karriere/schoen-sauber-kuenstlerbuch-asepsis/" class="black-links" target="_blank">2020 PAGE, 07.20</a><br />              
-              2020 NDR Kultur – Radiobeitrag <br />
-              2019 Miss Read Berlin <br />
-              2019 Buchmesse Leipzig <br />
-              2018 Art in Book Form, Sendpoints Publishing
-            </p>
+      </div>
+      <!-- Mobile Layout -->
+      <div class="footer-mobile d-flex flex-column d-xl-none gap-3">
+        <div class="d-flex justify-content-between align-items-start gap-5">
+          <div class="semibold">
+            <div class="pb-1 pb-md-0">© Studio Ajot,
+              <span class="year"></span>
+            </div>
+            <span>
+          Büro für Grafikdesign
+          <br class="d-md-none" />in Berlin & Hamburg
+        </span>
+          </div>
+          <div class="d-flex flex-row gap-3 justify-content-end">
+            <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+              <img src="assets/icons/instagram.svg" alt="Instagram">
+            </a>
+            <a
+              href="https://www.linkedin.com/company/studio-ajot" target="_blank"
+              class="footer-button">
+              <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+            </a>
           </div>
         </div>
-        
-        <!-- 5. Stimmen -->
-      <div class="copy-1  d-flex flex-column align-items-stretch  border-xl-top flex-grow-0">
-        <div class="text-box w-100 w-xl-50 border-bottom">
-            <H2>Stimmen</H2>
-            <p class="copy-1">
-              
-              »… Johanna und Anastasia haben gute Fragen gestellt, extrem gut zugehört und meine Gedanken sowie mein Feedback aufgegriffen und umgesetzt. 
-              Sich in diesem Prozess gehört zu fühlen, ist meines Erachtens wichtig dafür, um sich später mit dem Ergebnis identifizieren zu können. …«<br />    
-              Sabine Wojcieszak, getNextIT <br />               
-              <a href="https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D" 
-              class="black-links" target="_blank">> Weiterlesen</a>  <br><br>       
-
-              <!-- BackUp-Link
-              <a href="https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D" target="_blank"><i
-              class="black links fas fa-arrow-right"></i><span> Ganzer Artikel</span></a><br />  
-              -->
-           
-             »Die Zusammenarbeit mit Studio Ajot war ein Traum. Ein sehr professionelles Team, welches mit uns
-              gemeinsam und Schritt für Schritt ein neues Unternehmensdesign entworfen hat. Sehr zu empfehlen!« <br />
-              Corin Freyer, DayOff <br><br>
-     
-              »Ich habe mit Johanna und Anastasia eine hervorragende Erfahrung gemacht.
-              Wir führten mehrere Gespräche über meine Ausstellung, die Hintergründe und was das Buch verkörpern sollte – als Objekt und inhaltlich.
-              Daraus ergab sich eine gründliche Arbeit und ein Buch, das ein einmaliges Kunstwerk ist.« <br /> Pablo
-              Martínez-Calleja (Fotograf)<br />
-            </p>
-          </div>
+        <div class="d-flex gap-md-3 justify-content-md-start justify-content-between">
+          <a href="./datenschutz.html" class="footer-button">Datenschutz</a>
+          <a
+            href="./impressum.html" class="footer-button">Impressum
+          </a>
+          <a
+            href="./kontakt.html" class="footer-button">Kontakt
+          </a>
         </div>
-      
-      <!-- Impressum und Datenschutz -->
-        <div class="d-flex flex-column align-items-stretch flex-grow-0">
-          <div class="text-box w-100 w-xl-50">
-        <p class="copy-1">
-          <a href="impressum-datenschutz.html" class="black-links" 
-            target="_blank">Impressum und Datenschutz</a><br />
-        </p>
-      </div>           
-     </div>
-  </main>
-  <!-- Footer -->
-  <footer class="fixed-bottom site-padding-x site-padding-y bottom white">
-    <div class="row g-0">
-        <div class="col-3">
-          Hamburg & Berlin<br />
-          <a href="impressum-datenschutz.html"><span>Impressum</span></a>
-        </div>
-      <div class="col-9 text-end">
-        <a
-        href="mailto:hello@studio-ajot.de"
-        target="_blank"
-        class="footer-link"
-        ><i class="fas fa-arrow-right text-decoration-none"></i
-        ><span>Mail</span></a
-      >
-        <a href="https://www.instagram.com/studio.ajot" target="_blank"><br /><i
-            class="fas fa-arrow-right text-decoration-none"></i><span>Instagram</span></a>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-  <script src="assets/js/mainFunctions.js"></script>
-  <script src="assets/js/setColorInMobileMenu.js"></script>
-
-  <script>
-    if (
-      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-        navigator.userAgent
-      )
-    ) {
-      $("body").addClass("mobile-detect");
-    } else {
-      $("body").removeClass("mobile-detect");
-    }
-    $(window).on("resize", function () {
-      if (menuIsOpen()) {
-        closeMenu();
-        setColorInClosedMenu("black");
-      }
-    });
-
-    $(".burger_menu").click(function () {
-      toggleMenu();
-      if (menuIsOpen()) {
-        setColorInOpenMenu("black");
-      } else {
-        setColorInClosedMenu("black");
-      }
-    });
-
-    $(".nav_section ul li a").click(function () {
-      setColorInOpenMenu("black");
-      setColorInClosedMenu("black");
-      if ($('.burger_menu').hasClass('open') || $('.nav_section .menu_points').hasClass('active')) {
-        $(".burger_menu").removeClass("open");
-        $(".nav_section .menu_points").removeClass("active");
-      }
-    });
-
-  </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="assets/libraries/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <!--  <script src="assets/libraries/js/jquery.scrollify.js"></script>-->
+    <script src="js/main-functions.js"></script>
+    <!--  <script src="js/pages/ueber-uns.js"></script>-->
 </body>
 
 </html>

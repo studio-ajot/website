@@ -1,0 +1,22 @@
+.project-description-wrapper {
+    position: absolute;
+    bottom: 108px;
+    left: 0;
+}
+
+.project-description {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    white-space: pre-wrap;
+    pointer-events: none;
+    touch-action: none;
+    border-radius: 25px;
+    color: white;
+    padding: 20px 30px;
+    width: auto;
+}
+
+.project-description-button {
+    display: none;
+}

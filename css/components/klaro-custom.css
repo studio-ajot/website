@@ -1,0 +1,98 @@
+body.klaro-no-scroll {
+    overflow: hidden !important;
+    height: 100% !important;
+}
+
+/* Overlay beim Modal */
+.klaro-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+/* Banner anpassen */
+.cm-klaro {
+    position: absolute !important;
+    background-color: #DBC4FF !important;
+    border-radius: 40px !important;
+    color: #000 !important;
+    padding: 1rem;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+    z-index: 10001;
+    top: 200px !important;
+    /*transform: translateY(100%) !important;*/
+    font-size: 21px !important;
+    width: calc(100% - 60px) !important;
+    margin: 0 30px !important;
+    display: flex !important;
+    justify-content: center !important;
+    max-width: 100% !important;
+}
+
+.cm-klaro * {
+    border-width: 0 !important;
+    color: #000 !important;
+}
+
+.cm-klaro p {
+    margin: 0 !important;
+}
+
+.cm-footer, .cm-footer-button {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.cm-powered-by, .cm-body, .cm-header > h1, .cm-btn-accept {
+    display: none !important;
+}
+
+.cm-klaro button {
+    border-radius: 40px !important;
+    background-color: black !important;
+    width: 250px !important;
+    height: 50px !important;
+    color: white !important;
+}
+
+@media (max-width: 576px) {
+    .cm-klaro {
+        width: calc(100% - 20px) !important;
+        left: 10px !important;
+        top: 80px !important;
+    }
+
+    .cm-klaro button {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .cm-footer-buttons {
+        flex-flow: column !important;
+        gap: 10px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .cm-klaro {
+        flex-flow: column !important;
+        top: 300px !important;
+        width: calc(100% - 40px) !important;
+        margin: 0 10px !important;
+        min-width: 0 !important;
+    }
+
+    .cm-klaro p {
+        text-align: center !important;
+    }
+
+    .cm-footer-buttons, .cm-klaro button {
+        width: 100% !important;
+    }
+}

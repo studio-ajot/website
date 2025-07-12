@@ -1,0 +1,97 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0 0 20px;
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 0 0 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 57px;
+    font-weight: 600;
+    line-height: 59px;
+    color: black;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+html, body, main {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.white-links {
+    color: white;
+    text-decoration: none;
+}
+
+.white-links:hover {
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.black-links {
+    color: black;
+    text-decoration: none;
+}
+
+.black-links:hover {
+    color: #C600FD;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.white-text {
+    color: white;
+}
+
+.black-text {
+    color: black;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+
+/* #################################
+#         mobile text sizes        #
+#################################*/
+@media (max-width: 768px) {
+    h1 {
+        font-size: 38px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 28px;
+        font-weight: 600;
+    }
+
+    html, body, main {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        margin: 0 0 16px;
+        padding: 0;
+    }
+}

@@ -1,0 +1,15 @@
+section {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    #wo-und-wie-section {
+        background-color: var(--color-orange);
+    }
+
+    #fuer-wen-section, .footer {
+        background-color: var(--color-lavender);
+    }
+}

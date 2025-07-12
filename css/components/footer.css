@@ -1,0 +1,60 @@
+footer {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    white-space: nowrap;
+    z-index: 30;
+    cursor: default;
+    transition: all ease-in-out 0.2s;
+}
+
+
+.footer-button:hover {
+    /*color: white;*/
+}
+
+.footer-button img {
+    filter: invert(0);
+    transition: filter 0.2s ease;
+    width: 30px;
+    height: 30px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .footer-button:hover img {
+        filter: invert(1);
+    }
+}
+
+@media (min-width: 1200px) {
+    footer {
+        height: 80px;
+        padding-left: 30px;
+    }
+
+    .footer-button {
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 100%;
+        border-left: 1px solid black;
+        transition: background-color 0.2s ease-in-out;
+        color: black;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        background-color: black;
+        color: white !important;
+        text-decoration: none;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    footer {
+        padding: 20px;
+    }
+}
+
+
