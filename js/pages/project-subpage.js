@@ -179,4 +179,6 @@ $(document).ready(() => {
     applyAccentColor(project.accentColor);
     setNavigationLinks(project);
     setupDescriptionToggle();
+
+    document.title = `${project.title} | Studio Ajot`;
 });
