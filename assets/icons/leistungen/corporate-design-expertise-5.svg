@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="18.83" y="32.48" width="142.83" height="105.01"/>
+  <polyline class="cls-1" points="161.66 42.94 170.11 42.94 170.11 147.15 10.66 147.15 10.66 42.94 17.76 42.94"/>
+  <line class="cls-1" x1="91.2" y1="32.82" x2="91.2" y2="136.54"/>
+  <line class="cls-1" x1="85.36" y1="116.55" x2="96.63" y2="116.55"/>
+  <line class="cls-1" x1="85.36" y1="94.39" x2="96.63" y2="94.39"/>
+  <line class="cls-1" x1="85.36" y1="72.36" x2="96.63" y2="72.36"/>
+  <line class="cls-1" x1="85.36" y1="50.18" x2="96.63" y2="50.18"/>
+  <g>
+    <circle class="cls-1" cx="54.06" cy="71.69" r="19.92"/>
+    <polyline class="cls-1" points="44.86 69.13 52.7 77.13 63.27 66.26"/>
+  </g>
+  <g>
+    <circle class="cls-1" cx="127.57" cy="71.69" r="19.92"/>
+    <g>
+      <line class="cls-1" x1="120.37" y1="64.49" x2="134.78" y2="78.9"/>
+      <line class="cls-1" x1="120.44" y1="78.82" x2="134.7" y2="64.57"/>
+    </g>
+  </g>
+</svg>

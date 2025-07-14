@@ -1,0 +1,120 @@
+@media (max-width: 1024px) {
+    .mobile-detect .slider_section .carousel-cell {
+        border: 0;
+    }
+}
+
+/* ################################
+#       1200px breakpoint         #
+#################################*/
+
+@media (max-width: 1300px) {
+    .nav_row {
+        min-height: 80px;
+        align-items: center;
+    }
+
+
+    .burger_menu {
+        display: block;
+        z-index: 30;
+        animation: 2s ease-in;
+    }
+
+    .burger_menu_container {
+        border-left: 1px solid black;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        padding: 0 30px;
+    }
+
+    .nav_section .menu_points {
+        display: none;
+    }
+
+    .mobile-detect .project-description {
+        width: calc(100vw - 60px);
+    }
+
+    /* ################################
+    #        open mobile menu         #
+    #################################*/
+    .nav_section .open_menu_background {
+        display: flex;
+    }
+
+    .nav_section .menu_points.active ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav_section .menu_points.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        padding: 95px 25px 15px;
+    }
+
+    .nav_section .menu_points.active a {
+        margin-bottom: 10px;
+        margin-left: 0;
+        padding: 13px 0;
+        width: 100%;
+        text-decoration: none;
+    }
+
+    .nav_section .menu_points.active a:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+/* ################################
+#       991px breakpoint         #
+#################################*/
+@media (max-width: 991px) {
+
+
+    /* #################################
+    #        padding on mobile        #
+    #################################*/
+    .mobile-detect .project-description {
+        width: calc(100vw - 40px);
+    }
+
+    .burger_menu_container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .project-description {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        bottom: 95px;
+    }
+
+    .info_box .text-box {
+        padding: 20px 20px;
+    }
+
+    .nav_section .menu_points.active {
+        padding: 15px 20px;
+        padding-top: 95px;
+    }
+
+}

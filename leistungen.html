@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="de" class="active">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO & Social Media -->
+  <title>Leistungen | Studio Ajot</title>
+  <meta name="description" content="Wir entwickeln maßgeschneiderte Designlösungen für kleine & große Unternehmen und sind spezialisiert auf visuelle Identitäten, Print und Typografie." />
+  <meta name="author" content="Studio Ajot" />
+  <meta name="robots" content="index, follow" />
+  <meta http-equiv="Content-Language" content="de" />
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Studio Ajot – Büro für Grafikdesign in Berlin und Hamburg" />
+  <meta property="og:description" content="Studio Ajot entwickelt maßgeschneiderte Designlösungen: Corporate Design, Editorial Design, Web Design & mehr." />
+  <meta property="og:image" content="https://www.studio-ajot.de/assets/icons/ajot-logo.png" />
+  <meta property="og:url" content="https://www.studio-ajot.de/" />
+  <meta property="og:type" content="website" />
+
+  <!-- X/Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Studio Ajot – Büro für Grafikdesign in Berlin und Hamburg" />
+  <meta name="twitter:description" content="Studio Ajot entwickelt maßgeschneiderte Designlösungen: Corporate Design, Editorial Design, Web Design & mehr." />
+  <meta name="twitter:image" content="https://www.studio-ajot.de/assets/icons/ajot-logo.png" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.studio-ajot.de/" />
+
+  <!-- Favicon & Apple Icon -->
+  <link rel="icon" href="assets/icons/favicon_studio-ajot.png" type="image/png" sizes="16x16" />
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+
+  <!-- Manifest für Android-Icons -->
+  <link rel="manifest" href="assets/manifest.json" />
+
+  <!-- Stylesheets (CSS) -->
+  <link rel="preload" href="css/main.css" as="style" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/pages/leistungen.css" />
+  <link rel="stylesheet" type="text/css" href="assets/libraries/css/jquery.pagepiling.css" />
+  <link rel="stylesheet" href="css/utilities/scroll-with-snap.css" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.min.css">
+
+</head>
+
+<body class=overflow-hidden>
+<!-- Navigation -->
+<nav class="nav_section" id="index-nav">
+  <div class="nav_row">
+    <a href="./index.html" class="logo" id="website_title">
+      <img
+        src='./assets/icons/ajot-logo.svg' alt='Studio Ajot'></img>
+    </a>
+    <!-- hamburger menu button -->
+    <div class="burger_menu_container">
+      <button type="button" class="burger_menu">
+        <span class="icon" id="icon"></span>
+        <span class="icon2" id="icon2"></span>
+        <span
+          class="icon3" id="icon3"></span>
+      </button>
+    </div>
+    <!-- Main menu -->
+    <div class="menu_points">
+      <ul>
+        <!-- Projekte -->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./index.html#projekte">
+            <span class="index-link">Projekte</span>
+          </a>
+        </li>
+        <!-- Leistungen -->
+        <li class='hover-target leistungen-button'>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./leistungen.html">
+          <span
+            class="index-link">Leistungen</span>
+            <img class='leistungen-arrow' alt=''
+                 src='./assets/icons/arrows/arrow-down.svg' />
+          </a>
+        </li>
+        <!-- mobile: Submenu -->
+        <li class='burger_menu__submenu'>
+          <div class="burger_menu__submenu_inner">
+            <a class='submenu_button button secondary-button'
+               href="./leistungen.html">Übersicht
+            </a>
+            <a class='submenu_button button secondary-button'
+               href="./leistungen/corporate-design.html">Corporate Design
+            </a>
+            <a
+              class='submenu_button button secondary-button'
+              href="./leistungen/editorial-design.html"> Buch- und Editorial Design
+            </a>
+            <a
+              class='submenu_button button secondary-button'
+              href="./leistungen/web-design.html"> Web- und Digital Design
+            </a>
+            <a
+              class='submenu_button button secondary-button'
+              href="./leistungen/experimental.html"> Weiteres
+            </a>
+          </div>
+        </li>
+        <!-- über uns -->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg"
+             href="./ueber-uns.html"> <span
+            class="index-link">Über uns</span>
+          </a>
+        </li>
+        <!-- Kontakt-->
+        <li>
+          <a class="slider__nav_menu_button nav_menu_button accent_bg" href="./kontakt.html"><span
+            class="index-link">Kontakt</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- desktop: Sub menu -->
+  <ul class='submenu hover-target'>
+    <li>
+      <a href="./leistungen/corporate-design.html">Corporate Design</a>
+    </li>
+    <li>
+      <a href="./leistungen/editorial-design.html">
+        <span>Buch- und Editorial Design</span>
+      </a>
+    </li>
+    <li>
+      <a href="./leistungen/web-design.html">
+        <span>Web- und Digital Design</span>
+      </a>
+    </li>
+    <li>
+      <a href="./leistungen/experimental.html">
+        <span>Weiteres</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+<ul class='scroll-indicator' id='scroll-indicator'>
+  <li data-menuanchor="editorial-design" class="dot active">
+    <a href="#editorial-design"></a>
+  </li>
+  <li data-menuanchor="corporate-design" class="dot">
+    <a href="#corporate-design"></a>
+  </li>
+  <li data-menuanchor="web-design" class="dot">
+    <a href="#web-design"></a>
+  </li>
+  <li data-menuanchor="experimental" class="dot">
+    <a href="#experimental"></a>
+  </li>
+</ul>
+<div id='pagepiling'>
+  <div class="section scroll-with-snap" data-section-name="corporate-design">
+    <video autoplay loop muted playsinline>
+      <source src="./assets/media/leistungen/leistungen-1-web.mp4" type="video/mp4">
+    </video>
+    <div class='leistungen-text'>
+      <h1>Corporate Design</h1>
+      <p>Mit unserem Ansatz machen wir das Gefühl hinter Ihrer Marke sichtbar – für ein
+         Erscheinungsbild, das begeistert.</p>
+      <div class='flex-row d-flex gap-3'>
+        <a href='leistungen/corporate-design.html'
+           class='button primary-button big text-decoration-none'>
+          <button>Mehr erfahren</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="section scroll-with-snap" data-section-name="editorial-design">
+    <img src="./assets/media/leistungen/leistungen-2-web.jpg" alt="Projekt 2">
+    <div class='leistungen-text'>
+      <h1>Buch- und
+        <br />
+          Editorial Design
+      </h1>
+      <p>Unsere Arbeit umfasst Projekte wie Romane, Kunstbücher, Jahresberichte und vieles mehr.
+         Gemeinsam kreieren wir Druckobjekte, die nicht nur praktisch, sondern auch emotional und
+         ästhetisch überzeugen.</p>
+      <div class='flex-row d-flex gap-3'>
+        <a href='leistungen/editorial-design.html'
+           class='button primary-button big text-decoration-none'>
+          <button>Mehr erfahren</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="section scroll-with-snap" data-section-name="web-design">
+    <video autoplay loop muted playsinline>
+      <source src="./assets/media/leistungen/leistungen-3-web.mp4" type="video/mp4">
+    </video>
+    <div class='leistungen-text'>
+      <h1>Web- und
+        <br />
+          Digital Design
+      </h1>
+      <p>Unser Ziel: Interaktive Medien, die inspirieren und Nutzer:innen nachhaltig begeistern.</p>
+      <div class='flex-row d-flex gap-3'>
+        <a href='leistungen/web-design.html'
+           class='button primary-button big text-decoration-none'>
+          <button>Mehr erfahren</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="section scroll-with-snap position-relative" data-section-name="experimental">
+    <img src="./assets/media/leistungen/leistungen-4-web.jpg" alt="Projekt 4">
+    <div class='last-section-wrapper'>
+      <div class='leistungen-text'>
+        <h1>Geht nicht,
+          <br />
+            gibt’s nicht!
+        </h1>
+        <p>Neben klassischen Produkten gestalten wir mit Begeisterung und Kreativität auch
+           Zwischenlösungen.</p>
+        <div class='flex-row d-flex gap-3'>
+          <a href='leistungen/experimental.html'
+             class='button primary-button big text-decoration-none'>
+            <button>Mehr erfahren</button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer site-padding-x bg-lavender">
+        <!-- Desktop Layout -->
+        <div
+          class="footer-desktop d-none d-xl-flex flex-row justify-content-between align-items-stretch h-100">
+          <div class="h-100 d-flex align-items-center">
+            © Studio Ajot,
+            <span class="year"></span>
+            – Büro für Grafikdesign in Berlin & Hamburg
+          </div>
+          <div class="d-flex flex-row">
+            <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+              <img src="assets/icons/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/company/studio-ajot" target="_blank"
+               class="footer-button">
+              <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="./datenschutz.html" class="footer-button">Datenschutz</a>
+            <a href="./impressum.html" class="footer-button">Impressum</a>
+          </div>
+        </div>
+        <!-- Mobile Layout -->
+        <div class="footer-mobile d-flex flex-column d-xl-none gap-3">
+          <div class="d-flex justify-content-between align-items-start gap-5">
+            <div class="semibold">
+              <div class="pb-1 pb-md-0">© Studio Ajot,
+                <span class="year"></span>
+              </div>
+              <span>
+          Büro für Grafikdesign
+          <br class="d-md-none" />in Berlin & Hamburg
+        </span>
+            </div>
+            <div class="d-flex flex-row gap-3 justify-content-end">
+              <a href="https://www.instagram.com/studio.ajot" target="_blank" class="footer-button">
+                <img src="assets/icons/instagram.svg" alt="Instagram">
+              </a>
+              <a href="https://www.linkedin.com/company/studio-ajot" target="_blank"
+                 class="footer-button">
+                <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+              </a>
+            </div>
+          </div>
+          <div class="d-flex gap-md-3 justify-content-md-start justify-content-between">
+            <a href="./datenschutz.html" class="footer-button">Datenschutz</a>
+            <a href="./impressum.html" class="footer-button">Impressum</a>
+            <a href="./kontakt.html" class="footer-button">Kontakt</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+
+
+<script src="assets/libraries/js/jquery-3.7.1.min.js"></script>
+<script src="assets/libraries/js/bootstrap.bundle.min.js"></script>
+<script src="assets/libraries/js/popper.js"></script>
+<script src="assets/libraries/js/jquery.pagepiling.min.js"></script>
+<script src="js/main-functions.js"></script>
+<script src="js/pages/leistungen.js"></script>
+</body>
+
+</html>
