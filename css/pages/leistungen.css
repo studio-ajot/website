@@ -29,7 +29,7 @@
 
 .scroll-indicator {
     position: fixed;
-    top: 50vh;
+    top: 50dvh;
     right: 30px;
     transform: translateY(-50%);
     display: flex;
@@ -61,10 +61,6 @@
 }
 
 @media (max-width: 992px) {
-    .scroll-indicator {
-        display: none;
-    }
-
     .leistungen-text {
         width: calc(100% - 60px);
         gap: 4px;

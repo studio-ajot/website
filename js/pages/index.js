@@ -1,6 +1,8 @@
 $(document).ready(function () {
     initializeCarousel();
     fillCarousel();
+    // initializeTextSlider();
+    // fillTextSlider();
     setupLazyLoading();
     setupProgressBar();
 
@@ -95,3 +97,39 @@ function setProgressBarHightlight() {
 
     $("#progress-bar-highlight").css("left", `${left}px`);
 }
+
+// function initializeTextSlider() {
+//     $(".main-statements-carousel").flickity({
+//         cellAlign: "left",
+//         contain: true,
+//         wrapAround: true,
+//         autoPlay: 6000,
+//         pauseAutoPlayOnHover: false,
+//         prevNextButtons: false,
+//         pageDots: true
+//     });
+// }
+//
+// function fillTextSlider() {
+//     indexPageStatementsSlider.forEach((statement) => {
+//         const textElement = `
+//         <div class="text-slide">
+//             <div class='d-flex flex-column col-xl-6 col-12 mb-3 mb-xl-0'>
+//               <p class="statement-text">"${statement.text}"</p>
+//               <a class='button primary-button big text-decoration-none'
+//                   href="mailto:hello@studio-ajot.de?subject=Projektanfrage&body=Hallo%20liebes%20Ajot-Team,%0A">
+//               Jetzt kontaktieren
+//               </a>
+//             </div>
+//             <!-- 1-col white spacer, visible only on xl -->
+//             <div class="d-none d-xl-block col-xl-1"></div>
+//
+//               <div class='d-flex flex-column col-xl-5 col-12 mt-2 mt-xl-0'>
+//                  <span class="statement-author">– ${statement.author}</span>
+//               </div>
+//           </div>
+//       </div>
+//     `;
+//         $(".main-statements-carousel").flickity("append", $(textElement));
+//     });
+// }
