@@ -27,6 +27,10 @@ function toggleMenu() {
     $navSections.toggleClass("active");
 
     $("*").toggleClass("no-scroll", menuIsOpening);
+
+    // Hide or show scroll-indicator
+    $("#scroll-indicator").toggle(!menuIsOpening);
+
 }
 
 function closeMenu() {
@@ -35,6 +39,9 @@ function closeMenu() {
     $submenuWrapper.removeClass("open").css("height", "");
     $arrow.removeClass("rotate");
     $("*").removeClass("no-scroll");
+
+    // Show scroll-indicator
+    $("#scroll-indicator").show();
 }
 
 // === Event Binding === //
