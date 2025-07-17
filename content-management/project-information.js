@@ -183,7 +183,7 @@ const projectInformation = [
     {
         id: "ausstellungsdesign-kunstkatalog-webdesign-mfa",
         accentColor: "#FFB9D1",
-        title: "My Personal Acronym",
+        title: "My Favorite Acronym",
         categories: ["Corporate Design", "Buch- & Editorial Design", "Webdesign", "Plakatgestaltung"],
         metaData: "Ausstellungsgestaltung für eine Absolvent:innenausstellung der Muthesius Kunsthochschule",
         mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
