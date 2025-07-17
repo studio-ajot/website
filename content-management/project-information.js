@@ -47,7 +47,7 @@ const projectInformation = [
     {
         id: "editorial-design-muthesius-kunsthochschule-postkarten",
         accentColor: "#FA6262",
-        title: " Was passiert an der Muthesius Kunsthochschule?",
+        title: " Was passiert an der Muthesius Kunst\nhochschule?",
         categories: ["Buch- & Editorial Design"],
         metaData: "Postkartengestaltung für die Muthesius Kunsthochschule",
         mediaTypes: ["img", "img", "img", "img"],
