@@ -205,7 +205,7 @@ const projectInformation = [
         categories: ["Corporate Design", "Plakatgestaltung"],
         metaData: "Plakatgestaltung für den Musiker Tim Nicklaus",
         mediaTypes: ["img", "img", "img",],
-        description: "Small Things  \n \nTim Nicklaus ist ein freiberuflicher Schlagzeuger aus Hannover. Für sein Abschlusskonzert wurden wir mit der Plakatgestaltung beauftragt. Zusätzlich entwarfen wir seine Geschäftsausstattung in Form von Visitenkarten"
+        description: "Small Things  \n \nTim Nicklaus ist ein freiberuflicher Schlagzeuger aus Hannover. Für sein Abschlusskonzert wurden wir mit der Plakatgestaltung beauftragt. Zusätzlich entwarfen wir seine Geschäftsausstattung in Form von Visitenkarten."
     },
     {
         id: "corporate-design-nonprofit-frauenberatung-elmshorn",
