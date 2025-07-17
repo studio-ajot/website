@@ -109,7 +109,7 @@ function applyAccentColor(color) {
 }
 
 function populateProjectData(project) {
-    $dom.title.text(project.title);
+    $dom.title.html(project.title);
     $dom.subtitle.text(project.categories.join(', ').toUpperCase());
     $dom.meta.text(project.metaData);
     $dom.description.html(project.description);

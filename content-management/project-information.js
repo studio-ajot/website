@@ -1,3 +1,16 @@
+/**
+ * Hinweise zum Einpflegen der Inhalte:
+ *
+ *   [title] = Titel
+ *      - Für optionale Zeilenumbrüche innerhalb von Titeln <wbr> verwenden.
+ *      - Beispiel: "Frauen*<wbr>beratung Elmshorn"
+ *
+ *   [description] = Beschreibung
+ *      - Zeilenumbruch mit <br> einfügen
+ *      - Links können direkt mit <a> eingefügt werden. Dabei nur einfache Anführungszeichen verwenden.
+ *      - Beispiel: <a href='https://example.com' target='_blank' rel='noopener noreferrer'>[Linktext]</a>
+ */
+
 const projectInformation = [
     {
         id: "corporate-design-colibris-eyewear",
@@ -6,7 +19,7 @@ const projectInformation = [
         categories: ["Corporate Design"],
         metaData: "Corporate Design für colibris",
         mediaTypes: ["img", "vid", "img", "img", "img", "vid", "img", "img", "img", "img"],
-        description: "Zum 25-jährigen Jubiläum entwickelten wir für Colibris Eyewear ein modernes Corporate Design, das die Markenidentität neu definiert. Unter dem Leitgedanken »Great glasses for small faces« verbindet das visuelle Konzept nordisches Design mit einer zeitgemäßen Ästhetik. Ein maritimes Blau und warmer Sandton spiegeln die norddeutsche Landschaft wider, während das ikonische »C« und filigrane Wellenmuster die Herkunft und Präzision der Marke unterstreichen. Der überarbeitete Logo-Schriftzug kombiniert Eleganz mit Selbstbewusstsein und setzt die Spezialisierung auf Brillen für schmale Gesichter eindrucksvoll in Szene. \nMessefotos ©reizueberflutung.com"
+        description: "Zum 25-jährigen Jubiläum entwickelten wir für Colibris Eyewear ein modernes Corporate Design, das die Markenidentität neu definiert. Unter dem Leitgedanken »Great glasses for small faces« verbindet das visuelle Konzept nordisches Design mit einer zeitgemäßen Ästhetik. Ein maritimes Blau und warmer Sandton spiegeln die norddeutsche Landschaft wider, während das ikonische »C« und filigrane Wellenmuster die Herkunft und Präzision der Marke unterstreichen. Der überarbeitete Logo-Schriftzug kombiniert Eleganz mit Selbstbewusstsein und setzt die Spezialisierung auf Brillen für schmale Gesichter eindrucksvoll in Szene. <br>Messefotos ©reizueberflutung.com"
     },
     {
         id: "lp-design-wolf-biermann-box",
@@ -15,7 +28,7 @@ const projectInformation = [
         categories: ["Buch- & Editorial Design", "Musik"],
         metaData: "Plattengestaltung für Wolf Biermann",
         mediaTypes: ["vid", "img", "img", "img", "img"],
-        description: "Das exklusive Box-Set »Zeiten verbinden« vereint Wolf Biermanns Klassiker & neue Interpretationen und beinhaltet 5 LPs, Art-Prints, Sticker & mehr. \n \nAuf dem Herzstück des Box-Sets, dem Album »Wolf Biermann RE:IMAGINED - Lieder für jetzt«, haben sich 22 unterschiedliche Musiker:innen, darunter Alligatoah, OK KID, Betterov, Haiyti oder Torch an Neuinterpretationen von Wolf Biermanns Liedern gewagt. »Wolf Biermann, Zeuge und Protagonist einer turbulenten Zeit, hat sich stets lautstark zu Wort gemeldet, um seine Kritik an den herrschenden Zuständen zu äußern - und findet nun Unterstützung in einer jungen Generation, die künstlerisch durchaus geprägt ist vom Ton des 1936 in Hamburg geborenen Künstlers, der als junger Mann in die DDR übersiedelte, um später von ihr verstoßen zu werden: weil er sich auch dort nicht zensieren ließ!«, so die Beschreibung von Clouds Hill, dem Hamburger Indie-Label um Produzent und Autor Johann Scheerer, das die Musik von Wolf Biermann wieder in den Fokus rücken und zugänglich machen will. \nDie beiden Vinyl-Alben »RE:IMAGINED« und »Ermutigung« führen den Kern des Corporate Designs, das wir für Wolf Biermann entwickelt haben, weiter. Dabei bilden typografische 3D-Visuals das zentrale Element."
+        description: "Das exklusive Box-Set »Zeiten verbinden« vereint Wolf Biermanns Klassiker & neue Interpretationen und beinhaltet 5 LPs, Art-Prints, Sticker & mehr. <br> <br>Auf dem Herzstück des Box-Sets, dem Album »Wolf Biermann RE:IMAGINED - Lieder für jetzt«, haben sich 22 unterschiedliche Musiker:innen, darunter Alligatoah, OK KID, Betterov, Haiyti oder Torch an Neuinterpretationen von Wolf Biermanns Liedern gewagt. »Wolf Biermann, Zeuge und Protagonist einer turbulenten Zeit, hat sich stets lautstark zu Wort gemeldet, um seine Kritik an den herrschenden Zuständen zu äußern - und findet nun Unterstützung in einer jungen Generation, die künstlerisch durchaus geprägt ist vom Ton des 1936 in Hamburg geborenen Künstlers, der als junger Mann in die DDR übersiedelte, um später von ihr verstoßen zu werden: weil er sich auch dort nicht zensieren ließ!«, so die Beschreibung von Clouds Hill, dem Hamburger Indie-Label um Produzent und Autor Johann Scheerer, das die Musik von Wolf Biermann wieder in den Fokus rücken und zugänglich machen will. <br>Die beiden Vinyl-Alben »RE:IMAGINED« und »Ermutigung« führen den Kern des Corporate Designs, das wir für Wolf Biermann entwickelt haben, weiter. Dabei bilden typografische 3D-Visuals das zentrale Element."
     },
     {
         id: "art-direction-magazin-cloudshill",
@@ -33,7 +46,7 @@ const projectInformation = [
         categories: ["Corporate Design", "Musik"],
         metaData: "Bühnendesign, Bühnenanimation, Merchandise für das Konzert »Lieder für jetzt« für und mit Wolf Biermann, 2024",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
-        description: "Im Rahmen des Coveralbums »Wolf Biermann RE:IMAGINED – Lieder für jetzt!« fand am 13. November 2024 im Hamburger Thalia Theater ein besonderes Release-Konzert statt, bei dem sich eine neue Künstlergeneration dem Werk des Liedermachers annäherte. Studio Ajot entwickelte das visuelle Erscheinungsbild für diesen Abend – von der Plakatgestaltung über die Bühnengestaltung über Merch-Artikel wie Shirts und Stressbälle bis hin zur begleitenden Social-Media-Kampagne. \nZiel war es, die Vielstimmigkeit des Abends visuell greifbar zu machen und Biermanns künstlerisches Erbe in einen zeitgemäßen Kontext zu setzen. Die visuelle Gestaltung baut auf dem bestehenden Erscheinungsbild auf, das wir für Biermanns Gesamtauftritt gestaltet haben, und übersetzt dessen zentrale Elemente – Typografie, 3D-Visuals und Farbigkeit – in ein Bühnenbild, das sowohl laut als auch poetisch sein darf. \nKünstler:innen, die, neben Wolf Biermann, aufgetreten sind: Torch, Betterov, Haiyti, PeterLicht, Jan Plewka, Lina Maly, Mola, Bonaparte, Das Bierbeben, Van Holzen, Moritz Krämer, Charlotte Brandi & Albrecht Schrader, Katharina Franck & Paul Eisenach, Romano und das Jazz-Duo Ulrich Gumpert & Günter Baby Sommer. \nFotos von Wolf Biermann: Jonas Albrecht, www.jonas-albrecht.de, @zwischensequenzen"
+        description: "Im Rahmen des Coveralbums »Wolf Biermann RE:IMAGINED – Lieder für jetzt!« fand am 13. November 2024 im Hamburger Thalia Theater ein besonderes Release-Konzert statt, bei dem sich eine neue Künstlergeneration dem Werk des Liedermachers annäherte. Studio Ajot entwickelte das visuelle Erscheinungsbild für diesen Abend – von der Plakatgestaltung über die Bühnengestaltung über Merch-Artikel wie Shirts und Stressbälle bis hin zur begleitenden Social-Media-Kampagne. <br>Ziel war es, die Vielstimmigkeit des Abends visuell greifbar zu machen und Biermanns künstlerisches Erbe in einen zeitgemäßen Kontext zu setzen. Die visuelle Gestaltung baut auf dem bestehenden Erscheinungsbild auf, das wir für Biermanns Gesamtauftritt gestaltet haben, und übersetzt dessen zentrale Elemente – Typografie, 3D-Visuals und Farbigkeit – in ein Bühnenbild, das sowohl laut als auch poetisch sein darf. <br>Künstler:innen, die, neben Wolf Biermann, aufgetreten sind: Torch, Betterov, Haiyti, PeterLicht, Jan Plewka, Lina Maly, Mola, Bonaparte, Das Bierbeben, Van Holzen, Moritz Krämer, Charlotte Brandi & Albrecht Schrader, Katharina Franck & Paul Eisenach, Romano und das Jazz-Duo Ulrich Gumpert & Günter Baby Sommer. <br>Fotos von Wolf Biermann: Jonas Albrecht, www.jonas-albrecht.de, @zwischensequenzen"
     },
     {
         id: "webdesign-tech-b310",
@@ -47,11 +60,11 @@ const projectInformation = [
     {
         id: "editorial-design-muthesius-kunsthochschule-postkarten",
         accentColor: "#FA6262",
-        title: " Was passiert an der Muthesius Kunst\nhochschule?",
+        title: "Was passiert an der Muthesius Kunst<wbr>hochschule?",
         categories: ["Buch- & Editorial Design"],
         metaData: "Postkartengestaltung für die Muthesius Kunsthochschule",
         mediaTypes: ["img", "img", "img", "img"],
-        description: "Alumni-Netzwerk- & Newsletter-Karte, 2023 \n \nWas ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden."
+        description: "Alumni-Netzwerk- & Newsletter-Karte, 2023 <br> <br>Was ist los an der Kunsthochschule? Welche Ausstellung läuft gerade? Welche Publikation ist neu? Der Newsletter der Muthesius Kunsthochschule informiert über alles, was im Kosmos der Kunsthochschule an Veranstaltungen geplant und passiert ist. Mit Postkarten für die Newsletter-Anmeldung soll bei Absolvent:innen und Interessent:innen für den Newsletter geworben werden."
     },
     {
         id: "lp-design-kampagne-wolf-biermann-reimagined",
@@ -60,7 +73,7 @@ const projectInformation = [
         categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik"],
         metaData: "Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute",
         mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "vid", "img", "vid"],
-        description: "Für das 2024 erschienene Album »Wolf Biermann – RE:IMAGINED. Lieder für jetzt!« durften wir das gesamte visuelle Erscheinungsbild gestalten. Das Projekt vereint 22 Neuinterpretationen von Biermanns Liedern durch Künstler:innen wie Alligatoah, Haiyti, OK KID, Betterov oder Lina Maly – und schlägt damit eine künstlerische Brücke zwischen Vergangenheit und Gegenwart.  \nUnsere Gestaltung setzt diesen Brückenschlag visuell um: Im Zentrum stehen neben einer berühmten Biermann-Fotografie typografische 3D-Visuals, die wir über verschiedene Formate hinweg adaptiert haben – vom LP-Cover bis zum animierten Spotify-Canvas. Die klare, reduzierte Gestaltung der Plattencover trifft auf lebendige Typoanimationen für Social Media und digitale Plattformen. Ergänzt wurde das visuelle Konzept durch eine begleitende Plakatkampagne und Social Media Content für den offiziellen Album-Launch.  \nZiel war es, die künstlerische Haltung Biermanns – unbequem, poetisch, laut – gestalterisch weiterzudenken und gleichzeitig für eine junge Zielgruppe neu erlebbar zu machen."
+        description: "Für das 2024 erschienene Album »Wolf Biermann – RE:IMAGINED. Lieder für jetzt!« durften wir das gesamte visuelle Erscheinungsbild gestalten. Das Projekt vereint 22 Neuinterpretationen von Biermanns Liedern durch Künstler:innen wie Alligatoah, Haiyti, OK KID, Betterov oder Lina Maly – und schlägt damit eine künstlerische Brücke zwischen Vergangenheit und Gegenwart.  <br>Unsere Gestaltung setzt diesen Brückenschlag visuell um: Im Zentrum stehen neben einer berühmten Biermann-Fotografie typografische 3D-Visuals, die wir über verschiedene Formate hinweg adaptiert haben – vom LP-Cover bis zum animierten Spotify-Canvas. Die klare, reduzierte Gestaltung der Plattencover trifft auf lebendige Typoanimationen für Social Media und digitale Plattformen. Ergänzt wurde das visuelle Konzept durch eine begleitende Plakatkampagne und Social Media Content für den offiziellen Album-Launch.  <br>Ziel war es, die künstlerische Haltung Biermanns – unbequem, poetisch, laut – gestalterisch weiterzudenken und gleichzeitig für eine junge Zielgruppe neu erlebbar zu machen."
     },
     {
         id: "buchgestaltung-nonprofit-epda",
@@ -69,7 +82,7 @@ const projectInformation = [
         categories: ["Buch- & Editorial Design"],
         metaData: "Editorial Design & Art Direction für die European Brand and Packaging Design Association, 2022",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "vid", "img", "img", "img"],
-        description: "Die european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. \nAnlässlich des 30-jährigen Jubiläums gestalteten wir »The Design Agency Boost Book« - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt."
+        description: "Die european brand & packaging design association ist das führende europäische Netzwerk internationaler GestalterInnen und Agenturen. Im Fokus stehen der Austausch von Informationen, Ideen und Meinungen über Verpackung, Identitäten oder Literaturgeschehen. <br>Anlässlich des 30-jährigen Jubiläums gestalteten wir »The Design Agency Boost Book« - ein Buch, das die zehn wichtigsten Überzeugungen von Fachleuten aus der internationalen Gestaltungsbranche vorstellt."
     },
     {
         id: "lp-design-wolf-biermann-ermutigung",
@@ -78,7 +91,7 @@ const projectInformation = [
         categories: ["Corporate Design", "Animation", "Digital Design", "Musik"],
         metaData: "Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute",
         mediaTypes: ["vid", "img", "img", "img", "img", "img"],
-        description: "Für die Veröffentlichung der LP »Ermutigung« haben wir ein visuelles Konzept entwickelt, das direkt an die berühmte Zeile »Du, lass dich nicht verhärten in dieser harten Zeit« anknüpft. Das Cover greift diese Aussage bildlich auf und übersetzt sie grafisch in eine 3D-Ballon-Optik – als Symbol für Bewegung, Widerstandskraft und poetische Aufladung inmitten harter Zeiten. \nDie visuelle Sprache spielt mit Materialität und Form, steht im Kontrast zur politischen Schwere des Liedes und betont gleichzeitig dessen zentrale Botschaft: weich bleiben, auch wenn es schwerfällt. Es findet Platz auf thematisch passendem Merch wie Stressbällen, Pop-Sockets und Kaugummis. \nDas Artwork wurde als Teil der exklusiven LP-Veröffentlichung im Box-Set »Wolf Biermann: Zeiten verbinden« gestaltet und ist ebenfalls in begleitenden digitalen Formaten für Social Media und Streaming-Plattformen zu hören.",
+        description: "Für die Veröffentlichung der LP »Ermutigung« haben wir ein visuelles Konzept entwickelt, das direkt an die berühmte Zeile »Du, lass dich nicht verhärten in dieser harten Zeit« anknüpft. Das Cover greift diese Aussage bildlich auf und übersetzt sie grafisch in eine 3D-Ballon-Optik – als Symbol für Bewegung, Widerstandskraft und poetische Aufladung inmitten harter Zeiten. <br>Die visuelle Sprache spielt mit Materialität und Form, steht im Kontrast zur politischen Schwere des Liedes und betont gleichzeitig dessen zentrale Botschaft: weich bleiben, auch wenn es schwerfällt. Es findet Platz auf thematisch passendem Merch wie Stressbällen, Pop-Sockets und Kaugummis. <br>Das Artwork wurde als Teil der exklusiven LP-Veröffentlichung im Box-Set »Wolf Biermann: Zeiten verbinden« gestaltet und ist ebenfalls in begleitenden digitalen Formaten für Social Media und Streaming-Plattformen zu hören.",
     },
     {
         id: "corporate-design-chor-jazzica",
@@ -96,7 +109,7 @@ const projectInformation = [
         categories: ["Corporate Design", "Musik"],
         metaData: "Plattengestaltung und Animationen für Wolf Biermann",
         mediaTypes: ["img", "vid", "img", "img", "img", "img"],
-        description: "Für die Veröffentlichung dieser historischen Tonbandaufnahmen von 1973 haben wir ein gestalterisches Konzept entwickelt, das die besondere Entstehungsgeschichte visuell aufgreift. Das Projekt erzählt nicht nur von musikalischer Raffinesse, sondern auch von kreativer Improvisation und mutiger Zusammenarbeit im Verborgenen – ein Spirit, den wir in die Gestaltung übersetzt haben. \nDie Inszenierung der Räume und Instrumente stand im Mittelpunkt unseres visuellen Konzepts: Wir haben den provisorischen Aufnahmeraum – von Wohnzimmer bis Badezimmer – grafisch zitiert und typografisch in Szene gesetzt. Illustrative Elemente und atmosphärische Details lassen das legendäre Berliner Wohnzimmer-Studio in Lichtenberg lebendig werden. So wird die Geschichte dieser heimlichen Session nicht nur hör-, sondern auch sichtbar. \nDas Design erschien als Plattencover und begleitende Visuals für die Pressearbeit, digitale Anwendungen und Social Media."
+        description: "Für die Veröffentlichung dieser historischen Tonbandaufnahmen von 1973 haben wir ein gestalterisches Konzept entwickelt, das die besondere Entstehungsgeschichte visuell aufgreift. Das Projekt erzählt nicht nur von musikalischer Raffinesse, sondern auch von kreativer Improvisation und mutiger Zusammenarbeit im Verborgenen – ein Spirit, den wir in die Gestaltung übersetzt haben. <br>Die Inszenierung der Räume und Instrumente stand im Mittelpunkt unseres visuellen Konzepts: Wir haben den provisorischen Aufnahmeraum – von Wohnzimmer bis Badezimmer – grafisch zitiert und typografisch in Szene gesetzt. Illustrative Elemente und atmosphärische Details lassen das legendäre Berliner Wohnzimmer-Studio in Lichtenberg lebendig werden. So wird die Geschichte dieser heimlichen Session nicht nur hör-, sondern auch sichtbar. <br>Das Design erschien als Plattencover und begleitende Visuals für die Pressearbeit, digitale Anwendungen und Social Media."
     },
     {
         id: "webdesign-illustration-zbw",
@@ -123,7 +136,7 @@ const projectInformation = [
         categories: ["Illustration", "Buch- & Editorial Design"],
         metaData: "Editorial Design, Art Direction und Illustrationen für ein Reisetagebuch",
         mediaTypes: ["img", "img", "img", "img", "img", "img"],
-        description: "Für das Reisetagebuch von Noëlle haben wir eine visuelle Sprache entwickelt, die Neugier, Fernweh und persönliche Begegnungen in den Mittelpunkt stellt. Über knapp vier Monate hinweg hielt sie ihre Erlebnisse in Wort und Bild fest – von entlegenen Naturwundern über bunte Unterwasserwelten bis hin zu pulsierenden Städten. Das Buch erzählt nicht nur von besonderen Orten, sondern auch von neuen Freundschaften und vom Mut, sich einen Lebenstraum zu erfüllen. \nStudio Ajot übernahm die komplette grafische Gestaltung – von Cover und Satz bis hin zu liebevollen Illustrationen, die die Erzählung begleiten und atmosphärisch erweitern. Das Design folgt der Idee eines persönlichen, modernen Logbuchs: offen, nahbar, detailverliebt."
+        description: "Für das Reisetagebuch von Noëlle haben wir eine visuelle Sprache entwickelt, die Neugier, Fernweh und persönliche Begegnungen in den Mittelpunkt stellt. Über knapp vier Monate hinweg hielt sie ihre Erlebnisse in Wort und Bild fest – von entlegenen Naturwundern über bunte Unterwasserwelten bis hin zu pulsierenden Städten. Das Buch erzählt nicht nur von besonderen Orten, sondern auch von neuen Freundschaften und vom Mut, sich einen Lebenstraum zu erfüllen. <br>Studio Ajot übernahm die komplette grafische Gestaltung – von Cover und Satz bis hin zu liebevollen Illustrationen, die die Erzählung begleiten und atmosphärisch erweitern. Das Design folgt der Idee eines persönlichen, modernen Logbuchs: offen, nahbar, detailverliebt."
     },
     {
         id: "plakatdesign-calendarium-luminis",
@@ -150,7 +163,7 @@ const projectInformation = [
         categories: ["Buch- & Editorial Design"],
         metaData: "Editorial Design & Art Direction für Kerstin Abraham und die Sparkassenstiftung Schleswig-Holstein",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
-        description: "»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ \nMit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke"
+        description: "»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ <br>Mit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke"
     },{
         id: "corporate-design-tech-wobesystems",
         accentColor: "#91B3FF",
@@ -164,7 +177,7 @@ const projectInformation = [
         id: "lp-design-wolf-biermann-nachpressungen",
         title: "LP Design: Re-Issues für Wolf Biermann",
         metaData: "Plattengestaltung",
-        description: "Für die Neuauflage von Wolf Biermanns ersten beiden Alben haben wir das Artwork minimal modernisiert und grafisch an die Erscheinung des Box-Set angepasst. Ziel war es, die historische und künstlerische Bedeutung der Originalaufnahmen zu bewahren, sie aber visuell in die Gegenwart zu überführen. \n»Chausseestraße 131« entstand 1968 unter widrigsten Bedingungen – aufgenommen in Biermanns Wohnung, weil ihm alle Studios der DDR verweigert wurden. Die zufälligen Hintergrundgeräusche – Hunde, Kinder, Straßenbahnen – prägten den legendären »geilen Chausseestraßen-Sound«. Diese besondere Atmosphäre haben wir gestalterisch aufgegriffen und in eine zeitgemäße visuelle Sprache übersetzt. Auch »Warte nicht auf beßre Zeiten« (1973), Biermanns zweites Album, erhält durch die neue Gestaltung eine frische Bühne. In einer Zeit politischer Aufbruchsstimmung war dieses Werk ein Aufruf zum Widerstand und zum Bleiben. Die grafische Umsetzung spiegelt diesen Mut wider – als kraftvolles Echo in die Jetztzeit. \nBeide Re-Issues sind Teil der Initiative, Biermanns Werk einer neuen Generation zugänglich zu machen – klanglich wie visuell.",
+        description: "Für die Neuauflage von Wolf Biermanns ersten beiden Alben haben wir das Artwork minimal modernisiert und grafisch an die Erscheinung des Box-Set angepasst. Ziel war es, die historische und künstlerische Bedeutung der Originalaufnahmen zu bewahren, sie aber visuell in die Gegenwart zu überführen. <br>»Chausseestraße 131« entstand 1968 unter widrigsten Bedingungen – aufgenommen in Biermanns Wohnung, weil ihm alle Studios der DDR verweigert wurden. Die zufälligen Hintergrundgeräusche – Hunde, Kinder, Straßenbahnen – prägten den legendären »geilen Chausseestraßen-Sound«. Diese besondere Atmosphäre haben wir gestalterisch aufgegriffen und in eine zeitgemäße visuelle Sprache übersetzt. Auch »Warte nicht auf beßre Zeiten« (1973), Biermanns zweites Album, erhält durch die neue Gestaltung eine frische Bühne. In einer Zeit politischer Aufbruchsstimmung war dieses Werk ein Aufruf zum Widerstand und zum Bleiben. Die grafische Umsetzung spiegelt diesen Mut wider – als kraftvolles Echo in die Jetztzeit. <br>Beide Re-Issues sind Teil der Initiative, Biermanns Werk einer neuen Generation zugänglich zu machen – klanglich wie visuell.",
         categories: ["Corporate Design", "Musik"],
         accentColor: "#FD4B74",
         mediaTypes: ["img", "img", "img", "img", "img"],
@@ -187,7 +200,7 @@ const projectInformation = [
         categories: ["Corporate Design", "Buch- & Editorial Design", "Webdesign", "Plakatgestaltung"],
         metaData: "Ausstellungsgestaltung für eine Absolvent:innenausstellung der Muthesius Kunsthochschule",
         mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
-        description: "MFA - My Favorite Acronym \n \nKonzept: Lena Reisner \nProgrammierung: Björn Schmidt \n \nFür die Ausstellung »Master of Fine Arts« der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann."
+        description: "MFA - My Favorite Acronym <br> <br>Konzept: Lena Reisner <br>Programmierung: Björn Schmidt <br> <br>Für die Ausstellung »Master of Fine Arts« der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann."
     },
     {
         id: "corporate-design-sundance-farmers",
@@ -205,12 +218,12 @@ const projectInformation = [
         categories: ["Corporate Design", "Plakatgestaltung"],
         metaData: "Plakatgestaltung für den Musiker Tim Nicklaus",
         mediaTypes: ["img", "img", "img",],
-        description: "Small Things  \n \nTim Nicklaus ist ein freiberuflicher Schlagzeuger aus Hannover. Für sein Abschlusskonzert wurden wir mit der Plakatgestaltung beauftragt. Zusätzlich entwarfen wir seine Geschäftsausstattung in Form von Visitenkarten."
+        description: "Small Things  <br> <br>Tim Nicklaus ist ein freiberuflicher Schlagzeuger aus Hannover. Für sein Abschlusskonzert wurden wir mit der Plakatgestaltung beauftragt. Zusätzlich entwarfen wir seine Geschäftsausstattung in Form von Visitenkarten."
     },
     {
         id: "corporate-design-nonprofit-frauenberatung-elmshorn",
         accentColor: "#F6BF5C",
-        title: "Frauen*\nberatung Elmshorn",
+        title: "Frauen*<wbr>beratung Elmshorn",
         categories: ["Corporate Design", "Buch- & Editorial Design", "Digital Design"],
         metaData: "Entwicklung eines Corporate Designs, Jahresberichts und Betreuung von sämtlichen Druckerzeugnissen.",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
@@ -219,7 +232,7 @@ const projectInformation = [
     {
         id: "corporate-design-konsultation-nationalpark-ostsee",
         accentColor: "#64CCBC",
-        title: "Konsultations\nprozess Nationalpark Ostsee",
+        title: "Konsultations<wbr>prozess Nationalpark Ostsee",
         categories: ["Corporate Design"],
         metaData: "Entwicklung einer Markenidentität für den Konsultationsprozess Nationalpark Ostsee des Ministeriums für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
         mediaTypes: ["vid", "img", "img", "img", "vid", "img", "img", "img"],
@@ -232,7 +245,7 @@ const projectInformation = [
         categories: ["Buch- & Editorial Design"],
         metaData: "Coverdesign für den Roman »Ultraviolett« von Flurin Jecker, erschienen im Haymon Verlag",
         mediaTypes: ["img", "img", "img", "img", "img"],
-        description: "»Es gibt einen Punkt, an dem Hirngespinste zu Geisterbeschwörungen werden. Und es gibt einen Punkt, an dem sich Panik in Musik verwandelt. Durch eine bestimmte Feinsinnigkeit lassen sich diese beiden Punkte überlagern. Dort beginnt es zu glühen, dort gibt es Sonnenuntergänge, Abschiede und Euphorie. Von diesem Glühen erzählt Flurin Jecker.« ¹  in Ultraviolett. Für die Umschlaggestaltung des Romans wurden wir vom Haymon Verlag beauftragt. \n¹ Zitat: Joshua Groß"
+        description: "»Es gibt einen Punkt, an dem Hirngespinste zu Geisterbeschwörungen werden. Und es gibt einen Punkt, an dem sich Panik in Musik verwandelt. Durch eine bestimmte Feinsinnigkeit lassen sich diese beiden Punkte überlagern. Dort beginnt es zu glühen, dort gibt es Sonnenuntergänge, Abschiede und Euphorie. Von diesem Glühen erzählt Flurin Jecker.« ¹  in Ultraviolett. Für die Umschlaggestaltung des Romans wurden wir vom Haymon Verlag beauftragt. <br>¹ Zitat: Joshua Groß"
     },
     {
         id: "corporate-design-tech-getnextit",
@@ -241,7 +254,7 @@ const projectInformation = [
         categories: ["Corporate Design", "Digital Design"],
         metaData: "Entwicklung einer Markenidentität und Werbemaßnahmen",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img"],
-        description: "Durch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. \n2021 entwickelten wir das neue Corporate Design. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a class='' href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>."
+        description: "Durch den gezielten Einsatz technischer Lösungen, Tools und Methoden werden Voraussetzungen geschaffen, um Ziele optimal zu erreichen. Seit 2016 berät getNextIT aus Kiel verschiedene Unternehmen und verhilft ihnen dabei, die Chancen dieser Veränderung nachhaltig, sinnvoll und effizient zu nutzen. <br>2021 entwickelten wir das neue Corporate Design. Mehr zum Prozess – die ersten Schritte bis hin zu der Finalisierung der neuen Identität - unter diesem <a href='https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D' target='_blank' rel='noopener noreferrer'>Link</a>."
     },
     {
         id: "buchgestaltung-art-direction-lmaa",
@@ -250,7 +263,7 @@ const projectInformation = [
         categories: ["Buch- & Editorial Design"],
         metaData: "Editorial Design & Art Direction für Pablo Martínez-Calleja",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
-        description: "Lüneburg mit anderen Augen \n \nWie ein Jäger des Augenblicks streift der in Lüneburg lebende Fotograf Pablo Martínez-Calleja mit seiner Kamera umher und nähert sich der Realität der StadtbewohnerInnen in Zeiten der Pandemie. Er fängt Situationen mit einem sensiblen Blick und ironischem Augenzwinkern ein. Jedes Foto lässt die Betrachtenden die Präsenz des Autors spüren, die wir auch innerhalb der Buchgestaltung in den Fokus setzten. Wir bewegen uns mit den Augen und der Perspektive des Fotografen innerhalb des Buches durch die Stadt."
+        description: "Lüneburg mit anderen Augen <br> <br>Wie ein Jäger des Augenblicks streift der in Lüneburg lebende Fotograf Pablo Martínez-Calleja mit seiner Kamera umher und nähert sich der Realität der StadtbewohnerInnen in Zeiten der Pandemie. Er fängt Situationen mit einem sensiblen Blick und ironischem Augenzwinkern ein. Jedes Foto lässt die Betrachtenden die Präsenz des Autors spüren, die wir auch innerhalb der Buchgestaltung in den Fokus setzten. Wir bewegen uns mit den Augen und der Perspektive des Fotografen innerhalb des Buches durch die Stadt."
     },
     {
         id: "logogestaltung-branding",
@@ -295,6 +308,6 @@ const projectInformation = [
         categories: ["Corporate Design", "Plakatgestaltung", "Buch- & Editorial Design"],
         metaData: "Plakatgestaltung für eine Vorlesungsreihe der Muthesius Kunsthochschule",
         mediaTypes: ["img", "img", "img", "vid", "img"],
-        description: "RESET – let's talk about diversity \n \nChancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen."
+        description: "RESET – let's talk about diversity <br> <br>Chancengleichheit, Antidiskriminierung und Diversität sind prozesshafte Themenkomplexe, die es stetig zu diskutieren gilt. Insbesondere an Institutionen ist ein gemeinsamer Austausch essenziell. Für die Themen- und Diskursveranstaltungen der Arbeitsgruppe RESET, bestehend aus unterschiedlichen AkteurInnen der Hochschule, gestalteten wir Plakate und Social Media Vorlagen."
     }
 ];
