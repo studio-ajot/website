@@ -219,7 +219,7 @@ const projectInformation = [
     {
         id: "corporate-design-konsultation-nationalpark-ostsee",
         accentColor: "#64CCBC",
-        title: "Konsultationsprozess Nationalpark Ostsee",
+        title: "Konsultations\nprozess Nationalpark Ostsee",
         categories: ["Corporate Design"],
         metaData: "Entwicklung einer Markenidentität für den Konsultationsprozess Nationalpark Ostsee des Ministeriums für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
         mediaTypes: ["vid", "img", "img", "img", "vid", "img", "img", "img"],
