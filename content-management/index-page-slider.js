@@ -18,7 +18,7 @@ const indexPageSlider = [
 ];
 
 
-const indexPageStatementsSlider = [
+const customerStatementsSlider = [
     {
         author: "Sabine Wojcieszak",
         subtitle: "Gründerin von getNextIT",

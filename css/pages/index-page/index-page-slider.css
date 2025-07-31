@@ -94,12 +94,36 @@
     }
 }
 
-.main-statements-carousel {
+
+/* ################################
+#    main statements carousel     #
+#################################*/
+
+
+.customer-statements-carousel {
     height: 210px;
 }
 
+@media (max-width: 1440px) {
+    .customer-statements-carousel {
+        height: 230px;
+    }
+}
+
 @media (max-width: 1200px) {
-    .main-statements-carousel {
-        height: 240px;
+    .customer-statements-carousel {
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .customer-statements-carousel {
+        height: 260px;
+    }
+}
+
+@media (max-width: 576px) {
+    .customer-statements-carousel {
+        height: 280px;
     }
 }

@@ -93,7 +93,7 @@ function setProgressBarHightlight() {
 }
 
 function initializeTextSlider() {
-    $(".main-statements-carousel").flickity({
+    $(".customer-statements-carousel").flickity({
         cellAlign: "left",
         contain: true,
         wrapAround: true,
@@ -106,7 +106,7 @@ function initializeTextSlider() {
 }
 
 function fillTextSlider() {
-    indexPageStatementsSlider.forEach((statement) => {
+    customerStatementsSlider.forEach((statement) => {
         const textElement = `
           <div class='w-100'>
           <div class='row'>
@@ -124,6 +124,6 @@ function fillTextSlider() {
           </div>
           </div>
     `;
-        $(".main-statements-carousel").flickity("append", $(textElement));
+        $(".customer-statements-carousel").flickity("append", $(textElement));
     });
 }
