@@ -1,8 +1,8 @@
 $(document).ready(function () {
     initializeCarousel();
     fillCarousel();
-    // initializeTextSlider();
-    // fillTextSlider();
+    initializeTextSlider();
+    fillTextSlider();
     setupLazyLoading();
     setupProgressBar();
 
@@ -18,18 +18,12 @@ $(document).ready(function () {
 
 function initializeCarousel() {
     $(".main-carousel").flickity({
-        draggable: true,
-        wrapAround: true,
-        imagesLoaded: true,
-        lazyLoad: 1,
-        autoPlay: 4500,
-        pauseAutoPlayOnHover: false,
-        on: {
+        pageDots: false,
+        draggable: true, wrapAround: true, imagesLoaded: true, lazyLoad: 1, autoPlay: 4500, pauseAutoPlayOnHover: false, on: {
             ready: function () {
                 this.off('uiChange', this.stopPlayer);
                 this.off('pointerDown', this.stopPlayer);
-            },
-            change: function () {
+            }, change: function () {
                 this.stopPlayer();
                 this.playPlayer();
             }
@@ -98,38 +92,46 @@ function setProgressBarHightlight() {
     $("#progress-bar-highlight").css("left", `${left}px`);
 }
 
-// function initializeTextSlider() {
-//     $(".main-statements-carousel").flickity({
-//         cellAlign: "left",
-//         contain: true,
-//         wrapAround: true,
-//         autoPlay: 6000,
-//         pauseAutoPlayOnHover: false,
-//         prevNextButtons: false,
-//         pageDots: true
-//     });
-// }
-//
-// function fillTextSlider() {
-//     indexPageStatementsSlider.forEach((statement) => {
-//         const textElement = `
-//         <div class="text-slide">
-//             <div class='d-flex flex-column col-xl-6 col-12 mb-3 mb-xl-0'>
-//               <p class="statement-text">"${statement.text}"</p>
-//               <a class='button primary-button big text-decoration-none'
-//                   href="mailto:hello@studio-ajot.de?subject=Projektanfrage&body=Hallo%20liebes%20Ajot-Team,%0A">
-//               Jetzt kontaktieren
-//               </a>
-//             </div>
-//             <!-- 1-col white spacer, visible only on xl -->
-//             <div class="d-none d-xl-block col-xl-1"></div>
-//
-//               <div class='d-flex flex-column col-xl-5 col-12 mt-2 mt-xl-0'>
-//                  <span class="statement-author">– ${statement.author}</span>
-//               </div>
-//           </div>
-//       </div>
-//     `;
-//         $(".main-statements-carousel").flickity("append", $(textElement));
-//     });
-// }
+function initializeTextSlider() {
+    $(".main-statements-carousel").flickity({
+        cellAlign: "left",
+        contain: true,
+        wrapAround: true,
+        autoPlay: 8000,
+        pauseAutoPlayOnHover: false,
+        prevNextButtons: false,
+        pageDots: true,
+        draggable: false,
+    });
+}
+
+function fillTextSlider() {
+    indexPageStatementsSlider.forEach((statement) => {
+        const textElement = `
+          <div class='w-100'>
+          <div class='row'>
+            <div class='d-flex flex-column col-xl-6 col-12'>
+                <p class="statement-text">
+                  ${statement.text}
+                  ${statement.link ? `<a class='semibold' href="${statement.link}" target='_blank' rel='noopener noreferrer'> &gt; Weiterlesen</a>` : ''}
+                </p>
+<!--              <a class='button primary-button big text-decoration-none d-none d-xl-block'-->
+<!--                 href="./kontakt.html">-->
+<!--              Jetzt kontaktieren-->
+<!--              </a>-->
+            </div>
+            <div class="d-none d-xl-block col-xl-1"></div>
+            <div class='d-flex flex-column col-xl-5 col-12'>                 
+              <span class="semibold">${statement.author}</span>
+              <span>${statement.subtitle}</span>
+            </div>
+          </div>
+<!--                 <a class='button primary-button big text-decoration-none d-xl-none mt-4 '-->
+<!--                 href="./kontakt.html">-->
+<!--              Jetzt kontaktieren-->
+<!--              </a>-->
+          </div>
+    `;
+        $(".main-statements-carousel").flickity("append", $(textElement));
+    });
+}

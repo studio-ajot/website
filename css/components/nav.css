@@ -145,8 +145,9 @@
 .submenu.active::before {
     opacity: 1;
     visibility: visible;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 @media (max-width: 768px) {
