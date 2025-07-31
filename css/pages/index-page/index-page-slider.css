@@ -95,11 +95,11 @@
 }
 
 .main-statements-carousel {
-    height: 190px;
+    height: 210px;
 }
 
 @media (max-width: 1200px) {
     .main-statements-carousel {
-        height: 220px;
+        height: 240px;
     }
 }

@@ -113,12 +113,8 @@ function fillTextSlider() {
             <div class='d-flex flex-column col-xl-6 col-12'>
                 <p class="statement-text">
                   ${statement.text}
-                  ${statement.link ? `<a class='semibold' href="${statement.link}" target='_blank' rel='noopener noreferrer'> &gt; Weiterlesen</a>` : ''}
+                  ${statement.link ? `<a class='semibold no-break' href="${statement.link}" target='_blank' rel='noopener noreferrer'> &gt; Weiterlesen</a>` : ''}
                 </p>
-<!--              <a class='button primary-button big text-decoration-none d-none d-xl-block'-->
-<!--                 href="./kontakt.html">-->
-<!--              Jetzt kontaktieren-->
-<!--              </a>-->
             </div>
             <div class="d-none d-xl-block col-xl-1"></div>
             <div class='d-flex flex-column col-xl-5 col-12'>                 
@@ -126,10 +122,6 @@ function fillTextSlider() {
               <span>${statement.subtitle}</span>
             </div>
           </div>
-<!--                 <a class='button primary-button big text-decoration-none d-xl-none mt-4 '-->
-<!--                 href="./kontakt.html">-->
-<!--              Jetzt kontaktieren-->
-<!--              </a>-->
           </div>
     `;
         $(".main-statements-carousel").flickity("append", $(textElement));

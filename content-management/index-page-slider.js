@@ -23,7 +23,7 @@ const indexPageStatementsSlider = [
         author: "Sabine Wojcieszak",
         subtitle: "getNextIT",
         text: "»… Johanna und Anastasia haben gute Fragen gestellt, extrem gut zugehört und meine Gedanken sowie mein Feedback aufgegriffen und umgesetzt. Sich in diesem Prozess gehört zu fühlen, ist meines Erachtens wichtig dafür, um sich später mit dem Ergebnis identifizieren zu können. …«",
-        link: 'https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D"class = "black-links',
+        link: 'https://www.linkedin.com/pulse/zeit-f%25C3%25BCr-ein-neues-gesicht-mehr-als-nur-logo-getnext-it/?trackingId=zFekC7I%2FgDhA5bWNS334%2FA%3D%3D"',
     }, {
         author: "Corin Freyer",
         subtitle: "DayOff",
