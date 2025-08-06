@@ -199,7 +199,7 @@ const projectInformation = [
         title: "My Favorite Acronym",
         categories: ["Corporate Design", "Buch- & Editorial Design", "Webdesign", "Plakatgestaltung"],
         metaData: "Ausstellungsgestaltung für eine Absolvent:innenausstellung der Muthesius Kunsthochschule",
-        mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
+        mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
         description: "MFA - My Favorite Acronym <br> <br>Konzept: Lena Reisner <br>Programmierung: Björn Schmidt <br> <br>Für die Ausstellung »Master of Fine Arts« der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann."
     },
     {
