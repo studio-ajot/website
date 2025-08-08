@@ -217,7 +217,7 @@ const projectInformation = [
         title: "Small Things - ein Konzert",
         categories: ["Corporate Design", "Plakatgestaltung"],
         metaData: "Plakatgestaltung für den Musiker Tim Nicklaus",
-        mediaTypes: ["img", "img", "img",],
+        mediaTypes: ["img", "img"],
         description: "Small Things  <br> <br>Tim Nicklaus ist ein freiberuflicher Schlagzeuger aus Hannover. Für sein Abschlusskonzert wurden wir mit der Plakatgestaltung beauftragt. Zusätzlich entwarfen wir seine Geschäftsausstattung in Form von Visitenkarten."
     },
     {
