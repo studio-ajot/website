@@ -217,7 +217,7 @@ const projectInformation = [
         title: "Branding für Sundance Farmers",
         categories: ["Corporate Design"],
         metaData: "Entwicklung des Markenauftritts",
-        mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img"],
+        mediaTypes: ["img", "img", "img", "img", "img", "img", "img"],
         description: "Bei Sundance Farmers Inc. stehen die nachhaltige und ökologische Landwirtschaft sowie der faire Umgang mit Landwirten im Vordergrund. Für das Unternehmen entwickelten wir ein ganzheitliches Erscheinungsbild, das nicht nur einen Bezug zu den örtlichen Tätigkeitsgebieten des Unternehmens, sondern auch zur Nachhaltigkeit, dem Erhalt des Planeten als Unternehmensaufgabe, herstellt."
     },
     {
