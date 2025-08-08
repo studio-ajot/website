@@ -272,7 +272,7 @@ const projectInformation = [
         title: "Branding Projekte",
         categories: ["Corporate Design"],
         metaData: "Entwicklung von Markenauftritten für unterschiedliche Unternehmen und Auftraggeber:innen – eine Auswahl.",
-        mediaTypes: ["vid", "img", "img", "img", "img", "vid"],
+        mediaTypes: ["vid", "img", "img", "img", "img"],
         description: "Ob kleine Firma oder Großunternehmen – mit Kreativität und Feingefühl erarbeiten wir visuelle Konzepte und individuell zugeschnittene Lösungen und Werbemaßnahmen."
     },
     {
