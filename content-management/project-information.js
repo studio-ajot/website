@@ -235,7 +235,7 @@ const projectInformation = [
         title: "Konsultations<wbr>prozess Nationalpark Ostsee",
         categories: ["Corporate Design"],
         metaData: "Entwicklung einer Markenidentität für den Konsultationsprozess Nationalpark Ostsee des Ministeriums für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
-        mediaTypes: ["vid", "img", "img", "img", "vid", "img", "img", "img"],
+        mediaTypes: ["img", "vid", "img", "img", "img", "img", "img"],
         description: "Die Ostsee ist Heimat, Arbeitsplatz und Erholungsgebiet. Ein wertvoller Lebensraum, dessen Schutz sich die Landesregierung Schleswig-Holstein zur Aufgabe gemacht hat. Basierend auf bestehenden Schutzgebieten sollen die Machbarkeiten und Möglichkeiten eines Ausbaus mit allen Interessengruppen diskutiert werden. Diesen wichtigen Prozess unterstützen wir mit der Erstellung der grafischen Identität."
     },
     {
