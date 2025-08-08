@@ -157,6 +157,15 @@ const projectInformation = [
         description: "Ein Neujahrsgruß für 2022: be inspired, happy, healthy, fancy, playful, loving, fierce, mindful, focused, bold, sharp, curious."
     },
     {
+        id: "corporate-design-konsultation-nationalpark-ostsee",
+        accentColor: "#64CCBC",
+        title: "Konsultations<wbr>prozess Nationalpark Ostsee",
+        categories: ["Corporate Design"],
+        metaData: "Entwicklung einer Markenidentität für den Konsultationsprozess Nationalpark Ostsee des Ministeriums für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
+        mediaTypes: ["img", "vid", "img", "img", "img", "img", "img"],
+        description: "Die Ostsee ist Heimat, Arbeitsplatz und Erholungsgebiet. Ein wertvoller Lebensraum, dessen Schutz sich die Landesregierung Schleswig-Holstein zur Aufgabe gemacht hat. Basierend auf bestehenden Schutzgebieten sollen die Machbarkeiten und Möglichkeiten eines Ausbaus mit allen Interessengruppen diskutiert werden. Diesen wichtigen Prozess unterstützen wir mit der Erstellung der grafischen Identität."
+    },
+    {
         id: "buchgestaltung-kunstkatalog-kerstin-abraham",
         accentColor: "#E64D4D",
         title: "Ceramica Borealis",
@@ -229,15 +238,7 @@ const projectInformation = [
         mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
         description: "Die Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. Wir entwickelten die neue visuelle Identität und gestalten fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen."
     },
-    {
-        id: "corporate-design-konsultation-nationalpark-ostsee",
-        accentColor: "#64CCBC",
-        title: "Konsultations<wbr>prozess Nationalpark Ostsee",
-        categories: ["Corporate Design"],
-        metaData: "Entwicklung einer Markenidentität für den Konsultationsprozess Nationalpark Ostsee des Ministeriums für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
-        mediaTypes: ["img", "vid", "img", "img", "img", "img", "img"],
-        description: "Die Ostsee ist Heimat, Arbeitsplatz und Erholungsgebiet. Ein wertvoller Lebensraum, dessen Schutz sich die Landesregierung Schleswig-Holstein zur Aufgabe gemacht hat. Basierend auf bestehenden Schutzgebieten sollen die Machbarkeiten und Möglichkeiten eines Ausbaus mit allen Interessengruppen diskutiert werden. Diesen wichtigen Prozess unterstützen wir mit der Erstellung der grafischen Identität."
-    },
+
     {
         id: "buchgestaltung-covergestaltung-verlag-haymon",
         accentColor: "#47D0B5",
