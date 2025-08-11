@@ -99,7 +99,7 @@ const projectInformation = [
         title: "Jazzica – ein A-Capella Chor aus Kiel",
         categories: ["Corporate Design", "Schriftgestaltung", "Plakatgestaltung", "Webdesign", "Animation"],
         metaData: "Aufbau einer Markenidentität & Entwicklung von Werbemaßnahmen für Jazzica",
-        mediaTypes: ["img", "vid", "img", "img", "img", "vid", "img"],
+        mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img"],
         description: "Der Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft."
     },
     {
@@ -179,7 +179,7 @@ const projectInformation = [
         title: "Branding für wobe-systems",
         categories: ["Corporate Design", "Schriftgestaltung", "Animation", "Digital Design"],
         metaData: "Aufbau einer Markenidentität, Social Media Assets und Werbemaßnahmen",
-        mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img", "img", "img", "img", "img"],
+        mediaTypes: ["vid", "vid", "img", "img", "img", "img", "img", "img", "img"],
         description: "Seit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog zwischen Mensch und Maschine beinhaltet."
     },
     {
@@ -208,7 +208,7 @@ const projectInformation = [
         title: "My Favorite Acronym",
         categories: ["Corporate Design", "Buch- & Editorial Design", "Webdesign", "Plakatgestaltung"],
         metaData: "Ausstellungsgestaltung für eine Absolvent:innenausstellung der Muthesius Kunsthochschule",
-        mediaTypes: ["img", "img", "img", "vid", "img", "img", "img", "img", "img", "img"],
+        mediaTypes: ["img", "img", "vid", "img", "img", "img", "img", "img"],
         description: "MFA - My Favorite Acronym <br> <br>Konzept: Lena Reisner <br>Programmierung: Björn Schmidt <br> <br>Für die Ausstellung »Master of Fine Arts« der MasterabsolventInnen der Muthesius Kunsthochschule, Kiel im Bereich Freie Kunst entwickelten wir 2021 die visuelle Erscheinung. Die Gestaltung basiert auf dem Konzept, dass das Akronym des akademischen Titels MFA (Master of Fine Arts) individuell für eine Reihe anderer, sowohl real existierender als auch fiktionaler Ausdrücke und Eigennamen stehen kann."
     },
     {
@@ -235,7 +235,7 @@ const projectInformation = [
         title: "Frauen*<wbr>beratung Elmshorn",
         categories: ["Corporate Design", "Buch- & Editorial Design", "Digital Design"],
         metaData: "Entwicklung eines Corporate Designs, Jahresberichts und Betreuung von sämtlichen Druckerzeugnissen.",
-        mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
+        mediaTypes: ["img", "img", "img", "vid", "img", "img"],
         description: "Die Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. Wir entwickelten die neue visuelle Identität und gestalten fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen."
     },
 
