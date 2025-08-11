@@ -15,6 +15,10 @@ const indexPageSlider = [
         id: "lp-design-wolf-biermann-ermutigung",
         type: "img",
     },
+    {
+        id: "buchgestaltung-nonprofit-epda",
+        type: "img",
+    },
 ];
 
 
