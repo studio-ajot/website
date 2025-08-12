@@ -235,7 +235,7 @@ const projectInformation = [
         title: "Frauen*<wbr>beratung Elmshorn",
         categories: ["Corporate Design", "Buch- & Editorial Design", "Digital Design"],
         metaData: "Entwicklung eines Corporate Designs, Jahresberichts und Betreuung von sämtlichen Druckerzeugnissen.",
-        mediaTypes: ["img", "img", "img", "vid", "img", "img"],
+        mediaTypes: ["img", "img", "img", "img", "vid", "img", "img"],
         description: "Die Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. Wir entwickelten die neue visuelle Identität und gestalten fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen."
     },
 
