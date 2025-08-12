@@ -33,7 +33,7 @@ const differentPreviewForGallery = {
 			{'ausstellungsdesign-kunstkatalog-webdesign-mfa': 3},
 			{'plakatdesign-nonprofit-reset': 4},
 			{'plakat-konzert-merch-wolf-biermann': 2},
-			{'lp-design-kampagne-wolf-biermann-reimagined': 4},
+			{'lp-design-kampagne-wolf-biermann-reimagined': 1},
 			{'plakatdesign-musik-tim-nicklaus': 2},
         ],
 
