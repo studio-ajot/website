@@ -16,7 +16,7 @@ const projectInformation = [
         id: "corporate-design-colibris-eyewear",
         accentColor: "#9DB7FF",
         title: "Great glasses for small faces",
-        categories: ["Corporate Design"],
+        categories: ["Corporate Design", "Packaging"],
         metaData: "Corporate Design für colibris",
         mediaTypes: ["img", "vid", "img", "img", "img", "vid", "img", "img", "img", "img"],
         description: "Zum 25-jährigen Jubiläum entwickelten wir für Colibris Eyewear ein modernes Corporate Design, das die Markenidentität neu definiert. Unter dem Leitgedanken »Great glasses for small faces« verbindet das visuelle Konzept nordisches Design mit einer zeitgemäßen Ästhetik. Ein maritimes Blau und warmer Sandton spiegeln die norddeutsche Landschaft wider, während das ikonische »C« und filigrane Wellenmuster die Herkunft und Präzision der Marke unterstreichen. Der überarbeitete Logo-Schriftzug kombiniert Eleganz mit Selbstbewusstsein und setzt die Spezialisierung auf Brillen für schmale Gesichter eindrucksvoll in Szene. <br>Messefotos ©reizueberflutung.com"
@@ -88,7 +88,7 @@ const projectInformation = [
         id: "lp-design-wolf-biermann-ermutigung",
         accentColor: "#BE66D6",
         title: "Wolf Biermann: Ermutigung",
-        categories: ["Corporate Design", "Animation", "Digital Design", "Musik"],
+        categories: ["Corporate Design", "Animation", "Digital Design", "Musik", "Packaging"],
         metaData: "Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute",
         mediaTypes: ["vid", "img", "img", "img", "img", "img"],
         description: "Für die Veröffentlichung der LP »Ermutigung« haben wir ein visuelles Konzept entwickelt, das direkt an die berühmte Zeile »Du, lass dich nicht verhärten in dieser harten Zeit« anknüpft. Das Cover greift diese Aussage bildlich auf und übersetzt sie grafisch in eine 3D-Ballon-Optik – als Symbol für Bewegung, Widerstandskraft und poetische Aufladung inmitten harter Zeiten. <br>Die visuelle Sprache spielt mit Materialität und Form, steht im Kontrast zur politischen Schwere des Liedes und betont gleichzeitig dessen zentrale Botschaft: weich bleiben, auch wenn es schwerfällt. Es findet Platz auf thematisch passendem Merch wie Stressbällen, Pop-Sockets und Kaugummis. <br>Das Artwork wurde als Teil der exklusiven LP-Veröffentlichung im Box-Set »Wolf Biermann: Zeiten verbinden« gestaltet und ist ebenfalls in begleitenden digitalen Formaten für Social Media und Streaming-Plattformen zu hören.",
