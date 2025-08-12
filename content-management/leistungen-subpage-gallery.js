@@ -50,5 +50,6 @@ const differentPreviewForGallery = {
 			{'buchgestaltung-illustration-reisetagebuch': 6},
 			{'webdesign-illustration-zbw': 4},
 			{'lp-design-wolf-biermann-ermutigung': 6},
+			{'corporate-design-colibris-eyewear': 5},
     	],
 }
