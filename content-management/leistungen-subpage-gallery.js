@@ -14,7 +14,7 @@ const leistungenSubpageMetaData = {
     },
     'experimental': {
         accentColor: '#A8CAFF',
-        categories: ['Illustration', 'Infografik'],
+        categories: ['Illustration', 'Infografik', 'Packaging'],
     }
 };
 
