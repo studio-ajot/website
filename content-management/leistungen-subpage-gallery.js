@@ -39,7 +39,7 @@ const differentPreviewForGallery = {
 
     'web-design': 
 		[
-			{'corporate-design-chor-jazzica': 6},
+			{'corporate-design-chor-jazzica': 1},
 			{'ausstellungsdesign-kunstkatalog-webdesign-mfa': 4},
 			{'projekte/webdesign-tech-b310': 2},
     	],
