@@ -24,6 +24,7 @@ const differentPreviewForGallery = {
             {'art-direction-magazin-cloudshill': 1},
 			{'ausstellungsdesign-editorial-design-antje-majewski': 2},
 			{'lp-design-wolf-biermann-box': 5},
+			{'lp-design-kampagne-wolf-biermann-reimagined': 6},
         ],
 
     'corporate-design':
