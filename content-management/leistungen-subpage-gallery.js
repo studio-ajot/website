@@ -28,12 +28,13 @@ const differentPreviewForGallery = {
 
     'corporate-design':
         [
-            {'corporate-design-chor-jazzica': 2},
+            		{'corporate-design-chor-jazzica': 2},
 			{'lp-design-wolf-biermann-klaus-lenz': 2},
 			{'ausstellungsdesign-kunstkatalog-webdesign-mfa': 3},
 			{'plakatdesign-nonprofit-reset': 4},
 			{'plakat-konzert-merch-wolf-biermann': 2},
 			{'lp-design-kampagne-wolf-biermann-reimagined': 4},
+			{'plakatdesign-musik-tim-nicklaus': 2},
         ],
 
     'web-design': 
