@@ -179,7 +179,7 @@ const projectInformation = [
         title: "Branding für wobe-systems",
         categories: ["Corporate Design", "Schriftgestaltung", "Animation", "Digital Design"],
         metaData: "Aufbau einer Markenidentität, Social Media Assets und Werbemaßnahmen",
-        mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img", "img", "img"],
+        mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img", "img", "img", "img"],
         description: "Seit 2001 entwickelt die wobe-systems GmbH innovative Software-Lösungen für industrielle Automatisierung sowie System- und Datenintegration mit dem Ziel einer reibungslosen Interaktion zwischen Mensch und Maschine. Wir unterstützen die wobe-systems GmbH seit 2022 mit dem Aufbau einer ganzheitlichen visuellen Markenidentität, die als zentrales Element den Dialog zwischen Mensch und Maschine beinhaltet."
     },
     {
