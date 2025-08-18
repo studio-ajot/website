@@ -23,7 +23,7 @@ const projectInformation = [
     },
     {
         id: "plakatdesign-musik-rising-stars",
-        accentColor: "#9DB7FF",
+        accentColor: "#D23159",
         title: "Rising Stars 2025",
         categories: ["Corporate Design", "Musik", "Plakatgestaltung", "Animation"],
         metaData: "Gestaltung für Rising Stars",
