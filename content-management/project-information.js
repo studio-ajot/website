@@ -28,7 +28,7 @@ const projectInformation = [
         categories: ["Corporate Design", "Musik", "Plakatgestaltung", "Animation"],
         metaData: "Gestaltung für Rising Stars",
         mediaTypes: ["img", "img"],
-        description: ""
+        description: "Für die Konzertreihe »Rising Stars« im August 2025 im Goldenen Saal des Wiener Musikvereins entwickelten wir ein durchgängiges Gestaltungssystem, das analoge und digitale Medien gleichermaßen umfasst. Die Gestaltung verbindet eine klare, reduzierte Typografie mit einem konsequenten Farbkonzept, das die Wiedererkennbarkeit stärkt und die Reihe auch für zukünftige Veranstaltungen prägt. Prominente Künstlerporträts setzen die Solist*innen in den Mittelpunkt und verleihen der visuellen Linie eine persönliche Note. So entstanden ein City-Light-Plakat, verschiedene Social-Media-Formate sowie ein Programmheft, die gemeinsam ein konsistentes und hochwertiges Erscheinungsbild schaffen und den hohen Anspruch des Musikvereins gestalterisch unterstreichen."
     },
     {
         id: "lp-design-wolf-biermann-box",
