@@ -19,29 +19,57 @@ const $arrow = $(".leistungen-arrow");
 const $hoverTarget = $(".hover-target");
 const $submenuHover = $(".submenu");
 
+function setScrollIndicator(visible) {
+    $("#scroll-indicator").toggle(visible);
+}
+
+function closeMenuClasses() {
+    $burgerMenu.removeClass("open");
+    $navSections.removeClass("active");
+}
+
+function setSubmenuHeight(px, minPx) {
+    requestAnimationFrame(() => {
+        $submenuWrapper.css("height", px);
+        $submenuWrapper.css("minHeight", minPx);
+    });
+}
+
+function openSubmenu() {
+    const targetHeight = $submenuInner.outerHeight();
+    const minHeight = isMobile() ? "285px" : "310px";
+
+    $submenuWrapper.addClass("open").css("height", "0px");
+    setSubmenuHeight(targetHeight + "px", minHeight);
+    $arrow.addClass("rotate");
+}
+
+function closeSubmenu() {
+    const currentHeight = $submenuInner.outerHeight();
+    $submenuWrapper.css("height", currentHeight + "px");
+    setSubmenuHeight("0px", "0px");
+    $submenuWrapper.removeClass("open");
+    $arrow.removeClass("rotate");
+}
+
 // === Menu Functions === //
 function toggleMenu() {
-    const menuIsOpening = !$burgerMenu.hasClass("open");
+    const willOpen = !$burgerMenu.hasClass("open");
 
-    $burgerMenu.toggleClass("open");
-    $navSections.toggleClass("active");
+    if (!willOpen) {
+        closeMenu();
+    } else {
+        $burgerMenu.toggleClass("open");
+        $navSections.toggleClass("active");
+    }
 
-    $("*").toggleClass("no-scroll", menuIsOpening);
-
-    // Hide or show scroll-indicator
-    $("#scroll-indicator").toggle(!menuIsOpening);
-
+    setScrollIndicator(!willOpen);
 }
 
 function closeMenu() {
-    $burgerMenu.removeClass("open");
-    $navSections.removeClass("active");
-    $submenuWrapper.removeClass("open").css("height", "");
-    $arrow.removeClass("rotate");
-    $("*").removeClass("no-scroll");
-
-    // Show scroll-indicator
-    $("#scroll-indicator").show();
+    closeMenuClasses();
+    closeSubmenu();
+    setScrollIndicator(true);
 }
 
 // === Event Binding === //
@@ -68,6 +96,7 @@ function setupHoverEvents() {
 
     $hoverTarget.on("mouseleave", () => {
         if (!$burgerMenu.hasClass("open")) {
+            clearTimeout(leaveTimeout);
             leaveTimeout = setTimeout(() => {
                 $submenuHover.removeClass("active");
             }, 300);
@@ -82,29 +111,16 @@ function handleLeistungenClick(event) {
     event.preventDefault();
     event.stopPropagation();
 
-    const isOpen = $submenuWrapper.hasClass("open");
-    const targetHeight = $submenuInner.outerHeight();
-
-    if (isOpen) {
-        $submenuWrapper.css("height", targetHeight + "px");
-        requestAnimationFrame(() => {
-            $submenuWrapper.css("height", "0px");
-        });
-        $submenuWrapper.removeClass("open");
+    if ($submenuWrapper.hasClass("open")) {
+        closeSubmenu();
     } else {
-        $submenuWrapper.addClass("open").css("height", "0px");
-        requestAnimationFrame(() => {
-            $submenuWrapper.css("height", targetHeight + "px");
-        });
+        openSubmenu();
     }
-
-    $arrow.toggleClass("rotate");
 }
 
 // === Init on DOM Ready === //
 $(function () {
     $(".year").text(`\u00A0${new Date().getFullYear()}\u00A0`);
-
     setupEventListeners();
     setupHoverEvents();
 });

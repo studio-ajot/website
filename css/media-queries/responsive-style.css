@@ -48,6 +48,17 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        overflow-y: auto;
+        margin: 80px 25px 15px;
+        min-height: calc(100dvh - 80px);
+    }
+
+    .nav_section .menu_points.active ul li:first-of-type {
+        margin-top: 20px;
+    }
+
+    .nav_section .menu_points.active ul li:last-of-type {
+        margin-bottom: 20px;
     }
 
     .nav_section .menu_points.active {
@@ -60,8 +71,8 @@
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100vh;
-        padding: 95px 25px 15px;
+        overflow: hidden;
+        height: 100dvh;
     }
 
     .nav_section .menu_points.active a {
@@ -81,7 +92,6 @@
 #       991px breakpoint         #
 #################################*/
 @media (max-width: 991px) {
-
 
     /* #################################
     #        padding on mobile        #
@@ -111,10 +121,4 @@
     .info_box .text-box {
         padding: 20px 20px;
     }
-
-    .nav_section .menu_points.active {
-        padding: 15px 20px;
-        padding-top: 95px;
-    }
-
 }
