@@ -93,6 +93,10 @@
     }
 }
 
+.subpage-main-container__media-container video {
+    width: 100%;
+}
+
 .subpage-main-container__text-container__description {
     @media (max-width: 768px) {
         padding-bottom: 16px;
