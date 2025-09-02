@@ -24,9 +24,13 @@ const indexPageSlider = [
 
 const customerStatementsSlider = [
     {
+        author: "Johann Scheerer",
+        subtitle: "Schriftsteller, Musikproduzent & Gründer von Clouds Hill",
+        text: "»Johanna und Anastasia verknüpfen modernes Design mit fundiertem Wissen. So entsteht eine Designsprache, die immer wieder ihresgleichen sucht. Jedes Mal neu, ansprechend und mit überraschender Frische. Die Zusammenarbeit mit Studio Ajot ist professionell, ausgesprochen angenehm und vor allem immer zielführend. Egal ob die Deadline drängt, die Aufgabe schier unlösbar erscheint; Anastasia und Johanna liefern jedes Mal. Besonnen und zielgenau.«",
+    },{
         author: "Katharina Lange",
         subtitle: "Senior Product & Brand Manager bei Clouds Hill",
-        text: "»Während der Wolf-Biermann-Kampagne mit Studio Ajot habe ich erlebt, was „Nur wer sich ändert, bleibt sich treu“ bedeutet. Anastasia und Johanna sind ein eingespieltes Team, das sich perfekt ergänzt, sich gegenseitig stützt und jederzeit füreinander einspringt. Kreativ, ausdauernd, am Puls der Zeit - und keine Deadline verpasst.«",
+        text: "»Während der Wolf-Biermann-Kampagne mit Studio Ajot habe ich erlebt, was „Nur wer sich ändert, bleibt sich treu“ bedeutet. Anastasia und Johanna sind ein eingespieltes Team, das sich perfekt ergänzt, sich gegenseitig stützt und jederzeit füreinander einspringt. Kreativ, ausdauernd, am Puls der Zeit. Und keine Deadline verpasst!«",
     },{
         author: "Claudia Josephs",
         subtitle: "General Manager bei epda",
