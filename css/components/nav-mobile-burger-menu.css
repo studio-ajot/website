@@ -88,6 +88,7 @@
     z-index: 0;
     overflow: hidden;
     height: 0;
+    min-height: 0;
     margin-top: -10px;
     transition: all 0.4s ease-in-out;
 }
@@ -99,7 +100,6 @@
 }
 
 .burger_menu__submenu.open {
-    height: auto; /* gesteuert über JS */
     margin-top: 0;
 }
 
@@ -167,6 +167,8 @@
     align-items: stretch;
     padding: 0 20px;
     gap: 10px;
+    min-height: 310px;
+    overflow-y: auto;
 }
 
 .nav_section.active .nav_menu_button {
@@ -200,3 +202,4 @@
         display: none;
     }
 }
+

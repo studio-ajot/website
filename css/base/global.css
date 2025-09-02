@@ -14,10 +14,13 @@ html, body, main {
     font-weight: 500;
     font-family: "Mona Sans", sans-serif;
     color: black;
-    overflow-y: auto;
     scroll-behavior: smooth;
     width: 100%;
     overflow-x: hidden;
+}
+
+main:has(.menu_points.active), html:has(.menu_points.active), body:has(.menu_points.active) {
+    overflow-y: hidden;
 }
 
 /* Reset default list styles */

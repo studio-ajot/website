@@ -34,7 +34,7 @@ function initializeCarousel() {
 
 function fillCarousel() {
     const mediaPrefix = "./assets/media/index/index-slider-";
-    const mediaPostfix = isMobile() ? "-web" : "-mobile";
+    const mediaPostfix = isMobile() ? "-mobile" : "-web";
 
     indexPageSlider.forEach((project, index) => {
         let mediaElement;
