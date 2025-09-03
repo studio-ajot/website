@@ -112,18 +112,18 @@
 
 @media (max-width: 1200px) {
     .customer-statements-carousel {
-        height: 250px;
+        height: 270px;
     }
 }
 
 @media (max-width: 768px) {
     .customer-statements-carousel {
-        height: 260px;
+        height: 280px;
     }
 }
 
 @media (max-width: 576px) {
     .customer-statements-carousel {
-        height: 280px;
+        height: 400px;
     }
 }
