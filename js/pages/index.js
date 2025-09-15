@@ -113,13 +113,20 @@ function fillTextSlider() {
             <div class='d-flex flex-column col-xl-6 col-12'>
                 <p class="statement-text">
                   ${statement.text}
-                  ${statement.link ? `<a class='semibold no-break' href="${statement.link}" target='_blank' rel='noopener noreferrer'> &gt; Weiterlesen</a>` : ''}
+                  ${statement.articleLink ? `<a class='semibold no-break' href="${statement.articleLink}" target='_blank' rel='noopener noreferrer'> &gt; Weiterlesen</a>` : ''}
                 </p>
             </div>
             <div class="d-none d-xl-block col-xl-1"></div>
-            <div class='d-flex flex-column col-xl-5 col-12'>                 
-              <span class="semibold">${statement.author}</span>
-              <span>${statement.subtitle}</span>
+            <div class='d-flex flex-xl-column flex-row col-xl-5 col-12 align-items-xl-start align-items-center'>
+                <div class='w-100 d-flex flex-column flex-sm-row flex-xl-column gap-0 gap-sm-5 gap-xl-0 align-items-start align-sm-items-center align-items-xl-start'>  
+                  <div class='d-flex flex-column'>               
+                    <span class="semibold">${statement.author}</span>
+                    <span>${statement.subtitle}</span>
+                  </div>
+                  <div class='mx-0 mx-sm-auto mx-xl-0 mt-3 mt-sm-0 mt-xl-3'>
+                    ${statement.logoName ? `<a href="${statement.logoLink}" target='_blank' rel='noopener noreferrer' class="statement-logo-link"><img src="./assets/media/index/logos/${statement.logoName}" alt="${statement.author} Logo" class="statement-logo" /></a>` : ''}
+                  </div>
+                </div>
             </div>
           </div>
           </div>

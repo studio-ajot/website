@@ -79,7 +79,7 @@ const projectInformation = [
         id: "lp-design-kampagne-wolf-biermann-reimagined",
         accentColor: "#FF7F3B",
         title: "Wolf Biermann: RE:IMAGINED",
-        categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik","Buch- & Editorial Design"],
+        categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik", "Buch- & Editorial Design"],
         metaData: "Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute",
         mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "vid", "vid"],
         description: "Für das 2024 erschienene Album »Wolf Biermann – RE:IMAGINED. Lieder für jetzt!« durften wir das gesamte visuelle Erscheinungsbild gestalten. Das Projekt vereint 22 Neuinterpretationen von Biermanns Liedern durch Künstler:innen wie Alligatoah, Haiyti, OK KID, Betterov oder Lina Maly – und schlägt damit eine künstlerische Brücke zwischen Vergangenheit und Gegenwart.  <br>Unsere Gestaltung setzt diesen Brückenschlag visuell um: Im Zentrum stehen neben einer berühmten Biermann-Fotografie typografische 3D-Visuals, die wir über verschiedene Formate hinweg adaptiert haben – vom LP-Cover bis zum animierten Spotify-Canvas. Die klare, reduzierte Gestaltung der Plattencover trifft auf lebendige Typoanimationen für Social Media und digitale Plattformen. Ergänzt wurde das visuelle Konzept durch eine begleitende Plakatkampagne und Social Media Content für den offiziellen Album-Launch.  <br>Ziel war es, die künstlerische Haltung Biermanns – unbequem, poetisch, laut – gestalterisch weiterzudenken und gleichzeitig für eine junge Zielgruppe neu erlebbar zu machen."
@@ -182,7 +182,7 @@ const projectInformation = [
         metaData: "Editorial Design & Art Direction für Kerstin Abraham und die Sparkassenstiftung Schleswig-Holstein",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
         description: "»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ <br>Mit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke"
-    },{
+    }, {
         id: "corporate-design-tech-wobesystems",
         accentColor: "#91B3FF",
         title: "Branding für wobe-systems",

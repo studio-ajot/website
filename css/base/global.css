@@ -19,7 +19,7 @@ html, body, main {
     overflow-x: hidden;
 }
 
-main:has(.menu_points.active), html:has(.menu_points.active), body:has(.menu_points.active) {
+main:has(.menu_points.active), html:has(.menu_points.active), body:has(.menu_points.active), html:has(.cm-klaro) {
     overflow-y: hidden;
 }
 

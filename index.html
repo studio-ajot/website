@@ -46,7 +46,17 @@
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/pages/index-page/index.css" />
   <link rel="stylesheet" href="css/pages/index-page/index-page-slider.css" />
-  <link rel="stylesheet" href="assets/libraries/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="css/components/klaro-custom.css">
+
+  <!--  Cookie Consent Manager Klaro -->
+  <script src="js/klaro-config.js"></script>
+  <script
+    defer
+    data-config="klaroConfig"
+    type="application/javascript"
+    src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js">
+  </script>
+
 </head>
 
 <body>
@@ -185,12 +195,24 @@
           <br />
             in Berlin und Hamburg
         </h1>
-        <p>Wir sind Studio Ajot: ihr Büro für <strong>Grafikdesign in Berlin und Hamburg.</strong> Wir sind spezialisiert auf die Entwicklung einzigartiger visueller Identitäten und aller Arten von Print- und digitalen Medien. Unser besonderer Fokus liegt auf der Typografie, die jedem Projekt eine unverwechselbare Stimme verleiht.
-			
-		<br />
-        <br />
-			
-		Ob es um die <strong>Gestaltung von Logos, Büchern, Websites, Flyern oder Plakaten</strong> geht: wir entwickeln Designsysteme, die nicht nur gut aussehen, sondern auch Ihre Zielgruppe ansprechen. Mit maßgeschneiderten Lösungen in den Bereichen <strong>Corporate Design und Branding, Webdesign und Editorial Desig</strong> sorgen wir dafür, dass Ihre Marke einen bleibenden Eindruck hinterlässt. Wir arbeiten mit Kund:innen aus Wirtschaft, Kunst und Kultur zusammen, um Ihre Vision in eine starke visuelle Sprache zu übersetzen.</p>
+        <p>Wir sind Studio Ajot: ihr Büro für
+          <strong>Grafikdesign in Berlin und Hamburg.</strong>
+           Wir sind spezialisiert auf die Entwicklung einzigartiger visueller Identitäten und aller
+           Arten von Print- und digitalen Medien. Unser besonderer Fokus liegt auf der Typografie,
+           die jedem Projekt eine unverwechselbare Stimme verleiht.
+
+          <br />
+          <br />
+
+           Ob es um die
+          <strong>Gestaltung von Logos, Büchern, Websites, Flyern oder Plakaten</strong>
+           geht: wir entwickeln Designsysteme, die nicht nur gut aussehen, sondern auch Ihre
+           Zielgruppe ansprechen. Mit maßgeschneiderten Lösungen in den Bereichen
+          <strong>Corporate Design und Branding, Webdesign und Editorial Desig</strong>
+           sorgen wir dafür, dass Ihre Marke einen bleibenden Eindruck hinterlässt. Wir arbeiten mit
+           Kund:innen aus Wirtschaft, Kunst und Kultur zusammen, um Ihre Vision in eine starke
+           visuelle Sprache zu übersetzen.
+        </p>
         <a class="button primary-button text-decoration-none" href="./ueber-uns.html"> <span
           class="index-link">Über uns</span>
         </a>
@@ -308,7 +330,6 @@
     </div>
   </section>
 
-
   <!-- Section: Contact -->
   <div class='site-anchor-wrapper'>
     <div id="kontakt" class='site-anchor'></div>
@@ -317,20 +338,45 @@
     <div class='row'>
       <div class='d-flex flex-column col-xl-6 col-12 mb-3 mb-xl-0'>
         <h1>Kontakt zu uns</h1>
-        <p id='kontakt-textbox'>Unser benutzerfreundliches Kontaktformular ist gerade in Arbeit –
-                                aber wir sind natürlich trotzdem für dich da!
-          <br />
-          <br />
-                                Wenn du mit uns zusammenarbeiten möchtest oder Fragen zu unserer
-                                Arbeit hast, freuen wir uns, von dir zu hören. Schreib uns gerne
-                                eine Nachricht über die angegebenen Kontaktdaten oder nutze einfach
-                                den Button unten. Wir sind gespannt auf dein Projekt und melden uns
-                                so schnell wie möglich bei dir!
+        <p id='kontakt-textbox'>
+          Kontaktiere uns gerne, wenn du mehr über unsere Arbeit im Bereich Corporate Design,
+          Branding, Editorial Design oder Webdesign erfahren möchtest. Über das Kontaktformular
+          kannst du uns direkt eine Anfrage senden. Wir freuen uns auf dein Projekt, beantworten
+          deine Fragen und melden uns zeitnah mit einem persönlichen Rückruf oder einer Mail.
         </p>
-        <a class='button primary-button big text-decoration-none'
-           href="mailto:hello@studio-ajot.de?subject=Projektanfrage&body=Hallo%20liebes%20Ajot-Team,%0A">
-          Nachricht schicken
-        </a>
+        <form action="https://formsubmit.co/ajax/hello@studio-ajot.de" method="POST"
+              id='kontakt-form'>
+          <div class='contact-form'>
+            <input type="text" name="Name" placeholder="Dein Name*" required>
+            <input type="email" name="E-Mail" placeholder="Deine E-Mail Adresse*"
+                   required>
+            <input type="text" name="Telefon-Nummer"
+                   placeholder="Deine Tel.-Nr. (für Rückruf)">
+            <input type="text" name="Firma/Projekt"
+                   placeholder="Deine Firma/Projekt (optional)">
+            <textarea name="Nachricht"
+                      placeholder="Deine Nachricht an uns*"
+                      required></textarea>
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_subject" value="Neue Nachricht über das Kontaktformular">
+            <div class='d-flex' id='contact-form-footer'>
+              <button class='button primary-button big text-decoration-none flex-shrink-0'
+                      type="submit">
+                Nachricht abschicken
+              </button>
+              <p id='legal-text'> Mit dem Absenden der Nachricht erkläre ich mich damit
+                                  einverstanden, dass meine Angaben zur Bearbeitung meiner Anfrage
+                                  gemäß der
+                <a href="./datenschutz.html" class="bold-text" target="_blank"
+                   rel="noopener noreferrer">
+                  Datenschutzerklärung
+                </a>
+                                  verarbeitet werden.
+              </p>
+            </div>
+          </div>
+        </form>
       </div>
 
       <!-- 1-col white spacer, visible only on xl -->
@@ -443,6 +489,7 @@
 <script src="js/main-functions.js"></script>
 <script src="js/pages/index-gallery.js"></script>
 <script src="js/pages/index.js"></script>
+<script src="js/utility/contact-form.js"></script>
 </body>
 
 </html>

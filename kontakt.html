@@ -17,7 +17,8 @@
   <meta property="og:title" content="Studio Ajot: Grafikdesign in Hamburg & Berlin" />
   <meta property="og:description"
         content="Studio Ajot entwickelt maßgeschneiderte Designlösungen: Corporate Design, Editorial Design, Web Design & mehr." />
-  <meta property="og:image" content="https://www.studio-ajot.de/assets/icons/studio-ajot-portrait.jpg" />
+  <meta property="og:image"
+        content="https://www.studio-ajot.de/assets/icons/studio-ajot-portrait.jpg" />
   <meta property="og:url" content="https://www.studio-ajot.de/" />
   <meta property="og:type" content="website" />
 
@@ -26,7 +27,8 @@
   <meta name="twitter:title" content="Studio Ajot: Grafikdesign in Hamburg & Berlin" />
   <meta name="twitter:description"
         content="Studio Ajot entwickelt maßgeschneiderte Designlösungen: Corporate Design, Editorial Design, Web Design & mehr." />
-  <meta name="twitter:image " content="https://www.studio-ajot.de/assets/icons/studio-ajot-portrait.jpg" />
+  <meta name="twitter:image "
+        content="https://www.studio-ajot.de/assets/icons/studio-ajot-portrait.jpg" />
 
   <!-- Canonical -->
   <link rel="canonical" href="https://www.studio-ajot.de/" />
@@ -41,7 +43,18 @@
   <!-- Stylesheets (CSS) -->
   <link rel="preload" href="css/main.css" as="style" />
   <link rel="stylesheet" href="css/main.css" />
-</head>
+<!--  <link rel="stylesheet" href="css/components/klaro-custom.css">-->
+
+<!--  &lt;!&ndash;  Cookie Consent Manager Klaro &ndash;&gt;-->
+<!--  <script src="js/klaro-config.js"></script>-->
+<!--  <script-->
+<!--    defer-->
+<!--    data-config="klaroConfig"-->
+<!--    type="application/javascript"-->
+<!--    src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js">-->
+<!--  </script>-->
+
+</head>head>
 
 <body>
 <!-- Navigation -->
@@ -146,20 +159,45 @@
     <div class='row'>
       <div class='d-flex flex-column col-xl-6 col-12 mb-3 mb-xl-0'>
         <h1>Kontakt zu uns</h1>
-        <p id='kontakt-textbox'>Unser benutzerfreundliches Kontaktformular ist gerade in Arbeit –
-                                aber wir sind natürlich trotzdem für dich da!
-          <br />
-          <br />
-                                Wenn du mit uns zusammenarbeiten möchtest oder Fragen zu unserer
-                                Arbeit hast, freuen wir uns, von dir zu hören. Schreib uns gerne
-                                eine Nachricht über die angegebenen Kontaktdaten oder nutze einfach
-                                den Button unten. Wir sind gespannt auf dein Projekt und melden uns
-                                so schnell wie möglich bei dir!
+        <p id='kontakt-textbox'>
+          Kontaktiere uns gerne, wenn du mehr über unsere Arbeit im Bereich Corporate Design,
+          Branding, Editorial Design oder Webdesign erfahren möchtest. Über das Kontaktformular
+          kannst du uns direkt eine Anfrage senden. Wir freuen uns auf dein Projekt, beantworten
+          deine Fragen und melden uns zeitnah mit einem persönlichen Rückruf oder einer Mail.
         </p>
-        <a class='button primary-button big text-decoration-none'
-           href="mailto:hello@studio-ajot.de?subject=Projektanfrage&body=Hallo%20liebes%20Ajot-Team,%0A">
-          Nachricht schicken
-        </a>
+        <form action="https://formsubmit.co/ajax/hello@studio-ajot.de" method="POST"
+              id='kontakt-form'>
+          <div class='contact-form'>
+            <input type="text" name="Name" placeholder="Dein Name*" required>
+            <input type="email" name="E-Mail" placeholder="Deine E-Mail Adresse*"
+                   required>
+            <input type="text" name="Telefon-Nummer"
+                   placeholder="Deine Tel.-Nr. (für Rückruf)">
+            <input type="text" name="Firma/Projekt"
+                   placeholder="Deine Firma/Projekt (optional)">
+            <textarea name="Nachricht"
+                      placeholder="Deine Nachricht an uns*"
+                      required></textarea>
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_subject" value="Neue Nachricht über das Kontaktformular">
+            <div class='d-flex' id='contact-form-footer'>
+              <button class='button primary-button big text-decoration-none flex-shrink-0'
+                      type="submit">
+                Nachricht abschicken
+              </button>
+              <p id='legal-text'> Mit dem Absenden der Nachricht erkläre ich mich damit
+                                  einverstanden, dass meine Angaben zur Bearbeitung meiner Anfrage
+                                  gemäß der
+                <a href="./datenschutz.html" class="bold-text" target="_blank"
+                   rel="noopener noreferrer">
+                  Datenschutzerklärung
+                </a>
+                                  verarbeitet werden.
+              </p>
+            </div>
+          </div>
+        </form>
       </div>
 
       <!-- 1-col white spacer, visible only on xl -->
@@ -264,6 +302,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="assets/libraries/js/bootstrap.bundle.min.js"></script>
 <script src="js/main-functions.js"></script>
+<script src="js/utility/contact-form.js"></script>
 
 </body>
 
