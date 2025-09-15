@@ -34,7 +34,7 @@ var klaroConfig = {
                         t.src = "https://www.clarity.ms/tag/" + i;
                         y = l.getElementsByTagName(r)[0];
                         y.parentNode.insertBefore(t, y);
-                    })(window, document, "clarity", "script", "t4i0065bxt");
+                    })(window, document, "clarity", "script", "t2e4uqcpzi");
                 }
             }
         }
