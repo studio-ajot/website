@@ -4,7 +4,7 @@ var klaroConfig = {
     storageMethod: 'cookie',
     cookieName: 'klaro',
     cookieExpiresAfterDays: 365,
-    cookieDomain: 'studio-ajot-staging.netlify.app',
+    cookieDomain: '.studio-ajot.de',
     mustConsent: true,
     acceptAll: true,
     hideDeclineAll: false,
