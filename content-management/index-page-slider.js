@@ -52,6 +52,8 @@ const customerStatementsSlider = [
         author: "Johann Scheerer",
         subtitle: "Schriftsteller, Musikproduzent & Gründer von Clouds Hill",
         text: "»Johanna und Anastasia verknüpfen modernes Design mit fundiertem Wissen. So entsteht eine Designsprache, die immer wieder ihresgleichen sucht. Jedes Mal neu, ansprechend und mit überraschender Frische. Die Zusammenarbeit mit Studio Ajot ist professionell, ausgesprochen angenehm und vor allem immer zielführend. Egal ob die Deadline drängt, die Aufgabe schier unlösbar erscheint; Anastasia und Johanna liefern jedes Mal. Besonnen und zielgenau.«",
+        logoName: "cloudshill.svg",
+        logoLink: "https://cloudshill.com/"
     },{
         author: "Katharina Lange",
         subtitle: "Senior Product & Brand Manager bei Clouds Hill",

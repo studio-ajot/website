@@ -102,6 +102,7 @@ function initializeTextSlider() {
         prevNextButtons: false,
         pageDots: true,
         draggable: false,
+        setGallerySize: true
     });
 }
 
@@ -123,7 +124,7 @@ function fillTextSlider() {
                     <span class="semibold">${statement.author}</span>
                     <span>${statement.subtitle}</span>
                   </div>
-                  <div class='mx-0 mx-sm-auto mx-xl-0 mt-3 mt-sm-0 mt-xl-3'>
+                  <div class='mx-0 mx-sm-auto mx-xl-0 mt-3 mt-sm-0 mt-xl-3 mb-2 mb-3xl-0'>
                     ${statement.logoName ? `<a href="${statement.logoLink}" target='_blank' rel='noopener noreferrer' class="statement-logo-link"><img src="./assets/media/index/logos/${statement.logoName}" alt="${statement.author} Logo" class="statement-logo" /></a>` : ''}
                   </div>
                 </div>
