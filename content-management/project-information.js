@@ -23,7 +23,7 @@ const projectInformation = [
     },
     {
         id: "corporate-design-architekrur-relab",
-        accentColor: "#634AFF",
+        accentColor: "#FC4F5F",
         title: "Reallabore zu nachhaltigen Bauweisen",
         categories: ["Corporate Design"],
         metaData: "Corporate Design für Relab",
