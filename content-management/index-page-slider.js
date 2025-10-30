@@ -29,6 +29,10 @@ const indexPageSlider = [
         id: "buchgestaltung-nonprofit-epda",
         type: "img",
     },
+    {
+        id: "plakatdesign-musik-rising-stars",
+        type: "img",
+    },
 ];
 
 /**
