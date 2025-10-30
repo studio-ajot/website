@@ -66,7 +66,6 @@
 /* ################################
 #    flickity dots / progressbar  #
 #################################*/
-/* style in mobile-detect.css */
 .flickity-page-dots {
     margin-top: 20px;
     height: 50px;
@@ -75,8 +74,8 @@
 .flickity-page-dots .dot {
     transition: transform 0.3s ease;
     transform: scale(1);
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     margin: 0 8px;
 }
 
@@ -96,34 +95,34 @@
 
 
 /* ################################
-#    main statements carousel     #
+#   kund*innen stimmen carousel   #
 #################################*/
-
-
-.customer-statements-carousel {
-    height: 210px;
+.customer-statements-carousel .flickity-page-dots {
+    margin: 0;
+    bottom: -40px;
+    height: 30px
 }
 
-@media (max-width: 1440px) {
-    .customer-statements-carousel {
-        height: 230px;
-    }
+.statement-logo {
+    height: 80px;
 }
 
-@media (max-width: 1200px) {
-    .customer-statements-carousel {
-        height: 250px;
+
+@media (max-width: 992px) {
+    .statement-logo {
+        height: 70px;
     }
 }
 
 @media (max-width: 768px) {
-    .customer-statements-carousel {
-        height: 260px;
+    .statement-logo {
+        height: 60px;
     }
 }
 
 @media (max-width: 576px) {
-    .customer-statements-carousel {
-        height: 280px;
+    .statement-logo {
+        height: 50px;
     }
 }
+

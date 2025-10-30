@@ -1,0 +1,87 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+input {
+    border: black solid 1px;
+    background-color: transparent;
+    border-radius: 14px;
+    padding: 10px 25px;
+    width: 100%;
+    height: 50px;
+    font-size: 21px;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+}
+
+input::placeholder {
+    color: black;
+}
+
+textarea {
+    border: black solid 1px;
+    background: none;
+    border-radius: 14px;
+    padding: 10px 25px;
+    width: 100%;
+    min-height: 168px;
+}
+
+textarea::placeholder {
+    color: black;
+}
+
+#legal-text {
+    font-size: 17px;
+    line-height: 19px;
+
+}
+
+#contact-form-footer {
+    gap: 14px;
+    flex-direction: column;
+}
+
+@media (min-width: 576px) {
+    #contact-form-footer {
+        margin-top: 16px;
+    }
+}
+
+@media (min-width: 1440px) {
+    #contact-form-footer {
+        gap: 30px;
+        flex-direction: row;
+    }
+}
+
+input,
+textarea,
+select {
+    font-size: inherit !important;
+    font-family: inherit !important;
+    color: black !important;
+    background-color: var(--color-orange) !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+input[chrome-autofilled],
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px var(--color-orange) inset !important;
+    -webkit-text-fill-color: black !important;
+    box-shadow: 0 0 0 1000px var(--color-orange) inset !important;
+    background-color: var(--color-orange) !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+}

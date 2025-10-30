@@ -6,6 +6,10 @@
     overflow: hidden;
 }
 
+.media-container, .media-container > video, .media-container > img {
+    min-height: 100dvh;
+}
+
 .leistungen-text {
     overflow: hidden;
     position: absolute;
@@ -14,6 +18,14 @@
     width: 550px;
     display: flex;
     flex-direction: column;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.leistungen-text.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 
@@ -76,3 +88,4 @@
         gap: 0px;
     }
 }
+

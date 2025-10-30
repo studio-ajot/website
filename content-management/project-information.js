@@ -63,7 +63,7 @@ const projectInformation = [
         title: "»Lieder für jetzt«, ein Konzert für und mit Wolf Biermann",
         categories: ["Corporate Design", "Musik"],
         metaData: "Bühnendesign, Bühnenanimation, Merchandise für das Konzert »Lieder für jetzt« für und mit Wolf Biermann, 2024",
-        mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img", "vid"],
+        mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img"],
         description: "Im Rahmen des Coveralbums »Wolf Biermann RE:IMAGINED – Lieder für jetzt!« fand am 13. November 2024 im Hamburger Thalia Theater ein besonderes Release-Konzert statt, bei dem sich eine neue Künstlergeneration dem Werk des Liedermachers annäherte. Studio Ajot entwickelte das visuelle Erscheinungsbild für diesen Abend – von der Plakatgestaltung über die Bühnengestaltung über Merch-Artikel wie Shirts und Stressbälle bis hin zur begleitenden Social-Media-Kampagne. <br>Ziel war es, die Vielstimmigkeit des Abends visuell greifbar zu machen und Biermanns künstlerisches Erbe in einen zeitgemäßen Kontext zu setzen. Die visuelle Gestaltung baut auf dem bestehenden Erscheinungsbild auf, das wir für Biermanns Gesamtauftritt gestaltet haben, und übersetzt dessen zentrale Elemente – Typografie, 3D-Visuals und Farbigkeit – in ein Bühnenbild, das sowohl laut als auch poetisch sein darf. <br>Künstler:innen, die, neben Wolf Biermann, aufgetreten sind: Torch, Betterov, Haiyti, PeterLicht, Jan Plewka, Lina Maly, Mola, Bonaparte, Das Bierbeben, Van Holzen, Moritz Krämer, Charlotte Brandi & Albrecht Schrader, Katharina Franck & Paul Eisenach, Romano und das Jazz-Duo Ulrich Gumpert & Günter Baby Sommer. <br>Fotos von Wolf Biermann: Jonas Albrecht, www.jonas-albrecht.de, @zwischensequenzen"
     },
     {
@@ -88,7 +88,7 @@ const projectInformation = [
         id: "lp-design-kampagne-wolf-biermann-reimagined",
         accentColor: "#FF7F3B",
         title: "Wolf Biermann: RE:IMAGINED",
-        categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik","Buch- & Editorial Design"],
+        categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik", "Buch- & Editorial Design"],
         metaData: "Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute",
         mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "vid", "vid"],
         description: "Für das 2024 erschienene Album »Wolf Biermann – RE:IMAGINED. Lieder für jetzt!« durften wir das gesamte visuelle Erscheinungsbild gestalten. Das Projekt vereint 22 Neuinterpretationen von Biermanns Liedern durch Künstler:innen wie Alligatoah, Haiyti, OK KID, Betterov oder Lina Maly – und schlägt damit eine künstlerische Brücke zwischen Vergangenheit und Gegenwart.  <br>Unsere Gestaltung setzt diesen Brückenschlag visuell um: Im Zentrum stehen neben einer berühmten Biermann-Fotografie typografische 3D-Visuals, die wir über verschiedene Formate hinweg adaptiert haben – vom LP-Cover bis zum animierten Spotify-Canvas. Die klare, reduzierte Gestaltung der Plattencover trifft auf lebendige Typoanimationen für Social Media und digitale Plattformen. Ergänzt wurde das visuelle Konzept durch eine begleitende Plakatkampagne und Social Media Content für den offiziellen Album-Launch.  <br>Ziel war es, die künstlerische Haltung Biermanns – unbequem, poetisch, laut – gestalterisch weiterzudenken und gleichzeitig für eine junge Zielgruppe neu erlebbar zu machen."
@@ -191,7 +191,7 @@ const projectInformation = [
         metaData: "Editorial Design & Art Direction für Kerstin Abraham und die Sparkassenstiftung Schleswig-Holstein",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "img", "img", "img", "img", "img"],
         description: "»Ich sehe ein Nebeneinander in Nachbarschaften, in Verwandtschaften und formalen Wiederholungen. Ich sehe ein Übereinander, ein Untereinander; ein Voreinander und ein Hintereinander in Schichten. Ein (Übereinander-)»Geschichte«. Geschichte. Eine Geschichte?«¹ <br>Mit der Reihe CERAMICA BOREALIS will die Sparkassenstiftung Schleswig-Holstein der zeitgenössischen Künstlerschaft des Nordens ein Forum verschaffen, die sich im Bereich der künstlerischen Keramik bewegt. Für die 7. Ausgabe dieser Reihe wurden wir mit der Gestaltung beauftragt. Gezeigt werden die Arbeit von Kerstin Abraham, die Installationsreihe »Disegno Ornamento«, sowie die einzelnen keramischen und nicht-keramischen Bestandteile der Arbeiten.\n¹ Zitat: Lena Kaapke"
-    },{
+    }, {
         id: "corporate-design-tech-wobesystems",
         accentColor: "#91B3FF",
         title: "Branding für wobe-systems",

@@ -31,6 +31,27 @@ body.klaro-no-scroll {
     display: flex !important;
     justify-content: center !important;
     max-width: 100% !important;
+    transition: none !important;
+    animation: none !important;
+}
+
+.cm-klaro * {
+    transition: none !important;
+    animation: none !important;
+    opacity: 1 !important;
+}
+
+
+.cm-show .cm-modal {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.cm-show body {
+    overflow: hidden !important;
+    height: 100% !important;
 }
 
 .cm-klaro * {
@@ -40,6 +61,11 @@ body.klaro-no-scroll {
 
 .cm-klaro p {
     margin: 0 !important;
+}
+
+.cm-header {
+    display: flex;
+    align-items: center;
 }
 
 .cm-footer, .cm-footer-button {
@@ -52,12 +78,26 @@ body.klaro-no-scroll {
     display: none !important;
 }
 
+.cm-btn-accept {
+    order: 1; /* als erstes */
+}
+
+.cm-btn-decline {
+    order: 2; /* danach */
+}
+
 .cm-klaro button {
     border-radius: 40px !important;
     background-color: black !important;
     width: 250px !important;
     height: 50px !important;
     color: white !important;
+    transition: all 0.3s ease !important;
+}
+
+.cm-klaro button:hover {
+    background-color: white !important;
+    color: black !important;
 }
 
 @media (max-width: 576px) {
