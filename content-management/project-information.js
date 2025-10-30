@@ -13,15 +13,6 @@
 
 const projectInformation = [
     {
-        id: "corporate-design-relab",
-        accentColor: "#634aff",
-        title: "Reallabore zu nachhaltigen Bauweisen",
-        categories: ["Corporate Design"],
-        metaData: "Corporate Design für Relab,
-        mediaTypes: ["vid", "img", "img", "img"],
-        description: "Der Klimawandel und die Ressourcenknappheit stellen den Bausektor vor große Herausforderungen – auch in der Lehre. Das Projekt ReLAB der Hochschule Bremen schafft Lernräume, in denen Studierende, Lehrende und externe Expert:innen gemeinsam an aktuellen Fragestellungen des nachhaltigen Bauens arbeiten. In inter- und transdisziplinären Reallaboren werden wissenschaftliche Ansätze mit den Anforderungen der Praxis verknüpft. So entstehen technische, räumliche und soziale Innovationen, die nachhaltiges Bauen erfahrbar machen. ReLAB fördert forschendes und kooperatives Lernen und eröffnet einen Raum für partizipatives Denken und Handeln. Wir entwickelten dazu ein ganzheitliches Corporate Design, das die verschiedenen Anwendungsfelder verbindet und die Ideen und Prozesse des Projekts in der Stadtgesellschaft sichtbar macht."
-    },
-    {
         id: "corporate-design-colibris-eyewear",
         accentColor: "#9DB7FF",
         title: "Great glasses for small faces",
