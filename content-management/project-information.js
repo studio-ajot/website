@@ -23,7 +23,7 @@ const projectInformation = [
     },
  {
         id: "editorial-design-museum-fuer-naturkunde-berlin",
-        accentColor: "#0C3CEA",
+        accentColor: "#F2ACD2",
         title: "Place in Engagement",
         categories: ["Editorial Design"],
         metaData: "Editorial Design für Place in Engagement",
