@@ -25,6 +25,8 @@ const differentPreviewForGallery = {
             {'ausstellungsdesign-editorial-design-antje-majewski': 2},
             {'lp-design-wolf-biermann-box': 5},
             {'lp-design-kampagne-wolf-biermann-reimagined': 6},
+            {'editorial-design-place-in-engagement-museum-fuer-naturkunde-berlin': 1},
+
         ],
 
     'corporate-design':
