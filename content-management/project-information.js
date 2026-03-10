@@ -16,7 +16,7 @@ const projectInformation = [
         id: "editorial-design-place-in-engagement-museum-fuer-naturkunde-berlin",
         accentColor: "#0C3CEA",
         title: "Place in Engagement",
-        categories: ["editorial Design"],
+        categories: ["Editorial Design"],
         metaData: "Editorial Design für Place in Engagement",
         mediaTypes: ["img"],
         description: "Für die Collaborative Futures Academy der Berlin School of Public Engagement and Open Science und des Museums für Naturkunde Berlin gestalteten wir die CFA Encyclopedia. Ausgangspunkt waren drei intensive Konferenztage zum Thema »Place in Engagement« und die Frage, wie sich die vielen Stimmen, Perspektiven und Skizzen der Teilnehmenden in eine gemeinsame Form bringen lassen. Die Antwort wurde ein experimentelles Enzyklopädie-Format, inspiriert von der klaren Ordnung klassischer Nachschlagewerke, zugleich bewusst fragmentarisch und nicht-hierarchisch gedacht. Begriffe stehen alphabetisch nebeneinander – nicht nach Bedeutung – und lassen Raum für unterschiedliche Perspektiven."
