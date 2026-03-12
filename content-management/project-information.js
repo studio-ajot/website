@@ -13,7 +13,7 @@
 
 const projectInformation = [
  {
-        id: "corporate-design-colibris-eyewear",
+        id: "webdesign-fotografie-elenov",
         accentColor: "#9DB7FF",
         title: "Great glasses for small faces",
         categories: ["Corporate Design", "Packaging"],
