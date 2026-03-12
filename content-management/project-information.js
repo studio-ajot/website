@@ -14,7 +14,7 @@
 const projectInformation = [
  {
         id: "webdesign-fotografie-elenov",
-        accentColor: "#AB0A2E",
+        accentColor: "#C0D5D6",
         title: "Webdesign: Elenov Photography",
         categories: ["Webdesign"],
         metaData: "Webdesign",
