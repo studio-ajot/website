@@ -14,12 +14,12 @@
 const projectInformation = [
  {
         id: "webdesign-fotografie-elenov",
-        accentColor: "#9DB7FF",
+        accentColor: "#AB0A2E",
         title: "Webdesign: Elenov Photography",
         categories: ["Webdesign"],
         metaData: "Webdesign",
         mediaTypes: ["img", "img", "img", "img"],
-        description: "Webdesign"
+        description: "Für Elenov Photography entwickelten wir eine reduzierte Portfolio-Website, die die fotografischen Arbeiten klar in den Mittelpunkt stellt. Ziel war eine digitale Bühne, auf der die Bildsprache für sich sprechen kann – ruhig, strukturiert und mit viel Raum für Atmosphäre."
     },
     {
         id: "corporate-design-colibris-eyewear",
