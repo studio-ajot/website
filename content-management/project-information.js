@@ -14,7 +14,7 @@
 const projectInformation = [
  {
         id: "editorial-design-publikation-memory-in-motion",
-        accentColor: "#C0D5D6",
+        accentColor: "#B38EB7",
         title: "Buchgestaltung: Memory in Motion",
         categories: ["editorial design"],
         metaData: "Webdesign",
