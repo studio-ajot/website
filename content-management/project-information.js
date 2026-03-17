@@ -13,6 +13,15 @@
 
 const projectInformation = [
  {
+        id: "editorial-design-publikation-memory-in-motion",
+        accentColor: "#C0D5D6",
+        title: "Buchgestaltung: Memory in Motion",
+        categories: ["editorial design"],
+        metaData: "Webdesign",
+        mediaTypes: ["img", "img", "img", "img", "img"],
+        description: "Memory in Motion."
+    },
+ {
         id: "webdesign-fotografie-elenov",
         accentColor: "#C0D5D6",
         title: "Webdesign: Elenov Photography",
@@ -20,15 +29,6 @@ const projectInformation = [
         metaData: "Webdesign",
         mediaTypes: ["img", "img", "img", "img"],
         description: "Für Elenov Photography entwickelten wir eine reduzierte Portfolio-Website, die die fotografischen Arbeiten klar in den Mittelpunkt stellt. Ziel war eine digitale Bühne, auf der die Bildsprache für sich sprechen kann – ruhig, strukturiert und mit viel Raum für Atmosphäre."
-    },
-    {
-        id: "corporate-design-colibris-eyewear",
-        accentColor: "#9DB7FF",
-        title: "Great glasses for small faces",
-        categories: ["Corporate Design", "Packaging"],
-        metaData: "Corporate Design für colibris",
-        mediaTypes: ["img", "vid", "img", "img", "img", "vid", "img", "img", "img", "img", "img"],
-        description: "Zum 25-jährigen Jubiläum entwickelten wir für Colibris Eyewear ein modernes Corporate Design, das die Markenidentität neu definiert. Unter dem Leitgedanken »Great glasses for small faces« verbindet das visuelle Konzept nordisches Design mit einer zeitgemäßen Ästhetik. Ein maritimes Blau und warmer Sandton spiegeln die norddeutsche Landschaft wider, während das ikonische »C« und filigrane Wellenmuster die Herkunft und Präzision der Marke unterstreichen. Der überarbeitete Logo-Schriftzug kombiniert Eleganz mit Selbstbewusstsein und setzt die Spezialisierung auf Brillen für schmale Gesichter eindrucksvoll in Szene. <br>Messefotos ©reizueberflutung.com"
     },
  {
         id: "editorial-design-museum-fuer-naturkunde-berlin",
@@ -38,6 +38,15 @@ const projectInformation = [
         metaData: "Editorial Design für Place in Engagement",
         mediaTypes: ["img"],
         description: "Für die Collaborative Futures Academy der Berlin School of Public Engagement and Open Science und des Museums für Naturkunde Berlin gestalteten wir die CFA Encyclopedia. Ausgangspunkt waren drei intensive Konferenztage zum Thema »Place in Engagement« und die Frage, wie sich die vielen Stimmen, Perspektiven und Skizzen der Teilnehmenden in eine gemeinsame Form bringen lassen. Die Antwort wurde ein experimentelles Enzyklopädie-Format, inspiriert von der klaren Ordnung klassischer Nachschlagewerke, zugleich bewusst fragmentarisch und nicht-hierarchisch gedacht. Begriffe stehen alphabetisch nebeneinander – nicht nach Bedeutung – und lassen Raum für unterschiedliche Perspektiven."
+    },
+  {
+        id: "corporate-design-colibris-eyewear",
+        accentColor: "#9DB7FF",
+        title: "Great glasses for small faces",
+        categories: ["Corporate Design", "Packaging"],
+        metaData: "Corporate Design für colibris",
+        mediaTypes: ["img", "vid", "img", "img", "img", "vid", "img", "img", "img", "img", "img"],
+        description: "Zum 25-jährigen Jubiläum entwickelten wir für Colibris Eyewear ein modernes Corporate Design, das die Markenidentität neu definiert. Unter dem Leitgedanken »Great glasses for small faces« verbindet das visuelle Konzept nordisches Design mit einer zeitgemäßen Ästhetik. Ein maritimes Blau und warmer Sandton spiegeln die norddeutsche Landschaft wider, während das ikonische »C« und filigrane Wellenmuster die Herkunft und Präzision der Marke unterstreichen. Der überarbeitete Logo-Schriftzug kombiniert Eleganz mit Selbstbewusstsein und setzt die Spezialisierung auf Brillen für schmale Gesichter eindrucksvoll in Szene. <br>Messefotos ©reizueberflutung.com"
     },
     {
         id: "corporate-design-architekrur-relab",
