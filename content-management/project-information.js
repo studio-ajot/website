@@ -16,17 +16,17 @@ const projectInformation = [
         id: "editorial-design-publikation-memory-in-motion",
         accentColor: "#B38EB7",
         title: "Konzept Buchgestaltung: Memory in Motion",
-        categories: ["editorial design"],
-        metaData: "Konzept für eine Buchgestaltung",
+        categories: ["Buch- & Editorial Design"],
+        metaData: "Unveröffentlichter Pitch im Rahmen der Buchgestaltung von Memory in Motion",
         mediaTypes: ["img", "img", "img", "img", "img", "img"],
         description: "Für die Publikation Memory in Motion entwickelten wir im Rahmen eines eingeladenen Gestaltungswettbewerbs einen konzeptionellen Ansatz für Editorial und Buchgestaltung. Das Buch vereint Essays, Interviews und visuelle Beiträge und erscheint in einer deutschen sowie einer englischen Ausgabe. Unser Vorschlag umfasste Cover, Format, typografisches System, Kapitel- und Innenseiten sowie Mock-ups für beide Sprachfassungen. Ausgangspunkt der Gestaltung war die Frage, wie Editorial Design eurozentrische und kolonial geprägte Gestaltungsprinzipien hinterfragen kann. Statt eines streng hierarchischen Layouts entwickelten wir eine offene Seitenstruktur, in der Text, Bild und Zitat gleichwertig miteinander arbeiten und unterschiedliche Beitragsformate typografisch differenziert werden.<br>(Unveröffentlichtes Projekt)"
     },
  {
         id: "webdesign-fotografie-elenov",
         accentColor: "#C0D5D6",
-        title: "Webdesign: Elenov Photography",
+        title: "Elenov Photography",
         categories: ["Webdesign"],
-        metaData: "Webdesign",
+        metaData: "Webdesign für den Fotografen Yasen Elenov",
         mediaTypes: ["img", "img", "img", "img"],
         description: "Für Elenov Photography entwickelten wir eine reduzierte Portfolio-Website, die die fotografischen Arbeiten klar in den Mittelpunkt stellt. Ziel war eine digitale Bühne, auf der die Bildsprache für sich sprechen kann – ruhig, strukturiert und mit viel Raum für Atmosphäre."
     },
@@ -34,8 +34,8 @@ const projectInformation = [
         id: "editorial-design-museum-fuer-naturkunde-berlin",
         accentColor: "#F2ACD2",
         title: "Place in Engagement",
-        categories: ["Editorial Design"],
-        metaData: "Editorial Design für Place in Engagement",
+        categories: ["Buch- & Editorial Design"],
+        metaData: "Editorial Design für die Publikation: Place in Engagement",
         mediaTypes: ["img"],
         description: "Für die Collaborative Futures Academy der Berlin School of Public Engagement and Open Science und des Museums für Naturkunde Berlin gestalteten wir die CFA Encyclopedia. Ausgangspunkt waren drei intensive Konferenztage zum Thema »Place in Engagement« und die Frage, wie sich die vielen Stimmen, Perspektiven und Skizzen der Teilnehmenden in eine gemeinsame Form bringen lassen. Die Antwort wurde ein experimentelles Enzyklopädie-Format, inspiriert von der klaren Ordnung klassischer Nachschlagewerke, zugleich bewusst fragmentarisch und nicht-hierarchisch gedacht. Begriffe stehen alphabetisch nebeneinander – nicht nach Bedeutung – und lassen Raum für unterschiedliche Perspektiven."
     },
