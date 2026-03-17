@@ -18,7 +18,7 @@ const projectInformation = [
         title: "Buchgestaltung: Memory in Motion",
         categories: ["editorial design"],
         metaData: "Webdesign",
-        mediaTypes: ["img", "img", "img", "img", "img"],
+        mediaTypes: ["img", "img", "img", "img", "img", "img"],
         description: "Memory in Motion."
     },
  {
