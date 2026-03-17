@@ -17,9 +17,9 @@ const projectInformation = [
         accentColor: "#B38EB7",
         title: "Buchgestaltung: Memory in Motion",
         categories: ["editorial design"],
-        metaData: "Buchgestaltung",
+        metaData: "Konzept für eine Buchgestaltung",
         mediaTypes: ["img", "img", "img", "img", "img", "img"],
-        description: "Für die Publikation Memory in Motion entwickelten wir im Rahmen eines eingeladenen Gestaltungswettbewerbs einen konzeptionellen Ansatz für Editorial und Buchgestaltung. Das Buch vereint Essays, Interviews und visuelle Beiträge und erscheint in einer deutschen sowie einer englischen Ausgabe. Unser Vorschlag umfasste Cover, Format, typografisches System, Kapitel- und Innenseiten sowie Mock-ups für beide Sprachfassungen. Ausgangspunkt der Gestaltung war die Frage, wie Editorial Design eurozentrische und kolonial geprägte Gestaltungsprinzipien hinterfragen kann. Statt eines streng hierarchischen Layouts entwickelten wir eine offene Seitenstruktur, in der Text, Bild und Zitat gleichwertig miteinander arbeiten und unterschiedliche Beitragsformate typografisch differenziert werden."
+        description: "Für die Publikation Memory in Motion entwickelten wir im Rahmen eines eingeladenen Gestaltungswettbewerbs einen konzeptionellen Ansatz für Editorial und Buchgestaltung. Das Buch vereint Essays, Interviews und visuelle Beiträge und erscheint in einer deutschen sowie einer englischen Ausgabe. Unser Vorschlag umfasste Cover, Format, typografisches System, Kapitel- und Innenseiten sowie Mock-ups für beide Sprachfassungen. Ausgangspunkt der Gestaltung war die Frage, wie Editorial Design eurozentrische und kolonial geprägte Gestaltungsprinzipien hinterfragen kann. Statt eines streng hierarchischen Layouts entwickelten wir eine offene Seitenstruktur, in der Text, Bild und Zitat gleichwertig miteinander arbeiten und unterschiedliche Beitragsformate typografisch differenziert werden.<br>(Unveröffentlichtes Projekt)"
     },
  {
         id: "webdesign-fotografie-elenov",
