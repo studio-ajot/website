@@ -24,11 +24,11 @@ const projectInformation = [
  {
         id: "webdesign-fotografie-elenov",
         accentColor: "#C0D5D6",
-        title: "Ein Fotografie Portfolio",
+        title: "Passionate about Capturing real Moments",
         categories: ["Webdesign"],
-        metaData: "Webdesign für den Fotografen Yasen Elenov",
+        metaData: "Eine Portfolio-Website für den Fotografen Yasen Elenov",
         mediaTypes: ["img", "img", "img", "img"],
-        description: "Für Elenov Photography entwickelten wir eine reduzierte Portfolio-Website, die die fotografischen Arbeiten klar in den Mittelpunkt stellt. Ziel war eine digitale Bühne, auf der die Bildsprache für sich sprechen kann – ruhig, strukturiert und mit viel Raum für Atmosphäre."
+        description: "Für den Fotografen Yasen Elenov entwickelten wir eine reduzierte Portfolio-Website, die die fotografischen Arbeiten klar in den Mittelpunkt stellt. Ziel war eine digitale Bühne, auf der die Bildsprache für sich sprechen kann – ruhig, strukturiert und mit viel Raum für Atmosphäre."
     },
  {
         id: "editorial-design-museum-fuer-naturkunde-berlin",
