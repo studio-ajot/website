@@ -64,7 +64,7 @@ const projectInformation = [
         categories: ["Buch- & Editorial Design"],
         metaData: "Coverdesign für »Wer hat unsere Lok geklaut?« von Harald Braun, erschienen im Murmann Verlag",
         mediaTypes: ["img", "img"],
-        description: "Wer hat unsere Lok geklaut? Wie aus einem Sprachkurs die vielleicht außergewöhnlichste Reisegeschichte Deutschlands wurde."
+        description: "Wer hat unsere Lok geklaut? Wie aus einem Sprachkurs die vielleicht außergewöhnlichste Reisegeschichte Deutschlands wurde. Für die Umschlaggestaltung wurden wir vom Murmann Verlag beauftragt."
     },
     {
         id: "plakatdesign-musik-rising-stars",
