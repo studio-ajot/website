@@ -17,27 +17,27 @@ const projectInformation = [
         accentColor: "#B38EB7",
         title: "Konzept Buchgestaltung: Memory in Motion",
         categories: ["Buch- & Editorial Design"],
-        metaData: "Unveröffentlichter Pitch im Rahmen der Buchgestaltung von Memory in Motion",
+        metaData: "Unveröffentlichter Pitch: Dokumentation der Ergebnisse eines transnationalen Arbeitsnetzwerks zum »Lern- und Erinnerungsort Kolonialismus in Deutschland«",
         mediaTypes: ["img", "img", "img", "img", "img", "img"],
-        description: "Für die Publikation Memory in Motion entwickelten wir im Rahmen eines eingeladenen Gestaltungswettbewerbs einen konzeptionellen Ansatz für Editorial und Buchgestaltung. Das Buch vereint Essays, Interviews und visuelle Beiträge und erscheint in einer deutschen sowie einer englischen Ausgabe. Unser Vorschlag umfasste Cover, Format, typografisches System, Kapitel- und Innenseiten sowie Mock-ups für beide Sprachfassungen. Ausgangspunkt der Gestaltung war die Frage, wie Editorial Design eurozentrische und kolonial geprägte Gestaltungsprinzipien hinterfragen kann. Statt eines streng hierarchischen Layouts entwickelten wir eine offene Seitenstruktur, in der Text, Bild und Zitat gleichwertig miteinander arbeiten und unterschiedliche Beitragsformate typografisch differenziert werden.<br>(Unveröffentlichtes Projekt)"
+        description: "Für die Publikation »Memory in Motion« entwickelten wir im Rahmen eines eingeladenen Gestaltungswettbewerbs einen konzeptionellen Ansatz für Editorial und Buchgestaltung. Das Buch vereint Essays, Interviews und visuelle Beiträge und erscheint in einer deutschen sowie einer englischen Ausgabe. Unser Vorschlag umfasste Cover, Format, typografisches System, Kapitel- und Innenseiten sowie Mock-ups für beide Sprachfassungen. Ausgangspunkt der Gestaltung war die Frage, wie Editorial Design eurozentrische und kolonial geprägte Gestaltungsprinzipien hinterfragen kann. Statt eines streng hierarchischen Layouts entwickelten wir eine offene Seitenstruktur, in der Text, Bild und Zitat gleichwertig miteinander arbeiten und unterschiedliche Beitragsformate typografisch differenziert werden sowie ein Layout, das sanft mit strengen Layoutstrukturen bricht.<br>(Unveröffentlichtes Projekt)"
     },
  {
         id: "webdesign-fotografie-elenov",
         accentColor: "#C0D5D6",
-        title: "Elenov Photography",
+        title: "Passionate about Capturing real Moments",
         categories: ["Webdesign"],
-        metaData: "Webdesign für den Fotografen Yasen Elenov",
+        metaData: "Eine Portfolio-Website für den Fotografen Yasen Elenov",
         mediaTypes: ["img", "img", "img", "img"],
-        description: "Für Elenov Photography entwickelten wir eine reduzierte Portfolio-Website, die die fotografischen Arbeiten klar in den Mittelpunkt stellt. Ziel war eine digitale Bühne, auf der die Bildsprache für sich sprechen kann – ruhig, strukturiert und mit viel Raum für Atmosphäre."
+        description: "Für den Fotografen Yasen Elenov entwickelten wir eine reduzierte Portfolio-Website, die die fotografischen Arbeiten klar in den Mittelpunkt stellt. Ziel war eine digitale Bühne, auf der die Bildsprache für sich sprechen kann – ruhig, strukturiert und mit viel Raum für Atmosphäre."
     },
  {
         id: "editorial-design-museum-fuer-naturkunde-berlin",
         accentColor: "#F2ACD2",
-        title: "Place in Engagement",
-        categories: ["Buch- & Editorial Design"],
-        metaData: "Editorial Design für die Publikation: Place in Engagement",
-        mediaTypes: ["img"],
-        description: "Für die Collaborative Futures Academy der Berlin School of Public Engagement and Open Science und des Museums für Naturkunde Berlin gestalteten wir die CFA Encyclopedia. Ausgangspunkt waren drei intensive Konferenztage zum Thema »Place in Engagement« und die Frage, wie sich die vielen Stimmen, Perspektiven und Skizzen der Teilnehmenden in eine gemeinsame Form bringen lassen. Die Antwort wurde ein experimentelles Enzyklopädie-Format, inspiriert von der klaren Ordnung klassischer Nachschlagewerke, zugleich bewusst fragmentarisch und nicht-hierarchisch gedacht. Begriffe stehen alphabetisch nebeneinander – nicht nach Bedeutung – und lassen Raum für unterschiedliche Perspektiven."
+        title: "Place in Engagement: A Collaborative Encyclopedia",
+        categories: ["Buch- & Editorial Design", "Illustration", "Infografik"],
+        metaData: "Editorial Design & Gestaltung von Info-Grafiken für die Publikation: Place in Engagement",
+        mediaTypes: ["img", "img", "img", "img", "img",],
+        description: "Für die Collaborative Futures Academy der Berlin School of Public Engagement and Open Science und des Museums für Naturkunde Berlin gestalteten wir die CFA Encyclopedia. Ausgangspunkt waren drei intensive Konferenztage zum Thema »Place in Engagement« und die Frage, wie sich die vielen Stimmen, Perspektiven und Skizzen der Teilnehmenden in eine gemeinsame Form bringen lassen. Die Antwort wurde ein experimentelles Enzyklopädie-Format, inspiriert von der klaren Ordnung klassischer Nachschlagewerke, zugleich bewusst fragmentarisch und nicht-hierarchisch gedacht. Begriffe stehen alphabetisch nebeneinander – nicht nach Bedeutung – und lassen Raum für unterschiedliche Perspektiven. Jeder Beitrag wurde individuell durch Info-Grafiken sowie Illustrationen übersetzt."
     },
   {
         id: "corporate-design-colibris-eyewear",
@@ -58,6 +58,7 @@ const projectInformation = [
         description: "Der Klimawandel und die Ressourcenknappheit stellen den Bausektor vor große Herausforderungen – auch in der Lehre. Das Projekt ReLAB der Hochschule Bremen schafft Lernräume, in denen Studierende, Lehrende und externe Expert:innen gemeinsam an aktuellen Fragestellungen des nachhaltigen Bauens arbeiten. In inter- und transdisziplinären Reallaboren werden wissenschaftliche Ansätze mit den Anforderungen der Praxis verknüpft. So entstehen technische, räumliche und soziale Innovationen, die nachhaltiges Bauen erfahrbar machen. ReLAB fördert forschendes und kooperatives Lernen und eröffnet einen Raum für partizipatives Denken und Handeln. Wir entwickelten dazu ein ganzheitliches Corporate Design, das die verschiedenen Anwendungsfelder verbindet und die Ideen und Prozesse des Projekts in der Stadtgesellschaft sichtbar macht."
     },
     {
+<<<<<<< HEAD
         id: "buchgestaltung-covergestaltung-verlag-murmann-braun",
         accentColor: "#FFF4E6",
         title: "Harald Braun: »Wer hat unsere Lok geklaut?«",
@@ -67,11 +68,13 @@ const projectInformation = [
         description: "Wer hat unsere Lok geklaut? Wie aus einem Sprachkurs die vielleicht außergewöhnlichste Reisegeschichte Deutschlands wurde. Für die Umschlaggestaltung wurden wir vom Murmann Verlag beauftragt."
     },
     {
+=======
+>>>>>>> parent of e749cf5d (Update project-information.js)
         id: "plakatdesign-musik-rising-stars",
         accentColor: "#D23159",
-        title: "Rising Stars 2025",
+        title: "Konzertplakate für die Rising Stars der Piano-Welt",
         categories: ["Corporate Design", "Musik", "Plakatgestaltung", "Animation"],
-        metaData: "Gestaltung für Rising Stars",
+        metaData: "Ein Plakatsystem für die Veranstaltungsreihe »Rising Stars«",
         mediaTypes: ["img", "img", "vid", "img"],
         description: "Für die Konzertreihe »Rising Stars« im August 2025 im Goldenen Saal des Wiener Musikvereins entwickelten wir ein durchgängiges Gestaltungssystem, das analoge und digitale Medien gleichermaßen umfasst. Die Gestaltung verbindet eine klare, reduzierte Typografie mit einem konsequenten Farbkonzept, das die Wiedererkennbarkeit stärkt und die Reihe auch für zukünftige Veranstaltungen prägt. Prominente Künstlerporträts setzen die Solist*innen in den Mittelpunkt und verleihen der visuellen Linie eine persönliche Note. So entstanden ein City-Light-Plakat, verschiedene Social-Media-Formate sowie ein Programmheft, die gemeinsam ein konsistentes und hochwertiges Erscheinungsbild schaffen und den hohen Anspruch des Musikvereins gestalterisch unterstreichen."
     },
