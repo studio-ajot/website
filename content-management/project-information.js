@@ -26,7 +26,7 @@ const projectInformation = [
         accentColor: "#C0D5D6",
         title: "Elenov Photography",
         categories: ["Webdesign"],
-        metaData: "Webdesign für den Fotografen Yasen Elenov",
+        metaData: "Webdesign für den Fotografen Yasen Elenov aus Hamburg",
         mediaTypes: ["img", "img", "img", "img"],
         description: "Für Elenov Photography entwickelten wir eine reduzierte Portfolio-Website, die die fotografischen Arbeiten klar in den Mittelpunkt stellt. Ziel war eine digitale Bühne, auf der die Bildsprache für sich sprechen kann – ruhig, strukturiert und mit viel Raum für Atmosphäre."
     },
