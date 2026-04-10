@@ -113,7 +113,7 @@ const projectInformation = [
     },
     {
         id: "buchgestaltung-covergestaltung-verlag-wachholtz-auge",
-        accentColor: "#8CF5CD",
+        accentColor: "#D5EBEB",
         title: "Oliver Auge: Kiels Geschichte im Fokus",
         categories: ["Buch- & Editorial Design"],
         metaData: "Coverdesign für »Kiels Geschichte im Fokus« von Oliver Auge, erschienen im Wachholtz Verlag",
