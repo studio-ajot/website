@@ -112,6 +112,15 @@ const projectInformation = [
         description: "Für die Open Source Agentur B310 entwickelten wir einen frischen, neuen Webauftritt in Form eines OnePagers, der auf dem bestehenden Corporate Design aufbauert und dieses erweitert."
     },
     {
+        id: "buchgestaltung-covergestaltung-verlag-wachholtz-auge",
+        accentColor: "#8CF5CD",
+        title: "Oliver Auge: Kiels Geschichte im Fokus",
+        categories: ["Buch- & Editorial Design"],
+        metaData: "Coverdesign für »Kiels Geschichte im Fokus« von Oliver Auge, erschienen im Wachholtz Verlag",
+        mediaTypes: ["img"],
+        description: "Kiels Geschichte im Fokus.150 Jahre Gesellschaft für Kieler Stadtgeschichte. Für die Umschlaggestaltung wurden wir vom Wachholtz Verlag beauftragt."
+    },
+    {
         id: "editorial-design-muthesius-kunsthochschule-postkarten",
         accentColor: "#FA6262",
         title: "Was passiert an der Muthesius Kunst<wbr>hochschule?",
