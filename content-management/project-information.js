@@ -26,7 +26,11 @@ const projectInformation = [
         accentColor: "#C0D5D6",
         title: "Passionate about Capturing real Moments",
         categories: ["Webdesign"],
+<<<<<<< HEAD
         metaData: "Eine Portfolio-Website für den Fotografen Yasen Elenov",
+=======
+        metaData: "Webdesign für den Fotografen Yasen Elenov aus Hamburg",
+>>>>>>> 31ca8c1a65232dd65aad38e5e8953aa01dcac265
         mediaTypes: ["img", "img", "img", "img"],
         description: "Für den Fotografen Yasen Elenov entwickelten wir eine reduzierte Portfolio-Website, die die fotografischen Arbeiten klar in den Mittelpunkt stellt. Ziel war eine digitale Bühne, auf der die Bildsprache für sich sprechen kann – ruhig, strukturiert und mit viel Raum für Atmosphäre."
     },
