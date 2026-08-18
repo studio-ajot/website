@@ -24,7 +24,7 @@ const projectInformation = [
  {
         id: "webdesign-fotografie-elenov",
         accentColor: "#C0D5D6",
-        title: "Web-Portfolio",
+        title: "Web-Portfolio für einen Fotografen",
         categories: ["Webdesign"],
         metaData: "Webdesign für den Fotografen Yasen Elenov",
         mediaTypes: ["img", "img", "img", "img"],
