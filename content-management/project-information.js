@@ -43,7 +43,7 @@ const projectInformation = [
         id: "corporate-design-colibris-eyewear",
         accentColor: "#9DB7FF",
         title: "Great glasses for small faces",
-        categories: ["Corporate Design", "Packaging"],
+        categories: ["Corporate Design", "Packaging", "Brand Building"],
         metaData: "Corporate Design für colibris",
         mediaTypes: ["img", "vid", "img", "img", "img", "vid", "img", "img", "img", "img", "img"],
         description: "Zum 25-jährigen Jubiläum entwickelten wir für Colibris Eyewear ein modernes Corporate Design, das die Markenidentität neu definiert. Unter dem Leitgedanken »Great glasses for small faces« verbindet das visuelle Konzept nordisches Design mit einer zeitgemäßen Ästhetik. Ein maritimes Blau und warmer Sandton spiegeln die norddeutsche Landschaft wider, während das ikonische »C« und filigrane Wellenmuster die Herkunft und Präzision der Marke unterstreichen. Der überarbeitete Logo-Schriftzug kombiniert Eleganz mit Selbstbewusstsein und setzt die Spezialisierung auf Brillen für schmale Gesichter eindrucksvoll in Szene. <br>Messefotos ©reizueberflutung.com"
@@ -52,7 +52,7 @@ const projectInformation = [
         id: "corporate-design-architektur-relab",
         accentColor: "#FC4F5F",
         title: "Reallabore zu nachhaltigen Bauweisen",
-        categories: ["Corporate Design"],
+        categories: ["Corporate Design", "Brand Building"],
         metaData: "Corporate Design für Relab",
         mediaTypes: ["vid", "img", "img", "img", "img"],
         description: "Der Klimawandel und die Ressourcenknappheit stellen den Bausektor vor große Herausforderungen – auch in der Lehre. Das Projekt ReLAB der Hochschule Bremen schafft Lernräume, in denen Studierende, Lehrende und externe Expert:innen gemeinsam an aktuellen Fragestellungen des nachhaltigen Bauens arbeiten. In inter- und transdisziplinären Reallaboren werden wissenschaftliche Ansätze mit den Anforderungen der Praxis verknüpft. So entstehen technische, räumliche und soziale Innovationen, die nachhaltiges Bauen erfahrbar machen. ReLAB fördert forschendes und kooperatives Lernen und eröffnet einen Raum für partizipatives Denken und Handeln. Wir entwickelten dazu ein ganzheitliches Corporate Design, das die verschiedenen Anwendungsfelder verbindet und die Ideen und Prozesse des Projekts in der Stadtgesellschaft sichtbar macht."
@@ -70,7 +70,7 @@ const projectInformation = [
         id: "plakatdesign-musik-rising-stars",
         accentColor: "#D23159",
         title: "Rising Stars 2025",
-        categories: ["Corporate Design", "Musik", "Plakatgestaltung", "Animation"],
+        categories: ["Corporate Design", "Musik", "Plakatgestaltung", "Animation", "Brand Building"],
         metaData: "Gestaltung für Rising Stars",
         mediaTypes: ["img", "img", "vid", "img"],
         description: "Für die Konzertreihe »Rising Stars« im August 2025 im Goldenen Saal des Wiener Musikvereins entwickelten wir ein durchgängiges Gestaltungssystem, das analoge und digitale Medien gleichermaßen umfasst. Die Gestaltung verbindet eine klare, reduzierte Typografie mit einem konsequenten Farbkonzept, das die Wiedererkennbarkeit stärkt und die Reihe auch für zukünftige Veranstaltungen prägt. Prominente Künstlerporträts setzen die Solist*innen in den Mittelpunkt und verleihen der visuellen Linie eine persönliche Note. So entstanden ein City-Light-Plakat, verschiedene Social-Media-Formate sowie ein Programmheft, die gemeinsam ein konsistentes und hochwertiges Erscheinungsbild schaffen und den hohen Anspruch des Musikvereins gestalterisch unterstreichen."
@@ -79,7 +79,7 @@ const projectInformation = [
         id: "lp-design-wolf-biermann-box",
         accentColor: "#FFC4F4",
         title: "Wolf Biermann: Zeiten verbinden",
-        categories: ["Buch- & Editorial Design", "Musik"],
+        categories: ["Buch- & Editorial Design", "Musik", "Brand Building"],
         metaData: "Plattengestaltung für Wolf Biermann",
         mediaTypes: ["vid", "img", "img", "img", "img"],
         description: "Das exklusive Box-Set »Zeiten verbinden« vereint Wolf Biermanns Klassiker & neue Interpretationen und beinhaltet 5 LPs, Art-Prints, Sticker & mehr. <br> <br>Auf dem Herzstück des Box-Sets, dem Album »Wolf Biermann RE:IMAGINED - Lieder für jetzt«, haben sich 22 unterschiedliche Musiker:innen, darunter Alligatoah, OK KID, Betterov, Haiyti oder Torch an Neuinterpretationen von Wolf Biermanns Liedern gewagt. »Wolf Biermann, Zeuge und Protagonist einer turbulenten Zeit, hat sich stets lautstark zu Wort gemeldet, um seine Kritik an den herrschenden Zuständen zu äußern - und findet nun Unterstützung in einer jungen Generation, die künstlerisch durchaus geprägt ist vom Ton des 1936 in Hamburg geborenen Künstlers, der als junger Mann in die DDR übersiedelte, um später von ihr verstoßen zu werden: weil er sich auch dort nicht zensieren ließ!«, so die Beschreibung von Clouds Hill, dem Hamburger Indie-Label um Produzent und Autor Johann Scheerer, das die Musik von Wolf Biermann wieder in den Fokus rücken und zugänglich machen will. <br>Die beiden Vinyl-Alben »RE:IMAGINED« und »Ermutigung« führen den Kern des Corporate Designs, das wir für Wolf Biermann entwickelt haben, weiter. Dabei bilden typografische 3D-Visuals das zentrale Element."
@@ -97,7 +97,7 @@ const projectInformation = [
         id: "plakat-konzert-merch-wolf-biermann",
         accentColor: "#FFBA5D",
         title: "»Lieder für jetzt«, ein Konzert für und mit Wolf Biermann",
-        categories: ["Corporate Design", "Musik"],
+        categories: ["Corporate Design", "Musik", "Brand Building"],
         metaData: "Bühnendesign, Bühnenanimation, Merchandise für das Konzert »Lieder für jetzt« für und mit Wolf Biermann, 2024",
         mediaTypes: ["img", "img", "img", "img", "img", "img", "vid", "img", "img", "vid"],
         description: "Im Rahmen des Coveralbums »Wolf Biermann RE:IMAGINED – Lieder für jetzt!« fand am 13. November 2024 im Hamburger Thalia Theater ein besonderes Release-Konzert statt, bei dem sich eine neue Künstlergeneration dem Werk des Liedermachers annäherte. Studio Ajot entwickelte das visuelle Erscheinungsbild für diesen Abend – von der Plakatgestaltung über die Bühnengestaltung über Merch-Artikel wie Shirts und Stressbälle bis hin zur begleitenden Social-Media-Kampagne. <br>Ziel war es, die Vielstimmigkeit des Abends visuell greifbar zu machen und Biermanns künstlerisches Erbe in einen zeitgemäßen Kontext zu setzen. Die visuelle Gestaltung baut auf dem bestehenden Erscheinungsbild auf, das wir für Biermanns Gesamtauftritt gestaltet haben, und übersetzt dessen zentrale Elemente – Typografie, 3D-Visuals und Farbigkeit – in ein Bühnenbild, das sowohl laut als auch poetisch sein darf. <br>Künstler:innen, die, neben Wolf Biermann, aufgetreten sind: Torch, Betterov, Haiyti, PeterLicht, Jan Plewka, Lina Maly, Mola, Bonaparte, Das Bierbeben, Van Holzen, Moritz Krämer, Charlotte Brandi & Albrecht Schrader, Katharina Franck & Paul Eisenach, Romano und das Jazz-Duo Ulrich Gumpert & Günter Baby Sommer. <br>Fotos von Wolf Biermann: Jonas Albrecht, www.jonas-albrecht.de, @zwischensequenzen"
@@ -133,7 +133,7 @@ const projectInformation = [
         id: "lp-design-kampagne-wolf-biermann-reimagined",
         accentColor: "#FF7F3B",
         title: "Wolf Biermann: RE:IMAGINED",
-        categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik","Buch- & Editorial Design"],
+        categories: ["Corporate Design", "Plakatgestaltung", "Animation", "Digital Design", "Musik","Buch- & Editorial Design", "Brand Building"],
         metaData: "Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute",
         mediaTypes: ["img", "img", "img", "img", "vid", "img", "img", "img", "vid", "vid"],
         description: "Für das 2024 erschienene Album »Wolf Biermann – RE:IMAGINED. Lieder für jetzt!« durften wir das gesamte visuelle Erscheinungsbild gestalten. Das Projekt vereint 22 Neuinterpretationen von Biermanns Liedern durch Künstler:innen wie Alligatoah, Haiyti, OK KID, Betterov oder Lina Maly – und schlägt damit eine künstlerische Brücke zwischen Vergangenheit und Gegenwart.  <br>Unsere Gestaltung setzt diesen Brückenschlag visuell um: Im Zentrum stehen neben einer berühmten Biermann-Fotografie typografische 3D-Visuals, die wir über verschiedene Formate hinweg adaptiert haben – vom LP-Cover bis zum animierten Spotify-Canvas. Die klare, reduzierte Gestaltung der Plattencover trifft auf lebendige Typoanimationen für Social Media und digitale Plattformen. Ergänzt wurde das visuelle Konzept durch eine begleitende Plakatkampagne und Social Media Content für den offiziellen Album-Launch.  <br>Ziel war es, die künstlerische Haltung Biermanns – unbequem, poetisch, laut – gestalterisch weiterzudenken und gleichzeitig für eine junge Zielgruppe neu erlebbar zu machen."
@@ -151,7 +151,7 @@ const projectInformation = [
         id: "lp-design-wolf-biermann-ermutigung",
         accentColor: "#BE66D6",
         title: "Wolf Biermann: Ermutigung",
-        categories: ["Corporate Design", "Animation", "Digital Design", "Musik", "Packaging"],
+        categories: ["Corporate Design", "Animation", "Digital Design", "Musik", "Packaging", "Brand Building"],
         metaData: "Animation & Social Media Kampagnen für Wolf Biermann, 2023-heute",
         mediaTypes: ["vid", "img", "img", "img", "img", "img"],
         description: "Für die Veröffentlichung der LP »Ermutigung« haben wir ein visuelles Konzept entwickelt, das direkt an die berühmte Zeile »Du, lass dich nicht verhärten in dieser harten Zeit« anknüpft. Das Cover greift diese Aussage bildlich auf und übersetzt sie grafisch in eine 3D-Ballon-Optik – als Symbol für Bewegung, Widerstandskraft und poetische Aufladung inmitten harter Zeiten. <br>Die visuelle Sprache spielt mit Materialität und Form, steht im Kontrast zur politischen Schwere des Liedes und betont gleichzeitig dessen zentrale Botschaft: weich bleiben, auch wenn es schwerfällt. Es findet Platz auf thematisch passendem Merch wie Stressbällen, Pop-Sockets und Kaugummis. <br>Das Artwork wurde als Teil der exklusiven LP-Veröffentlichung im Box-Set »Wolf Biermann: Zeiten verbinden« gestaltet und ist ebenfalls in begleitenden digitalen Formaten für Social Media und Streaming-Plattformen zu hören.",
@@ -160,7 +160,7 @@ const projectInformation = [
         id: "corporate-design-chor-jazzica",
         accentColor: "#7ECCE7",
         title: "Jazzica – ein A-Capella Chor aus Kiel",
-        categories: ["Corporate Design", "Schriftgestaltung", "Plakatgestaltung", "Webdesign", "Animation"],
+        categories: ["Corporate Design", "Schriftgestaltung", "Plakatgestaltung", "Webdesign", "Animation", "Brand Building"],
         metaData: "Aufbau einer Markenidentität & Entwicklung von Werbemaßnahmen für Jazzica",
         mediaTypes: ["vid", "img", "img", "vid", "img", "img", "img"],
         description: "Der Kieler Frauenchor Jazzica singt seit 1990 aktuelles Pop-Repertoire jenseits des Mainstream, a cappella. Das Repertoire und der Stil haben sich in dieser Zeit zusammen mit der internationalen Pop-Chor- und A-cappella Szene entwickelt. Wir entwickelten ein neues, frisches System für das Erscheinungsbild von Jazzica mit einem dreidimensionalen Noten-Visual als Kernästhetik, das auf Anwendungen wie Flyer, Plakaten, Kleidung und der Website Wiedererkennung und klare Zuordnung schafft."
@@ -296,7 +296,7 @@ const projectInformation = [
         id: "corporate-design-nonprofit-frauenberatung-elmshorn",
         accentColor: "#F6BF5C",
         title: "Frauen*<wbr>beratung Elmshorn",
-        categories: ["Corporate Design", "Buch- & Editorial Design", "Digital Design"],
+        categories: ["Corporate Design", "Buch- & Editorial Design", "Digital Design", "Brand Building"],
         metaData: "Entwicklung eines Corporate Designs, Jahresberichts und Betreuung von sämtlichen Druckerzeugnissen.",
         mediaTypes: ["img", "img", "img", "img", "vid", "img", "img"],
         description: "Die Frauen*beratung Elmshorn ist ein Treffpunkt und eine Beratungsstelle von Frauen für Frauen. Wir entwickelten die neue visuelle Identität und gestalten fortlaufend Programmhefte, Flyer, Jahresberichte und Social Media Vorlagen."
