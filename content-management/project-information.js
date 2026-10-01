@@ -17,7 +17,7 @@ const projectInformation = [
         accentColor: "#FF8461",
         title: "Morning Club with Breath, Beat & Bites",
         categories: ["Brand Building"],
-        metaData: "Brand Build für ein Morning Club Format",
+        metaData: "Brand Building für ein Morning Club Format",
         mediaTypes: ["img", "img", "img", "img", "img"],
         description: "Wie übersetzt man das Gefühl eines Morning Clubs aus Breathwork, elektronischer Musik und Community in eine konsistente Markenwelt? Für Sunrise Society begleiten wir die Marke in ihrer laufenden visuellen und strategischen Weiterentwicklung. Aufbauend auf dem bestehenden Brandkit führen wir die Identität über alle Touchpoints hinweg fort: von der Konzeption und Gestaltung der Social-Media-Präsenz über Editorial- und Event-Formate bis hin zu Print-Materialien, Merchandise und der digitalen Schnittstelle im Web. Dabei schaffen wir einen Design-Rahmen, der urbane Club-Ästhetik mit entspannter Achtsamkeit verbindet: lebendig, modern und mühelos adaptierbar für Public Events sowie Corporate Experiences."
     },
