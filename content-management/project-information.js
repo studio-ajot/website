@@ -33,9 +33,9 @@ const projectInformation = [
  {
         id: "webdesign-fotografie-elenov",
         accentColor: "#C0D5D6",
-        title: "Web-Portfolio für einen Fotografen",
+        title: "Ein digitales Portfolio",
         categories: ["Webdesign"],
-        metaData: "Webdesign für den Fotografen Yasen Elenov",
+        metaData: "Portfolio für den Fotografen Yasen Elenov",
         mediaTypes: ["img", "img", "img", "img"],
         description: "Für den Fotografen Yasen Elenov entwickelten wir eine reduzierte Portfolio-Website, die die fotografischen Arbeiten klar in den Mittelpunkt stellt. Ziel war eine digitale Bühne, auf der die Bildsprache für sich sprechen kann: ruhig, strukturiert und mit viel Raum für Atmosphäre."
     },
