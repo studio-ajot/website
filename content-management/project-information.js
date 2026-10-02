@@ -22,6 +22,15 @@ const projectInformation = [
         description: "Wie übersetzt man das Gefühl eines Morning Clubs aus Breathwork, elektronischer Musik und Community in eine konsistente Markenwelt? Für Sunrise Society begleiten wir die Marke in ihrer laufenden visuellen und strategischen Weiterentwicklung. Aufbauend auf dem bestehenden Brandkit führen wir die Identität über alle Touchpoints hinweg fort: von der Konzeption und Gestaltung der Social-Media-Präsenz über Editorial- und Event-Formate bis hin zu Print-Materialien, Merchandise und der digitalen Schnittstelle im Web. Dabei schaffen wir einen Design-Rahmen, der urbane Club-Ästhetik mit entspannter Achtsamkeit verbindet: lebendig, modern und mühelos adaptierbar für Public Events sowie Corporate Experiences."
     },
  {
+        id: "brand-building-die-berater-berater",
+        accentColor: "#016243",
+        title: "Die Berater-Berater",
+        categories: ["Brand Building"],
+        metaData: "Kreative Formate & Brand Building",
+        mediaTypes: ["img", "img", "img", "img", "img"],
+        description: "Die Berater-Berater begleiten Geschäftsleitungen und Führungskräfte aus Beratungen, Agenturen und Professional-Services-Unternehmen dabei, ihren Markterfolg strategisch und nachhaltig auszubauen. Im Fokus stehen Themen wie Trusted-Advisor-Beratung, Markenführung, Marketing, Key Account Management und Vertrieb. Für Die Berater-Berater entwickeln wir die visuelle Kommunikation kontinuierlich weiter und unterstützen das Team langfristig in sämtlichen grafischen Belangen. Auf Basis der bestehenden Corporate Identity bauen wir die Guideline und das CI-System aus und gestalten vielseitige Marketingmaterialien, darunter Aussendungen, Verpackungen, Beilegern und Updates sowie Formate für LinkedIn und Instagram. Ein besonderes Projekt ist das Kartenspiel „Key Account Amore“, das wir gestaltet haben. Es übersetzt zentrale Themen der Kundenbeziehung und des Key Account Managements in ein spielerisches, physisches Team-Erlebnis."
+    },	
+ {
         id: "editorial-design-publikation-memory-in-motion",
         accentColor: "#B38EB7",
         title: "Konzept Buchgestaltung: Memory in Motion",
