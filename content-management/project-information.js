@@ -30,6 +30,15 @@ const projectInformation = [
         mediaTypes: ["img", "img", "img", "img", "img"],
         description: "Die Berater-Berater begleiten Geschäftsleitungen und Führungskräfte aus Beratungen, Agenturen und Professional-Services-Unternehmen dabei, ihren Markterfolg strategisch und nachhaltig auszubauen. Im Fokus stehen Themen wie Trusted-Advisor-Beratung, Markenführung, Marketing, Key Account Management und Vertrieb. Für Die Berater-Berater entwickeln wir die visuelle Kommunikation kontinuierlich weiter und unterstützen das Team langfristig in sämtlichen grafischen Belangen. Auf Basis der bestehenden Corporate Identity bauen wir die Guideline und das CI-System aus und gestalten vielseitige Marketingmaterialien, darunter Aussendungen, Verpackungen, Beilegern und Updates sowie Formate für LinkedIn und Instagram. Ein besonderes Projekt ist das Kartenspiel „Key Account Amore“, das wir gestaltet haben. Es übersetzt zentrale Themen der Kundenbeziehung und des Key Account Managements in ein spielerisches, physisches Team-Erlebnis."
     },	
+{
+        id: "corporate-design-wilma-bar",
+        accentColor: "#FF8461",
+        title: "Ein Vino-Maskottchen",
+        categories: ["Brand Building"],
+        metaData: "Logo & Branding-System für eine Berliner Bar",
+        mediaTypes: ["img", "img", "img", "img"],
+        description: "Für die Berliner Weinbar WILMA entstand eine charaktervolle Corporate Identity, deren Namensgeberin und Hauptakteurin die Zwergdackeldame Wilma ist. Als Maskottchen und handgezeichnetes Icon bildet sie den emotionalen Kern der Marke und verleiht dem Auftritt eine persönliche, charmante und unverwechselbare Note. Das Farbkonzept greift die charakteristischen Fliesen der Bar auf und übersetzt ihre Farbwelt in ein eigenständiges Gestaltungssystem. Zusammen mit dem Schriftkonzept entsteht eine moderne, elegante und zugleich persönliche Identität, die den Charakter der Bar widerspiegelt. Nahbar, locker und mit der charmanten Berliner Schnauze: direkt, herzlich und immer mit einem Augenzwinkern."
+    },
  {
         id: "editorial-design-publikation-memory-in-motion",
         accentColor: "#B38EB7",
