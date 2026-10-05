@@ -32,9 +32,9 @@ const projectInformation = [
     },	
 {
         id: "corporate-design-wilma-bar",
-        accentColor: "#FF8461",
+        accentColor: "#BE0000",
         title: "Ein Vino-Maskottchen",
-        categories: ["Brand Building"],
+        categories: ["Corporate Design", "Brand Building"],
         metaData: "Logo & Branding-System für eine Berliner Bar",
         mediaTypes: ["img", "img", "img", "img"],
         description: "Für die Berliner Weinbar WILMA entstand eine charaktervolle Corporate Identity, deren Namensgeberin und Hauptakteurin die Zwergdackeldame Wilma ist. Als Maskottchen und handgezeichnetes Icon bildet sie den emotionalen Kern der Marke und verleiht dem Auftritt eine persönliche, charmante und unverwechselbare Note. Das Farbkonzept greift die charakteristischen Fliesen der Bar auf und übersetzt ihre Farbwelt in ein eigenständiges Gestaltungssystem. Zusammen mit dem Schriftkonzept entsteht eine moderne, elegante und zugleich persönliche Identität, die den Charakter der Bar widerspiegelt. Nahbar, locker und mit der charmanten Berliner Schnauze: direkt, herzlich und immer mit einem Augenzwinkern."
