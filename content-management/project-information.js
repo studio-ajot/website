@@ -36,7 +36,7 @@ const projectInformation = [
         title: "wilma: eine Bar mit Berliner Schnauze",
         categories: ["Corporate Design", "Brand Building"],
         metaData: "Logo & Branding-System für eine Weinbar",
-        mediaTypes: ["img", "img", "img", "img"],
+        mediaTypes: ["img", "img", "img", "img", "img", "img"],
         description: "Für die Bar WILMA in Berlin-Charlottenburg entstand eine charaktervolle Corporate Identity, deren Namensgeberin und Hauptakteurin die Zwergdackeldame Wilma ist. Als Maskottchen und handgezeichnetes Icon bildet sie den emotionalen Kern der Marke und verleiht dem Auftritt eine persönliche, charmante und unverwechselbare Note. Das Farbkonzept greift die charakteristischen Fliesen der Bar auf und übersetzt ihre Farbwelt in ein eigenständiges Gestaltungssystem. Zusammen mit dem Schriftkonzept entsteht eine moderne, elegante und zugleich persönliche Identität, die den Charakter der Bar widerspiegelt. Nahbar, locker und mit der charmanten Berliner Schnauze (literally): direkt, herzlich und immer mit einem Augenzwinkern."
     },
  {
